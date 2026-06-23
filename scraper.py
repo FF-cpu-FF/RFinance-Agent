@@ -74,22 +74,31 @@ def score_sentiment(text: str) -> tuple[int, int]:
 
 # ── Reddit-Fetch ──────────────────────────────────────────────────────────────
 
-HEADERS = {
-    "User-Agent": "RedditFinanzAgent/1.0 (GitHub Actions; educational)",
-}
+def get_reddit_token() -> str:
+    url = "https://www.reddit.com/api/v1/access_token"
+    data = urllib.parse.urlencode({
+        "grant_type": "https://oauth.reddit.com/grants/installed_client",
+        "device_id": "DO_NOT_TRACK_THIS_DEVICE"
+    }).encode()
+    req = urllib.request.Request(url, data=data, method="POST")
+    req.add_header("Authorization", "Basic " + __import__("base64").b64encode(b"idk:").decode())
+    req.add_header("User-Agent", "FinanzAgent/1.0")
+    with urllib.request.urlopen(req, timeout=10) as r:
+        return json.loads(r.read())["access_token"]
 
 def fetch_subreddit(sub: str, sort: str = "hot", limit: int = 50) -> list[dict]:
-    url = f"https://www.reddit.com/r/{sub}/{sort}.json?limit={limit}&raw_json=1"
-    req = urllib.request.Request(url, headers=HEADERS)
     try:
+        token = get_reddit_token()
+        url = f"https://oauth.reddit.com/r/{sub}/{sort}?limit={limit}&raw_json=1"
+        req = urllib.request.Request(url, headers={
+            "Authorization": f"bearer {token}",
+            "User-Agent": "FinanzAgent/1.0",
+        })
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
         posts = [child["data"] for child in data["data"]["children"]]
         print(f"  ✓ r/{sub}: {len(posts)} Posts geladen")
         return posts
-    except urllib.error.HTTPError as e:
-        print(f"  ✗ r/{sub}: HTTP {e.code} – {e.reason}")
-        return []
     except Exception as e:
         print(f"  ✗ r/{sub}: {e}")
         return []
