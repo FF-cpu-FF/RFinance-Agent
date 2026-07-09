@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from collections import defaultdict
 import os
 
-SUBREDDITS = ["Mauerstrassenwetten", "wallstreetbets", "Ameisenstrassenwetten"]
+SUBREDDITS = ["Mauerstrassenwetten", "wallstreetbets", "Ameisenstrassenwetten", "TrumpsTrades", "wallstreetbetsGER"]
 SORT   = "hot"
 LIMIT  = 50
 OUTPUT = "docs/data.json"
