@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T21:17:08.635897+00:00",
-  "total_posts": 100,
-  "unique_tickers": 35,
+  "generated_at": "2026-07-09T21:35:11.718022+00:00",
+  "total_posts": 150,
+  "unique_tickers": 115,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -9,7 +9,7 @@
     },
     {
       "name": "wallstreetbets",
-      "posts": 0
+      "posts": 50
     },
     {
       "name": "Ameisenstrassenwetten",
@@ -17,6 +17,38 @@
     }
   ],
   "recommendations": [
+    {
+      "ticker": "MU",
+      "signal": "neutral",
+      "sentiment": 0,
+      "mentions": 5,
+      "engagement": 11,
+      "sources": [
+        "wallstreetbets",
+        "Ameisenstrassenwetten"
+      ],
+      "titles": [
+        "Hands down, MSFT is the worst fucking investment I have ever owned",
+        "Think My MU Calls Will Hit?",
+        "someone spike my drink plz"
+      ]
+    },
+    {
+      "ticker": "DTE",
+      "signal": "bearish",
+      "sentiment": -5,
+      "mentions": 3,
+      "engagement": 10,
+      "sources": [
+        "Mauerstrassenwetten",
+        "wallstreetbets"
+      ],
+      "titles": [
+        "Claude und investieren",
+        "$156k -> $425k 0DTE SPY",
+        "Gay bear gains: $860 -> $6k 1DTE SPX Puts"
+      ]
+    },
     {
       "ticker": "MSW",
       "signal": "neutral",
@@ -34,17 +66,89 @@
       ]
     },
     {
-      "ticker": "MU",
-      "signal": "neutral",
-      "sentiment": 0,
-      "mentions": 2,
-      "engagement": 4,
+      "ticker": "SK",
+      "signal": "bullish",
+      "sentiment": 3,
+      "mentions": 3,
+      "engagement": 6,
       "sources": [
-        "Ameisenstrassenwetten"
+        "wallstreetbets"
       ],
       "titles": [
-        "MU Zahlen waren gut",
-        "2 Dönerteller dank MU"
+        "SK Hynix is on Nasdaq Tomorrow",
+        "Buy Semiconductor CapEx Instead of Memory You Monkey (DD on $VECO)",
+        "SK Hynix US Offering Is More Than 7 Times Oversubscribed - Bloomberg"
+      ]
+    },
+    {
+      "ticker": "TLDR",
+      "signal": "bearish",
+      "sentiment": -3,
+      "mentions": 2,
+      "engagement": 15,
+      "sources": [
+        "Mauerstrassenwetten",
+        "wallstreetbets"
+      ],
+      "titles": [
+        "Claude und investieren",
+        "The LeBron Swan Song: King James Saves NKE on His Way Out"
+      ]
+    },
+    {
+      "ticker": "AWS",
+      "signal": "bearish",
+      "sentiment": -2,
+      "mentions": 2,
+      "engagement": 10,
+      "sources": [
+        "wallstreetbets"
+      ],
+      "titles": [
+        "Back-of-the-Envelope Math on the AI Spending Boom",
+        "Down $143K from the peak on NBIS. Adding on the way down. Regarded or early?"
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "signal": "neutral",
+      "sentiment": -1,
+      "mentions": 2,
+      "engagement": 7,
+      "sources": [
+        "wallstreetbets"
+      ],
+      "titles": [
+        "Hands down, MSFT is the worst fucking investment I have ever owned",
+        "Apple announces chip deal with Broadcom worth more than $30 billion"
+      ]
+    },
+    {
+      "ticker": "HBM",
+      "signal": "bullish",
+      "sentiment": 3,
+      "mentions": 2,
+      "engagement": 5,
+      "sources": [
+        "wallstreetbets"
+      ],
+      "titles": [
+        "Buy Semiconductor CapEx Instead of Memory You Monkey (DD on $VECO)",
+        "someone spike my drink plz"
+      ]
+    },
+    {
+      "ticker": "SPX",
+      "signal": "neutral",
+      "sentiment": -1,
+      "mentions": 2,
+      "engagement": 5,
+      "sources": [
+        "wallstreetbets"
+      ],
+      "titles": [
+        "Gay bear gains: $860 -> $6k 1DTE SPX Puts",
+        "Stop buying options on SPY"
       ]
     },
     {
@@ -60,20 +164,6 @@
       "titles": [
         "GTA VI Long?!?",
         "Der GTA Typ ist back und hält weiter"
-      ]
-    },
-    {
-      "ticker": "KRIBZ",
-      "signal": "neutral",
-      "sentiment": 0,
-      "mentions": 2,
-      "engagement": 2,
-      "sources": [
-        "Mauerstrassenwetten"
-      ],
-      "titles": [
-        "Earnings-Kalender nach implizierter Bewegung",
-        "Earnings-Kalender nach implizierter Bewegung"
       ]
     }
   ]
