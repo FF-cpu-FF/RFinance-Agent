@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T22:02:14.913136+00:00",
+  "generated_at": "2026-07-09T22:05:56.788871+00:00",
   "total_posts": 250,
-  "unique_tickers": 156,
+  "unique_tickers": 157,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -420,6 +420,35 @@
       }
     },
     {
+      "ticker": "SK",
+      "name": "SK",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "sentiment": -1,
+      "mentions": 5,
+      "mentions_delta": 1,
+      "engagement": 14,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "SK Hynix is on Nasdaq Tomorrow",
+        "Buy Semiconductor CapEx Instead of Memory You Monkey (DD on $VECO)",
+        "SK Hynix US Offering Is More Than 7 Times Oversubscribed - Bloomberg"
+      ],
+      "price": {
+        "available": false
+      },
+      "news": [],
+      "comparison": {
+        "verdict": "unbekannt",
+        "points": [
+          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
+        ]
+      }
+    },
+    {
       "ticker": "INTC",
       "name": "Intel Corporation",
       "signal": "bullish",
@@ -808,35 +837,6 @@
           "Kurs -11.4% über 7 Tage – Abwärtsdruck.",
           "-9.56% unter SMA20 – technisch angeschlagen oder Einstiegszone.",
           "Reddit ist bullisch, aber der Kurs zeigt Schwäche – Hype-Risiko."
-        ]
-      }
-    },
-    {
-      "ticker": "SK",
-      "name": "SK",
-      "signal": "bullish",
-      "empfehlung": "beobachten",
-      "sentiment": 3,
-      "mentions": 4,
-      "mentions_delta": 0,
-      "engagement": 7,
-      "sources": [
-        "wallstreetbets",
-        "TrumpsTrades"
-      ],
-      "titles": [
-        "SK Hynix is on Nasdaq Tomorrow",
-        "Buy Semiconductor CapEx Instead of Memory You Monkey (DD on $VECO)",
-        "SK Hynix US Offering Is More Than 7 Times Oversubscribed - Bloomberg"
-      ],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
         ]
       }
     },
@@ -2015,404 +2015,13 @@
       }
     },
     {
-      "ticker": "CRWV",
-      "name": "CoreWeave, Inc.",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "sentiment": -1,
-      "mentions": 2,
-      "mentions_delta": 0,
-      "engagement": 9,
-      "sources": [
-        "wallstreetbets",
-        "TrumpsTrades"
-      ],
-      "titles": [
-        "Down $143K from the peak on NBIS. Adding on the way down. Regarded or early?",
-        "Trumps 2025 Annual Financial Disclosure Report"
-      ],
-      "price": {
-        "available": true,
-        "price": 89.7,
-        "currency": "USD",
-        "name": "CoreWeave, Inc.",
-        "chart_1d": [
-          {
-            "t": 1783603800,
-            "c": 93.47
-          },
-          {
-            "t": 1783604700,
-            "c": 93.5
-          },
-          {
-            "t": 1783605600,
-            "c": 92.85
-          },
-          {
-            "t": 1783606500,
-            "c": 91.26
-          },
-          {
-            "t": 1783607400,
-            "c": 92.68
-          },
-          {
-            "t": 1783608300,
-            "c": 92.65
-          },
-          {
-            "t": 1783609200,
-            "c": 92.63
-          },
-          {
-            "t": 1783610100,
-            "c": 92.98
-          },
-          {
-            "t": 1783611000,
-            "c": 93.04
-          },
-          {
-            "t": 1783611900,
-            "c": 92.78
-          },
-          {
-            "t": 1783612800,
-            "c": 92.35
-          },
-          {
-            "t": 1783613700,
-            "c": 91.92
-          },
-          {
-            "t": 1783614600,
-            "c": 92.01
-          },
-          {
-            "t": 1783615500,
-            "c": 91.81
-          },
-          {
-            "t": 1783616400,
-            "c": 91.94
-          },
-          {
-            "t": 1783617300,
-            "c": 91.53
-          },
-          {
-            "t": 1783618200,
-            "c": 91.43
-          },
-          {
-            "t": 1783619100,
-            "c": 92.45
-          },
-          {
-            "t": 1783620000,
-            "c": 90.7
-          },
-          {
-            "t": 1783620900,
-            "c": 90.94
-          },
-          {
-            "t": 1783621800,
-            "c": 90.89
-          },
-          {
-            "t": 1783622700,
-            "c": 90.6
-          },
-          {
-            "t": 1783623600,
-            "c": 89.83
-          },
-          {
-            "t": 1783624500,
-            "c": 89.62
-          },
-          {
-            "t": 1783625400,
-            "c": 89.68
-          },
-          {
-            "t": 1783626300,
-            "c": 89.66
-          },
-          {
-            "t": 1783627200,
-            "c": 89.7
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1782999000,
-            "c": 84.86
-          },
-          {
-            "t": 1783002600,
-            "c": 82.25
-          },
-          {
-            "t": 1783006200,
-            "c": 81.54
-          },
-          {
-            "t": 1783009800,
-            "c": 80.96
-          },
-          {
-            "t": 1783013400,
-            "c": 81.56
-          },
-          {
-            "t": 1783017000,
-            "c": 82.0
-          },
-          {
-            "t": 1783020600,
-            "c": 81.74
-          },
-          {
-            "t": 1783344600,
-            "c": 86.15
-          },
-          {
-            "t": 1783348200,
-            "c": 85.91
-          },
-          {
-            "t": 1783351800,
-            "c": 87.03
-          },
-          {
-            "t": 1783355400,
-            "c": 86.82
-          },
-          {
-            "t": 1783359000,
-            "c": 86.2
-          },
-          {
-            "t": 1783362600,
-            "c": 86.03
-          },
-          {
-            "t": 1783366200,
-            "c": 86.49
-          },
-          {
-            "t": 1783431000,
-            "c": 80.38
-          },
-          {
-            "t": 1783434600,
-            "c": 82.29
-          },
-          {
-            "t": 1783438200,
-            "c": 83.4
-          },
-          {
-            "t": 1783441800,
-            "c": 83.1
-          },
-          {
-            "t": 1783445400,
-            "c": 82.85
-          },
-          {
-            "t": 1783449000,
-            "c": 82.23
-          },
-          {
-            "t": 1783452600,
-            "c": 83.55
-          },
-          {
-            "t": 1783517400,
-            "c": 87.8
-          },
-          {
-            "t": 1783521000,
-            "c": 84.94
-          },
-          {
-            "t": 1783524600,
-            "c": 85.53
-          },
-          {
-            "t": 1783528200,
-            "c": 86.74
-          },
-          {
-            "t": 1783531800,
-            "c": 87.11
-          },
-          {
-            "t": 1783535400,
-            "c": 88.93
-          },
-          {
-            "t": 1783539000,
-            "c": 90.0
-          },
-          {
-            "t": 1783603800,
-            "c": 91.26
-          },
-          {
-            "t": 1783607400,
-            "c": 92.98
-          },
-          {
-            "t": 1783611000,
-            "c": 91.92
-          },
-          {
-            "t": 1783614600,
-            "c": 91.53
-          },
-          {
-            "t": 1783618200,
-            "c": 90.94
-          },
-          {
-            "t": 1783621800,
-            "c": 89.62
-          },
-          {
-            "t": 1783625400,
-            "c": 89.66
-          },
-          {
-            "t": 1783627200,
-            "c": 89.7
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1781098200,
-            "c": 95.61
-          },
-          {
-            "t": 1781184600,
-            "c": 95.74
-          },
-          {
-            "t": 1781271000,
-            "c": 100.55
-          },
-          {
-            "t": 1781530200,
-            "c": 106.71
-          },
-          {
-            "t": 1781616600,
-            "c": 117.03
-          },
-          {
-            "t": 1781703000,
-            "c": 115.21
-          },
-          {
-            "t": 1781789400,
-            "c": 117.95
-          },
-          {
-            "t": 1782135000,
-            "c": 111.29
-          },
-          {
-            "t": 1782221400,
-            "c": 105.72
-          },
-          {
-            "t": 1782307800,
-            "c": 100.88
-          },
-          {
-            "t": 1782394200,
-            "c": 98.76
-          },
-          {
-            "t": 1782480600,
-            "c": 96.58
-          },
-          {
-            "t": 1782739800,
-            "c": 95.51
-          },
-          {
-            "t": 1782826200,
-            "c": 99.54
-          },
-          {
-            "t": 1782912600,
-            "c": 85.68
-          },
-          {
-            "t": 1782999000,
-            "c": 81.75
-          },
-          {
-            "t": 1783344600,
-            "c": 86.46
-          },
-          {
-            "t": 1783431000,
-            "c": 83.53
-          },
-          {
-            "t": 1783517400,
-            "c": 90.0
-          },
-          {
-            "t": 1783603800,
-            "c": 89.7
-          }
-        ],
-        "chg_1d": -4.03,
-        "chg_7d": 4.69,
-        "chg_1mo": -6.18,
-        "sma20_dist": -9.13
-      },
-      "news": [
-        {
-          "title": "GLXY Stock Gains, But Retail Traders Stay Bearish Despite AI Data Center Progress",
-          "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/glxy-stock-gains-retail-stays-bearish-despite-ai-data-center-progress/cZmY5zaR7np?.tsrc=rss",
-          "date": "Thu, 09 Jul 2026"
-        },
-        {
-          "title": "Down 40%, CoreWeave Is Being Left Behind By the Market",
-          "link": "https://247wallst.com/investing/2026/07/09/down-40-coreweave-is-being-left-behind-by-the-market/?.tsrc=rss",
-          "date": "Thu, 09 Jul 2026"
-        },
-        {
-          "title": "CoreWeave Named a Visionary in the 2026 Gartner® Magic Quadrant™ for Cloud AI Infrastructure",
-          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-named-visionary-2026-gartner-155400852.html?.tsrc=rss",
-          "date": "Thu, 09 Jul 2026"
-        }
-      ],
-      "comparison": {
-        "verdict": "relativiert",
-        "points": [
-          "Kurs +4.69% über 7 Tage – Aufwärtsmomentum.",
-          "-9.13% unter SMA20 – technisch angeschlagen oder Einstiegszone.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
-        ]
-      }
-    },
-    {
       "ticker": "AAPL",
       "name": "Apple Inc.",
       "signal": "neutral",
       "empfehlung": "beobachten",
       "sentiment": 0,
       "mentions": 2,
-      "mentions_delta": 2,
+      "mentions_delta": 0,
       "engagement": 8,
       "sources": [
         "wallstreetbets"
@@ -2803,7 +2412,7 @@
       "empfehlung": "beobachten",
       "sentiment": 2,
       "mentions": 2,
-      "mentions_delta": 2,
+      "mentions_delta": 0,
       "engagement": 6,
       "sources": [
         "wallstreetbets",
@@ -3193,7 +2802,7 @@
       "empfehlung": "beobachten",
       "sentiment": -1,
       "mentions": 2,
-      "mentions_delta": 2,
+      "mentions_delta": 0,
       "engagement": 5,
       "sources": [
         "wallstreetbets",
@@ -3572,6 +3181,396 @@
         "verdict": "relativiert",
         "points": [
           "Kurs seitwärts über 7 Tage (+2.63%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "sentiment": -1,
+      "mentions": 2,
+      "mentions_delta": 2,
+      "engagement": 5,
+      "sources": [
+        "wallstreetbets",
+        "wallstreetbetsGER"
+      ],
+      "titles": [
+        "Hands down, MSFT is the worst fucking investment I have ever owned",
+        "Es ist so weit, ich fliege Nach Fettistan und zünde MSFT an"
+      ],
+      "price": {
+        "available": true,
+        "price": 384.36,
+        "currency": "USD",
+        "name": "Microsoft Corporation",
+        "chart_1d": [
+          {
+            "t": 1783603800,
+            "c": 378.33
+          },
+          {
+            "t": 1783604700,
+            "c": 378.59
+          },
+          {
+            "t": 1783605600,
+            "c": 376.22
+          },
+          {
+            "t": 1783606500,
+            "c": 376.55
+          },
+          {
+            "t": 1783607400,
+            "c": 377.08
+          },
+          {
+            "t": 1783608300,
+            "c": 378.91
+          },
+          {
+            "t": 1783609200,
+            "c": 379.08
+          },
+          {
+            "t": 1783610100,
+            "c": 380.12
+          },
+          {
+            "t": 1783611000,
+            "c": 380.17
+          },
+          {
+            "t": 1783611900,
+            "c": 380.09
+          },
+          {
+            "t": 1783612800,
+            "c": 379.43
+          },
+          {
+            "t": 1783613700,
+            "c": 379.67
+          },
+          {
+            "t": 1783614600,
+            "c": 379.66
+          },
+          {
+            "t": 1783615500,
+            "c": 379.42
+          },
+          {
+            "t": 1783616400,
+            "c": 379.56
+          },
+          {
+            "t": 1783617300,
+            "c": 380.83
+          },
+          {
+            "t": 1783618200,
+            "c": 380.58
+          },
+          {
+            "t": 1783619100,
+            "c": 380.65
+          },
+          {
+            "t": 1783620000,
+            "c": 381.02
+          },
+          {
+            "t": 1783620900,
+            "c": 380.64
+          },
+          {
+            "t": 1783621800,
+            "c": 380.8
+          },
+          {
+            "t": 1783622700,
+            "c": 380.79
+          },
+          {
+            "t": 1783623600,
+            "c": 381.46
+          },
+          {
+            "t": 1783624500,
+            "c": 382.39
+          },
+          {
+            "t": 1783625400,
+            "c": 383.34
+          },
+          {
+            "t": 1783626300,
+            "c": 384.35
+          },
+          {
+            "t": 1783627200,
+            "c": 384.36
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1782999000,
+            "c": 388.65
+          },
+          {
+            "t": 1783002600,
+            "c": 387.76
+          },
+          {
+            "t": 1783006200,
+            "c": 390.91
+          },
+          {
+            "t": 1783009800,
+            "c": 391.74
+          },
+          {
+            "t": 1783013400,
+            "c": 390.95
+          },
+          {
+            "t": 1783017000,
+            "c": 391.2
+          },
+          {
+            "t": 1783020600,
+            "c": 389.62
+          },
+          {
+            "t": 1783344600,
+            "c": 384.1
+          },
+          {
+            "t": 1783348200,
+            "c": 386.77
+          },
+          {
+            "t": 1783351800,
+            "c": 384.03
+          },
+          {
+            "t": 1783355400,
+            "c": 385.81
+          },
+          {
+            "t": 1783359000,
+            "c": 386.34
+          },
+          {
+            "t": 1783362600,
+            "c": 386.31
+          },
+          {
+            "t": 1783366200,
+            "c": 386.9
+          },
+          {
+            "t": 1783431000,
+            "c": 393.92
+          },
+          {
+            "t": 1783434600,
+            "c": 393.38
+          },
+          {
+            "t": 1783438200,
+            "c": 394.06
+          },
+          {
+            "t": 1783441800,
+            "c": 393.6
+          },
+          {
+            "t": 1783445400,
+            "c": 391.83
+          },
+          {
+            "t": 1783449000,
+            "c": 389.5
+          },
+          {
+            "t": 1783452600,
+            "c": 388.83
+          },
+          {
+            "t": 1783517400,
+            "c": 382.26
+          },
+          {
+            "t": 1783521000,
+            "c": 382.06
+          },
+          {
+            "t": 1783524600,
+            "c": 382.49
+          },
+          {
+            "t": 1783528200,
+            "c": 383.49
+          },
+          {
+            "t": 1783531800,
+            "c": 383.83
+          },
+          {
+            "t": 1783535400,
+            "c": 383.47
+          },
+          {
+            "t": 1783539000,
+            "c": 383.05
+          },
+          {
+            "t": 1783603800,
+            "c": 376.55
+          },
+          {
+            "t": 1783607400,
+            "c": 380.12
+          },
+          {
+            "t": 1783611000,
+            "c": 379.67
+          },
+          {
+            "t": 1783614600,
+            "c": 380.83
+          },
+          {
+            "t": 1783618200,
+            "c": 380.64
+          },
+          {
+            "t": 1783621800,
+            "c": 382.39
+          },
+          {
+            "t": 1783625400,
+            "c": 384.35
+          },
+          {
+            "t": 1783627200,
+            "c": 384.36
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1781098200,
+            "c": 397.36
+          },
+          {
+            "t": 1781184600,
+            "c": 390.34
+          },
+          {
+            "t": 1781271000,
+            "c": 390.74
+          },
+          {
+            "t": 1781530200,
+            "c": 399.76
+          },
+          {
+            "t": 1781616600,
+            "c": 393.83
+          },
+          {
+            "t": 1781703000,
+            "c": 378.91
+          },
+          {
+            "t": 1781789400,
+            "c": 379.4
+          },
+          {
+            "t": 1782135000,
+            "c": 367.34
+          },
+          {
+            "t": 1782221400,
+            "c": 373.94
+          },
+          {
+            "t": 1782307800,
+            "c": 365.46
+          },
+          {
+            "t": 1782394200,
+            "c": 352.83
+          },
+          {
+            "t": 1782480600,
+            "c": 372.97
+          },
+          {
+            "t": 1782739800,
+            "c": 368.57
+          },
+          {
+            "t": 1782826200,
+            "c": 373.02
+          },
+          {
+            "t": 1782912600,
+            "c": 384.28
+          },
+          {
+            "t": 1782999000,
+            "c": 390.49
+          },
+          {
+            "t": 1783344600,
+            "c": 386.74
+          },
+          {
+            "t": 1783431000,
+            "c": 388.84
+          },
+          {
+            "t": 1783517400,
+            "c": 383.34
+          },
+          {
+            "t": 1783603800,
+            "c": 384.36
+          }
+        ],
+        "chg_1d": 1.59,
+        "chg_7d": 0.02,
+        "chg_1mo": -3.27,
+        "sma20_dist": 0.85
+      },
+      "news": [
+        {
+          "title": "Datadog, IBD Stock Of The Day, Breaks Away From Software Pack",
+          "link": "https://finance.yahoo.com/m/49d70e29-0fe5-3f59-bb89-3a763f7c8a05/datadog%2C-ibd-stock-of-the.html?.tsrc=rss",
+          "date": "Thu, 09 Jul 2026"
+        },
+        {
+          "title": "Nvidia owns the AI chips market. Google, Amazon, and others are coming",
+          "link": "https://qz.com/custom-ai-chips-openai-google-amazon-microsoft-meta-tesla-070626?.tsrc=rss",
+          "date": "Thu, 09 Jul 2026"
+        },
+        {
+          "title": "Starbucks (SBUX) Stock Is Up, What You Need To Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-stock-know-204742825.html?.tsrc=rss",
+          "date": "Thu, 09 Jul 2026"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (+0.02%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       }
