@@ -102,7 +102,7 @@ def run():
         posts = fetch_subreddit_rss(sub, SORT, LIMIT)
         total_posts += len(posts)
         sub_results.append({"name": sub, "posts": len(posts)})
-        time.sleep(2)
+        time.sleep(6)
 
         for p in posts:
             text = f"{p.get('title','')} {p.get('selftext','')}"
