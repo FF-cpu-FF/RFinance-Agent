@@ -1,7 +1,7 @@
 """
-Reddit Finanz-Agent – scraper.py
+Reddit Finanz-Agent – scraper.py (RSS Version)
 Läuft stündlich via GitHub Actions.
-Schreibt Ergebnisse nach: docs/data.json  (von GitHub Pages serviert)
+Nutzt öffentliche RSS-Feeds – kein API-Key nötig!
 """
 
 import json
@@ -9,10 +9,10 @@ import re
 import time
 import urllib.request
 import urllib.error
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from collections import defaultdict
-
-# ── Konfiguration ────────────────────────────────────────────────────────────
+import os
 
 SUBREDDITS = [
     "Mauerstrassenwetten",
@@ -20,11 +20,10 @@ SUBREDDITS = [
     "Ameisenstrassenwetten",
 ]
 
-SORT       = "hot"   # hot | new | top
-LIMIT      = 50      # Posts pro Subreddit
-OUTPUT     = "docs/data.json"
+SORT   = "hot"
+LIMIT  = 50
+OUTPUT = "docs/data.json"
 
-# Wörter die KEIN Ticker sind
 SKIP = {
     "DD","YOLO","WSB","ETF","CEO","IPO","FDA","GDP","EUR","USD","GBP","CHF",
     "SPY","QQQ","PUT","CALL","BUY","SELL","HOLD","EPS","PE","ATH","ATL",
@@ -34,31 +33,27 @@ SKIP = {
     "IQ","HQ","HR","PR","CTO","CFO","COO","HOT","NEW","TOP","THE","AND",
     "FOR","YOU","ARE","NOT","BUT","ALL","CAN","GET","HAS","HAD","ITS","OUR",
     "NOW","MAY","USE","TWO","WAY","WHO","OIL","GAS","CAR","CAD","AUD","JPY",
-    "DKK","NOK","SEK","PLN","RUB","CNY","HKD","SGD","MXN","BRL","INR",
-    "DIV","ROE","ROA","YOY","QOQ","MOM","YTD","SMA","EMA","RSI","MACD",
-    "ADX","ATR","OBV","VOL","AVG","MAX","MIN","SUM","NET","VAT","CASH",
-    "RISK","BOND","NOTE","INFO","NEWS","POST","ASAP","TBA","TBC","TBD",
+    "DKK","NOK","SEK","PLN","CNY","HKD","SGD","MXN","BRL","INR","DIV",
+    "ROE","ROA","YOY","QOQ","MOM","YTD","SMA","EMA","RSI","MACD","VOL",
+    "AVG","MAX","MIN","NET","VAT","CASH","RISK","BOND","INFO","NEWS","POST",
 }
 
 BULL_KW = [
     "moon","rocket","bullish","long","buy","kauf","steigt","rakete",
     "kursziel","ausbruch","breakout","squeeze","undervalued","günstig",
-    "pump","upside","recovery","rebound","strong buy","accumulate",
-    "oversold","nachkaufen","chance","potential","uptrend","gehebelt",
+    "pump","upside","recovery","rebound","accumulate","oversold",
+    "nachkaufen","chance","potential","uptrend",
 ]
 
 BEAR_KW = [
     "short","puts","bearish","crash","sell","verkauf","fällt","drop",
-    "überbewertet","bubble","dump","leerverkauf","downside","resistance",
-    "overbought","breakdown","decline","falling","schwach","warnung",
-    "vorsicht","verlust",
+    "überbewertet","bubble","dump","leerverkauf","downside","overbought",
+    "breakdown","decline","falling","schwach","warnung","verlust",
 ]
-
-# ── Ticker-Extraktion ─────────────────────────────────────────────────────────
 
 TICKER_RE = re.compile(r'\$([A-Z]{1,5})|(?<![A-Za-z])([A-Z]{2,5})(?![A-Za-z])')
 
-def extract_tickers(text: str) -> list[str]:
+def extract_tickers(text):
     found = set()
     for m in TICKER_RE.finditer(text):
         t = m.group(1) or m.group(2)
@@ -66,51 +61,41 @@ def extract_tickers(text: str) -> list[str]:
             found.add(t)
     return list(found)
 
-def score_sentiment(text: str) -> tuple[int, int]:
+def score_sentiment(text):
     t = text.lower()
     bull = sum(1 for kw in BULL_KW if kw in t)
     bear = sum(1 for kw in BEAR_KW if kw in t)
     return bull, bear
 
-# ── Reddit-Fetch ──────────────────────────────────────────────────────────────
-
-def get_reddit_token() -> str:
-    url = "https://www.reddit.com/api/v1/access_token"
-    data = urllib.parse.urlencode({
-        "grant_type": "https://oauth.reddit.com/grants/installed_client",
-        "device_id": "DO_NOT_TRACK_THIS_DEVICE"
-    }).encode()
-    req = urllib.request.Request(url, data=data, method="POST")
-    req.add_header("Authorization", "Basic " + __import__("base64").b64encode(b"idk:").decode())
-    req.add_header("User-Agent", "FinanzAgent/1.0")
-    with urllib.request.urlopen(req, timeout=10) as r:
-        return json.loads(r.read())["access_token"]
-
-def fetch_subreddit(sub: str, sort: str = "hot", limit: int = 50) -> list[dict]:
+def fetch_subreddit_rss(sub, sort="hot", limit=50):
+    url = f"https://www.reddit.com/r/{sub}/{sort}.rss?limit={limit}"
+    headers = {"User-Agent": "FinanzAgent/1.0 (RSS Reader)"}
+    req = urllib.request.Request(url, headers=headers)
     try:
-        token = get_reddit_token()
-        url = f"https://oauth.reddit.com/r/{sub}/{sort}?limit={limit}&raw_json=1"
-        req = urllib.request.Request(url, headers={
-            "Authorization": f"bearer {token}",
-            "User-Agent": "FinanzAgent/1.0",
-        })
         with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-        posts = [child["data"] for child in data["data"]["children"]]
+            content = resp.read().decode("utf-8")
+        root = ET.fromstring(content)
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        posts = []
+        for entry in root.findall("atom:entry", ns):
+            title = entry.findtext("atom:title", "", ns)
+            content_el = entry.find("atom:content", ns)
+            body = content_el.text if content_el is not None else ""
+            # Strip HTML tags
+            body = re.sub(r"<[^>]+>", " ", body or "")
+            posts.append({"title": title, "selftext": body})
         print(f"  ✓ r/{sub}: {len(posts)} Posts geladen")
         return posts
     except Exception as e:
         print(f"  ✗ r/{sub}: {e}")
         return []
 
-# ── Hauptlogik ────────────────────────────────────────────────────────────────
-
 def run():
     print(f"\n{'='*50}")
     print(f"Reddit Finanz-Agent  |  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"{'='*50}")
 
-    ticker_data: dict[str, dict] = defaultdict(lambda: {
+    ticker_data = defaultdict(lambda: {
         "bull": 0, "bear": 0, "mentions": 0,
         "engagement": 0, "sources": [], "titles": [],
     })
@@ -120,23 +105,22 @@ def run():
 
     for sub in SUBREDDITS:
         print(f"\nLade r/{sub}...")
-        posts = fetch_subreddit(sub, SORT, LIMIT)
+        posts = fetch_subreddit_rss(sub, SORT, LIMIT)
         total_posts += len(posts)
         sub_results.append({"name": sub, "posts": len(posts)})
-        time.sleep(2)  # Rate-limit: Reddit mag keine schnellen Anfragen
+        time.sleep(2)
 
         for p in posts:
             text = f"{p.get('title','')} {p.get('selftext','')}"
             tickers = extract_tickers(text)
             bull, bear = score_sentiment(text)
-            engagement = p.get("score", 0) + p.get("num_comments", 0) * 2
 
             for ticker in tickers:
                 d = ticker_data[ticker]
-                d["bull"]       += bull
-                d["bear"]       += bear
-                d["mentions"]   += 1
-                d["engagement"] += engagement
+                d["bull"]      += bull
+                d["bear"]      += bear
+                d["mentions"]  += 1
+                d["engagement"] += bull + bear + 1
                 if sub not in d["sources"]:
                     d["sources"].append(sub)
                 if len(d["titles"]) < 3:
@@ -144,7 +128,6 @@ def run():
                     if title:
                         d["titles"].append(title)
 
-    # Ranking: mind. 2 Mentions, sortiert nach Engagement + Mentions
     ranked = sorted(
         [(t, d) for t, d in ticker_data.items() if d["mentions"] >= 2],
         key=lambda x: x[1]["engagement"] + x[1]["mentions"] * 15,
@@ -154,13 +137,7 @@ def run():
     recommendations = []
     for ticker, d in ranked:
         net = d["bull"] - d["bear"]
-        if net > 1:
-            signal = "bullish"
-        elif net < -1:
-            signal = "bearish"
-        else:
-            signal = "neutral"
-
+        signal = "bullish" if net > 1 else "bearish" if net < -1 else "neutral"
         recommendations.append({
             "ticker":     ticker,
             "signal":     signal,
@@ -179,14 +156,13 @@ def run():
         "recommendations": recommendations,
     }
 
-    import os
     os.makedirs("docs", exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\n{'='*50}")
-    print(f"✓ {len(recommendations)} Empfehlungen gespeichert → {OUTPUT}")
-    print(f"✓ {total_posts} Posts analysiert, {len(ticker_data)} Ticker erkannt")
+    print(f"✓ {len(recommendations)} Empfehlungen → {OUTPUT}")
+    print(f"✓ {total_posts} Posts, {len(ticker_data)} Ticker")
     print(f"{'='*50}\n")
 
 if __name__ == "__main__":
