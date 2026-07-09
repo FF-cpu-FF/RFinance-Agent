@@ -1,7 +1,6 @@
 """
 Reddit Finanz-Agent – scraper.py (RSS Version)
-Läuft stündlich via GitHub Actions.
-Nutzt öffentliche RSS-Feeds – kein API-Key nötig!
+Läuft stündlich via GitHub Actions. Kein API-Key nötig!
 """
 
 import json
@@ -14,42 +13,34 @@ from datetime import datetime, timezone
 from collections import defaultdict
 import os
 
-SUBREDDITS = [
-    "Mauerstrassenwetten",
-    "wallstreetbets",
-    "Ameisenstrassenwetten",
-]
-
+SUBREDDITS = ["Mauerstrassenwetten", "wallstreetbets", "Ameisenstrassenwetten"]
 SORT   = "hot"
 LIMIT  = 50
 OUTPUT = "docs/data.json"
 
 SKIP = {
     "DD","YOLO","WSB","ETF","CEO","IPO","FDA","GDP","EUR","USD","GBP","CHF",
-    "SPY","QQQ","PUT","CALL","BUY","SELL","HOLD","EPS","PE","ATH","ATL",
-    "OP","FED","ECB","DAX","IMO","FOMO","DIY","USA","UK","EU","DE","AG",
-    "SE","SA","NV","LTD","INC","PLC","LLC","EDIT","TL","DR","EV","AI","ML",
-    "IT","TV","PC","AM","PM","OK","DM","TA","WTF","LMAO","LOL","OMG","PS",
-    "IQ","HQ","HR","PR","CTO","CFO","COO","HOT","NEW","TOP","THE","AND",
-    "FOR","YOU","ARE","NOT","BUT","ALL","CAN","GET","HAS","HAD","ITS","OUR",
-    "NOW","MAY","USE","TWO","WAY","WHO","OIL","GAS","CAR","CAD","AUD","JPY",
-    "DKK","NOK","SEK","PLN","CNY","HKD","SGD","MXN","BRL","INR","DIV",
-    "ROE","ROA","YOY","QOQ","MOM","YTD","SMA","EMA","RSI","MACD","VOL",
-    "AVG","MAX","MIN","NET","VAT","CASH","RISK","BOND","INFO","NEWS","POST",
+    "SPY","QQQ","PUT","CALL","BUY","SELL","HOLD","EPS","PE","ATH","ATL","OP",
+    "FED","ECB","DAX","IMO","FOMO","DIY","USA","UK","EU","DE","AG","SE","SA",
+    "NV","LTD","INC","PLC","LLC","EDIT","TL","DR","EV","AI","ML","IT","TV",
+    "PC","AM","PM","OK","DM","TA","WTF","LMAO","LOL","OMG","PS","IQ","HQ",
+    "HR","PR","CTO","CFO","COO","HOT","NEW","TOP","THE","AND","FOR","YOU",
+    "ARE","NOT","BUT","ALL","CAN","GET","HAS","HAD","ITS","OUR","NOW","MAY",
+    "USE","TWO","WAY","WHO","OIL","GAS","CAR","CAD","AUD","JPY","DKK","NOK",
+    "SEK","PLN","CNY","HKD","SGD","MXN","BRL","INR","DIV","ROE","ROA","YOY",
+    "QOQ","MOM","YTD","SMA","EMA","RSI","MACD","VOL","AVG","MAX","MIN","NET",
+    "VAT","CASH","RISK","BOND","INFO","NEWS","POST","KI","US","EU","VW","BMW",
 }
 
-BULL_KW = [
-    "moon","rocket","bullish","long","buy","kauf","steigt","rakete",
-    "kursziel","ausbruch","breakout","squeeze","undervalued","günstig",
-    "pump","upside","recovery","rebound","accumulate","oversold",
-    "nachkaufen","chance","potential","uptrend",
-]
+BULL_KW = ["moon","rocket","bullish","long","buy","kauf","steigt","rakete",
+    "kursziel","ausbruch","breakout","squeeze","undervalued","günstig","pump",
+    "upside","recovery","rebound","accumulate","oversold","nachkaufen","chance",
+    "potential","uptrend","kaufen","stark","wachstum","beat","übertrifft"]
 
-BEAR_KW = [
-    "short","puts","bearish","crash","sell","verkauf","fällt","drop",
+BEAR_KW = ["short","puts","bearish","crash","sell","verkauf","fällt","drop",
     "überbewertet","bubble","dump","leerverkauf","downside","overbought",
-    "breakdown","decline","falling","schwach","warnung","verlust",
-]
+    "breakdown","decline","falling","schwach","warnung","verlust","miss",
+    "verfehlt","gewinnwarnung","pleite","insolvenz"]
 
 TICKER_RE = re.compile(r'\$([A-Z]{1,5})|(?<![A-Za-z])([A-Z]{2,5})(?![A-Za-z])')
 
@@ -68,17 +59,14 @@ def score_sentiment(text):
     return bull, bear
 
 def fetch_subreddit_rss(sub, sort="hot", limit=50):
-    # Versuche zuerst .rss, dann .json als Fallback
-    urls = [
+    candidates = [
         f"https://www.reddit.com/r/{sub}/{sort}.rss?limit={limit}",
         f"https://old.reddit.com/r/{sub}/{sort}.rss?limit={limit}",
     ]
-    headers = {"User-Agent": "FinanzAgent/1.0 (RSS Reader)"}
-    req = urllib.request.Request(url, headers=headers)
     headers = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/1.0)"}
-    for url in urls:
+    for candidate_url in candidates:
         try:
-            req = urllib.request.Request(url, headers=headers)
+            req = urllib.request.Request(candidate_url, headers=headers)
             with urllib.request.urlopen(req, timeout=15) as resp:
                 content = resp.read().decode("utf-8")
             root = ET.fromstring(content)
@@ -93,7 +81,7 @@ def fetch_subreddit_rss(sub, sort="hot", limit=50):
                 print(f"  ✓ r/{sub}: {len(posts)} Posts geladen")
                 return posts
         except Exception as e:
-            print(f"  ✗ r/{sub} ({url}): {e}")
+            print(f"  ✗ r/{sub} ({candidate_url}): {e}")
     return []
 
 def run():
@@ -123,9 +111,9 @@ def run():
 
             for ticker in tickers:
                 d = ticker_data[ticker]
-                d["bull"]      += bull
-                d["bear"]      += bear
-                d["mentions"]  += 1
+                d["bull"]       += bull
+                d["bear"]       += bear
+                d["mentions"]   += 1
                 d["engagement"] += bull + bear + 1
                 if sub not in d["sources"]:
                     d["sources"].append(sub)
