@@ -68,27 +68,33 @@ def score_sentiment(text):
     return bull, bear
 
 def fetch_subreddit_rss(sub, sort="hot", limit=50):
-    url = f"https://www.reddit.com/r/{sub}/{sort}.rss?limit={limit}"
+    # Versuche zuerst .rss, dann .json als Fallback
+    urls = [
+        f"https://www.reddit.com/r/{sub}/{sort}.rss?limit={limit}",
+        f"https://old.reddit.com/r/{sub}/{sort}.rss?limit={limit}",
+    ]
     headers = {"User-Agent": "FinanzAgent/1.0 (RSS Reader)"}
     req = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            content = resp.read().decode("utf-8")
-        root = ET.fromstring(content)
-        ns = {"atom": "http://www.w3.org/2005/Atom"}
-        posts = []
-        for entry in root.findall("atom:entry", ns):
-            title = entry.findtext("atom:title", "", ns)
-            content_el = entry.find("atom:content", ns)
-            body = content_el.text if content_el is not None else ""
-            # Strip HTML tags
-            body = re.sub(r"<[^>]+>", " ", body or "")
-            posts.append({"title": title, "selftext": body})
-        print(f"  ✓ r/{sub}: {len(posts)} Posts geladen")
-        return posts
-    except Exception as e:
-        print(f"  ✗ r/{sub}: {e}")
-        return []
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/1.0)"}
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                content = resp.read().decode("utf-8")
+            root = ET.fromstring(content)
+            ns = {"atom": "http://www.w3.org/2005/Atom"}
+            posts = []
+            for entry in root.findall("atom:entry", ns):
+                title = entry.findtext("atom:title", "", ns)
+                content_el = entry.find("atom:content", ns)
+                body = re.sub(r"<[^>]+>", " ", (content_el.text or "") if content_el is not None else "")
+                posts.append({"title": title, "selftext": body})
+            if posts:
+                print(f"  ✓ r/{sub}: {len(posts)} Posts geladen")
+                return posts
+        except Exception as e:
+            print(f"  ✗ r/{sub} ({url}): {e}")
+    return []
 
 def run():
     print(f"\n{'='*50}")
