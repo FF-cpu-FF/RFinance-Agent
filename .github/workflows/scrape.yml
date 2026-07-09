@@ -21,6 +21,8 @@ jobs:
           python-version: "3.12"
       - name: Scraper ausführen
         run: python scraper.py
+        env:
+          REDDIT_FEED_URL: ${{ secrets.REDDIT_FEED_URL }}
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
