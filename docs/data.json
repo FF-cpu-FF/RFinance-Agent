@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T21:35:11.718022+00:00",
-  "total_posts": 150,
-  "unique_tickers": 115,
+  "generated_at": "2026-07-09T21:41:30.927587+00:00",
+  "total_posts": 250,
+  "unique_tickers": 159,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -14,23 +14,64 @@
     {
       "name": "Ameisenstrassenwetten",
       "posts": 50
+    },
+    {
+      "name": "TrumpsTrades",
+      "posts": 50
+    },
+    {
+      "name": "wallstreetbetsGER",
+      "posts": 50
     }
   ],
   "recommendations": [
     {
       "ticker": "MU",
-      "signal": "neutral",
-      "sentiment": 0,
-      "mentions": 5,
-      "engagement": 11,
+      "signal": "bullish",
+      "sentiment": 2,
+      "mentions": 10,
+      "engagement": 18,
       "sources": [
         "wallstreetbets",
-        "Ameisenstrassenwetten"
+        "Ameisenstrassenwetten",
+        "TrumpsTrades"
       ],
       "titles": [
         "Hands down, MSFT is the worst fucking investment I have ever owned",
         "Think My MU Calls Will Hit?",
         "someone spike my drink plz"
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "signal": "bullish",
+      "sentiment": 6,
+      "mentions": 4,
+      "engagement": 10,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "The Rare Earth Minerals play is here",
+        "Trump makes 6 different company mentions in Interview today (7/2/2026)",
+        "Nancy Pelosi just bought INTC and UBER. The US government is already up +549% on INTC."
+      ]
+    },
+    {
+      "ticker": "SK",
+      "signal": "bullish",
+      "sentiment": 3,
+      "mentions": 4,
+      "engagement": 7,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "SK Hynix is on Nasdaq Tomorrow",
+        "Buy Semiconductor CapEx Instead of Memory You Monkey (DD on $VECO)",
+        "SK Hynix US Offering Is More Than 7 Times Oversubscribed - Bloomberg"
       ]
     },
     {
@@ -50,6 +91,22 @@
       ]
     },
     {
+      "ticker": "IBM",
+      "signal": "bullish",
+      "sentiment": 2,
+      "mentions": 3,
+      "engagement": 7,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "Starbucks Taps AI to Reduce Reliance on Microsoft, IBM Software (means buy your own hardware)",
+        "IBM the next breakout?",
+        "IBM Again, after the quantum tweet"
+      ]
+    },
+    {
       "ticker": "MSW",
       "signal": "neutral",
       "sentiment": 1,
@@ -66,18 +123,18 @@
       ]
     },
     {
-      "ticker": "SK",
+      "ticker": "ICE",
       "signal": "bullish",
-      "sentiment": 3,
+      "sentiment": 2,
       "mentions": 3,
-      "engagement": 6,
+      "engagement": 5,
       "sources": [
-        "wallstreetbets"
+        "TrumpsTrades"
       ],
       "titles": [
-        "SK Hynix is on Nasdaq Tomorrow",
-        "Buy Semiconductor CapEx Instead of Memory You Monkey (DD on $VECO)",
-        "SK Hynix US Offering Is More Than 7 Times Oversubscribed - Bloomberg"
+        "Trump said it again: \"Go out and buy a Dell computer\"",
+        "Trump makes 6 different company mentions in Interview today (7/2/2026)",
+        "Trump is up +95% on an ICE contractor in 3.5 months (GEO)"
       ]
     },
     {
@@ -110,60 +167,18 @@
       ]
     },
     {
-      "ticker": "AAPL",
+      "ticker": "CRWV",
       "signal": "neutral",
       "sentiment": -1,
       "mentions": 2,
-      "engagement": 7,
+      "engagement": 9,
       "sources": [
-        "wallstreetbets"
+        "wallstreetbets",
+        "TrumpsTrades"
       ],
       "titles": [
-        "Hands down, MSFT is the worst fucking investment I have ever owned",
-        "Apple announces chip deal with Broadcom worth more than $30 billion"
-      ]
-    },
-    {
-      "ticker": "HBM",
-      "signal": "bullish",
-      "sentiment": 3,
-      "mentions": 2,
-      "engagement": 5,
-      "sources": [
-        "wallstreetbets"
-      ],
-      "titles": [
-        "Buy Semiconductor CapEx Instead of Memory You Monkey (DD on $VECO)",
-        "someone spike my drink plz"
-      ]
-    },
-    {
-      "ticker": "SPX",
-      "signal": "neutral",
-      "sentiment": -1,
-      "mentions": 2,
-      "engagement": 5,
-      "sources": [
-        "wallstreetbets"
-      ],
-      "titles": [
-        "Gay bear gains: $860 -> $6k 1DTE SPX Puts",
-        "Stop buying options on SPY"
-      ]
-    },
-    {
-      "ticker": "GTA",
-      "signal": "neutral",
-      "sentiment": 1,
-      "mentions": 2,
-      "engagement": 3,
-      "sources": [
-        "Mauerstrassenwetten",
-        "Ameisenstrassenwetten"
-      ],
-      "titles": [
-        "GTA VI Long?!?",
-        "Der GTA Typ ist back und hält weiter"
+        "Down $143K from the peak on NBIS. Adding on the way down. Regarded or early?",
+        "Trumps 2025 Annual Financial Disclosure Report"
       ]
     }
   ]
