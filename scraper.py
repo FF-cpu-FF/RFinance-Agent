@@ -1,12 +1,12 @@
 """
-Reddit Finanz-Agent v2 – scraper.py
-Reddit = Primärquelle. Zusätzlich pro Top-Ticker:
-  - Kursdaten (Yahoo Finance Chart API, kostenlos, kein Key)
-  - News-Headlines (Yahoo Finance RSS)
-  - Technik-Signale (SMA20, Trend 7d/1M)
-  - Trend vs. letztem Scan (Mentions-Delta)
-  - Regelbasierte Vergleichsanalyse (bestätigt / widerspricht / relativiert Reddit)
-Läuft via GitHub Actions. Nutzt REDDIT_FEED_URL Secret gegen Rate-Limits.
+Reddit Finanz-Agent v3 – scraper.py
+Reddit bleibt Primärquelle. Neu in v3:
+  - Themen-Extraktion ("Warum diskutiert Reddit diese Aktie?")
+  - Bull Case / Bear Case aus den Posts
+  - Confidence Score (0-100)
+  - News-Einstufung (positiv/neutral/negativ)
+  - Automatisches KI-Fazit (regelbasiert formuliert)
+Läuft via GitHub Actions. Nutzt REDDIT_FEED_URL Secret.
 """
 
 import json
@@ -16,7 +16,7 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from collections import defaultdict
+from collections import defaultdict, Counter
 import os
 
 # ── Konfiguration ────────────────────────────────────────────────────────────
@@ -29,11 +29,11 @@ SUBREDDITS = [
     "wallstreetbetsGER",
 ]
 
-SORT        = "hot"
-LIMIT       = 50
-OUTPUT      = "docs/data.json"
-TOP_N       = 10   # für so viele Ticker werden Kurse/News geladen
-UA          = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/2.0)"}
+SORT   = "hot"
+LIMIT  = 50
+OUTPUT = "docs/data.json"
+TOP_N  = 10
+UA     = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/3.0)"}
 
 SKIP = {
     "DD","YOLO","WSB","ETF","CEO","IPO","FDA","GDP","EUR","USD","GBP","CHF",
@@ -47,8 +47,9 @@ SKIP = {
     "SEK","PLN","CNY","HKD","SGD","MXN","BRL","INR","DIV","ROE","ROA","YOY",
     "QOQ","MOM","YTD","SMA","EMA","RSI","MACD","VOL","AVG","MAX","MIN","NET",
     "VAT","CASH","RISK","BOND","INFO","NEWS","POST","KI","US","VW",
-    "TLDR","MSW","AWS","ASW","WSBG","MSFT2","GER","IST","DAS","DER","DIE",
-    "UND","MIT","VON","AUF","ZUM","ZUR","EIN","WIE","WAS","WER","NUR","ABER",
+    "TLDR","MSW","AWS","ASW","WSBG","GER","IST","DAS","DER","DIE","UND","MIT",
+    "VON","AUF","ZUM","ZUR","EIN","WIE","WAS","WER","NUR","ABER","HBM","GPU",
+    "CPU","API","LFG","IMHO","BTFD","HODL",
 }
 
 BULL_KW = ["moon","rocket","bullish","long","buy","kauf","steigt","rakete",
@@ -61,7 +62,42 @@ BEAR_KW = ["short","puts","bearish","crash","sell","verkauf","fällt","drop",
     "breakdown","decline","falling","schwach","warnung","verlust","miss",
     "verfehlt","gewinnwarnung","pleite","insolvenz","bagholder"]
 
+# Lesbare Labels für Bull/Bear-Cases
+KW_LABELS = {
+    "squeeze": "Short-Squeeze-Spekulation", "moon": "Kursfantasie", "rocket": "Kursfantasie",
+    "breakout": "Chart-Ausbruch", "ausbruch": "Chart-Ausbruch",
+    "undervalued": "Unterbewertung", "günstig": "Unterbewertung",
+    "kursziel": "Erhöhte Kursziele", "beat": "Zahlen über Erwartung",
+    "übertrifft": "Zahlen über Erwartung", "wachstum": "Wachstumsstory",
+    "recovery": "Erholungs-These", "rebound": "Erholungs-These",
+    "oversold": "Überverkauft-These", "nachkaufen": "Nachkauf-Welle",
+    "calls": "Call-Optionen-Aktivität", "puts": "Put-Optionen-Aktivität",
+    "short": "Short-Positionierung", "leerverkauf": "Short-Positionierung",
+    "crash": "Crash-Warnungen", "bubble": "Blasen-Warnung",
+    "überbewertet": "Überbewertungs-Kritik", "overbought": "Überkauft-Warnung",
+    "gewinnwarnung": "Gewinnwarnung", "miss": "Zahlen unter Erwartung",
+    "verfehlt": "Zahlen unter Erwartung", "insolvenz": "Insolvenz-Sorgen",
+    "pleite": "Insolvenz-Sorgen", "bagholder": "Verlust-Frust",
+    "verlust": "Verlust-Meldungen", "warnung": "Warnende Stimmen",
+}
+
+# Stopwörter für Themen-Extraktion
+TOPIC_STOP = {
+    "the","and","for","with","this","that","from","have","will","been","they",
+    "what","when","your","just","like","about","after","into","over","than",
+    "der","die","das","und","mit","von","auf","für","ist","ein","eine","nach",
+    "über","beim","wird","sind","hat","noch","mehr","auch","aber","wenn","wie",
+    "ich","wir","ihr","euch","mein","sein","kein","nur","zum","zur","bei",
+    "reddit","aktie","aktien","stock","stocks","heute","today","daily","thread",
+    "diskussion","discussion","frage","question","warum","why","alle","best",
+}
+
 TICKER_RE = re.compile(r'\$([A-Z]{1,5})|(?<![A-Za-z])([A-Z]{2,5})(?![A-Za-z])')
+
+NEWS_POS = ["beat","raises","upgrade","surge","rally","record","growth","wins",
+    "profit","strong","boost","soars","jumps","erhöht","übertrifft","rekord","gewinn"]
+NEWS_NEG = ["miss","cuts","downgrade","falls","drops","lawsuit","probe","warning",
+    "weak","layoff","plunge","sinks","recall","senkt","verfehlt","warnung","klage","verlust"]
 
 
 # ── Reddit ───────────────────────────────────────────────────────────────────
@@ -69,9 +105,7 @@ TICKER_RE = re.compile(r'\$([A-Z]{1,5})|(?<![A-Za-z])([A-Z]{2,5})(?![A-Za-z])')
 def get_feed_auth():
     feed_url = os.environ.get("REDDIT_FEED_URL", "")
     m = re.search(r'feed=([^&]+)&user=([^&\s]+)', feed_url)
-    if m:
-        return f"feed={m.group(1)}&user={m.group(2)}"
-    return ""
+    return f"feed={m.group(1)}&user={m.group(2)}" if m else ""
 
 
 def fetch_subreddit_rss(sub, sort="hot", limit=50):
@@ -113,14 +147,12 @@ def extract_tickers(text):
     return list(found)
 
 
-def score_sentiment(text):
+def matched_keywords(text, kws):
     t = text.lower()
-    bull = sum(1 for kw in BULL_KW if kw in t)
-    bear = sum(1 for kw in BEAR_KW if kw in t)
-    return bull, bear
+    return [kw for kw in kws if kw in t]
 
 
-# ── Kursdaten (Yahoo Finance Chart API) ─────────────────────────────────────
+# ── Kursdaten ────────────────────────────────────────────────────────────────
 
 def yahoo_chart(ticker, rng, interval):
     url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
@@ -132,18 +164,13 @@ def yahoo_chart(ticker, rng, interval):
         result = data["chart"]["result"][0]
         ts     = result.get("timestamp", [])
         closes = result["indicators"]["quote"][0].get("close", [])
-        series = [
-            {"t": t, "c": round(c, 2)}
-            for t, c in zip(ts, closes) if c is not None
-        ]
-        meta   = result.get("meta", {})
-        return series, meta
+        series = [{"t": t, "c": round(c, 2)} for t, c in zip(ts, closes) if c is not None]
+        return series, result.get("meta", {})
     except Exception:
         return [], {}
 
 
 def fetch_price_data(ticker):
-    """Holt 1d/5d/1M-Serien + berechnet Kennzahlen."""
     out = {"available": False}
     series_1mo, meta = yahoo_chart(ticker, "1mo", "1d")
     if not series_1mo:
@@ -155,28 +182,37 @@ def fetch_price_data(ticker):
 
     closes = [p["c"] for p in series_1mo]
     price  = closes[-1]
-    out["available"]  = True
-    out["price"]      = price
-    out["currency"]   = meta.get("currency", "USD")
-    out["name"]       = meta.get("longName") or meta.get("shortName") or ticker
-    out["chart_1d"]   = series_1d[-40:]
-    out["chart_5d"]   = series_5d[-60:]
-    out["chart_1mo"]  = series_1mo
 
-    # Kennzahlen
     def pct(a, b):
         return round((a - b) / b * 100, 2) if b else 0.0
 
-    out["chg_1d"]  = pct(price, series_1d[0]["c"])  if series_1d  else 0.0
-    out["chg_7d"]  = pct(price, closes[-6])          if len(closes) >= 6 else 0.0
-    out["chg_1mo"] = pct(price, closes[0])           if len(closes) >= 2 else 0.0
-
+    out.update({
+        "available": True,
+        "price":     price,
+        "currency":  meta.get("currency", "USD"),
+        "name":      meta.get("longName") or meta.get("shortName") or ticker,
+        "chart_1d":  series_1d[-40:],
+        "chart_5d":  series_5d[-60:],
+        "chart_1mo": series_1mo,
+        "chg_1d":    pct(price, series_1d[0]["c"]) if series_1d else 0.0,
+        "chg_7d":    pct(price, closes[-6]) if len(closes) >= 6 else 0.0,
+        "chg_1mo":   pct(price, closes[0]) if len(closes) >= 2 else 0.0,
+    })
     sma20 = sum(closes[-20:]) / min(len(closes), 20)
     out["sma20_dist"] = pct(price, sma20)
     return out
 
 
-# ── News (Yahoo Finance RSS) ─────────────────────────────────────────────────
+# ── News ─────────────────────────────────────────────────────────────────────
+
+def classify_headline(title):
+    t = title.lower()
+    if any(k in t for k in NEWS_POS):
+        return "pos"
+    if any(k in t for k in NEWS_NEG):
+        return "neg"
+    return "neu"
+
 
 def fetch_news(ticker, max_items=3):
     url = (f"https://feeds.finance.yahoo.com/rss/2.0/headline"
@@ -192,7 +228,10 @@ def fetch_news(ticker, max_items=3):
             link  = item.findtext("link", "")
             pub   = item.findtext("pubDate", "")
             if title:
-                items.append({"title": title[:140], "link": link, "date": pub[:16]})
+                items.append({
+                    "title": title[:140], "link": link,
+                    "date": pub[:16], "tone": classify_headline(title),
+                })
             if len(items) >= max_items:
                 break
         return items
@@ -200,23 +239,44 @@ def fetch_news(ticker, max_items=3):
         return []
 
 
-# ── Vergleichsanalyse (regelbasiert) ─────────────────────────────────────────
+# ── Analyse-Bausteine ────────────────────────────────────────────────────────
 
-def build_comparison(reddit_signal, sentiment, price):
-    """
-    Gegencheck: Was sagt der Markt zur Reddit-Stimmung?
-    verdict: 'bestätigt' | 'widerspricht' | 'relativiert' | 'unbekannt'
-    """
+def extract_topics(titles, max_topics=4):
+    """Häufigste sinnvolle Wörter aus den Post-Titeln = Diskussionsthemen."""
+    words = []
+    for title in titles:
+        for w in re.findall(r"[A-Za-zÄÖÜäöüß\-]{4,}", title):
+            wl = w.lower()
+            if wl not in TOPIC_STOP and not wl.isupper():
+                words.append(w if w[0].isupper() else wl)
+    common = Counter(w.lower() for w in words).most_common(max_topics)
+    # Original-Schreibweise bevorzugen
+    result = []
+    for word, _ in common:
+        original = next((w for w in words if w.lower() == word), word)
+        result.append(original.capitalize() if original.islower() else original)
+    return result
+
+
+def build_cases(bull_hits, bear_hits):
+    def labelize(hits, max_n=3):
+        labels = []
+        for kw, _ in Counter(hits).most_common():
+            label = KW_LABELS.get(kw, kw.capitalize())
+            if label not in labels:
+                labels.append(label)
+            if len(labels) >= max_n:
+                break
+        return labels
+    return labelize(bull_hits), labelize(bear_hits)
+
+
+def build_comparison(sentiment, price):
     if not price.get("available"):
-        return {
-            "verdict": "unbekannt",
-            "points": ["Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."],
-        }
+        return {"verdict": "unbekannt",
+                "points": ["Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."]}
 
-    points  = []
-    bull_ev = 0  # externe Evidenz bullisch
-    bear_ev = 0
-
+    points, bull_ev, bear_ev = [], 0.0, 0.0
     c7, c30, sma = price["chg_7d"], price["chg_1mo"], price["sma20_dist"]
 
     if c7 > 3:
@@ -236,35 +296,38 @@ def build_comparison(reddit_signal, sentiment, price):
         bear_ev += 1
 
     if sma > 5:
-        points.append(f"{sma:+}% über SMA20 – evtl. kurzfristig überkauft.")
+        points.append(f"{sma:+}% über SMA20 – kurzfristig evtl. überkauft.")
         bear_ev += 0.5
     elif sma < -5:
-        points.append(f"{sma:+}% unter SMA20 – technisch angeschlagen oder Einstiegszone.")
+        points.append(f"{sma:+}% unter SMA20 – technisch angeschlagen.")
 
-    reddit_bull = sentiment > 1
-    reddit_bear = sentiment < -1
-
+    reddit_bull, reddit_bear = sentiment > 1, sentiment < -1
     if reddit_bull and bull_ev > bear_ev:
-        verdict = "bestätigt"
-        points.append("Marktlage stützt die bullische Reddit-Stimmung.")
+        verdict = "bestätigt"; points.append("Marktlage stützt die bullische Reddit-Stimmung.")
     elif reddit_bull and bear_ev > bull_ev:
-        verdict = "widerspricht"
-        points.append("Reddit ist bullisch, aber der Kurs zeigt Schwäche – Hype-Risiko.")
+        verdict = "widerspricht"; points.append("Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko.")
     elif reddit_bear and bear_ev > bull_ev:
-        verdict = "bestätigt"
-        points.append("Marktlage stützt die skeptische Reddit-Stimmung.")
+        verdict = "bestätigt"; points.append("Marktlage stützt die skeptische Reddit-Stimmung.")
     elif reddit_bear and bull_ev > bear_ev:
-        verdict = "widerspricht"
-        points.append("Reddit ist bearisch, aber der Kurs hält sich stark.")
+        verdict = "widerspricht"; points.append("Reddit bearisch, aber der Kurs hält sich stark.")
     else:
-        verdict = "relativiert"
-        points.append("Externe Lage uneindeutig – Signal mit Vorsicht behandeln.")
+        verdict = "relativiert"; points.append("Externe Lage uneindeutig – Signal mit Vorsicht behandeln.")
 
     return {"verdict": verdict, "points": points}
 
 
+def compute_confidence(mentions, sentiment, verdict, price_available):
+    score = 45
+    score += min(mentions * 3, 18)             # Diskussionsbreite
+    score += min(abs(sentiment) * 3, 15)       # Signalstärke
+    score += {"bestätigt": 18, "relativiert": 4,
+              "widerspricht": -12, "unbekannt": -8}.get(verdict, 0)
+    if not price_available:
+        score -= 5
+    return max(8, min(95, score))
+
+
 def final_recommendation(sentiment, verdict):
-    """Kaufen / Beobachten / Verkaufen aus Reddit-Signal + Gegencheck."""
     if sentiment > 1 and verdict == "bestätigt":
         return "kaufen"
     if sentiment < -1 and verdict == "bestätigt":
@@ -272,7 +335,38 @@ def final_recommendation(sentiment, verdict):
     return "beobachten"
 
 
-# ── Trend vs. letzter Scan ───────────────────────────────────────────────────
+def build_fazit(ticker, name, sentiment, verdict, rec, price, mentions, delta):
+    """Regelbasiert formuliertes KI-Fazit (3-4 Sätze)."""
+    s = []
+    mood = ("deutlich bullisch" if sentiment > 3 else "bullisch" if sentiment > 1
+            else "deutlich bearisch" if sentiment < -3 else "bearisch" if sentiment < -1
+            else "gemischt")
+    trend = (f" mit steigender Dynamik (+{delta} Mentions)" if delta > 1
+             else f" bei abnehmender Aufmerksamkeit ({delta} Mentions)" if delta < -1 else "")
+    s.append(f"Reddit diskutiert {name or ticker} aktuell {mood} ({mentions} Mentions{trend}).")
+
+    if verdict == "bestätigt":
+        s.append("Die Marktdaten stützen die Reddit-Stimmung: Kursverlauf und Momentum zeigen in dieselbe Richtung.")
+    elif verdict == "widerspricht":
+        s.append("Der Marktabgleich widerspricht jedoch: Kursverlauf und Momentum passen nicht zur Reddit-Stimmung – erhöhtes Hype-Risiko.")
+    elif verdict == "relativiert":
+        s.append("Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal.")
+    else:
+        s.append("Ein Marktabgleich war mangels Kursdaten nicht möglich.")
+
+    if price.get("available"):
+        sma = price["sma20_dist"]
+        if sma > 5:
+            s.append(f"Kurzfristig notiert der Kurs {sma:+}% über dem 20-Tage-Schnitt – eine Konsolidierung ist möglich.")
+        elif sma < -5:
+            s.append(f"Der Kurs liegt {sma:+}% unter dem 20-Tage-Schnitt – technisch angeschlagen, aber potenzielle Einstiegszone.")
+
+    advice = {"kaufen": "Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
+              "verkaufen": "Insgesamt spricht die Lage eher für Zurückhaltung oder Gewinnmitnahmen.",
+              "beobachten": "Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."}[rec]
+    s.append(advice)
+    return " ".join(s)
+
 
 def load_previous_mentions():
     try:
@@ -288,14 +382,14 @@ def load_previous_mentions():
 
 def run():
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v2  |  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"Reddit Finanz-Agent v3  |  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"{'='*50}")
 
     prev_mentions = load_previous_mentions()
 
     ticker_data = defaultdict(lambda: {
-        "bull": 0, "bear": 0, "mentions": 0,
-        "engagement": 0, "sources": [], "titles": [],
+        "bull": 0, "bear": 0, "mentions": 0, "engagement": 0,
+        "sources": [], "titles": [], "bull_hits": [], "bear_hits": [],
     })
 
     total_posts = 0
@@ -310,17 +404,21 @@ def run():
 
         for p in posts:
             text = f"{p.get('title','')} {p.get('selftext','')}"
-            tickers = extract_tickers(text)
-            bull, bear = score_sentiment(text)
+            tickers   = extract_tickers(text)
+            bull_hits = matched_keywords(text, BULL_KW)
+            bear_hits = matched_keywords(text, BEAR_KW)
+
             for ticker in tickers:
                 d = ticker_data[ticker]
-                d["bull"]       += bull
-                d["bear"]       += bear
+                d["bull"]       += len(bull_hits)
+                d["bear"]       += len(bear_hits)
                 d["mentions"]   += 1
-                d["engagement"] += bull + bear + 1
+                d["engagement"] += len(bull_hits) + len(bear_hits) + 1
+                d["bull_hits"]  += bull_hits
+                d["bear_hits"]  += bear_hits
                 if sub not in d["sources"]:
                     d["sources"].append(sub)
-                if len(d["titles"]) < 3:
+                if len(d["titles"]) < 6:
                     title = p.get("title", "")[:110]
                     if title:
                         d["titles"].append(title)
@@ -342,28 +440,39 @@ def run():
         news = fetch_news(ticker) if price.get("available") else []
         time.sleep(1)
 
-        comparison = build_comparison(reddit_signal, net, price)
-        empfehlung = final_recommendation(net, comparison["verdict"])
+        comparison = build_comparison(net, price)
+        rec        = final_recommendation(net, comparison["verdict"])
+        delta      = d["mentions"] - prev_mentions.get(ticker, 0)
+        conf       = compute_confidence(d["mentions"], net,
+                                        comparison["verdict"], price.get("available", False))
+        topics     = extract_topics(d["titles"])
+        bull_case, bear_case = build_cases(d["bull_hits"], d["bear_hits"])
+        fazit      = build_fazit(ticker, price.get("name", ticker), net,
+                                 comparison["verdict"], rec, price,
+                                 d["mentions"], delta)
 
-        delta = d["mentions"] - prev_mentions.get(ticker, 0)
-
-        status = "✓" if price.get("available") else "○"
-        print(f"  {status} {ticker}: {empfehlung} ({comparison['verdict']})")
+        print(f"  {'✓' if price.get('available') else '○'} {ticker}: "
+              f"{rec} · {comparison['verdict']} · {conf}%")
 
         recommendations.append({
-            "ticker":        ticker,
-            "name":          price.get("name", ticker),
-            "signal":        reddit_signal,
-            "empfehlung":    empfehlung,
-            "sentiment":     net,
-            "mentions":      d["mentions"],
+            "ticker":         ticker,
+            "name":           price.get("name", ticker),
+            "signal":         reddit_signal,
+            "empfehlung":     rec,
+            "confidence":     conf,
+            "sentiment":      net,
+            "mentions":       d["mentions"],
             "mentions_delta": delta,
-            "engagement":    round(d["engagement"]),
-            "sources":       d["sources"],
-            "titles":        d["titles"],
-            "price":         price,
-            "news":          news,
-            "comparison":    comparison,
+            "engagement":     round(d["engagement"]),
+            "sources":        d["sources"],
+            "titles":         d["titles"][:3],
+            "topics":         topics,
+            "bull_case":      bull_case,
+            "bear_case":      bear_case,
+            "price":          price,
+            "news":           news,
+            "comparison":     comparison,
+            "fazit":          fazit,
         })
 
     output = {
@@ -386,3 +495,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
