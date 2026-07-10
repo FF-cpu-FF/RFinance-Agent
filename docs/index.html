@@ -101,10 +101,15 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .delta-down{color:var(--red);font-weight:750}
 .quote{font-size:13px;color:var(--text2);line-height:1.5;font-style:italic;
   border-left:2px solid var(--blue);padding-left:11px;margin-bottom:11px}
-.topics-label{font-size:11.5px;color:var(--text2);margin-bottom:6px}
-.topics{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:11px}
-.topic-chip{font-size:11px;font-weight:600;padding:4px 11px;border-radius:20px;
-  background:var(--blue-bg);color:var(--blue);border:1px solid rgba(96,165,250,0.25)}
+.themen-label{font-size:11.5px;color:var(--text2);margin-bottom:8px;font-weight:650}
+.thema{background:var(--bg3);border:1px solid var(--border);border-radius:10px;
+  padding:0.65rem 0.85rem;margin-bottom:7px}
+.thema-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:3px}
+.thema-titel{font-size:12.5px;font-weight:700;color:var(--text)}
+.thema-pct{font-size:11px;font-weight:750;color:var(--blue);
+  background:var(--blue-bg);padding:1px 8px;border-radius:12px}
+.thema-count{font-size:10.5px;color:var(--text3)}
+.thema-erkl{font-size:11.5px;color:var(--text2);line-height:1.5}
 .cases{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media(max-width:640px){.cases{grid-template-columns:1fr}}
 .case-col .case-title{font-size:10px;font-weight:750;text-transform:uppercase;
@@ -389,7 +394,15 @@ function buildCard(r, i) {
 
   const gruende = (r.gruende || []).map(g => `<li>${g}</li>`).join("");
 
-  const topics = (r.topics || []).map(t => `<span class="topic-chip">${t}</span>`).join("");
+  const themen = (r.themen || []).map(th => `
+    <div class="thema">
+      <div class="thema-head">
+        <span class="thema-titel">${th.emoji || "💬"} ${th.titel || ""}</span>
+        ${th.anteil_pct != null ? `<span class="thema-pct">${th.anteil_pct}%</span>` : ""}
+        ${th.beitraege != null ? `<span class="thema-count">${th.beitraege} Beiträge</span>` : ""}
+      </div>
+      <div class="thema-erkl">${th.erklaerung || ""}</div>
+    </div>`).join("");
   const bullCase = (r.bull_case || []).map(c => `<li>${c}</li>`).join("");
   const bearCase = (r.bear_case || []).map(c => `<li>${c}</li>`).join("");
   const compPoints = (r.comparison?.points || []).map(pt => `<li>${pt}</li>`).join("");
@@ -490,8 +503,8 @@ function buildCard(r, i) {
         <span class="metric">r/${(r.sources || []).join(", r/")}</span>
       </div>
       <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
-      ${topics ? `<div class="topics-label">Reddit diskutiert ${r.ticker} derzeit hauptsächlich wegen:</div>
-      <div class="topics">${topics}</div>` : ""}
+      ${themen ? `<div class="themen-label">🔥 Warum wird ${r.ticker} heute diskutiert?</div>
+      <div style="margin-bottom:11px">${themen}</div>` : ""}
       <div class="cases">
         <div class="case-col bull">
           <div class="case-title">Bull Case</div>
