@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T02:13:26.667400+00:00",
+  "generated_at": "2026-07-10T02:18:41.931988+00:00",
   "total_posts": 250,
   "unique_tickers": 157,
   "subreddits": [
@@ -411,6 +411,12 @@
       },
       "news": [
         {
+          "title": "Louis Navellier flags three top tech stocks for market growth",
+          "link": "https://www.thestreet.com/investing/louis-navellier-flags-three-top-tech-stocks-for-market-growth?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "pos"
+        },
+        {
           "title": "Dow Jones Futures: Micron, Sandisk Jump As Nasdaq Tops Key Level; Delta, Taiwan Semi, SK Hynix Due",
           "link": "https://finance.yahoo.com/m/6e8baca0-b324-3166-b745-36b306c19567/dow-jones-futures%3A-micron%2C.html?.tsrc=rss",
           "date": "Fri, 10 Jul 2026",
@@ -421,12 +427,6 @@
           "link": "https://finance.yahoo.com/m/4ee80eab-25d9-328f-9d71-2238b7638ce8/7-times-oversubscribed.-why.html?.tsrc=rss",
           "date": "Fri, 10 Jul 2026",
           "tone": "neu"
-        },
-        {
-          "title": "SK Hynix Raises $26.5 Billion In U.S. Listing; Memory Giants Micron, Sandisk Rise",
-          "link": "https://finance.yahoo.com/m/bd46c60e-d6b4-39f1-94af-6467a9fafcdb/sk-hynix-raises-%2426.5-billion.html?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "pos"
         }
       ],
       "comparison": {
@@ -904,7 +904,7 @@
       "confidence": 64,
       "sentiment": -2,
       "mentions": 3,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 7,
       "sources": [
         "wallstreetbets"
@@ -2943,414 +2943,6 @@
       "fazit": "Reddit diskutiert Alphabet Inc. aktuell bullisch (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 58,
-      "sentiment": -1,
-      "mentions": 2,
-      "mentions_delta": 0,
-      "engagement": 5,
-      "sources": [
-        "wallstreetbets",
-        "TrumpsTrades"
-      ],
-      "titles": [
-        "Hands down, MSFT is the worst fucking investment I have ever owned",
-        "Trump makes 6 different company mentions in Interview today (7/2/2026)"
-      ],
-      "topics": [
-        "Hands",
-        "Down",
-        "MSFT",
-        "Worst"
-      ],
-      "bull_case": [
-        "Erholungs-These"
-      ],
-      "bear_case": [
-        "Crash-Warnungen",
-        "Sell"
-      ],
-      "price": {
-        "available": true,
-        "price": 202.78,
-        "currency": "USD",
-        "name": "NVIDIA Corporation",
-        "chart_1d": [
-          {
-            "t": 1783603800,
-            "c": 201.68
-          },
-          {
-            "t": 1783604700,
-            "c": 202.1
-          },
-          {
-            "t": 1783605600,
-            "c": 200.25
-          },
-          {
-            "t": 1783606500,
-            "c": 200.24
-          },
-          {
-            "t": 1783607400,
-            "c": 200.73
-          },
-          {
-            "t": 1783608300,
-            "c": 201.29
-          },
-          {
-            "t": 1783609200,
-            "c": 201.36
-          },
-          {
-            "t": 1783610100,
-            "c": 201.72
-          },
-          {
-            "t": 1783611000,
-            "c": 201.39
-          },
-          {
-            "t": 1783611900,
-            "c": 201.74
-          },
-          {
-            "t": 1783612800,
-            "c": 202.02
-          },
-          {
-            "t": 1783613700,
-            "c": 202.18
-          },
-          {
-            "t": 1783614600,
-            "c": 201.78
-          },
-          {
-            "t": 1783615500,
-            "c": 201.71
-          },
-          {
-            "t": 1783616400,
-            "c": 203.07
-          },
-          {
-            "t": 1783617300,
-            "c": 202.83
-          },
-          {
-            "t": 1783618200,
-            "c": 203.18
-          },
-          {
-            "t": 1783619100,
-            "c": 203.32
-          },
-          {
-            "t": 1783620000,
-            "c": 203.22
-          },
-          {
-            "t": 1783620900,
-            "c": 203.51
-          },
-          {
-            "t": 1783621800,
-            "c": 204.01
-          },
-          {
-            "t": 1783622700,
-            "c": 203.47
-          },
-          {
-            "t": 1783623600,
-            "c": 203.39
-          },
-          {
-            "t": 1783624500,
-            "c": 203.79
-          },
-          {
-            "t": 1783625400,
-            "c": 203.96
-          },
-          {
-            "t": 1783626300,
-            "c": 202.73
-          },
-          {
-            "t": 1783627200,
-            "c": 202.78
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1782999000,
-            "c": 197.85
-          },
-          {
-            "t": 1783002600,
-            "c": 194.78
-          },
-          {
-            "t": 1783006200,
-            "c": 193.79
-          },
-          {
-            "t": 1783009800,
-            "c": 193.05
-          },
-          {
-            "t": 1783013400,
-            "c": 193.76
-          },
-          {
-            "t": 1783017000,
-            "c": 193.1
-          },
-          {
-            "t": 1783020600,
-            "c": 194.62
-          },
-          {
-            "t": 1783344600,
-            "c": 196.57
-          },
-          {
-            "t": 1783348200,
-            "c": 196.51
-          },
-          {
-            "t": 1783351800,
-            "c": 197.0
-          },
-          {
-            "t": 1783355400,
-            "c": 195.97
-          },
-          {
-            "t": 1783359000,
-            "c": 196.27
-          },
-          {
-            "t": 1783362600,
-            "c": 196.85
-          },
-          {
-            "t": 1783366200,
-            "c": 195.57
-          },
-          {
-            "t": 1783431000,
-            "c": 191.86
-          },
-          {
-            "t": 1783434600,
-            "c": 193.05
-          },
-          {
-            "t": 1783438200,
-            "c": 197.39
-          },
-          {
-            "t": 1783441800,
-            "c": 197.44
-          },
-          {
-            "t": 1783445400,
-            "c": 197.27
-          },
-          {
-            "t": 1783449000,
-            "c": 196.15
-          },
-          {
-            "t": 1783452600,
-            "c": 196.93
-          },
-          {
-            "t": 1783517400,
-            "c": 197.01
-          },
-          {
-            "t": 1783521000,
-            "c": 196.59
-          },
-          {
-            "t": 1783524600,
-            "c": 199.25
-          },
-          {
-            "t": 1783528200,
-            "c": 203.08
-          },
-          {
-            "t": 1783531800,
-            "c": 202.19
-          },
-          {
-            "t": 1783535400,
-            "c": 204.46
-          },
-          {
-            "t": 1783539000,
-            "c": 204.15
-          },
-          {
-            "t": 1783603800,
-            "c": 200.24
-          },
-          {
-            "t": 1783607400,
-            "c": 201.72
-          },
-          {
-            "t": 1783611000,
-            "c": 202.18
-          },
-          {
-            "t": 1783614600,
-            "c": 202.83
-          },
-          {
-            "t": 1783618200,
-            "c": 203.51
-          },
-          {
-            "t": 1783621800,
-            "c": 203.79
-          },
-          {
-            "t": 1783625400,
-            "c": 202.73
-          },
-          {
-            "t": 1783627200,
-            "c": 202.78
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1781098200,
-            "c": 200.42
-          },
-          {
-            "t": 1781184600,
-            "c": 204.87
-          },
-          {
-            "t": 1781271000,
-            "c": 205.19
-          },
-          {
-            "t": 1781530200,
-            "c": 212.45
-          },
-          {
-            "t": 1781616600,
-            "c": 207.41
-          },
-          {
-            "t": 1781703000,
-            "c": 204.65
-          },
-          {
-            "t": 1781789400,
-            "c": 210.69
-          },
-          {
-            "t": 1782135000,
-            "c": 208.65
-          },
-          {
-            "t": 1782221400,
-            "c": 200.04
-          },
-          {
-            "t": 1782307800,
-            "c": 199.0
-          },
-          {
-            "t": 1782394200,
-            "c": 195.74
-          },
-          {
-            "t": 1782480600,
-            "c": 192.53
-          },
-          {
-            "t": 1782739800,
-            "c": 194.97
-          },
-          {
-            "t": 1782826200,
-            "c": 200.09
-          },
-          {
-            "t": 1782912600,
-            "c": 197.58
-          },
-          {
-            "t": 1782999000,
-            "c": 194.83
-          },
-          {
-            "t": 1783344600,
-            "c": 195.55
-          },
-          {
-            "t": 1783431000,
-            "c": 196.93
-          },
-          {
-            "t": 1783517400,
-            "c": 204.12
-          },
-          {
-            "t": 1783603800,
-            "c": 202.78
-          }
-        ],
-        "chg_1d": 0.55,
-        "chg_7d": 2.63,
-        "chg_1mo": 1.18,
-        "sma20_dist": 0.67
-      },
-      "news": [
-        {
-          "title": "Chip titan SK hynix raises $26.5 bn in blockbuster US listing",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/chip-titan-sk-hynix-set-025602686.html?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Advanced Micro Devices vs. Nvidia: What Revenue Growth Rates and Scale Reveal for Investors",
-          "link": "https://www.fool.com/coverage/charts/2026/07/09/advanced-micro-devices-vs-nvidia-what-revenue-growth-rates-and-scale-reveal-for-investors/?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Dow Jones Futures: Micron, Sandisk Jump As Nasdaq Tops Key Level; Delta, Taiwan Semi, SK Hynix Due",
-          "link": "https://finance.yahoo.com/m/6e8baca0-b324-3166-b745-36b306c19567/dow-jones-futures%3A-micron%2C.html?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "neu"
-        }
-      ],
-      "comparison": {
-        "verdict": "relativiert",
-        "points": [
-          "Kurs seitwärts über 7 Tage (+2.63%).",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
-        ]
-      },
-      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell gemischt (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
-    },
-    {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
       "signal": "neutral",
@@ -3358,7 +2950,7 @@
       "confidence": 58,
       "sentiment": -1,
       "mentions": 2,
-      "mentions_delta": 2,
+      "mentions_delta": 0,
       "engagement": 5,
       "sources": [
         "wallstreetbets",
@@ -3756,7 +3348,415 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Microsoft Corporation aktuell gemischt (2 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert Microsoft Corporation aktuell gemischt (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 58,
+      "sentiment": -1,
+      "mentions": 2,
+      "mentions_delta": 0,
+      "engagement": 5,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "Hands down, MSFT is the worst fucking investment I have ever owned",
+        "Trump makes 6 different company mentions in Interview today (7/2/2026)"
+      ],
+      "topics": [
+        "Hands",
+        "Down",
+        "MSFT",
+        "Worst"
+      ],
+      "bull_case": [
+        "Erholungs-These"
+      ],
+      "bear_case": [
+        "Crash-Warnungen",
+        "Sell"
+      ],
+      "price": {
+        "available": true,
+        "price": 202.78,
+        "currency": "USD",
+        "name": "NVIDIA Corporation",
+        "chart_1d": [
+          {
+            "t": 1783603800,
+            "c": 201.68
+          },
+          {
+            "t": 1783604700,
+            "c": 202.1
+          },
+          {
+            "t": 1783605600,
+            "c": 200.25
+          },
+          {
+            "t": 1783606500,
+            "c": 200.24
+          },
+          {
+            "t": 1783607400,
+            "c": 200.73
+          },
+          {
+            "t": 1783608300,
+            "c": 201.29
+          },
+          {
+            "t": 1783609200,
+            "c": 201.36
+          },
+          {
+            "t": 1783610100,
+            "c": 201.72
+          },
+          {
+            "t": 1783611000,
+            "c": 201.39
+          },
+          {
+            "t": 1783611900,
+            "c": 201.74
+          },
+          {
+            "t": 1783612800,
+            "c": 202.02
+          },
+          {
+            "t": 1783613700,
+            "c": 202.18
+          },
+          {
+            "t": 1783614600,
+            "c": 201.78
+          },
+          {
+            "t": 1783615500,
+            "c": 201.71
+          },
+          {
+            "t": 1783616400,
+            "c": 203.07
+          },
+          {
+            "t": 1783617300,
+            "c": 202.83
+          },
+          {
+            "t": 1783618200,
+            "c": 203.18
+          },
+          {
+            "t": 1783619100,
+            "c": 203.32
+          },
+          {
+            "t": 1783620000,
+            "c": 203.22
+          },
+          {
+            "t": 1783620900,
+            "c": 203.51
+          },
+          {
+            "t": 1783621800,
+            "c": 204.01
+          },
+          {
+            "t": 1783622700,
+            "c": 203.47
+          },
+          {
+            "t": 1783623600,
+            "c": 203.39
+          },
+          {
+            "t": 1783624500,
+            "c": 203.79
+          },
+          {
+            "t": 1783625400,
+            "c": 203.96
+          },
+          {
+            "t": 1783626300,
+            "c": 202.73
+          },
+          {
+            "t": 1783627200,
+            "c": 202.78
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1782999000,
+            "c": 197.85
+          },
+          {
+            "t": 1783002600,
+            "c": 194.78
+          },
+          {
+            "t": 1783006200,
+            "c": 193.79
+          },
+          {
+            "t": 1783009800,
+            "c": 193.05
+          },
+          {
+            "t": 1783013400,
+            "c": 193.76
+          },
+          {
+            "t": 1783017000,
+            "c": 193.1
+          },
+          {
+            "t": 1783020600,
+            "c": 194.62
+          },
+          {
+            "t": 1783344600,
+            "c": 196.57
+          },
+          {
+            "t": 1783348200,
+            "c": 196.51
+          },
+          {
+            "t": 1783351800,
+            "c": 197.0
+          },
+          {
+            "t": 1783355400,
+            "c": 195.97
+          },
+          {
+            "t": 1783359000,
+            "c": 196.27
+          },
+          {
+            "t": 1783362600,
+            "c": 196.85
+          },
+          {
+            "t": 1783366200,
+            "c": 195.57
+          },
+          {
+            "t": 1783431000,
+            "c": 191.86
+          },
+          {
+            "t": 1783434600,
+            "c": 193.05
+          },
+          {
+            "t": 1783438200,
+            "c": 197.39
+          },
+          {
+            "t": 1783441800,
+            "c": 197.44
+          },
+          {
+            "t": 1783445400,
+            "c": 197.27
+          },
+          {
+            "t": 1783449000,
+            "c": 196.15
+          },
+          {
+            "t": 1783452600,
+            "c": 196.93
+          },
+          {
+            "t": 1783517400,
+            "c": 197.01
+          },
+          {
+            "t": 1783521000,
+            "c": 196.59
+          },
+          {
+            "t": 1783524600,
+            "c": 199.25
+          },
+          {
+            "t": 1783528200,
+            "c": 203.08
+          },
+          {
+            "t": 1783531800,
+            "c": 202.19
+          },
+          {
+            "t": 1783535400,
+            "c": 204.46
+          },
+          {
+            "t": 1783539000,
+            "c": 204.15
+          },
+          {
+            "t": 1783603800,
+            "c": 200.24
+          },
+          {
+            "t": 1783607400,
+            "c": 201.72
+          },
+          {
+            "t": 1783611000,
+            "c": 202.18
+          },
+          {
+            "t": 1783614600,
+            "c": 202.83
+          },
+          {
+            "t": 1783618200,
+            "c": 203.51
+          },
+          {
+            "t": 1783621800,
+            "c": 203.79
+          },
+          {
+            "t": 1783625400,
+            "c": 202.73
+          },
+          {
+            "t": 1783627200,
+            "c": 202.78
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1781098200,
+            "c": 200.42
+          },
+          {
+            "t": 1781184600,
+            "c": 204.87
+          },
+          {
+            "t": 1781271000,
+            "c": 205.19
+          },
+          {
+            "t": 1781530200,
+            "c": 212.45
+          },
+          {
+            "t": 1781616600,
+            "c": 207.41
+          },
+          {
+            "t": 1781703000,
+            "c": 204.65
+          },
+          {
+            "t": 1781789400,
+            "c": 210.69
+          },
+          {
+            "t": 1782135000,
+            "c": 208.65
+          },
+          {
+            "t": 1782221400,
+            "c": 200.04
+          },
+          {
+            "t": 1782307800,
+            "c": 199.0
+          },
+          {
+            "t": 1782394200,
+            "c": 195.74
+          },
+          {
+            "t": 1782480600,
+            "c": 192.53
+          },
+          {
+            "t": 1782739800,
+            "c": 194.97
+          },
+          {
+            "t": 1782826200,
+            "c": 200.09
+          },
+          {
+            "t": 1782912600,
+            "c": 197.58
+          },
+          {
+            "t": 1782999000,
+            "c": 194.83
+          },
+          {
+            "t": 1783344600,
+            "c": 195.55
+          },
+          {
+            "t": 1783431000,
+            "c": 196.93
+          },
+          {
+            "t": 1783517400,
+            "c": 204.12
+          },
+          {
+            "t": 1783603800,
+            "c": 202.78
+          }
+        ],
+        "chg_1d": 0.55,
+        "chg_7d": 2.63,
+        "chg_1mo": 1.18,
+        "sma20_dist": 0.67
+      },
+      "news": [
+        {
+          "title": "Louis Navellier flags three top tech stocks for market growth",
+          "link": "https://www.thestreet.com/investing/louis-navellier-flags-three-top-tech-stocks-for-market-growth?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Dow Jones Futures: Micron, Sandisk Jump As Nasdaq Tops Key Level; Delta, Taiwan Semi, SK Hynix Due",
+          "link": "https://finance.yahoo.com/m/6e8baca0-b324-3166-b745-36b306c19567/dow-jones-futures%3A-micron%2C.html?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Chip titan SK hynix raises $26.5 bn in blockbuster US listing",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/chip-titan-sk-hynix-set-025602686.html?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "pos"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (+2.63%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell gemischt (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
     }
   ]
 }
