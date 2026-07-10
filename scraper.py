@@ -613,7 +613,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
     payload = json.dumps({
         "model": "openai/gpt-4o-mini",
         "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 620,
+        "max_tokens": 900,
         "temperature": 0.4,
     }).encode("utf-8")
 
