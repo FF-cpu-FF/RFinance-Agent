@@ -14,8 +14,8 @@
   --red:#f87171; --red-bg:rgba(248,113,113,0.12);
   --yellow:#fbbf24; --yellow-bg:rgba(251,191,36,0.12);
   --blue:#60a5fa; --blue-bg:rgba(96,165,250,0.10);
-  --orange:#fb923c;
-  --radius:16px; --mono:'SF Mono','JetBrains Mono',monospace;
+  --purple:#a78bfa; --purple-bg:rgba(167,139,250,0.12);
+  --radius:16px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);
@@ -27,7 +27,7 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .badge-live{font-size:10.5px;padding:4px 12px;border-radius:20px;font-weight:700;
   background:var(--green-bg);color:var(--green);text-transform:uppercase;letter-spacing:0.07em}
 
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:1.25rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px;margin-bottom:1.25rem}
 .stat{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:0.85rem 1.05rem}
 .stat-label{font-size:10.5px;color:var(--text3);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:5px}
 .stat-val{font-size:23px;font-weight:650;font-variant-numeric:tabular-nums}
@@ -47,7 +47,6 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .section-title{font-size:11.5px;font-weight:650;color:var(--text3);
   text-transform:uppercase;letter-spacing:0.08em;margin-bottom:13px}
 
-/* ── Karten ── */
 .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
   padding:1.35rem 1.45rem;margin-bottom:16px;animation:rise .4s ease both;
   transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease}
@@ -62,9 +61,11 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
   background:linear-gradient(135deg,var(--blue-bg),var(--bg3));color:var(--blue);
   border:1px solid var(--border2)}
 .head-id{flex:1;min-width:140px}
-.ticker-line{display:flex;align-items:baseline;gap:8px}
-.ticker{font-size:20px;font-weight:750;letter-spacing:-0.01em}
+.ticker-line{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.ticker{font-size:20px;font-weight:750}
 .company{font-size:12px;color:var(--text2)}
+.grade-badge{font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:6px;
+  background:var(--purple-bg);color:var(--purple);letter-spacing:0.03em}
 .price-line{margin-top:2px;font-variant-numeric:tabular-nums}
 .price{font-size:15px;font-weight:650}
 .chg{font-size:12.5px;font-weight:650;margin-left:6px}
@@ -78,16 +79,20 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .conf-ring{position:relative;width:52px;height:52px;flex:0 0 auto}
 .conf-ring svg{transform:rotate(-90deg)}
 .conf-ring .val{position:absolute;inset:0;display:flex;align-items:center;
-  justify-content:center;font-size:12px;font-weight:750;font-variant-numeric:tabular-nums}
+  justify-content:center;font-size:12px;font-weight:750}
 .conf-label{font-size:9.5px;color:var(--text3);text-align:center;margin-top:2px;
   text-transform:uppercase;letter-spacing:0.05em}
 
-/* Reddit-Signal (Hauptbereich) */
+/* Reddit-Signal */
 .reddit-box{background:linear-gradient(135deg,rgba(96,165,250,0.07),rgba(96,165,250,0.02));
   border:1px solid rgba(96,165,250,0.18);border-radius:12px;padding:1.05rem 1.15rem;margin-bottom:12px}
-.rb-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.rb-head{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
 .rb-title{font-size:11px;font-weight:750;color:var(--blue);
   text-transform:uppercase;letter-spacing:0.08em}
+.hype-badge{font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px}
+.hype-badge.hype{background:var(--red-bg);color:var(--red)}
+.hype-badge.trend{background:var(--green-bg);color:var(--green)}
+.hype-badge.unklar{background:var(--yellow-bg);color:var(--yellow)}
 .rb-metrics{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .metric{background:var(--bg3);border:1px solid var(--border);border-radius:8px;
   padding:5px 11px;font-size:11.5px;color:var(--text2)}
@@ -113,7 +118,32 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .case-col.bear li::before{content:"−";position:absolute;left:0;color:var(--red);font-weight:750}
 .case-empty{font-size:11.5px;color:var(--text3);font-style:italic}
 
-/* Mitte: Markt + Chart */
+/* Momentum / Hype Engine */
+.momentum-box{background:linear-gradient(135deg,rgba(167,139,250,0.08),rgba(167,139,250,0.02));
+  border:1px solid rgba(167,139,250,0.2);border-radius:12px;padding:1rem 1.1rem;margin-bottom:12px;
+  display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:720px){.momentum-box{grid-template-columns:1fr}}
+.mo-title{font-size:11px;font-weight:750;color:var(--purple);
+  text-transform:uppercase;letter-spacing:0.08em;margin-bottom:9px}
+.tl-row{display:flex;align-items:center;gap:9px;margin-bottom:5px}
+.tl-day{font-size:10.5px;color:var(--text3);width:64px;flex:0 0 auto}
+.tl-bar-wrap{flex:1;height:9px;background:var(--bg3);border-radius:5px;overflow:hidden}
+.tl-bar{height:100%;background:linear-gradient(90deg,var(--purple),var(--blue));border-radius:5px}
+.tl-val{font-size:11px;font-weight:700;width:34px;text-align:right;font-variant-numeric:tabular-nums}
+.mo-score-line{display:flex;align-items:baseline;gap:8px;margin-bottom:4px}
+.mo-score{font-size:26px;font-weight:800;font-variant-numeric:tabular-nums}
+.mo-max{font-size:12px;color:var(--text3)}
+.mo-growth{font-size:12px;font-weight:700}
+.mo-label{font-size:12.5px;color:var(--text2);margin-bottom:8px}
+.hype-reason{font-size:11.5px;color:var(--text3);line-height:1.5;margin-bottom:9px}
+.gruende-title{font-size:10.5px;font-weight:750;color:var(--text3);
+  text-transform:uppercase;letter-spacing:0.06em;margin-bottom:5px}
+.gruende{list-style:none}
+.gruende li{font-size:12px;color:var(--text2);padding-left:15px;position:relative;
+  margin-bottom:3px;line-height:1.45}
+.gruende li::before{content:"•";position:absolute;left:2px;color:var(--purple)}
+
+/* Markt + Chart */
 .mid{display:grid;grid-template-columns:1fr 250px;gap:16px;margin-bottom:12px}
 @media(max-width:720px){.mid{grid-template-columns:1fr}}
 .market-box{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:0.95rem 1.05rem}
@@ -125,15 +155,24 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .verdict-badge.widerspricht{background:var(--red-bg);color:var(--red)}
 .verdict-badge.relativiert{background:var(--yellow-bg);color:var(--yellow)}
 .verdict-badge.unbekannt{background:var(--bg3);color:var(--text3)}
-.comp-points{list-style:none}
+.comp-points{list-style:none;margin-bottom:10px}
 .comp-points li{font-size:12px;color:var(--text2);line-height:1.5;
   padding-left:15px;position:relative;margin-bottom:3px}
 .comp-points li::before{content:"→";position:absolute;left:0;color:var(--text3)}
+.rvm{border-top:1px solid var(--border);padding-top:9px}
+.rvm-row{display:flex;align-items:center;gap:9px;margin-bottom:4px}
+.rvm-name{font-size:10.5px;color:var(--text3);width:48px}
+.rvm-bar-wrap{flex:1;height:8px;background:var(--bg3);border-radius:4px;overflow:hidden}
+.rvm-bar{height:100%;border-radius:4px}
+.rvm-bar.reddit{background:var(--blue)}
+.rvm-bar.markt{background:var(--text3)}
+.rvm-val{font-size:11px;font-weight:700;width:36px;text-align:right}
+.rvm-urteil{font-size:11.5px;color:var(--text2);margin-top:5px}
 
 .chart-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:0.8rem 0.9rem}
 .range-btns{display:flex;gap:4px;justify-content:flex-end;margin-bottom:5px}
 .range-btn{font-size:9.5px;font-weight:700;padding:3px 9px;border-radius:6px;
-  border:1px solid var(--border);background:transparent;color:var(--text3);cursor:pointer;transition:all .12s}
+  border:1px solid var(--border);background:transparent;color:var(--text3);cursor:pointer}
 .range-btn.active{background:var(--blue-bg);color:var(--blue);border-color:transparent}
 .chart-box{height:82px;position:relative}
 .no-chart{height:82px;display:flex;align-items:center;justify-content:center;
@@ -141,8 +180,8 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .perf-row{display:flex;justify-content:space-around;margin-top:8px;padding-top:8px;
   border-top:1px solid var(--border)}
 .perf{text-align:center}
-.perf .p-label{font-size:9.5px;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em}
-.perf .p-val{font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:1px}
+.perf .p-label{font-size:9.5px;color:var(--text3);text-transform:uppercase}
+.perf .p-val{font-size:12.5px;font-weight:700;margin-top:1px}
 .p-val.up{color:var(--green)}.p-val.down{color:var(--red)}
 
 /* News */
@@ -159,16 +198,30 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .news-date{font-size:10.5px;color:var(--text3);margin-top:1px}
 .no-data{font-size:11.5px;color:var(--text3);font-style:italic}
 
-/* Fazit */
+/* Fazit + Verlauf */
 .fazit{background:linear-gradient(135deg,rgba(251,191,36,0.08),rgba(251,146,60,0.04));
-  border:1px solid rgba(251,191,36,0.2);border-radius:12px;padding:0.95rem 1.1rem}
+  border:1px solid rgba(251,191,36,0.2);border-radius:12px;padding:0.95rem 1.1rem;margin-bottom:10px}
 .fazit-title{font-size:11px;font-weight:750;color:var(--yellow);
   text-transform:uppercase;letter-spacing:0.08em;margin-bottom:7px}
 .fazit-text{font-size:13px;color:var(--text2);line-height:1.6}
 
-/* Skeleton */
+details.verlauf{border:1px solid var(--border);border-radius:12px;background:var(--bg2)}
+details.verlauf summary{font-size:11.5px;font-weight:650;color:var(--text2);
+  padding:0.7rem 1rem;cursor:pointer;list-style:none;user-select:none}
+details.verlauf summary::before{content:"▸ ";color:var(--text3)}
+details.verlauf[open] summary::before{content:"▾ "}
+.verlauf-body{padding:0 1rem 0.85rem}
+.v-row{display:flex;gap:12px;align-items:center;font-size:12px;color:var(--text2);
+  padding:5px 0;border-bottom:1px solid var(--border);flex-wrap:wrap}
+.v-row:last-child{border-bottom:none}
+.v-date{color:var(--text3);width:82px;font-variant-numeric:tabular-nums}
+.v-rec{font-weight:700}
+.v-rec.kaufen{color:var(--green)}.v-rec.verkaufen{color:var(--red)}
+.v-rec.beobachten{color:var(--yellow)}
+.v-ok{font-weight:700}
+
 .skeleton{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);
-  height:340px;margin-bottom:16px;overflow:hidden;position:relative}
+  height:400px;margin-bottom:16px;overflow:hidden;position:relative}
 .skeleton::after{content:"";position:absolute;inset:0;
   background:linear-gradient(90deg,transparent,rgba(255,255,255,0.04),transparent);
   animation:shimmer 1.4s infinite}
@@ -189,9 +242,10 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
   </header>
 
   <div class="stats">
-    <div class="stat"><div class="stat-label">Posts analysiert</div><div class="stat-val" id="s-posts">–</div><div class="stat-sub">letzter Scan</div></div>
-    <div class="stat"><div class="stat-label">Ticker erkannt</div><div class="stat-val" id="s-tickers">–</div><div class="stat-sub">unique Symbole</div></div>
+    <div class="stat"><div class="stat-label">Posts</div><div class="stat-val" id="s-posts">–</div><div class="stat-sub">letzter Scan</div></div>
+    <div class="stat"><div class="stat-label">Ticker</div><div class="stat-val" id="s-tickers">–</div><div class="stat-sub">unique</div></div>
     <div class="stat"><div class="stat-label">Empfehlungen</div><div class="stat-val" id="s-recs">–</div><div class="stat-sub">Top-Auswahl</div></div>
+    <div class="stat"><div class="stat-label">Trefferquote</div><div class="stat-val" id="s-hit">–</div><div class="stat-sub" id="s-hit-sub">Historie</div></div>
     <div class="stat"><div class="stat-label">Generiert</div><div class="stat-val" id="s-time" style="font-size:16px;">–</div><div class="stat-sub">UTC</div></div>
   </div>
 
@@ -202,14 +256,15 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
     <span class="updated" id="updated"></span>
   </div>
 
-  <div class="section-title">Empfehlungen · Reddit-Signal → Marktabgleich → KI-Fazit</div>
+  <div class="section-title">Empfehlungen · Reddit-Signal → Hype-Analyse → Marktabgleich → KI-Fazit</div>
   <div id="recs">
-    <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+    <div class="skeleton"></div><div class="skeleton"></div>
   </div>
 
   <div class="disclaimer">
     ⚠️ Keine Anlageberatung. Empfehlungen entstehen aus Reddit-Sentiment und einem automatischen
-    Marktabgleich. Alle Angaben ohne Gewähr. Investitionsentscheidungen liegen allein beim Nutzer.
+    Marktabgleich. Historische Trefferquoten sind keine Garantie für zukünftige Ergebnisse.
+    Investitionsentscheidungen liegen allein beim Nutzer.
   </div>
 </div>
 
@@ -224,8 +279,7 @@ const fmt = (n, cur) => {
 };
 const pctHtml = (v) => {
   if (v == null) return `<div class="p-val">–</div>`;
-  const cls = v >= 0 ? "up" : "down";
-  return `<div class="p-val ${cls}">${v >= 0 ? "+" : ""}${v}%</div>`;
+  return `<div class="p-val ${v >= 0 ? "up" : "down"}">${v >= 0 ? "+" : ""}${v}%</div>`;
 };
 const confColor = (c) => c >= 70 ? "#34d399" : c >= 45 ? "#fbbf24" : "#f87171";
 
@@ -250,6 +304,17 @@ function render() {
   document.getElementById("s-posts").textContent   = d.total_posts ?? "–";
   document.getElementById("s-tickers").textContent = d.unique_tickers ?? "–";
   document.getElementById("s-recs").textContent    = d.recommendations?.length ?? "–";
+
+  const st = d.stats || {};
+  if (st.hit_rate != null) {
+    document.getElementById("s-hit").textContent = st.hit_rate + "%";
+    document.getElementById("s-hit-sub").textContent =
+      `${st.n_evaluated} ausgewertet · K ${st.rate_kaufen ?? "–"}% · V ${st.rate_verkaufen ?? "–"}% · B ${st.rate_beobachten ?? "–"}%`;
+  } else {
+    document.getElementById("s-hit").textContent = "–";
+    document.getElementById("s-hit-sub").textContent = "braucht ≥7 Tage Historie";
+  }
+
   const t = d.generated_at ? new Date(d.generated_at) : null;
   document.getElementById("s-time").textContent =
     t ? t.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) : "–";
@@ -271,7 +336,6 @@ function render() {
     recsEl.innerHTML = `<div class="empty">Keine Empfehlungen in diesem Scan</div>`;
     return;
   }
-
   recs.forEach((r, i) => recsEl.appendChild(buildCard(r, i)));
   recs.forEach(r => {
     if (r.price?.available) drawChart(r.ticker, r.price.chart_1d || [], (r.price.chg_1d ?? 0) >= 0);
@@ -303,11 +367,44 @@ function buildCard(r, i) {
   const chgHtml = chg == null ? "" :
     `<span class="chg ${chg >= 0 ? "up" : "down"}">${chg >= 0 ? "+" : ""}${chg}%</span>`;
 
+  const hypeTyp = r.hype_typ || "unklar";
+  const hypeLabel = { hype: "🔥 Kurzfristiger Hype", trend: "📈 Nachhaltiger Trend",
+                      unklar: "⚠️ Noch unklar" }[hypeTyp];
+
+  // Momentum-Timeline
+  const tl = r.timeline || [];
+  const maxM = Math.max(1, ...tl.map(t => t.mentions));
+  const tlHtml = tl.length ? tl.map((t, idx) => {
+    const label = idx === tl.length - 1 ? "Heute" :
+      new Date(t.day).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit" });
+    return `<div class="tl-row">
+      <span class="tl-day">${label}</span>
+      <div class="tl-bar-wrap"><div class="tl-bar" style="width:${t.mentions / maxM * 100}%"></div></div>
+      <span class="tl-val">${t.mentions}</span></div>`;
+  }).join("") : `<div class="no-data">Timeline baut sich über die nächsten Scans auf</div>`;
+
+  const growth = r.growth_pct;
+  const growthHtml = growth == null ? "" :
+    `<span class="mo-growth ${growth >= 0 ? "delta-up" : "delta-down"}">${growth >= 0 ? "+" : ""}${growth}%</span>`;
+
+  const gruende = (r.gruende || []).map(g => `<li>${g}</li>`).join("");
+
   const topics = (r.topics || []).map(t => `<span class="topic-chip">${t}</span>`).join("");
   const bullCase = (r.bull_case || []).map(c => `<li>${c}</li>`).join("");
   const bearCase = (r.bear_case || []).map(c => `<li>${c}</li>`).join("");
-
   const compPoints = (r.comparison?.points || []).map(pt => `<li>${pt}</li>`).join("");
+
+  const rvm = r.reddit_vs_markt || null;
+  const rvmHtml = rvm ? `
+    <div class="rvm">
+      <div class="rvm-row"><span class="rvm-name">Reddit</span>
+        <div class="rvm-bar-wrap"><div class="rvm-bar reddit" style="width:${rvm.reddit}%"></div></div>
+        <span class="rvm-val">${rvm.reddit}%</span></div>
+      <div class="rvm-row"><span class="rvm-name">Markt</span>
+        <div class="rvm-bar-wrap"><div class="rvm-bar markt" style="width:${rvm.markt}%"></div></div>
+        <span class="rvm-val">${rvm.markt}%</span></div>
+      <div class="rvm-urteil">${rvm.urteil}</div>
+    </div>` : "";
 
   const newsHtml = (r.news || []).length
     ? r.news.map(n => `<div class="news-item">
@@ -330,6 +427,24 @@ function buildCard(r, i) {
        </div>`
     : `<div class="no-chart">Kein Chart verfügbar</div>`;
 
+  // Verlauf (historische Empfehlungen dieses Tickers)
+  const evalMap = {};
+  (DATA.history_evaluated || []).forEach(e => {
+    evalMap[e.ts + e.ticker] = e;
+  });
+  const verlaufRows = (r.verlauf || []).slice().reverse().map(v => {
+    const ev = evalMap[v.ts + v.ticker];
+    const date = new Date(v.ts).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+    const perf = ev ? `<span class="${ev.chg_since >= 0 ? "delta-up" : "delta-down"}">${ev.chg_since >= 0 ? "+" : ""}${ev.chg_since}%</span>
+      <span class="v-ok">${ev.correct ? "✅" : "❌"}</span>` : "";
+    return `<div class="v-row">
+      <span class="v-date">${date}</span>
+      <span class="v-rec ${v.rec}">${v.rec}</span>
+      <span>Conf. ${v.confidence}%</span>
+      <span>Score ${v.engagement}</span>
+      ${perf}</div>`;
+  }).join("");
+
   const card = document.createElement("div");
   card.className = "card";
   card.style.animationDelay = (i * 0.06) + "s";
@@ -340,6 +455,7 @@ function buildCard(r, i) {
         <div class="ticker-line">
           <span class="ticker">${r.ticker}</span>
           <span class="company">${r.name || ""}</span>
+          <span class="grade-badge" title="Signalqualität">${r.quality_grade || "–"}</span>
         </div>
         <div class="price-line">
           <span class="price">${p.available ? fmt(p.price, p.currency) : "–"}</span>${chgHtml}
@@ -362,11 +478,15 @@ function buildCard(r, i) {
     </div>
 
     <div class="reddit-box">
-      <div class="rb-head"><span class="rb-title">🔥 Reddit-Signal</span></div>
+      <div class="rb-head">
+        <span class="rb-title">🔥 Reddit-Signal</span>
+        <span class="hype-badge ${hypeTyp}">${hypeLabel}</span>
+      </div>
       <div class="rb-metrics">
         <span class="metric"><b>${r.mentions}</b> Mentions ${deltaHtml}</span>
         <span class="metric">Sentiment <b>${r.sentiment >= 0 ? "+" : ""}${r.sentiment}</b></span>
         <span class="metric">Score <b>${r.engagement}</b></span>
+        <span class="metric">Qualität <b>${r.quality_grade || "–"}</b></span>
         <span class="metric">r/${(r.sources || []).join(", r/")}</span>
       </div>
       <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
@@ -384,6 +504,24 @@ function buildCard(r, i) {
       </div>
     </div>
 
+    <div class="momentum-box">
+      <div>
+        <div class="mo-title">🚀 Reddit Momentum</div>
+        ${tlHtml}
+      </div>
+      <div>
+        <div class="mo-score-line">
+          <span class="mo-score">${r.momentum ?? "–"}</span>
+          <span class="mo-max">/ 100</span>
+          ${growthHtml}
+        </div>
+        <div class="mo-label">${r.momentum_label || ""}</div>
+        <div class="hype-reason">${r.hype_begruendung || ""}</div>
+        <div class="gruende-title">📈 Gründe für die Aufmerksamkeit</div>
+        ${gruende ? `<ul class="gruende">${gruende}</ul>` : `<div class="no-data">–</div>`}
+      </div>
+    </div>
+
     <div class="mid">
       <div class="market-box">
         <div class="mb-head">
@@ -391,6 +529,7 @@ function buildCard(r, i) {
           <span class="verdict-badge ${verdict}">${verdictLabel}</span>
         </div>
         <ul class="comp-points">${compPoints}</ul>
+        ${rvmHtml}
       </div>
       <div class="chart-card">${chartArea}</div>
     </div>
@@ -401,9 +540,16 @@ function buildCard(r, i) {
     </div>
 
     <div class="fazit">
-      <div class="fazit-title">💡 KI-Einschätzung</div>
+      <div class="fazit-title">💡 KI-Einschätzung
+        ${r.fazit_quelle ? `<span style="font-weight:500;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:6px;">· ${r.fazit_quelle}</span>` : ""}
+      </div>
       <div class="fazit-text">${r.fazit || "–"}</div>
-    </div>`;
+    </div>
+
+    ${verlaufRows ? `<details class="verlauf">
+      <summary>Empfehlungs-Historie für ${r.ticker}</summary>
+      <div class="verlauf-body">${verlaufRows}</div>
+    </details>` : ""}`;
   return card;
 }
 
@@ -414,28 +560,20 @@ function drawChart(ticker, series, isUp) {
   const color = isUp ? "#34d399" : "#f87171";
   charts[ticker] = new Chart(el, {
     type: "line",
-    data: {
-      labels: series.map(p => p.t),
-      datasets: [{
-        data: series.map(p => p.c),
-        borderColor: color, borderWidth: 2, fill: true,
+    data: { labels: series.map(p => p.t),
+      datasets: [{ data: series.map(p => p.c), borderColor: color, borderWidth: 2, fill: true,
         backgroundColor: (ctx) => {
           const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, 82);
           g.addColorStop(0, color + "30"); g.addColorStop(1, color + "00");
           return g;
-        },
-        pointRadius: 0, tension: 0.35,
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
+        }, pointRadius: 0, tension: 0.35 }] },
+    options: { responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false },
         tooltip: { enabled: true, displayColors: false,
           callbacks: { title: () => "", label: (c) => c.parsed.y } } },
       scales: { x: { display: false }, y: { display: false } },
       animation: { duration: 450 },
-      interaction: { intersect: false, mode: "index" },
-    }
+      interaction: { intersect: false, mode: "index" } }
   });
 }
 
