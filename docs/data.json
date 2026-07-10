@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T02:18:41.931988+00:00",
+  "generated_at": "2026-07-10T02:35:26.642284+00:00",
   "total_posts": 250,
-  "unique_tickers": 157,
+  "unique_tickers": 156,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,7 +33,7 @@
       "confidence": 79,
       "sentiment": 4,
       "mentions": 12,
-      "mentions_delta": 0,
+      "mentions_delta": 12,
       "engagement": 24,
       "sources": [
         "wallstreetbets",
@@ -411,16 +411,16 @@
       },
       "news": [
         {
-          "title": "Louis Navellier flags three top tech stocks for market growth",
-          "link": "https://www.thestreet.com/investing/louis-navellier-flags-three-top-tech-stocks-for-market-growth?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "pos"
-        },
-        {
           "title": "Dow Jones Futures: Micron, Sandisk Jump As Nasdaq Tops Key Level; Delta, Taiwan Semi, SK Hynix Due",
           "link": "https://finance.yahoo.com/m/6e8baca0-b324-3166-b745-36b306c19567/dow-jones-futures%3A-micron%2C.html?.tsrc=rss",
           "date": "Fri, 10 Jul 2026",
           "tone": "neu"
+        },
+        {
+          "title": "Louis Navellier flags three top tech stocks for market growth",
+          "link": "https://www.thestreet.com/investing/louis-navellier-flags-three-top-tech-stocks-for-market-growth?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "pos"
         },
         {
           "title": "7 Times Oversubscribed. Why Wall Street Is Wild for SK Hynix.",
@@ -438,7 +438,43 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell deutlich bullisch (12 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Der Kurs liegt -5.49% unter dem 20-Tage-Schnitt – technisch angeschlagen, aber potenzielle Einstiegszone. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell deutlich bullisch (12 Mentions mit steigender Dynamik (+12 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +12 gegenüber dem letzten Scan",
+        "Diskussionsthema: Hands",
+        "Diskussionsthema: Down",
+        "News: Louis Navellier flags three top tech stocks for market growth",
+        "Buy"
+      ],
+      "momentum": 61,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 12
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "A",
+      "quality_pct": 79,
+      "reddit_vs_markt": {
+        "reddit": 61,
+        "markt": 34,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 79,
+          "engagement": 24,
+          "price": 991.64
+        }
+      ]
     },
     {
       "ticker": "SK",
@@ -448,7 +484,7 @@
       "confidence": 50,
       "sentiment": -1,
       "mentions": 5,
-      "mentions_delta": 0,
+      "mentions_delta": 5,
       "engagement": 14,
       "sources": [
         "wallstreetbets",
@@ -485,7 +521,42 @@
           "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
         ]
       },
-      "fazit": "Reddit diskutiert SK aktuell gemischt (5 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert SK aktuell gemischt (5 Mentions mit steigender Dynamik (+5 Mentions)). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +5 gegenüber dem letzten Scan",
+        "Diskussionsthema: Hynix",
+        "Diskussionsthema: Tomorrow",
+        "Buy"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 5
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "C",
+      "quality_pct": 48,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 50,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 50,
+          "engagement": 14,
+          "price": null
+        }
+      ]
     },
     {
       "ticker": "INTC",
@@ -495,7 +566,7 @@
       "confidence": 63,
       "sentiment": 6,
       "mentions": 5,
-      "mentions_delta": 0,
+      "mentions_delta": 5,
       "engagement": 11,
       "sources": [
         "wallstreetbets",
@@ -894,7 +965,42 @@
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Reddit diskutiert Intel Corporation aktuell deutlich bullisch (5 Mentions). Der Marktabgleich widerspricht jedoch: Kursverlauf und Momentum passen nicht zur Reddit-Stimmung – erhöhtes Hype-Risiko. Der Kurs liegt -9.56% unter dem 20-Tage-Schnitt – technisch angeschlagen, aber potenzielle Einstiegszone. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert Intel Corporation aktuell deutlich bullisch (5 Mentions mit steigender Dynamik (+5 Mentions)). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +5 gegenüber dem letzten Scan",
+        "Diskussionsthema: Trump",
+        "Diskussionsthema: INTC",
+        "Buy"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 5
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "B",
+      "quality_pct": 62,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 4,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "INTC",
+          "rec": "beobachten",
+          "confidence": 63,
+          "engagement": 11,
+          "price": 112.54
+        }
+      ]
     },
     {
       "ticker": "DTE",
@@ -904,7 +1010,7 @@
       "confidence": 64,
       "sentiment": -2,
       "mentions": 3,
-      "mentions_delta": 0,
+      "mentions_delta": 3,
       "engagement": 7,
       "sources": [
         "wallstreetbets"
@@ -1302,7 +1408,42 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert DTE Energy Company aktuell bearisch (3 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert DTE Energy Company aktuell bearisch (3 Mentions mit steigender Dynamik (+3 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +3 gegenüber dem letzten Scan",
+        "Diskussionsthema: Warning",
+        "Diskussionsthema: Hobby",
+        "Buy"
+      ],
+      "momentum": 57,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "D",
+      "quality_pct": 34,
+      "reddit_vs_markt": {
+        "reddit": 57,
+        "markt": 46,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 149.27
+        }
+      ]
     },
     {
       "ticker": "IBM",
@@ -1312,7 +1453,7 @@
       "confidence": 78,
       "sentiment": 2,
       "mentions": 3,
-      "mentions_delta": 0,
+      "mentions_delta": 3,
       "engagement": 7,
       "sources": [
         "wallstreetbets",
@@ -1714,7 +1855,42 @@
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Reddit diskutiert International Business Machines Corporation aktuell bullisch (3 Mentions). Die Marktdaten stützen die Reddit-Stimmung: Kursverlauf und Momentum zeigen in dieselbe Richtung. Kurzfristig notiert der Kurs +7.02% über dem 20-Tage-Schnitt – eine Konsolidierung ist möglich. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement."
+      "fazit": "Reddit diskutiert International Business Machines Corporation aktuell bullisch (3 Mentions mit steigender Dynamik (+3 Mentions)). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +3 gegenüber dem letzten Scan",
+        "Diskussionsthema: Starbucks",
+        "Diskussionsthema: Taps",
+        "Long"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "C",
+      "quality_pct": 40,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 62,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "IBM",
+          "rec": "kaufen",
+          "confidence": 78,
+          "engagement": 7,
+          "price": 295.3
+        }
+      ]
     },
     {
       "ticker": "ICE",
@@ -1724,7 +1900,7 @@
       "confidence": 78,
       "sentiment": 2,
       "mentions": 3,
-      "mentions_delta": 0,
+      "mentions_delta": 3,
       "engagement": 5,
       "sources": [
         "TrumpsTrades"
@@ -2120,7 +2296,42 @@
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Reddit diskutiert Intercontinental Exchange, Inc. aktuell bullisch (3 Mentions). Die Marktdaten stützen die Reddit-Stimmung: Kursverlauf und Momentum zeigen in dieselbe Richtung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement."
+      "fazit": "Reddit diskutiert Intercontinental Exchange, Inc. aktuell bullisch (3 Mentions mit steigender Dynamik (+3 Mentions)). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +3 gegenüber dem letzten Scan",
+        "Diskussionsthema: Trump",
+        "Diskussionsthema: Said",
+        "Bullish"
+      ],
+      "momentum": 57,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "D",
+      "quality_pct": 34,
+      "reddit_vs_markt": {
+        "reddit": 57,
+        "markt": 76,
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "ICE",
+          "rec": "kaufen",
+          "confidence": 78,
+          "engagement": 5,
+          "price": 135.11
+        }
+      ]
     },
     {
       "ticker": "AAPL",
@@ -2130,7 +2341,7 @@
       "confidence": 55,
       "sentiment": 0,
       "mentions": 2,
-      "mentions_delta": 0,
+      "mentions_delta": 2,
       "engagement": 8,
       "sources": [
         "wallstreetbets"
@@ -2532,7 +2743,43 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Apple Inc. aktuell gemischt (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Kurzfristig notiert der Kurs +6.5% über dem 20-Tage-Schnitt – eine Konsolidierung ist möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert Apple Inc. aktuell gemischt (2 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +2 gegenüber dem letzten Scan",
+        "Diskussionsthema: Hands",
+        "Diskussionsthema: Down",
+        "News: Small Cap ETFs Are Beating the S 500 as the Mag 7 Stumble",
+        "Erholungs-These"
+      ],
+      "momentum": 57,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 2
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "D",
+      "quality_pct": 15,
+      "reddit_vs_markt": {
+        "reddit": 57,
+        "markt": 79,
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 55,
+          "engagement": 8,
+          "price": 316.22
+        }
+      ]
     },
     {
       "ticker": "GOOG",
@@ -2542,7 +2789,7 @@
       "confidence": 61,
       "sentiment": 2,
       "mentions": 2,
-      "mentions_delta": 0,
+      "mentions_delta": 2,
       "engagement": 6,
       "sources": [
         "wallstreetbets",
@@ -2940,7 +3187,43 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Alphabet Inc. aktuell bullisch (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert Alphabet Inc. aktuell bullisch (2 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +2 gegenüber dem letzten Scan",
+        "Diskussionsthema: Apple",
+        "Diskussionsthema: Announces",
+        "News: Small Cap ETFs Are Beating the S 500 as the Mag 7 Stumble",
+        "Long"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 2
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "D",
+      "quality_pct": 34,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 48,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "GOOG",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 6,
+          "price": 356.24
+        }
+      ]
     },
     {
       "ticker": "MSFT",
@@ -2950,7 +3233,7 @@
       "confidence": 58,
       "sentiment": -1,
       "mentions": 2,
-      "mentions_delta": 0,
+      "mentions_delta": 2,
       "engagement": 5,
       "sources": [
         "wallstreetbets",
@@ -3348,7 +3631,43 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Microsoft Corporation aktuell gemischt (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert Microsoft Corporation aktuell gemischt (2 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +2 gegenüber dem letzten Scan",
+        "Diskussionsthema: MSFT",
+        "Diskussionsthema: Hands",
+        "News: Small Cap ETFs Are Beating the S 500 as the Mag 7 Stumble",
+        "Erholungs-These"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 2
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "D",
+      "quality_pct": 23,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 50,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "MSFT",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 384.36
+        }
+      ]
     },
     {
       "ticker": "NVDA",
@@ -3358,7 +3677,7 @@
       "confidence": 58,
       "sentiment": -1,
       "mentions": 2,
-      "mentions_delta": 0,
+      "mentions_delta": 2,
       "engagement": 5,
       "sources": [
         "wallstreetbets",
@@ -3731,16 +4050,16 @@
       },
       "news": [
         {
-          "title": "Louis Navellier flags three top tech stocks for market growth",
-          "link": "https://www.thestreet.com/investing/louis-navellier-flags-three-top-tech-stocks-for-market-growth?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "pos"
-        },
-        {
           "title": "Dow Jones Futures: Micron, Sandisk Jump As Nasdaq Tops Key Level; Delta, Taiwan Semi, SK Hynix Due",
           "link": "https://finance.yahoo.com/m/6e8baca0-b324-3166-b745-36b306c19567/dow-jones-futures%3A-micron%2C.html?.tsrc=rss",
           "date": "Fri, 10 Jul 2026",
           "tone": "neu"
+        },
+        {
+          "title": "Louis Navellier flags three top tech stocks for market growth",
+          "link": "https://www.thestreet.com/investing/louis-navellier-flags-three-top-tech-stocks-for-market-growth?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "pos"
         },
         {
           "title": "Chip titan SK hynix raises $26.5 bn in blockbuster US listing",
@@ -3756,7 +4075,53 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell gemischt (2 Mentions). Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg."
+      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell gemischt (2 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "gruende": [
+        "Mentions +2 gegenüber dem letzten Scan",
+        "Diskussionsthema: Hands",
+        "Diskussionsthema: Down",
+        "News: Louis Navellier flags three top tech stocks for market growth",
+        "Erholungs-These"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": null,
+      "timeline": [
+        {
+          "day": "2026-07-10",
+          "mentions": 2
+        }
+      ],
+      "hype_typ": "unklar",
+      "hype_begruendung": "Noch zu wenig Verlaufsdaten für eine klare Einstufung.",
+      "quality_grade": "D",
+      "quality_pct": 26,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 60,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-10T02:35:26.642284+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 202.78
+        }
+      ]
     }
-  ]
+  ],
+  "stats": {
+    "hit_rate": null,
+    "n_evaluated": 0,
+    "rate_kaufen": null,
+    "rate_verkaufen": null,
+    "rate_beobachten": null,
+    "kauf_perf_7d": null,
+    "kauf_perf_30d": null
+  },
+  "history_evaluated": []
 }
