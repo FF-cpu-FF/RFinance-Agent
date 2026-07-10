@@ -1,12 +1,13 @@
 """
-Reddit Finanz-Agent v3 – scraper.py
-Reddit bleibt Primärquelle. Neu in v3:
-  - Themen-Extraktion ("Warum diskutiert Reddit diese Aktie?")
-  - Bull Case / Bear Case aus den Posts
-  - Confidence Score (0-100)
-  - News-Einstufung (positiv/neutral/negativ)
-  - Automatisches KI-Fazit (regelbasiert formuliert)
-Läuft via GitHub Actions. Nutzt REDDIT_FEED_URL Secret.
+Reddit Finanz-Agent v5 – scraper.py
+v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
+  - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
+  - Momentum Score (0-100) aus Diskussions-Wachstum
+  - Hype vs. nachhaltiger Trend Einstufung
+  - "Gründe für den Anstieg" (KI-generiert, mit Fallback)
+  - Signal Quality Grade (A+ bis D) inkl. Meme-Erkennung
+  - Reddit vs. Markt Vergleich
+  - Historische Empfehlungen + Performance-Auswertung + Trefferquote
 """
 
 import json
@@ -29,11 +30,13 @@ SUBREDDITS = [
     "wallstreetbetsGER",
 ]
 
-SORT   = "hot"
-LIMIT  = 50
-OUTPUT = "docs/data.json"
-TOP_N  = 10
-UA     = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/3.0)"}
+SORT    = "hot"
+LIMIT   = 50
+OUTPUT  = "docs/data.json"
+HISTORY = "docs/history.json"
+TOP_N   = 10
+MAX_HIST_PRICE_FETCH = 12   # max. Kursabrufe für historische Auswertung
+UA      = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/5.0)"}
 
 SKIP = {
     "DD","YOLO","WSB","ETF","CEO","IPO","FDA","GDP","EUR","USD","GBP","CHF",
@@ -62,7 +65,6 @@ BEAR_KW = ["short","puts","bearish","crash","sell","verkauf","fällt","drop",
     "breakdown","decline","falling","schwach","warnung","verlust","miss",
     "verfehlt","gewinnwarnung","pleite","insolvenz","bagholder"]
 
-# Lesbare Labels für Bull/Bear-Cases
 KW_LABELS = {
     "squeeze": "Short-Squeeze-Spekulation", "moon": "Kursfantasie", "rocket": "Kursfantasie",
     "breakout": "Chart-Ausbruch", "ausbruch": "Chart-Ausbruch",
@@ -81,7 +83,6 @@ KW_LABELS = {
     "verlust": "Verlust-Meldungen", "warnung": "Warnende Stimmen",
 }
 
-# Stopwörter für Themen-Extraktion
 TOPIC_STOP = {
     "the","and","for","with","this","that","from","have","will","been","they",
     "what","when","your","just","like","about","after","into","over","than",
@@ -203,6 +204,12 @@ def fetch_price_data(ticker):
     return out
 
 
+def quick_price(ticker):
+    """Nur aktueller Kurs – für historische Performance-Auswertung."""
+    series, _ = yahoo_chart(ticker, "5d", "1d")
+    return series[-1]["c"] if series else None
+
+
 # ── News ─────────────────────────────────────────────────────────────────────
 
 def classify_headline(title):
@@ -228,10 +235,8 @@ def fetch_news(ticker, max_items=3):
             link  = item.findtext("link", "")
             pub   = item.findtext("pubDate", "")
             if title:
-                items.append({
-                    "title": title[:140], "link": link,
-                    "date": pub[:16], "tone": classify_headline(title),
-                })
+                items.append({"title": title[:140], "link": link,
+                              "date": pub[:16], "tone": classify_headline(title)})
             if len(items) >= max_items:
                 break
         return items
@@ -239,10 +244,9 @@ def fetch_news(ticker, max_items=3):
         return []
 
 
-# ── Analyse-Bausteine ────────────────────────────────────────────────────────
+# ── Analyse-Bausteine (v3/v4) ────────────────────────────────────────────────
 
 def extract_topics(titles, max_topics=4):
-    """Häufigste sinnvolle Wörter aus den Post-Titeln = Diskussionsthemen."""
     words = []
     for title in titles:
         for w in re.findall(r"[A-Za-zÄÖÜäöüß\-]{4,}", title):
@@ -250,7 +254,6 @@ def extract_topics(titles, max_topics=4):
             if wl not in TOPIC_STOP and not wl.isupper():
                 words.append(w if w[0].isupper() else wl)
     common = Counter(w.lower() for w in words).most_common(max_topics)
-    # Original-Schreibweise bevorzugen
     result = []
     for word, _ in common:
         original = next((w for w in words if w.lower() == word), word)
@@ -318,8 +321,8 @@ def build_comparison(sentiment, price):
 
 def compute_confidence(mentions, sentiment, verdict, price_available):
     score = 45
-    score += min(mentions * 3, 18)             # Diskussionsbreite
-    score += min(abs(sentiment) * 3, 15)       # Signalstärke
+    score += min(mentions * 3, 18)
+    score += min(abs(sentiment) * 3, 15)
     score += {"bestätigt": 18, "relativiert": 4,
               "widerspricht": -12, "unbekannt": -8}.get(verdict, 0)
     if not price_available:
@@ -336,7 +339,6 @@ def final_recommendation(sentiment, verdict):
 
 
 def build_fazit(ticker, name, sentiment, verdict, rec, price, mentions, delta):
-    """Regelbasiert formuliertes KI-Fazit (3-4 Sätze)."""
     s = []
     mood = ("deutlich bullisch" if sentiment > 3 else "bullisch" if sentiment > 1
             else "deutlich bearisch" if sentiment < -3 else "bearisch" if sentiment < -1
@@ -346,20 +348,13 @@ def build_fazit(ticker, name, sentiment, verdict, rec, price, mentions, delta):
     s.append(f"Reddit diskutiert {name or ticker} aktuell {mood} ({mentions} Mentions{trend}).")
 
     if verdict == "bestätigt":
-        s.append("Die Marktdaten stützen die Reddit-Stimmung: Kursverlauf und Momentum zeigen in dieselbe Richtung.")
+        s.append("Die Marktdaten stützen die Reddit-Stimmung.")
     elif verdict == "widerspricht":
-        s.append("Der Marktabgleich widerspricht jedoch: Kursverlauf und Momentum passen nicht zur Reddit-Stimmung – erhöhtes Hype-Risiko.")
+        s.append("Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko.")
     elif verdict == "relativiert":
-        s.append("Der Marktabgleich liefert kein klares Bild – die externe Lage relativiert das Reddit-Signal.")
+        s.append("Der Marktabgleich liefert kein klares Bild.")
     else:
         s.append("Ein Marktabgleich war mangels Kursdaten nicht möglich.")
-
-    if price.get("available"):
-        sma = price["sma20_dist"]
-        if sma > 5:
-            s.append(f"Kurzfristig notiert der Kurs {sma:+}% über dem 20-Tage-Schnitt – eine Konsolidierung ist möglich.")
-        elif sma < -5:
-            s.append(f"Der Kurs liegt {sma:+}% unter dem 20-Tage-Schnitt – technisch angeschlagen, aber potenzielle Einstiegszone.")
 
     advice = {"kaufen": "Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
               "verkaufen": "Insgesamt spricht die Lage eher für Zurückhaltung oder Gewinnmitnahmen.",
@@ -368,24 +363,249 @@ def build_fazit(ticker, name, sentiment, verdict, rec, price, mentions, delta):
     return " ".join(s)
 
 
-def load_previous_mentions():
+# ── v5: Hype Engine ──────────────────────────────────────────────────────────
+
+def load_history():
     try:
-        with open(OUTPUT, encoding="utf-8") as f:
-            prev = json.load(f)
-        return {r["ticker"]: r.get("mentions", 0)
-                for r in prev.get("recommendations", [])}
+        with open(HISTORY, encoding="utf-8") as f:
+            h = json.load(f)
+        h.setdefault("scans", [])
+        h.setdefault("recommendations", [])
+        return h
     except Exception:
-        return {}
+        return {"scans": [], "recommendations": []}
+
+
+def mention_timeline(history, ticker, days=4):
+    """Tages-Timeline: pro Tag der höchste Mentions-Wert (inkl. heute)."""
+    by_day = {}
+    for scan in history["scans"]:
+        day = scan["ts"][:10]
+        m = scan.get("tickers", {}).get(ticker, {}).get("mentions", 0)
+        by_day[day] = max(by_day.get(day, 0), m)
+    ordered = sorted(by_day.items())[-days:]
+    return [{"day": d, "mentions": m} for d, m in ordered]
+
+
+def momentum_score(timeline, n_subs):
+    if len(timeline) < 2:
+        base = 55  # neu aufgetaucht = per se spannend, aber keine Historie
+        growth = None
+    else:
+        today = timeline[-1]["mentions"]
+        prev_avg = max(1.0, sum(t["mentions"] for t in timeline[:-1]) / (len(timeline) - 1))
+        growth = round((today - prev_avg) / prev_avg * 100)
+        base = 50 + max(-40, min(40, growth / 4))
+    base += min(n_subs * 2, 10)
+    return int(max(0, min(100, base))), growth
+
+
+def momentum_label(score):
+    if score >= 80: return "🚀 Diskussion wächst extrem schnell"
+    if score >= 60: return "📈 Diskussion nimmt deutlich zu"
+    if score >= 40: return "➡️ Diskussion stabil"
+    return "📉 Diskussion nimmt bereits wieder ab"
+
+
+def classify_hype(timeline, momentum):
+    days_present = sum(1 for t in timeline if t["mentions"] > 0)
+    if momentum >= 65 and days_present <= 2:
+        return ("hype", "Diskussion ist sehr jung und wächst schnell – "
+                        "typisches Muster für kurzfristigen Hype.")
+    if days_present >= 3 and momentum >= 40:
+        return ("trend", f"Aktie wird seit {days_present} Tagen konstant diskutiert – "
+                         "spricht eher für eine nachhaltige Story.")
+    if momentum < 40 and days_present >= 2:
+        return ("unklar", "Diskussion flacht ab – Momentum ist rückläufig.")
+    return ("unklar", "Noch zu wenig Verlaufsdaten für eine klare Einstufung.")
+
+
+def signal_quality(mentions, delta, sentiment, n_subs, titles):
+    score = 0.0
+    score += min(mentions, 15)
+    score += min(max(delta, 0) * 2, 10)
+    score += min(abs(sentiment) * 2, 10)
+    score += min(n_subs * 3, 12)
+    joined = " ".join(titles)
+    memes = (joined.count("🚀") + joined.count("💎") + joined.count("🌕")
+             + joined.count("🦍") + joined.count("😱")
+             + sum(1 for w in joined.split() if w.isupper() and len(w) > 3 and w.isalpha()))
+    score -= min(memes * 1.5, 12)
+    pct = int(max(0, min(100, score / 47 * 100)))
+    grade = ("A+" if pct >= 85 else "A" if pct >= 70 else
+             "B" if pct >= 55 else "C" if pct >= 40 else "D")
+    return grade, pct, memes
+
+
+def reddit_vs_markt(momentum, price):
+    reddit_pct = momentum
+    if price.get("available"):
+        markt_pct = int(max(0, min(100, 50 + price["chg_7d"] * 4)))
+    else:
+        markt_pct = 50
+    if reddit_pct - markt_pct >= 15:
+        urteil = "🟢 Reddit erkennt den Trend früher als der Markt"
+    elif markt_pct - reddit_pct >= 15:
+        urteil = "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
+    else:
+        urteil = "🟡 Reddit und Markt laufen weitgehend synchron"
+    return {"reddit": reddit_pct, "markt": markt_pct, "urteil": urteil}
+
+
+def anstieg_gruende_fallback(topics, news, delta, bull_case):
+    gruende = []
+    if delta > 0:
+        gruende.append(f"Mentions +{delta} gegenüber dem letzten Scan")
+    for t in topics[:2]:
+        gruende.append(f"Diskussionsthema: {t}")
+    for n in (news or [])[:2]:
+        if n.get("tone") in ("pos", "neg"):
+            gruende.append(f"News: {n['title'][:70]}")
+    for b in bull_case[:1]:
+        gruende.append(b)
+    return gruende[:5] or ["Keine eindeutigen Auslöser erkennbar"]
+
+
+# ── v5: Historie & Performance ───────────────────────────────────────────────
+
+def evaluate_performance(history, current_price_map):
+    """Bewertet vergangene Empfehlungen ab 7 Tagen Alter."""
+    now = datetime.now(timezone.utc)
+    needed = []
+    for rec in history["recommendations"]:
+        if rec.get("price") and rec["ticker"] not in current_price_map:
+            needed.append(rec["ticker"])
+    fetched = 0
+    for t in dict.fromkeys(needed):
+        if fetched >= MAX_HIST_PRICE_FETCH:
+            break
+        p = quick_price(t)
+        time.sleep(0.6)
+        fetched += 1
+        if p:
+            current_price_map[t] = p
+
+    evaluated, stats = [], {"kaufen": [0, 0], "verkaufen": [0, 0], "beobachten": [0, 0]}
+    perf_7d, perf_30d = [], []
+
+    for rec in history["recommendations"]:
+        ts = rec.get("ts", "")
+        try:
+            age_days = (now - datetime.fromisoformat(ts)).days
+        except Exception:
+            continue
+        cur = current_price_map.get(rec["ticker"])
+        if not rec.get("price") or not cur or age_days < 7:
+            continue
+        chg = round((cur - rec["price"]) / rec["price"] * 100, 2)
+        r = rec["rec"]
+        correct = ((r == "kaufen" and chg >= 2) or
+                   (r == "verkaufen" and chg <= -2) or
+                   (r == "beobachten" and -5 <= chg <= 5))
+        stats[r][0] += 1 if correct else 0
+        stats[r][1] += 1
+        if r == "kaufen":
+            if 7 <= age_days < 21:
+                perf_7d.append(chg)
+            elif age_days >= 21:
+                perf_30d.append(chg)
+        evaluated.append({**rec, "chg_since": chg, "correct": correct,
+                          "age_days": age_days})
+
+    total_ok  = sum(s[0] for s in stats.values())
+    total_all = sum(s[1] for s in stats.values())
+
+    def rate(pair):
+        return round(pair[0] / pair[1] * 100) if pair[1] else None
+
+    def avg(lst):
+        return round(sum(lst) / len(lst), 1) if lst else None
+
+    return evaluated, {
+        "hit_rate":        round(total_ok / total_all * 100) if total_all else None,
+        "n_evaluated":     total_all,
+        "rate_kaufen":     rate(stats["kaufen"]),
+        "rate_verkaufen":  rate(stats["verkaufen"]),
+        "rate_beobachten": rate(stats["beobachten"]),
+        "kauf_perf_7d":    avg(perf_7d),
+        "kauf_perf_30d":   avg(perf_30d),
+    }
+
+
+# ── v5: KI über GitHub Models ────────────────────────────────────────────────
+
+def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
+                delta, topics, bull_case, bear_case, titles, news,
+                momentum, growth, hype_typ):
+    """KI-Fazit + Gründe für den Anstieg als JSON. None bei Fehler."""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if not token:
+        return None
+
+    kurs_info = "Keine Kursdaten."
+    if price.get("available"):
+        kurs_info = (f"Kurs {price['price']} {price.get('currency','')}, "
+                     f"24h {price['chg_1d']:+}%, 7T {price['chg_7d']:+}%, "
+                     f"1M {price['chg_1mo']:+}%")
+    news_info = "; ".join(n["title"] for n in (news or [])[:3]) or "Keine News."
+    growth_info = f"{growth:+}% Mentions-Wachstum vs. Vortage" if growth is not None else "keine Verlaufsdaten"
+
+    prompt = (
+        f"Du bist ein nüchterner Finanzanalyst. Analysiere {name or ticker} ({ticker}).\n\n"
+        f"Reddit: {mentions} Mentions (Δ {delta:+}), Sentiment {sentiment:+}, "
+        f"Momentum {momentum}/100 ({growth_info}), Einstufung: {hype_typ}. "
+        f"Themen: {', '.join(topics) or 'unklar'}. "
+        f"Bull: {', '.join(bull_case) or 'keine'}. Bear: {', '.join(bear_case) or 'keine'}. "
+        f"Beispiel-Post: \"{(titles or [''])[0]}\"\n"
+        f"Markt: {kurs_info}. Verdict: {verdict}. Empfehlung: {rec}.\n"
+        f"News: {news_info}\n\n"
+        f"Antworte NUR mit validem JSON ohne Markdown:\n"
+        f'{{"fazit": "3-4 Sätze Deutsch: 1) Warum Reddit diskutiert, '
+        f'2) ob Markt/News das stützen, 3) Einordnung der Empfehlung", '
+        f'"gruende": ["3-5 kurze Stichpunkte: wahrscheinlichste Auslöser für die aktuelle Aufmerksamkeit"]}}'
+    )
+
+    payload = json.dumps({
+        "model": "openai/gpt-4o-mini",
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 380,
+        "temperature": 0.4,
+    }).encode("utf-8")
+
+    try:
+        req = urllib.request.Request(
+            "https://models.github.ai/inference/chat/completions",
+            data=payload, method="POST",
+            headers={"Authorization": f"Bearer {token}",
+                     "Content-Type": "application/json",
+                     "User-Agent": "FinanzAgent/5.0"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode())
+        text = data["choices"][0]["message"]["content"].strip()
+        text = re.sub(r"^```(json)?|```$", "", text, flags=re.M).strip()
+        parsed = json.loads(text)
+        if isinstance(parsed.get("fazit"), str) and len(parsed["fazit"]) > 40:
+            return parsed
+        return None
+    except Exception as e:
+        print(f"    (KI nicht verfügbar: {e})")
+        return None
 
 
 # ── Hauptlogik ───────────────────────────────────────────────────────────────
 
 def run():
+    now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v3  |  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"Reddit Finanz-Agent v5  |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
-    prev_mentions = load_previous_mentions()
+    history = load_history()
+    prev_mentions = {}
+    if history["scans"]:
+        prev_mentions = {t: d.get("mentions", 0)
+                         for t, d in history["scans"][-1].get("tickers", {}).items()}
 
     ticker_data = defaultdict(lambda: {
         "bull": 0, "bear": 0, "mentions": 0, "engagement": 0,
@@ -407,7 +627,6 @@ def run():
             tickers   = extract_tickers(text)
             bull_hits = matched_keywords(text, BULL_KW)
             bear_hits = matched_keywords(text, BEAR_KW)
-
             for ticker in tickers:
                 d = ticker_data[ticker]
                 d["bull"]       += len(bull_hits)
@@ -423,6 +642,15 @@ def run():
                     if title:
                         d["titles"].append(title)
 
+    # Scan in Historie eintragen (VOR den Timeline-Berechnungen)
+    history["scans"].append({
+        "ts": now_iso,
+        "tickers": {t: {"mentions": d["mentions"],
+                        "sentiment": d["bull"] - d["bear"]}
+                    for t, d in ticker_data.items() if d["mentions"] >= 2},
+    })
+    history["scans"] = history["scans"][-250:]
+
     ranked = sorted(
         [(t, d) for t, d in ticker_data.items() if d["mentions"] >= 2],
         key=lambda x: x[1]["engagement"] + x[1]["mentions"] * 15,
@@ -431,6 +659,8 @@ def run():
 
     print(f"\nLade Kurse & News für Top {len(ranked)} Ticker...")
     recommendations = []
+    current_price_map = {}
+
     for ticker, d in ranked:
         net = d["bull"] - d["bear"]
         reddit_signal = "bullish" if net > 1 else "bearish" if net < -1 else "neutral"
@@ -439,6 +669,8 @@ def run():
         time.sleep(1)
         news = fetch_news(ticker) if price.get("available") else []
         time.sleep(1)
+        if price.get("available"):
+            current_price_map[ticker] = price["price"]
 
         comparison = build_comparison(net, price)
         rec        = final_recommendation(net, comparison["verdict"])
@@ -447,12 +679,41 @@ def run():
                                         comparison["verdict"], price.get("available", False))
         topics     = extract_topics(d["titles"])
         bull_case, bear_case = build_cases(d["bull_hits"], d["bear_hits"])
-        fazit      = build_fazit(ticker, price.get("name", ticker), net,
-                                 comparison["verdict"], rec, price,
-                                 d["mentions"], delta)
+
+        # Hype Engine
+        timeline          = mention_timeline(history, ticker)
+        momentum, growth  = momentum_score(timeline, len(d["sources"]))
+        hype_typ, hype_bg = classify_hype(timeline, momentum)
+        grade, q_pct, memes = signal_quality(d["mentions"], delta, net,
+                                             len(d["sources"]), d["titles"])
+        rvm               = reddit_vs_markt(momentum, price)
+
+        # KI-Analyse (Fazit + Gründe)
+        ai = ai_analysis(ticker, price.get("name", ticker), net,
+                         comparison["verdict"], rec, price, d["mentions"],
+                         delta, topics, bull_case, bear_case, d["titles"],
+                         news, momentum, growth, hype_typ)
+        if ai:
+            fazit, gruende, fazit_quelle = ai["fazit"], ai.get("gruende", []), "KI (GitHub Models)"
+        else:
+            fazit = build_fazit(ticker, price.get("name", ticker), net,
+                                comparison["verdict"], rec, price, d["mentions"], delta)
+            gruende = anstieg_gruende_fallback(topics, news, delta, bull_case)
+            fazit_quelle = "regelbasiert"
+
+        # Empfehlung in Historie
+        history["recommendations"].append({
+            "ts": now_iso, "ticker": ticker, "rec": rec,
+            "confidence": conf, "engagement": round(d["engagement"]),
+            "price": price.get("price"),
+        })
+
+        # Verlauf dieses Tickers für die Karte
+        verlauf = [r for r in history["recommendations"]
+                   if r["ticker"] == ticker][-6:]
 
         print(f"  {'✓' if price.get('available') else '○'} {ticker}: "
-              f"{rec} · {comparison['verdict']} · {conf}%")
+              f"{rec} · Momentum {momentum} · {grade} · {hype_typ}")
 
         recommendations.append({
             "ticker":         ticker,
@@ -473,27 +734,54 @@ def run():
             "news":           news,
             "comparison":     comparison,
             "fazit":          fazit,
+            "fazit_quelle":   fazit_quelle,
+            "gruende":        gruende,
+            "momentum":       momentum,
+            "momentum_label": momentum_label(momentum),
+            "growth_pct":     growth,
+            "timeline":       timeline,
+            "hype_typ":       hype_typ,
+            "hype_begruendung": hype_bg,
+            "quality_grade":  grade,
+            "quality_pct":    q_pct,
+            "reddit_vs_markt": rvm,
+            "verlauf":        verlauf,
         })
 
+    history["recommendations"] = history["recommendations"][-600:]
+
+    # Historische Performance auswerten
+    print("\nWerte historische Empfehlungen aus...")
+    evaluated, stats = evaluate_performance(history, current_price_map)
+    if stats["n_evaluated"]:
+        print(f"  ✓ {stats['n_evaluated']} Empfehlungen ausgewertet, "
+              f"Trefferquote {stats['hit_rate']}%")
+    else:
+        print("  ○ Noch keine auswertbaren Empfehlungen (mind. 7 Tage Historie nötig)")
+
     output = {
-        "generated_at":    datetime.now(timezone.utc).isoformat(),
+        "generated_at":    now_iso,
         "total_posts":     total_posts,
         "unique_tickers":  len(ticker_data),
         "subreddits":      sub_results,
         "recommendations": recommendations,
+        "stats":           stats,
+        "history_evaluated": evaluated[-40:],
     }
 
     os.makedirs("docs", exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+    with open(HISTORY, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False)
 
     print(f"\n{'='*50}")
     print(f"✓ {len(recommendations)} Empfehlungen → {OUTPUT}")
-    print(f"✓ {total_posts} Posts, {len(ticker_data)} Ticker")
+    print(f"✓ Historie: {len(history['scans'])} Scans, "
+          f"{len(history['recommendations'])} Empfehlungen → {HISTORY}")
     print(f"{'='*50}\n")
 
 
 if __name__ == "__main__":
     run()
-
 
