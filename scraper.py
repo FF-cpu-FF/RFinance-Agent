@@ -502,7 +502,7 @@ def fallback_themen(bull_hits, bear_hits, mentions):
         themen = [{"emoji": "💬", "titel": "Allgemeine Diskussion",
                    "anteil_pct": 100, "beitraege": mentions,
                    "erklaerung": "Kein dominantes Einzelthema erkennbar – breite Diskussion ohne klaren Auslöser."}]
-    return themen[:4]
+    return themen[:5]
 
 
 # ── v5: Historie & Performance ───────────────────────────────────────────────
@@ -601,8 +601,9 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         f'{{"fazit": "3-4 Sätze Deutsch: 1) Warum Reddit diskutiert, '
         f'2) ob Markt/News das stützen, 3) Einordnung der Empfehlung", '
         f'"gruende": ["3-5 kurze Stichpunkte: wahrscheinlichste Auslöser für die aktuelle Aufmerksamkeit"], '
-        f'"themen": [2-4 Objekte. Fasse die Post-Titel zu verständlichen Investment-Themen zusammen. '
-        f'NIEMALS einzelne Schlagwörter wie Buy/Warning/Stock als Thema. Format je Objekt: '
+        f'"themen": [3-5 Objekte. Fasse die Post-Titel zu klar verständlichen Investment-Thesen zusammen. '
+        f'VERBOTEN als Thementitel: einzelne generische Wörter wie Buy, Sell, Warning, Hobby, Stock, Aktie. '
+        f'Jeder Titel muss eine verständliche These sein (z.B. "AI-Speicherboom", "Bewertungs-Debatte"). Format je Objekt: '
         f'{{"emoji": "passendes Emoji", "titel": "kurzer verständlicher Thementitel (2-5 Wörter)", '
         f'"anteil_pct": geschätzter Anteil an der Diskussion in Prozent (Summe max 100), '
         f'"beitraege": geschätzte Anzahl Posts zu diesem Thema (Summe max {mentions}), '
@@ -740,10 +741,12 @@ def run():
         if ai:
             fazit, gruende, fazit_quelle = ai["fazit"], ai.get("gruende", []), "KI (GitHub Models)"
             themen = ai.get("themen", [])
-            # Validierung: nur saubere Themen-Objekte, keine rohen Tokens
+            GENERIC = {"buy","sell","warning","hobby","stock","aktie","stocks",
+                       "kaufen","verkaufen","news","reddit","diskussion"}
             themen = [t for t in themen
                       if isinstance(t, dict) and len(str(t.get("titel", ""))) > 7
-                      and t.get("erklaerung")][:4]
+                      and str(t.get("titel", "")).strip().lower() not in GENERIC
+                      and t.get("erklaerung")][:5]
             if not themen:
                 themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
         else:
@@ -837,4 +840,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
