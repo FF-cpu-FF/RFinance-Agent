@@ -34,7 +34,7 @@ SORT    = "hot"
 LIMIT   = 50
 OUTPUT  = "docs/data.json"
 HISTORY = "docs/history.json"
-TOP_N   = 10
+TOP_N   = 6
 MAX_HIST_PRICE_FETCH = 12   # max. Kursabrufe für historische Auswertung
 UA      = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/5.0)"}
 
