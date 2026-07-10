@@ -7,126 +7,178 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
-  --bg:        #0b0e14;
-  --bg2:       #12161f;
-  --bg3:       #1a2030;
-  --card:      #12161f;
-  --border:    rgba(255,255,255,0.07);
-  --text:      #e8eaf0;
-  --text2:     #8b93a7;
-  --text3:     #5a6377;
-  --green:     #34d399;
-  --green-bg:  rgba(52,211,153,0.12);
-  --red:       #f87171;
-  --red-bg:    rgba(248,113,113,0.12);
-  --yellow:    #fbbf24;
-  --yellow-bg: rgba(251,191,36,0.12);
-  --blue:      #60a5fa;
-  --blue-bg:   rgba(96,165,250,0.12);
-  --radius:    14px;
-  --mono:      'SF Mono','JetBrains Mono',monospace;
+  --bg:#0a0d13; --bg2:#11151e; --bg3:#191f2c; --card:#11151e;
+  --border:rgba(255,255,255,0.07); --border2:rgba(255,255,255,0.12);
+  --text:#eceef4; --text2:#98a0b3; --text3:#5c6579;
+  --green:#34d399; --green-bg:rgba(52,211,153,0.12);
+  --red:#f87171; --red-bg:rgba(248,113,113,0.12);
+  --yellow:#fbbf24; --yellow-bg:rgba(251,191,36,0.12);
+  --blue:#60a5fa; --blue-bg:rgba(96,165,250,0.10);
+  --orange:#fb923c;
+  --radius:16px; --mono:'SF Mono','JetBrains Mono',monospace;
 }
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
-  background: var(--bg); color: var(--text);
-  min-height: 100vh; padding: 2.5rem 1.25rem;
-}
-.wrap { max-width: 1080px; margin: 0 auto; }
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);
+  color:var(--text);min-height:100vh;padding:2.5rem 1.25rem}
+.wrap{max-width:1000px;margin:0 auto}
 
-header { display: flex; align-items: center; gap: 12px; margin-bottom: 2rem; flex-wrap: wrap; }
-header h1 { font-size: 24px; font-weight: 600; letter-spacing: -0.02em; }
-.badge-live { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600;
-  background: var(--green-bg); color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; }
+header{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem;flex-wrap:wrap}
+header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
+.badge-live{font-size:10.5px;padding:4px 12px;border-radius:20px;font-weight:700;
+  background:var(--green-bg);color:var(--green);text-transform:uppercase;letter-spacing:0.07em}
 
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 1.5rem; }
-.stat { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.2rem; }
-.stat-label { font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 6px; }
-.stat-val { font-size: 26px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.stat-sub { font-size: 11px; color: var(--text3); margin-top: 3px; }
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:1.25rem}
+.stat{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:0.85rem 1.05rem}
+.stat-label{font-size:10.5px;color:var(--text3);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:5px}
+.stat-val{font-size:23px;font-weight:650;font-variant-numeric:tabular-nums}
+.stat-sub{font-size:10.5px;color:var(--text3);margin-top:2px}
 
-.subs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.75rem; }
-.sub-pill { font-size: 12px; padding: 6px 14px; border-radius: 20px; background: var(--bg2);
-  border: 1px solid var(--border); color: var(--text2); display: flex; align-items: center; gap: 6px; }
-.sub-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
-.sub-pill .dot.off { background: var(--text3); }
+.subs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:1.25rem}
+.sub-pill{font-size:11.5px;padding:5px 12px;border-radius:20px;background:var(--bg2);
+  border:1px solid var(--border);color:var(--text2);display:flex;align-items:center;gap:6px}
+.sub-pill .dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
+.sub-pill .dot.off{background:var(--text3)}
 
-.toolbar { display: flex; gap: 10px; margin-bottom: 2rem; align-items: center; flex-wrap: wrap; }
-.btn { font-size: 13px; padding: 8px 18px; border-radius: 10px; border: 1px solid var(--border);
-  background: var(--bg2); color: var(--text); cursor: pointer; transition: all 0.15s; }
-.btn:hover { background: var(--bg3); border-color: rgba(255,255,255,0.15); }
-.updated { font-size: 12px; color: var(--text3); }
+.toolbar{display:flex;gap:10px;margin-bottom:1.75rem;align-items:center;flex-wrap:wrap}
+.btn{font-size:12.5px;padding:8px 17px;border-radius:10px;border:1px solid var(--border);
+  background:var(--bg2);color:var(--text);cursor:pointer;transition:all .15s}
+.btn:hover{background:var(--bg3);border-color:var(--border2)}
+.updated{font-size:11.5px;color:var(--text3)}
+.section-title{font-size:11.5px;font-weight:650;color:var(--text3);
+  text-transform:uppercase;letter-spacing:0.08em;margin-bottom:13px}
 
-.section-title { font-size: 12px; font-weight: 600; color: var(--text3);
-  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 14px; }
+/* ── Karten ── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:1.35rem 1.45rem;margin-bottom:16px;animation:rise .4s ease both;
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease}
+.card:hover{transform:translateY(-3px);border-color:var(--border2);
+  box-shadow:0 12px 32px rgba(0,0,0,0.35)}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 
-/* ── Empfehlungskarten ── */
-.card {
-  background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 1.4rem; margin-bottom: 16px;
-  animation: rise 0.35s ease both;
-}
-@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+/* Header */
+.c-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.logo{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;
+  justify-content:center;font-weight:800;font-size:15px;flex:0 0 auto;
+  background:linear-gradient(135deg,var(--blue-bg),var(--bg3));color:var(--blue);
+  border:1px solid var(--border2)}
+.head-id{flex:1;min-width:140px}
+.ticker-line{display:flex;align-items:baseline;gap:8px}
+.ticker{font-size:20px;font-weight:750;letter-spacing:-0.01em}
+.company{font-size:12px;color:var(--text2)}
+.price-line{margin-top:2px;font-variant-numeric:tabular-nums}
+.price{font-size:15px;font-weight:650}
+.chg{font-size:12.5px;font-weight:650;margin-left:6px}
+.chg.up{color:var(--green)}.chg.down{color:var(--red)}
+.head-right{display:flex;align-items:center;gap:12px}
+.rec-badge{font-size:12px;font-weight:750;padding:7px 16px;border-radius:10px;
+  text-transform:uppercase;letter-spacing:0.05em}
+.rec-badge.kaufen{background:var(--green-bg);color:var(--green)}
+.rec-badge.verkaufen{background:var(--red-bg);color:var(--red)}
+.rec-badge.beobachten{background:var(--yellow-bg);color:var(--yellow)}
+.conf-ring{position:relative;width:52px;height:52px;flex:0 0 auto}
+.conf-ring svg{transform:rotate(-90deg)}
+.conf-ring .val{position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;font-size:12px;font-weight:750;font-variant-numeric:tabular-nums}
+.conf-label{font-size:9.5px;color:var(--text3);text-align:center;margin-top:2px;
+  text-transform:uppercase;letter-spacing:0.05em}
 
-.card-top { display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap; }
-.card-id { min-width: 130px; }
-.ticker { font-size: 26px; font-weight: 700; letter-spacing: -0.01em; }
-.company { font-size: 12px; color: var(--text2); margin-top: 2px; max-width: 150px; }
-.price-line { margin-top: 10px; font-variant-numeric: tabular-nums; }
-.price { font-size: 18px; font-weight: 600; }
-.chg { font-size: 13px; font-weight: 600; margin-left: 6px; }
-.chg.up { color: var(--green); } .chg.down { color: var(--red); }
+/* Reddit-Signal (Hauptbereich) */
+.reddit-box{background:linear-gradient(135deg,rgba(96,165,250,0.07),rgba(96,165,250,0.02));
+  border:1px solid rgba(96,165,250,0.18);border-radius:12px;padding:1.05rem 1.15rem;margin-bottom:12px}
+.rb-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.rb-title{font-size:11px;font-weight:750;color:var(--blue);
+  text-transform:uppercase;letter-spacing:0.08em}
+.rb-metrics{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.metric{background:var(--bg3);border:1px solid var(--border);border-radius:8px;
+  padding:5px 11px;font-size:11.5px;color:var(--text2)}
+.metric b{color:var(--text);font-weight:700}
+.delta-up{color:var(--green);font-weight:750}
+.delta-down{color:var(--red);font-weight:750}
+.quote{font-size:13px;color:var(--text2);line-height:1.5;font-style:italic;
+  border-left:2px solid var(--blue);padding-left:11px;margin-bottom:11px}
+.topics-label{font-size:11.5px;color:var(--text2);margin-bottom:6px}
+.topics{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:11px}
+.topic-chip{font-size:11px;font-weight:600;padding:4px 11px;border-radius:20px;
+  background:var(--blue-bg);color:var(--blue);border:1px solid rgba(96,165,250,0.25)}
+.cases{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:640px){.cases{grid-template-columns:1fr}}
+.case-col .case-title{font-size:10px;font-weight:750;text-transform:uppercase;
+  letter-spacing:0.07em;margin-bottom:5px}
+.case-col.bull .case-title{color:var(--green)}
+.case-col.bear .case-title{color:var(--red)}
+.case-col ul{list-style:none}
+.case-col li{font-size:12px;color:var(--text2);padding-left:14px;position:relative;
+  margin-bottom:3px;line-height:1.45}
+.case-col.bull li::before{content:"+";position:absolute;left:0;color:var(--green);font-weight:750}
+.case-col.bear li::before{content:"−";position:absolute;left:0;color:var(--red);font-weight:750}
+.case-empty{font-size:11.5px;color:var(--text3);font-style:italic}
 
-.card-mid { flex: 1; min-width: 260px; }
-.badges { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
-.rec-badge { font-size: 12px; font-weight: 700; padding: 5px 14px; border-radius: 8px;
-  text-transform: uppercase; letter-spacing: 0.05em; }
-.rec-badge.kaufen     { background: var(--green-bg);  color: var(--green); }
-.rec-badge.verkaufen  { background: var(--red-bg);    color: var(--red); }
-.rec-badge.beobachten { background: var(--yellow-bg); color: var(--yellow); }
-.verdict-badge { font-size: 11px; font-weight: 600; padding: 5px 12px; border-radius: 8px; }
-.verdict-badge.bestätigt   { background: var(--green-bg);  color: var(--green); }
-.verdict-badge.widerspricht{ background: var(--red-bg);    color: var(--red); }
-.verdict-badge.relativiert { background: var(--yellow-bg); color: var(--yellow); }
-.verdict-badge.unbekannt   { background: var(--bg3);       color: var(--text3); }
+/* Mitte: Markt + Chart */
+.mid{display:grid;grid-template-columns:1fr 250px;gap:16px;margin-bottom:12px}
+@media(max-width:720px){.mid{grid-template-columns:1fr}}
+.market-box{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:0.95rem 1.05rem}
+.mb-head{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+.mb-title{font-size:11px;font-weight:750;color:var(--text3);
+  text-transform:uppercase;letter-spacing:0.08em}
+.verdict-badge{font-size:11px;font-weight:700;padding:4px 11px;border-radius:8px}
+.verdict-badge.bestätigt{background:var(--green-bg);color:var(--green)}
+.verdict-badge.widerspricht{background:var(--red-bg);color:var(--red)}
+.verdict-badge.relativiert{background:var(--yellow-bg);color:var(--yellow)}
+.verdict-badge.unbekannt{background:var(--bg3);color:var(--text3)}
+.comp-points{list-style:none}
+.comp-points li{font-size:12px;color:var(--text2);line-height:1.5;
+  padding-left:15px;position:relative;margin-bottom:3px}
+.comp-points li::before{content:"→";position:absolute;left:0;color:var(--text3)}
 
-.reddit-quote { font-size: 13.5px; color: var(--text2); line-height: 1.55;
-  border-left: 2px solid var(--blue); padding-left: 12px; margin-bottom: 10px; }
-.meta-row { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text3); }
-.meta-row b { color: var(--text2); font-weight: 600; }
-.delta-up   { color: var(--green); font-weight: 700; }
-.delta-down { color: var(--red);   font-weight: 700; }
+.chart-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:0.8rem 0.9rem}
+.range-btns{display:flex;gap:4px;justify-content:flex-end;margin-bottom:5px}
+.range-btn{font-size:9.5px;font-weight:700;padding:3px 9px;border-radius:6px;
+  border:1px solid var(--border);background:transparent;color:var(--text3);cursor:pointer;transition:all .12s}
+.range-btn.active{background:var(--blue-bg);color:var(--blue);border-color:transparent}
+.chart-box{height:82px;position:relative}
+.no-chart{height:82px;display:flex;align-items:center;justify-content:center;
+  font-size:11.5px;color:var(--text3);border:1px dashed var(--border);border-radius:8px}
+.perf-row{display:flex;justify-content:space-around;margin-top:8px;padding-top:8px;
+  border-top:1px solid var(--border)}
+.perf{text-align:center}
+.perf .p-label{font-size:9.5px;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em}
+.perf .p-val{font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:1px}
+.p-val.up{color:var(--green)}.p-val.down{color:var(--red)}
 
-.card-chart { min-width: 220px; max-width: 260px; flex: 0 0 auto; }
-.range-btns { display: flex; gap: 4px; justify-content: flex-end; margin-bottom: 6px; }
-.range-btn { font-size: 10px; font-weight: 600; padding: 3px 9px; border-radius: 6px;
-  border: 1px solid var(--border); background: transparent; color: var(--text3); cursor: pointer; }
-.range-btn.active { background: var(--blue-bg); color: var(--blue); border-color: transparent; }
-.chart-box { height: 90px; position: relative; }
-.no-chart { height: 90px; display: flex; align-items: center; justify-content: center;
-  font-size: 12px; color: var(--text3); border: 1px dashed var(--border); border-radius: 8px; }
+/* News */
+.news-box{margin-bottom:12px}
+.news-title{font-size:11px;font-weight:750;color:var(--text3);
+  text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px}
+.news-item{display:flex;gap:9px;align-items:flex-start;margin-bottom:7px}
+.tone-dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto;margin-top:5px}
+.tone-dot.pos{background:var(--green)}
+.tone-dot.neg{background:var(--red)}
+.tone-dot.neu{background:var(--yellow)}
+.news-item a{font-size:12.5px;color:var(--text2);text-decoration:none;line-height:1.45}
+.news-item a:hover{color:var(--blue)}
+.news-date{font-size:10.5px;color:var(--text3);margin-top:1px}
+.no-data{font-size:11.5px;color:var(--text3);font-style:italic}
 
-.card-bottom { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border);
-  display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-@media (max-width: 720px) { .card-bottom { grid-template-columns: 1fr; } }
-.col-title { font-size: 11px; font-weight: 700; color: var(--text3);
-  text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 8px; }
-.comp-points { list-style: none; }
-.comp-points li { font-size: 12.5px; color: var(--text2); line-height: 1.55;
-  padding-left: 16px; position: relative; margin-bottom: 4px; }
-.comp-points li::before { content: "→"; position: absolute; left: 0; color: var(--text3); }
-.news-item { font-size: 12.5px; margin-bottom: 8px; line-height: 1.45; }
-.news-item a { color: var(--text2); text-decoration: none; }
-.news-item a:hover { color: var(--blue); }
-.news-date { font-size: 11px; color: var(--text3); }
-.no-data { font-size: 12px; color: var(--text3); font-style: italic; }
+/* Fazit */
+.fazit{background:linear-gradient(135deg,rgba(251,191,36,0.08),rgba(251,146,60,0.04));
+  border:1px solid rgba(251,191,36,0.2);border-radius:12px;padding:0.95rem 1.1rem}
+.fazit-title{font-size:11px;font-weight:750;color:var(--yellow);
+  text-transform:uppercase;letter-spacing:0.08em;margin-bottom:7px}
+.fazit-text{font-size:13px;color:var(--text2);line-height:1.6}
 
-.empty { text-align: center; padding: 3rem; color: var(--text3);
-  border: 1px dashed var(--border); border-radius: var(--radius); }
+/* Skeleton */
+.skeleton{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);
+  height:340px;margin-bottom:16px;overflow:hidden;position:relative}
+.skeleton::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.04),transparent);
+  animation:shimmer 1.4s infinite}
+@keyframes shimmer{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
 
-.disclaimer { font-size: 11px; color: var(--text3); background: var(--bg2);
-  border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 0.9rem 1.1rem; line-height: 1.6; margin-top: 2rem; }
+.empty{text-align:center;padding:3rem;color:var(--text3);
+  border:1px dashed var(--border);border-radius:var(--radius)}
+.disclaimer{font-size:11px;color:var(--text3);background:var(--bg2);
+  border:1px solid var(--border);border-radius:12px;padding:0.9rem 1.1rem;
+  line-height:1.6;margin-top:1.75rem}
 </style>
 </head>
 <body>
@@ -140,7 +192,7 @@ header h1 { font-size: 24px; font-weight: 600; letter-spacing: -0.02em; }
     <div class="stat"><div class="stat-label">Posts analysiert</div><div class="stat-val" id="s-posts">–</div><div class="stat-sub">letzter Scan</div></div>
     <div class="stat"><div class="stat-label">Ticker erkannt</div><div class="stat-val" id="s-tickers">–</div><div class="stat-sub">unique Symbole</div></div>
     <div class="stat"><div class="stat-label">Empfehlungen</div><div class="stat-val" id="s-recs">–</div><div class="stat-sub">Top-Auswahl</div></div>
-    <div class="stat"><div class="stat-label">Generiert</div><div class="stat-val" id="s-time" style="font-size:17px;">–</div><div class="stat-sub">UTC</div></div>
+    <div class="stat"><div class="stat-label">Generiert</div><div class="stat-val" id="s-time" style="font-size:16px;">–</div><div class="stat-sub">UTC</div></div>
   </div>
 
   <div class="subs" id="subs"></div>
@@ -150,24 +202,32 @@ header h1 { font-size: 24px; font-weight: 600; letter-spacing: -0.02em; }
     <span class="updated" id="updated"></span>
   </div>
 
-  <div class="section-title">Empfehlungen · Reddit-Signal + Marktabgleich</div>
-  <div id="recs"></div>
+  <div class="section-title">Empfehlungen · Reddit-Signal → Marktabgleich → KI-Fazit</div>
+  <div id="recs">
+    <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+  </div>
 
   <div class="disclaimer">
     ⚠️ Keine Anlageberatung. Empfehlungen entstehen aus Reddit-Sentiment und einem automatischen
-    Marktabgleich (Kurs, Trend, News). Alle Angaben ohne Gewähr. Investitionsentscheidungen liegen allein beim Nutzer.
+    Marktabgleich. Alle Angaben ohne Gewähr. Investitionsentscheidungen liegen allein beim Nutzer.
   </div>
 </div>
 
 <script>
-const charts = {};   // ticker -> Chart-Instanz
+const charts = {};
 let DATA = null;
 
 const fmt = (n, cur) => {
   if (n == null) return "–";
-  const sym = cur === "EUR" ? "€" : cur === "USD" ? "$" : (cur || "");
+  const sym = cur === "EUR" ? "€" : cur === "USD" ? "$" : (cur ? cur + " " : "");
   return sym + n.toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 };
+const pctHtml = (v) => {
+  if (v == null) return `<div class="p-val">–</div>`;
+  const cls = v >= 0 ? "up" : "down";
+  return `<div class="p-val ${cls}">${v >= 0 ? "+" : ""}${v}%</div>`;
+};
+const confColor = (c) => c >= 70 ? "#34d399" : c >= 45 ? "#fbbf24" : "#f87171";
 
 async function load() {
   try {
@@ -180,6 +240,8 @@ async function load() {
       "Zuletzt geladen: " + new Date().toLocaleTimeString("de-DE");
   } catch (e) {
     document.getElementById("badge").textContent = "Offline";
+    document.getElementById("recs").innerHTML =
+      `<div class="empty">data.json nicht erreichbar – läuft der Workflow?</div>`;
   }
 }
 
@@ -192,15 +254,13 @@ function render() {
   document.getElementById("s-time").textContent =
     t ? t.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) : "–";
 
-  // Subreddit-Pills
   const subsEl = document.getElementById("subs");
   subsEl.innerHTML = "";
   (d.subreddits || []).forEach(s => {
     subsEl.innerHTML += `<div class="sub-pill">
-      <span class="dot ${s.posts ? "" : "off"}"></span>r/${s.name} · ${s.posts} Posts</div>`;
+      <span class="dot ${s.posts ? "" : "off"}"></span>r/${s.name} · ${s.posts}</div>`;
   });
 
-  // Karten
   Object.values(charts).forEach(c => c.destroy());
   for (const k in charts) delete charts[k];
 
@@ -212,86 +272,139 @@ function render() {
     return;
   }
 
-  recs.forEach((r, i) => {
-    const p = r.price || {};
-    const rec = r.empfehlung || "beobachten";
-    const recLabel = { kaufen: "🟢 Kaufen", verkaufen: "🔴 Verkaufen", beobachten: "🟡 Beobachten" }[rec];
-    const verdict = r.comparison?.verdict || "unbekannt";
-    const verdictLabel = {
-      "bestätigt": "✓ Markt bestätigt Reddit",
-      "widerspricht": "✗ Markt widerspricht Reddit",
-      "relativiert": "~ Markt relativiert Reddit",
-      "unbekannt": "? Kein Marktabgleich"
-    }[verdict];
-
-    const delta = r.mentions_delta ?? 0;
-    const deltaHtml = delta > 0 ? `<span class="delta-up">▲ +${delta}</span>`
-                    : delta < 0 ? `<span class="delta-down">▼ ${delta}</span>`
-                    : `<span style="color:var(--text3)">± 0</span>`;
-
-    const chg = p.chg_1d ?? null;
-    const chgHtml = chg == null ? "" :
-      `<span class="chg ${chg >= 0 ? "up" : "down"}">${chg >= 0 ? "+" : ""}${chg}%</span>`;
-
-    const compPoints = (r.comparison?.points || [])
-      .map(pt => `<li>${pt}</li>`).join("");
-
-    const newsHtml = (r.news || []).length
-      ? r.news.map(n => `<div class="news-item">
-          <a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
-          <div class="news-date">${n.date}</div></div>`).join("")
-      : `<div class="no-data">Keine aktuellen Headlines gefunden</div>`;
-
-    const chartArea = p.available
-      ? `<div class="range-btns">
-           <button class="range-btn active" onclick="setRange('${r.ticker}','1d',this)">24h</button>
-           <button class="range-btn" onclick="setRange('${r.ticker}','5d',this)">7T</button>
-           <button class="range-btn" onclick="setRange('${r.ticker}','1mo',this)">1M</button>
-         </div>
-         <div class="chart-box"><canvas id="chart-${r.ticker}"></canvas></div>`
-      : `<div class="no-chart">Kein Chart verfügbar</div>`;
-
-    const card = document.createElement("div");
-    card.className = "card";
-    card.style.animationDelay = (i * 0.05) + "s";
-    card.innerHTML = `
-      <div class="card-top">
-        <div class="card-id">
-          <div class="ticker">${r.ticker}</div>
-          <div class="company">${r.name || ""}</div>
-          <div class="price-line">
-            <span class="price">${p.available ? fmt(p.price, p.currency) : "–"}</span>${chgHtml}
-          </div>
-        </div>
-        <div class="card-mid">
-          <div class="badges">
-            <span class="rec-badge ${rec}">${recLabel}</span>
-            <span class="verdict-badge ${verdict}">${verdictLabel}</span>
-          </div>
-          <div class="reddit-quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
-          <div class="meta-row">
-            <span><b>${r.mentions}</b> Mentions ${deltaHtml}</span>
-            <span>Sentiment <b>${r.sentiment >= 0 ? "+" : ""}${r.sentiment}</b></span>
-            <span>Score <b>${r.engagement}</b></span>
-            <span>r/${(r.sources || []).join(", r/")}</span>
-          </div>
-        </div>
-        <div class="card-chart">${chartArea}</div>
-      </div>
-      <div class="card-bottom">
-        <div>
-          <div class="col-title">Marktabgleich</div>
-          <ul class="comp-points">${compPoints}</ul>
-        </div>
-        <div>
-          <div class="col-title">Aktuelle News</div>
-          ${newsHtml}
-        </div>
-      </div>`;
-    recsEl.appendChild(card);
-
-    if (p.available) drawChart(r.ticker, p.chart_1d || [], p.chg_1d >= 0);
+  recs.forEach((r, i) => recsEl.appendChild(buildCard(r, i)));
+  recs.forEach(r => {
+    if (r.price?.available) drawChart(r.ticker, r.price.chart_1d || [], (r.price.chg_1d ?? 0) >= 0);
   });
+}
+
+function buildCard(r, i) {
+  const p = r.price || {};
+  const rec = r.empfehlung || "beobachten";
+  const recLabel = { kaufen: "🟢 Kaufen", verkaufen: "🔴 Verkaufen", beobachten: "🟡 Beobachten" }[rec];
+  const verdict = r.comparison?.verdict || "unbekannt";
+  const verdictLabel = {
+    "bestätigt": "✅ Markt bestätigt Reddit",
+    "widerspricht": "❌ Markt widerspricht Reddit",
+    "relativiert": "⚠️ Markt relativiert Reddit",
+    "unbekannt": "· Kein Marktabgleich"
+  }[verdict];
+
+  const conf = r.confidence ?? 50;
+  const circ = 2 * Math.PI * 21;
+  const dash = (conf / 100) * circ;
+
+  const delta = r.mentions_delta ?? 0;
+  const deltaHtml = delta > 0 ? `<span class="delta-up">▲+${delta}</span>`
+                  : delta < 0 ? `<span class="delta-down">▼${delta}</span>`
+                  : `<span style="color:var(--text3)">±0</span>`;
+
+  const chg = p.chg_1d ?? null;
+  const chgHtml = chg == null ? "" :
+    `<span class="chg ${chg >= 0 ? "up" : "down"}">${chg >= 0 ? "+" : ""}${chg}%</span>`;
+
+  const topics = (r.topics || []).map(t => `<span class="topic-chip">${t}</span>`).join("");
+  const bullCase = (r.bull_case || []).map(c => `<li>${c}</li>`).join("");
+  const bearCase = (r.bear_case || []).map(c => `<li>${c}</li>`).join("");
+
+  const compPoints = (r.comparison?.points || []).map(pt => `<li>${pt}</li>`).join("");
+
+  const newsHtml = (r.news || []).length
+    ? r.news.map(n => `<div class="news-item">
+        <span class="tone-dot ${n.tone || "neu"}"></span>
+        <div><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
+        <div class="news-date">${n.date || ""}</div></div></div>`).join("")
+    : `<div class="no-data">Keine aktuellen Headlines gefunden</div>`;
+
+  const chartArea = p.available
+    ? `<div class="range-btns">
+         <button class="range-btn active" onclick="setRange('${r.ticker}','1d',this)">24H</button>
+         <button class="range-btn" onclick="setRange('${r.ticker}','5d',this)">7D</button>
+         <button class="range-btn" onclick="setRange('${r.ticker}','1mo',this)">1M</button>
+       </div>
+       <div class="chart-box"><canvas id="chart-${r.ticker}"></canvas></div>
+       <div class="perf-row">
+         <div class="perf"><div class="p-label">24H</div>${pctHtml(p.chg_1d)}</div>
+         <div class="perf"><div class="p-label">7D</div>${pctHtml(p.chg_7d)}</div>
+         <div class="perf"><div class="p-label">1M</div>${pctHtml(p.chg_1mo)}</div>
+       </div>`
+    : `<div class="no-chart">Kein Chart verfügbar</div>`;
+
+  const card = document.createElement("div");
+  card.className = "card";
+  card.style.animationDelay = (i * 0.06) + "s";
+  card.innerHTML = `
+    <div class="c-head">
+      <div class="logo">${r.ticker.slice(0, 3)}</div>
+      <div class="head-id">
+        <div class="ticker-line">
+          <span class="ticker">${r.ticker}</span>
+          <span class="company">${r.name || ""}</span>
+        </div>
+        <div class="price-line">
+          <span class="price">${p.available ? fmt(p.price, p.currency) : "–"}</span>${chgHtml}
+        </div>
+      </div>
+      <div class="head-right">
+        <span class="rec-badge ${rec}">${recLabel}</span>
+        <div>
+          <div class="conf-ring">
+            <svg width="52" height="52">
+              <circle cx="26" cy="26" r="21" fill="none" stroke="var(--bg3)" stroke-width="4"/>
+              <circle cx="26" cy="26" r="21" fill="none" stroke="${confColor(conf)}" stroke-width="4"
+                stroke-linecap="round" stroke-dasharray="${dash} ${circ}"/>
+            </svg>
+            <div class="val">${conf}%</div>
+          </div>
+          <div class="conf-label">Confidence</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reddit-box">
+      <div class="rb-head"><span class="rb-title">🔥 Reddit-Signal</span></div>
+      <div class="rb-metrics">
+        <span class="metric"><b>${r.mentions}</b> Mentions ${deltaHtml}</span>
+        <span class="metric">Sentiment <b>${r.sentiment >= 0 ? "+" : ""}${r.sentiment}</b></span>
+        <span class="metric">Score <b>${r.engagement}</b></span>
+        <span class="metric">r/${(r.sources || []).join(", r/")}</span>
+      </div>
+      <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
+      ${topics ? `<div class="topics-label">Reddit diskutiert ${r.ticker} derzeit hauptsächlich wegen:</div>
+      <div class="topics">${topics}</div>` : ""}
+      <div class="cases">
+        <div class="case-col bull">
+          <div class="case-title">Bull Case</div>
+          ${bullCase ? `<ul>${bullCase}</ul>` : `<div class="case-empty">Keine bullischen Argumente erkannt</div>`}
+        </div>
+        <div class="case-col bear">
+          <div class="case-title">Bear Case</div>
+          ${bearCase ? `<ul>${bearCase}</ul>` : `<div class="case-empty">Keine bearischen Argumente erkannt</div>`}
+        </div>
+      </div>
+    </div>
+
+    <div class="mid">
+      <div class="market-box">
+        <div class="mb-head">
+          <span class="mb-title">KI-Marktvergleich</span>
+          <span class="verdict-badge ${verdict}">${verdictLabel}</span>
+        </div>
+        <ul class="comp-points">${compPoints}</ul>
+      </div>
+      <div class="chart-card">${chartArea}</div>
+    </div>
+
+    <div class="news-box">
+      <div class="news-title">News</div>
+      ${newsHtml}
+    </div>
+
+    <div class="fazit">
+      <div class="fazit-title">💡 KI-Einschätzung</div>
+      <div class="fazit-text">${r.fazit || "–"}</div>
+    </div>`;
+  return card;
 }
 
 function drawChart(ticker, series, isUp) {
@@ -305,11 +418,10 @@ function drawChart(ticker, series, isUp) {
       labels: series.map(p => p.t),
       datasets: [{
         data: series.map(p => p.c),
-        borderColor: color, borderWidth: 2,
-        fill: true,
+        borderColor: color, borderWidth: 2, fill: true,
         backgroundColor: (ctx) => {
-          const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, 90);
-          g.addColorStop(0, color + "33"); g.addColorStop(1, color + "00");
+          const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, 82);
+          g.addColorStop(0, color + "30"); g.addColorStop(1, color + "00");
           return g;
         },
         pointRadius: 0, tension: 0.35,
@@ -317,9 +429,12 @@ function drawChart(ticker, series, isUp) {
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      plugins: { legend: { display: false },
+        tooltip: { enabled: true, displayColors: false,
+          callbacks: { title: () => "", label: (c) => c.parsed.y } } },
       scales: { x: { display: false }, y: { display: false } },
-      animation: { duration: 400 },
+      animation: { duration: 450 },
+      interaction: { intersect: false, mode: "index" },
     }
   });
 }
@@ -328,7 +443,7 @@ function setRange(ticker, range, btn) {
   btn.parentElement.querySelectorAll(".range-btn").forEach(b => b.classList.remove("active"));
   btn.classList.add("active");
   const rec = (DATA.recommendations || []).find(r => r.ticker === ticker);
-  if (!rec || !rec.price) return;
+  if (!rec?.price) return;
   const series = rec.price["chart_" + range] || [];
   const first = series[0]?.c, last = series[series.length - 1]?.c;
   drawChart(ticker, series, last >= first);
