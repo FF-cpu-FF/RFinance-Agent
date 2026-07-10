@@ -466,6 +466,45 @@ def anstieg_gruende_fallback(topics, news, delta, bull_case):
     return gruende[:5] or ["Keine eindeutigen Auslöser erkennbar"]
 
 
+# Fallback-Themen: Keyword-Kategorien -> verständliche Investment-Themen
+THEMA_MAP = [
+    ({"beat","übertrifft","miss","verfehlt","gewinnwarnung"}, "📊", "Quartalszahlen",
+     "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."),
+    ({"squeeze","short","leerverkauf","puts","calls"}, "🎯", "Optionen & Short-Interest",
+     "Diskussion über Optionsaktivität und Short-Positionierungen."),
+    ({"überbewertet","bubble","overbought","crash"}, "⚠️", "Bewertungs-Debatte",
+     "Ein Teil der Community hält die Aktie nach dem Kursverlauf für zu teuer."),
+    ({"undervalued","günstig","oversold","nachkaufen","kaufen","buy","kauf"}, "💰", "Einstiegs-Debatte",
+     "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."),
+    ({"wachstum","potential","kursziel","upside","uptrend","breakout","ausbruch"}, "📈", "Wachstums-Story",
+     "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."),
+    ({"crash","verlust","bagholder","fällt","drop","schwach"}, "📉", "Kursverluste",
+     "Diskussion über die jüngste Kursschwäche und deren Ursachen."),
+]
+
+
+def fallback_themen(bull_hits, bear_hits, mentions):
+    """Baut verständliche Themen aus den Keyword-Treffern – nie rohe Tokens."""
+    all_hits = Counter(bull_hits + bear_hits)
+    total = sum(all_hits.values()) or 1
+    themen = []
+    for kws, emoji, titel, erklaerung in THEMA_MAP:
+        n = sum(c for kw, c in all_hits.items() if kw in kws)
+        if n > 0:
+            themen.append({
+                "emoji": emoji, "titel": titel,
+                "anteil_pct": min(100, round(n / total * 100)),
+                "beitraege": min(mentions, n),
+                "erklaerung": erklaerung,
+            })
+    themen.sort(key=lambda t: t["anteil_pct"], reverse=True)
+    if not themen:
+        themen = [{"emoji": "💬", "titel": "Allgemeine Diskussion",
+                   "anteil_pct": 100, "beitraege": mentions,
+                   "erklaerung": "Kein dominantes Einzelthema erkennbar – breite Diskussion ohne klaren Auslöser."}]
+    return themen[:4]
+
+
 # ── v5: Historie & Performance ───────────────────────────────────────────────
 
 def evaluate_performance(history, current_price_map):
@@ -554,21 +593,26 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         f"Du bist ein nüchterner Finanzanalyst. Analysiere {name or ticker} ({ticker}).\n\n"
         f"Reddit: {mentions} Mentions (Δ {delta:+}), Sentiment {sentiment:+}, "
         f"Momentum {momentum}/100 ({growth_info}), Einstufung: {hype_typ}. "
-        f"Themen: {', '.join(topics) or 'unklar'}. "
-        f"Bull: {', '.join(bull_case) or 'keine'}. Bear: {', '.join(bear_case) or 'keine'}. "
-        f"Beispiel-Post: \"{(titles or [''])[0]}\"\n"
+        f"Bull: {', '.join(bull_case) or 'keine'}. Bear: {', '.join(bear_case) or 'keine'}.\n"
+        f"Reddit-Post-Titel:\n" + "\n".join(f"- {t}" for t in (titles or [])[:10]) + "\n"
         f"Markt: {kurs_info}. Verdict: {verdict}. Empfehlung: {rec}.\n"
         f"News: {news_info}\n\n"
         f"Antworte NUR mit validem JSON ohne Markdown:\n"
         f'{{"fazit": "3-4 Sätze Deutsch: 1) Warum Reddit diskutiert, '
         f'2) ob Markt/News das stützen, 3) Einordnung der Empfehlung", '
-        f'"gruende": ["3-5 kurze Stichpunkte: wahrscheinlichste Auslöser für die aktuelle Aufmerksamkeit"]}}'
+        f'"gruende": ["3-5 kurze Stichpunkte: wahrscheinlichste Auslöser für die aktuelle Aufmerksamkeit"], '
+        f'"themen": [2-4 Objekte. Fasse die Post-Titel zu verständlichen Investment-Themen zusammen. '
+        f'NIEMALS einzelne Schlagwörter wie Buy/Warning/Stock als Thema. Format je Objekt: '
+        f'{{"emoji": "passendes Emoji", "titel": "kurzer verständlicher Thementitel (2-5 Wörter)", '
+        f'"anteil_pct": geschätzter Anteil an der Diskussion in Prozent (Summe max 100), '
+        f'"beitraege": geschätzte Anzahl Posts zu diesem Thema (Summe max {mentions}), '
+        f'"erklaerung": "1 Satz Deutsch was die Community dazu diskutiert"}}]}}'
     )
 
     payload = json.dumps({
         "model": "openai/gpt-4o-mini",
         "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 380,
+        "max_tokens": 620,
         "temperature": 0.4,
     }).encode("utf-8")
 
@@ -637,7 +681,7 @@ def run():
                 d["bear_hits"]  += bear_hits
                 if sub not in d["sources"]:
                     d["sources"].append(sub)
-                if len(d["titles"]) < 6:
+                if len(d["titles"]) < 12:
                     title = p.get("title", "")[:110]
                     if title:
                         d["titles"].append(title)
@@ -695,10 +739,18 @@ def run():
                          news, momentum, growth, hype_typ)
         if ai:
             fazit, gruende, fazit_quelle = ai["fazit"], ai.get("gruende", []), "KI (GitHub Models)"
+            themen = ai.get("themen", [])
+            # Validierung: nur saubere Themen-Objekte, keine rohen Tokens
+            themen = [t for t in themen
+                      if isinstance(t, dict) and len(str(t.get("titel", ""))) > 7
+                      and t.get("erklaerung")][:4]
+            if not themen:
+                themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
         else:
             fazit = build_fazit(ticker, price.get("name", ticker), net,
                                 comparison["verdict"], rec, price, d["mentions"], delta)
             gruende = anstieg_gruende_fallback(topics, news, delta, bull_case)
+            themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
             fazit_quelle = "regelbasiert"
 
         # Empfehlung in Historie
@@ -728,6 +780,7 @@ def run():
             "sources":        d["sources"],
             "titles":         d["titles"][:3],
             "topics":         topics,
+            "themen":         themen,
             "bull_case":      bull_case,
             "bear_case":      bear_case,
             "price":          price,
