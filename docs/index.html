@@ -110,18 +110,6 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
   background:var(--blue-bg);padding:1px 8px;border-radius:12px}
 .thema-count{font-size:10.5px;color:var(--text3)}
 .thema-erkl{font-size:11.5px;color:var(--text2);line-height:1.5}
-.cases{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media(max-width:640px){.cases{grid-template-columns:1fr}}
-.case-col .case-title{font-size:10px;font-weight:750;text-transform:uppercase;
-  letter-spacing:0.07em;margin-bottom:5px}
-.case-col.bull .case-title{color:var(--green)}
-.case-col.bear .case-title{color:var(--red)}
-.case-col ul{list-style:none}
-.case-col li{font-size:12px;color:var(--text2);padding-left:14px;position:relative;
-  margin-bottom:3px;line-height:1.45}
-.case-col.bull li::before{content:"+";position:absolute;left:0;color:var(--green);font-weight:750}
-.case-col.bear li::before{content:"−";position:absolute;left:0;color:var(--red);font-weight:750}
-.case-empty{font-size:11.5px;color:var(--text3);font-style:italic}
 
 /* Momentum / Hype Engine */
 .momentum-box{background:linear-gradient(135deg,rgba(167,139,250,0.08),rgba(167,139,250,0.02));
@@ -403,8 +391,6 @@ function buildCard(r, i) {
       </div>
       <div class="thema-erkl">${th.erklaerung || ""}</div>
     </div>`).join("");
-  const bullCase = (r.bull_case || []).map(c => `<li>${c}</li>`).join("");
-  const bearCase = (r.bear_case || []).map(c => `<li>${c}</li>`).join("");
   const compPoints = (r.comparison?.points || []).map(pt => `<li>${pt}</li>`).join("");
 
   const rvm = r.reddit_vs_markt || null;
@@ -503,18 +489,8 @@ function buildCard(r, i) {
         <span class="metric">r/${(r.sources || []).join(", r/")}</span>
       </div>
       <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
-      ${themen ? `<div class="themen-label">🔥 Warum wird ${r.ticker} heute diskutiert?</div>
-      <div style="margin-bottom:11px">${themen}</div>` : ""}
-      <div class="cases">
-        <div class="case-col bull">
-          <div class="case-title">Bull Case</div>
-          ${bullCase ? `<ul>${bullCase}</ul>` : `<div class="case-empty">Keine bullischen Argumente erkannt</div>`}
-        </div>
-        <div class="case-col bear">
-          <div class="case-title">Bear Case</div>
-          ${bearCase ? `<ul>${bearCase}</ul>` : `<div class="case-empty">Keine bearischen Argumente erkannt</div>`}
-        </div>
-      </div>
+      ${themen ? `<div class="themen-label">🧠 Was sagt Reddit?</div>
+      <div>${themen}</div>` : ""}
     </div>
 
     <div class="momentum-box">
