@@ -222,6 +222,32 @@ details.sec>.sec-body{padding:0.35rem 1rem 1rem}
   background:var(--bg3);border:1px solid var(--border);
   padding:2px 9px;border-radius:12px}
 
+/* Squeeze-Radar */
+.radar{background:linear-gradient(135deg,rgba(248,113,113,0.08),rgba(251,146,60,0.03));
+  border:1px solid rgba(248,113,113,0.25);border-radius:var(--radius);
+  padding:1.15rem 1.3rem;margin-bottom:1.75rem}
+.radar-head{display:flex;align-items:center;gap:10px;margin-bottom:4px;flex-wrap:wrap}
+.radar-title{font-size:13px;font-weight:750;color:var(--red);
+  text-transform:uppercase;letter-spacing:0.07em}
+.radar-sub{font-size:11px;color:var(--text3);margin-bottom:12px;line-height:1.5}
+.radar-item{background:var(--bg2);border:1px solid var(--border);border-radius:12px;
+  padding:0.85rem 1rem;margin-bottom:8px;display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap}
+.radar-score{min-width:64px;text-align:center}
+.radar-score .rs-val{font-size:24px;font-weight:800;color:var(--red);font-variant-numeric:tabular-nums}
+.radar-score .rs-label{font-size:9px;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em}
+.radar-body{flex:1;min-width:220px}
+.radar-tline{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+.radar-ticker{font-size:16px;font-weight:750}
+.radar-name{font-size:11.5px;color:var(--text2)}
+.radar-meta{font-size:11px;color:var(--text3)}
+.radar-signals{list-style:none;margin-top:4px}
+.radar-signals li{font-size:11.5px;color:var(--text2);padding-left:16px;
+  position:relative;margin-bottom:2px;line-height:1.45}
+.radar-signals li::before{content:"⚡";position:absolute;left:0;font-size:10px}
+.radar-warn{font-size:10.5px;color:var(--red);background:var(--red-bg);
+  border-radius:8px;padding:0.55rem 0.8rem;margin-top:8px;line-height:1.5}
+.radar-empty{font-size:12px;color:var(--text3);font-style:italic;padding:0.4rem 0}
+
 details.verlauf{border:1px solid var(--border);border-radius:12px;background:var(--bg2)}
 details.verlauf summary{font-size:11.5px;font-weight:650;color:var(--text2);
   padding:0.7rem 1rem;cursor:pointer;list-style:none;user-select:none}
@@ -272,6 +298,8 @@ details.verlauf[open] summary::before{content:"▾ "}
     <button class="btn" onclick="load()">⟳ Daten neu laden</button>
     <span class="updated" id="updated"></span>
   </div>
+
+  <div id="radar-section"></div>
 
   <div class="section-title">Empfehlungen · Reddit-Signal → Hype-Analyse → Marktabgleich → KI-Fazit</div>
   <div id="recs">
@@ -347,6 +375,37 @@ function render() {
 
   Object.values(charts).forEach(c => c.destroy());
   for (const k in charts) delete charts[k];
+
+  // 🎯 Squeeze-Radar
+  const radarEl = document.getElementById("radar-section");
+  const radar = d.squeeze_radar || [];
+  radarEl.innerHTML = `
+    <div class="radar">
+      <div class="radar-head"><span class="radar-title">🎯 Squeeze- &amp; Opportunity-Radar</span></div>
+      <div class="radar-sub">Sucht nach Frühmustern viraler Reddit-Wellen: Mention-Spikes,
+        Squeeze-Vokabular, neu auftauchende Ticker und ungewöhnliches Handelsvolumen.</div>
+      ${radar.length ? radar.map(x => `
+        <div class="radar-item">
+          <div class="radar-score">
+            <div class="rs-val">${x.score}</div>
+            <div class="rs-label">Score</div>
+          </div>
+          <div class="radar-body">
+            <div class="radar-tline">
+              <span class="radar-ticker">${x.ticker}</span>
+              <span class="radar-name">${x.name || ""}</span>
+              ${x.price != null ? `<span class="radar-meta">${fmt(x.price, x.currency)}
+                ${x.chg_1d != null ? `<span class="${x.chg_1d >= 0 ? "delta-up" : "delta-down"}">${x.chg_1d >= 0 ? "+" : ""}${x.chg_1d}%</span>` : ""}</span>` : ""}
+              <span class="radar-meta">${x.mentions} Mentions · r/${(x.sources || []).join(", r/")}</span>
+            </div>
+            <ul class="radar-signals">${(x.signals || []).map(s => `<li>${s}</li>`).join("")}</ul>
+          </div>
+        </div>`).join("")
+      : `<div class="radar-empty">Keine auffälligen Squeeze-Muster in diesem Scan – das Radar prüft bei jedem Lauf neu.</div>`}
+      <div class="radar-warn">⚠️ Achtung: Genau diese Muster nutzen auch Pump-&amp;-Dump-Betrüger, um Kleinanleger zu ködern.
+        Ein hoher Score ist KEIN Kaufsignal, sondern nur ein Hinweis auf ungewöhnliche Aktivität.
+        Historisch enden die meisten dieser Wellen mit Verlusten für Späteinsteiger.</div>
+    </div>`;
 
   const recsEl = document.getElementById("recs");
   recsEl.innerHTML = "";
