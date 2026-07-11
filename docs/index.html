@@ -54,6 +54,7 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
   box-shadow:0 12px 32px rgba(0,0,0,0.35)}
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 
+/* Header */
 .c-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
 .logo{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;
   justify-content:center;font-weight:800;font-size:15px;flex:0 0 auto;
@@ -82,6 +83,7 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .conf-label{font-size:9.5px;color:var(--text3);text-align:center;margin-top:2px;
   text-transform:uppercase;letter-spacing:0.05em}
 
+/* Reddit-Signal */
 .reddit-box{background:linear-gradient(135deg,rgba(96,165,250,0.07),rgba(96,165,250,0.02));
   border:1px solid rgba(96,165,250,0.18);border-radius:12px;padding:1.05rem 1.15rem;margin-bottom:12px}
 .rb-head{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
@@ -109,6 +111,7 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .thema-count{font-size:10.5px;color:var(--text3)}
 .thema-erkl{font-size:11.5px;color:var(--text2);line-height:1.5}
 
+/* Momentum / Hype Engine */
 .momentum-box{background:linear-gradient(135deg,rgba(167,139,250,0.08),rgba(167,139,250,0.02));
   border:1px solid rgba(167,139,250,0.2);border-radius:12px;padding:1rem 1.1rem;margin-bottom:12px;
   display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -133,6 +136,7 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
   margin-bottom:3px;line-height:1.45}
 .gruende li::before{content:"•";position:absolute;left:2px;color:var(--purple)}
 
+/* Markt + Chart */
 .mid{display:grid;grid-template-columns:1fr 250px;gap:16px;margin-bottom:12px}
 @media(max-width:720px){.mid{grid-template-columns:1fr}}
 .market-box{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:0.95rem 1.05rem}
@@ -173,6 +177,7 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .perf .p-val{font-size:12.5px;font-weight:700;margin-top:1px}
 .p-val.up{color:var(--green)}.p-val.down{color:var(--red)}
 
+/* News */
 .news-box{margin-bottom:12px}
 .news-title{font-size:11px;font-weight:750;color:var(--text3);
   text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px}
@@ -186,6 +191,7 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .news-date{font-size:10.5px;color:var(--text3);margin-top:1px}
 .no-data{font-size:11.5px;color:var(--text3);font-style:italic}
 
+/* Fazit + Verlauf */
 .fazit{background:linear-gradient(135deg,rgba(251,191,36,0.08),rgba(251,146,60,0.04));
   border:1px solid rgba(251,191,36,0.2);border-radius:12px;padding:0.95rem 1.1rem;margin-bottom:10px}
 .fazit-title{font-size:11px;font-weight:750;color:var(--yellow);
@@ -365,6 +371,7 @@ function buildCard(r, i) {
   const hypeLabel = { hype: "🔥 Kurzfristiger Hype", trend: "📈 Nachhaltiger Trend",
                       unklar: "⚠️ Noch unklar" }[hypeTyp];
 
+  // Momentum-Timeline
   const tl = r.timeline || [];
   const maxM = Math.max(1, ...tl.map(t => t.mentions));
   const tlHtml = tl.length ? tl.map((t, idx) => {
@@ -391,7 +398,6 @@ function buildCard(r, i) {
       </div>
       <div class="thema-erkl">${th.erklaerung || ""}</div>
     </div>`).join("");
-
   const compPoints = (r.comparison?.points || []).map(pt => `<li>${pt}</li>`).join("");
 
   const rvm = r.reddit_vs_markt || null;
@@ -427,6 +433,7 @@ function buildCard(r, i) {
        </div>`
     : `<div class="no-chart">Kein Chart verfügbar</div>`;
 
+  // Verlauf (historische Empfehlungen dieses Tickers)
   const evalMap = {};
   (DATA.history_evaluated || []).forEach(e => {
     evalMap[e.ts + e.ticker] = e;
