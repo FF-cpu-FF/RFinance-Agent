@@ -204,6 +204,23 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
 .analyse-title{font-size:11px;font-weight:750;color:var(--blue);
   text-transform:uppercase;letter-spacing:0.08em;margin-bottom:7px}
 .analyse-text{font-size:13px;color:var(--text2);line-height:1.65;white-space:pre-line}
+.hl{color:var(--text);font-weight:700;background:rgba(96,165,250,0.14);
+  padding:0 3px;border-radius:4px;border-bottom:1px solid var(--blue)}
+
+/* Einklappbare Sektionen */
+details.sec{border:1px solid var(--border);border-radius:12px;background:var(--bg2);
+  margin-bottom:9px;overflow:hidden}
+details.sec>summary{font-size:12px;font-weight:700;color:var(--text2);
+  padding:0.72rem 1rem;cursor:pointer;list-style:none;user-select:none;
+  display:flex;align-items:center;gap:9px;flex-wrap:wrap;transition:background .12s}
+details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary::before{content:"▸";color:var(--text3);font-size:11px;transition:transform .15s}
+details.sec[open]>summary::before{content:"▾"}
+details.sec>summary:hover{background:var(--bg3)}
+details.sec>.sec-body{padding:0.35rem 1rem 1rem}
+.sum-chip{font-size:10.5px;font-weight:600;color:var(--text3);
+  background:var(--bg3);border:1px solid var(--border);
+  padding:2px 9px;border-radius:12px}
 
 details.verlauf{border:1px solid var(--border);border-radius:12px;background:var(--bg2)}
 details.verlauf summary{font-size:11.5px;font-weight:650;color:var(--text2);
@@ -282,6 +299,8 @@ const pctHtml = (v) => {
   return `<div class="p-val ${v >= 0 ? "up" : "down"}">${v >= 0 ? "+" : ""}${v}%</div>`;
 };
 const confColor = (c) => c >= 70 ? "#34d399" : c >= 45 ? "#fbbf24" : "#f87171";
+const rich = (s) => (s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;")
+  .replace(/\*\*(.+?)\*\*/g, "<b class='hl'>$1</b>");
 
 async function load() {
   try {
@@ -337,8 +356,17 @@ function render() {
     return;
   }
   recs.forEach((r, i) => recsEl.appendChild(buildCard(r, i)));
-  recs.forEach(r => {
-    if (r.price?.available) drawChart(r.ticker, r.price.chart_1d || [], (r.price.chg_1d ?? 0) >= 0);
+
+  // Charts erst zeichnen wenn die Sektion aufgeklappt wird (Canvas braucht sichtbare Größe)
+  document.querySelectorAll("details.sec[data-chart-ticker]").forEach(det => {
+    det.addEventListener("toggle", () => {
+      if (!det.open) return;
+      const ticker = det.dataset.chartTicker;
+      const rec = recs.find(x => x.ticker === ticker);
+      if (rec?.price?.available && !charts[ticker]) {
+        drawChart(ticker, rec.price.chart_1d || [], (rec.price.chg_1d ?? 0) >= 0);
+      }
+    });
   });
 }
 
@@ -483,69 +511,91 @@ function buildCard(r, i) {
       </div>
     </div>
 
-    <div class="reddit-box">
-      <div class="rb-head">
-        <span class="rb-title">🔥 Reddit-Signal</span>
-        <span class="hype-badge ${hypeTyp}">${hypeLabel}</span>
-      </div>
-      <div class="rb-metrics">
-        <span class="metric"><b>${r.mentions}</b> Mentions ${deltaHtml}</span>
-        <span class="metric">Sentiment <b>${r.sentiment >= 0 ? "+" : ""}${r.sentiment}</b></span>
-        <span class="metric">Score <b>${r.engagement}</b></span>
-        <span class="metric">Qualität <b>${r.quality_grade || "–"}</b></span>
-        <span class="metric">r/${(r.sources || []).join(", r/")}</span>
-      </div>
-      <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
-      ${themen ? `<div class="themen-label">🧠 Was sagt Reddit?</div>
-      <div>${themen}</div>` : ""}
-    </div>
-
-    <div class="momentum-box">
-      <div>
-        <div class="mo-title">🚀 Reddit Momentum</div>
-        ${tlHtml}
-      </div>
-      <div>
-        <div class="mo-score-line">
-          <span class="mo-score">${r.momentum ?? "–"}</span>
-          <span class="mo-max">/ 100</span>
-          ${growthHtml}
+    <details class="sec">
+      <summary>🔥 Reddit-Signal
+        <span class="sum-chip">${r.mentions} Mentions</span>
+        <span class="sum-chip">${hypeLabel}</span>
+      </summary>
+      <div class="sec-body">
+        <div class="rb-metrics">
+          <span class="metric"><b>${r.mentions}</b> Mentions ${deltaHtml}</span>
+          <span class="metric">Sentiment <b>${r.sentiment >= 0 ? "+" : ""}${r.sentiment}</b></span>
+          <span class="metric">Score <b>${r.engagement}</b></span>
+          <span class="metric">Qualität <b>${r.quality_grade || "–"}</b></span>
+          <span class="metric">r/${(r.sources || []).join(", r/")}</span>
         </div>
-        <div class="mo-label">${r.momentum_label || ""}</div>
-        <div class="hype-reason">${r.hype_begruendung || ""}</div>
-        <div class="gruende-title">📈 Gründe für die Aufmerksamkeit</div>
-        ${gruende ? `<ul class="gruende">${gruende}</ul>` : `<div class="no-data">–</div>`}
+        <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
+        ${themen ? `<div class="themen-label">🧠 Was sagt Reddit?</div>
+        <div>${themen}</div>` : ""}
       </div>
-    </div>
+    </details>
 
-    <div class="mid">
-      <div class="market-box">
-        <div class="mb-head">
-          <span class="mb-title">KI-Marktvergleich</span>
-          <span class="verdict-badge ${verdict}">${verdictLabel}</span>
+    <details class="sec">
+      <summary>🚀 Reddit Momentum
+        <span class="sum-chip">${r.momentum ?? "–"} / 100</span>
+      </summary>
+      <div class="sec-body">
+        <div class="momentum-box" style="margin-bottom:0;border:none;background:transparent;padding:0">
+          <div>
+            <div class="mo-title">Verlauf</div>
+            ${tlHtml}
+          </div>
+          <div>
+            <div class="mo-score-line">
+              <span class="mo-score">${r.momentum ?? "–"}</span>
+              <span class="mo-max">/ 100</span>
+              ${growthHtml}
+            </div>
+            <div class="mo-label">${r.momentum_label || ""}</div>
+            <div class="hype-reason">${r.hype_begruendung || ""}</div>
+            <div class="gruende-title">📈 Gründe für die Aufmerksamkeit</div>
+            ${gruende ? `<ul class="gruende">${gruende}</ul>` : `<div class="no-data">–</div>`}
+          </div>
         </div>
-        <ul class="comp-points">${compPoints}</ul>
-        ${rvmHtml}
       </div>
-      <div class="chart-card">${chartArea}</div>
-    </div>
+    </details>
 
-    <div class="news-box">
-      <div class="news-title">News</div>
-      ${newsHtml}
-    </div>
-
-    <div class="fazit">
-      <div class="fazit-title">💡 KI-Einschätzung
-        ${r.fazit_quelle ? `<span style="font-weight:500;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:6px;">· ${r.fazit_quelle}</span>` : ""}
+    <details class="sec" data-chart-ticker="${r.ticker}">
+      <summary>📊 Marktabgleich &amp; Chart
+        <span class="verdict-badge ${verdict}">${verdictLabel}</span>
+      </summary>
+      <div class="sec-body">
+        <div class="mid" style="margin-bottom:0">
+          <div class="market-box" style="border:none;background:transparent;padding:0">
+            <ul class="comp-points">${compPoints}</ul>
+            ${rvmHtml}
+          </div>
+          <div class="chart-card">${chartArea}</div>
+        </div>
       </div>
-      <div class="fazit-text">${r.fazit || "–"}</div>
-    </div>
+    </details>
 
-    ${r.analyse ? `<div class="analyse-box">
-      <div class="analyse-title">🏢 KI-Unternehmensanalyse</div>
-      <div class="analyse-text">${r.analyse}</div>
-    </div>` : ""}
+    <details class="sec">
+      <summary>📰 News
+        <span class="sum-chip">${(r.news || []).length} Meldungen</span>
+      </summary>
+      <div class="sec-body">${newsHtml}</div>
+    </details>
+
+    <details class="sec">
+      <summary>💡 KI-Einschätzung
+        ${r.fazit_quelle ? `<span class="sum-chip">${r.fazit_quelle}</span>` : ""}
+      </summary>
+      <div class="sec-body">
+        <div class="fazit" style="margin-bottom:0">
+          <div class="fazit-text">${rich(r.fazit) || "–"}</div>
+        </div>
+      </div>
+    </details>
+
+    ${r.analyse ? `<details class="sec">
+      <summary>🏢 KI-Unternehmensanalyse</summary>
+      <div class="sec-body">
+        <div class="analyse-box" style="margin-bottom:0">
+          <div class="analyse-text">${rich(r.analyse)}</div>
+        </div>
+      </div>
+    </details>` : ""}
 
     ${verlaufRows ? `<details class="verlauf">
       <summary>Empfehlungs-Historie für ${r.ticker}</summary>
