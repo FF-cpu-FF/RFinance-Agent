@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v8.1 – scraper.py
+Reddit Finanz-Agent v9 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -665,6 +665,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         f'5. Absatz: Eigenes Urteil – erscheint die Reddit-Stimmung fundamental gerechtfertigt? '
         f'Gehe dabei explizit auf 1-2 der Reddit-Thesen ein und bestätige oder widerlege sie. '
         f'Nutze für aktuelle Aussagen NUR die gelieferten Markt-/News-Daten, dein Firmenwissen nur für Grundsätzliches. '
+        f'Markiere 4-6 zentrale Kernaussagen mit **doppelten Sternchen** (Beispiel: **HBM-Nachfrage bleibt der Haupttreiber**). '
         f'Sei konkret und meinungsstark statt generisch."}}'
     )
 
@@ -704,7 +705,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v8.1  |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v9    |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
