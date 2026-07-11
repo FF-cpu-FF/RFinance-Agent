@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v5 – scraper.py
+Reddit Finanz-Agent v7.1 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -265,8 +265,8 @@ def build_cases(bull_hits, bear_hits):
     def labelize(hits, max_n=3):
         labels = []
         for kw, _ in Counter(hits).most_common():
-            label = KW_LABELS.get(kw, kw.capitalize())
-            if label not in labels:
+            label = KW_LABELS.get(kw)
+            if label and label not in labels:
                 labels.append(label)
             if len(labels) >= max_n:
                 break
@@ -452,17 +452,16 @@ def reddit_vs_markt(momentum, price):
     return {"reddit": reddit_pct, "markt": markt_pct, "urteil": urteil}
 
 
-def anstieg_gruende_fallback(topics, news, delta, bull_case):
+def anstieg_gruende_fallback(themen, news, delta):
+    """Gründe aus sauberen Themen – nie rohe Keywords."""
     gruende = []
     if delta > 0:
         gruende.append(f"Mentions +{delta} gegenüber dem letzten Scan")
-    for t in topics[:2]:
-        gruende.append(f"Diskussionsthema: {t}")
+    for t in themen[:2]:
+        gruende.append(f"{t['emoji']} {t['titel']}")
     for n in (news or [])[:2]:
         if n.get("tone") in ("pos", "neg"):
             gruende.append(f"News: {n['title'][:70]}")
-    for b in bull_case[:1]:
-        gruende.append(b)
     return gruende[:5] or ["Keine eindeutigen Auslöser erkennbar"]
 
 
@@ -573,6 +572,55 @@ def evaluate_performance(history, current_price_map):
 
 # ── v5: KI über GitHub Models ────────────────────────────────────────────────
 
+def check_ai_status():
+    """Prüft beim Start ob GitHub Models erreichbar ist und loggt den Grund bei Fehlern."""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if not token:
+        print("⚠ KI-STATUS: GITHUB_TOKEN fehlt!")
+        print("  → In scrape.yml beim Scraper-Step ergänzen:")
+        print("      env:")
+        print("        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}")
+        return False
+    payload = json.dumps({
+        "model": "openai/gpt-4o-mini",
+        "messages": [{"role": "user", "content": "Antworte nur: OK"}],
+        "max_tokens": 5,
+    }).encode("utf-8")
+    try:
+        req = urllib.request.Request(
+            "https://models.github.ai/inference/chat/completions",
+            data=payload, method="POST",
+            headers={"Authorization": f"Bearer {token}",
+                     "Content-Type": "application/json",
+                     "User-Agent": "FinanzAgent/7.1"},
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            json.loads(resp.read().decode())
+        print("✓ KI-STATUS: GitHub Models erreichbar – KI-Analysen aktiv")
+        return True
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode()[:300]
+        except Exception:
+            pass
+        print(f"⚠ KI-STATUS: HTTP {e.code} – {e.reason}")
+        if e.code in (401, 403):
+            print("  → Fehlende Berechtigung! In scrape.yml muss stehen:")
+            print("      permissions:")
+            print("        contents: write")
+            print("        models: read")
+        elif e.code == 429:
+            print("  → Tageslimit von GitHub Models erreicht – ab morgen wieder verfügbar.")
+            print("  → Tipp: TOP_N reduzieren oder Cron seltener laufen lassen.")
+        if body:
+            print(f"  → Antwort: {body}")
+        return False
+    except Exception as e:
+        print(f"⚠ KI-STATUS: {e}")
+        return False
+
+
 def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
                 delta, topics, bull_case, bear_case, titles, news,
                 momentum, growth, hype_typ):
@@ -633,6 +681,9 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         if isinstance(parsed.get("fazit"), str) and len(parsed["fazit"]) > 40:
             return parsed
         return None
+    except urllib.error.HTTPError as e:
+        print(f"    (KI nicht verfügbar: HTTP {e.code} {e.reason})")
+        return None
     except Exception as e:
         print(f"    (KI nicht verfügbar: {e})")
         return None
@@ -643,8 +694,10 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v5  |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v7.1  |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
+
+    check_ai_status()
 
     history = load_history()
     prev_mentions = {}
@@ -752,8 +805,8 @@ def run():
         else:
             fazit = build_fazit(ticker, price.get("name", ticker), net,
                                 comparison["verdict"], rec, price, d["mentions"], delta)
-            gruende = anstieg_gruende_fallback(topics, news, delta, bull_case)
             themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
+            gruende = anstieg_gruende_fallback(themen, news, delta)
             fazit_quelle = "regelbasiert"
 
         # Empfehlung in Historie
