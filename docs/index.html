@@ -408,4 +408,181 @@ function buildCard(r, i) {
 
   const newsHtml = (r.news || []).length
     ? r.news.map(n => `<div class="news-item">
-        <span
+        <span class="tone-dot ${n.tone || "neu"}"></span>
+        <div><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
+        <div class="news-date">${n.date || ""}</div></div></div>`).join("")
+    : `<div class="no-data">Keine aktuellen Headlines gefunden</div>`;
+
+  const chartArea = p.available
+    ? `<div class="range-btns">
+         <button class="range-btn active" onclick="setRange('${r.ticker}','1d',this)">24H</button>
+         <button class="range-btn" onclick="setRange('${r.ticker}','5d',this)">7D</button>
+         <button class="range-btn" onclick="setRange('${r.ticker}','1mo',this)">1M</button>
+       </div>
+       <div class="chart-box"><canvas id="chart-${r.ticker}"></canvas></div>
+       <div class="perf-row">
+         <div class="perf"><div class="p-label">24H</div>${pctHtml(p.chg_1d)}</div>
+         <div class="perf"><div class="p-label">7D</div>${pctHtml(p.chg_7d)}</div>
+         <div class="perf"><div class="p-label">1M</div>${pctHtml(p.chg_1mo)}</div>
+       </div>`
+    : `<div class="no-chart">Kein Chart verfügbar</div>`;
+
+  const evalMap = {};
+  (DATA.history_evaluated || []).forEach(e => {
+    evalMap[e.ts + e.ticker] = e;
+  });
+  const verlaufRows = (r.verlauf || []).slice().reverse().map(v => {
+    const ev = evalMap[v.ts + v.ticker];
+    const date = new Date(v.ts).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+    const perf = ev ? `<span class="${ev.chg_since >= 0 ? "delta-up" : "delta-down"}">${ev.chg_since >= 0 ? "+" : ""}${ev.chg_since}%</span>
+      <span class="v-ok">${ev.correct ? "✅" : "❌"}</span>` : "";
+    return `<div class="v-row">
+      <span class="v-date">${date}</span>
+      <span class="v-rec ${v.rec}">${v.rec}</span>
+      <span>Conf. ${v.confidence}%</span>
+      <span>Score ${v.engagement}</span>
+      ${perf}</div>`;
+  }).join("");
+
+  const card = document.createElement("div");
+  card.className = "card";
+  card.style.animationDelay = (i * 0.06) + "s";
+  card.innerHTML = `
+    <div class="c-head">
+      <div class="logo">${r.ticker.slice(0, 3)}</div>
+      <div class="head-id">
+        <div class="ticker-line">
+          <span class="ticker">${r.ticker}</span>
+          <span class="company">${r.name || ""}</span>
+          <span class="grade-badge" title="Signalqualität">${r.quality_grade || "–"}</span>
+        </div>
+        <div class="price-line">
+          <span class="price">${p.available ? fmt(p.price, p.currency) : "–"}</span>${chgHtml}
+        </div>
+      </div>
+      <div class="head-right">
+        <span class="rec-badge ${rec}">${recLabel}</span>
+        <div>
+          <div class="conf-ring">
+            <svg width="52" height="52">
+              <circle cx="26" cy="26" r="21" fill="none" stroke="var(--bg3)" stroke-width="4"/>
+              <circle cx="26" cy="26" r="21" fill="none" stroke="${confColor(conf)}" stroke-width="4"
+                stroke-linecap="round" stroke-dasharray="${dash} ${circ}"/>
+            </svg>
+            <div class="val">${conf}%</div>
+          </div>
+          <div class="conf-label">Confidence</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reddit-box">
+      <div class="rb-head">
+        <span class="rb-title">🔥 Reddit-Signal</span>
+        <span class="hype-badge ${hypeTyp}">${hypeLabel}</span>
+      </div>
+      <div class="rb-metrics">
+        <span class="metric"><b>${r.mentions}</b> Mentions ${deltaHtml}</span>
+        <span class="metric">Sentiment <b>${r.sentiment >= 0 ? "+" : ""}${r.sentiment}</b></span>
+        <span class="metric">Score <b>${r.engagement}</b></span>
+        <span class="metric">Qualität <b>${r.quality_grade || "–"}</b></span>
+        <span class="metric">r/${(r.sources || []).join(", r/")}</span>
+      </div>
+      <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
+      ${themen ? `<div class="themen-label">🧠 Was sagt Reddit?</div>
+      <div>${themen}</div>` : ""}
+    </div>
+
+    <div class="momentum-box">
+      <div>
+        <div class="mo-title">🚀 Reddit Momentum</div>
+        ${tlHtml}
+      </div>
+      <div>
+        <div class="mo-score-line">
+          <span class="mo-score">${r.momentum ?? "–"}</span>
+          <span class="mo-max">/ 100</span>
+          ${growthHtml}
+        </div>
+        <div class="mo-label">${r.momentum_label || ""}</div>
+        <div class="hype-reason">${r.hype_begruendung || ""}</div>
+        <div class="gruende-title">📈 Gründe für die Aufmerksamkeit</div>
+        ${gruende ? `<ul class="gruende">${gruende}</ul>` : `<div class="no-data">–</div>`}
+      </div>
+    </div>
+
+    <div class="mid">
+      <div class="market-box">
+        <div class="mb-head">
+          <span class="mb-title">KI-Marktvergleich</span>
+          <span class="verdict-badge ${verdict}">${verdictLabel}</span>
+        </div>
+        <ul class="comp-points">${compPoints}</ul>
+        ${rvmHtml}
+      </div>
+      <div class="chart-card">${chartArea}</div>
+    </div>
+
+    <div class="news-box">
+      <div class="news-title">News</div>
+      ${newsHtml}
+    </div>
+
+    <div class="fazit">
+      <div class="fazit-title">💡 KI-Einschätzung
+        ${r.fazit_quelle ? `<span style="font-weight:500;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:6px;">· ${r.fazit_quelle}</span>` : ""}
+      </div>
+      <div class="fazit-text">${r.fazit || "–"}</div>
+    </div>
+
+    ${r.analyse ? `<div class="analyse-box">
+      <div class="analyse-title">🏢 KI-Unternehmensanalyse</div>
+      <div class="analyse-text">${r.analyse}</div>
+    </div>` : ""}
+
+    ${verlaufRows ? `<details class="verlauf">
+      <summary>Empfehlungs-Historie für ${r.ticker}</summary>
+      <div class="verlauf-body">${verlaufRows}</div>
+    </details>` : ""}`;
+  return card;
+}
+
+function drawChart(ticker, series, isUp) {
+  const el = document.getElementById("chart-" + ticker);
+  if (!el || !series.length) return;
+  if (charts[ticker]) charts[ticker].destroy();
+  const color = isUp ? "#34d399" : "#f87171";
+  charts[ticker] = new Chart(el, {
+    type: "line",
+    data: { labels: series.map(p => p.t),
+      datasets: [{ data: series.map(p => p.c), borderColor: color, borderWidth: 2, fill: true,
+        backgroundColor: (ctx) => {
+          const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, 82);
+          g.addColorStop(0, color + "30"); g.addColorStop(1, color + "00");
+          return g;
+        }, pointRadius: 0, tension: 0.35 }] },
+    options: { responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false },
+        tooltip: { enabled: true, displayColors: false,
+          callbacks: { title: () => "", label: (c) => c.parsed.y } } },
+      scales: { x: { display: false }, y: { display: false } },
+      animation: { duration: 450 },
+      interaction: { intersect: false, mode: "index" } }
+  });
+}
+
+function setRange(ticker, range, btn) {
+  btn.parentElement.querySelectorAll(".range-btn").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  const rec = (DATA.recommendations || []).find(r => r.ticker === ticker);
+  if (!rec?.price) return;
+  const series = rec.price["chart_" + range] || [];
+  const first = series[0]?.c, last = series[series.length - 1]?.c;
+  drawChart(ticker, series, last >= first);
+}
+
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
