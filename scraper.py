@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v7.1 – scraper.py
+Reddit Finanz-Agent v8.1 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -34,7 +34,7 @@ SORT    = "hot"
 LIMIT   = 50
 OUTPUT  = "docs/data.json"
 HISTORY = "docs/history.json"
-TOP_N   = 6
+TOP_N   = 8
 MAX_HIST_PRICE_FETCH = 12   # max. Kursabrufe für historische Auswertung
 UA      = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/5.0)"}
 
@@ -221,7 +221,7 @@ def classify_headline(title):
     return "neu"
 
 
-def fetch_news(ticker, max_items=3):
+def fetch_news(ticker, max_items=5):
     url = (f"https://feeds.finance.yahoo.com/rss/2.0/headline"
            f"?s={ticker}&region=US&lang=en-US")
     try:
@@ -655,13 +655,23 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         f'{{"emoji": "passendes Emoji", "titel": "kurzer verständlicher Thementitel (2-5 Wörter)", '
         f'"anteil_pct": geschätzter Anteil an der Diskussion in Prozent (Summe max 100), '
         f'"beitraege": geschätzte Anzahl Posts zu diesem Thema (Summe max {mentions}), '
-        f'"erklaerung": "1 Satz Deutsch was die Community dazu diskutiert"}}]}}'
+        f'"erklaerung": "1 Satz Deutsch was die Community dazu diskutiert"}}], '
+        f'"analyse": "Ausführliche eigenständige Unternehmensanalyse, 350-500 Wörter Deutsch, '
+        f'Fließtext in 4-5 Absätzen (Absätze mit \\n\\n trennen), keine Aufzählungen. Struktur: '
+        f'1. Absatz: Geschäftsmodell und Marktposition (Wettbewerber konkret benennen). '
+        f'2. Absatz: Wachstumstreiber und Chancen der nächsten 1-2 Jahre. '
+        f'3. Absatz: Zentrale Risiken (Wettbewerb, Zyklik, Bewertung, Makro). '
+        f'4. Absatz: Einordnung der aktuellen Kurs- und Nachrichtenlage anhand der oben gelieferten Daten. '
+        f'5. Absatz: Eigenes Urteil – erscheint die Reddit-Stimmung fundamental gerechtfertigt? '
+        f'Gehe dabei explizit auf 1-2 der Reddit-Thesen ein und bestätige oder widerlege sie. '
+        f'Nutze für aktuelle Aussagen NUR die gelieferten Markt-/News-Daten, dein Firmenwissen nur für Grundsätzliches. '
+        f'Sei konkret und meinungsstark statt generisch."}}'
     )
 
     payload = json.dumps({
         "model": "openai/gpt-4o-mini",
         "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 900,
+        "max_tokens": 2600,
         "temperature": 0.4,
     }).encode("utf-8")
 
@@ -694,7 +704,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v7.1  |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v8.1  |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
@@ -802,11 +812,15 @@ def run():
                       and t.get("erklaerung")][:5]
             if not themen:
                 themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
+            analyse = str(ai.get("analyse", "")).strip()
+            if len(analyse) < 100:
+                analyse = ""
         else:
             fazit = build_fazit(ticker, price.get("name", ticker), net,
                                 comparison["verdict"], rec, price, d["mentions"], delta)
             themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
             gruende = anstieg_gruende_fallback(themen, news, delta)
+            analyse = ""
             fazit_quelle = "regelbasiert"
 
         # Empfehlung in Historie
@@ -844,6 +858,7 @@ def run():
             "comparison":     comparison,
             "fazit":          fazit,
             "fazit_quelle":   fazit_quelle,
+            "analyse":        analyse,
             "gruende":        gruende,
             "momentum":       momentum,
             "momentum_label": momentum_label(momentum),
