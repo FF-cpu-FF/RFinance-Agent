@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v9 – scraper.py
+Reddit Finanz-Agent v10 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -64,6 +64,12 @@ BEAR_KW = ["short","puts","bearish","crash","sell","verkauf","fällt","drop",
     "überbewertet","bubble","dump","leerverkauf","downside","overbought",
     "breakdown","decline","falling","schwach","warnung","verlust","miss",
     "verfehlt","gewinnwarnung","pleite","insolvenz","bagholder"]
+
+# Squeeze-/Meme-Wave-Vokabular für das Opportunity-Radar
+SQUEEZE_KW = ["squeeze","short interest","gamma","float","ftd","moass",
+    "diamond hands","💎","🙌","🦍","hedgies","shortseller","leerverkäufer",
+    "short quote","yolo","all in","to the moon","naked short","shorts are",
+    "heavily shorted","stark geshortet","shortquote"]
 
 KW_LABELS = {
     "squeeze": "Short-Squeeze-Spekulation", "moon": "Kursfantasie", "rocket": "Kursfantasie",
@@ -155,7 +161,7 @@ def matched_keywords(text, kws):
 
 # ── Kursdaten ────────────────────────────────────────────────────────────────
 
-def yahoo_chart(ticker, rng, interval):
+def yahoo_chart(ticker, rng, interval, with_volume=False):
     url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
            f"?range={rng}&interval={interval}")
     try:
@@ -164,11 +170,121 @@ def yahoo_chart(ticker, rng, interval):
             data = json.loads(resp.read().decode())
         result = data["chart"]["result"][0]
         ts     = result.get("timestamp", [])
-        closes = result["indicators"]["quote"][0].get("close", [])
+        quote  = result["indicators"]["quote"][0]
+        closes = quote.get("close", [])
+        vols   = quote.get("volume", []) if with_volume else []
         series = [{"t": t, "c": round(c, 2)} for t, c in zip(ts, closes) if c is not None]
+        volumes = [v for v in vols if v] if with_volume else []
+        if with_volume:
+            return series, result.get("meta", {}), volumes
         return series, result.get("meta", {})
     except Exception:
+        if with_volume:
+            return [], {}, []
         return [], {}
+
+
+def volume_profile(ticker):
+    """Aktueller Kurs + Volumen-Ratio (heute vs. 20-Tage-Schnitt). Für Squeeze-Radar."""
+    series, meta, vols = yahoo_chart(ticker, "1mo", "1d", with_volume=True)
+    if not series or len(vols) < 5:
+        return None
+    today_vol = vols[-1]
+    avg_vol = sum(vols[:-1]) / len(vols[:-1])
+    return {
+        "price": series[-1]["c"],
+        "currency": meta.get("currency", "USD"),
+        "name": meta.get("longName") or meta.get("shortName") or ticker,
+        "vol_ratio": round(today_vol / avg_vol, 1) if avg_vol else None,
+        "chg_1d": round((series[-1]["c"] - series[-2]["c"]) / series[-2]["c"] * 100, 2)
+                  if len(series) >= 2 else 0.0,
+    }
+
+
+def squeeze_score(d, delta, is_new, memes, vol):
+    """0-100: Wie sehr ähnelt das Muster einem frühen Squeeze/Meme-Wave-Setup?"""
+    signals = []
+    score = 0
+
+    kw = d.get("squeeze_hits", 0)
+    if kw:
+        pts = min(kw * 8, 30)
+        score += pts
+        signals.append(f"Squeeze-Vokabular in Posts ({kw}× erkannt)")
+
+    if delta >= 3:
+        pts = min(delta * 4, 20)
+        score += pts
+        signals.append(f"Mention-Spike: +{delta} vs. letzter Scan")
+
+    if is_new:
+        score += 15
+        signals.append("Ticker neu in der Diskussion aufgetaucht")
+
+    if memes >= 3:
+        score += min(memes * 2, 10)
+        signals.append("Hohe Meme-Intensität (🚀💎🦍)")
+
+    if vol and vol.get("vol_ratio"):
+        vr = vol["vol_ratio"]
+        if vr >= 3:
+            score += 20
+            signals.append(f"Handelsvolumen {vr}× über Normal – ungewöhnliche Aktivität")
+        elif vr >= 2:
+            score += 12
+            signals.append(f"Handelsvolumen {vr}× über Normal")
+        elif vr >= 1.5:
+            score += 6
+            signals.append(f"Erhöhtes Handelsvolumen ({vr}×)")
+
+    if vol and vol.get("price") and vol["price"] < 25:
+        score += 5
+        signals.append("Niedriger Kurs – typisch für Retail-Wellen")
+
+    return min(100, score), signals
+
+
+def build_squeeze_radar(ticker_data, prev_mentions, history):
+    """Findet die Top-Kandidaten für ein mögliches Squeeze-/Meme-Wave-Setup."""
+    known_tickers = set()
+    for scan in history["scans"][:-1]:
+        known_tickers.update(scan.get("tickers", {}).keys())
+
+    candidates = []
+    for t, d in ticker_data.items():
+        if d["mentions"] < 2:
+            continue
+        delta = d["mentions"] - prev_mentions.get(t, 0)
+        is_new = t not in known_tickers
+        joined = " ".join(d["titles"])
+        memes = (joined.count("🚀") + joined.count("💎") + joined.count("🦍"))
+        # Vor-Score ohne Volumen zum Vorsortieren
+        pre, _ = squeeze_score(d, delta, is_new, memes, None)
+        if pre >= 15:
+            candidates.append((pre, t, d, delta, is_new, memes))
+
+    candidates.sort(reverse=True)
+    radar = []
+    for pre, t, d, delta, is_new, memes in candidates[:6]:
+        vol = volume_profile(t)
+        time.sleep(0.7)
+        score, signals = squeeze_score(d, delta, is_new, memes, vol)
+        if score >= 35:
+            radar.append({
+                "ticker": t,
+                "name": (vol or {}).get("name", t),
+                "score": score,
+                "signals": signals,
+                "mentions": d["mentions"],
+                "delta": delta,
+                "vol_ratio": (vol or {}).get("vol_ratio"),
+                "price": (vol or {}).get("price"),
+                "currency": (vol or {}).get("currency", "USD"),
+                "chg_1d": (vol or {}).get("chg_1d"),
+                "sources": d["sources"],
+            })
+    radar.sort(key=lambda x: x["score"], reverse=True)
+    return radar[:5]
 
 
 def fetch_price_data(ticker):
@@ -705,7 +821,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v9    |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v10   |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
@@ -719,6 +835,7 @@ def run():
     ticker_data = defaultdict(lambda: {
         "bull": 0, "bear": 0, "mentions": 0, "engagement": 0,
         "sources": [], "titles": [], "bull_hits": [], "bear_hits": [],
+        "squeeze_hits": 0,
     })
 
     total_posts = 0
@@ -736,14 +853,16 @@ def run():
             tickers   = extract_tickers(text)
             bull_hits = matched_keywords(text, BULL_KW)
             bear_hits = matched_keywords(text, BEAR_KW)
+            sq_hits   = len(matched_keywords(text.lower(), SQUEEZE_KW))
             for ticker in tickers:
                 d = ticker_data[ticker]
-                d["bull"]       += len(bull_hits)
-                d["bear"]       += len(bear_hits)
-                d["mentions"]   += 1
-                d["engagement"] += len(bull_hits) + len(bear_hits) + 1
-                d["bull_hits"]  += bull_hits
-                d["bear_hits"]  += bear_hits
+                d["bull"]        += len(bull_hits)
+                d["bear"]        += len(bear_hits)
+                d["mentions"]    += 1
+                d["engagement"]  += len(bull_hits) + len(bear_hits) + 1
+                d["bull_hits"]   += bull_hits
+                d["bear_hits"]   += bear_hits
+                d["squeeze_hits"] += sq_hits
                 if sub not in d["sources"]:
                     d["sources"].append(sub)
                 if len(d["titles"]) < 12:
@@ -884,6 +1003,15 @@ def run():
     else:
         print("  ○ Noch keine auswertbaren Empfehlungen (mind. 7 Tage Historie nötig)")
 
+    # Squeeze-/Opportunity-Radar
+    print("\nScanne nach Squeeze-/Meme-Wave-Mustern...")
+    radar = build_squeeze_radar(ticker_data, prev_mentions, history)
+    if radar:
+        for r in radar:
+            print(f"  🎯 {r['ticker']}: Score {r['score']} – {len(r['signals'])} Signale")
+    else:
+        print("  ○ Keine auffälligen Muster in diesem Scan")
+
     output = {
         "generated_at":    now_iso,
         "total_posts":     total_posts,
@@ -892,6 +1020,7 @@ def run():
         "recommendations": recommendations,
         "stats":           stats,
         "history_evaluated": evaluated[-40:],
+        "squeeze_radar":   radar,
     }
 
     os.makedirs("docs", exist_ok=True)
