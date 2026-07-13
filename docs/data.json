@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T19:12:45.023256+00:00",
+  "generated_at": "2026-07-13T20:50:09.174454+00:00",
   "total_posts": 250,
-  "unique_tickers": 146,
+  "unique_tickers": 154,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,7 +33,7 @@
       "confidence": 60,
       "sentiment": 3,
       "mentions": 7,
-      "mentions_delta": -2,
+      "mentions_delta": 0,
       "engagement": 12,
       "sources": [
         "Ameisenstrassenwetten",
@@ -53,24 +53,24 @@
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Positive Unternehmenszahlen",
+          "titel": "Positive Quartalszahlen",
+          "anteil_pct": 30,
+          "beitraege": 2,
+          "erklaerung": "Die Community diskutiert die guten Zahlen von Micron und deren Einfluss auf den Aktienkurs."
+        },
+        {
+          "emoji": "💬",
+          "titel": "Trump und Micron",
           "anteil_pct": 40,
-          "beitraege": 3,
-          "erklaerung": "Die Community diskutiert die guten Zahlen von Micron und deren Auswirkungen auf die Aktie."
+          "beitraege": 4,
+          "erklaerung": "Mehrere Posts thematisieren Trumps Erwähnungen von Micron und deren mögliche Auswirkungen auf die Aktien."
         },
         {
-          "emoji": "🤔",
-          "titel": "Trump-Einfluss auf Aktien",
+          "emoji": "⚔️",
+          "titel": "Chipkrieg und Wettbewerb",
           "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Die Erwähnung von Micron durch Trump sorgt für Aufsehen und spekulative Käufe."
-        },
-        {
-          "emoji": "📉",
-          "titel": "Konkurrenzdruck durch SK Hynix",
-          "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Die Diskussion über den Wettbewerb mit SK Hynix und den Einfluss auf Micron wird intensiver."
+          "beitraege": 1,
+          "erklaerung": "Diskussion über die Herausforderungen durch den Wettbewerb mit SK Hynix und andere Marktteilnehmer."
         }
       ],
       "bull_case": [
@@ -79,7 +79,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 929.32,
+        "price": 937.0,
         "currency": "USD",
         "name": "Micron Technology, Inc.",
         "chart_1d": [
@@ -173,11 +173,23 @@
           },
           {
             "t": 1783969200,
-            "c": 929.72
+            "c": 930.34
           },
           {
-            "t": 1783970001,
-            "c": 929.7
+            "t": 1783970100,
+            "c": 930.24
+          },
+          {
+            "t": 1783971000,
+            "c": 933.93
+          },
+          {
+            "t": 1783971900,
+            "c": 937.0
+          },
+          {
+            "t": 1783972800,
+            "c": 937.0
           }
         ],
         "chart_5d": [
@@ -315,11 +327,15 @@
           },
           {
             "t": 1783967400,
-            "c": 929.72
+            "c": 930.24
           },
           {
-            "t": 1783969999,
-            "c": 929.55
+            "t": 1783971000,
+            "c": 937.0
+          },
+          {
+            "t": 1783972800,
+            "c": 937.0
           }
         ],
         "chart_1mo": [
@@ -397,24 +413,18 @@
           },
           {
             "t": 1783949400,
-            "c": 929.32
+            "c": 937.0
           }
         ],
-        "chg_1d": 1.82,
-        "chg_7d": -5.63,
-        "chg_1mo": -14.58,
-        "sma20_dist": -11.82
+        "chg_1d": 2.67,
+        "chg_7d": -4.85,
+        "chg_1mo": -13.88,
+        "sma20_dist": -11.12
       },
       "news": [
         {
-          "title": "SK Hynix Stock Drops as AI Fears Resurface",
-          "link": "https://finance.yahoo.com/m/f20a1bd4-4e3a-3554-8bdf-aba53216ecba/sk-hynix-stock-drops-as-ai.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neg"
-        },
-        {
-          "title": "Has Micron Technology Stock Peaked?",
-          "link": "https://www.fool.com/investing/2026/07/13/has-micron-technology-stock-peaked/?.tsrc=rss",
+          "title": "The $536 Billion Chip War Threatening Micron Stock",
+          "link": "https://finance.yahoo.com/m/3de06414-c0fa-393f-b2f7-427f3a5a05d3/the-%24536-billion-chip-war.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
@@ -425,34 +435,40 @@
           "tone": "neu"
         },
         {
-          "title": "Tech View: Record Profits, Insider buying, & Cheap Valuations",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tech-view-record-profits-insider-175100722.html?.tsrc=rss",
+          "title": "Chip stocks may be selling off, but profits are set to triple by 2027: Chart of the Day",
+          "link": "https://finance.yahoo.com/video/chip-stocks-may-be-selling-off-but-profits-are-set-to-triple-by-2027-chart-of-the-day-195803178.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "pos"
         },
         {
-          "title": "Why TSMC’s Record Revenue Isn’t Reviving the AI Trade",
-          "link": "https://finance.yahoo.com/m/6ef9b2e8-e562-344a-af4d-dd77a6b79dfc/why-tsmc%E2%80%99s-record-revenue.html?.tsrc=rss",
+          "title": "Stock Market Today: Dow Lower As Oil Spikes On Hormuz Conflict; Memory ETF In Bear Market (Live Coverage)",
+          "link": "https://finance.yahoo.com/m/5eba618e-9a5d-3cbe-906d-545b7db0d19c/stock-market-today%3A-dow-lower.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
-          "tone": "pos"
+          "tone": "neu"
+        },
+        {
+          "title": "Micron Flags Next AI Chip Bottleneck",
+          "link": "https://finance.yahoo.com/technology/ai/articles/micron-flags-next-ai-chip-192303548.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "widerspricht",
         "points": [
-          "Kurs -5.63% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -14.58%.",
-          "-11.82% unter SMA20 – technisch angeschlagen.",
+          "Kurs -4.85% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -13.88%.",
+          "-11.12% unter SMA20 – technisch angeschlagen.",
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Die Reddit-Diskussion über Micron Technology dreht sich hauptsächlich um positive Unternehmenszahlen und die Erwähnung durch Trump, was das Interesse an der Aktie steigert. Markt- und Nachrichtenlage zeigen jedoch eine gemischte Stimmung, da der Kurs in den letzten Wochen gefallen ist. Die Empfehlung lautet, die Entwicklung zu beobachten, da die fundamentalen Daten und die Marktreaktion nicht eindeutig sind.",
+      "fazit": "1) Reddit diskutiert über die positiven Quartalszahlen von Micron sowie die Erwähnungen durch Trump, was das Interesse an der Aktie steigert. 2) Die Markt- und Nachrichtenlage zeigt jedoch eine negative Tendenz, insbesondere durch den Chipkrieg und die Unsicherheiten im Sektor. 3) Die Empfehlung lautet, Micron zu beobachten, da die aktuelle Stimmung nicht vollständig durch fundamentale Daten gestützt wird.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicher- und Speicherlösungen, der in einem wettbewerbsintensiven Markt agiert, der von Unternehmen wie SK Hynix und Samsung Electronics dominiert wird. Das Unternehmen produziert DRAM- und NAND-Flash-Speicher, die in einer Vielzahl von Anwendungen, einschließlich PCs, Mobilgeräten und Rechenzentren, eingesetzt werden. Die Marktposition von Micron ist stark, jedoch ist der Druck durch die Konkurrenz und die Abhängigkeit von zyklischen Märkten eine ständige Herausforderung.\n\nIn den nächsten ein bis zwei Jahren könnten mehrere Faktoren das Wachstum von Micron antreiben. Die zunehmende Nachfrage nach Speicherlösungen im Zusammenhang mit der fortschreitenden Digitalisierung, dem Internet der Dinge und insbesondere der Künstlichen Intelligenz könnte Micron zugutekommen. **Die AI-Speicherboom** wird als potenzieller Wachstumstreiber angesehen, da Unternehmen zunehmend auf leistungsstarke Speicherlösungen angewiesen sind, um große Datenmengen zu verarbeiten. Darüber hinaus könnten strategische Partnerschaften und technologische Innovationen Micron helfen, seine Marktanteile auszubauen.\n\nDennoch gibt es auch zentrale Risiken, die das Unternehmen belasten könnten. Der Wettbewerb im Speichersegment ist intensiv, und Unternehmen wie SK Hynix und Samsung haben erhebliche Ressourcen, um in neue Technologien zu investieren. Zudem ist die Branche zyklisch, was bedeutet, dass die Nachfrage nach Speicherprodukten stark schwanken kann. **Die Bewertung von Micron könnte unter Druck geraten**, wenn die Marktbedingungen sich verschlechtern oder wenn die Nachfrage nach Speicherprodukten nicht den Erwartungen entspricht. Makroökonomische Faktoren, wie Inflation und geopolitische Spannungen, könnten ebenfalls die Geschäftstätigkeit von Micron beeinträchtigen.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass der Markt gemischte Signale sendet. Der Kurs von Micron ist in den letzten Wochen um 14,58 % gefallen, was auf ein gewisses Maß an Unsicherheit hinweist. Die positiven Unternehmenszahlen und die Erwähnung durch Trump könnten kurzfristig das Interesse an der Aktie steigern, jedoch ist die langfristige Perspektive angesichts der Konkurrenzsituation und der Marktvolatilität fraglich. **Die Reddit-Stimmung könnte fundamental gerechtfertigt sein**, insbesondere hinsichtlich der positiven Unternehmenszahlen, aber die Diskussion über den Wettbewerb mit SK Hynix legt nahe, dass die Anleger vorsichtig sein sollten. Die These, dass Micron von der AI-Nachfrage profitieren könnte, ist plausibel, jedoch muss die Marktreaktion weiterhin beobachtet werden, um festzustellen, ob dies auch tatsächlich der Fall sein wird.",
+      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicherlösungen, der sich auf DRAM- und NAND-Flash-Speicher spezialisiert hat. Das Unternehmen konkurriert direkt mit anderen großen Herstellern wie SK Hynix und Samsung, die ebenfalls in der Halbleiterbranche tätig sind. Micron hat sich eine starke Marktposition erarbeitet, jedoch ist der Markt stark umkämpft und von technologischem Fortschritt geprägt.\n\nIn den nächsten ein bis zwei Jahren könnte Micron von der steigenden Nachfrage nach Speicherlösungen profitieren, insbesondere durch den Trend zur Digitalisierung und den Anstieg von Cloud-Diensten sowie KI-Anwendungen. **Die zunehmende Nachfrage nach Speicher für Rechenzentren** und mobile Geräte könnte die Umsätze und Gewinne von Micron signifikant steigern. Zudem wird erwartet, dass die Profitabilität in der Branche bis 2027 dreifach ansteigt, was positiv für Micron wäre.\n\nAllerdings gibt es auch zentrale Risiken, die das Unternehmen belasten könnten. Der Wettbewerb mit SK Hynix und anderen Herstellern ist intensiv und könnte zu Preisdruck führen. Zudem ist die Halbleiterindustrie zyklisch, was bedeutet, dass die Nachfrage schwanken kann. **Die geopolitischen Spannungen und der Chipkrieg** zwischen den USA und anderen Ländern stellen ein zusätzliches Risiko dar, das sich negativ auf die Geschäftsaussichten auswirken könnte.\n\nDie aktuelle Nachrichtenlage zeigt, dass trotz positiver Quartalszahlen und einer gewissen Aufmerksamkeit durch die Erwähnungen von Trump, der Aktienkurs von Micron in den letzten Wochen gefallen ist. **Der Rückgang von 13,88 % im letzten Monat** deutet darauf hin, dass die Marktteilnehmer skeptisch sind, was die zukünftige Entwicklung des Unternehmens angeht. Die Diskussionen auf Reddit scheinen zwar von den positiven Zahlen und dem Trump-Effekt beeinflusst zu sein, jedoch wird die fundamentale Unsicherheit durch den Chipkrieg und den Wettbewerb nicht ausreichend berücksichtigt.\n\nInsgesamt erscheint die Reddit-Stimmung nicht vollständig gerechtfertigt. Während die positiven Quartalszahlen und die Erwähnungen durch Trump kurzfristig das Interesse an Micron steigern könnten, überwiegen die strukturellen Risiken und die Unsicherheiten im Markt. **Die Diskussion über den Chipkrieg und den Wettbewerb** zeigt, dass die Anleger vorsichtig sein sollten, bevor sie in Micron investieren. Daher ist die Empfehlung, das Unternehmen zu beobachten, sinnvoll, um die weitere Entwicklung abzuwarten.",
       "gruende": [
-        "Positive Unternehmenszahlen von Micron Technology",
-        "Erwähnung durch Trump erhöht das Interesse",
-        "Markt reagiert negativ auf Konkurrenzsorgen"
+        "Positive Quartalszahlen und Trump-Erwähnungen führen zu Diskussionen.",
+        "Marktverunsicherung durch den Chipkrieg und Konkurrenzdruck.",
+        "Rückgang des Aktienkurses in den letzten Wochen."
       ],
       "momentum": 51,
       "momentum_label": "➡️ Diskussion stabil",
@@ -477,18 +493,10 @@
       "quality_pct": 40,
       "reddit_vs_markt": {
         "reddit": 51,
-        "markt": 27,
+        "markt": 30,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-13T01:52:35.374184+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 73,
-          "engagement": 20,
-          "price": 979.3
-        },
         {
           "ts": "2026-07-13T05:28:11.204502+00:00",
           "ticker": "MU",
@@ -528,6 +536,14 @@
           "confidence": 60,
           "engagement": 12,
           "price": 929.32
+        },
+        {
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 60,
+          "engagement": 12,
+          "price": 937.0
         }
       ]
     },
@@ -558,25 +574,25 @@
       ],
       "themen": [
         {
-          "emoji": "💰",
-          "titel": "NATO-Verteidigungsgeschäfte",
-          "anteil_pct": 50,
+          "emoji": "🛡️",
+          "titel": "NATO-Verteidigungsdeals",
+          "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Auswirkungen der neuen NATO-Verträge auf die Aktien von Lockheed Martin und anderen Rüstungsherstellern."
+          "erklaerung": "Die Community diskutiert die Auswirkungen der neuen NATO-Verteidigungsdeals auf Lockheed Martins Geschäft."
         },
         {
           "emoji": "📉",
-          "titel": "Negative Unternehmenszahlen",
+          "titel": "Aktuelle Kursentwicklung",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Einige Beiträge thematisieren die enttäuschenden Quartalszahlen von Lockheed Martin und deren Einfluss auf die Marktstimmung."
+          "erklaerung": "Es wird über die negative Kursentwicklung der letzten Wochen und deren Ursachen diskutiert."
         },
         {
           "emoji": "🤔",
-          "titel": "Unsicherheit im Verteidigungssektor",
-          "anteil_pct": 20,
+          "titel": "Trump und Verteidigung",
+          "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Diskussion über die allgemeine Unsicherheit im Verteidigungssektor und die Auswirkungen geopolitischer Konflikte auf die Aktienkurse."
+          "erklaerung": "Die Erwähnung durch Trump wird als potenzieller Einfluss auf die Aktienkurse und die Marktstimmung betrachtet."
         }
       ],
       "bull_case": [],
@@ -585,7 +601,7 @@
       ],
       "price": {
         "available": true,
-        "price": 520.32,
+        "price": 520.68,
         "currency": "USD",
         "name": "Lockheed Martin Corporation",
         "chart_1d": [
@@ -679,11 +695,23 @@
           },
           {
             "t": 1783969200,
-            "c": 520.32
+            "c": 520.64
           },
           {
-            "t": 1783970012,
-            "c": 520.32
+            "t": 1783970100,
+            "c": 520.06
+          },
+          {
+            "t": 1783971000,
+            "c": 522.43
+          },
+          {
+            "t": 1783971900,
+            "c": 520.85
+          },
+          {
+            "t": 1783972800,
+            "c": 520.68
           }
         ],
         "chart_5d": [
@@ -821,11 +849,15 @@
           },
           {
             "t": 1783967400,
-            "c": 520.32
+            "c": 520.06
           },
           {
-            "t": 1783970012,
-            "c": 520.32
+            "t": 1783971000,
+            "c": 520.85
+          },
+          {
+            "t": 1783972800,
+            "c": 520.68
           }
         ],
         "chart_1mo": [
@@ -903,15 +935,21 @@
           },
           {
             "t": 1783949400,
-            "c": 520.32
+            "c": 520.68
           }
         ],
-        "chg_1d": -0.5,
-        "chg_7d": -3.29,
-        "chg_1mo": -1.89,
-        "sma20_dist": 0.33
+        "chg_1d": -0.43,
+        "chg_7d": -3.22,
+        "chg_1mo": -1.83,
+        "sma20_dist": 0.4
       },
       "news": [
+        {
+          "title": "The Iran War Hasn’t Helped Defense Stocks. Maybe Earnings Can.",
+          "link": "https://finance.yahoo.com/m/0f4cd074-4e67-3875-9063-4446b28be6a1/the-iran-war-hasn%E2%80%99t-helped.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
         {
           "title": "If You’d Invested $10,000 In Lockheed Martin When The Iran Conflict Started, Here’s How Much You’d Have Now",
           "link": "https://247wallst.com/investing/2026/07/13/if-youd-invested-10000-in-lockheed-martin-when-the-iran-conflict-started-heres-how-much-youd-have-now/?.tsrc=rss",
@@ -921,12 +959,6 @@
         {
           "title": "Boeing Stock And The Number Behind The Worry",
           "link": "https://www.trefis.com/articles/606848/boeing-stock-and-the-number-behind-the-worry/2026-07-13?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "The Iran War Hasn’t Helped Defense Stocks. Maybe Earnings Can.",
-          "link": "https://finance.yahoo.com/m/0f4cd074-4e67-3875-9063-4446b28be6a1/the-iran-war-hasn%E2%80%99t-helped.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
@@ -946,17 +978,17 @@
       "comparison": {
         "verdict": "bestätigt",
         "points": [
-          "Kurs -3.29% über 7 Tage – Abwärtsdruck.",
+          "Kurs -3.22% über 7 Tage – Abwärtsdruck.",
           "Marktlage stützt die skeptische Reddit-Stimmung."
         ]
       },
-      "fazit": "Die Reddit-Diskussion über Lockheed Martin dreht sich um die kürzlich angekündigten NATO-Verteidigungsgeschäfte, die potenziell positive Auswirkungen auf den Aktienkurs haben könnten. Allerdings zeigen die aktuellen Markt- und Nachrichtenlagen eine negative Tendenz, was die Empfehlung, die Aktie zu verkaufen, stützt. Insgesamt bleibt die Marktstimmung angespannt, was die Unsicherheiten in der Branche widerspiegelt.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die kürzlich angekündigten NATO-Verteidigungsdeals, die Lockheed Martin betreffen. Die Markt- und Nachrichtenlage zeigt eine negative Tendenz, die die Empfehlung zum Verkauf stützt. Insgesamt wird die Aktie als trendbehaftet eingestuft, jedoch gibt es keine bullischen Argumente, während die Bärenseite auf enttäuschende Zahlen hinweist.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Lockheed Martin ist ein führendes Unternehmen im Bereich Verteidigung und Luftfahrt, das sich auf die Entwicklung und Produktion von Rüstungs- und Verteidigungssystemen spezialisiert hat. Zu den Hauptkonkurrenten zählen Boeing, Northrop Grumman und Raytheon Technologies. Die starke Marktposition von Lockheed Martin basiert auf seiner umfangreichen Produktpalette, die von Kampfflugzeugen bis zu Raketenabwehrsystemen reicht, und der langfristigen Nachfrage nach Verteidigungslösungen, insbesondere in Zeiten geopolitischer Spannungen.\n\nIn den nächsten ein bis zwei Jahren könnten mehrere Wachstumstreiber das Geschäft von Lockheed Martin unterstützen. Die kürzlich angekündigten NATO-Verteidigungsgeschäfte im Wert von über 50 Milliarden USD könnten zu einem Anstieg der Aufträge führen und die Umsatzprognosen positiv beeinflussen. Zudem könnte die anhaltende geopolitische Unsicherheit, insbesondere im Zusammenhang mit Konflikten im Nahen Osten, die Nachfrage nach Verteidigungssystemen ankurbeln. Lockheed Martin hat auch in der Vergangenheit von solchen Situationen profitiert, was die Marktteilnehmer optimistisch stimmen könnte.\n\nDennoch gibt es zentrale Risiken, die das Unternehmen belasten könnten. Die Wettbewerbsintensität im Verteidigungssektor nimmt zu, insbesondere durch neue Anbieter und technologische Innovationen, die die Margen unter Druck setzen könnten. Zudem ist der Verteidigungssektor zyklisch und stark von staatlichen Haushaltsentscheidungen abhängig, was zu Unsicherheiten in der Auftragslage führen kann. Die aktuelle Bewertung von Lockheed Martin könnte ebenfalls als hoch angesehen werden, was potenziell zu einem Rückgang des Aktienkurses führen könnte, falls die zukünftigen Ergebnisse nicht den Erwartungen entsprechen.\n\nDie aktuelle Kursentwicklung von Lockheed Martin zeigt einen Rückgang von 3,29 % in den letzten sieben Tagen und 1,89 % im letzten Monat, was auf eine negative Marktstimmung hinweist. Die Reddit-Diskussionen über die NATO-Verteidigungsgeschäfte könnten zwar kurzfristig optimistisch erscheinen, jedoch zeigen die negativen Unternehmenszahlen und die allgemeine Unsicherheit im Verteidigungssektor, dass die Marktteilnehmer vorsichtig bleiben. **Die Enttäuschung über die aktuellen Unternehmenszahlen** könnte die positive Stimmung über die neuen NATO-Verträge überlagern. Daher erscheint die Reddit-Stimmung nicht vollständig fundamental gerechtfertigt. Die Empfehlung, die Aktie zu verkaufen, wird durch die aktuellen Entwicklungen und die Unsicherheiten im Markt gestützt.",
+      "analyse": "Lockheed Martin Corporation ist ein führendes Unternehmen im Bereich der Verteidigungs- und Luftfahrttechnik, das in direkter Konkurrenz zu Firmen wie Boeing, Northrop Grumman und Raytheon Technologies steht. Das Geschäftsmodell des Unternehmens basiert auf der Entwicklung und Produktion von Militärflugzeugen, Raketen und Verteidigungssystemen, die sowohl von der US-Regierung als auch von internationalen Kunden nachgefragt werden. Die starke Marktposition wird durch langjährige Verträge und innovative Technologien unterstützt, die Lockheed Martin einen stabilen Umsatzstrom sichern.\n\nIn den nächsten 1-2 Jahren könnten die Wachstumschancen des Unternehmens durch die zunehmenden Verteidigungsausgaben in NATO-Ländern und die geopolitischen Spannungen, insbesondere im Hinblick auf den Iran-Konflikt, begünstigt werden. Die Ankündigung von über 50 Milliarden USD in NATO-Verteidigungsdeals könnte zusätzliche Aufträge für Lockheed Martin generieren und somit das Wachstum fördern. Allerdings muss das Unternehmen auch die Herausforderungen im internationalen Wettbewerb und die Notwendigkeit zur kontinuierlichen Innovation im Auge behalten.\n\nZentrale Risiken für Lockheed Martin sind die zyklische Natur der Verteidigungsindustrie, die Abhängigkeit von staatlichen Aufträgen und die potenzielle Konkurrenz durch neue Marktteilnehmer und Technologien. Zudem könnte eine mögliche wirtschaftliche Abkühlung die Verteidigungsausgaben der Regierungen negativ beeinflussen. Auch die Bewertung der Aktie könnte unter Druck geraten, wenn die Marktbedingungen sich verschlechtern oder wenn die Ergebnisse hinter den Erwartungen zurückbleiben.\n\nDie aktuelle Kurslage von 520,68 USD zeigt eine negative Tendenz, mit einem Rückgang von 3,22% in den letzten sieben Tagen. Diese Entwicklung wird durch die jüngsten Nachrichten über die Auswirkungen des Iran-Konflikts auf Verteidigungsaktien unterstützt. Die Reddit-Diskussionen über die NATO-Verteidigungsdeals könnten zwar kurzfristig positive Impulse geben, jedoch scheinen die Bärenargumente über enttäuschende Zahlen und die allgemeine Marktsituation überwiegen.\n\nInsgesamt erscheint die Reddit-Stimmung über die NATO-Verteidigungsdeals als teilweise gerechtfertigt, jedoch muss die Unsicherheit über die Marktbedingungen und die aktuelle Kursentwicklung berücksichtigt werden. Die These, dass die Deals Lockheed Martin einen signifikanten Vorteil verschaffen werden, könnte durch die realen Marktbedingungen relativiert werden, insbesondere angesichts der negativen Sentimentwerte und der aktuellen Kursentwicklung. Daher ist die Empfehlung, die Aktie zu verkaufen, angesichts der Unsicherheiten und der negativen Marktreaktionen nachvollziehbar.",
       "gruende": [
-        "Erwähnung von Lockheed Martin in Verbindung mit großen NATO-Verteidigungsgeschäften.",
-        "Negative Marktreaktionen auf die jüngsten Unternehmenszahlen.",
-        "Allgemeine Unsicherheit über die Entwicklung der Verteidigungsausgaben."
+        "Ankündigung von über 50 Milliarden USD in NATO-Verteidigungsdeals",
+        "Erwähnung durch Trump auf dem NATO-Gipfel",
+        "Negative Marktreaktionen auf die aktuellen Entwicklungen im Iran-Konflikt"
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -981,18 +1013,10 @@
       "quality_pct": 20,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 36,
+        "markt": 37,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-13T01:52:35.374184+00:00",
-          "ticker": "LMT",
-          "rec": "verkaufen",
-          "confidence": 81,
-          "engagement": 10,
-          "price": 523.22
-        },
         {
           "ts": "2026-07-13T05:28:11.204502+00:00",
           "ticker": "LMT",
@@ -1032,6 +1056,14 @@
           "confidence": 81,
           "engagement": 10,
           "price": 520.32
+        },
+        {
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "LMT",
+          "rec": "verkaufen",
+          "confidence": 81,
+          "engagement": 10,
+          "price": 520.68
         }
       ]
     },
@@ -1043,7 +1075,7 @@
       "confidence": 64,
       "sentiment": 1,
       "mentions": 4,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 7,
       "sources": [
         "wallstreetbets"
@@ -1061,25 +1093,25 @@
       ],
       "themen": [
         {
-          "emoji": "📈",
-          "titel": "Spekulation auf Kursgewinne",
+          "emoji": "💰",
+          "titel": "Spekulative Call-Optionen",
           "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert über große Investitionen und Call-Optionen, die auf steigende Kurse setzen."
+          "erklaerung": "Die Community diskutiert über große Call-Optionen und deren potenzielle Renditen."
         },
         {
-          "emoji": "🤝",
-          "titel": "Partnerschaften mit Nvidia und AMD",
+          "emoji": "🚀",
+          "titel": "Große Investitionen",
           "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Die Bedeutung von Microsofts Kooperationen mit anderen Tech-Giganten wird hervorgehoben."
+          "beitraege": 2,
+          "erklaerung": "Nutzer berichten von hohen Investitionen in MSFT, die durch Gewinne aus anderen Tech-Aktien finanziert wurden."
         },
         {
           "emoji": "📉",
-          "titel": "Kursentwicklung beobachten",
+          "titel": "Kursrückgang analysieren",
           "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Die Reddit-Nutzer sind sich unsicher über die zukünftige Kursentwicklung und empfehlen eine Beobachtung."
+          "beitraege": 2,
+          "erklaerung": "Diskussion über die Gründe für den jüngsten Kursrückgang und dessen Auswirkungen auf das Investment."
         }
       ],
       "bull_case": [
@@ -1088,7 +1120,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 392.38,
+        "price": 390.99,
         "currency": "USD",
         "name": "Microsoft Corporation",
         "chart_1d": [
@@ -1182,11 +1214,23 @@
           },
           {
             "t": 1783969200,
-            "c": 392.46
+            "c": 392.08
           },
           {
-            "t": 1783970025,
-            "c": 392.38
+            "t": 1783970100,
+            "c": 390.37
+          },
+          {
+            "t": 1783971000,
+            "c": 390.52
+          },
+          {
+            "t": 1783971900,
+            "c": 390.98
+          },
+          {
+            "t": 1783972800,
+            "c": 390.99
           }
         ],
         "chart_5d": [
@@ -1324,11 +1368,15 @@
           },
           {
             "t": 1783967400,
-            "c": 392.46
+            "c": 390.37
           },
           {
-            "t": 1783970025,
-            "c": 392.38
+            "t": 1783971000,
+            "c": 390.98
+          },
+          {
+            "t": 1783972800,
+            "c": 390.99
           }
         ],
         "chart_1mo": [
@@ -1406,42 +1454,42 @@
           },
           {
             "t": 1783949400,
-            "c": 392.38
+            "c": 390.99
           }
         ],
-        "chg_1d": 0.69,
-        "chg_7d": 1.46,
-        "chg_1mo": -1.85,
-        "sma20_dist": 3.24
+        "chg_1d": 0.33,
+        "chg_7d": 1.1,
+        "chg_1mo": -2.19,
+        "sma20_dist": 2.89
       },
       "news": [
         {
+          "title": "'Scam Altman strikes again': Why SpaceX CEO Elon Musk was beefing on X over the weekend",
+          "link": "https://finance.yahoo.com/video/scam-altman-strikes-again-why-spacex-ceo-elon-musk-was-beefing-on-x-over-the-weekend-202657668.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Why Smart Money Is Quietly Swapping VGT for Its Nearly Identical, Cheaper Twin",
+          "link": "https://247wallst.com/investing/etf/2026/07/13/why-smart-money-is-quietly-swapping-vgt-for-its-nearly-identical-cheaper-twin/?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple Sat Out the AI Arms Race. It’s the Only Magnificent 7 Stock Near All-Time Highs.",
+          "link": "https://247wallst.com/investing/2026/07/13/apple-sat-out-the-ai-arms-race-its-the-only-magnificent-7-stock-near-all-time-highs/?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Nvidia, Amazon, and Microsoft Stocks Just Did Something for the First Time in at Least 5 Years. Here's What History Says Will Happen Next",
+          "link": "https://www.fool.com/investing/2026/07/13/nvidia-amazon-and-microsoft-stocks-just-did-something-for-the-first-time-in-at-least-5-years-here-s-what-history-says-will-happen-next/?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Nvidia, AMD, Microsoft Partnerships — And These Clues — Fuel Dell Stock",
           "link": "https://finance.yahoo.com/m/568ed7cb-87e6-3e83-af96-b829d4b5992f/nvidia%2C-amd%2C-microsoft.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "This Is Why I Keep Buying Meta Stock",
-          "link": "https://247wallst.com/investing/2026/07/13/this-is-why-i-keep-buying-meta-stock/?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Elon Musk trolls OpenAI CEO Sam Altman over Apple trade secrets suit",
-          "link": "https://finance.yahoo.com/technology/article/elon-musk-trolls-openai-ceo-sam-altman-over-apple-trade-secrets-suit-181116261.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Tech View: Record Profits, Insider buying, & Cheap Valuations",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tech-view-record-profits-insider-175100722.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "The Vanguard S&P 500 ETF Is Unstoppable, but This 1 Investment Could Be Safer Right Now",
-          "link": "https://www.fool.com/investing/2026/07/13/vanguard-sp-500-etf-voo-unstoppable-but-rsp-safer/?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         }
@@ -1449,17 +1497,17 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+1.46%).",
+          "Kurs seitwärts über 7 Tage (+1.1%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Reddit-Community diskutiert über Microsoft aufgrund von spekulativen Call-Optionen und großen Investitionen, die auf zukünftige Kursgewinne abzielen. Die aktuelle Markt- und Nachrichtenlage, insbesondere die Partnerschaften mit Nvidia und AMD, unterstützen die positive Stimmung. Die Empfehlung lautet, Microsoft weiterhin zu beobachten, da die Kursentwicklung derzeit relativiert erscheint.",
+      "fazit": "Die Reddit-Diskussion um Microsoft dreht sich vor allem um spekulative Call-Optionen und große Investitionen, was auf ein starkes Interesse an der Aktie hinweist. Die Markt- und Nachrichtenlage zeigt jedoch keine signifikanten neuen Impulse, die diese Stimmung stützen könnten. Daher ist die Empfehlung, die Aktie weiter zu beobachten, sinnvoll, um mögliche Entwicklungen abzuwarten.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Microsoft Corporation ist ein führendes Unternehmen im Bereich Software und Cloud-Dienste, das sich durch seine dominierende Marktposition im Bereich Betriebssysteme (Windows) und Büroanwendungen (Microsoft Office) auszeichnet. Neben diesen Kernbereichen hat Microsoft auch stark in Cloud-Computing mit Azure investiert, wo es gegen Wettbewerber wie Amazon Web Services (AWS) und Google Cloud antritt. Die Diversifikation in Bereiche wie Gaming (Xbox) und LinkedIn verstärkt die Marktstellung und bietet zusätzliche Umsatzquellen.\n\nIn den nächsten ein bis zwei Jahren könnte Microsoft von mehreren Wachstumstreibern profitieren. Die anhaltende Nachfrage nach Cloud-Diensten, insbesondere durch die Digitalisierung in Unternehmen, wird voraussichtlich ein wesentlicher Motor für das Umsatzwachstum sein. Zudem könnten innovative Produkte im Bereich Künstliche Intelligenz, an denen Microsoft aktiv arbeitet, die Marktposition weiter festigen. Die Partnerschaften mit Nvidia und AMD könnten ebenfalls zu einer verstärkten Integration von KI-Technologien in Microsofts Angebote führen, was die Wettbewerbsfähigkeit steigert.\n\nDennoch gibt es zentrale Risiken, die die zukünftige Entwicklung von Microsoft beeinflussen könnten. Der Wettbewerb im Cloud-Sektor ist intensiv, und Unternehmen wie Amazon und Google investieren massiv, um Marktanteile zu gewinnen. Zudem könnte eine zyklische Abschwächung der Wirtschaft die IT-Ausgaben der Unternehmen negativ beeinflussen. Auch die Bewertung von Microsoft bleibt ein Thema, da das Unternehmen bereits mit einem hohen Kurs-Gewinn-Verhältnis (KGV) gehandelt wird, was bei stagnierendem Wachstum zu einem Rückgang des Aktienkurses führen könnte.\n\nDie aktuelle Kurslage von 392,38 USD zeigt eine moderate positive Bewegung, jedoch ist der Rückgang von 1,85 % über den letzten Monat bemerkenswert. Die Reddit-Diskussionen über große Call-Optionen und Investitionen deuten auf eine spekulative Stimmung hin, die durch die positiven Nachrichten über Partnerschaften gestützt wird. **Die Spekulation auf Kursgewinne durch Call-Optionen** könnte kurzfristig zu höheren Kursen führen, jedoch bleibt die langfristige Bewertung fraglich. Die Aussage, dass Microsofts Partnerschaften mit Nvidia und AMD die Marktposition stärken, ist **fundamentale Realität**, die die positive Reddit-Stimmung unterstützt.\n\nInsgesamt erscheint die Reddit-Stimmung über Microsoft teilweise gerechtfertigt, insbesondere im Hinblick auf die spekulativen Investitionen und die positiven Nachrichten über Partnerschaften. Dennoch sollten Anleger die Risiken im Auge behalten und die Kursentwicklung weiterhin beobachten, um fundierte Entscheidungen zu treffen. Die **Beobachtung der Kursentwicklung** ist daher ratsam, um auf mögliche Veränderungen im Marktumfeld reagieren zu können.",
+      "analyse": "Microsoft Corporation (MSFT) ist ein führendes Technologieunternehmen, das sich auf Software, Cloud-Dienste und Hardware spezialisiert hat. Mit Produkten wie Windows, Office und Azure hat Microsoft eine starke Marktposition, die es ihm ermöglicht, im Wettbewerb mit anderen Tech-Giganten wie Apple, Google und Amazon zu bestehen. Die Diversifizierung in verschiedene Geschäftsbereiche hat Microsoft geholfen, stabilere Einnahmen zu generieren, während die Konkurrenz in den jeweiligen Segmenten an Intensität zunimmt.\n\nIn den nächsten 1-2 Jahren wird Microsoft voraussichtlich von mehreren Wachstumstreibern profitieren. Dazu zählen die steigende Nachfrage nach Cloud-Computing-Diensten, die durch die digitale Transformation von Unternehmen und den Trend zur Remote-Arbeit verstärkt wird. Zudem wird erwartet, dass die Investitionen in Künstliche Intelligenz und maschinelles Lernen, insbesondere durch die Integration von AI in bestehende Produkte, zu einer weiteren Umsatzsteigerung führen werden. **Die Cloud-Sparte Azure bleibt ein zentraler Wachstumstreiber**, da Unternehmen zunehmend auf cloudbasierte Lösungen umsteigen.\n\nDennoch gibt es auch zentrale Risiken, die Microsoft im Auge behalten muss. Der Wettbewerb im Cloud-Sektor wird intensiver, insbesondere durch Anbieter wie Amazon Web Services und Google Cloud. **Die Bewertung von Microsoft könnte unter Druck geraten**, wenn das Marktwachstum nicht mit den hohen Erwartungen der Investoren Schritt hält. Zudem könnten makroökonomische Faktoren, wie eine mögliche Rezession oder steigende Zinsen, die Ausgaben der Unternehmen für Technologie beeinträchtigen.\n\nDie aktuelle Kursentwicklung von Microsoft zeigt eine gewisse Stabilität, trotz eines leichten Rückgangs von 2,19 % im letzten Monat. Die Reddit-Diskussion, die sich um spekulative Call-Optionen und große Investitionen dreht, könnte auf eine bullische Stimmung hinweisen, jedoch fehlen klare fundamentale Nachrichten, die diese Stimmung untermauern. **Die hohe Call-Optionen-Aktivität deutet auf ein starkes Vertrauen in die zukünftige Performance von MSFT hin**, während die Nachrichtenlage eher neutral ist.\n\nInsgesamt erscheint die Reddit-Stimmung zwar optimistisch, jedoch ist es entscheidend, die fundamentalen Daten und Marktbedingungen im Auge zu behalten. Die Thesen über große Investitionen und spekulative Call-Optionen sind interessant, jedoch sollte man vorsichtig sein, da sie nicht unbedingt die langfristige Unternehmensentwicklung widerspiegeln. **Die aktuelle Marktlage erfordert eine abwartende Haltung**, um zu sehen, ob sich die fundamentalen Daten mit der spekulativen Stimmung decken.",
       "gruende": [
-        "Spekulative Investitionen in Call-Optionen deuten auf hohe Erwartungen hin.",
-        "Partnerschaften mit führenden Technologieunternehmen fördern die Marktposition.",
-        "Positive Reddit-Diskussionen könnten kurzfristig zu Kursbewegungen führen."
+        "Hohe Call-Optionen-Aktivität deutet auf bullisches Sentiment hin.",
+        "Große Investitionen von Reddit-Nutzern, die durch Gewinne aus anderen Tech-Aktien finanziert werden.",
+        "Stabile Kursentwicklung in den letzten Tagen trotz kurzfristiger Rückgänge."
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1481,21 +1529,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 4,
+      "quality_pct": 0,
       "reddit_vs_markt": {
         "reddit": 52,
-        "markt": 55,
+        "markt": 54,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-12T22:38:03.781476+00:00",
-          "ticker": "MSFT",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 9,
-          "price": 385.1
-        },
         {
           "ts": "2026-07-13T01:52:35.374184+00:00",
           "ticker": "MSFT",
@@ -1535,6 +1575,14 @@
           "confidence": 64,
           "engagement": 7,
           "price": 392.38
+        },
+        {
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "MSFT",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 390.99
         }
       ]
     },
@@ -1565,32 +1613,32 @@
       ],
       "themen": [
         {
-          "emoji": "📉",
-          "titel": "Kursrückgang analysieren",
-          "anteil_pct": 40,
+          "emoji": "📈",
+          "titel": "Finanzielle Diversifikation",
+          "anteil_pct": 25,
+          "beitraege": 1,
+          "erklaerung": "Ein Nutzer berichtet, wie er seine Netflix-Investition durch Gewinne aus anderen Aktien finanziert hat."
+        },
+        {
+          "emoji": "🎬",
+          "titel": "Nutzerbindung und Abonnements",
+          "anteil_pct": 50,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Gründe für den signifikanten Kursrückgang von Netflix und die Auswirkungen auf die zukünftige Performance."
+          "erklaerung": "Diskussion über die anhaltende Relevanz von Netflix-Abonnements in der aktuellen Medienlandschaft."
         },
         {
-          "emoji": "📰",
-          "titel": "Analystenbewertungen im Fokus",
-          "anteil_pct": 30,
+          "emoji": "📉",
+          "titel": "Marktanalyse und Kursentwicklung",
+          "anteil_pct": 25,
           "beitraege": 1,
-          "erklaerung": "Die Herabsetzung der Preisziele durch Analysten wird als negatives Signal für die zukünftige Entwicklung von Netflix wahrgenommen."
-        },
-        {
-          "emoji": "🤔",
-          "titel": "Zukunftsperspektiven ungewiss",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über die Unsicherheiten und Chancen von Netflix in einem sich schnell verändernden Markt."
+          "erklaerung": "Die Marktreaktionen und der Kursrückgang werden kritisch betrachtet."
         }
       ],
       "bull_case": [],
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 74.03,
+        "price": 73.83,
         "currency": "USD",
         "name": "Netflix, Inc.",
         "chart_1d": [
@@ -1684,11 +1732,23 @@
           },
           {
             "t": 1783969200,
-            "c": 74.06
+            "c": 74.03
           },
           {
-            "t": 1783970045,
-            "c": 74.03
+            "t": 1783970100,
+            "c": 74.07
+          },
+          {
+            "t": 1783971000,
+            "c": 73.97
+          },
+          {
+            "t": 1783971900,
+            "c": 73.86
+          },
+          {
+            "t": 1783972800,
+            "c": 73.83
           }
         ],
         "chart_5d": [
@@ -1826,11 +1886,15 @@
           },
           {
             "t": 1783967400,
-            "c": 74.06
+            "c": 74.07
           },
           {
-            "t": 1783970045,
-            "c": 74.03
+            "t": 1783971000,
+            "c": 73.86
+          },
+          {
+            "t": 1783972800,
+            "c": 73.83
           }
         ],
         "chart_1mo": [
@@ -1908,15 +1972,21 @@
           },
           {
             "t": 1783949400,
-            "c": 74.03
+            "c": 73.83
           }
         ],
-        "chg_1d": -1.7,
-        "chg_7d": -2.62,
-        "chg_1mo": -9.35,
-        "sma20_dist": -1.27
+        "chg_1d": -1.97,
+        "chg_7d": -2.88,
+        "chg_1mo": -9.6,
+        "sma20_dist": -1.52
       },
       "news": [
+        {
+          "title": "Paramount, Warner Bros. Face Multistate Lawsuit Seeking to Block Merger",
+          "link": "https://finance.yahoo.com/media-advertising/articles/paramount-warner-bros-face-multistate-191526586.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neg"
+        },
         {
           "title": "Equities Fall Intraday, Oil Soars as Trump Reinstates Iranian Shipping Blockade in Hormuz",
           "link": "https://finance.yahoo.com/markets/articles/equities-fall-intraday-oil-soars-182129234.html?.tsrc=rss",
@@ -1940,29 +2010,23 @@
           "link": "https://www.mediapost.com/publications/article/416447/netflix-viewership-concerns-a-remedy-think-franc.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Netflix' Ad Revenue Set to Double This Year Despite Engagement Concerns, Wedbush Says",
-          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-apos-ad-revenue-set-151950745.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-2.62%).",
-          "Schwacher Monat: -9.35%.",
+          "Kurs seitwärts über 7 Tage (-2.88%).",
+          "Schwacher Monat: -9.6%.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Reddit-Diskussion über Netflix wird durch die aktuellen Kursbewegungen und die allgemeine Marktstimmung beeinflusst. Die Nachrichtenlage, insbesondere die Analystenbewertung, stützt die Skepsis der Community. Die Empfehlung, Netflix zu beobachten, ist angesichts der Unsicherheiten und der gemischten Sentiments angebracht.",
+      "fazit": "Die Reddit-Diskussion um Netflix dreht sich vor allem um persönliche Erfahrungen mit dem Dienst und deren finanzielle Implikationen. Die aktuelle Marktentwicklung und die Nachrichtenlage, insbesondere die Analystenbewertungen, scheinen die negative Stimmung zu stützen. Die Empfehlung, Netflix zu beobachten, ist angesichts der Unsicherheiten und der gemischten Marktreaktionen sinnvoll.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Netflix, Inc. ist ein führender Anbieter von Streaming-Diensten und hat sich als Marktführer in der Unterhaltung etabliert. Die Konkurrenz ist jedoch stark, insbesondere durch Plattformen wie Disney+, Amazon Prime Video und HBO Max, die alle um die Gunst der Verbraucher kämpfen. Diese Wettbewerbsintensität stellt eine ständige Herausforderung für Netflix dar, insbesondere in einem Markt, der zunehmend gesättigt ist.\n\nIn den nächsten 1-2 Jahren könnte Netflix von mehreren Wachstumstreibern profitieren, darunter die Expansion in internationale Märkte und die Einführung neuer Inhalte, die auf unterschiedliche Zielgruppen ausgerichtet sind. Die Investitionen in Originalinhalte und die Anpassung an lokale Präferenzen könnten dazu beitragen, die Abonnentenzahl zu steigern. Zudem könnte die Monetarisierung von Werbeinhalten eine neue Einnahmequelle darstellen, die das Wachstum ankurbeln könnte.\n\nDennoch gibt es zentrale Risiken, die die zukünftige Performance von Netflix beeinträchtigen könnten. Der Wettbewerb im Streaming-Sektor ist intensiv und könnte zu einem Preiskampf führen, der die Margen drückt. Zudem ist die Branche zyklisch und anfällig für wirtschaftliche Schwankungen, die sich negativ auf die Abonnentenzahlen auswirken könnten. Die aktuelle Bewertung von Netflix könnte auch als hoch angesehen werden, was zusätzliche Risiken birgt, falls die Wachstumsprognosen nicht erfüllt werden.\n\nDie aktuelle Kurslage von 74,03 USD und der Rückgang von 9,35% im letzten Monat spiegeln eine gewisse Unsicherheit wider, die durch die Nachrichten über Analystenbewertungen und die allgemeine Marktentwicklung verstärkt wird. Die Reddit-Diskussion zeigt, dass die Community besorgt ist über die zukünftige Entwicklung von Netflix, was durch die negativen Analystenkommentare und den allgemeinen Marktrückgang verstärkt wird. Die Tatsache, dass es keine bullischen Stimmen gibt, deutet darauf hin, dass die Marktstimmung derzeit eher pessimistisch ist.\n\nInsgesamt erscheint die Reddit-Stimmung in Bezug auf Netflix als fundamental gerechtfertigt. Die Diskussion über den Kursrückgang und die Analystenbewertungen spiegelt die Realität wider, dass Netflix vor erheblichen Herausforderungen steht. Insbesondere die These über die **Zukunftsperspektiven ungewiss** ist relevant, da die Unsicherheiten im Markt und die Konkurrenzdruck die zukünftige Entwicklung stark beeinflussen könnten. Daher ist es ratsam, die Entwicklungen bei Netflix weiterhin genau zu beobachten.",
+      "analyse": "Netflix, Inc. ist ein führender Anbieter im Bereich Streaming-Dienste und hat sich in einem wettbewerbsintensiven Markt etabliert, in dem Unternehmen wie Disney+, Amazon Prime Video und HBO Max als direkte Konkurrenten auftreten. Das Geschäftsmodell von Netflix basiert auf einem Abonnement-Modell, das es dem Unternehmen ermöglicht, regelmäßige Einnahmen zu generieren, während es gleichzeitig in eigene Inhalte investiert, um die Nutzerbindung zu erhöhen. **Die Konkurrenz im Streaming-Sektor bleibt intensiv**, was die Marktposition von Netflix unter Druck setzen könnte.\n\nIn den kommenden 1-2 Jahren könnte Netflix von mehreren Wachstumstreibern profitieren. Dazu zählen die Expansion in internationale Märkte, die Einführung neuer Inhalte und Formate sowie potenzielle Preiserhöhungen für Abonnements. Zudem könnte die Monetarisierung von Inhalten durch Werbung, die Netflix in Betracht zieht, neue Einnahmequellen erschließen. **Die Innovationskraft und das Content-Angebot sind entscheidend für das zukünftige Wachstum.**\n\nJedoch gibt es auch zentrale Risiken, die das Unternehmen betreffen. Der Wettbewerb könnte durch aggressive Preispolitik und innovative Inhalte der Konkurrenten weiter zunehmen. Zudem könnte eine allgemeine wirtschaftliche Abkühlung die Abonnentenzahlen negativ beeinflussen, da Streaming-Dienste als nicht lebensnotwendig angesehen werden könnten. **Die makroökonomischen Rahmenbedingungen und die Bewertung der Aktie sind ebenfalls kritisch zu betrachten.**\n\nAktuell zeigt die Kursentwicklung von Netflix einen signifikanten Rückgang, was durch negative Analystenbewertungen und allgemeine Marktunsicherheiten verstärkt wird. Die Reddit-Diskussion unterstreicht die Besorgnis über die zukünftige Entwicklung des Unternehmens, während gleichzeitig persönliche Bindungen und Erfahrungen mit dem Dienst hervorgehoben werden. **Die Analystenbewertungen und die Nachrichtenlage deuten auf eine vorsichtige Stimmung hin.**\n\nInsgesamt erscheint die Reddit-Stimmung bezüglich Netflix als teilweise gerechtfertigt. Die Diskussion über die Nutzerbindung und die finanziellen Aspekte zeigt, dass es sowohl positive als auch negative Faktoren gibt, die den Kurs beeinflussen können. **Die Unsicherheiten im Markt und die aktuelle Kursentwicklung sollten Anleger dazu anregen, Netflix genau zu beobachten, bevor sie Entscheidungen treffen.**",
       "gruende": [
-        "Kursrückgang von über 9% in einem Monat",
-        "Analysten senken Preisziele für Netflix",
-        "Allgemeine Marktsituation und geopolitische Unsicherheiten"
+        "Persönliche Erfahrungen mit dem Netflix-Dienst",
+        "Finanzielle Gewinne aus anderen Investments (z.B. META)",
+        "Allgemeine Marktunsicherheiten und Analystenbewertungen"
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1987,18 +2051,10 @@
       "quality_pct": 12,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 39,
+        "markt": 38,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-13T01:52:35.374184+00:00",
-          "ticker": "NFLX",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 7,
-          "price": 73.37
-        },
         {
           "ts": "2026-07-13T05:28:11.204502+00:00",
           "ticker": "NFLX",
@@ -2038,6 +2094,14 @@
           "confidence": 64,
           "engagement": 7,
           "price": 74.03
+        },
+        {
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "NFLX",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 73.83
         }
       ]
     },
@@ -2069,24 +2133,24 @@
       "themen": [
         {
           "emoji": "🛡️",
-          "titel": "NATO-Verteidigungsinvestitionen",
-          "anteil_pct": 40,
+          "titel": "NATO-Verteidigungsausgaben",
+          "anteil_pct": 50,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Auswirkungen der neuen NATO-Verteidigungsdeals auf die Unternehmen in der Branche, einschließlich RTX."
+          "erklaerung": "Die Community diskutiert die Auswirkungen der kürzlich angekündigten Verteidigungsausgaben der NATO auf RTX und andere Unternehmen."
         },
         {
           "emoji": "📈",
           "titel": "Marktreaktion auf Trump",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Die Erwähnung von RTX durch Trump hat die Aufmerksamkeit der Anleger auf das Unternehmen gelenkt und könnte die Aktienkurse beeinflussen."
+          "erklaerung": "Die Nennungen von Trump bei einem NATO-Gipfel haben das Interesse an RTX gesteigert und könnten die Marktstimmung beeinflussen."
         },
         {
           "emoji": "💰",
-          "titel": "Cashflow-Bewertung",
-          "anteil_pct": 30,
+          "titel": "Cash-Flow-Diskussion",
+          "anteil_pct": 20,
           "beitraege": 1,
-          "erklaerung": "Diskussion über die Bewertung von RTX im Hinblick auf Cashflow und zukünftige Erträge."
+          "erklaerung": "Es wird erörtert, dass RTX möglicherweise zu einem Cash-Flow-Rabatt handelt, was Investoren anziehen könnte."
         }
       ],
       "bull_case": [],
@@ -2095,7 +2159,7 @@
       ],
       "price": {
         "available": true,
-        "price": 196.25,
+        "price": 196.39,
         "currency": "USD",
         "name": "RTX Corporation",
         "chart_1d": [
@@ -2189,11 +2253,23 @@
           },
           {
             "t": 1783969200,
-            "c": 196.26
+            "c": 196.39
           },
           {
-            "t": 1783970059,
-            "c": 196.25
+            "t": 1783970100,
+            "c": 196.42
+          },
+          {
+            "t": 1783971000,
+            "c": 197.28
+          },
+          {
+            "t": 1783971900,
+            "c": 196.4
+          },
+          {
+            "t": 1783972800,
+            "c": 196.39
           }
         ],
         "chart_5d": [
@@ -2331,11 +2407,15 @@
           },
           {
             "t": 1783967400,
-            "c": 196.26
+            "c": 196.42
           },
           {
-            "t": 1783970059,
-            "c": 196.25
+            "t": 1783971000,
+            "c": 196.4
+          },
+          {
+            "t": 1783972800,
+            "c": 196.39
           }
         ],
         "chart_1mo": [
@@ -2413,13 +2493,13 @@
           },
           {
             "t": 1783949400,
-            "c": 196.25
+            "c": 196.39
           }
         ],
-        "chg_1d": -0.18,
-        "chg_7d": -2.54,
-        "chg_1mo": 6.87,
-        "sma20_dist": 2.75
+        "chg_1d": -0.11,
+        "chg_7d": -2.47,
+        "chg_1mo": 6.94,
+        "sma20_dist": 2.82
       },
       "news": [
         {
@@ -2456,17 +2536,17 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-2.54%).",
+          "Kurs seitwärts über 7 Tage (-2.47%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit konzentriert sich auf die kürzlich angekündigten NATO-Verteidigungsdeals, in denen RTX eine Rolle spielt. Diese Nachrichten könnten die Marktposition von RTX unterstützen, jedoch zeigen die aktuellen Kursbewegungen eine gewisse Unsicherheit. Die Empfehlung, RTX zu beobachten, ist sinnvoll, da die fundamentalen Aspekte und die Marktstimmung noch nicht eindeutig sind.",
+      "fazit": "Die Reddit-Diskussion über RTX Corporation wird durch die Erwähnung von NATO-Verteidigungsgeschäften und prominente Nennungen bei einem NATO-Gipfel angestoßen. Die Markt- und Nachrichtenlage unterstützt diese Aufmerksamkeit, da RTX in einem wachsenden Verteidigungsmarkt positioniert ist. Die Empfehlung, RTX zu beobachten, ist angesichts der gemischten Marktreaktionen und der Unsicherheiten in den Finanzzahlen gerechtfertigt.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "RTX Corporation ist ein führendes Unternehmen im Verteidigungs- und Luftfahrtsektor, das sich durch innovative Technologien und umfassende Lösungen auszeichnet. In einem wettbewerbsintensiven Umfeld, in dem Unternehmen wie Boeing, Lockheed Martin und Northrop Grumman agieren, hat RTX seine Marktposition durch strategische Partnerschaften und staatliche Aufträge gefestigt. Die Diversifizierung des Produktportfolios, das sowohl militärische als auch zivile Anwendungen umfasst, bietet RTX eine solide Grundlage für zukünftiges Wachstum.\n\nIn den kommenden 1-2 Jahren könnten mehrere Wachstumstreiber RTX unterstützen. Die kürzlich angekündigten NATO-Verteidigungsdeals, die über 50 Milliarden USD betragen, könnten zu einem Anstieg der Aufträge führen. Diese Investitionen in Verteidigungstechnologien werden voraussichtlich die Nachfrage nach RTX-Produkten ankurbeln. Darüber hinaus könnte die Expansion in neue Märkte und die Entwicklung innovativer Technologien im Bereich der Luftfahrt und Verteidigung zu einer Verbesserung der Umsatzprognosen führen.\n\nDennoch gibt es zentrale Risiken, die RTX im Auge behalten sollte. Der Wettbewerb in der Verteidigungs- und Luftfahrtindustrie ist intensiv, und Unternehmen wie Boeing und Lockheed Martin könnten Marktanteile gewinnen. Zudem ist die Branche zyklisch und anfällig für wirtschaftliche Schwankungen, die die Aufträge beeinflussen können. Eine überbewertete Aktie könnte ebenfalls ein Risiko darstellen, insbesondere wenn die Marktbedingungen sich verschlechtern oder die Erwartungen nicht erfüllt werden.\n\nDie aktuelle Kurslage von 196,25 USD zeigt eine leichte Abwärtsbewegung über 24 Stunden und eine moderate Erholung über den letzten Monat. Die Reddit-Diskussionen über die NATO-Deals und die Erwähnung von RTX durch Trump könnten kurzfristig das Interesse an der Aktie steigern, jedoch sind die aktuellen Kursbewegungen nicht eindeutig bullish. Die Empfehlung, RTX zu beobachten, ist gerechtfertigt, da die fundamentalen Aspekte und die Marktstimmung noch nicht klar definiert sind. Insbesondere die These über die NATO-Verteidigungsinvestitionen könnte sich als zutreffend erweisen, jedoch bleibt abzuwarten, wie sich dies auf die tatsächlichen Aufträge und den Cashflow auswirkt. **Die Unsicherheit im Markt erfordert eine abwartende Haltung.**",
+      "analyse": "RTX Corporation, ein führendes Unternehmen im Verteidigungs- und Luftfahrtsektor, konkurriert direkt mit großen Akteuren wie Lockheed Martin (LMT), Northrop Grumman (NOC) und Boeing. Das Unternehmen ist bekannt für seine hochentwickelten Technologien in der Rüstungsindustrie und profitiert von stabilen Aufträgen im Verteidigungsbereich. Die Marktposition von RTX ist stark, insbesondere im Kontext der wachsenden globalen Verteidigungsausgaben, die durch geopolitische Spannungen und NATO-Initiativen weiter angetrieben werden.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für RTX von Bedeutung sein. Die kürzlich angekündigten NATO-Verteidigungsausgaben von über 50 Milliarden USD könnten zu einem Anstieg der Aufträge für RTX führen, insbesondere in den Bereichen Rüstungsentwicklung und -produktion. Zudem könnte die verstärkte Nachfrage nach militärischen Technologien und die Modernisierung von Verteidigungssystemen in verschiedenen Ländern RTX zusätzliche Wachstumschancen bieten. Die Diskussion auf Reddit über die Nennungen von Trump und die damit verbundenen Aufträge verdeutlicht das Potenzial, das RTX in diesem Umfeld hat.\n\nJedoch sind auch zentrale Risiken zu beachten. Der Wettbewerb im Verteidigungssektor ist intensiv, und Unternehmen wie LMT und NOC könnten RTX Marktanteile abnehmen. Zudem ist der Sektor zyklisch und anfällig für politische Entscheidungen, die die Verteidigungsausgaben beeinflussen können. Eine Überbewertung könnte ebenfalls ein Risiko darstellen, insbesondere wenn die Erwartungen an zukünftige Gewinne nicht erfüllt werden. Die aktuelle Marktlage zeigt eine gemischte Reaktion auf die Finanzzahlen von RTX, die unter den Erwartungen liegen.\n\nDie derzeitige Kurs- und Nachrichtenlage deutet darauf hin, dass RTX in einer abwartenden Position ist. Die Reddit-Diskussion über die NATO-Verteidigungsausgaben und die Nennungen von Trump könnten kurzfristig das Interesse an RTX steigern, jedoch ist die allgemeine Marktstimmung eher vorsichtig. Die Empfehlung, RTX zu beobachten, erscheint sinnvoll, da die fundamentalen Daten und die Marktreaktionen darauf hindeuten, dass das Unternehmen zwar Potenzial hat, jedoch auch vor Herausforderungen steht. Die Reddit-Thesen über die NATO-Verteidigungsausgaben und die Cash-Flow-Diskussion sind grundsätzlich gerechtfertigt, da sie die aktuellen Trends im Verteidigungssektor widerspiegeln und RTX in eine günstige Position bringen könnten, sofern die Zahlen sich stabilisieren und die Aufträge tatsächlich realisiert werden. **NATO-Verteidigungsausgaben könnten RTX ankurbeln**, jedoch bleibt die **Marktunsicherheit aufgrund schwacher Zahlen bestehen**.",
       "gruende": [
-        "NATO-Verteidigungsdeals über 50 Mrd. USD",
-        "Erwähnung von RTX durch Trump auf dem NATO-Gipfel",
-        "Marktspekulation über zukünftige Aufträge und Cashflow"
+        "Erwähnung von RTX in Zusammenhang mit großen NATO-Verteidigungsgeschäften.",
+        "Politische Nennungen durch Trump erhöhen die Sichtbarkeit.",
+        "Marktbeobachtungen deuten auf mögliche Cash-Flow-Discounts hin."
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2491,18 +2571,10 @@
       "quality_pct": 13,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 39,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "markt": 40,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-12T14:47:40.315129+00:00",
-          "ticker": "RTX",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 8,
-          "price": 195.93
-        },
         {
           "ts": "2026-07-12T16:47:07.281679+00:00",
           "ticker": "RTX",
@@ -2542,6 +2614,458 @@
           "confidence": 61,
           "engagement": 8,
           "price": 196.25
+        },
+        {
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 196.39
+        }
+      ]
+    },
+    {
+      "ticker": "NATO",
+      "name": "Themes Transatlantic Defense ETF",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 61,
+      "sentiment": -1,
+      "mentions": 3,
+      "mentions_delta": 0,
+      "engagement": 8,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "$50B+ in NATO defense deals: LMT, NOC, Saab, RTX & more in focus (Reuters)",
+        "Trump mentioned NOC, BA, RTX, LMT at the NATO Summit",
+        "$50B+ in NATO defense deals announced: LMT, NOC, Saab, RTX & more in focus (Reuters)"
+      ],
+      "topics": [
+        "NATO",
+        "Defense",
+        "Deals",
+        "Saab"
+      ],
+      "themen": [
+        {
+          "emoji": "💰",
+          "titel": "50 Milliarden USD Verteidigungsinvestitionen",
+          "anteil_pct": 50,
+          "beitraege": 2,
+          "erklaerung": "Die Community diskutiert die Auswirkungen der angekündigten Verteidigungsaufträge auf die beteiligten Unternehmen."
+        },
+        {
+          "emoji": "🛡️",
+          "titel": "Geopolitische Spannungen steigen",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Es wird erörtert, wie anhaltende geopolitische Konflikte die Nachfrage nach Verteidigungsgütern beeinflussen."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Marktreaktion auf Nachrichten",
+          "anteil_pct": 20,
+          "beitraege": 1,
+          "erklaerung": "Die Nutzer diskutieren die negative Kursentwicklung des ETFs trotz positiver Nachrichten über Verteidigungsinvestitionen."
+        }
+      ],
+      "bull_case": [],
+      "bear_case": [
+        "Zahlen unter Erwartung"
+      ],
+      "price": {
+        "available": true,
+        "price": 39.85,
+        "currency": "USD",
+        "name": "Themes Transatlantic Defense ETF",
+        "chart_1d": [
+          {
+            "t": 1783949400,
+            "c": 40.21
+          },
+          {
+            "t": 1783950300,
+            "c": 40.31
+          },
+          {
+            "t": 1783951200,
+            "c": 40.24
+          },
+          {
+            "t": 1783952100,
+            "c": 40.16
+          },
+          {
+            "t": 1783954800,
+            "c": 40.13
+          },
+          {
+            "t": 1783955700,
+            "c": 40.07
+          },
+          {
+            "t": 1783959300,
+            "c": 40.07
+          },
+          {
+            "t": 1783961100,
+            "c": 39.87
+          },
+          {
+            "t": 1783962900,
+            "c": 39.85
+          },
+          {
+            "t": 1783967400,
+            "c": 39.83
+          },
+          {
+            "t": 1783969200,
+            "c": 39.83
+          },
+          {
+            "t": 1783972800,
+            "c": 39.85
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1783431000,
+            "c": 41.9
+          },
+          {
+            "t": 1783434600,
+            "c": 41.75
+          },
+          {
+            "t": 1783438200,
+            "c": 41.71
+          },
+          {
+            "t": 1783441800,
+            "c": 41.83
+          },
+          {
+            "t": 1783445400,
+            "c": 41.91
+          },
+          {
+            "t": 1783449000,
+            "c": 41.78
+          },
+          {
+            "t": 1783452600,
+            "c": 41.79
+          },
+          {
+            "t": 1783517400,
+            "c": 40.99
+          },
+          {
+            "t": 1783521000,
+            "c": 40.69
+          },
+          {
+            "t": 1783524600,
+            "c": 40.69
+          },
+          {
+            "t": 1783528200,
+            "c": 40.87
+          },
+          {
+            "t": 1783531800,
+            "c": 40.78
+          },
+          {
+            "t": 1783539000,
+            "c": 40.84
+          },
+          {
+            "t": 1783603800,
+            "c": 40.72
+          },
+          {
+            "t": 1783607400,
+            "c": 40.63
+          },
+          {
+            "t": 1783614600,
+            "c": 40.73
+          },
+          {
+            "t": 1783618200,
+            "c": 40.78
+          },
+          {
+            "t": 1783621800,
+            "c": 40.72
+          },
+          {
+            "t": 1783625400,
+            "c": 40.71
+          },
+          {
+            "t": 1783690200,
+            "c": 40.34
+          },
+          {
+            "t": 1783693800,
+            "c": 40.39
+          },
+          {
+            "t": 1783697400,
+            "c": 40.45
+          },
+          {
+            "t": 1783701000,
+            "c": 40.6
+          },
+          {
+            "t": 1783704600,
+            "c": 40.59
+          },
+          {
+            "t": 1783708200,
+            "c": 40.72
+          },
+          {
+            "t": 1783711800,
+            "c": 40.66
+          },
+          {
+            "t": 1783949400,
+            "c": 40.16
+          },
+          {
+            "t": 1783953000,
+            "c": 40.07
+          },
+          {
+            "t": 1783956600,
+            "c": 40.07
+          },
+          {
+            "t": 1783960200,
+            "c": 39.85
+          },
+          {
+            "t": 1783967400,
+            "c": 39.83
+          },
+          {
+            "t": 1783972800,
+            "c": 39.85
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1781530200,
+            "c": 40.41
+          },
+          {
+            "t": 1781616600,
+            "c": 40.81
+          },
+          {
+            "t": 1781703000,
+            "c": 40.88
+          },
+          {
+            "t": 1781789400,
+            "c": 40.52
+          },
+          {
+            "t": 1782135000,
+            "c": 40.04
+          },
+          {
+            "t": 1782221400,
+            "c": 40.0
+          },
+          {
+            "t": 1782307800,
+            "c": 39.65
+          },
+          {
+            "t": 1782394200,
+            "c": 39.81
+          },
+          {
+            "t": 1782480600,
+            "c": 39.71
+          },
+          {
+            "t": 1782739800,
+            "c": 39.95
+          },
+          {
+            "t": 1782826200,
+            "c": 40.6
+          },
+          {
+            "t": 1782912600,
+            "c": 41.05
+          },
+          {
+            "t": 1782999000,
+            "c": 42.2
+          },
+          {
+            "t": 1783344600,
+            "c": 42.67
+          },
+          {
+            "t": 1783431000,
+            "c": 41.74
+          },
+          {
+            "t": 1783517400,
+            "c": 40.75
+          },
+          {
+            "t": 1783603800,
+            "c": 40.66
+          },
+          {
+            "t": 1783690200,
+            "c": 40.63
+          },
+          {
+            "t": 1783949400,
+            "c": 39.85
+          }
+        ],
+        "chg_1d": -0.9,
+        "chg_7d": -6.61,
+        "chg_1mo": -1.39,
+        "sma20_dist": -1.91
+      },
+      "news": [
+        {
+          "title": "Defense ETFs to Buy Now as NATO Allies Pledge to Invest Over $50B",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/defense-etfs-buy-now-nato-181000851.html?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Defense ETFs Under Spotlight as UK Unveils $20B Military Overhaul",
+          "link": "https://finance.yahoo.com/economy/policy/articles/defense-etfs-under-spotlight-uk-181100561.html?.tsrc=rss",
+          "date": "Thu, 02 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Defense ETFs to Rally as Geopolitical Tensions Show No Signs of Cooling",
+          "link": "https://finance.yahoo.com/news/defense-etfs-rally-geopolitical-tensions-153600188.html?.tsrc=rss",
+          "date": "Wed, 18 Mar 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "NATO ETF Surges 65% in 3 Months as Defense Contractors Ride New European Budget Boom",
+          "link": "https://247wallst.com/investing/2026/01/21/nato-etf-surges-65-in-three-months-as-defense-contractors-ride-new-european-budget-boom/?.tsrc=rss",
+          "date": "Wed, 21 Jan 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Capture Rolls-Royce's Record '26 Rally Through These Diversified ETFs",
+          "link": "https://finance.yahoo.com/news/capture-rolls-royces-record-26-132200729.html?.tsrc=rss",
+          "date": "Mon, 12 Jan 2026",
+          "tone": "pos"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs -6.61% über 7 Tage – Abwärtsdruck.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Die Reddit-Diskussion dreht sich um die aktuellen NATO-Verteidigungsausgaben und die damit verbundenen Unternehmen, was auf ein wachsendes Interesse an Verteidigungs-ETFs hinweist. Die Markt- und Nachrichtenlage unterstützt diese Diskussion, da signifikante Investitionen in den Verteidigungssektor angekündigt wurden. Die Empfehlung, den ETF zu beobachten, ist sinnvoll, da die aktuelle Kursentwicklung und die Marktstimmung gemischt sind.",
+      "fazit_quelle": "KI (GitHub Models)",
+      "analyse": "Das Geschäftsmodell des Themes Transatlantic Defense ETF (NATO) konzentriert sich auf die Investition in Unternehmen, die im Verteidigungssektor tätig sind, insbesondere in den NATO-Staaten. Zu den Hauptakteuren gehören Lockheed Martin (LMT), Northrop Grumman (NOC), Raytheon Technologies (RTX) und Saab. Diese Unternehmen profitieren von Regierungsaufträgen und internationalen Verteidigungsbudgets, die in den letzten Jahren aufgrund geopolitischer Spannungen und erhöhter Sicherheitsbedenken gestiegen sind.\n\nIn den kommenden 1-2 Jahren könnten die Wachstumstreiber für den ETF die angekündigten Verteidigungsinvestitionen von über 50 Milliarden USD durch NATO-Partner sowie die anhaltende Diskussion über militärische Aufrüstung und Modernisierung sein. Die jüngsten Ankündigungen, insbesondere die von Trump erwähnten Unternehmen, könnten die Marktposition dieser Firmen stärken und somit auch den ETF positiv beeinflussen. Zudem könnte ein verstärkter Fokus auf Cybersecurity und moderne Kriegsführung neue Geschäftsmöglichkeiten eröffnen.\n\nAllerdings gibt es auch zentrale Risiken, die die Performance des ETFs beeinträchtigen könnten. Dazu zählen der intensive Wettbewerb im Verteidigungssektor, insbesondere durch neue Marktteilnehmer und technologische Innovationen, die die bestehenden Geschäftsmodelle unter Druck setzen könnten. Zudem ist der Verteidigungssektor zyklisch und stark von staatlichen Budgets abhängig, was zu Unsicherheiten führen kann. Die aktuelle Bewertung des ETFs könnte auch durch die allgemeine Marktentwicklung und makroökonomische Faktoren beeinflusst werden.\n\nDie aktuelle Kurslage, mit einem Rückgang von 6,61% über die letzten sieben Tage, steht im Kontrast zu den positiven Nachrichten über Verteidigungsinvestitionen. Dies könnte auf eine kurzfristige Marktreaktion oder auf Bedenken hinsichtlich der tatsächlichen Umsetzung dieser Aufträge hinweisen. Die Reddit-Stimmung, die sich auf die positiven Nachrichten konzentriert, könnte fundamental gerechtfertigt sein, jedoch ist die Marktreaktion bisher eher negativ. Die Diskussion über die 50 Milliarden USD Verteidigungsinvestitionen und die Erwähnung von Schlüsselunternehmen durch Trump sind wichtige Faktoren, die die Marktteilnehmer im Auge behalten sollten.\n\nInsgesamt lässt sich sagen, dass die Reddit-Diskussion über den ETF einige fundamentale Aspekte anspricht, die jedoch durch die aktuelle Marktstimmung relativiert werden. Die Thesen über die Verteidigungsinvestitionen und die geopolitischen Spannungen sind relevant, aber die Marktreaktion zeigt, dass es noch Unsicherheiten gibt, die berücksichtigt werden müssen. Eine Beobachtung des ETFs ist daher ratsam, um die Entwicklung der Situation und die Reaktion des Marktes auf zukünftige Nachrichten zu verfolgen.",
+      "gruende": [
+        "Ankündigung von über 50 Milliarden USD in NATO-Verteidigungsaufträgen.",
+        "Erwähnung von Schlüsselunternehmen durch prominente Persönlichkeiten wie Trump.",
+        "Zunehmende geopolitische Spannungen, die den Verteidigungssektor in den Fokus rücken."
+      ],
+      "momentum": 54,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
+      "timeline": [
+        {
+          "day": "2026-07-11",
+          "mentions": 4
+        },
+        {
+          "day": "2026-07-12",
+          "mentions": 4
+        },
+        {
+          "day": "2026-07-13",
+          "mentions": 4
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 13,
+      "reddit_vs_markt": {
+        "reddit": 54,
+        "markt": 23,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-12T22:38:03.781476+00:00",
+          "ticker": "NATO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 10,
+          "price": 40.63
+        },
+        {
+          "ts": "2026-07-13T01:52:35.374184+00:00",
+          "ticker": "NATO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 10,
+          "price": 40.63
+        },
+        {
+          "ts": "2026-07-13T05:28:11.204502+00:00",
+          "ticker": "NATO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 10,
+          "price": 40.63
+        },
+        {
+          "ts": "2026-07-13T16:22:08.488689+00:00",
+          "ticker": "NATO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 40.07
+        },
+        {
+          "ts": "2026-07-13T19:12:45.023256+00:00",
+          "ticker": "NATO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 39.83
+        },
+        {
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "NATO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 39.85
         }
       ]
     },
@@ -2572,25 +3096,25 @@
       ],
       "themen": [
         {
-          "emoji": "🛡️",
-          "titel": "NATO-Verteidigungsaufträge",
+          "emoji": "💰",
+          "titel": "NATO-Verteidigungsdeals im Fokus",
           "anteil_pct": 50,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Auswirkungen der neuen NATO-Verteidigungsaufträge auf Northrop Grumman."
+          "erklaerung": "Die Community diskutiert die Auswirkungen der neuen NATO-Verteidigungsdeals auf Unternehmen wie NOC."
+        },
+        {
+          "emoji": "🗣️",
+          "titel": "Politische Erwähnungen und Einfluss",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Trump's Erwähnung von NOC könnte das öffentliche und politische Interesse an der Aktie steigern."
         },
         {
           "emoji": "📉",
-          "titel": "Marktreaktionen auf geopolitische Spannungen",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Es wird erörtert, wie geopolitische Spannungen die Performance von Verteidigungsaktien beeinflussen."
-        },
-        {
-          "emoji": "🔍",
-          "titel": "Analystenbewertungen und Erwartungen",
+          "titel": "Marktreaktion auf geopolitische Spannungen",
           "anteil_pct": 20,
           "beitraege": 1,
-          "erklaerung": "Die Reddit-Nutzer analysieren die aktuellen Analystenbewertungen und deren Einfluss auf die Aktienkurse."
+          "erklaerung": "Die Diskussion über die negative Marktreaktion auf den Iran-Konflikt und dessen Auswirkungen auf Verteidigungsaktien."
         }
       ],
       "bull_case": [],
@@ -2599,7 +3123,7 @@
       ],
       "price": {
         "available": true,
-        "price": 539.95,
+        "price": 541.82,
         "currency": "USD",
         "name": "Northrop Grumman Corporation",
         "chart_1d": [
@@ -2693,11 +3217,23 @@
           },
           {
             "t": 1783969200,
-            "c": 539.65
+            "c": 539.78
           },
           {
-            "t": 1783970077,
-            "c": 539.7
+            "t": 1783970100,
+            "c": 539.83
+          },
+          {
+            "t": 1783971000,
+            "c": 542.17
+          },
+          {
+            "t": 1783971900,
+            "c": 541.98
+          },
+          {
+            "t": 1783972800,
+            "c": 541.82
           }
         ],
         "chart_5d": [
@@ -2835,11 +3371,15 @@
           },
           {
             "t": 1783967400,
-            "c": 539.65
+            "c": 539.83
           },
           {
-            "t": 1783970077,
-            "c": 539.7
+            "t": 1783971000,
+            "c": 541.98
+          },
+          {
+            "t": 1783972800,
+            "c": 541.82
           }
         ],
         "chart_1mo": [
@@ -2917,15 +3457,21 @@
           },
           {
             "t": 1783949400,
-            "c": 539.95
+            "c": 541.82
           }
         ],
-        "chg_1d": -0.6,
-        "chg_7d": -1.42,
-        "chg_1mo": -0.88,
-        "sma20_dist": 2.4
+        "chg_1d": -0.26,
+        "chg_7d": -1.08,
+        "chg_1mo": -0.53,
+        "sma20_dist": 2.74
       },
       "news": [
+        {
+          "title": "The Iran War Hasn’t Helped Defense Stocks. Maybe Earnings Can.",
+          "link": "https://finance.yahoo.com/m/0f4cd074-4e67-3875-9063-4446b28be6a1/the-iran-war-hasn%E2%80%99t-helped.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
         {
           "title": "If You’d Invested $10,000 In Lockheed Martin When The Iran Conflict Started, Here’s How Much You’d Have Now",
           "link": "https://247wallst.com/investing/2026/07/13/if-youd-invested-10000-in-lockheed-martin-when-the-iran-conflict-started-heres-how-much-youd-have-now/?.tsrc=rss",
@@ -2935,12 +3481,6 @@
         {
           "title": "Boeing Stock And The Number Behind The Worry",
           "link": "https://www.trefis.com/articles/606848/boeing-stock-and-the-number-behind-the-worry/2026-07-13?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "The Iran War Hasn’t Helped Defense Stocks. Maybe Earnings Can.",
-          "link": "https://finance.yahoo.com/m/0f4cd074-4e67-3875-9063-4446b28be6a1/the-iran-war-hasn%E2%80%99t-helped.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
@@ -2960,17 +3500,17 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-1.42%).",
+          "Kurs seitwärts über 7 Tage (-1.08%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit konzentriert sich auf die NATO-Verteidigungsaufträge, die Northrop Grumman betreffen, was durch die kürzlichen Ankündigungen von Verteidigungsdeals unterstützt wird. Die Marktreaktion zeigt jedoch eine relative Stabilität, trotz eines leichten Rückgangs der Aktie. Die Empfehlung, die Entwicklungen zu beobachten, ist angesichts der gemischten Nachrichtenlage und der aktuellen Marktperformance sinnvoll.",
+      "fazit": "Die Diskussion auf Reddit über Northrop Grumman Corporation (NOC) dreht sich vor allem um die kürzlich angekündigten NATO-Verteidigungsdeals, die das Interesse an Rüstungsunternehmen wie NOC steigern. Allerdings zeigen die aktuellen Marktbewegungen und Nachrichten, dass die Aktie in den letzten Wochen unter Druck steht, was die positive Stimmung relativiert. Die Empfehlung, NOC zu beobachten, ist sinnvoll, da die fundamentalen Daten und das Sentiment gemischt sind.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Northrop Grumman Corporation (NOC) ist ein führendes Unternehmen im Bereich Verteidigungstechnologie und Luftfahrt, das sich auf die Entwicklung von Systemen und Lösungen für die nationale Sicherheit spezialisiert hat. Das Unternehmen konkurriert direkt mit großen Akteuren wie Lockheed Martin, Boeing und Raytheon Technologies. NOCs Geschäftsmodell basiert auf langfristigen Verträgen mit der Regierung, die eine stabile Umsatzbasis bieten, jedoch auch von politischen Entscheidungen und Verteidigungsausgaben abhängen.\n\nIn den kommenden 1-2 Jahren könnte Northrop Grumman von der steigenden Nachfrage nach Verteidigungstechnologien profitieren, insbesondere im Kontext der NATO-Verteidigungsaufträge, die kürzlich angekündigt wurden. Diese Aufträge, die einen Wert von über 50 Milliarden USD haben, könnten das Wachstum des Unternehmens ankurbeln, da die Regierungen in Europa und Nordamerika ihre Verteidigungsbudgets erhöhen. Zudem könnten technologische Innovationen und die Entwicklung neuer Systeme in Bereichen wie Cybersecurity und unbemannte Systeme zusätzliche Wachstumsmöglichkeiten bieten.\n\nAllerdings gibt es auch zentrale Risiken, die das Unternehmen betreffen können. Der Wettbewerb in der Verteidigungsindustrie ist intensiv, und Unternehmen müssen kontinuierlich in Forschung und Entwicklung investieren, um wettbewerbsfähig zu bleiben. Zudem ist die Branche zyklisch und stark von politischen Entscheidungen abhängig, was zu Unsicherheiten führen kann. Die Bewertung von Northrop Grumman könnte ebenfalls unter Druck geraten, insbesondere wenn die Markterwartungen nicht erfüllt werden oder wenn sich geopolitische Spannungen entspannen.\n\nDie aktuelle Kurslage von 539,95 USD und die jüngsten Rückgänge von 0,6 % in 24 Stunden sowie 1,42 % in der letzten Woche deuten darauf hin, dass der Markt vorsichtig ist. Die Reddit-Diskussion über die NATO-Verteidigungsaufträge könnte zwar kurzfristig das Interesse an NOC steigern, jedoch sind die Analystenbewertungen unter den Erwartungen, was die Unsicherheiten verstärkt. **Die Reddit-Stimmung bezüglich der NATO-Aufträge könnte fundamental gerechtfertigt sein**, da sie das Potenzial für zukünftiges Wachstum widerspiegelt, jedoch müssen auch die Risiken und die aktuelle Marktperformance berücksichtigt werden. Die Thesen über die NATO-Aufträge und die Marktreaktionen auf geopolitische Spannungen sind relevant, aber die Unsicherheiten in der Bewertung und der Wettbewerb können die positive Stimmung dämpfen.",
+      "analyse": "Northrop Grumman Corporation (NOC) ist ein führendes Unternehmen im Verteidigungs- und Technologiesektor, das sich auf die Entwicklung von Luft- und Raumfahrttechnologien sowie Verteidigungssystemen spezialisiert hat. Mit Wettbewerbern wie Lockheed Martin, Boeing und Raytheon Technologies steht NOC in einem intensiven Wettbewerb, insbesondere in Zeiten erhöhter geopolitischer Spannungen, die die Nachfrage nach Verteidigungslösungen ankurbeln können.\n\nIn den nächsten 1-2 Jahren könnte NOC von mehreren Wachstumstreibern profitieren, darunter die verstärkten Verteidigungsausgaben der NATO-Staaten und die anhaltende Nachfrage nach modernen Rüstungstechnologien. Die kürzlich angekündigten Verteidigungsdeals im Wert von über 50 Milliarden USD könnten NOC neue Aufträge und Umsatzmöglichkeiten bieten. Zudem könnte die politische Unterstützung für Verteidigungsausgaben, insbesondere unter der aktuellen US-Regierung, die Marktposition von NOC weiter stärken.\n\nJedoch gibt es auch zentrale Risiken, die das Unternehmen belasten könnten. Die Konkurrenz im Verteidigungssektor ist stark, und Unternehmen müssen ständig innovativ bleiben, um ihre Marktanteile zu verteidigen. Zudem könnte eine zyklische Marktentwicklung, insbesondere bei sinkenden Verteidigungsausgaben in Friedenszeiten, die Umsatzprognosen negativ beeinflussen. Auch makroökonomische Faktoren wie Inflation und Zinsänderungen könnten die Bewertung von NOC belasten.\n\nDie aktuelle Kursentwicklung von NOC zeigt eine moderate Abwärtsbewegung, was durch die gemischte Marktstimmung und die Nachrichtenlage unterstützt wird. Die Erwähnung von NOC in Verbindung mit den NATO-Verteidigungsdeals könnte kurzfristig für Auftrieb sorgen, jedoch scheinen die jüngsten Zahlen unter den Erwartungen zu liegen, was die allgemeine Stimmung dämpft. Die Reddit-Diskussion spiegelt diese Unsicherheiten wider, insbesondere die negative Marktreaktion auf geopolitische Spannungen, die die Verteidigungsaktien insgesamt belastet.\n\nInsgesamt erscheint die Reddit-Stimmung über NOC als teilweise gerechtfertigt. Die Thesen über die NATO-Verteidigungsdeals und die politische Unterstützung sind positiv, jedoch sollten die Risiken und die aktuelle Marktreaktion nicht außer Acht gelassen werden. **Die fundamentalen Aussichten sind gemischt, und Anleger sollten die Entwicklungen genau beobachten.**",
       "gruende": [
-        "Erwähnung von Northrop Grumman bei NATO-Verteidigungsdeals",
-        "Marktbeobachtungen zu Verteidigungsaktien im Zusammenhang mit geopolitischen Spannungen",
-        "Kursbewegungen und Analystenbewertungen unter den Erwartungen"
+        "Erwähnung von NOC in Verbindung mit großen NATO-Verteidigungsdeals.",
+        "Politische Diskussionen um Rüstungsunternehmen durch Trump.",
+        "Allgemeine Unsicherheit im Verteidigungssektor aufgrund geopolitischer Spannungen."
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2995,18 +3535,10 @@
       "quality_pct": 13,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 44,
+        "markt": 45,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-11T04:55:24.800115+00:00",
-          "ticker": "NOC",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 8,
-          "price": 539.63
-        },
         {
           "ts": "2026-07-12T18:52:06.579931+00:00",
           "ticker": "NOC",
@@ -3046,446 +3578,14 @@
           "confidence": 61,
           "engagement": 8,
           "price": 539.95
-        }
-      ]
-    },
-    {
-      "ticker": "NATO",
-      "name": "Themes Transatlantic Defense ETF",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 61,
-      "sentiment": -1,
-      "mentions": 3,
-      "mentions_delta": 0,
-      "engagement": 8,
-      "sources": [
-        "wallstreetbets",
-        "TrumpsTrades"
-      ],
-      "titles": [
-        "$50B+ in NATO defense deals: LMT, NOC, Saab, RTX & more in focus (Reuters)",
-        "Trump mentioned NOC, BA, RTX, LMT at the NATO Summit",
-        "$50B+ in NATO defense deals announced: LMT, NOC, Saab, RTX & more in focus (Reuters)"
-      ],
-      "topics": [
-        "NATO",
-        "Defense",
-        "Deals",
-        "Saab"
-      ],
-      "themen": [
-        {
-          "emoji": "💰",
-          "titel": "Massive NATO-Verteidigungsausgaben",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Auswirkungen der angekündigten $50B Verteidigungsausgaben auf die Rüstungsindustrie."
         },
         {
-          "emoji": "🛡️",
-          "titel": "Trump und Rüstungsunternehmen",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Die Erwähnung von Unternehmen wie NOC und LMT durch Trump weckt Interesse an deren Aktien."
-        },
-        {
-          "emoji": "🌍",
-          "titel": "Geopolitische Spannungen",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Die anhaltenden geopolitischen Spannungen fördern das Interesse an Verteidigungsinvestitionen."
-        }
-      ],
-      "bull_case": [],
-      "bear_case": [
-        "Zahlen unter Erwartung"
-      ],
-      "price": {
-        "available": true,
-        "price": 39.83,
-        "currency": "USD",
-        "name": "Themes Transatlantic Defense ETF",
-        "chart_1d": [
-          {
-            "t": 1783949400,
-            "c": 40.21
-          },
-          {
-            "t": 1783950300,
-            "c": 40.31
-          },
-          {
-            "t": 1783951200,
-            "c": 40.24
-          },
-          {
-            "t": 1783952100,
-            "c": 40.16
-          },
-          {
-            "t": 1783954800,
-            "c": 40.13
-          },
-          {
-            "t": 1783955700,
-            "c": 40.07
-          },
-          {
-            "t": 1783959300,
-            "c": 40.07
-          },
-          {
-            "t": 1783961100,
-            "c": 39.87
-          },
-          {
-            "t": 1783962900,
-            "c": 39.85
-          },
-          {
-            "t": 1783967400,
-            "c": 39.83
-          },
-          {
-            "t": 1783969391,
-            "c": 39.83
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1783431000,
-            "c": 41.9
-          },
-          {
-            "t": 1783434600,
-            "c": 41.75
-          },
-          {
-            "t": 1783438200,
-            "c": 41.71
-          },
-          {
-            "t": 1783441800,
-            "c": 41.83
-          },
-          {
-            "t": 1783445400,
-            "c": 41.91
-          },
-          {
-            "t": 1783449000,
-            "c": 41.78
-          },
-          {
-            "t": 1783452600,
-            "c": 41.79
-          },
-          {
-            "t": 1783517400,
-            "c": 40.99
-          },
-          {
-            "t": 1783521000,
-            "c": 40.69
-          },
-          {
-            "t": 1783524600,
-            "c": 40.69
-          },
-          {
-            "t": 1783528200,
-            "c": 40.87
-          },
-          {
-            "t": 1783531800,
-            "c": 40.78
-          },
-          {
-            "t": 1783539000,
-            "c": 40.84
-          },
-          {
-            "t": 1783603800,
-            "c": 40.72
-          },
-          {
-            "t": 1783607400,
-            "c": 40.63
-          },
-          {
-            "t": 1783614600,
-            "c": 40.73
-          },
-          {
-            "t": 1783618200,
-            "c": 40.78
-          },
-          {
-            "t": 1783621800,
-            "c": 40.72
-          },
-          {
-            "t": 1783625400,
-            "c": 40.71
-          },
-          {
-            "t": 1783690200,
-            "c": 40.34
-          },
-          {
-            "t": 1783693800,
-            "c": 40.39
-          },
-          {
-            "t": 1783697400,
-            "c": 40.45
-          },
-          {
-            "t": 1783701000,
-            "c": 40.6
-          },
-          {
-            "t": 1783704600,
-            "c": 40.59
-          },
-          {
-            "t": 1783708200,
-            "c": 40.72
-          },
-          {
-            "t": 1783711800,
-            "c": 40.66
-          },
-          {
-            "t": 1783949400,
-            "c": 40.16
-          },
-          {
-            "t": 1783953000,
-            "c": 40.07
-          },
-          {
-            "t": 1783956600,
-            "c": 40.07
-          },
-          {
-            "t": 1783960200,
-            "c": 39.85
-          },
-          {
-            "t": 1783967400,
-            "c": 39.83
-          },
-          {
-            "t": 1783969391,
-            "c": 39.83
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1781530200,
-            "c": 40.41
-          },
-          {
-            "t": 1781616600,
-            "c": 40.81
-          },
-          {
-            "t": 1781703000,
-            "c": 40.88
-          },
-          {
-            "t": 1781789400,
-            "c": 40.52
-          },
-          {
-            "t": 1782135000,
-            "c": 40.04
-          },
-          {
-            "t": 1782221400,
-            "c": 40.0
-          },
-          {
-            "t": 1782307800,
-            "c": 39.65
-          },
-          {
-            "t": 1782394200,
-            "c": 39.81
-          },
-          {
-            "t": 1782480600,
-            "c": 39.71
-          },
-          {
-            "t": 1782739800,
-            "c": 39.95
-          },
-          {
-            "t": 1782826200,
-            "c": 40.6
-          },
-          {
-            "t": 1782912600,
-            "c": 41.05
-          },
-          {
-            "t": 1782999000,
-            "c": 42.2
-          },
-          {
-            "t": 1783344600,
-            "c": 42.67
-          },
-          {
-            "t": 1783431000,
-            "c": 41.74
-          },
-          {
-            "t": 1783517400,
-            "c": 40.75
-          },
-          {
-            "t": 1783603800,
-            "c": 40.66
-          },
-          {
-            "t": 1783690200,
-            "c": 40.63
-          },
-          {
-            "t": 1783949400,
-            "c": 39.83
-          }
-        ],
-        "chg_1d": -0.95,
-        "chg_7d": -6.66,
-        "chg_1mo": -1.44,
-        "sma20_dist": -1.96
-      },
-      "news": [
-        {
-          "title": "Defense ETFs to Buy Now as NATO Allies Pledge to Invest Over $50B",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/defense-etfs-buy-now-nato-181000851.html?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Defense ETFs Under Spotlight as UK Unveils $20B Military Overhaul",
-          "link": "https://finance.yahoo.com/economy/policy/articles/defense-etfs-under-spotlight-uk-181100561.html?.tsrc=rss",
-          "date": "Thu, 02 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Defense ETFs to Rally as Geopolitical Tensions Show No Signs of Cooling",
-          "link": "https://finance.yahoo.com/news/defense-etfs-rally-geopolitical-tensions-153600188.html?.tsrc=rss",
-          "date": "Wed, 18 Mar 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "NATO ETF Surges 65% in 3 Months as Defense Contractors Ride New European Budget Boom",
-          "link": "https://247wallst.com/investing/2026/01/21/nato-etf-surges-65-in-three-months-as-defense-contractors-ride-new-european-budget-boom/?.tsrc=rss",
-          "date": "Wed, 21 Jan 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Capture Rolls-Royce's Record '26 Rally Through These Diversified ETFs",
-          "link": "https://finance.yahoo.com/news/capture-rolls-royces-record-26-132200729.html?.tsrc=rss",
-          "date": "Mon, 12 Jan 2026",
-          "tone": "pos"
-        }
-      ],
-      "comparison": {
-        "verdict": "relativiert",
-        "points": [
-          "Kurs -6.66% über 7 Tage – Abwärtsdruck.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
-        ]
-      },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die kürzlich angekündigten Verteidigungsgeschäfte, die das Interesse an NATO-bezogenen ETFs steigern. Markt und Nachrichten scheinen diese Aufmerksamkeit zu stützen, da eine erhebliche Investition in Verteidigung angekündigt wurde. Die Empfehlung, den ETF zu beobachten, ist aufgrund der aktuellen Marktentwicklung und der Unsicherheiten im geopolitischen Umfeld gerechtfertigt.",
-      "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Das Geschäftsmodell des Themes Transatlantic Defense ETF (NATO) konzentriert sich auf Investitionen in Unternehmen, die im Verteidigungssektor tätig sind, darunter große Akteure wie Lockheed Martin (LMT), Northrop Grumman (NOC) und Raytheon Technologies (RTX). Diese Unternehmen sind in einem wettbewerbsintensiven Markt tätig, in dem sie sich gegen andere Rüstungshersteller behaupten müssen. Die Marktposition des ETFs profitiert von den steigenden Verteidigungsausgaben der NATO-Staaten, die durch geopolitische Spannungen und Sicherheitsbedenken vorangetrieben werden.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für den ETF von Bedeutung sein. Die Ankündigung von über $50 Milliarden in Verteidigungsausgaben durch NATO-Verbündete könnte die Aufträge für die im ETF enthaltenen Unternehmen erheblich steigern. Zudem könnte die anhaltende Unsicherheit in verschiedenen Regionen der Welt, einschließlich Osteuropa und dem Nahen Osten, zu einer verstärkten Nachfrage nach Verteidigungsgütern führen. Die jüngsten Nachrichten über eine umfassende militärische Überholung im Vereinigten Königreich und ähnliche Initiativen in anderen Ländern könnten ebenfalls zu einem Anstieg der Aufträge führen.\n\nDennoch gibt es zentrale Risiken, die Anleger im Auge behalten sollten. Der Wettbewerb im Verteidigungssektor ist intensiv, und Unternehmen müssen kontinuierlich in Forschung und Entwicklung investieren, um wettbewerbsfähig zu bleiben. Zudem könnte eine zyklische Marktentwicklung, die durch wirtschaftliche Unsicherheiten bedingt ist, die Nachfrage nach Verteidigungsgütern beeinträchtigen. Auch die Bewertung der Unternehmen im ETF könnte unter Druck geraten, wenn die Marktbedingungen sich verschlechtern oder wenn die geopolitischen Spannungen abnehmen.\n\nDie aktuelle Kurslage des ETFs zeigt eine gewisse Volatilität, mit einem Rückgang von 6,66% in der letzten Woche und 1,44% im letzten Monat. Diese Rückgänge könnten auf eine Marktanpassung an die aktuellen geopolitischen Entwicklungen und die Unsicherheiten im Verteidigungssektor hindeuten. Die Reddit-Stimmung, die sich auf die angekündigten Verteidigungsausgaben und die Erwähnung von Rüstungsunternehmen durch Trump konzentriert, könnte fundamental gerechtfertigt sein, da diese Faktoren potenziell zu einer Erholung der Aktienkurse führen könnten. Insbesondere die Diskussion über die $50B in Verteidigungsausgaben könnte als positiver Katalysator für die im ETF enthaltenen Unternehmen angesehen werden, was die Empfehlung, den ETF zu beobachten, unterstützt. Dennoch sollten Anleger vorsichtig sein und die Entwicklungen im Markt und geopolitischen Umfeld genau verfolgen, um informierte Entscheidungen zu treffen.",
-      "gruende": [
-        "Ankündigung von über $50B in NATO-Verteidigungsgeschäften.",
-        "Erwähnung von großen Rüstungsunternehmen durch Trump auf dem NATO-Gipfel.",
-        "Allgemeine geopolitische Spannungen, die das Verteidigungsthema verstärken."
-      ],
-      "momentum": 54,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
-      "timeline": [
-        {
-          "day": "2026-07-11",
-          "mentions": 4
-        },
-        {
-          "day": "2026-07-12",
-          "mentions": 4
-        },
-        {
-          "day": "2026-07-13",
-          "mentions": 4
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 13,
-      "reddit_vs_markt": {
-        "reddit": 54,
-        "markt": 23,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-07-12T20:35:42.215394+00:00",
-          "ticker": "NATO",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 10,
-          "price": 40.63
-        },
-        {
-          "ts": "2026-07-12T22:38:03.781476+00:00",
-          "ticker": "NATO",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 10,
-          "price": 40.63
-        },
-        {
-          "ts": "2026-07-13T01:52:35.374184+00:00",
-          "ticker": "NATO",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 10,
-          "price": 40.63
-        },
-        {
-          "ts": "2026-07-13T05:28:11.204502+00:00",
-          "ticker": "NATO",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 10,
-          "price": 40.63
-        },
-        {
-          "ts": "2026-07-13T16:22:08.488689+00:00",
-          "ticker": "NATO",
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "NOC",
           "rec": "beobachten",
           "confidence": 61,
           "engagement": 8,
-          "price": 40.07
-        },
-        {
-          "ts": "2026-07-13T19:12:45.023256+00:00",
-          "ticker": "NATO",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 8,
-          "price": 39.83
+          "price": 541.82
         }
       ]
     },
@@ -3497,7 +3597,7 @@
       "confidence": 78,
       "sentiment": 2,
       "mentions": 3,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 7,
       "sources": [
         "wallstreetbets"
@@ -3515,25 +3615,25 @@
       ],
       "themen": [
         {
-          "emoji": "🚀",
-          "titel": "Investitionen in Tech-Aktien",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert, wie META-Gewinne zur Finanzierung anderer Tech-Investitionen genutzt werden."
-        },
-        {
-          "emoji": "🤖",
-          "titel": "KI-Investitionen als Zukunftsstrategie",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Die hohen Ausgaben von META für KI werden als entscheidend für zukünftiges Wachstum betrachtet."
-        },
-        {
           "emoji": "📈",
-          "titel": "Positive Marktperformance",
+          "titel": "Erfolgreiche Investitionen",
+          "anteil_pct": 40,
+          "beitraege": 1,
+          "erklaerung": "Die Community diskutiert, wie Gewinne aus META in andere erfolgreiche Aktien reinvestiert werden."
+        },
+        {
+          "emoji": "💻",
+          "titel": "Steigende Rechenzentrumskosten",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Die jüngsten Kursgewinne von META werden als Bestätigung für die positive Marktstimmung angesehen."
+          "erklaerung": "Es gibt Bedenken über die steigenden Kosten für Rechenzentren und deren Einfluss auf die Profitabilität."
+        },
+        {
+          "emoji": "🚀",
+          "titel": "Zukunft von META",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Die Diskussion dreht sich um die zukünftigen Wachstumschancen und die Marktposition von META."
         }
       ],
       "bull_case": [
@@ -3542,7 +3642,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 660.77,
+        "price": 656.73,
         "currency": "USD",
         "name": "Meta Platforms, Inc.",
         "chart_1d": [
@@ -3639,8 +3739,20 @@
             "c": 660.67
           },
           {
-            "t": 1783970115,
-            "c": 660.64
+            "t": 1783970100,
+            "c": 658.7
+          },
+          {
+            "t": 1783971000,
+            "c": 658.08
+          },
+          {
+            "t": 1783971900,
+            "c": 656.73
+          },
+          {
+            "t": 1783972800,
+            "c": 656.73
           }
         ],
         "chart_5d": [
@@ -3778,11 +3890,15 @@
           },
           {
             "t": 1783967400,
-            "c": 660.67
+            "c": 658.7
           },
           {
-            "t": 1783970115,
-            "c": 660.64
+            "t": 1783971000,
+            "c": 656.73
+          },
+          {
+            "t": 1783972800,
+            "c": 656.73
           }
         ],
         "chart_1mo": [
@@ -3860,24 +3976,18 @@
           },
           {
             "t": 1783949400,
-            "c": 660.77
+            "c": 656.73
           }
         ],
-        "chg_1d": -2.01,
-        "chg_7d": 10.08,
-        "chg_1mo": 11.34,
-        "sma20_dist": 11.92
+        "chg_1d": -2.61,
+        "chg_7d": 9.4,
+        "chg_1mo": 10.66,
+        "sma20_dist": 11.28
       },
       "news": [
         {
-          "title": "Meta Spends $50 Billion More on AI. Is That a Good Thing?",
-          "link": "https://finance.yahoo.com/m/ac0344e5-2db2-30d2-aff8-2f098d7a9000/meta-spends-%2450-billion-more.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "AI Leaders Shift to Lower-Cost Models as OpenRouter Secures $100 Million+",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-leaders-shift-lower-cost-183717966.html?.tsrc=rss",
+          "title": "Meta's data center costs are skyrocketing. Here's what you need to know.",
+          "link": "https://finance.yahoo.com/video/metas-data-center-costs-are-skyrocketing-heres-what-you-need-to-know-203416070.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
@@ -3888,14 +3998,20 @@
           "tone": "neu"
         },
         {
-          "title": "This Is Why I Keep Buying Meta Stock",
-          "link": "https://247wallst.com/investing/2026/07/13/this-is-why-i-keep-buying-meta-stock/?.tsrc=rss",
+          "title": "CoreWeave (CRWV) Stock Faces Meta Compute Threat As Ark Invest Adds Shares",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-stock-faces-meta-200934969.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
-          "link": "https://247wallst.com/investing/2026/07/13/a-generational-transfer-is-happening-amazon-google-microsoft-are-the-losers-nvidia-and-micron-the-winners/?.tsrc=rss",
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195540793.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Google Takes Aim at Nvidia's AI Chip Market",
+          "link": "https://finance.yahoo.com/technology/ai/articles/google-takes-aim-nvidias-ai-193636716.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         }
@@ -3903,19 +4019,19 @@
       "comparison": {
         "verdict": "bestätigt",
         "points": [
-          "Kurs +10.08% über 7 Tage – Aufwärtsmomentum.",
-          "Starker Monat: +11.34%.",
-          "+11.92% über SMA20 – kurzfristig evtl. überkauft.",
+          "Kurs +9.4% über 7 Tage – Aufwärtsmomentum.",
+          "Starker Monat: +10.66%.",
+          "+11.28% über SMA20 – kurzfristig evtl. überkauft.",
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die profitable Nutzung von META für Investitionen in andere Unternehmen, was das Interesse an der Aktie steigert. Die aktuellen Marktbewegungen und Nachrichten über hohe Investitionen in KI unterstützen die positive Stimmung. Insgesamt wird die Kaufempfehlung durch die positive Marktperformance und die Reddit-Diskussion gestützt.",
+      "fazit": "Die Reddit-Diskussion über Meta Platforms, Inc. wird durch positive Marktbewegungen und die Erfolge des Unternehmens gestützt. Die Nachrichten über steigende Kosten im Rechenzentrumsbereich könnten jedoch potenzielle Risiken darstellen. Insgesamt wird die Kaufempfehlung durch die aktuelle Stimmung und die Kursentwicklung untermauert.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Meta Platforms, Inc. hat sich als führendes Unternehmen im Bereich sozialer Medien und digitaler Werbung etabliert, mit starken Wettbewerbern wie Alphabet (Google) und TikTok. Das Geschäftsmodell basiert auf der Monetarisierung von Nutzerdaten und Werbung, was zu einem stabilen Einkommensstrom führt. Durch die Diversifizierung in neue Technologien und Plattformen, einschließlich Virtual Reality und Künstlicher Intelligenz, positioniert sich META strategisch für zukünftiges Wachstum.\n\nIn den kommenden Jahren könnten mehrere Faktoren das Wachstum von META antreiben. Die signifikanten Investitionen in Künstliche Intelligenz, die kürzlich angekündigt wurden, könnten die Effizienz und Personalisierung der Werbeangebote verbessern. Zudem könnte die Expansion in neue Märkte und die Entwicklung neuer Produkte, wie beispielsweise die Metaverse-Initiativen, zusätzliche Umsatzquellen erschließen. Die positive Marktentwicklung in den letzten Wochen, wie die Kursgewinne von 10,08% in den letzten sieben Tagen, zeigt, dass Investoren optimistisch sind.\n\nDennoch gibt es zentrale Risiken, die META im Auge behalten muss. Der Wettbewerb im digitalen Werbemarkt ist intensiv, insbesondere durch die zunehmende Popularität von Plattformen wie TikTok, die jüngere Zielgruppen ansprechen. Darüber hinaus könnte eine zyklische Abschwächung der Werbeausgaben in der Gesamtwirtschaft die Einnahmen belasten. Die Bewertung von META könnte ebenfalls unter Druck geraten, wenn die Marktbedingungen sich verschlechtern oder wenn das Unternehmen seine Wachstumsziele nicht erreicht.\n\nDie aktuelle Kurs- und Nachrichtenlage deutet auf eine bestätigte positive Stimmung hin. Die Reddit-Diskussion über die Nutzung von META-Gewinnen zur Finanzierung anderer Investitionen sowie die hohen Ausgaben für KI unterstützen die Kaufempfehlung. **Die Investitionen in KI werden als entscheidend für zukünftiges Wachstum angesehen**, was die Reddit-These über die strategische Ausrichtung von META stützt. Zudem zeigt die positive Marktperformance, dass die Anleger Vertrauen in die zukünftige Entwicklung des Unternehmens haben.**\n\nInsgesamt erscheint die Reddit-Stimmung als fundamental gerechtfertigt. Die Diskussion über die Investitionen in andere Tech-Unternehmen und die strategische Ausrichtung auf KI reflektiert die tatsächlichen Entwicklungen bei META. **Die positive Marktperformance und die hohen Investitionen in KI stärken die Kaufempfehlung**, und die Aktie könnte weiterhin als attraktive Anlagemöglichkeit betrachtet werden.",
+      "analyse": "Meta Platforms, Inc. ist ein führendes Unternehmen im Bereich sozialer Medien und digitale Werbung, das sich durch seine Plattformen wie Facebook, Instagram und WhatsApp auszeichnet. Die Konkurrenz ist stark, insbesondere durch Unternehmen wie Alphabet (Google) und TikTok, die ebenfalls große Anteile am digitalen Werbemarkt halten. Meta hat jedoch den Vorteil einer breiten Nutzerbasis und umfangreicher Datenanalysen, die es ermöglichen, zielgerichtete Werbung anzubieten und somit die Einnahmen zu maximieren.\n\nIn den kommenden 1-2 Jahren könnte Meta von mehreren Wachstumstreibern profitieren. Dazu zählen die Monetarisierung von Instagram Reels und die Expansion in den Bereich Virtual Reality und Metaverse. Zudem hat das Unternehmen durch seine Innovationskraft und kontinuierlichen Investitionen in neue Technologien das Potenzial, neue Einnahmequellen zu erschließen. Die positive Kursentwicklung von 9,4 % in den letzten sieben Tagen und 10,66 % im letzten Monat deutet darauf hin, dass der Markt optimistisch in Bezug auf diese Wachstumschancen ist.\n\nDennoch gibt es zentrale Risiken, die nicht ignoriert werden sollten. Der Wettbewerb im digitalen Werbemarkt wird zunehmend intensiver, und die Abhängigkeit von Werbeeinnahmen macht Meta anfällig für konjunkturelle Schwankungen. Zudem könnten die steigenden Kosten für Rechenzentren, wie in den aktuellen Nachrichten erwähnt, die Margen des Unternehmens belasten. Auch regulatorische Herausforderungen und Datenschutzbedenken könnten sich negativ auf die Geschäftsentwicklung auswirken.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass Meta trotz der steigenden Rechenzentrumskosten und der damit verbundenen Risiken weiterhin als attraktives Investment angesehen wird. Die Reddit-Diskussion über erfolgreiche Investitionen, die durch META-Gewinne finanziert wurden, spiegelt das Vertrauen der Community in die zukünftige Entwicklung des Unternehmens wider. **Die steigenden Rechenzentrumskosten könnten jedoch die Margen unter Druck setzen**, was die langfristige Profitabilität beeinträchtigen könnte. \n\nInsgesamt erscheint die Reddit-Stimmung in Bezug auf Meta fundamental gerechtfertigt, insbesondere wenn man die positive Kursentwicklung und die Wachstumschancen betrachtet. **Die Diskussion über zukünftige Potenziale von META ist relevant**, da das Unternehmen in der Lage ist, sich an veränderte Marktbedingungen anzupassen. Die These über die erfolgreichen Investitionen in andere Unternehmen zeigt, dass die Community die Möglichkeiten von META als vielversprechend einstuft, auch wenn die Risiken nicht außer Acht gelassen werden sollten.",
       "gruende": [
-        "Hohe Gewinne von META werden für Investitionen in andere Tech-Aktien genutzt.",
-        "Starke Marktperformance in den letzten Wochen sorgt für positive Stimmung.",
-        "Signifikante Investitionen in KI-Technologien wecken Interesse an META."
+        "Erfolgreiche Investitionen in MSFT und NFLX, die durch META-Gewinne finanziert wurden.",
+        "Steigende Kursentwicklung in den letzten Wochen.",
+        "Aktive Diskussion über zukünftige Potenziale von META."
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -3940,18 +4056,10 @@
       "quality_pct": 8,
       "reddit_vs_markt": {
         "reddit": 52,
-        "markt": 90,
+        "markt": 87,
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-13T01:52:35.374184+00:00",
-          "ticker": "META",
-          "rec": "kaufen",
-          "confidence": 84,
-          "engagement": 13,
-          "price": 669.21
-        },
         {
           "ts": "2026-07-13T05:28:11.204502+00:00",
           "ticker": "META",
@@ -3991,6 +4099,14 @@
           "confidence": 78,
           "engagement": 7,
           "price": 660.77
+        },
+        {
+          "ts": "2026-07-13T20:50:09.174454+00:00",
+          "ticker": "META",
+          "rec": "kaufen",
+          "confidence": 78,
+          "engagement": 7,
+          "price": 656.73
         }
       ]
     }
