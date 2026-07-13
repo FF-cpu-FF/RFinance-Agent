@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T08:50:13.942670+00:00",
+  "generated_at": "2026-07-13T12:26:18.025389+00:00",
   "total_posts": 250,
-  "unique_tickers": 155,
+  "unique_tickers": 154,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -32,14 +32,13 @@
       "empfehlung": "beobachten",
       "confidence": 73,
       "sentiment": 2,
-      "mentions": 11,
-      "mentions_delta": 0,
-      "engagement": 21,
+      "mentions": 10,
+      "mentions_delta": -1,
+      "engagement": 20,
       "sources": [
         "wallstreetbets",
         "Ameisenstrassenwetten",
-        "TrumpsTrades",
-        "wallstreetbetsGER"
+        "TrumpsTrades"
       ],
       "titles": [
         "A warning on how a stock hobby can progress",
@@ -55,24 +54,38 @@
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Erholungsoptimismus im Halbleitersektor",
-          "anteil_pct": 40,
-          "beitraege": 4,
-          "erklaerung": "Die Community diskutiert die positiven Zahlen von Micron und sieht Potenzial für eine Erholung."
-        },
-        {
-          "emoji": "⚖️",
-          "titel": "Wettbewerb im Halbleitermarkt",
+          "titel": "Halbleiter-Wettbewerb",
           "anteil_pct": 30,
           "beitraege": 3,
-          "erklaerung": "Es gibt Bedenken über den Wettbewerb zwischen Micron und anderen Unternehmen wie SK Hynix."
+          "erklaerung": "Die Community diskutiert die Wettbewerbsfähigkeit von Micron im Vergleich zu SK Hynix und anderen Herstellern."
         },
         {
-          "emoji": "📰",
-          "titel": "Politische Einflüsse auf den Markt",
-          "anteil_pct": 30,
-          "beitraege": 4,
-          "erklaerung": "Die Erwähnung von Micron durch Trump sorgt für zusätzliche Aufmerksamkeit und Diskussion."
+          "emoji": "💻",
+          "titel": "AI-Datenzentren und Wachstum",
+          "anteil_pct": 25,
+          "beitraege": 2,
+          "erklaerung": "Es wird erörtert, wie die steigenden Ausgaben für AI-Datenzentren Microns Wachstum ankurbeln könnten."
+        },
+        {
+          "emoji": "⚠️",
+          "titel": "Marktrisiken und Unsicherheiten",
+          "anteil_pct": 20,
+          "beitraege": 2,
+          "erklaerung": "Die Diskussion umfasst die Risiken, die durch die allgemeine Marktvolatilität und geopolitische Spannungen entstehen."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Kursentwicklung und Sentiment",
+          "anteil_pct": 15,
+          "beitraege": 2,
+          "erklaerung": "Die Community analysiert die aktuelle Kursentwicklung von Micron und deren Beziehung zur allgemeinen Marktstimmung."
+        },
+        {
+          "emoji": "💬",
+          "titel": "Trump und Aktieninteresse",
+          "anteil_pct": 10,
+          "beitraege": 1,
+          "erklaerung": "Die Erwähnungen von Trump in Bezug auf Micron sorgen für zusätzliche Aufmerksamkeit und Diskussion."
         }
       ],
       "bull_case": [
@@ -432,32 +445,32 @@
       },
       "news": [
         {
-          "title": "The Smartest Artificial Intelligence (AI) Investment Moves to Make With $5,000 in July",
-          "link": "https://www.fool.com/investing/2026/07/13/the-smartest-artificial-intelligence-ai-investment/?.tsrc=rss",
+          "title": "SK Hynix stock drops, chip sector declines as AI trade angst returns",
+          "link": "https://finance.yahoo.com/markets/article/sk-hynix-stock-drops-chip-sector-declines-as-ai-trade-angst-returns-120751185.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neg"
+        },
+        {
+          "title": "Equity Futures Down Amid Middle East Tensions; Key Earnings on Deck",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/equity-futures-down-amid-middle-115445280.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Cisco and Planet Fitness have been highlighted as Zacks Bull and Bear of the Day",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-planet-fitness-highlighted-zacks-070100254.html?.tsrc=rss",
+          "title": "AI Data Center Spending Is Outpacing Every Forecast on Wall Street. These 2 Stocks Are the Best Pick-and-Shovel Plays.",
+          "link": "https://www.fool.com/investing/2026/07/13/ai-data-center-spending-is-outpacing-every-forecas/?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Dow Jones Futures Fall, Oil Prices Rise Amid New U.S.-Iran Attacks; Nvidia, Micron, Sandisk Near Buy Points",
-          "link": "https://finance.yahoo.com/m/082a233e-c56a-3b99-a968-08ce2bfc43f7/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "SK Hynix Falls In Seoul After Strong Nasdaq Debut: MU, SNDK, US Memory Stocks Decline Overnight Amid Fresh US-Iran Tensions",
-          "link": "https://stocktwits.com/news-articles/markets/equity/sk-hynix-falls-in-seoul-after-strong-nasdaq-debut-mu-sndk-us-memory-stocks-decline-overnight-amid-fresh-us-iran-tensions/cZmzBMlR7oB?.tsrc=rss",
+          "title": "Why TSMC’s Record Revenue Isn’t Reviving the AI Trade",
+          "link": "https://finance.yahoo.com/m/6ef9b2e8-e562-344a-af4d-dd77a6b79dfc/why-tsmc%E2%80%99s-record-revenue.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "pos"
         },
         {
-          "title": "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: AAPL, MU, MSFT, META, BABA",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-retail-traders-couldn-not-take-their-eyes-off-these-stocks-last-week-aapl-mu-msft-meta-baba/cZmz7zzR7oJ?.tsrc=rss",
+          "title": "AI Chips Today - AI Advancements Revolutionize Drug Discovery and Cancer Treatment",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-ai-advancements-113732044.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         }
@@ -470,15 +483,17 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit um Micron Technology, Inc. dreht sich vor allem um die jüngsten Unternehmenszahlen und die allgemeine Marktstimmung im Halbleitersektor. Die aktuellen Markt- und Nachrichtenlagen scheinen die positive Stimmung zu unterstützen, während die Kursentwicklung gemischt ist. Die Empfehlung, Micron zu beobachten, ist angesichts der Unsicherheiten und der gemischten Meinungen auf Reddit sinnvoll.",
+      "fazit": "Die Diskussion auf Reddit über Micron Technology wird durch die jüngsten Unternehmenszahlen und die allgemeine Marktstimmung im Halbleitersektor angeheizt. Aktuelle Nachrichten über den Rückgang von SK Hynix und die Sorgen um den Chipmarkt unterstützen die Aufmerksamkeit für MU. Die Empfehlung, die Aktie zu beobachten, ist angesichts der gemischten Signale von Reddit und den Marktbedingungen sinnvoll.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicherlösungen, insbesondere DRAM und NAND-Flash-Speicher, und positioniert sich stark im Halbleitermarkt. Die Hauptwettbewerber sind Unternehmen wie Samsung, SK Hynix und Kioxia, die ebenfalls bedeutende Marktanteile besitzen. Micron hat sich durch technologische Innovationen und eine breite Produktpalette einen soliden Platz im Markt erarbeitet, was sich in der Nachfrage nach Speicherlösungen für verschiedene Anwendungen, einschließlich Cloud-Computing und mobile Geräte, widerspiegelt.\n\nIn den kommenden 1-2 Jahren könnten mehrere Wachstumstreiber für Micron von Bedeutung sein. **Die steigende Nachfrage nach Speicherlösungen in der KI- und Cloud-Industrie** könnte zu einem Anstieg der Verkaufszahlen führen. Zudem gibt es Anzeichen für eine Erholung im Halbleitermarkt, was durch die positive Stimmung auf Reddit und die aktuellen Unternehmenszahlen unterstützt wird. Die Diskussion über die Erholung im Halbleitersektor zeigt, dass Anleger optimistisch sind, dass Micron von diesen Trends profitieren könnte.\n\nDennoch gibt es zentrale Risiken, die nicht ignoriert werden sollten. **Die Wettbewerbsintensität im Halbleitermarkt bleibt hoch**, was Margen und Marktanteile unter Druck setzen könnte. Zudem ist die Branche zyklisch, und eine mögliche Abkühlung der Nachfrage könnte sich negativ auf die Umsätze auswirken. Auch die geopolitischen Spannungen, insbesondere zwischen den USA und Südkorea, könnten sich auf die Geschäftstätigkeit von Micron auswirken. Die aktuelle Bewertung des Unternehmens könnte in einem unsicheren Marktumfeld ebenfalls kritisch betrachtet werden.\n\nDie aktuelle Kursentwicklung von Micron zeigt eine gemischte Performance, mit einem leichten Anstieg über 24 Stunden, aber einem Rückgang über den letzten Monat. Die Reddit-Diskussionen scheinen in erster Linie von den positiven Unternehmenszahlen und der allgemeinen Marktstimmung beeinflusst zu sein. Die Erwähnung von Micron durch Trump könnte kurzfristig für zusätzliche Aufmerksamkeit sorgen, jedoch ist es unklar, wie nachhaltig dieser Einfluss ist. **Die Diskussion über die Wettbewerbsbedingungen im Halbleitermarkt** könnte die Anleger verunsichern und zu einer vorsichtigen Haltung führen.\n\nInsgesamt erscheint die Reddit-Stimmung bezüglich Micron teilweise gerechtfertigt, insbesondere die Erholungsoptimismus-These. Die positiven Unternehmenszahlen und die Diskussion über die Marktentwicklung unterstützen diese Sichtweise. Allerdings sollte die potenzielle Wettbewerbsintensität und die zyklische Natur der Branche nicht außer Acht gelassen werden. Anleger sollten die Entwicklungen weiterhin genau beobachten und die Risiken im Auge behalten.",
+      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicherlösungen, insbesondere DRAM- und NAND-Flash-Speicher, und konkurriert direkt mit Unternehmen wie SK Hynix, Samsung und Western Digital. Das Unternehmen hat sich in den letzten Jahren als einer der Hauptakteure im Halbleitermarkt etabliert, wobei die Nachfrage nach Speicherlösungen durch den Anstieg von Cloud-Computing, AI-Anwendungen und mobilen Geräten unterstützt wird.\n\nIn den nächsten 1-2 Jahren könnten mehrere Faktoren das Wachstum von Micron antreiben. Dazu zählen die steigenden Investitionen in AI-Datenzentren, die die Nachfrage nach Hochleistungs-Speicherlösungen erhöhen, sowie die Erholung des globalen Chipmarktes nach den jüngsten Rückgängen. Die positive Marktstimmung, die durch die jüngsten Unternehmenszahlen und die allgemeine Erholung des Technologiesektors gefördert wird, könnte Micron in eine vorteilhafte Position bringen, um von diesen Trends zu profitieren.\n\nDennoch gibt es zentrale Risiken, die die Performance von Micron beeinträchtigen könnten. Die Wettbewerbsintensität im Halbleitermarkt bleibt hoch, insbesondere angesichts der aggressiven Preispolitik von Konkurrenten wie SK Hynix und Samsung. Zudem ist der Halbleitermarkt zyklisch, was bedeutet, dass eine plötzliche Nachfrageeinbrüche oder wirtschaftliche Unsicherheiten die Geschäftsergebnisse negativ beeinflussen könnten. Die geopolitischen Spannungen und die Unsicherheiten rund um die Handelsbeziehungen könnten ebenfalls zu einer erhöhten Volatilität führen.\n\nDie aktuelle Kursentwicklung von Micron zeigt eine gewisse Stabilität, trotz der jüngsten Rückgänge im Halbleitersektor und der negativen Nachrichten über SK Hynix. Die Reddit-Diskussionen scheinen teilweise optimistisch zu sein, insbesondere in Bezug auf die zukünftigen Wachstumschancen durch AI-Datenzentren. Die Erwähnungen von Trump könnten zusätzliche Aufmerksamkeit auf die Aktie lenken, jedoch sollte dies nicht überbewertet werden. **Die positive Stimmung über die Unternehmenszahlen** und die **Diskussion über Wachstumsmöglichkeiten im AI-Bereich** sind berechtigt, während gleichzeitig die **Risiken durch Wettbewerbsdruck und Marktunsicherheiten** nicht ignoriert werden sollten. Insgesamt ist die Empfehlung, Micron zu beobachten, angesichts der gemischten Signale und der aktuellen Marktbedingungen durchaus sinnvoll.",
       "gruende": [
-        "Positive Unternehmenszahlen und Erholungsoptimismus",
-        "Aktive Diskussion über Marktanteile und Wettbewerbsbedingungen",
-        "Erwähnungen durch prominente Persönlichkeiten wie Trump"
+        "Positive Unternehmenszahlen von Micron Technology",
+        "Rückgang der Konkurrenz SK Hynix",
+        "Erhöhte Aufmerksamkeit durch Trump-Erwähnungen",
+        "Zunehmende Diskussion über den Halbleitermarkt",
+        "Steigende Call-Optionen-Aktivität als Indikator für bullisches Sentiment"
       ],
-      "momentum": 55,
+      "momentum": 53,
       "momentum_label": "➡️ Diskussion stabil",
       "growth_pct": -12,
       "timeline": [
@@ -498,22 +513,14 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "C",
-      "quality_pct": 54,
+      "quality_pct": 45,
       "reddit_vs_markt": {
-        "reddit": 55,
+        "reddit": 53,
         "markt": 51,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
         {
-          "ts": "2026-07-12T18:52:06.579931+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 73,
-          "engagement": 21,
-          "price": 979.3
-        },
-        {
           "ts": "2026-07-12T20:35:42.215394+00:00",
           "ticker": "MU",
           "rec": "beobachten",
@@ -552,156 +559,14 @@
           "confidence": 73,
           "engagement": 21,
           "price": 979.3
-        }
-      ]
-    },
-    {
-      "ticker": "SK",
-      "name": "SK",
-      "signal": "bearish",
-      "empfehlung": "beobachten",
-      "confidence": 62,
-      "sentiment": -6,
-      "mentions": 5,
-      "mentions_delta": 2,
-      "engagement": 13,
-      "sources": [
-        "wallstreetbets",
-        "TrumpsTrades",
-        "wallstreetbetsGER"
-      ],
-      "titles": [
-        "Korea Investment & Securities sees SK hynix miss Q2 profit consensus 8%",
-        "SK Hynix is on Nasdaq Tomorrow",
-        "Nervous about SK Hynix IPO tomorrow"
-      ],
-      "topics": [
-        "Hynix",
-        "Tomorrow",
-        "Korea",
-        "Investment"
-      ],
-      "themen": [
-        {
-          "emoji": "📉",
-          "titel": "Enttäuschende Quartalszahlen",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Q2-Zahlen von SK Hynix, die 8% unter den Erwartungen liegen."
         },
         {
-          "emoji": "🚀",
-          "titel": "IPO und Marktinteresse",
-          "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Die bevorstehende Nasdaq-Notierung von SK Hynix weckt Nervosität und Interesse bei Anlegern."
-        },
-        {
-          "emoji": "⚖️",
-          "titel": "Vergleich mit Micron",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Es gibt Diskussionen über die Marktstellung von SK Hynix im Vergleich zu Micron und deren Performance."
-        }
-      ],
-      "bull_case": [],
-      "bear_case": [
-        "Short-Positionierung",
-        "Zahlen unter Erwartung",
-        "Crash-Warnungen"
-      ],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
-        ]
-      },
-      "fazit": "Die Reddit-Diskussion über SK Hynix konzentriert sich auf die bevorstehende IPO und die enttäuschenden Q2-Zahlen, die 8% unter den Erwartungen liegen. Der Markt zeigt jedoch keine aktuellen Kursdaten oder Nachrichten, was die Unsicherheit verstärkt. Die Empfehlung, SK Hynix zu beobachten, ist angesichts der gemischten Stimmung und der Short-Positionierungen sinnvoll.",
-      "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "SK Hynix ist ein führendes Unternehmen in der Halbleiterindustrie, spezialisiert auf Speicherlösungen wie DRAM und NAND-Flash. Das Unternehmen konkurriert direkt mit anderen großen Akteuren wie Micron Technology und Samsung Electronics. SK Hynix hat sich als einer der Hauptakteure in der Speicherbranche etabliert, profitiert von der steigenden Nachfrage nach Speicherlösungen in verschiedenen Technologien, einschließlich Mobilgeräten, Servern und Cloud-Diensten.\n\nIn den nächsten 1-2 Jahren könnte SK Hynix von mehreren Wachstumstreibern profitieren. Die zunehmende Digitalisierung und der Bedarf an leistungsstarken Speicherlösungen für KI-Anwendungen und das Internet der Dinge könnten die Nachfrage nach den Produkten von SK Hynix weiter ankurbeln. Zudem könnte die Expansion in neue Märkte und die Entwicklung innovativer Technologien, wie z.B. 3D-NAND, zusätzliche Umsatzchancen bieten. Die bevorstehende Notierung an der Nasdaq könnte ebenfalls das Interesse von internationalen Investoren wecken und die Sichtbarkeit des Unternehmens erhöhen.\n\nDennoch gibt es zentrale Risiken, die das Unternehmen belasten könnten. Der Wettbewerb in der Halbleiterindustrie ist intensiv, und Unternehmen wie Micron und Samsung könnten Marktanteile gewinnen. Zudem ist die Branche zyklisch, was bedeutet, dass die Nachfrage nach Speicherlösungen stark schwanken kann, abhängig von globalen wirtschaftlichen Bedingungen. Eine Überbewertung der Aktie könnte ebenfalls ein Risiko darstellen, insbesondere wenn die Marktbedingungen sich verschlechtern oder die Erwartungen nicht erfüllt werden.\n\nDie aktuelle Kurs- und Nachrichtenlage ist von Unsicherheit geprägt. Die Reddit-Diskussion zeigt eine negative Stimmung, insbesondere aufgrund der enttäuschenden Q2-Zahlen, die 8% unter den Erwartungen liegen. Dies könnte die Short-Positionierungen erklären, die in der Community diskutiert werden. Die Tatsache, dass es keine aktuellen positiven Nachrichten oder Kursdaten gibt, verstärkt die Unsicherheit und könnte potenzielle Investoren abschrecken.\n\nInsgesamt erscheint die Reddit-Stimmung über SK Hynix als fundamental gerechtfertigt. Die Diskussion über die enttäuschenden Quartalszahlen und die Nervosität bezüglich der IPO sind nachvollziehbar. **Die Enttäuschung über die Q2-Zahlen könnte die Marktstimmung negativ beeinflussen**, während **die bevorstehende Nasdaq-Notierung sowohl Chancen als auch Risiken birgt**. Investoren sollten die Entwicklungen genau beobachten und die Risiken im Auge behalten, bevor sie eine Entscheidung treffen.",
-      "gruende": [
-        "Enttäuschende Q2-Zahlen von SK Hynix",
-        "Bevorstehende Nasdaq-Notierung",
-        "Vergleich mit US-Konkurrent Micron"
-      ],
-      "momentum": 56,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
-      "timeline": [
-        {
-          "day": "2026-07-11",
-          "mentions": 6
-        },
-        {
-          "day": "2026-07-12",
-          "mentions": 4
-        },
-        {
-          "day": "2026-07-13",
-          "mentions": 5
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "B",
-      "quality_pct": 59,
-      "reddit_vs_markt": {
-        "reddit": 56,
-        "markt": 50,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-07-12T18:52:06.579931+00:00",
-          "ticker": "SK",
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 9,
-          "price": null
-        },
-        {
-          "ts": "2026-07-12T20:35:42.215394+00:00",
-          "ticker": "SK",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 9,
-          "price": null
-        },
-        {
-          "ts": "2026-07-12T22:38:03.781476+00:00",
-          "ticker": "SK",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 9,
-          "price": null
-        },
-        {
-          "ts": "2026-07-13T01:52:35.374184+00:00",
-          "ticker": "SK",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 9,
-          "price": null
-        },
-        {
-          "ts": "2026-07-13T05:28:11.204502+00:00",
-          "ticker": "SK",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 9,
-          "price": null
-        },
-        {
-          "ts": "2026-07-13T08:50:13.942670+00:00",
-          "ticker": "SK",
-          "rec": "beobachten",
-          "confidence": 62,
-          "engagement": 13,
-          "price": null
+          "confidence": 73,
+          "engagement": 20,
+          "price": 979.3
         }
       ]
     },
@@ -731,25 +596,25 @@
       ],
       "themen": [
         {
-          "emoji": "📈",
-          "titel": "Metaverse-Wachstum",
+          "emoji": "🚀",
+          "titel": "Erholung durch Datenzentren",
           "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Chancen, die das Metaverse für META bietet, insbesondere im Hinblick auf die Verdopplung des Marktes bis 2032."
+          "erklaerung": "Die Community diskutiert, wie die Expansion von Datenzentren das Wachstum von META antreiben könnte."
         },
         {
-          "emoji": "💰",
-          "titel": "Call-Optionen-Strategien",
+          "emoji": "📈",
+          "titel": "Call-Optionen als Erholungszeichen",
           "anteil_pct": 30,
           "beitraege": 2,
-          "erklaerung": "Es gibt eine erhöhte Aktivität bei Call-Optionen, was auf eine optimistische Markterwartung hindeutet."
+          "erklaerung": "Die steigende Aktivität bei Call-Optionen deutet auf eine bullish Haltung der Investoren hin."
         },
         {
-          "emoji": "📉",
-          "titel": "Kursrisiken und Warnungen",
+          "emoji": "⚠️",
+          "titel": "Risiken durch Wettbewerber",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Einige Reddit-Nutzer äußern Bedenken über mögliche Kursrückgänge und warnen vor übertriebenen Erwartungen."
+          "erklaerung": "Es gibt Bedenken über die Konkurrenz durch andere Tech-Giganten im AI-Bereich."
         }
       ],
       "bull_case": [
@@ -1109,34 +974,34 @@
       },
       "news": [
         {
-          "title": "Metaverse Market Surge: Entertainment Industry Set to Quadruple by 2032",
-          "link": "https://finance.yahoo.com/media-advertising/articles/metaverse-market-surge-entertainment-industry-082800946.html?.tsrc=rss",
+          "title": "Meta expands Louisiana Hyperion data center to 5GW and $50 billion",
+          "link": "https://qz.com/meta-louisiana-hyperion-data-center-expansion-5-gigawatts-071326?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Overture Maps Foundation Reaches 50 Members as Industry Converges on Open Data to Ground AI",
+          "link": "https://finance.yahoo.com/technology/ai/articles/overture-maps-foundation-reaches-50-120000776.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AI Data Center Spending Is Outpacing Every Forecast on Wall Street. These 2 Stocks Are the Best Pick-and-Shovel Plays.",
+          "link": "https://www.fool.com/investing/2026/07/13/ai-data-center-spending-is-outpacing-every-forecas/?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Meta Lifts Cost of Louisiana Data Center to $50 Billion",
+          "link": "https://www.wsj.com/tech/meta-lifts-cost-of-louisiana-data-center-to-50-billion-02b2eb25?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple’s $600 Billion Rally Fueled by Traders Fleeing AI Selloff",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-600-billion-rally-fueled-101317523.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "pos"
-        },
-        {
-          "title": "US Stock Market Today: S&P 500 Futures Rise As Inflation Cools And Earnings Loom",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081032919.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Jim Cramer Says Comparing the Mag 7 Is a Mistake: Here Are 5 Reasons Each Stock Is Different",
-          "link": "https://247wallst.com/investing/2026/07/13/jim-cramer-says-comparing-the-mag-7-is-a-mistake-here-are-5-reasons-each-stock-is-different/?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Why Meta Platforms Stock Surged This Week",
-          "link": "https://www.fool.com/investing/2026/07/12/why-meta-platforms-stock-surged-this-week/?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "OpenAI Applications Chief Fidji Simo Steps Down From Full-Time Role Over Chronic Illness Recovery, Says 'I Failed to Make This Decision Many",
-          "link": "https://finance.yahoo.com/technology/ai/articles/openai-applications-chief-fidji-simo-213109230.html?.tsrc=rss",
-          "date": "Sun, 12 Jul 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -1148,13 +1013,13 @@
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Die Reddit-Diskussion über Meta Platforms, Inc. (META) dreht sich vor allem um die positiven Erwartungen an die zukünftige Entwicklung des Unternehmens, insbesondere im Hinblick auf den Metaverse-Markt. Die aktuellen Markt- und Nachrichtenlagen stützen diese optimistischen Einschätzungen, da das Wachstum im Entertainment-Sektor prognostiziert wird. Die Empfehlung, META zu kaufen, wird durch die positive Marktstimmung und die anhaltenden Diskussionen auf Reddit untermauert.",
+      "fazit": "Die Diskussion auf Reddit über Meta Platforms, Inc. (META) zeigt ein starkes Interesse an der Aktie, insbesondere in Bezug auf die Erholung des Unternehmens und die damit verbundenen Call-Optionen. Die aktuellen Markt- und Nachrichtenentwicklungen, wie die Expansion des Hyperion-Datenzentrums, unterstützen die positive Stimmung. Die Empfehlung, META zu kaufen, erscheint angesichts der positiven Kursentwicklung und der optimistischen Marktprognosen gerechtfertigt.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Meta Platforms, Inc. (META) hat sich als führender Akteur im Bereich sozialer Medien etabliert, mit starken Wettbewerbern wie Alphabet (Google) und TikTok. Das Unternehmen monetarisiert seine Plattformen durch Werbung, was eine bedeutende Einnahmequelle darstellt. Mit der zunehmenden Fokussierung auf den Metaverse-Markt sieht sich META jedoch auch Herausforderungen gegenüber, insbesondere durch den Wettbewerb und die Notwendigkeit, innovative Produkte zu entwickeln, um die Nutzerbindung zu erhöhen.\n\nDie Wachstumstreiber für META in den nächsten 1-2 Jahren sind vielfältig. Die Prognosen für den Metaverse-Markt deuten auf ein erhebliches Wachstum hin, was für META eine Chance darstellt, neue Einnahmequellen zu erschließen. Zudem hat das Unternehmen in den letzten Monaten eine positive Kursentwicklung gezeigt, was das Vertrauen der Investoren stärkt. Die Diskussionen auf Reddit, insbesondere über Call-Optionen, deuten darauf hin, dass viele Anleger an eine Erholung glauben und auf steigende Kurse setzen.\n\nDennoch gibt es zentrale Risiken, die nicht ignoriert werden sollten. Der Wettbewerb im Bereich sozialer Medien und Metaverse ist intensiv, mit Unternehmen wie Microsoft, die ebenfalls in diesen Raum investieren. Zudem könnte die zyklische Natur der Werbeeinnahmen META anfällig für wirtschaftliche Abschwünge machen. Auch die Bewertung des Unternehmens könnte in einem überhitzten Markt eine Rolle spielen, insbesondere wenn die Erwartungen nicht erfüllt werden.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass META in einer positiven Stimmung ist, die durch optimistische Marktprognosen und eine starke Community-Unterstützung auf Reddit gestützt wird. Die Diskussion über das Metaverse und die damit verbundenen Chancen wird von vielen als zukunftsträchtig angesehen. Die Empfehlung, META zu kaufen, wird durch die positive Kursentwicklung und die anhaltenden Diskussionen über Call-Optionen gestützt.\n\nInsgesamt erscheint die Reddit-Stimmung in Bezug auf META fundamental gerechtfertigt, insbesondere in Anbetracht der optimistischen Thesen über das Metaverse-Wachstum und die Call-Optionen-Strategien. Die Community sieht in META ein Potenzial für zukünftige Gewinne, was durch die aktuellen Markt- und Nachrichtenlagen unterstützt wird. Dennoch sollten Anleger auch die Risiken im Blick behalten, um fundierte Entscheidungen zu treffen.",
+      "analyse": "Meta Platforms, Inc. (META) hat sich als führendes Unternehmen im Bereich sozialer Medien und digitaler Werbung etabliert, konkurriert jedoch intensiv mit Giganten wie Alphabet (Google) und Amazon. Die Diversifizierung in neue Bereiche wie Virtual Reality und Künstliche Intelligenz zeigt, dass META bestrebt ist, seine Marktposition zu festigen und auszubauen. Die kürzliche Expansion des Hyperion-Datenzentrums in Louisiana mit einem Investitionsvolumen von 50 Milliarden USD ist ein klares Zeichen für das langfristige Wachstum und die Innovationskraft des Unternehmens.\n\nIn den nächsten ein bis zwei Jahren könnten mehrere Wachstumstreiber für META entscheidend sein. Die zunehmende Nachfrage nach Cloud-Diensten und AI-gestützten Lösungen stellt eine bedeutende Chance dar. Die Investitionen in Infrastruktur, wie das Hyperion-Datenzentrum, könnten die Betriebskosten senken und die Effizienz steigern, während gleichzeitig neue Einnahmequellen erschlossen werden. Die positive Kursentwicklung von 14,81% in den letzten sieben Tagen und 17,73% im letzten Monat deutet darauf hin, dass Investoren optimistisch sind bezüglich der zukünftigen Erträge.\n\nDennoch gibt es zentrale Risiken, die nicht ignoriert werden dürfen. Die Konkurrenz im Bereich Künstliche Intelligenz und Cloud-Computing ist stark, insbesondere von Unternehmen wie Microsoft und Amazon, die ebenfalls erhebliche Investitionen in diese Technologien tätigen. Zudem könnte die zyklische Natur der Werbebranche in wirtschaftlich schwierigen Zeiten zu einem Rückgang der Einnahmen führen. Auch die Bewertung von META könnte überhitzt sein, was zu einem potenziellen Rückschlag führen könnte, sollte das Unternehmen die Erwartungen nicht erfüllen.\n\nDie aktuellen Kurs- und Nachrichtenlagen sind überwiegend positiv, was die Reddit-Stimmung unterstützt. Die Diskussion über die Erholung von META und die damit verbundene Call-Optionen-Aktivität ist angesichts der positiven Nachrichten über die Expansion des Datenzentrums und die allgemeine Marktstimmung nachvollziehbar. Die Reddit-These zur Erholung durch Datenzentren erscheint besonders plausibel, da die Investitionen in diese Infrastruktur einen klaren Wachstumspfad darstellen.\n\nInsgesamt scheint die Reddit-Stimmung fundamental gerechtfertigt zu sein. Die positiven Entwicklungen und die zunehmende Aktivität im Bereich der Call-Optionen deuten darauf hin, dass die Anleger an eine nachhaltige Erholung von META glauben. Die Risiken durch Wettbewerber sind zwar vorhanden, doch die aktuellen Wachstumschancen überwiegen, was die Kaufempfehlung für META unterstützt.",
       "gruende": [
-        "Erwartungen an das Wachstum im Metaverse",
-        "Positive Kursentwicklung über verschiedene Zeiträume",
-        "Aktive Diskussion über Call-Optionen und Erholungsstrategien"
+        "Erweiterung des Hyperion-Datenzentrums in Louisiana",
+        "Zunehmendes Interesse an AI und Datenzentren",
+        "Positive Kursentwicklung und Call-Optionen-Aktivität"
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1183,14 +1048,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-12T18:52:06.579931+00:00",
-          "ticker": "META",
-          "rec": "kaufen",
-          "confidence": 84,
-          "engagement": 13,
-          "price": 669.21
-        },
         {
           "ts": "2026-07-12T20:35:42.215394+00:00",
           "ticker": "META",
@@ -1230,484 +1087,14 @@
           "confidence": 84,
           "engagement": 13,
           "price": 669.21
-        }
-      ]
-    },
-    {
-      "ticker": "TR",
-      "name": "Tootsie Roll Industries, Inc.",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 64,
-      "sentiment": 0,
-      "mentions": 5,
-      "mentions_delta": 5,
-      "engagement": 11,
-      "sources": [
-        "Mauerstrassenwetten",
-        "wallstreetbetsGER"
-      ],
-      "titles": [
-        "Welcher deutsche Broker führt alle Aktien der SIX?",
-        "Bevor noch mehr fragen: TR hat ein Problem mit vontobel",
-        "Vontobel auf TR"
-      ],
-      "topics": [
-        "Vontobel",
-        "Problem",
-        "Welcher",
-        "Deutsche"
-      ],
-      "themen": [
-        {
-          "emoji": "📉",
-          "titel": "Broker-Probleme mit Vontobel",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Schwierigkeiten, die Anleger mit dem Broker Vontobel bei Transaktionen in Tootsie Roll haben."
         },
         {
-          "emoji": "🍬",
-          "titel": "Meme-Stock-Hype",
-          "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Tootsie Roll wird als Teil der aktuellen Meme-Stock-Diskussionen wahrgenommen, was das Interesse an der Aktie steigert."
-        },
-        {
-          "emoji": "⚠️",
-          "titel": "Kursrückgang und Warnungen",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Es gibt Warnungen vor möglichen Kursverlusten, die durch die aktuelle Marktlage und Berichte über Verlustmeldungen ausgelöst werden."
-        }
-      ],
-      "bull_case": [],
-      "bear_case": [
-        "Put-Optionen-Aktivität",
-        "Crash-Warnungen",
-        "Verlust-Meldungen"
-      ],
-      "price": {
-        "available": true,
-        "price": 38.16,
-        "currency": "USD",
-        "name": "Tootsie Roll Industries, Inc.",
-        "chart_1d": [
-          {
-            "t": 1783690200,
-            "c": 37.94
-          },
-          {
-            "t": 1783692900,
-            "c": 38.15
-          },
-          {
-            "t": 1783693800,
-            "c": 38.27
-          },
-          {
-            "t": 1783694700,
-            "c": 38.28
-          },
-          {
-            "t": 1783695600,
-            "c": 38.33
-          },
-          {
-            "t": 1783696500,
-            "c": 38.37
-          },
-          {
-            "t": 1783697400,
-            "c": 38.37
-          },
-          {
-            "t": 1783698300,
-            "c": 38.47
-          },
-          {
-            "t": 1783699200,
-            "c": 38.42
-          },
-          {
-            "t": 1783700100,
-            "c": 38.35
-          },
-          {
-            "t": 1783701000,
-            "c": 38.17
-          },
-          {
-            "t": 1783701900,
-            "c": 38.22
-          },
-          {
-            "t": 1783702800,
-            "c": 38.24
-          },
-          {
-            "t": 1783703700,
-            "c": 38.19
-          },
-          {
-            "t": 1783704600,
-            "c": 38.2
-          },
-          {
-            "t": 1783705500,
-            "c": 38.28
-          },
-          {
-            "t": 1783706400,
-            "c": 38.27
-          },
-          {
-            "t": 1783707300,
-            "c": 38.26
-          },
-          {
-            "t": 1783708200,
-            "c": 38.27
-          },
-          {
-            "t": 1783709100,
-            "c": 38.28
-          },
-          {
-            "t": 1783710000,
-            "c": 38.24
-          },
-          {
-            "t": 1783710900,
-            "c": 38.26
-          },
-          {
-            "t": 1783711800,
-            "c": 38.24
-          },
-          {
-            "t": 1783712700,
-            "c": 38.19
-          },
-          {
-            "t": 1783713600,
-            "c": 38.16
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1783344600,
-            "c": 40.05
-          },
-          {
-            "t": 1783348200,
-            "c": 39.42
-          },
-          {
-            "t": 1783351800,
-            "c": 39.25
-          },
-          {
-            "t": 1783355400,
-            "c": 39.43
-          },
-          {
-            "t": 1783359000,
-            "c": 38.76
-          },
-          {
-            "t": 1783362600,
-            "c": 38.74
-          },
-          {
-            "t": 1783366200,
-            "c": 38.42
-          },
-          {
-            "t": 1783431000,
-            "c": 39.38
-          },
-          {
-            "t": 1783434600,
-            "c": 38.92
-          },
-          {
-            "t": 1783438200,
-            "c": 38.55
-          },
-          {
-            "t": 1783441800,
-            "c": 38.27
-          },
-          {
-            "t": 1783445400,
-            "c": 38.28
-          },
-          {
-            "t": 1783449000,
-            "c": 38.43
-          },
-          {
-            "t": 1783452600,
-            "c": 38.42
-          },
-          {
-            "t": 1783517400,
-            "c": 38.44
-          },
-          {
-            "t": 1783521000,
-            "c": 38.68
-          },
-          {
-            "t": 1783524600,
-            "c": 38.56
-          },
-          {
-            "t": 1783528200,
-            "c": 38.51
-          },
-          {
-            "t": 1783531800,
-            "c": 38.55
-          },
-          {
-            "t": 1783535400,
-            "c": 38.54
-          },
-          {
-            "t": 1783539000,
-            "c": 38.23
-          },
-          {
-            "t": 1783603800,
-            "c": 38.02
-          },
-          {
-            "t": 1783607400,
-            "c": 38.08
-          },
-          {
-            "t": 1783611000,
-            "c": 38.27
-          },
-          {
-            "t": 1783614600,
-            "c": 38.31
-          },
-          {
-            "t": 1783618200,
-            "c": 38.44
-          },
-          {
-            "t": 1783621800,
-            "c": 38.49
-          },
-          {
-            "t": 1783625400,
-            "c": 38.03
-          },
-          {
-            "t": 1783690200,
-            "c": 38.15
-          },
-          {
-            "t": 1783693800,
-            "c": 38.37
-          },
-          {
-            "t": 1783697400,
-            "c": 38.35
-          },
-          {
-            "t": 1783701000,
-            "c": 38.19
-          },
-          {
-            "t": 1783704600,
-            "c": 38.26
-          },
-          {
-            "t": 1783708200,
-            "c": 38.26
-          },
-          {
-            "t": 1783711800,
-            "c": 38.19
-          },
-          {
-            "t": 1783713600,
-            "c": 38.16
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1781184600,
-            "c": 38.74
-          },
-          {
-            "t": 1781271000,
-            "c": 38.88
-          },
-          {
-            "t": 1781530200,
-            "c": 37.86
-          },
-          {
-            "t": 1781616600,
-            "c": 38.21
-          },
-          {
-            "t": 1781703000,
-            "c": 37.18
-          },
-          {
-            "t": 1781789400,
-            "c": 36.24
-          },
-          {
-            "t": 1782135000,
-            "c": 36.2
-          },
-          {
-            "t": 1782221400,
-            "c": 37.12
-          },
-          {
-            "t": 1782307800,
-            "c": 37.94
-          },
-          {
-            "t": 1782394200,
-            "c": 36.86
-          },
-          {
-            "t": 1782480600,
-            "c": 38.04
-          },
-          {
-            "t": 1782739800,
-            "c": 39.46
-          },
-          {
-            "t": 1782826200,
-            "c": 39.55
-          },
-          {
-            "t": 1782912600,
-            "c": 40.04
-          },
-          {
-            "t": 1782999000,
-            "c": 40.78
-          },
-          {
-            "t": 1783344600,
-            "c": 38.4
-          },
-          {
-            "t": 1783431000,
-            "c": 38.45
-          },
-          {
-            "t": 1783517400,
-            "c": 38.27
-          },
-          {
-            "t": 1783603800,
-            "c": 38.03
-          },
-          {
-            "t": 1783690200,
-            "c": 38.16
-          }
-        ],
-        "chg_1d": 0.58,
-        "chg_7d": -6.42,
-        "chg_1mo": -1.5,
-        "sma20_dist": -0.16
-      },
-      "news": [
-        {
-          "title": "Why Investors Are Watching These 3 Meme Stocks Now: Wendy’s, Krispy Kreme, and Tootsie Roll",
-          "link": "https://247wallst.com/investing/2026/07/10/why-investors-are-watching-these-3-meme-stocks-now-wendys-krispy-kreme-and-tootsie-roll/?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "/C O R R E C T I O N -- Tootsie Roll Industries/",
-          "link": "https://finance.yahoo.com/sectors/healthcare/articles/mr-owl-brings-tootsie-rolls-130000842.html?.tsrc=rss",
-          "date": "Tue, 16 Jun 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "3 Candy Stocks Getting a Spring Sugar Rush",
-          "link": "https://www.marketbeat.com/originals/3-candy-stocks-getting-a-spring-sugar-rush/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Fri, 03 Apr 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Should You Be Adding Tootsie Roll Industries (NYSE:TR) To Your Watchlist Today?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adding-tootsie-roll-industries-nyse-151858295.html?.tsrc=rss",
-          "date": "Mon, 30 Mar 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Troubadour Announces Share Consolidation",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/troubadour-announces-share-consolidation-213000786.html?.tsrc=rss",
-          "date": "Fri, 27 Mar 2026",
-          "tone": "neu"
-        }
-      ],
-      "comparison": {
-        "verdict": "relativiert",
-        "points": [
-          "Kurs -6.42% über 7 Tage – Abwärtsdruck.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
-        ]
-      },
-      "fazit": "Die Diskussion auf Reddit über Tootsie Roll Industries, Inc. (TR) scheint durch Probleme mit dem Broker Vontobel angestoßen worden zu sein. Die Markt- und Nachrichtenlage zeigt eine gemischte Sichtweise auf die Aktie, mit einem leichten Anstieg, jedoch auch einem Rückgang über die letzten Wochen. Die Empfehlung lautet, die Entwicklung zu beobachten, da die Situation volatil ist.",
-      "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Tootsie Roll Industries, Inc. ist ein etablierter Hersteller von Süßwaren, der vor allem für seine Tootsie Roll Bonbons bekannt ist. Das Unternehmen operiert in einem wettbewerbsintensiven Markt, in dem es mit großen Akteuren wie Mars, Hershey und Mondelez konkurriert. Trotz der starken Markenpräsenz sieht sich Tootsie Roll einem wachsenden Druck durch innovative und gesunde Snackalternativen gegenüber, die von neuen Marktteilnehmern angeboten werden.\n\nIn den kommenden 1-2 Jahren könnte Tootsie Roll von einer verstärkten Nachfrage nach traditionellen Süßwaren profitieren, insbesondere wenn sich der Markt für Snacks erholt. Die Diskussionen auf Reddit und die Erwähnung in den sozialen Medien könnten das Interesse an der Marke ankurbeln und zu einem Anstieg der Verkaufszahlen führen. Zudem könnte das Unternehmen durch gezielte Marketingstrategien und Produktinnovationen, wie die Einführung neuer Geschmacksrichtungen oder gesünderer Optionen, zusätzliche Wachstumschancen erschließen.\n\nJedoch gibt es auch erhebliche Risiken, die das Unternehmen belasten könnten. Der Wettbewerb im Süßwarenmarkt ist stark und es besteht die Gefahr, dass Tootsie Roll Marktanteile an dynamischere Unternehmen verliert, die besser auf die sich ändernden Verbraucherpräferenzen reagieren. Zudem könnte die allgemeine wirtschaftliche Unsicherheit und die Inflation die Kaufkraft der Verbraucher beeinträchtigen, was sich negativ auf die Verkaufszahlen auswirken könnte. Die aktuelle Bewertung der Aktie könnte ebenfalls überhöht sein, insbesondere wenn man die jüngsten Kursrückgänge und Verlustmeldungen betrachtet.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass Tootsie Roll unter Druck steht, insbesondere durch die Probleme mit dem Broker Vontobel, die zu Unsicherheiten bei den Anlegern führen. Trotz eines leichten Anstiegs um 0,58 % über 24 Stunden bleibt die Aktie über die letzten 7 Tage um 6,42 % gefallen. Die Reddit-Diskussionen scheinen sich stark auf die Broker-Problematik zu konzentrieren, was die Unsicherheit unter den Anlegern verstärkt. Die Erwähnung in den sozialen Medien als Meme-Stock könnte kurzfristig das Interesse an der Aktie steigern, jedoch sind die fundamentalen Herausforderungen nicht zu ignorieren.\n\nInsgesamt erscheint die Reddit-Stimmung über Tootsie Roll nicht vollständig fundamental gerechtfertigt. Während die Diskussion über die Probleme mit Vontobel und die allgemeine Meme-Stock-Bewegung die Aufmerksamkeit auf die Aktie lenken, sind die zugrunde liegenden Herausforderungen und die Marktbedingungen nicht zu vernachlässigen. Die These, dass Tootsie Roll von einem Hype profitieren könnte, könnte kurzfristig zutreffen, jedoch bleibt abzuwarten, ob das Unternehmen in der Lage ist, langfristige Wachstumsstrategien erfolgreich umzusetzen und sich im Wettbewerb zu behaupten.",
-      "gruende": [
-        "Probleme mit dem Broker Vontobel",
-        "Zunehmende Aufmerksamkeit durch Meme-Stock-Diskussionen",
-        "Leichte Kursbewegungen trotz negativer Nachrichten"
-      ],
-      "momentum": 94,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 400,
-      "timeline": [
-        {
-          "day": "2026-07-11",
-          "mentions": 2
-        },
-        {
-          "day": "2026-07-12",
-          "mentions": 0
-        },
-        {
-          "day": "2026-07-13",
-          "mentions": 5
-        }
-      ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
-      "quality_grade": "C",
-      "quality_pct": 44,
-      "reddit_vs_markt": {
-        "reddit": 94,
-        "markt": 24,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-07-13T08:50:13.942670+00:00",
-          "ticker": "TR",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 38.16
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "META",
+          "rec": "kaufen",
+          "confidence": 84,
+          "engagement": 13,
+          "price": 669.21
         }
       ]
     },
@@ -1738,25 +1125,25 @@
       ],
       "themen": [
         {
-          "emoji": "💰",
-          "titel": "NATO-Verteidigungsgeschäfte im Fokus",
+          "emoji": "🛡️",
+          "titel": "NATO-Verteidigungsdeals im Fokus",
           "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Auswirkungen der neuen NATO-Verträge auf Lockheed Martins Geschäft."
+          "erklaerung": "Die Community diskutiert die Auswirkungen der neuen NATO-Verteidigungsdeals auf Lockheed Martins Aufträge."
         },
         {
           "emoji": "📉",
-          "titel": "Kursrückgang und Analystenmeinungen",
+          "titel": "Schwache Kursentwicklung",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Die negative Kursentwicklung wird in Verbindung mit schwachen Unternehmenszahlen analysiert."
+          "erklaerung": "Die negative Kursentwicklung in den letzten Wochen sorgt für Besorgnis unter den Anlegern."
         },
         {
-          "emoji": "🤔",
-          "titel": "Trump und Verteidigungspolitik",
+          "emoji": "🔍",
+          "titel": "Analystenmeinungen unter Druck",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Die Erwähnung von Lockheed Martin durch Trump weckt Diskussionen über zukünftige Aufträge und politische Einflüsse."
+          "erklaerung": "Analysten äußern Bedenken über die zukünftige Performance von Lockheed Martin."
         }
       ],
       "bull_case": [],
@@ -2113,6 +1500,12 @@
       },
       "news": [
         {
+          "title": "Lockheed Martin Corporation (LMT) Signs a MoU At NATO Summit",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-corporation-lmt-signs-100015926.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Goldman Sachs quietly snags a corner of America's retirement money",
           "link": "https://www.thestreet.com/investing/stocks/goldman-sachs-verizon-lockheed-martin-pension-assets-401k-plans?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
@@ -2135,12 +1528,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/lmt-hwm-better-value-stock-154002272.html?.tsrc=rss",
           "date": "Fri, 10 Jul 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Defense Investor: 300 Companies Could Define the Future of Warfare – and 92 of Them Are International. “Instead of Thinking U.S. Hegemony, N",
-          "link": "https://247wallst.com/investing/2026/07/10/defense-investor-300-companies-could-define-the-future-of-warfare-and-92-of-them-are-international-instead-of-thinking-u-s-hegemony-now-were-thinking-this-is-an-allied-play/?.tsrc=rss",
-          "date": "Fri, 10 Jul 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -2150,14 +1537,13 @@
           "Marktlage stützt die skeptische Reddit-Stimmung."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die kürzlich angekündigten NATO-Verteidigungsgeschäfte, die Lockheed Martin betreffen. Marktbewegungen und Nachrichten scheinen die negative Stimmung zu stützen, da der Kurs in den letzten Wochen gefallen ist. Die Empfehlung, zu verkaufen, wird durch die unter den Erwartungen liegenden Zahlen und das schwache Momentum untermauert.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die kürzlich angekündigten NATO-Verteidigungsdeals, die Lockheed Martin und andere Unternehmen betreffen. Die Markt- und Nachrichtenlage stützt diese Diskussion, da die Ankündigungen potenziell positive Auswirkungen auf die Aufträge und Umsätze der Unternehmen haben könnten. Dennoch wird die Empfehlung, die Aktie zu verkaufen, durch die schwache Kursentwicklung und negative Analystenmeinungen untermauert.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Lockheed Martin Corporation ist ein führendes Unternehmen im Verteidigungssektor, das sich auf die Entwicklung und Herstellung von Militärflugzeugen, Raketen und anderen Verteidigungssystemen spezialisiert hat. Die Hauptwettbewerber sind Boeing, Northrop Grumman und Raytheon Technologies. Lockheed Martin hat eine starke Marktposition, insbesondere im Bereich der Luft- und Raumfahrttechnologie, und profitiert von langfristigen Regierungsaufträgen und internationalen Verteidigungsanfragen.\n\nIn den nächsten ein bis zwei Jahren könnten Wachstumstreiber für Lockheed Martin die zunehmenden Verteidigungsausgaben der NATO-Staaten und die geopolitischen Spannungen in verschiedenen Regionen sein. Die kürzlich angekündigten Verteidigungsgeschäfte im Wert von über 50 Milliarden USD könnten einen signifikanten Umsatzschub bringen. Zudem könnte die Nachfrage nach modernen Waffensystemen, insbesondere im Kontext der globalen Sicherheitslage, das Wachstum weiter unterstützen.\n\nJedoch bestehen zentrale Risiken, die das Unternehmen belasten könnten. Der Wettbewerb im Verteidigungssektor ist intensiv, und Unternehmen wie Boeing und Northrop Grumman könnten Marktanteile gewinnen. Zudem ist die Branche zyklisch und stark von politischen Entscheidungen abhängig, was zu Unsicherheiten führen kann. Auch die Bewertung von Lockheed Martin könnte angesichts der aktuellen Marktentwicklungen und der Analystenmeinungen unter Druck geraten.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass Lockheed Martin in den letzten Wochen einen Rückgang von 4,16 % in sieben Tagen und 4,64 % im Monat verzeichnet hat. Diese negative Entwicklung wird durch die unter den Erwartungen liegenden Unternehmenszahlen verstärkt. Die Reddit-Diskussion über die NATO-Verteidigungsgeschäfte könnte kurzfristig positiv sein, jedoch scheinen die fundamentalen Daten und die Marktstimmung eher pessimistisch zu sein. Die These, dass die neuen Verteidigungsgeschäfte Lockheed Martin stärken werden, könnte durch die aktuelle Kursentwicklung und die Analystenmeinungen widerlegt werden. **Die negative Stimmung auf Reddit ist somit fundamental gerechtfertigt.**",
+      "analyse": "Lockheed Martin Corporation ist ein führendes Unternehmen im Bereich der Verteidigungstechnik und -systeme, das sich auf die Entwicklung und Produktion von Militärflugzeugen, Raketen und anderen Verteidigungstechnologien spezialisiert hat. Die Hauptwettbewerber sind Northrop Grumman, Boeing und Raytheon Technologies, die ebenfalls bedeutende Marktanteile im Verteidigungssektor halten. Lockheed Martins starke Marktposition wird durch langfristige Regierungsverträge und eine diversifizierte Produktpalette unterstützt.\n\nIn den kommenden 1-2 Jahren könnten **neue NATO-Verteidigungsdeals** und die verstärkten Rüstungsinvestitionen in Europa als Wachstumstreiber fungieren. Die Ankündigung von über 50 Milliarden USD in Verteidigungsaufträgen könnte Lockheed Martin zusätzliche Aufträge sichern und das Umsatzwachstum ankurbeln. Zudem könnte die verstärkte geopolitische Unsicherheit in der Region die Nachfrage nach Verteidigungssystemen weiter anheizen.\n\nDennoch gibt es zentrale Risiken, die die zukünftige Performance von Lockheed Martin beeinträchtigen könnten. Der Wettbewerb im Verteidigungssektor ist intensiv, und Unternehmen wie Northrop Grumman und Boeing könnten Marktanteile gewinnen. Zudem könnte eine zyklische Abhängigkeit von staatlichen Verteidigungsausgaben die Stabilität der Einnahmen gefährden. Die aktuelle Bewertung der Aktie könnte auch überhöht sein, insbesondere wenn die Marktbedingungen sich verschlechtern oder die Aufträge nicht wie erwartet fließen.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass die Aktie in den letzten Wochen um 4,16% gesunken ist, was auf eine negative Marktstimmung hindeutet. Die Reddit-Diskussionen über die NATO-Deals könnten zwar kurzfristig zu einem Anstieg des Interesses führen, jedoch scheinen die **unter den Erwartungen liegenden Zahlen** und Analystenmeinungen die Anleger zu verunsichern. Die Empfehlung, die Aktie zu verkaufen, wird durch diese Faktoren gestützt, da die Unsicherheiten über die zukünftige Entwicklung überwiegen.\n\nInsgesamt erscheint die Reddit-Stimmung als nicht vollständig gerechtfertigt. Während die Ankündigung von NATO-Verteidigungsdeals potenziell positiv ist, wird sie durch die schwache Kursentwicklung und die negativen Analystenmeinungen relativiert. Die Behauptung, dass diese Deals zu einem signifikanten Anstieg der Aufträge führen werden, könnte überoptimistisch sein, insbesondere angesichts der bestehenden Risiken und der aktuellen Marktbedingungen.",
       "gruende": [
-        "Ankündigung von über 50 Milliarden USD in NATO-Verteidigungsgeschäften",
-        "Erwähnung von Lockheed Martin durch Trump auf dem NATO-Gipfel",
-        "Negative Kursentwicklung in den letzten Wochen",
-        "Marktanalysen deuten auf schwache Unternehmenszahlen hin"
+        "Ankündigung von über 50 Milliarden USD in NATO-Verteidigungsdeals.",
+        "Erwähnung von Lockheed Martin durch Trump auf dem NATO-Gipfel.",
+        "Negative Analystenberichte und unter den Erwartungen liegende Zahlen."
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2186,14 +1572,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-12T18:52:06.579931+00:00",
-          "ticker": "LMT",
-          "rec": "verkaufen",
-          "confidence": 81,
-          "engagement": 10,
-          "price": 523.22
-        },
         {
           "ts": "2026-07-12T20:35:42.215394+00:00",
           "ticker": "LMT",
@@ -2233,6 +1611,170 @@
           "confidence": 81,
           "engagement": 10,
           "price": 523.22
+        },
+        {
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "LMT",
+          "rec": "verkaufen",
+          "confidence": 81,
+          "engagement": 10,
+          "price": 523.22
+        }
+      ]
+    },
+    {
+      "ticker": "SK",
+      "name": "SK",
+      "signal": "bearish",
+      "empfehlung": "beobachten",
+      "confidence": 56,
+      "sentiment": -4,
+      "mentions": 4,
+      "mentions_delta": -1,
+      "engagement": 10,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades",
+        "wallstreetbetsGER"
+      ],
+      "titles": [
+        "SK Hynix is on Nasdaq Tomorrow",
+        "Nervous about SK Hynix IPO tomorrow",
+        "US Micron vs So Korean SK Hynix on 7/10"
+      ],
+      "topics": [
+        "Hynix",
+        "Tomorrow",
+        "Nasdaq",
+        "Nervous"
+      ],
+      "themen": [
+        {
+          "emoji": "⚠️",
+          "titel": "Bewertungs-Debatte",
+          "anteil_pct": 33,
+          "beitraege": 2,
+          "erklaerung": "Ein Teil der Community hält die Aktie nach dem Kursverlauf für zu teuer."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Kursverluste",
+          "anteil_pct": 33,
+          "beitraege": 2,
+          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
+        },
+        {
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 17,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
+        },
+        {
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 17,
+          "beitraege": 1,
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        }
+      ],
+      "bull_case": [],
+      "bear_case": [
+        "Short-Positionierung",
+        "Crash-Warnungen",
+        "Blasen-Warnung"
+      ],
+      "price": {
+        "available": false
+      },
+      "news": [],
+      "comparison": {
+        "verdict": "unbekannt",
+        "points": [
+          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
+        ]
+      },
+      "fazit": "Reddit diskutiert SK aktuell deutlich bearisch (4 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "gruende": [
+        "⚠️ Bewertungs-Debatte",
+        "📉 Kursverluste"
+      ],
+      "momentum": 56,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
+      "timeline": [
+        {
+          "day": "2026-07-11",
+          "mentions": 6
+        },
+        {
+          "day": "2026-07-12",
+          "mentions": 4
+        },
+        {
+          "day": "2026-07-13",
+          "mentions": 5
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "C",
+      "quality_pct": 44,
+      "reddit_vs_markt": {
+        "reddit": 56,
+        "markt": 50,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-12T20:35:42.215394+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 9,
+          "price": null
+        },
+        {
+          "ts": "2026-07-12T22:38:03.781476+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 9,
+          "price": null
+        },
+        {
+          "ts": "2026-07-13T01:52:35.374184+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 9,
+          "price": null
+        },
+        {
+          "ts": "2026-07-13T05:28:11.204502+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 9,
+          "price": null
+        },
+        {
+          "ts": "2026-07-13T08:50:13.942670+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 62,
+          "engagement": 13,
+          "price": null
+        },
+        {
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 10,
+          "price": null
         }
       ]
     },
@@ -2263,25 +1805,11 @@
       ],
       "themen": [
         {
-          "emoji": "📉",
-          "titel": "Abonnentenschwund im Fokus",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert, wie der Verlust von Zuschauern durch die WM Netflix beeinflusst."
-        },
-        {
-          "emoji": "💰",
-          "titel": "Investitionsstrategien",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Nutzer teilen ihre Strategien, Netflix-Aktien in Kombination mit anderen Tech-Aktien zu halten."
-        },
-        {
-          "emoji": "🔍",
-          "titel": "Zukünftige Akquisitionen",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über mögliche zukünftige Käufe und deren strategische Bedeutung für Netflix."
+          "emoji": "💬",
+          "titel": "Allgemeine Diskussion",
+          "anteil_pct": 100,
+          "beitraege": 4,
+          "erklaerung": "Kein dominantes Einzelthema erkennbar – breite Diskussion ohne klaren Auslöser."
         }
       ],
       "bull_case": [],
@@ -2636,6 +2164,24 @@
       },
       "news": [
         {
+          "title": "How Netflix is fighting back against its 'biggest enemy'",
+          "link": "https://finance.yahoo.com/video/netflix-fighting-back-against-biggest-120000476.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "US Equity Futures Drop Pre-Bell as Iran Says Strait of Hormuz Closed Once Again, Oil Prices Jump",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-drop-pre-115924591.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Equity Futures Down Amid Middle East Tensions; Key Earnings on Deck",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/equity-futures-down-amid-middle-115445280.html?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Here’s How Nancy Pelosi Beat the Stock Market and Warren Buffett",
           "link": "https://247wallst.com/investing/2025/11/23/heres-how-nancy-pelosi-beat-the-stock-market-and-warren-buffett/?.tsrc=rss",
           "date": "Sun, 12 Jul 2026",
@@ -2644,24 +2190,6 @@
         {
           "title": "Netflix Is Losing Viewers To The World Cup. That May Be The Wrong Measure Of The Business.",
           "link": "https://www.barchart.com/story/news/3244418/netflix-is-losing-viewers-to-the-world-cup-that-may-be-the-wrong-measure-of-the-business?.tsrc=rss",
-          "date": "Sun, 12 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Netflix Might Be Ready to Buy Something Again, but It's Not What You Think",
-          "link": "https://www.fool.com/investing/2026/07/12/netflix-might-be-ready-to-buy-something-again-but/?.tsrc=rss",
-          "date": "Sun, 12 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "3 Reasons Why Netflix Has a Lot to Prove on July 16",
-          "link": "https://www.fool.com/investing/2026/07/12/3-reasons-why-netflix-has-a-lot-to-prove-july-16/?.tsrc=rss",
-          "date": "Sun, 12 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Major League Soccer Snatches Victory From World Cup Despite US Team’s Loss",
-          "link": "https://www.thedailyupside.com/finance/ma/major-league-soccer-snatches-a-victory-from-world-cup-despite-us-teams-loss/?.tsrc=rss",
           "date": "Sun, 12 Jul 2026",
           "tone": "neu"
         }
@@ -2674,13 +2202,11 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Reddit-Diskussion über Netflix dreht sich um persönliche Erfahrungen und spekulative Investitionen, was auf ein gewisses Interesse an der Aktie hinweist. Die Markt- und Nachrichtenlage zeigt jedoch, dass Netflix mit Herausforderungen konfrontiert ist, insbesondere durch den Verlust von Zuschauern. Daher ist die Empfehlung, die Aktie weiterhin zu beobachten, angemessen.",
-      "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Netflix, Inc. operiert im Streaming-Markt und ist bekannt für seine umfangreiche Bibliothek an Filmen und Serien sowie für eigene Produktionen. Der Wettbewerb ist intensiv, insbesondere durch Plattformen wie Disney+, Amazon Prime Video und HBO Max, die ebenfalls um Marktanteile kämpfen. Diese Konkurrenz zwingt Netflix dazu, ständig in neue Inhalte und Technologien zu investieren, um seine Abonnentenbasis zu halten und zu erweitern.\n\nIn den nächsten 1-2 Jahren könnte Netflix von verschiedenen Wachstumstreibern profitieren, darunter die Expansion in internationale Märkte und die Einführung neuer Preisstrukturen oder Abonnements. Die Möglichkeit, Inhalte zu lizenzieren oder strategische Akquisitionen zu tätigen, könnte ebenfalls als Chance dienen, um das Portfolio zu diversifizieren und neue Zuschauer zu gewinnen. Die Diskussion auf Reddit über mögliche Akquisitionen zeigt, dass es ein gewisses Interesse an der strategischen Ausrichtung des Unternehmens gibt.\n\nDennoch gibt es zentrale Risiken, die Netflix belasten könnten. Der Wettbewerb ist nicht nur stark, sondern auch dynamisch, da neue Player und Technologien regelmäßig den Markt betreten. Zudem könnte eine wirtschaftliche Abkühlung die Abonnentenzahlen beeinträchtigen, da Verbraucher möglicherweise bereit sind, ihre Ausgaben für Streaming-Dienste zu kürzen. Die Bewertung von Netflix ist ebenfalls ein kritischer Punkt, da sie in der Vergangenheit oft hoch war und sich die Erwartungen der Investoren ändern könnten.\n\nDie aktuelle Kurslage von 73.37 USD und die Nachrichten über den Verlust von Zuschauern deuten darauf hin, dass der Markt skeptisch ist, was die zukünftige Performance des Unternehmens betrifft. Die Reddit-Diskussionen zeigen, dass es zwar ein gewisses Interesse gibt, jedoch ist das Sentiment eher negativ. Die Erwähnung von Abonnentenschwund in Verbindung mit der WM könnte darauf hinweisen, dass die Zuschauerzahlen nicht nur saisonalen Schwankungen unterliegen, sondern auch strukturellen Herausforderungen gegenüberstehen.\n\nInsgesamt erscheint die Reddit-Stimmung über Netflix als nicht vollständig gerechtfertigt. Während die Diskussion über Investitionsstrategien und Akquisitionen interessant ist, überwiegen die Risiken und Herausforderungen, die das Unternehmen bewältigen muss. Die These über den Abonnentenschwund ist besonders relevant, da sie die grundlegenden Herausforderungen von Netflix unterstreicht. **Die Abonnentenzahl bleibt ein kritischer Faktor für die Unternehmensbewertung.**",
+      "fazit": "Reddit diskutiert Netflix, Inc. aktuell gemischt (4 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
       "gruende": [
-        "Persönliche Investitionsentscheidungen von Nutzern, die Netflix und MSFT kombinieren.",
-        "Anhaltende Diskussion über die Abonnentenzahl und deren Einfluss auf die Unternehmensbewertung.",
-        "Spekulationen über mögliche Akquisitionen und deren Auswirkungen auf das Wachstum."
+        "💬 Allgemeine Diskussion"
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2709,14 +2235,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-12T18:52:06.579931+00:00",
-          "ticker": "NFLX",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 7,
-          "price": 73.37
-        },
         {
           "ts": "2026-07-12T20:35:42.215394+00:00",
           "ticker": "NFLX",
@@ -2756,6 +2274,14 @@
           "confidence": 64,
           "engagement": 7,
           "price": 73.37
+        },
+        {
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "NFLX",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 73.37
         }
       ]
     },
@@ -2785,25 +2311,32 @@
       ],
       "themen": [
         {
-          "emoji": "📈",
-          "titel": "Optionen und Volatilität",
-          "anteil_pct": 50,
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 33,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Risiken und Chancen von Optionen, insbesondere im Hinblick auf die aktuelle Marktvolatilität."
-        },
-        {
-          "emoji": "🔍",
-          "titel": "Strategische Neuausrichtung",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Es wird über die Auswirkungen der neuen Gasführung und die Bestätigung der Dividende auf die langfristige Strategie von DTE diskutiert."
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
         },
         {
           "emoji": "⚠️",
-          "titel": "Crash-Warnungen",
-          "anteil_pct": 20,
+          "titel": "Bewertungs-Debatte",
+          "anteil_pct": 17,
           "beitraege": 1,
-          "erklaerung": "Einige Nutzer warnen vor den Risiken, die mit dem Investieren in volatile Märkte verbunden sind."
+          "erklaerung": "Ein Teil der Community hält die Aktie nach dem Kursverlauf für zu teuer."
+        },
+        {
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 17,
+          "beitraege": 1,
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Kursverluste",
+          "anteil_pct": 17,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
         }
       ],
       "bull_case": [
@@ -3200,13 +2733,12 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die Unsicherheit und Volatilität des Marktes, insbesondere im Hinblick auf Optionen. Die aktuellen Markt- und Nachrichtenentwicklungen unterstützen die Diskussion, da DTE Energy sich in der Nähe eines 52-Wochen-Hochs befindet und Analysten unterschiedliche Meinungen äußern. Die Empfehlung ist, die Situation zu beobachten, da die Unsicherheiten und Risiken weiterhin bestehen.",
-      "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "DTE Energy ist ein integriertes Energieunternehmen, das sowohl Strom- als auch Gasdienstleistungen anbietet und in den Märkten für erneuerbare Energien sowie traditionelle Energieerzeugung tätig ist. Die Hauptwettbewerber sind Unternehmen wie Dominion Energy und NextEra Energy, die ebenfalls im Bereich erneuerbare Energien und Versorgungsdienstleistungen aktiv sind. DTE hat sich in den letzten Jahren als ein führender Anbieter von nachhaltigen Energielösungen positioniert, was es ihm ermöglicht, sich in einem zunehmend wettbewerbsintensiven Markt zu behaupten.\n\nDie Wachstumstreiber für DTE Energy in den kommenden 1-2 Jahren umfassen die verstärkte Investition in erneuerbare Energien sowie die strategische Neuausrichtung unter neuer Führung im Gasbereich. Analysten haben DTE kürzlich als Kauf empfohlen, was auf das Vertrauen in die zukünftige Entwicklung des Unternehmens hindeutet. Zudem wird die Dividende als stabil angesehen, was für viele Investoren ein wichtiges Kriterium darstellt. Die positive Kursentwicklung von 3,07 % im letzten Monat könnte durch diese Faktoren unterstützt werden.\n\nZentrale Risiken für DTE Energy sind der zunehmende Wettbewerb im Energiesektor, insbesondere im Bereich der erneuerbaren Energien, sowie mögliche zyklische Schwankungen in der Nachfrage nach Energie. Darüber hinaus könnte eine ungünstige Bewertung des Unternehmens in einem volatilen Marktumfeld zu einem Rückgang des Aktienkurses führen. Makroökonomische Faktoren wie Inflation und Zinssätze könnten ebenfalls einen Einfluss auf die zukünftige Entwicklung des Unternehmens haben.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass DTE Energy sich in der Nähe eines 52-Wochen-Hochs befindet, was auf ein gewisses Vertrauen der Anleger in die zukünftige Entwicklung des Unternehmens hinweist. Die Reddit-Diskussionen über Optionen und die damit verbundenen Risiken spiegeln die Unsicherheit wider, die viele Investoren in Bezug auf den Markt empfinden. Die Analystenmeinungen über die strategischen Veränderungen bei DTE unterstützen jedoch die positive Sichtweise auf das Unternehmen.\n\nInsgesamt erscheint die Reddit-Stimmung in Bezug auf DTE Energy teilweise gerechtfertigt, insbesondere in Anbetracht der strategischen Neuausrichtung und der stabilen Dividende. Die Diskussion über Optionen und die Warnungen vor einem möglichen Crash deuten jedoch auf die Unsicherheiten hin, die im Markt bestehen. Die These über die strategische Neuausrichtung könnte als positiv angesehen werden, während die Warnungen vor Crashs die Volatilität und Risiken im aktuellen Marktumfeld unterstreichen. Daher sollte die Situation weiterhin aufmerksam beobachtet werden.",
+      "fazit": "Reddit diskutiert DTE Energy Company aktuell bearisch (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
       "gruende": [
-        "Zunahme der Diskussion über Optionen und deren Risiken.",
-        "Analystenkommentare über DTE Energy und deren strategische Veränderungen.",
-        "Marktentwicklungen und Kursbewegungen in den letzten Wochen."
+        "🎯 Optionen & Short-Interest",
+        "⚠️ Bewertungs-Debatte"
       ],
       "momentum": 64,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
@@ -3250,6 +2782,14 @@
           "confidence": 64,
           "engagement": 9,
           "price": 150.27
+        },
+        {
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 9,
+          "price": 150.27
         }
       ]
     },
@@ -3280,24 +2820,24 @@
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Wachstumschancen durch KI",
+          "titel": "Bullish auf Call-Optionen",
           "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert, wie Microsoft von der zunehmenden Bedeutung von KI profitieren kann."
+          "erklaerung": "Einige Anleger setzen auf Call-Optionen, um von einem möglichen Kursanstieg zu profitieren."
         },
         {
-          "emoji": "⚠️",
-          "titel": "Kursrückgänge und Crash-Warnungen",
+          "emoji": "😡",
+          "titel": "Enttäuschung über Investition",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Investoren äußern Bedenken über mögliche Kursverluste und warnen vor einer Überbewertung."
+          "erklaerung": "Ein Nutzer äußert starke Frustration über seine Erfahrungen mit Microsoft als Investment."
         },
         {
-          "emoji": "💡",
-          "titel": "Metaverse-Potenzial",
+          "emoji": "📉",
+          "titel": "Crash-Warnungen",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Es wird diskutiert, wie Microsoft im aufstrebenden Metaverse-Markt positioniert ist und welche Chancen sich daraus ergeben."
+          "erklaerung": "Es gibt Bedenken über mögliche Marktverwerfungen, die Microsoft negativ beeinflussen könnten."
         }
       ],
       "bull_case": [
@@ -3657,34 +3197,34 @@
       },
       "news": [
         {
-          "title": "The Smartest Artificial Intelligence (AI) Investment Moves to Make With $5,000 in July",
-          "link": "https://www.fool.com/investing/2026/07/13/the-smartest-artificial-intelligence-ai-investment/?.tsrc=rss",
+          "title": "Overture Maps Foundation Reaches 50 Members as Industry Converges on Open Data to Ground AI",
+          "link": "https://finance.yahoo.com/technology/ai/articles/overture-maps-foundation-reaches-50-120000776.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Metaverse Market Surge: Entertainment Industry Set to Quadruple by 2032",
-          "link": "https://finance.yahoo.com/media-advertising/articles/metaverse-market-surge-entertainment-industry-082800946.html?.tsrc=rss",
+          "title": "AI Data Center Spending Is Outpacing Every Forecast on Wall Street. These 2 Stocks Are the Best Pick-and-Shovel Plays.",
+          "link": "https://www.fool.com/investing/2026/07/13/ai-data-center-spending-is-outpacing-every-forecas/?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Jeff Bezos Backed Grail Before It Lost Half Its Value. Here's Whether He Was Early -- or Just Wrong.",
+          "link": "https://www.fool.com/investing/2026/07/13/jeff-bezos-backed-grail-before-it-lost-half-its-va/?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Elon Musk Says He Was \"Clearly Wrong\" About Anthropic's Artificial Intelligence (AI) Models. Here's Why That's Outstanding News for Amazon a",
+          "link": "https://www.fool.com/investing/2026/07/13/elon-musk-says-he-was-clearly-wrong-about-anthropi/?.tsrc=rss",
+          "date": "Mon, 13 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple’s $600 Billion Rally Fueled by Traders Fleeing AI Selloff",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-600-billion-rally-fueled-101317523.html?.tsrc=rss",
           "date": "Mon, 13 Jul 2026",
           "tone": "pos"
-        },
-        {
-          "title": "Investment Opportunities for Portugal's US$3.89 Billion Data Center Market, 2026-2031 | Lisbon Leads as the Most Preferred Data Center Locat",
-          "link": "https://finance.yahoo.com/technology/articles/investment-opportunities-portugals-us-3-080600504.html?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "MSFT Stock Holds Up Amid US-Iran Geopolitical Jitters: Retail Calls It ‘Safest Earnings Play’",
-          "link": "https://stocktwits.com/news-articles/markets/equity/msft-stock-holds-up-amid-us-iran-geopolitical-jitters-retail-calls-it-safest-earnings-play/cZmziMIR7om?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "My Top 3 Software Stocks to Buy on the Dip",
-          "link": "https://www.fool.com/investing/2026/07/13/my-top-3-software-stocks-to-buy-on-the-dip/?.tsrc=rss",
-          "date": "Mon, 13 Jul 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -3694,13 +3234,13 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit dreht sich um gemischte Meinungen zu Microsoft, wobei einige Investoren optimistisch sind, während andere die Aktie als schlecht empfinden. Markt- und Nachrichtenlage unterstützen die Diskussion über Wachstumsmöglichkeiten in Bereichen wie KI und Metaverse, jedoch gibt es auch Warnungen vor möglichen Kursrückgängen. Die Empfehlung lautet, die Entwicklung zu beobachten, da die Stimmung auf Reddit nicht eindeutig positiv ist.",
+      "fazit": "Die Reddit-Diskussionen um Microsoft reflektieren gemischte Meinungen über die aktuelle Investitionsqualität des Unternehmens, wobei einige Nutzer optimistisch sind und andere stark enttäuscht. Die Markt- und Nachrichtenlage zeigt, dass Microsoft im Kontext von AI und Datenzentren Potenzial hat, jedoch auch mit Herausforderungen konfrontiert ist. Die Empfehlung, die Aktie zu beobachten, ist angesichts der aktuellen Unsicherheiten und der divergierenden Meinungen auf Reddit sinnvoll.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Microsoft Corporation ist ein führendes Technologieunternehmen, das sich auf Software, Cloud-Dienste und Hardware spezialisiert hat. Die Hauptkonkurrenten sind Unternehmen wie Apple, Google und Amazon, die in ähnlichen Märkten tätig sind. Microsoft hat sich mit seinem Azure-Cloud-Service und der Office-Produktreihe eine starke Marktposition erarbeitet, was es dem Unternehmen ermöglicht, von der wachsenden Nachfrage nach digitalen Lösungen zu profitieren.\n\nIn den nächsten ein bis zwei Jahren könnten mehrere Wachstumstreiber für Microsoft entscheidend sein. Insbesondere die Investitionen in Künstliche Intelligenz (KI) und die Entwicklung von Metaverse-Technologien bieten vielversprechende Chancen. Die jüngsten Nachrichten über die Verdopplung des Metaverse-Marktes bis 2032 könnten Microsofts Position in diesem Bereich stärken. Zudem könnte die Nachfrage nach Cloud-Diensten weiterhin ansteigen, da Unternehmen zunehmend auf digitale Transformation setzen.\n\nDennoch gibt es zentrale Risiken, die Microsofts Wachstum beeinträchtigen könnten. Der Wettbewerb im Technologiebereich ist intensiv, und neue Akteure könnten Marktanteile gewinnen. Darüber hinaus könnte eine zyklische Abschwächung der Wirtschaft die IT-Ausgaben der Unternehmen negativ beeinflussen. Auch die Bewertung von Microsoft könnte angesichts der aktuellen Marktentwicklung als hoch angesehen werden, was zu einem potenziellen Rückgang des Aktienkurses führen könnte.\n\nDie aktuelle Kurslage von 385,1 USD zeigt eine gewisse Volatilität, mit einem Rückgang von 1,38% in den letzten sieben Tagen. Die Reddit-Diskussion spiegelt diese Unsicherheit wider, da einige Beiträge auf optimistische Perspektiven hinweisen, während andere vor möglichen Risiken warnen. Die gemischte Stimmung auf Reddit ist ein Hinweis darauf, dass Investoren sowohl Chancen als auch Risiken sehen, was sich in der aktuellen Marktperformance widerspiegelt.\n\nInsgesamt erscheint die Reddit-Stimmung teilweise gerechtfertigt. Die Thesen über Wachstumschancen durch KI und das Metaverse sind valide, da Microsoft in diesen Bereichen gut positioniert ist. Gleichzeitig sind die Bedenken über Kursrückgänge und die allgemeine Marktentwicklung nicht unbegründet, was die Empfehlung zur Beobachtung der Aktie unterstützt. **Wachstumschancen durch KI und Metaverse** sind entscheidend, während **Risiken durch intensiven Wettbewerb** nicht ignoriert werden sollten.",
+      "analyse": "Microsoft Corporation ist ein führendes Technologieunternehmen, das sich auf Software, Cloud-Dienste und Hardware spezialisiert hat. Mit Produkten wie Windows, Office und Azure hat Microsoft eine starke Marktposition, die durch Wettbewerber wie Google, Amazon und Apple herausgefordert wird. Insbesondere im Cloud-Segment ist Azure ein entscheidender Wachstumsfaktor, da Unternehmen zunehmend auf Cloud-Lösungen setzen, um ihre IT-Infrastruktur zu optimieren.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für Microsoft von Bedeutung sein. Das Unternehmen profitiert von der zunehmenden Nachfrage nach KI-Anwendungen und der damit verbundenen Notwendigkeit, Daten effizient zu speichern und zu verarbeiten. Zudem zeigt die Nachrichtenlage, dass die Ausgaben für AI-Datenzentren die Prognosen übertreffen, was Microsofts Position in diesem Bereich stärkt. Die Partnerschaften und Initiativen, wie die Overture Maps Foundation, deuten darauf hin, dass Microsoft sich aktiv in zukunftsträchtigen Technologien engagiert.\n\nDennoch gibt es zentrale Risiken, die das Unternehmen betreffen könnten. Der Wettbewerb im Cloud-Sektor ist intensiv, und Unternehmen wie Amazon Web Services (AWS) und Google Cloud gewinnen Marktanteile. Zudem könnte eine allgemeine wirtschaftliche Abkühlung die Ausgaben für IT und Software negativ beeinflussen. Auch die Bewertung von Microsoft ist hoch, was bei einem Rückgang der Marktstimmung zu einem signifikanten Kursrückgang führen könnte.\n\nDie aktuelle Kurslage von 385,1 USD und die negative Entwicklung in den letzten Wochen deuten auf Unsicherheiten im Markt hin. Die Reddit-Diskussionen spiegeln diese Unsicherheiten wider, da einige Nutzer optimistisch sind, während andere vor möglichen Verlusten warnen. Die gemischten Sentiments und die Warnungen vor einem möglichen Crash könnten die Anleger verunsichern. **Die Diskussion über Call-Optionen zeigt jedoch, dass es auch eine optimistische Sicht auf die zukünftige Entwicklung gibt.**\n\nInsgesamt erscheint die Reddit-Stimmung hinsichtlich der fundamentalen Bewertung von Microsoft teils gerechtfertigt. Während die Bullish-Strategien auf den Potenzialen im AI-Bereich basieren, ist die Frustration eines Nutzers über seine Investition nicht unbegründet, insbesondere wenn man die jüngsten Kursverluste betrachtet. **Die divergierenden Meinungen auf Reddit verdeutlichen die Unsicherheiten im Markt, die Anleger berücksichtigen sollten.**",
       "gruende": [
-        "Mischung aus positiven und negativen Erfahrungen von Investoren",
-        "Aktuelle Nachrichten über Wachstumschancen in der Technologiebranche",
-        "Volatilität und Unsicherheit im Marktumfeld"
+        "Aktive Diskussion über Call-Optionen und Bullish-Strategien.",
+        "Negative Erfahrungen von Nutzern, die zu einem starken Sentiment führen.",
+        "Wachsendes Interesse an AI und Datenzentren als mögliche Treiber."
       ],
       "momentum": 45,
       "momentum_label": "➡️ Diskussion stabil",
@@ -3729,14 +3269,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-12T18:52:06.579931+00:00",
-          "ticker": "MSFT",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 9,
-          "price": 385.1
-        },
         {
           "ts": "2026-07-12T20:35:42.215394+00:00",
           "ticker": "MSFT",
@@ -3776,6 +3308,538 @@
           "confidence": 58,
           "engagement": 9,
           "price": 385.1
+        },
+        {
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "MSFT",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 9,
+          "price": 385.1
+        }
+      ]
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 61,
+      "sentiment": -1,
+      "mentions": 3,
+      "mentions_delta": 0,
+      "engagement": 8,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "$50B+ in NATO defense deals: LMT, NOC, Saab, RTX & more in focus (Reuters)",
+        "Trump mentioned NOC, BA, RTX, LMT at the NATO Summit",
+        "$50B+ in NATO defense deals announced: LMT, NOC, Saab, RTX & more in focus (Reuters)"
+      ],
+      "topics": [
+        "NATO",
+        "Defense",
+        "Deals",
+        "Saab"
+      ],
+      "themen": [
+        {
+          "emoji": "🛡️",
+          "titel": "NATO-Verteidigungsinvestitionen",
+          "anteil_pct": 50,
+          "beitraege": 2,
+          "erklaerung": "Die Community diskutiert die Auswirkungen der über 50 Milliarden Dollar schweren Verteidigungsdeals auf Unternehmen wie RTX."
+        },
+        {
+          "emoji": "📈",
+          "titel": "Marktreaktion auf Verteidigung",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Es wird erörtert, wie die positiven Nachrichten über NATO-Deals den Aktienkurs von RTX beeinflussen könnten."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Enttäuschende Unternehmenszahlen",
+          "anteil_pct": 20,
+          "beitraege": 1,
+          "erklaerung": "Die Diskussion beleuchtet die negativen Unternehmenszahlen, die die allgemeine Stimmung um RTX belasten."
+        }
+      ],
+      "bull_case": [],
+      "bear_case": [
+        "Zahlen unter Erwartung"
+      ],
+      "price": {
+        "available": true,
+        "price": 195.93,
+        "currency": "USD",
+        "name": "RTX Corporation",
+        "chart_1d": [
+          {
+            "t": 1783690200,
+            "c": 193.86
+          },
+          {
+            "t": 1783691100,
+            "c": 193.73
+          },
+          {
+            "t": 1783692000,
+            "c": 193.41
+          },
+          {
+            "t": 1783692900,
+            "c": 193.48
+          },
+          {
+            "t": 1783693800,
+            "c": 194.1
+          },
+          {
+            "t": 1783694700,
+            "c": 194.22
+          },
+          {
+            "t": 1783695600,
+            "c": 194.74
+          },
+          {
+            "t": 1783696500,
+            "c": 194.65
+          },
+          {
+            "t": 1783697400,
+            "c": 194.62
+          },
+          {
+            "t": 1783698300,
+            "c": 194.59
+          },
+          {
+            "t": 1783699200,
+            "c": 194.67
+          },
+          {
+            "t": 1783700100,
+            "c": 194.34
+          },
+          {
+            "t": 1783701000,
+            "c": 194.73
+          },
+          {
+            "t": 1783701900,
+            "c": 194.91
+          },
+          {
+            "t": 1783702800,
+            "c": 195.33
+          },
+          {
+            "t": 1783703700,
+            "c": 195.31
+          },
+          {
+            "t": 1783704600,
+            "c": 195.65
+          },
+          {
+            "t": 1783705500,
+            "c": 195.73
+          },
+          {
+            "t": 1783706400,
+            "c": 195.67
+          },
+          {
+            "t": 1783707300,
+            "c": 195.71
+          },
+          {
+            "t": 1783708200,
+            "c": 195.86
+          },
+          {
+            "t": 1783709100,
+            "c": 195.76
+          },
+          {
+            "t": 1783710000,
+            "c": 196.15
+          },
+          {
+            "t": 1783710900,
+            "c": 195.95
+          },
+          {
+            "t": 1783711800,
+            "c": 196.46
+          },
+          {
+            "t": 1783712700,
+            "c": 195.94
+          },
+          {
+            "t": 1783713600,
+            "c": 195.93
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1783344600,
+            "c": 199.38
+          },
+          {
+            "t": 1783348200,
+            "c": 199.31
+          },
+          {
+            "t": 1783351800,
+            "c": 200.27
+          },
+          {
+            "t": 1783355400,
+            "c": 200.7
+          },
+          {
+            "t": 1783359000,
+            "c": 201.3
+          },
+          {
+            "t": 1783362600,
+            "c": 201.32
+          },
+          {
+            "t": 1783366200,
+            "c": 201.39
+          },
+          {
+            "t": 1783431000,
+            "c": 200.74
+          },
+          {
+            "t": 1783434600,
+            "c": 201.1
+          },
+          {
+            "t": 1783438200,
+            "c": 201.61
+          },
+          {
+            "t": 1783441800,
+            "c": 201.34
+          },
+          {
+            "t": 1783445400,
+            "c": 201.08
+          },
+          {
+            "t": 1783449000,
+            "c": 200.13
+          },
+          {
+            "t": 1783452600,
+            "c": 200.86
+          },
+          {
+            "t": 1783517400,
+            "c": 199.38
+          },
+          {
+            "t": 1783521000,
+            "c": 197.19
+          },
+          {
+            "t": 1783524600,
+            "c": 197.14
+          },
+          {
+            "t": 1783528200,
+            "c": 195.98
+          },
+          {
+            "t": 1783531800,
+            "c": 195.7
+          },
+          {
+            "t": 1783535400,
+            "c": 195.45
+          },
+          {
+            "t": 1783539000,
+            "c": 194.9
+          },
+          {
+            "t": 1783603800,
+            "c": 195.59
+          },
+          {
+            "t": 1783607400,
+            "c": 194.69
+          },
+          {
+            "t": 1783611000,
+            "c": 194.32
+          },
+          {
+            "t": 1783614600,
+            "c": 194.76
+          },
+          {
+            "t": 1783618200,
+            "c": 195.06
+          },
+          {
+            "t": 1783621800,
+            "c": 194.89
+          },
+          {
+            "t": 1783625400,
+            "c": 195.19
+          },
+          {
+            "t": 1783690200,
+            "c": 193.48
+          },
+          {
+            "t": 1783693800,
+            "c": 194.65
+          },
+          {
+            "t": 1783697400,
+            "c": 194.34
+          },
+          {
+            "t": 1783701000,
+            "c": 195.31
+          },
+          {
+            "t": 1783704600,
+            "c": 195.71
+          },
+          {
+            "t": 1783708200,
+            "c": 195.95
+          },
+          {
+            "t": 1783711800,
+            "c": 195.94
+          },
+          {
+            "t": 1783713600,
+            "c": 195.93
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1781184600,
+            "c": 184.21
+          },
+          {
+            "t": 1781271000,
+            "c": 183.53
+          },
+          {
+            "t": 1781530200,
+            "c": 183.64
+          },
+          {
+            "t": 1781616600,
+            "c": 186.77
+          },
+          {
+            "t": 1781703000,
+            "c": 192.58
+          },
+          {
+            "t": 1781789400,
+            "c": 185.6
+          },
+          {
+            "t": 1782135000,
+            "c": 181.83
+          },
+          {
+            "t": 1782221400,
+            "c": 186.39
+          },
+          {
+            "t": 1782307800,
+            "c": 185.06
+          },
+          {
+            "t": 1782394200,
+            "c": 186.59
+          },
+          {
+            "t": 1782480600,
+            "c": 187.99
+          },
+          {
+            "t": 1782739800,
+            "c": 187.33
+          },
+          {
+            "t": 1782826200,
+            "c": 189.73
+          },
+          {
+            "t": 1782912600,
+            "c": 191.78
+          },
+          {
+            "t": 1782999000,
+            "c": 199.25
+          },
+          {
+            "t": 1783344600,
+            "c": 201.37
+          },
+          {
+            "t": 1783431000,
+            "c": 200.85
+          },
+          {
+            "t": 1783517400,
+            "c": 194.91
+          },
+          {
+            "t": 1783603800,
+            "c": 195.2
+          },
+          {
+            "t": 1783690200,
+            "c": 195.93
+          }
+        ],
+        "chg_1d": 1.07,
+        "chg_7d": -1.67,
+        "chg_1mo": 6.36,
+        "sma20_dist": 3.11
+      },
+      "news": [
+        {
+          "title": "Defense ETFs to Buy Now as NATO Allies Pledge to Invest Over $50B",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/defense-etfs-buy-now-nato-181000851.html?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Rackspace Plunges 25% After Cutting 2026 Outlook, Unveils $250M Share Offering",
+          "link": "https://finance.yahoo.com/technology/ai/articles/rackspace-plunges-25-cutting-2026-172727482.html?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "neg"
+        },
+        {
+          "title": "/C O R R E C T I O N -- RTX/",
+          "link": "https://finance.yahoo.com/technology/articles/c-o-r-r-e-164100195.html?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Why RTX (RTX) Could Beat Earnings Estimates Again",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-rtx-rtx-could-beat-161002540.html?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Remittix Adds Perpetual Futures Platform as RTX Push Moves Beyond Crypto Payments",
+          "link": "https://www.cryptoprowl.com/releases/remittix-adds-perpetual-futures-platform-as-rtx-push-moves-beyond-crypto-payments-6121?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (-1.67%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Die Reddit-Diskussion um RTX Corporation dreht sich hauptsächlich um die kürzlich angekündigten NATO-Verteidigungsdeals, die das Unternehmen potenziell begünstigen könnten. Der Markt reagiert positiv auf diese Nachrichten, jedoch gibt es auch negative Aspekte, wie die enttäuschenden Zahlen, die die Stimmung dämpfen. Insgesamt ist die Empfehlung, RTX zu beobachten, aufgrund der gemischten Signale von Markt und Sentiment gerechtfertigt.",
+      "fazit_quelle": "KI (GitHub Models)",
+      "analyse": "RTX Corporation, ein führendes Unternehmen im Verteidigungs- und Luftfahrtsektor, hat sich durch innovative Technologien und strategische Partnerschaften eine starke Marktposition erarbeitet. Zu den Hauptwettbewerbern zählen Lockheed Martin (LMT) und Northrop Grumman (NOC), die ebenfalls im Bereich Verteidigung aktiv sind. RTX profitiert von einer stabilen Nachfrage nach militärischen und zivilen Luftfahrtsystemen, was das Unternehmen in der aktuellen geopolitischen Lage gut positioniert.\n\nIn den kommenden 1-2 Jahren könnten die angekündigten NATO-Verteidigungsinvestitionen von über 50 Milliarden Dollar als wesentlicher Wachstumstreiber fungieren. Diese Investitionen könnten die Aufträge für RTX steigern und somit das Umsatzwachstum ankurbeln. Insbesondere die Erwähnung von RTX durch prominente Persönlichkeiten wie Trump auf dem NATO-Gipfel könnte zu einer erhöhten Aufmerksamkeit und möglicherweise auch zu neuen Aufträgen führen. Die positive Marktreaktion auf diese Nachrichten spiegelt das Vertrauen in die zukünftige Entwicklung des Unternehmens wider.\n\nAllerdings gibt es auch zentrale Risiken, die nicht außer Acht gelassen werden dürfen. Die Konkurrenz im Verteidigungssektor ist intensiv, und Unternehmen wie LMT und NOC könnten RTX Marktanteile streitig machen. Zudem ist die Branche zyklisch und stark von staatlichen Aufträgen abhängig, was zu Unsicherheiten führen kann. Die aktuellen Unternehmenszahlen, die unter den Erwartungen liegen, könnten auch auf eine schwächere Nachfrage oder interne Herausforderungen hinweisen, was die Bewertung von RTX belasten könnte.\n\nDie aktuelle Kursentwicklung von RTX zeigt eine gemischte Stimmung. Der Kurs hat in den letzten 24 Stunden leicht zugelegt, jedoch gab es in der letzten Woche einen Rückgang von 1,67%. Diese schwankenden Werte könnten auf die Unsicherheiten im Hinblick auf die Unternehmenszahlen und die allgemeine Marktlage hinweisen. Die Diskussion auf Reddit über die NATO-Deals und die Erwähnung des Unternehmens durch Trump könnte kurzfristig für Auftrieb sorgen, jedoch bleibt abzuwarten, ob dies zu einer nachhaltigen Verbesserung der Geschäftszahlen führt.\n\nInsgesamt erscheint die Reddit-Stimmung um RTX in Teilen gerechtfertigt, insbesondere in Bezug auf die NATO-Verteidigungsinvestitionen. Diese könnten tatsächlich positive Impulse für das Unternehmen bringen. Dennoch müssen die enttäuschenden Unternehmenszahlen und die Wettbewerbsbedingungen berücksichtigt werden. **Die gemischte Nachrichtenlage erfordert eine sorgfältige Beobachtung der Entwicklungen.** Die kurzfristigen positiven Impulse durch geopolitische Ereignisse könnten durch fundamentale Schwächen ausgeglichen werden, was die Empfehlung, RTX zu beobachten, unterstreicht.",
+      "gruende": [
+        "NATO-Ankündigungen über Verteidigungsinvestitionen",
+        "Erwähnung von RTX durch Trump auf dem NATO-Gipfel",
+        "Allgemeines Interesse an Verteidigungs-ETFs"
+      ],
+      "momentum": 54,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
+      "timeline": [
+        {
+          "day": "2026-07-11",
+          "mentions": 3
+        },
+        {
+          "day": "2026-07-12",
+          "mentions": 3
+        },
+        {
+          "day": "2026-07-13",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 13,
+      "reddit_vs_markt": {
+        "reddit": 54,
+        "markt": 43,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-11T14:44:18.269359+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 195.93
+        },
+        {
+          "ts": "2026-07-11T16:43:49.027012+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 195.93
+        },
+        {
+          "ts": "2026-07-12T14:47:40.315129+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 195.93
+        },
+        {
+          "ts": "2026-07-12T16:47:07.281679+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 195.93
+        },
+        {
+          "ts": "2026-07-12T22:38:03.781476+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 195.93
+        },
+        {
+          "ts": "2026-07-13T12:26:18.025389+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 195.93
         }
       ]
     }
