@@ -248,6 +248,29 @@ details.sec>.sec-body{padding:0.35rem 1rem 1rem}
   border-radius:8px;padding:0.55rem 0.8rem;margin-top:8px;line-height:1.5}
 .radar-empty{font-size:12px;color:var(--text3);font-style:italic;padding:0.4rem 0}
 
+/* Trump-Tracker */
+details.trump{background:linear-gradient(135deg,rgba(251,191,36,0.06),rgba(96,165,250,0.03));
+  border:1px solid rgba(251,191,36,0.22);border-radius:var(--radius);margin-bottom:1.75rem}
+details.trump>summary{font-size:13px;font-weight:750;color:var(--yellow);
+  text-transform:uppercase;letter-spacing:0.07em;padding:1rem 1.3rem;
+  cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+details.trump>summary::-webkit-details-marker{display:none}
+details.trump>summary::before{content:"▸";color:var(--text3);font-size:12px}
+details.trump[open]>summary::before{content:"▾"}
+.trump-body{padding:0 1.3rem 1.1rem}
+.trump-post{background:var(--bg2);border:1px solid var(--border);border-radius:12px;
+  padding:0.8rem 1rem;margin-bottom:8px}
+.trump-post.hit{border-color:rgba(251,191,36,0.4)}
+.tp-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:5px}
+.tp-date{font-size:10.5px;color:var(--text3)}
+.tp-new{font-size:9.5px;font-weight:800;color:var(--green);background:var(--green-bg);
+  padding:1px 8px;border-radius:10px;text-transform:uppercase;letter-spacing:0.05em}
+.tp-company{font-size:10.5px;font-weight:700;color:var(--yellow);
+  background:var(--yellow-bg);padding:2px 10px;border-radius:12px}
+.tp-text{font-size:12.5px;color:var(--text2);line-height:1.55}
+.tp-text a{color:var(--blue);text-decoration:none;font-size:11px}
+.trump-note{font-size:10.5px;color:var(--text3);margin-top:6px;line-height:1.5}
+
 details.verlauf{border:1px solid var(--border);border-radius:12px;background:var(--bg2)}
 details.verlauf summary{font-size:11.5px;font-weight:650;color:var(--text2);
   padding:0.7rem 1rem;cursor:pointer;list-style:none;user-select:none}
@@ -300,6 +323,7 @@ details.verlauf[open] summary::before{content:"▾ "}
   </div>
 
   <div id="radar-section"></div>
+  <div id="trump-section"></div>
 
   <div class="section-title">Empfehlungen · Reddit-Signal → Hype-Analyse → Marktabgleich → KI-Fazit</div>
   <div id="recs">
@@ -406,6 +430,36 @@ function render() {
         Ein hoher Score ist KEIN Kaufsignal, sondern nur ein Hinweis auf ungewöhnliche Aktivität.
         Historisch enden die meisten dieser Wellen mit Verlusten für Späteinsteiger.</div>
     </div>`;
+
+  // 🦅 Trump-Tracker
+  const trumpEl = document.getElementById("trump-section");
+  const tt = d.trump_tracker || null;
+  if (tt && (tt.posts || []).length) {
+    const hits = tt.market_hits || 0;
+    trumpEl.innerHTML = `
+      <details class="trump" ${hits ? "open" : ""}>
+        <summary>🦅 Trump Truth-Social-Tracker
+          <span class="sum-chip">${tt.posts.length} Posts</span>
+          ${hits ? `<span class="tp-company">💼 ${hits} mit Firmen-Erwähnung</span>` : `<span class="sum-chip">keine Firmen-Erwähnungen</span>`}
+        </summary>
+        <div class="trump-body">
+          ${tt.posts.map(p => `
+            <div class="trump-post ${p.companies?.length ? "hit" : ""}">
+              <div class="tp-meta">
+                <span class="tp-date">${p.date || ""}</span>
+                ${p.is_new ? `<span class="tp-new">Neu</span>` : ""}
+                ${(p.companies || []).map(c => `<span class="tp-company">${c.name} · ${c.ticker}</span>`).join("")}
+              </div>
+              <div class="tp-text">${(p.text || "").slice(0, 280)}${(p.text || "").length > 280 ? "…" : ""}
+                ${p.url ? ` <a href="${p.url}" target="_blank" rel="noopener">→ Original</a>` : ""}</div>
+            </div>`).join("")}
+          <div class="trump-note">Quelle: trumpstruth.org (Archiv von Defending Democracy Together).
+            Firmen-Erkennung automatisch – Posts mit 💼-Markierung erwähnen börsennotierte Unternehmen.</div>
+        </div>
+      </details>`;
+  } else {
+    trumpEl.innerHTML = "";
+  }
 
   const recsEl = document.getElementById("recs");
   recsEl.innerHTML = "";
