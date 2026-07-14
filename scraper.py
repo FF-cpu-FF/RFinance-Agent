@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v10 – scraper.py
+Reddit Finanz-Agent v11 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -70,6 +70,116 @@ SQUEEZE_KW = ["squeeze","short interest","gamma","float","ftd","moass",
     "diamond hands","💎","🙌","🦍","hedgies","shortseller","leerverkäufer",
     "short quote","yolo","all in","to the moon","naked short","shorts are",
     "heavily shorted","stark geshortet","shortquote"]
+
+# Firmennamen -> Ticker für den Trump-Tracker
+COMPANY_MAP = {
+    "tesla": "TSLA", "apple": "AAPL", "amazon": "AMZN", "boeing": "BA",
+    "pfizer": "PFE", "intel": "INTC", "nvidia": "NVDA", "micron": "MU",
+    "general motors": "GM", "ford": "F", "meta": "META", "facebook": "META",
+    "google": "GOOGL", "alphabet": "GOOGL", "microsoft": "MSFT",
+    "exxon": "XOM", "chevron": "CVX", "lockheed": "LMT", "raytheon": "RTX",
+    "us steel": "X", "nippon steel": "NPSCY", "harley": "HOG",
+    "john deere": "DE", "goldman": "GS", "jpmorgan": "JPM", "jp morgan": "JPM",
+    "bank of america": "BAC", "disney": "DIS", "comcast": "CMCSA",
+    "paramount": "PARA", "coca-cola": "KO", "coca cola": "KO",
+    "mcdonald": "MCD", "walmart": "WMT", "target": "TGT", "netflix": "NFLX",
+    "at&t": "T", "verizon": "VZ", "tsmc": "TSM", "softbank": "SFTBY",
+    "caterpillar": "CAT", "carrier": "CARR", "truth social": "DJT",
+    "trump media": "DJT", "djt": "DJT", "palantir": "PLTR", "oracle": "ORCL",
+}
+
+
+# ── Trump Truth-Social-Tracker ───────────────────────────────────────────────
+
+def analyze_trump_post(text):
+    """Findet erwähnte Firmen/Ticker in einem Post."""
+    found = []
+    t = text.lower()
+    for name, ticker in COMPANY_MAP.items():
+        if name in t:
+            found.append({"name": name.title(), "ticker": ticker})
+    for m in re.finditer(r'\$([A-Z]{1,5})\b', text):
+        tk = m.group(1)
+        if tk not in [f["ticker"] for f in found] and tk not in SKIP:
+            found.append({"name": tk, "ticker": tk})
+    # Duplikate über Ticker entfernen
+    seen, unique = set(), []
+    for f in found:
+        if f["ticker"] not in seen:
+            seen.add(f["ticker"])
+            unique.append(f)
+    return unique
+
+
+def fetch_trump_posts(max_posts=10):
+    """Neueste Trump-Posts via trumpstruth.org RSS, Fallback CNN-Archiv."""
+    # Primär: RSS
+    try:
+        req = urllib.request.Request("https://www.trumpstruth.org/feed", headers=UA)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            content = resp.read().decode("utf-8", errors="replace")
+        root = ET.fromstring(content)
+        posts = []
+        for item in root.iter("item"):
+            desc = item.findtext("description", "") or item.findtext("title", "")
+            text = re.sub(r"<[^>]+>", " ", desc).strip()
+            text = re.sub(r"\s+", " ", text)
+            posts.append({
+                "text": text[:400],
+                "url":  item.findtext("link", ""),
+                "date": (item.findtext("pubDate", "") or "")[:22],
+                "id":   item.findtext("guid", "") or item.findtext("link", ""),
+            })
+            if len(posts) >= max_posts:
+                break
+        if posts:
+            print(f"  ✓ Trump-Tracker: {len(posts)} Posts (trumpstruth.org)")
+            return posts
+    except Exception as e:
+        print(f"  ✗ trumpstruth.org: {e}")
+
+    # Fallback: CNN-Archiv (groß, daher nur bei Bedarf)
+    try:
+        req = urllib.request.Request(
+            "https://ix.cnn.io/data/truth-social/truth_archive.json", headers=UA)
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+        data = sorted(data, key=lambda p: p.get("created_at", ""), reverse=True)[:max_posts]
+        posts = []
+        for p in data:
+            text = re.sub(r"<[^>]+>", " ", p.get("content", "") or "").strip()
+            posts.append({
+                "text": re.sub(r"\s+", " ", text)[:400],
+                "url":  p.get("url", ""),
+                "date": (p.get("created_at", "") or "")[:16].replace("T", " "),
+                "id":   str(p.get("id", "")),
+            })
+        if posts:
+            print(f"  ✓ Trump-Tracker: {len(posts)} Posts (CNN-Archiv)")
+        return posts
+    except Exception as e:
+        print(f"  ✗ CNN-Archiv: {e}")
+        return []
+
+
+def build_trump_tracker(history):
+    """Holt Posts, markiert neue seit letztem Scan, erkennt Firmen-Erwähnungen."""
+    posts = fetch_trump_posts(10)
+    if not posts:
+        return {"posts": [], "market_hits": 0}
+
+    seen = set(history.get("trump_seen", []))
+    market_hits = 0
+    out = []
+    for p in posts:
+        companies = analyze_trump_post(p["text"])
+        is_new = p["id"] not in seen
+        if companies:
+            market_hits += 1
+        out.append({**p, "companies": companies, "is_new": is_new})
+
+    history["trump_seen"] = (list(seen) + [p["id"] for p in posts])[-300:]
+    return {"posts": out, "market_hits": market_hits}
 
 KW_LABELS = {
     "squeeze": "Short-Squeeze-Spekulation", "moon": "Kursfantasie", "rocket": "Kursfantasie",
@@ -821,7 +931,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v10   |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v11   |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
@@ -1012,6 +1122,12 @@ def run():
     else:
         print("  ○ Keine auffälligen Muster in diesem Scan")
 
+    # Trump Truth-Social-Tracker
+    print("\nLade Trump-Posts (Truth Social)...")
+    trump = build_trump_tracker(history)
+    if trump["market_hits"]:
+        print(f"  🦅 {trump['market_hits']} Post(s) mit Firmen-Erwähnungen!")
+
     output = {
         "generated_at":    now_iso,
         "total_posts":     total_posts,
@@ -1021,6 +1137,7 @@ def run():
         "stats":           stats,
         "history_evaluated": evaluated[-40:],
         "squeeze_radar":   radar,
+        "trump_tracker":   trump,
     }
 
     os.makedirs("docs", exist_ok=True)
