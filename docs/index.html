@@ -278,6 +278,50 @@ details.trump[open]>summary::before{content:"▾"}
 .tp-text a{color:var(--blue);text-decoration:none;font-size:11px}
 .trump-note{font-size:10.5px;color:var(--text3);margin-top:6px;line-height:1.5}
 
+/* 🔥 Spannende Aktien + 🤝 M&A – gemeinsame Panel-Optik */
+details.panel{border-radius:var(--radius);margin-bottom:1.75rem;overflow:hidden}
+details.panel>summary{font-size:13px;font-weight:750;padding:1rem 1.3rem;cursor:pointer;
+  list-style:none;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  text-transform:uppercase;letter-spacing:0.07em}
+details.panel>summary::-webkit-details-marker{display:none}
+details.panel>summary::before{content:"▸";color:var(--text3);font-size:12px}
+details.panel[open]>summary::before{content:"▾"}
+details.panel .panel-body{padding:0 1.3rem 1.1rem}
+details.hotstocks{background:linear-gradient(135deg,rgba(52,211,153,0.06),rgba(96,165,250,0.03));
+  border:1px solid rgba(52,211,153,0.22)}
+details.hotstocks>summary{color:var(--green)}
+details.madeals{background:linear-gradient(135deg,rgba(96,165,250,0.06),rgba(167,139,250,0.04));
+  border:1px solid rgba(96,165,250,0.22)}
+details.madeals>summary{color:var(--blue)}
+
+.hs-item,.ma-item{background:var(--bg2);border:1px solid var(--border);
+  border-radius:12px;padding:0.9rem 1.05rem;margin-bottom:9px}
+.hs-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.hs-ticker{font-size:16px;font-weight:750}
+.hs-name{font-size:11.5px;color:var(--text2)}
+.hs-chg{font-size:14px;font-weight:800}
+.hs-stars{font-size:12px;margin-left:auto}
+.hs-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:6px}
+@media(max-width:680px){.hs-cols{grid-template-columns:1fr}}
+.hs-col-title{font-size:10px;font-weight:750;color:var(--text3);
+  text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px}
+.hs-list{list-style:none}
+.hs-list li{font-size:12px;color:var(--text2);padding-left:14px;position:relative;
+  margin-bottom:3px;line-height:1.45}
+.hs-list.gruen li::before{content:"•";position:absolute;left:2px;color:var(--green)}
+.hs-list.rot li::before{content:"•";position:absolute;left:2px;color:var(--red)}
+.hs-bedeutung{font-size:12px;color:var(--text2);font-style:italic;margin-top:7px;
+  border-left:2px solid var(--green);padding-left:10px;line-height:1.5}
+.ma-head{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:5px}
+.ma-deal{font-size:14px;font-weight:750}
+.ma-chip{font-size:10.5px;font-weight:700;padding:2px 10px;border-radius:12px;
+  background:var(--blue-bg);color:var(--blue)}
+.ma-verdict{font-size:11px;font-weight:700;padding:3px 11px;border-radius:12px;
+  background:var(--yellow-bg);color:var(--yellow)}
+.ma-headline{font-size:11.5px;color:var(--text3);margin-bottom:7px;line-height:1.45}
+.ma-headline a{color:var(--blue);text-decoration:none}
+.panel-note{font-size:10.5px;color:var(--text3);margin-top:4px;line-height:1.5}
+
 details.verlauf{border:1px solid var(--border);border-radius:12px;background:var(--bg2)}
 details.verlauf summary{font-size:11.5px;font-weight:650;color:var(--text2);
   padding:0.7rem 1rem;cursor:pointer;list-style:none;user-select:none}
@@ -331,6 +375,8 @@ details.verlauf[open] summary::before{content:"▾ "}
 
   <div id="radar-section"></div>
   <div id="trump-section"></div>
+  <div id="hot-section"></div>
+  <div id="ma-section"></div>
 
   <div class="section-title">Empfehlungen · Reddit-Signal → Hype-Analyse → Marktabgleich → KI-Fazit</div>
   <div id="recs">
@@ -467,6 +513,78 @@ function render() {
   } else {
     trumpEl.innerHTML = "";
   }
+
+  // 🔥 Spannende Aktien des Tages
+  const hotEl = document.getElementById("hot-section");
+  const hot = d.spannende_aktien || [];
+  hotEl.innerHTML = hot.length ? `
+    <details class="panel hotstocks">
+      <summary>🔥 Spannende Aktien des Tages
+        <span class="sum-chip">${hot.length} mit Story</span>
+      </summary>
+      <div class="panel-body">
+        ${hot.map(x => `
+          <div class="hs-item">
+            <div class="hs-top">
+              <span class="hs-ticker">${x.ticker}</span>
+              <span class="hs-name">${x.name || ""} · ${fmt(x.price, x.currency)}</span>
+              <span class="hs-chg ${x.chg_1d >= 0 ? "delta-up" : "delta-down"}">${x.chg_1d >= 0 ? "+" : ""}${x.chg_1d}%</span>
+              ${x.vol_ratio ? `<span class="sum-chip">Vol ${x.vol_ratio}×</span>` : ""}
+              <span class="hs-stars" title="1★ Momentum-Trade · 2★ Watchlist · 3★ langfristig">${"⭐".repeat(x.sterne || 1)}</span>
+            </div>
+            <div class="hs-cols">
+              <div>
+                <div class="hs-col-title">Warum heute spannend?</div>
+                <ul class="hs-list gruen">${(x.warum || []).map(w => `<li>${w}</li>`).join("")}</ul>
+              </div>
+              <div>
+                <div class="hs-col-title">Risiken</div>
+                <ul class="hs-list rot">${(x.risiken || []).map(w => `<li>${w}</li>`).join("")}</ul>
+              </div>
+            </div>
+            <div class="hs-bedeutung">💭 ${x.bedeutung || ""}</div>
+          </div>`).join("")}
+        <div class="panel-note">Quelle: Yahoo Trending, gefiltert nach Story-Kriterien
+          (≥8% Bewegung, ≥2× Volumen oder Event-News). ⭐ Momentum · ⭐⭐ Watchlist · ⭐⭐⭐ langfristig. Keine Anlageberatung.</div>
+      </div>
+    </details>` : "";
+
+  // 🤝 M&A Deal-Tracker
+  const maEl = document.getElementById("ma-section");
+  const ma = d.ma_deals || [];
+  maEl.innerHTML = ma.length ? `
+    <details class="panel madeals">
+      <summary>🤝 M&amp;A Deal-Tracker
+        <span class="sum-chip">${ma.length} Deals</span>
+      </summary>
+      <div class="panel-body">
+        ${ma.map(x => `
+          <div class="ma-item">
+            <div class="ma-head">
+              <span class="ma-deal">${x.kaeufer && x.ziel ? `${x.kaeufer} → ${x.ziel}` : (x.headline || "Deal")}</span>
+              ${x.groesse && x.groesse !== "k.A." ? `<span class="ma-chip">💰 ${x.groesse}</span>` : ""}
+              ${x.branche ? `<span class="ma-chip">${x.branche}</span>` : ""}
+              ${x.einordnung ? `<span class="ma-verdict">${x.einordnung}</span>` : ""}
+            </div>
+            <div class="ma-headline">${x.headline || ""}
+              ${x.link ? ` <a href="${x.link}" target="_blank" rel="noopener">→ Quelle</a>` : ""}
+              ${x.date ? ` · ${x.date}` : ""}</div>
+            ${(x.warum || []).length ? `
+            <div class="hs-cols">
+              <div>
+                <div class="hs-col-title">Strategisches Motiv &amp; Synergien</div>
+                <ul class="hs-list gruen">${[...(x.warum || []), ...(x.synergien || [])].map(w => `<li>${w}</li>`).join("")}</ul>
+              </div>
+              <div>
+                <div class="hs-col-title">Risiken</div>
+                <ul class="hs-list rot">${(x.risiken || []).map(w => `<li>${w}</li>`).join("")}</ul>
+              </div>
+            </div>` : ""}
+          </div>`).join("")}
+        <div class="panel-note">Analyse basiert auf öffentlichen News-Headlines (Google News).
+          Dealgrößen/Prämien nur wenn in der Headline genannt – sonst k.A.</div>
+      </div>
+    </details>` : "";
 
   const recsEl = document.getElementById("recs");
   recsEl.innerHTML = "";
