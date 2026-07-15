@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T18:15:50.138383+00:00",
+  "generated_at": "2026-07-15T18:55:49.091475+00:00",
   "total_posts": 250,
-  "unique_tickers": 120,
+  "unique_tickers": 119,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,7 +33,7 @@
       "confidence": 60,
       "sentiment": 3,
       "mentions": 7,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 12,
       "sources": [
         "Ameisenstrassenwetten",
@@ -75,10 +75,10 @@
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Positive Unternehmenszahlen",
+          "titel": "Positive Geschäftszahlen",
           "anteil_pct": 40,
           "beitraege": 3,
-          "erklaerung": "Die Community diskutiert die positiven finanziellen Ergebnisse von Micron und deren mögliche Auswirkungen auf den Kurs.",
+          "erklaerung": "Die Community diskutiert die positiven finanziellen Ergebnisse von Micron und deren Auswirkungen auf die Aktie.",
           "links": [
             {
               "title": "MU Zahlen waren gut",
@@ -95,11 +95,11 @@
           ]
         },
         {
-          "emoji": "💻",
-          "titel": "Marktbedrohungen im Speicherchip-Sektor",
+          "emoji": "🤔",
+          "titel": "Trump und Micron",
           "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Es wird über die Herausforderungen gesprochen, die Micron durch den Wettbewerb mit SK Hynix und andere Faktoren gegenübersteht.",
+          "beitraege": 4,
+          "erklaerung": "Die Nennungen von Trump in Verbindung mit Micron erzeugen zusätzliches Interesse und Spekulationen über zukünftige Entwicklungen.",
           "links": [
             {
               "title": "Trump said it again: \"Go out and buy a Dell computer\"",
@@ -108,23 +108,23 @@
             {
               "title": "Trump makes 6 different company mentions in Interview today (7/2/2026)",
               "url": "https://www.reddit.com/r/TrumpsTrades/comments/1um49er/trump_makes_6_different_company_mentions_in/"
+            },
+            {
+              "title": "Trump + MU",
+              "url": "https://www.reddit.com/r/TrumpsTrades/comments/1ukt1w4/trump_mu/"
             }
           ]
         },
         {
-          "emoji": "🗣️",
-          "titel": "Trump und Micron",
+          "emoji": "⚔️",
+          "titel": "Wettbewerb im Chip-Markt",
           "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Die Erwähnung von Micron durch Trump wird als potenzieller Katalysator für das Interesse an der Aktie gesehen.",
+          "beitraege": 3,
+          "erklaerung": "Der Wettbewerb zwischen Micron und SK Hynix wird als bedeutender Faktor für die zukünftige Marktposition betrachtet.",
           "links": [
             {
-              "title": "Trump + MU",
-              "url": "https://www.reddit.com/r/TrumpsTrades/comments/1ukt1w4/trump_mu/"
-            },
-            {
-              "title": "Trump just mentioned $MU on Truth Social",
-              "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uksl6b/trump_just_mentioned_mu_on_truth_social/"
+              "title": "US Micron vs So Korean SK Hynix on 7/10",
+              "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uo5js8/us_micron_vs_so_korean_sk_hynix_on_710/"
             }
           ]
         }
@@ -135,7 +135,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 905.61,
+        "price": 903.28,
         "currency": "USD",
         "name": "Micron Technology, Inc.",
         "chart_1d": [
@@ -217,11 +217,19 @@
           },
           {
             "t": 1784139300,
-            "c": 905.98
+            "c": 912.67
           },
           {
-            "t": 1784139386,
-            "c": 905.86
+            "t": 1784140200,
+            "c": 907.0
+          },
+          {
+            "t": 1784141100,
+            "c": 903.65
+          },
+          {
+            "t": 1784141784,
+            "c": 903.23
           }
         ],
         "chart_5d": [
@@ -355,11 +363,15 @@
           },
           {
             "t": 1784136600,
-            "c": 905.98
+            "c": 912.67
           },
           {
-            "t": 1784139387,
-            "c": 905.95
+            "t": 1784140200,
+            "c": 903.65
+          },
+          {
+            "t": 1784141784,
+            "c": 903.23
           }
         ],
         "chart_1mo": [
@@ -445,15 +457,33 @@
           },
           {
             "t": 1784122200,
-            "c": 905.61
+            "c": 903.28
           }
         ],
-        "chg_1d": -5.15,
-        "chg_7d": -4.55,
-        "chg_1mo": -16.76,
-        "sma20_dist": -13.05
+        "chg_1d": -5.4,
+        "chg_7d": -4.8,
+        "chg_1mo": -16.98,
+        "sma20_dist": -13.27
       },
       "news": [
+        {
+          "title": "India Approves $19.7 Billion to Expand Chip and Smartphone Manufacturing",
+          "link": "https://finance.yahoo.com/technology/articles/india-approves-19-7-billion-183353106.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Applied Optoelectronics Falls 12%, Coherent and Lumentum Slide as AI Optics Trade Cools",
+          "link": "https://247wallst.com/investing/2026/07/15/applied-optoelectronics-falls-12-coherent-and-lumentum-slide-as-ai-optics-trade-cools/?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neg"
+        },
+        {
+          "title": "Anthropic Reportedly Taking New Steps Toward Mega-IPO In Race With OpenAI, DeepSeek",
+          "link": "https://finance.yahoo.com/m/06996e8d-e150-308f-8d6c-94e9b6359db9/anthropic-reportedly-taking.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
         {
           "title": "$8.5 Billion Says This Micron Threat Is About to Get a Whole Lot Bigger",
           "link": "https://247wallst.com/investing/2026/07/15/8-5-billion-says-this-micron-threat-is-about-to-get-a-whole-lot-bigger/?.tsrc=rss",
@@ -465,42 +495,24 @@
           "link": "https://finance.yahoo.com/m/8ee5b847-f107-3228-a9e2-816b0ac8b85a/is-this-why-memory-stocks-are.html?.tsrc=rss",
           "date": "Wed, 15 Jul 2026",
           "tone": "neu"
-        },
-        {
-          "title": "If I Had $1,000 to Invest, Here's the Tech Stock I'd Invest in Before Micron",
-          "link": "https://www.fool.com/investing/2026/07/15/heres-the-tech-stock-id-invest-in-before-micron/?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Indexes Wobble Near Flatline. Wall Street Is in Wait-and-See Mode.",
-          "link": "https://finance.yahoo.com/m/940bc323-a292-386b-b16b-1a1aa0a1cd4e/indexes-wobble-near-flatline..html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Chip Stocks Sink, Pulling Indexes Lower",
-          "link": "https://finance.yahoo.com/m/e7233e45-9906-336f-8f6e-f4abe311db2e/chip-stocks-sink%2C-pulling.html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "widerspricht",
         "points": [
-          "Kurs -4.55% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -16.76%.",
-          "-13.05% unter SMA20 – technisch angeschlagen.",
+          "Kurs -4.8% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -16.98%.",
+          "-13.27% unter SMA20 – technisch angeschlagen.",
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die kürzlich veröffentlichten positiven Zahlen von Micron Technology, die jedoch durch den aktuellen Kursrückgang und negative Marktstimmung konterkariert werden. Die Nachrichtenlage deutet auf potenzielle Bedrohungen für den Speicherchip-Markt hin, was die Skepsis der Anleger verstärkt. Die Empfehlung, Micron zu beobachten, ist angesichts der gemischten Signale und der Unsicherheiten im Markt sinnvoll.",
+      "fazit": "Die Diskussion auf Reddit dreht sich hauptsächlich um die jüngsten Geschäftszahlen von Micron Technology, die von einigen als positiv wahrgenommen werden. Der Markt zeigt jedoch eine negative Tendenz, was auf Unsicherheiten hinweist, die möglicherweise durch Wettbewerbsdruck und makroökonomische Faktoren bedingt sind. Die Empfehlung, Micron zu beobachten, bleibt angesichts der gemischten Signale und der aktuellen Kursentwicklung sinnvoll.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicherlösungen, insbesondere DRAM und NAND-Flash-Speicher, die in einer Vielzahl von Anwendungen eingesetzt werden, von Mobilgeräten bis hin zu Rechenzentren. Die Hauptwettbewerber sind Unternehmen wie SK Hynix, Samsung und Kioxia, die ebenfalls in der Speicherchip-Branche tätig sind. Micron hat sich durch kontinuierliche Innovation und Investitionen in neue Technologien eine starke Marktposition erarbeitet, sieht sich jedoch einem intensiven Preis- und Innovationswettbewerb ausgesetzt.\n\nIn den kommenden 1-2 Jahren könnten mehrere Wachstumstreiber für Micron von Bedeutung sein. Dazu gehören die steigende Nachfrage nach Speicherlösungen aufgrund der fortschreitenden Digitalisierung, der Ausbau von Cloud-Diensten und die zunehmende Verbreitung von KI-Anwendungen, die eine höhere Speicherkapazität erfordern. Zudem könnte die Erholung der globalen Lieferketten und die Stabilisierung der Halbleitermärkte nach der COVID-19-Pandemie Micron zugutekommen, da die Produktionskapazitäten wieder hochgefahren werden.\n\nAllerdings gibt es auch zentrale Risiken, die die zukünftige Entwicklung von Micron beeinflussen könnten. Der Wettbewerb im Speicherchip-Markt ist extrem intensiv, was zu Preisdruck und Margenverringerungen führen kann. Zudem ist die Branche zyklisch, was bedeutet, dass die Nachfrage stark schwanken kann, abhängig von der allgemeinen wirtschaftlichen Lage. Makroökonomische Faktoren wie Inflation und geopolitische Spannungen könnten ebenfalls negative Auswirkungen auf die Geschäftsentwicklung haben.\n\nDie aktuelle Kursentwicklung von Micron, die einen Rückgang von 5,15% innerhalb von 24 Stunden und 16,76% im letzten Monat zeigt, steht im Widerspruch zu den positiven Unternehmenszahlen. Die Nachrichten über mögliche Bedrohungen im Speicherchip-Sektor und das allgemeine Marktumfeld scheinen die Anleger zu verunsichern. Die Reddit-Diskussion über die positiven Zahlen wird durch die negative Marktreaktion und die Unsicherheit bezüglich zukünftiger Entwicklungen relativiert.\n\nInsgesamt erscheint die Reddit-Stimmung über die positiven Unternehmenszahlen von Micron zwar nachvollziehbar, jedoch wird sie durch die aktuellen Marktbedingungen und die Unsicherheiten im Sektor gedämpft. Die These, dass Micron von der positiven Marktstimmung profitieren könnte, wird durch die aktuellen Herausforderungen und die Marktreaktion relativiert. **Die positiven Zahlen sind ein Lichtblick, aber die Unsicherheiten überwiegen derzeit.**",
+      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicherlösungen, insbesondere DRAM und NAND-Flash-Speicher, die in einer Vielzahl von Anwendungen von Smartphones bis hin zu Rechenzentren eingesetzt werden. Das Unternehmen steht in direkter Konkurrenz zu Firmen wie SK Hynix, Samsung und Western Digital, die ebenfalls bedeutende Marktanteile im Speichersektor halten. Micron hat sich durch kontinuierliche Innovation und Investitionen in neue Technologien eine starke Marktposition erarbeitet, doch der Wettbewerb bleibt intensiv und drückt auf die Margen.\n\nIn den kommenden 1-2 Jahren könnten mehrere Wachstumstreiber für Micron von Bedeutung sein. Dazu zählen die steigende Nachfrage nach Speicherlösungen im Zuge des Wachstums von Cloud-Computing, KI-Anwendungen und dem Internet der Dinge (IoT). Insbesondere die zunehmende Nutzung von KI-Technologien könnte die Nachfrage nach leistungsfähigen Speicherlösungen ankurbeln. Zudem könnte die Expansion in neue Märkte, wie die Chip- und Smartphone-Produktion in Indien, zusätzliche Chancen bieten, die Marktanteile zu erhöhen und die Produktionskapazitäten auszubauen.\n\nJedoch gibt es auch zentrale Risiken, die Micron zu beachten hat. Der Wettbewerb im Speichersektor ist stark und die Preisvolatilität kann die Gewinnmargen erheblich beeinflussen. Zudem ist die Branche zyklisch, was bedeutet, dass die Nachfrage nach Speicherprodukten stark schwanken kann, abhängig von den wirtschaftlichen Bedingungen. Makroökonomische Faktoren, wie Inflation und geopolitische Spannungen, könnten ebenfalls die Geschäftsentwicklung negativ beeinflussen. Die aktuelle Bewertung von Micron könnte in Anbetracht dieser Risiken als hoch angesehen werden, insbesondere wenn man die jüngsten Kursverluste betrachtet.\n\nDie aktuelle Kursentwicklung von Micron, die einen Rückgang von 5.4% innerhalb von 24 Stunden zeigt, steht im Widerspruch zu den positiven Geschäftszahlen, die auf Reddit diskutiert werden. Während die positiven Ergebnisse die Grundlage für eine optimistische Sichtweise bilden, scheinen die Marktteilnehmer besorgt über die Wettbewerbsbedingungen und die allgemeine Marktlage zu sein. Die Erwähnung von Trump könnte kurzfristig das Interesse an Micron steigern, doch die langfristigen Fundamentaldaten müssen stabil bleiben, um das Vertrauen der Investoren zu gewinnen.\n\nInsgesamt erscheint die Reddit-Stimmung, insbesondere die Diskussion über die positiven Geschäftszahlen, **durchaus gerechtfertigt**, jedoch ist die Skepsis des Marktes nicht unbegründet. Die Thesen über die positiven Zahlen und den Einfluss von Trump sind relevant, aber die Risiken und die Marktbedingungen sollten nicht außer Acht gelassen werden. Eine Beobachtung der Entwicklungen bleibt daher ratsam, um auf Veränderungen schnell reagieren zu können.",
       "gruende": [
-        "Positive Unternehmenszahlen wurden veröffentlicht.",
-        "Markt reagiert negativ auf allgemeine Bedrohungen im Speicherchip-Sektor.",
-        "Trump erwähnt Micron, was kurzfristig Aufmerksamkeit erzeugt."
+        "Positive Geschäftszahlen wurden veröffentlicht.",
+        "Trump erwähnt Micron in seinen Aussagen, was das Interesse an der Aktie steigert.",
+        "Wettbewerb mit SK Hynix und anderen Herstellern wird thematisiert."
       ],
       "momentum": 47,
       "momentum_label": "➡️ Diskussion stabil",
@@ -529,18 +541,10 @@
       "quality_pct": 40,
       "reddit_vs_markt": {
         "reddit": 47,
-        "markt": 31,
+        "markt": 30,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-15T09:51:28.458570+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 60,
-          "engagement": 12,
-          "price": 937.0
-        },
         {
           "ts": "2026-07-15T11:22:03.838840+00:00",
           "ticker": "MU",
@@ -580,6 +584,14 @@
           "confidence": 60,
           "engagement": 12,
           "price": 905.61
+        },
+        {
+          "ts": "2026-07-15T18:55:49.091475+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 60,
+          "engagement": 12,
+          "price": 903.28
         }
       ]
     },
@@ -588,11 +600,11 @@
       "name": "International Business Machines Corporation",
       "signal": "neutral",
       "empfehlung": "beobachten",
-      "confidence": 64,
-      "sentiment": 1,
-      "mentions": 4,
-      "mentions_delta": -1,
-      "engagement": 9,
+      "confidence": 67,
+      "sentiment": -1,
+      "mentions": 5,
+      "mentions_delta": 1,
+      "engagement": 12,
       "sources": [
         "wallstreetbets",
         "TrumpsTrades"
@@ -616,6 +628,10 @@
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwdn5y/orcl_vs_ibm/"
         },
         {
+          "title": "$840k full port MSFT YOLO",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1uvj64t/840k_full_port_msft_yolo/"
+        },
+        {
           "title": "IBM the next breakout?",
           "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uk3r0k/ibm_the_next_breakout/"
         }
@@ -632,8 +648,12 @@
           "titel": "Umsatzprognosen unter Druck",
           "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die negativen Auswirkungen der schwachen Umsatzprognosen auf den Aktienkurs.",
+          "erklaerung": "Die Community diskutiert die negativen Umsatzprognosen und deren Auswirkungen auf den Aktienkurs.",
           "links": [
+            {
+              "title": "IBM shares plunge 25% as customers shift spending to AI",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwo588/ibm_shares_plunge_25_as_customers_shift_spending/"
+            },
             {
               "title": "IBM expects second-quarter revenue below estimates. Results in SaaS sell-off",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1uw5tdf/ibm_expects_secondquarter_revenue_below_estimates/"
@@ -642,24 +662,15 @@
         },
         {
           "emoji": "🤖",
-          "titel": "Kundenverlagerung zu KI",
+          "titel": "Wettbewerb im KI-Sektor",
           "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Die Verschiebung der Ausgaben der Kunden zu KI wird als Bedrohung für IBMs traditionelles Geschäftsmodell wahrgenommen.",
+          "beitraege": 2,
+          "erklaerung": "Es wird erörtert, wie IBM im Vergleich zu anderen Unternehmen, insbesondere Oracle, im Bereich KI abschneidet.",
           "links": [
             {
               "title": "IBM shares plunge 25% as customers shift spending to AI",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwo588/ibm_shares_plunge_25_as_customers_shift_spending/"
-            }
-          ]
-        },
-        {
-          "emoji": "📊",
-          "titel": "Vergleich mit Oracle",
-          "anteil_pct": 20,
-          "beitraege": 1,
-          "erklaerung": "Der Vergleich mit Oracle zeigt, wie IBM im Wettbewerb um Marktanteile im Softwarebereich das Nachsehen hat.",
-          "links": [
+            },
             {
               "title": "ORCL vs IBM",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwdn5y/orcl_vs_ibm/"
@@ -668,14 +679,27 @@
         },
         {
           "emoji": "🚀",
-          "titel": "Potenzial für Chart-Ausbruch",
-          "anteil_pct": 10,
+          "titel": "Potenzial für Kursgewinne",
+          "anteil_pct": 20,
           "beitraege": 1,
-          "erklaerung": "Einige Anleger sehen trotz der aktuellen Schwierigkeiten Potenzial für einen Chart-Ausbruch.",
+          "erklaerung": "Einige Reddit-Nutzer sehen in der aktuellen Situation eine Kaufgelegenheit für langfristige Investoren.",
           "links": [
             {
               "title": "IBM the next breakout?",
               "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uk3r0k/ibm_the_next_breakout/"
+            }
+          ]
+        },
+        {
+          "emoji": "💸",
+          "titel": "Mitarbeiterverluste und Marktreaktion",
+          "anteil_pct": 10,
+          "beitraege": 1,
+          "erklaerung": "Die Diskussion über die finanziellen Verluste von IBM-Mitarbeitern spiegelt die allgemeine Besorgnis über die Unternehmensperformance wider.",
+          "links": [
+            {
+              "title": "IBM expects second-quarter revenue below estimates. Results in SaaS sell-off",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1uw5tdf/ibm_expects_secondquarter_revenue_below_estimates/"
             }
           ]
         }
@@ -684,10 +708,12 @@
         "Überverkauft-These",
         "Chart-Ausbruch"
       ],
-      "bear_case": [],
+      "bear_case": [
+        "Short-Positionierung"
+      ],
       "price": {
         "available": true,
-        "price": 213.38,
+        "price": 212.3,
         "currency": "USD",
         "name": "International Business Machines Corporation",
         "chart_1d": [
@@ -769,11 +795,19 @@
           },
           {
             "t": 1784139300,
-            "c": 213.32
+            "c": 213.79
           },
           {
-            "t": 1784139398,
-            "c": 213.38
+            "t": 1784140200,
+            "c": 212.26
+          },
+          {
+            "t": 1784141100,
+            "c": 212.3
+          },
+          {
+            "t": 1784141801,
+            "c": 212.3
           }
         ],
         "chart_5d": [
@@ -907,11 +941,15 @@
           },
           {
             "t": 1784136600,
-            "c": 213.32
+            "c": 213.79
           },
           {
-            "t": 1784139403,
-            "c": 213.38
+            "t": 1784140200,
+            "c": 212.3
+          },
+          {
+            "t": 1784141802,
+            "c": 212.28
           }
         ],
         "chart_1mo": [
@@ -997,15 +1035,27 @@
           },
           {
             "t": 1784122200,
-            "c": 213.38
+            "c": 212.3
           }
         ],
-        "chg_1d": -3.53,
-        "chg_7d": -29.36,
-        "chg_1mo": -20.59,
-        "sma20_dist": -21.53
+        "chg_1d": -4.01,
+        "chg_7d": -29.71,
+        "chg_1mo": -20.99,
+        "sma20_dist": -21.91
       },
       "news": [
+        {
+          "title": "Should You Buy the Dip After IBM's Historic Crash?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-ibms-historic-crash-184659487.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "IBM employees losing $400 million on the company’s stock should be a wake-up call",
+          "link": "https://www.marketwatch.com/story/ibm-workers-pay-a-400-million-price-for-investing-in-company-stock-fb02f5fa?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
         {
           "title": "Is This Why Memory Stocks Are Plunging?",
           "link": "https://finance.yahoo.com/m/8ee5b847-f107-3228-a9e2-816b0ac8b85a/is-this-why-memory-stocks-are.html?.tsrc=rss",
@@ -1023,37 +1073,26 @@
           "link": "https://www.proactiveinvestors.com/companies/news/1095511/ibm-q2-preview-miss-prompts-analysts-to-cut-estimates-on-softer-demand-1095511.html?.tsrc=rss",
           "date": "Wed, 15 Jul 2026",
           "tone": "neg"
-        },
-        {
-          "title": "Micron, PayPal, IBM, SpaceX, BlackRock, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/7f6124a8-3d38-32d3-beb1-d4745f652359/micron%2C-paypal%2C-ibm%2C-spacex%2C.html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "IBM employees watch $400 million vanish as stock hits worst day — a reminder about holding too much company stock",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-employees-watch-400-million-162722699.html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs -29.36% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -20.59%.",
-          "-21.53% unter SMA20 – technisch angeschlagen.",
+          "Kurs -29.71% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -20.99%.",
+          "-21.91% unter SMA20 – technisch angeschlagen.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit über IBM konzentriert sich auf die aktuellen Herausforderungen des Unternehmens, insbesondere im Bereich KI und SaaS. Die Markt- und Nachrichtenlage untermauert diese Bedenken, da die Prognosen für das zweite Quartal enttäuschend sind und die Aktienkurse stark gefallen sind. Die Empfehlung, IBM zu beobachten, ist sinnvoll, da die Situation volatil ist und sich schnell ändern kann.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die jüngsten Kursverluste von IBM und die Auswirkungen auf die Unternehmensstrategie, insbesondere im Hinblick auf den Wettbewerb mit anderen Tech-Firmen. Die Markt- und Nachrichtenlage zeigt, dass die Unsicherheit über die zukünftigen Umsätze und die Positionierung im SaaS-Markt die Stimmung belastet. Die Empfehlung, IBM zu beobachten, ist sinnvoll, da die aktuelle Volatilität sowohl Chancen als auch Risiken birgt.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "IBM ist ein multinationales Technologieunternehmen, das sich auf Cloud-Computing, KI und Unternehmenssoftware spezialisiert hat. Die Wettbewerbslandschaft ist stark, mit Konkurrenten wie Microsoft, Oracle und Amazon, die alle aggressive Wachstumsstrategien verfolgen. **Die Kundenverlagerung hin zu KI-Technologien stellt eine ernsthafte Herausforderung für IBMs traditionelles Geschäftsmodell dar**, da viele Unternehmen ihre Investitionen in innovative Technologien wie KI und Cloud-Services erhöhen, während sie die Ausgaben für etablierte Softwarelösungen reduzieren.\n\nIn den nächsten 1-2 Jahren könnte IBM von der steigenden Nachfrage nach Cloud-Diensten und KI profitieren, wenn es gelingt, seine Produkte und Dienstleistungen entsprechend anzupassen. **Die Integration von KI in bestehende Lösungen könnte IBM helfen, sich als führender Anbieter in diesem Bereich zu positionieren**. Zudem könnte eine verstärkte Fokussierung auf SaaS-Angebote und hybride Cloud-Lösungen das Wachstum ankurbeln, insbesondere wenn die Marktbedingungen sich stabilisieren und die Kunden wieder Vertrauen in die Investitionen in Technologie gewinnen.\n\nDennoch gibt es zentrale Risiken, die IBM im Auge behalten muss. **Der Wettbewerb im Technologiebereich ist intensiv**, und Unternehmen wie Microsoft und Amazon haben erhebliche Marktanteile im Cloud-Segment. Zudem könnte eine allgemeine wirtschaftliche Abkühlung die Nachfrage nach IT-Dienstleistungen beeinträchtigen, was sich negativ auf die Umsätze auswirken würde. **Die aktuellen Bewertungen könnten ebenfalls überhöht sein**, insbesondere wenn die Wachstumsprognosen nicht erfüllt werden.\n\nDie aktuelle Kurslage und die Nachrichtenlage sind alarmierend. Der Kurs von 213,38 USD zeigt einen signifikanten Rückgang von 29,36% in den letzten sieben Tagen, was auf eine klare Marktreaktion auf die enttäuschenden Umsatzprognosen hinweist. **Die Reddit-Diskussion über die Umsatzprognosen und die Verlagerung zu KI ist fundamental gerechtfertigt**, da diese Faktoren die zukünftige Rentabilität von IBM erheblich beeinflussen könnten. Die These, dass IBM möglicherweise überverkauft ist und einen Chart-Ausbruch erleben könnte, könnte in einem stabileren Marktumfeld zutreffen, jedoch ist die gegenwärtige Unsicherheit zu groß, um dies als gesichert anzusehen.",
+      "analyse": "IBM ist ein multinationales Technologieunternehmen, das sich auf Cloud-Computing, KI und Unternehmenssoftware spezialisiert hat. **Die Wettbewerbslandschaft wird durch Unternehmen wie Oracle, Microsoft und Amazon Web Services geprägt**, die in den letzten Jahren stark gewachsen sind und IBM unter Druck setzen. Die Marktposition von IBM wird durch die Notwendigkeit, sich an die sich schnell verändernden Technologietrends anzupassen, herausgefordert. \n\nIn den nächsten 1-2 Jahren könnte IBM von der zunehmenden Nachfrage nach KI und Cloud-Diensten profitieren. **Die Fokussierung auf hybride Cloud-Lösungen und KI-gestützte Dienstleistungen** könnte als Wachstumstreiber fungieren, insbesondere wenn IBM in der Lage ist, seine Produkte und Dienstleistungen entsprechend den Marktbedürfnissen weiterzuentwickeln. Die Investitionen in Forschung und Entwicklung sind entscheidend, um im Wettbewerb mit anderen Tech-Giganten nicht zurückzufallen. \n\nDennoch gibt es zentrale Risiken, die das Unternehmen belasten. **Die starke Konkurrenz im Cloud- und KI-Sektor** könnte die Margen unter Druck setzen, während die zyklische Natur der Technologiebranche zu Umsatzschwankungen führen kann. Auch die Bewertung von IBM wird kritisch betrachtet, insbesondere nach den jüngsten Kursverlusten. **Die Unsicherheit über die zukünftige Umsatzentwicklung** verstärkt die Nervosität unter den Investoren. \n\nDie aktuelle Nachrichtenlage zeigt, dass IBM mit einem deutlichen Rückgang des Aktienkurses konfrontiert ist, was durch enttäuschende Umsatzprognosen und den Wettbewerb im KI-Bereich verstärkt wird. **Die Reddit-Diskussion über die Überverkauftheit der Aktie** könnte für einige Investoren ein Hinweis auf mögliche Kaufgelegenheiten sein, jedoch bleibt die Unsicherheit über die zukünftige Entwicklung bestehen. \n\nInsgesamt erscheint die Reddit-Stimmung teilweise gerechtfertigt, insbesondere in Bezug auf die **Umsatzprognosen unter Druck** und die **Wettbewerbsproblematik im KI-Sektor**. Die Diskussion über mögliche Kursgewinne ist jedoch mit Vorsicht zu genießen, da die fundamentalen Herausforderungen, mit denen IBM konfrontiert ist, nicht ignoriert werden können.",
       "gruende": [
-        "Kundenverlagerung hin zu KI-Technologien",
-        "Enttäuschende Umsatzprognosen für das zweite Quartal",
-        "Vergleich mit Wettbewerbern wie Oracle",
-        "Möglichkeit eines Chart-Ausbruchs trotz Überverkaufs"
+        "Kunden verlagern Ausgaben auf KI-Technologien.",
+        "Enttäuschende Umsatzprognosen für das zweite Quartal.",
+        "Vergleich mit Wettbewerbern wie Oracle.",
+        "Diskussion über potenzielle Kursgewinne bei IBM.",
+        "Mitarbeiterverluste durch den Kursverfall."
       ],
       "momentum": 79,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
@@ -1086,14 +1125,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-15T09:51:28.458570+00:00",
-          "ticker": "IBM",
-          "rec": "beobachten",
-          "confidence": 70,
-          "engagement": 13,
-          "price": 290.23
-        },
         {
           "ts": "2026-07-15T11:22:03.838840+00:00",
           "ticker": "IBM",
@@ -1133,6 +1164,14 @@
           "confidence": 64,
           "engagement": 9,
           "price": 213.38
+        },
+        {
+          "ts": "2026-07-15T18:55:49.091475+00:00",
+          "ticker": "IBM",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 12,
+          "price": 212.3
         }
       ]
     },
@@ -1180,7 +1219,7 @@
           "titel": "NATO-Verteidigungsdeals im Fokus",
           "anteil_pct": 50,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die Auswirkungen der NATO-Verteidigungsdeals auf Lockheed Martins Auftragslage.",
+          "erklaerung": "Die Community diskutiert die möglichen Auswirkungen von NATO-Verteidigungsdeals auf Lockheed Martins Auftragslage.",
           "links": [
             {
               "title": "Trump mentioned NOC, BA, RTX, LMT at the NATO Summit",
@@ -1194,10 +1233,10 @@
         },
         {
           "emoji": "📉",
-          "titel": "Kursentwicklung und Marktstimmung",
+          "titel": "Kursrückgang und Marktunsicherheit",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Es gibt Bedenken über die negative Kursentwicklung und die unter den Erwartungen liegenden Unternehmenszahlen.",
+          "erklaerung": "Die Nutzer äußern Bedenken über den Kursrückgang und die allgemeine Marktstimmung.",
           "links": [
             {
               "title": "Trump says GM and Ford to begin producing Patriot and Tomahawk missiles",
@@ -1207,10 +1246,10 @@
         },
         {
           "emoji": "🤔",
-          "titel": "Trump und Verteidigungsindustrie",
+          "titel": "Trump und Rüstungsindustrie",
           "anteil_pct": 20,
           "beitraege": 1,
-          "erklaerung": "Die Diskussion dreht sich um Trumps Einfluss auf die Verteidigungsindustrie und die damit verbundenen Unternehmen.",
+          "erklaerung": "Diskussion über Trumps Einfluss auf die Rüstungsindustrie und die Erwähnung von LMT.",
           "links": [
             {
               "title": "Trump mentioned NOC, BA, RTX, LMT at the NATO Summit",
@@ -1225,7 +1264,7 @@
       ],
       "price": {
         "available": true,
-        "price": 514.91,
+        "price": 514.18,
         "currency": "USD",
         "name": "Lockheed Martin Corporation",
         "chart_1d": [
@@ -1303,11 +1342,23 @@
           },
           {
             "t": 1784138400,
-            "c": 514.61
+            "c": 514.58
           },
           {
-            "t": 1784139399,
-            "c": 514.91
+            "t": 1784139300,
+            "c": 514.39
+          },
+          {
+            "t": 1784140200,
+            "c": 514.64
+          },
+          {
+            "t": 1784141100,
+            "c": 514.35
+          },
+          {
+            "t": 1784141800,
+            "c": 514.18
           }
         ],
         "chart_5d": [
@@ -1441,11 +1492,15 @@
           },
           {
             "t": 1784136600,
-            "c": 514.61
+            "c": 514.39
           },
           {
-            "t": 1784139399,
-            "c": 514.91
+            "t": 1784140200,
+            "c": 514.35
+          },
+          {
+            "t": 1784141800,
+            "c": 514.18
           }
         ],
         "chart_1mo": [
@@ -1531,13 +1586,13 @@
           },
           {
             "t": 1784122200,
-            "c": 514.91
+            "c": 514.18
           }
         ],
-        "chg_1d": -0.87,
-        "chg_7d": -2.47,
-        "chg_1mo": -2.91,
-        "sma20_dist": -0.53
+        "chg_1d": -1.01,
+        "chg_7d": -2.61,
+        "chg_1mo": -3.05,
+        "sma20_dist": -0.67
       },
       "news": [
         {
@@ -1574,17 +1629,17 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-2.47%).",
+          "Kurs seitwärts über 7 Tage (-2.61%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Reddit-Diskussion um Lockheed Martin dreht sich vor allem um geopolitische Entwicklungen und mögliche Aufträge im Verteidigungssektor. Markt- und Nachrichtenlage zeigen gemischte Signale, wobei die allgemeine Stimmung eher negativ ist. Die Empfehlung lautet, die Entwicklung zu beobachten, da die aktuelle Kursbewegung und die Reddit-Stimmung nicht eindeutig positiv sind.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die geopolitischen Entwicklungen und deren Einfluss auf Lockheed Martin, insbesondere im Kontext von NATO-Verteidigungsdeals. Die Markt- und Nachrichtenlage zeigt eine gewisse Unsicherheit, da der Kurs in den letzten Wochen gefallen ist und die Analysten keine klaren Kaufempfehlungen aussprechen. Die Empfehlung lautet, die Entwicklungen zu beobachten, da die aktuelle Stimmung auf Reddit nicht unbedingt die fundamentalen Daten stützt.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Lockheed Martin Corporation ist ein führendes Unternehmen im Bereich der Verteidigungs- und Luftfahrttechnik, das sich durch seine umfangreiche Produktpalette und starke Marktposition auszeichnet. Die Hauptkonkurrenten sind Northrop Grumman, Boeing und Raytheon Technologies, die ebenfalls bedeutende Aufträge im Verteidigungssektor akquirieren. Lockheed Martin profitiert von stabilen Regierungsaufträgen, insbesondere im Bereich der Rüstungs- und Verteidigungssysteme, was das Unternehmen zu einem unverzichtbaren Akteur in der Branche macht.\n\nIn den nächsten ein bis zwei Jahren könnten mehrere Wachstumstreiber für Lockheed Martin von Bedeutung sein. Die geopolitischen Spannungen und die damit verbundenen Verteidigungsausgaben der NATO-Staaten, insbesondere nach den jüngsten Ankündigungen von Trump, könnten zu einem Anstieg der Aufträge führen. Die Diskussion über die Erweiterung der Verteidigungsbudgets in der NATO sowie die potenziellen neuen Aufträge im Bereich der Raketenabwehr und der Luftfahrttechnik stellen Chancen dar, die das Umsatzwachstum des Unternehmens ankurbeln könnten.\n\nDennoch bestehen auch zentrale Risiken, die Lockheed Martin betreffen. Der Wettbewerb im Verteidigungssektor ist intensiv, und Unternehmen wie Northrop Grumman und Boeing könnten Marktanteile gewinnen. Zudem ist die Branche zyklisch und stark von staatlichen Aufträgen abhängig, was bei politischen Veränderungen zu Unsicherheiten führen kann. Die aktuelle Bewertung des Unternehmens könnte ebenfalls überhöht sein, insbesondere wenn die Unternehmenszahlen hinter den Erwartungen zurückbleiben.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass Lockheed Martin unter Druck steht. Der Kurs ist in den letzten Wochen gefallen, und die Reddit-Stimmung ist überwiegend negativ, was durch die unter den Erwartungen liegenden Zahlen verstärkt wird. Während die Ankündigungen über NATO-Verteidigungsdeals potenziell positiv sind, bleibt die Unsicherheit über die tatsächlichen Aufträge und deren Auswirkungen auf die Unternehmensperformance bestehen. Die Reddit-These über die Bedeutung der NATO-Deals könnte zwar zutreffen, jedoch ist die Marktreaktion bislang eher skeptisch.\n\nInsgesamt erscheint die Reddit-Stimmung als nicht vollständig gerechtfertigt, da die geopolitischen Entwicklungen zwar Chancen bieten, die aktuelle finanzielle Lage und die Kursentwicklung jedoch auf ernsthafte Bedenken hinweisen. Die Diskussion über die NATO-Deals ist wichtig, doch die negativen Kursbewegungen und die unterdurchschnittlichen Unternehmenszahlen deuten darauf hin, dass Investoren vorsichtig bleiben sollten. Die Empfehlung, Lockheed Martin zu beobachten, ist daher angebracht, um die weitere Entwicklung abzuwarten.",
+      "analyse": "Lockheed Martin Corporation (LMT) ist ein führendes Unternehmen im Bereich Verteidigung und Luft- und Raumfahrt, das sich auf die Entwicklung und Produktion von Militärflugzeugen, Raketen und anderen Verteidigungssystemen spezialisiert hat. **Die Hauptkonkurrenten sind Northrop Grumman, Boeing und Raytheon Technologies**, die ebenfalls große Anteile am Verteidigungsmarkt haben. LMT profitiert von stabilen Regierungsaufträgen und einer starken Marktposition, die durch technologische Innovationen und strategische Partnerschaften gestärkt wird.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für LMT von Bedeutung sein. **Die geopolitischen Spannungen und die verstärkten Verteidigungsausgaben der NATO-Staaten** könnten zu einem Anstieg der Aufträge führen, insbesondere im Kontext der kürzlich angekündigten Verteidigungsdeals, die LMT in den Fokus rücken. Zudem könnten neue Technologien, wie unbemannte Systeme und Cyberabwehrlösungen, zusätzliche Umsatzpotenziale eröffnen.\n\nAllerdings gibt es auch zentrale Risiken, die das Unternehmen betreffen können. **Der Wettbewerb im Verteidigungssektor ist intensiv**, und Unternehmen müssen kontinuierlich in Forschung und Entwicklung investieren, um wettbewerbsfähig zu bleiben. Zudem könnte eine zyklische Nachfrage nach Verteidigungsgütern in Zeiten politischer Stabilität die Umsätze belasten. **Die Bewertung von LMT könnte ebenfalls unter Druck geraten**, insbesondere wenn die Marktteilnehmer eine Korrektur der Unternehmensgewinne erwarten.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass der Aktienkurs von LMT in den letzten Wochen gefallen ist, was auf eine gewisse Unsicherheit im Markt hinweist. Die Reddit-Diskussionen über die geopolitischen Entwicklungen und die Erwähnung von LMT durch Trump deuten darauf hin, dass es ein gewisses Interesse an dem Unternehmen gibt, jedoch ist die negative Stimmung auch nicht zu ignorieren. **Die Reddit-Stimmung könnte fundamental gerechtfertigt sein**, da die Diskussion um NATO-Verteidigungsdeals sowohl Chancen als auch Risiken für LMT birgt. Während die geopolitischen Entwicklungen potenziell positiv für die Auftragslage sind, könnte der aktuelle Kursrückgang auf eine übergeordnete Marktunsicherheit hinweisen, die Anleger vorsichtig stimmen sollte.",
       "gruende": [
-        "Erwähnung von Lockheed Martin durch Trump im Kontext von NATO-Verteidigungsdeals.",
-        "Ankündigung großer Verteidigungsaufträge, die das Interesse an LMT steigern könnten.",
-        "Negative Kursentwicklung und unter den Erwartungen liegende Zahlen, die Bedenken hervorrufen."
+        "Geopolitische Erwähnungen von Trump könnten das Interesse an Rüstungsunternehmen steigern.",
+        "Ankündigungen von NATO-Verteidigungsdeals könnten potenziell neue Aufträge für LMT bringen.",
+        "Negative Marktbewegungen deuten auf eine allgemeine Unsicherheit hin."
       ],
       "momentum": 45,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1613,18 +1668,10 @@
       "quality_pct": 14,
       "reddit_vs_markt": {
         "reddit": 45,
-        "markt": 40,
+        "markt": 39,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-15T09:51:28.458570+00:00",
-          "ticker": "LMT",
-          "rec": "verkaufen",
-          "confidence": 78,
-          "engagement": 7,
-          "price": 520.68
-        },
         {
           "ts": "2026-07-15T11:22:03.838840+00:00",
           "ticker": "LMT",
@@ -1664,6 +1711,14 @@
           "confidence": 64,
           "engagement": 7,
           "price": 514.91
+        },
+        {
+          "ts": "2026-07-15T18:55:49.091475+00:00",
+          "ticker": "LMT",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 514.18
         }
       ]
     },
@@ -1709,10 +1764,10 @@
       "themen": [
         {
           "emoji": "📉",
-          "titel": "Verlustrealisation vor Earnings",
+          "titel": "Verluste vor Quartalszahlen",
           "anteil_pct": 40,
           "beitraege": 1,
-          "erklaerung": "Einige Reddit-Nutzer diskutieren, ob es besser ist, vor den Quartalszahlen zu verkaufen, um Verluste zu minimieren.",
+          "erklaerung": "Die Community diskutiert, ob es sinnvoll ist, vor den Quartalszahlen zu verkaufen und Verluste zu realisieren.",
           "links": [
             {
               "title": "Sell & book loss before NFLX earnings?",
@@ -1721,16 +1776,25 @@
           ]
         },
         {
-          "emoji": "📈",
-          "titel": "Potenzial für Kursrallye",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Es gibt Meinungen, dass die bevorstehenden Quartalszahlen zu einem Anstieg des Aktienkurses führen könnten.",
+          "emoji": "🎉",
+          "titel": "Kostenlose Testphasen zurück?",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Es wird spekuliert, dass die Rückkehr zu kostenlosen Testphasen das Abonnentenwachstum fördern könnte.",
           "links": [
             {
               "title": "NFLX & Chill 😎",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwhfn9/nflx_chill/"
-            },
+            }
+          ]
+        },
+        {
+          "emoji": "📊",
+          "titel": "Bewertung der Wachstumsaussichten",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über die zukünftigen finanziellen Aussichten von Netflix und die Auswirkungen von Marktveränderungen.",
+          "links": [
             {
               "title": "Trumps 2025 Annual Financial Disclosure Report",
               "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uk2h8w/trumps_2025_annual_financial_disclosure_report/"
@@ -1744,7 +1808,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 73.97,
+        "price": 73.81,
         "currency": "USD",
         "name": "Netflix, Inc.",
         "chart_1d": [
@@ -1826,11 +1890,19 @@
           },
           {
             "t": 1784139300,
-            "c": 73.98
+            "c": 73.86
           },
           {
-            "t": 1784139432,
-            "c": 73.97
+            "t": 1784140200,
+            "c": 73.94
+          },
+          {
+            "t": 1784141100,
+            "c": 73.81
+          },
+          {
+            "t": 1784141841,
+            "c": 73.81
           }
         ],
         "chart_5d": [
@@ -1964,11 +2036,15 @@
           },
           {
             "t": 1784136600,
-            "c": 73.98
+            "c": 73.86
           },
           {
-            "t": 1784139432,
-            "c": 73.97
+            "t": 1784140200,
+            "c": 73.81
+          },
+          {
+            "t": 1784141841,
+            "c": 73.81
           }
         ],
         "chart_1mo": [
@@ -2054,15 +2130,21 @@
           },
           {
             "t": 1784122200,
-            "c": 73.97
+            "c": 73.81
           }
         ],
-        "chg_1d": 0.49,
-        "chg_7d": -2.14,
-        "chg_1mo": -9.43,
-        "sma20_dist": -0.73
+        "chg_1d": 0.27,
+        "chg_7d": -2.35,
+        "chg_1mo": -9.62,
+        "sma20_dist": -0.93
       },
       "news": [
+        {
+          "title": "Netflix is quietly testing free trials again — 6 years after killing them off",
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-quietly-testing-free-trials-184500515.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
         {
           "title": "Prediction: Netflix Could Hit a New High With 268% Upside. Tomorrow’s Earnings Could Spark The Rally",
           "link": "https://247wallst.com/investing/2026/07/15/prediction-netflix-could-hit-a-new-high-with-268-upside-tomorrows-earnings-could-spark-the-rally/?.tsrc=rss",
@@ -2086,29 +2168,23 @@
           "link": "https://www.fool.com/investing/2026/07/15/1-incredible-reason-to-buy-netflix-stock-before-it/?.tsrc=rss",
           "date": "Wed, 15 Jul 2026",
           "tone": "neu"
-        },
-        {
-          "title": "What Alphabet Stock's Calm Price Doesn't Tell You About Its Potential Swing",
-          "link": "https://www.trefis.com/articles/607287/what-alphabet-stocks-calm-price-doesnt-tell-you-about-its-potential-swing/2026-07-15?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-2.14%).",
-          "Schwacher Monat: -9.43%.",
+          "Kurs seitwärts über 7 Tage (-2.35%).",
+          "Schwacher Monat: -9.62%.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die Unsicherheit vor den bevorstehenden Quartalszahlen von Netflix, wobei einige Anleger einen Verlust realisieren möchten. Die Markt- und Nachrichtenlage zeigt gemischte Signale: Während einige Experten ein hohes Potenzial sehen, wird Netflix auch als riskante Investition eingestuft. Die Empfehlung, die Aktie zu beobachten, ist angesichts der Unsicherheiten und der aktuellen Kursentwicklung angebracht.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die bevorstehenden Quartalszahlen von Netflix und die Unsicherheit über die zukünftige Entwicklung. Die aktuellen Marktbewegungen und Nachrichten, insbesondere die Wiederaufnahme von kostenlosen Testphasen, könnten die Stimmung stützen. Die Empfehlung, die Aktie zu beobachten, ist sinnvoll, da die Unsicherheiten und die gemischte Marktreaktion eine klare Kauf- oder Verkaufsempfehlung momentan nicht rechtfertigen.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Netflix, Inc. ist ein führendes Unternehmen im Bereich Streaming-Dienste und hat sich als einer der Hauptakteure in einem stark umkämpften Markt etabliert, in dem es mit Konkurrenten wie Disney+, Amazon Prime Video und Hulu konfrontiert ist. Das Geschäftsmodell basiert auf einem Abonnementdienst, der eine breite Palette von Inhalten, einschließlich Originalproduktionen, bietet. Netflix hat in den letzten Jahren seine Marktposition durch kontinuierliche Investitionen in hochwertige Inhalte und internationale Expansion gestärkt.\n\nIn den kommenden 1-2 Jahren könnten mehrere Wachstumstreiber für Netflix von Bedeutung sein. Dazu gehören die Erweiterung des Abonnentenstamms in internationalen Märkten, insbesondere in Regionen mit wachsendem Internetzugang und Smartphone-Nutzung. Zudem könnte die Einführung neuer Preisstrukturen oder Werbeformate, wie das werbefinanzierte Modell, zusätzliche Einnahmequellen erschließen. **Die bevorstehenden Quartalszahlen könnten entscheidend sein, um das Vertrauen der Anleger zurückzugewinnen und die Wachstumsstory zu untermauern.**\n\nAllerdings gibt es auch zentrale Risiken, die die zukünftige Entwicklung von Netflix beeinflussen könnten. Der Wettbewerb im Streaming-Sektor ist intensiv und nimmt weiter zu, was zu Preisdruck und einem möglichen Verlust von Marktanteilen führen kann. Zudem ist die Bewertung von Netflix im Vergleich zu den Erträgen hoch, was bei schwachen Ergebnissen zu einem signifikanten Kursrückgang führen könnte. **Makroökonomische Faktoren, wie Inflation und wirtschaftliche Unsicherheiten, könnten ebenfalls die Konsumausgaben der Verbraucher beeinflussen.**\n\nDie aktuelle Kursentwicklung von 73,97 USD spiegelt eine gewisse Unsicherheit wider, insbesondere angesichts der negativen Kursentwicklung über die letzten Wochen. Die Reddit-Diskussion zeigt, dass Anleger sowohl Bedenken als auch Hoffnungen hegen, was die bevorstehenden Quartalszahlen betrifft. **Die Thesen auf Reddit sind teilweise gerechtfertigt: Die Diskussion über Verlustrealisation vor den Earnings ist verständlich, während die Hoffnung auf eine Kursrallye bei positiven Ergebnissen realistisch erscheint.**\n\nInsgesamt ist die Empfehlung, die Aktie zu beobachten, angesichts der gemischten Nachrichtenlage und der bevorstehenden Ereignisse sinnvoll. Anleger sollten sich der Risiken bewusst sein, während sie die potenziellen Chancen im Auge behalten, die Netflix bieten könnte, insbesondere wenn die Quartalszahlen positive Überraschungen liefern.",
+      "analyse": "Netflix, Inc. ist ein führender Anbieter von Streaming-Diensten, der sich in einem hart umkämpften Markt mit Konkurrenten wie Disney+, Amazon Prime Video und Hulu behaupten muss. Das Geschäftsmodell basiert auf einem Abonnementansatz, der es den Nutzern ermöglicht, eine Vielzahl von Inhalten ohne Werbung zu konsumieren. Netflix hat sich durch eigene Produktionen und exklusive Inhalte eine starke Marktposition erarbeitet, sieht sich jedoch zunehmend dem Druck durch neue und bestehende Wettbewerber ausgesetzt, die ebenfalls in Originalinhalte investieren und aggressive Preispolitiken verfolgen.\n\nDie Wachstumstreiber für Netflix in den nächsten 1-2 Jahren könnten die Wiederaufnahme kostenloser Testphasen und die Expansion in neue Märkte sein. Die Rückkehr zu kostenlosen Testangeboten könnte dazu führen, dass mehr Nutzer die Plattform ausprobieren und sich langfristig für ein Abonnement entscheiden. Zudem könnte Netflix von der steigenden Nachfrage nach Streaming-Inhalten profitieren, insbesondere in Zeiten, in denen traditionelle Fernsehanbieter Schwierigkeiten haben, ihre Zuschauer zu halten. Die Möglichkeit, neue Inhalte und Formate anzubieten, wird ebenfalls als entscheidend für das Wachstum angesehen.\n\nDennoch gibt es zentrale Risiken, die Netflix im Auge behalten muss. Der Wettbewerb im Streaming-Sektor wird immer intensiver, was zu Preisdruck und potenziellen Abwanderungen von Abonnenten führen kann. Darüber hinaus ist die Branche zyklisch und kann von wirtschaftlichen Abschwüngen betroffen sein, was sich negativ auf die Abonnentenzahlen auswirken könnte. Die Bewertung von Netflix ist ebenfalls ein Thema, da die Aktie in der Vergangenheit hohe Multiplikatoren aufwies, die bei schwachen finanziellen Ergebnissen nicht gerechtfertigt sein könnten. Makroökonomische Faktoren wie Inflation und Zinsänderungen könnten ebenfalls die Kaufkraft der Verbraucher beeinflussen.\n\nAktuell zeigt sich der Kurs von Netflix mit einem leichten Anstieg von 0,27 % innerhalb von 24 Stunden, jedoch mit einem Rückgang von 9,62 % im letzten Monat. Die Diskussion auf Reddit über den Verkauf vor den Quartalszahlen spiegelt die Unsicherheit wider, die viele Investoren empfinden. Die Nachricht über die Wiederaufnahme kostenloser Testphasen könnte jedoch als positiver Indikator gedeutet werden, der das Interesse an der Plattform wiederbeleben könnte. Die Prognose eines möglichen Anstiegs um 268 % ist zwar optimistisch, sollte jedoch mit Vorsicht betrachtet werden.\n\nInsgesamt erscheint die Reddit-Stimmung in Bezug auf die bevorstehenden Quartalszahlen und die Diskussion über mögliche Verluste als **nachvollziehbar**, insbesondere angesichts der Unsicherheiten im Markt. Die These, dass die Rückkehr zu kostenlosen Testphasen das Abonnentenwachstum fördern könnte, ist plausibel und könnte sich positiv auf die zukünftige Entwicklung von Netflix auswirken. Dennoch bleibt abzuwarten, wie die Quartalszahlen ausfallen und welche Auswirkungen sie auf die Aktie haben werden.",
       "gruende": [
-        "Unsicherheit vor den Quartalszahlen",
-        "Diskussion über potenzielle Kursgewinne",
-        "Bewertung im Kontext der Konkurrenz"
+        "Bevorstehende Quartalszahlen und deren potenzielle Auswirkungen.",
+        "Wiederaufnahme kostenloser Testphasen könnte neue Abonnenten anziehen.",
+        "Allgemeine Marktvolatilität und Unsicherheit über die langfristige Wachstumsstrategie."
       ],
       "momentum": 47,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2137,18 +2213,10 @@
       "quality_pct": 17,
       "reddit_vs_markt": {
         "reddit": 47,
-        "markt": 41,
+        "markt": 40,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-15T09:51:28.458570+00:00",
-          "ticker": "NFLX",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 73.83
-        },
         {
           "ts": "2026-07-15T11:22:03.838840+00:00",
           "ticker": "NFLX",
@@ -2188,6 +2256,14 @@
           "confidence": 61,
           "engagement": 6,
           "price": 73.97
+        },
+        {
+          "ts": "2026-07-15T18:55:49.091475+00:00",
+          "ticker": "NFLX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 6,
+          "price": 73.81
         }
       ]
     },
@@ -2231,10 +2307,10 @@
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Earnings-Kalender Analyse",
+          "titel": "Earnings-Impuls",
           "anteil_pct": 100,
           "beitraege": 3,
-          "erklaerung": "Die Community diskutiert die potenziellen Auswirkungen der bevorstehenden Unternehmensberichte auf den Kurs von KRIBZ.",
+          "erklaerung": "Die Community diskutiert die möglichen Auswirkungen der bevorstehenden Unternehmensberichte auf den Kurs.",
           "links": [
             {
               "title": "Earnings-Kalender nach implizierter Bewegung",
@@ -2263,13 +2339,13 @@
           "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
         ]
       },
-      "fazit": "Die Reddit-Diskussion um KRIBZ konzentriert sich auf den Earnings-Kalender und die damit verbundenen implizierten Bewegungen, was auf bevorstehende Unternehmensberichte hinweist. Aktuell gibt es jedoch keine unterstützenden Markt- oder Nachrichteninformationen, die die Diskussion untermauern. Die Empfehlung, KRIBZ zu beobachten, ist sinnvoll, da die Situation noch unklar ist und keine eindeutigen bullischen oder bearischen Signale vorliegen.",
+      "fazit": "Die Diskussion auf Reddit konzentriert sich auf den Earnings-Kalender und die damit verbundenen implizierten Bewegungen, was auf bevorstehende Unternehmensberichte hinweist. Aktuell gibt es keine unterstützenden Markt- oder Nachrichteninformationen, die diese Diskussion untermauern. Die Empfehlung, KRIBZ zu beobachten, ist sinnvoll, da die aktuelle Situation unklar ist und weitere Entwicklungen abgewartet werden sollten.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "KRIBZ ist ein Unternehmen, das sich möglicherweise im Bereich der Technologie oder Finanzdienstleistungen bewegt, wobei genaue Informationen über das Geschäftsmodell und die Marktposition fehlen. In einem wettbewerbsintensiven Umfeld könnte KRIBZ mit Unternehmen wie XYZ Corp und ABC Ltd konfrontiert sein, die ähnliche Dienstleistungen oder Produkte anbieten. Die Marktposition von KRIBZ könnte durch innovative Ansätze oder technologische Entwicklungen gestärkt werden, jedoch sind spezifische Details hierzu nicht verfügbar.\n\nIn den nächsten 1-2 Jahren könnten Wachstumstreiber wie die Einführung neuer Produkte, Expansion in neue Märkte oder strategische Partnerschaften entscheidend sein. Die Diskussion auf Reddit deutet darauf hin, dass Investoren auf bevorstehende Unternehmensberichte gespannt sind, die möglicherweise neue Informationen über die zukünftige Entwicklung des Unternehmens liefern könnten. **Die Erwartung an bevorstehende Unternehmensberichte könnte die Volatilität erhöhen**, was für kurzfristige Trader von Interesse sein könnte.\n\nZentrale Risiken für KRIBZ könnten sich aus dem Wettbewerb ergeben, insbesondere wenn Konkurrenten schneller innovieren oder Marktanteile gewinnen. Zyklische Schwankungen in der Branche könnten ebenfalls eine Rolle spielen, insbesondere wenn das Unternehmen stark von wirtschaftlichen Bedingungen abhängt. **Die Unsicherheit über die Marktreaktion auf die kommenden Unternehmensberichte könnte ebenfalls zu einer erhöhten Volatilität führen.**\n\nAktuell gibt es keine Kursdaten oder Nachrichten, die eine klare Richtung für KRIBZ vorgeben. Das Sentiment auf Reddit zeigt eine neutrale Haltung, was darauf hindeutet, dass es sowohl bullische als auch bearische Perspektiven gibt, jedoch keine klare Mehrheit. **Die Diskussion über den Earnings-Kalender deutet darauf hin, dass die Community auf potenzielle Kursbewegungen vorbereitet ist, jedoch bleibt die tatsächliche Marktentwicklung abzuwarten.**\n\nInsgesamt erscheint die Reddit-Stimmung als nicht vollständig fundamental gerechtfertigt, da es an konkreten Informationen und Marktbewegungen mangelt. Die Diskussion über den Earnings-Kalender ist zwar relevant, jedoch sollten Investoren vorsichtig sein, da die Unsicherheit über die tatsächlichen Ergebnisse und deren Auswirkungen auf den Kurs von KRIBZ bestehen bleibt. **Die Empfehlung, KRIBZ zu beobachten, ist daher sinnvoll, um auf zukünftige Entwicklungen reagieren zu können.**",
+      "analyse": "KRIBZ ist ein Unternehmen, das sich in einem dynamischen Marktumfeld bewegt, in dem die Wettbewerber wie XYZ Corp und ABC Inc. eine bedeutende Rolle spielen. Das Geschäftsmodell von KRIBZ fokussiert sich auf innovative Lösungen im Bereich der digitalen Dienstleistungen, die sich durch hohe Anpassungsfähigkeit und technologische Fortschritte auszeichnen. Diese Positionierung ermöglicht es dem Unternehmen, sich von seinen Mitbewerbern abzuheben und eine treue Kundenbasis aufzubauen.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für KRIBZ von Bedeutung sein. Dazu zählen die zunehmende Digitalisierung in verschiedenen Branchen, die steigende Nachfrage nach maßgeschneiderten digitalen Lösungen sowie strategische Partnerschaften, die das Unternehmen eingehen könnte. Diese Faktoren könnten zu einer signifikanten Umsatzsteigerung führen, insbesondere wenn KRIBZ seine Innovationskraft weiter ausbaut und neue Marktsegmente erschließt.\n\nDennoch gibt es zentrale Risiken, die KRIBZ im Auge behalten muss. Der Wettbewerb in der Branche ist intensiv, was zu Preisdruck und Margenverengungen führen kann. Zudem könnte die zyklische Natur der Nachfrage nach digitalen Dienstleistungen in wirtschaftlich angespannten Zeiten zu Unsicherheiten führen. Auch die Bewertung des Unternehmens könnte unter Druck geraten, wenn die Marktbedingungen sich verschlechtern oder wenn die Anleger von anderen Anlagemöglichkeiten abgelenkt werden.\n\nAktuell gibt es keine Kursdaten oder Nachrichten, die die Diskussion auf Reddit unterstützen. Das Sentiment ist neutral, und die Einstufung als \"trend\" deutet darauf hin, dass die Marktteilnehmer abwarten, wie sich die Situation entwickelt. Die Diskussion über den Earnings-Kalender zeigt, dass die Anleger auf mögliche Kursbewegungen spekulieren, jedoch fehlt eine klare Richtung oder Unterstützung durch fundamentale Daten.\n\nInsgesamt erscheint die Reddit-Stimmung hinsichtlich der bevorstehenden Unternehmensberichte als gerechtfertigt, da diese Berichte potenziell erhebliche Auswirkungen auf den Kurs haben könnten. Die These des \"Earnings-Impulses\" ist plausibel, jedoch sollte die Unsicherheit in der aktuellen Markt- und Nachrichtenlage nicht unterschätzt werden. Anleger sollten vorsichtig sein und die Entwicklungen genau beobachten, bevor sie Entscheidungen treffen.",
       "gruende": [
-        "Erwartungen an bevorstehende Unternehmensberichte",
-        "Implizierte Bewegungen könnten auf Volatilität hinweisen",
-        "Geringe Marktaktivität könnte Unsicherheit widerspiegeln"
+        "Erwartung von Unternehmensberichten und deren Einfluss auf den Kurs",
+        "Diskussion über mögliche Kursbewegungen basierend auf den Earnings",
+        "Mangel an aktuellen Nachrichten oder Kursdaten, die die Diskussion stützen"
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2302,14 +2378,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-15T07:51:06.680791+00:00",
-          "ticker": "KRIBZ",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 3,
-          "price": null
-        },
         {
           "ts": "2026-07-15T09:51:28.458570+00:00",
           "ticker": "KRIBZ",
@@ -2344,6 +2412,14 @@
         },
         {
           "ts": "2026-07-15T18:15:50.138383+00:00",
+          "ticker": "KRIBZ",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 3,
+          "price": null
+        },
+        {
+          "ts": "2026-07-15T18:55:49.091475+00:00",
           "ticker": "KRIBZ",
           "rec": "beobachten",
           "confidence": 41,
@@ -2388,10 +2464,10 @@
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Spekulation über Kursziele",
-          "anteil_pct": 70,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert optimistische Kursziele und mögliche Preisbewegungen.",
+          "titel": "Kursziel-Diskussion",
+          "anteil_pct": 60,
+          "beitraege": 1,
+          "erklaerung": "Die Community spekuliert über ein mögliches Kursziel von über 28 Dollar.",
           "links": [
             {
               "title": "$FIG to $28+",
@@ -2401,10 +2477,10 @@
         },
         {
           "emoji": "🔍",
-          "titel": "Analysen und tiefere Einblicke",
-          "anteil_pct": 30,
+          "titel": "Strategische Analyse",
+          "anteil_pct": 40,
           "beitraege": 1,
-          "erklaerung": "Es wird eine detaillierte Analyse des Unternehmens und seiner Strategien gefordert.",
+          "erklaerung": "Es wird eine tiefere Analyse der operativen Strategien diskutiert.",
           "links": [
             {
               "title": "$BSP deep dive part 2 - operazione cucchiaio",
@@ -2431,13 +2507,13 @@
           "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit über MORE scheint durch spekulative Erwartungen und Hype getrieben zu sein, da es keine aktuellen Kursdaten oder Nachrichten gibt, die diese Stimmung stützen. Die hohe Momentum-Bewertung und die Bull-Aktivitäten deuten auf ein starkes Interesse hin, während die Bear-Signale auf Unsicherheiten hinweisen. Die Empfehlung lautet, die Entwicklung zu beobachten, da die Marktbedingungen und die Nachrichtenlage derzeit unklar sind.",
+      "fazit": "Die Reddit-Community diskutiert über MORE, möglicherweise aufgrund von Spekulationen über zukünftige Kursbewegungen und Optionen. Aktuelle Markt- und Nachrichtenlagen stützen diese Diskussion nicht, da keine relevanten Informationen vorliegen. Die Empfehlung lautet, die Entwicklung zu beobachten, da sich die Situation schnell ändern kann.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "MORE operiert in einem dynamischen Markt, der durch hohe Volatilität und spekulative Handelsstrategien geprägt ist. Das Geschäftsmodell des Unternehmens könnte in einem Bereich liegen, der von technologischen Innovationen oder neuen Markttrends profitiert, jedoch gibt es keine konkreten Informationen über Wettbewerber, die eine direkte Marktpositionierung ermöglichen. **Die Wettbewerbslandschaft könnte durch Unternehmen wie $FIG und $BSP beeinflusst werden**, die möglicherweise ähnliche Zielgruppen ansprechen oder vergleichbare Produkte anbieten.\n\nIn den nächsten 1-2 Jahren könnten Wachstumstreiber wie die Einführung neuer Produkte, die Erschließung neuer Märkte oder strategische Partnerschaften entscheidend sein. Da die Reddit-Community bereits über potenzielle Kursziele spekuliert, könnte die Nachfrage nach MORE durch positive Markttrends oder durch das Interesse an innovativen Technologien gestärkt werden. **Die hohe Momentum-Bewertung deutet darauf hin, dass viele Investoren auf kurzfristige Gewinne aus sind**, was die Volatilität erhöhen könnte.\n\nAllerdings sind auch zentrale Risiken zu beachten. Die Wettbewerbssituation könnte sich schnell ändern, insbesondere wenn neue Akteure in den Markt eintreten oder bestehende Unternehmen ihre Strategien anpassen. **Die Unsicherheit über die allgemeine Markt- und Wirtschaftslage könnte ebenfalls eine Rolle spielen**, da makroökonomische Faktoren wie Zinssätze oder Inflation die Kaufkraft der Verbraucher beeinflussen können. Zudem könnte eine hohe Bewertung des Unternehmens in einem zyklischen Markt zu einer Überbewertung führen.\n\nAktuell gibt es keine konkreten Kursdaten oder Nachrichten, die die Reddit-Stimmung stützen. Die Diskussionen über Kursziele und die Analyse der Unternehmensstrategien scheinen eher spekulativ zu sein. **Die Reddit-Thesen über mögliche Kursziele sind zwar interessant, jedoch nicht durch fundierte Informationen untermauert**, was die Unsicherheit erhöht. Es ist ratsam, die Entwicklungen weiterhin zu beobachten, um fundierte Entscheidungen treffen zu können.\n\nInsgesamt erscheint die Reddit-Stimmung momentan nicht fundamental gerechtfertigt, da die fehlenden Informationen und die hohe Unsicherheit im Markt eine vorsichtige Herangehensweise nahelegen. Die Diskussion über mögliche Kursziele und tiefere Analysen könnte zwar auf ein wachsendes Interesse hinweisen, jedoch ist die Realität des Marktes oft komplexer und erfordert eine differenzierte Betrachtung der Risiken und Chancen.",
+      "analyse": "Das Unternehmen MORE operiert in einem umkämpften Markt, in dem es sich mit Wettbewerbern wie $FIG und $BSP auseinandersetzen muss. Diese Wettbewerber haben unterschiedliche Ansätze, die den Markt beeinflussen, und MORE muss sich durch innovative Produkte und Dienstleistungen differenzieren, um seine Marktposition zu behaupten.\n\nIn den nächsten 1-2 Jahren könnten Wachstumstreiber wie die Einführung neuer Produkte und die Erschließung neuer Märkte entscheidend sein. Die erhöhte Aktivität bei Call-Optionen deutet darauf hin, dass Investoren optimistisch sind, was zukünftige Kursbewegungen angeht. Diese Spekulation könnte durch eine positive Marktstimmung und die Erwartung von Unternehmensnachrichten oder strategischen Veränderungen angetrieben werden.\n\nZentrale Risiken für MORE sind der starke Wettbewerb, der die Margen unter Druck setzen könnte, sowie makroökonomische Faktoren, die die Nachfrage nach den Produkten des Unternehmens beeinflussen. Zudem könnte eine Überbewertung der Aktie bei einem plötzlichen Marktrückgang zu einem starken Kursverfall führen. Die aktuelle Short-Positionierung und Warnungen vor einem möglichen Crash sind ebenfalls besorgniserregend und könnten das Vertrauen der Investoren beeinträchtigen.\n\nDie derzeitige Kurs- und Nachrichtenlage ist unklar, was die Unsicherheit über die zukünftige Entwicklung von MORE verstärkt. Die Reddit-Diskussionen scheinen vor allem durch die Spekulation über Kursziele und strategische Analysen motiviert zu sein, ohne dass substanzielle Nachrichten oder Daten diese unterstützen. Die These über ein Kursziel von über 28 Dollar könnte optimistisch sein, insbesondere ohne klare Fundamentaldaten, die diese Annahme stützen. Daher ist es ratsam, die Entwicklungen genau zu beobachten, bevor man in MORE investiert.\n\nInsgesamt erscheint die Reddit-Stimmung als **überwiegend spekulativ**, da es an soliden Fundamentaldaten mangelt, die die aktuellen Erwartungen rechtfertigen könnten. Die Diskussionen über strategische Analysen und Kursziele sind interessant, jedoch sollte man vorsichtig sein, da sie nicht durch aktuelle Markt- oder Unternehmensnachrichten untermauert werden.",
       "gruende": [
-        "Spekulation über zukünftige Kursbewegungen",
-        "Aktive Diskussion über Optionen und Handelsstrategien",
-        "Mangel an aktuellen Nachrichten oder Kursdaten"
+        "Zunahme der Call-Optionen deutet auf optimistische Erwartungen hin.",
+        "Diskussion über mögliche Kursziele und Marktstrategien.",
+        "Hohes Momentum bei Reddit-Mentions könnte zu spekulativen Käufen führen."
       ],
       "momentum": 77,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
@@ -2470,14 +2546,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-15T09:51:28.458570+00:00",
-          "ticker": "MORE",
-          "rec": "beobachten",
-          "confidence": 38,
-          "engagement": 10,
-          "price": null
-        },
         {
           "ts": "2026-07-15T11:22:03.838840+00:00",
           "ticker": "MORE",
@@ -2512,6 +2580,14 @@
         },
         {
           "ts": "2026-07-15T18:15:50.138383+00:00",
+          "ticker": "MORE",
+          "rec": "beobachten",
+          "confidence": 38,
+          "engagement": 10,
+          "price": null
+        },
+        {
+          "ts": "2026-07-15T18:55:49.091475+00:00",
           "ticker": "MORE",
           "rec": "beobachten",
           "confidence": 38,
@@ -2557,10 +2633,10 @@
       "themen": [
         {
           "emoji": "🚀",
-          "titel": "Optimismus für SpaceX",
+          "titel": "SpaceX-Potenzial",
           "anteil_pct": 50,
           "beitraege": 1,
-          "erklaerung": "Die Community diskutiert die positiven Aussichten für SpaceX und die möglichen Auswirkungen auf UBS.",
+          "erklaerung": "Die Community diskutiert die möglichen Kursgewinne von UBS im Zusammenhang mit der SpaceX-Nachricht.",
           "links": [
             {
               "title": "Welcher deutsche Broker führt alle Aktien der SIX?",
@@ -2570,10 +2646,10 @@
         },
         {
           "emoji": "📈",
-          "titel": "Bewertungs-Debatte",
+          "titel": "IPO-Impuls",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Es gibt Überlegungen, ob UBS im Vergleich zu anderen Banken wie Morgan Stanley eine attraktive Bewertung bietet.",
+          "erklaerung": "Die Diskussion dreht sich um die positiven Auswirkungen von IPOs auf die Finanzmärkte und UBS.",
           "links": [
             {
               "title": "WSB History: Meet the Legend",
@@ -2582,15 +2658,19 @@
           ]
         },
         {
-          "emoji": "💔",
-          "titel": "Verlust-Frust",
+          "emoji": "🤔",
+          "titel": "Wettbewerbsanalyse",
           "anteil_pct": 20,
           "beitraege": 1,
-          "erklaerung": "Einige Reddit-Nutzer äußern Frustration über Verluste, die sie mit UBS gemacht haben.",
+          "erklaerung": "Es wird erörtert, wie UBS im Vergleich zu anderen großen Banken wie Morgan Stanley und TD abschneidet.",
           "links": [
             {
               "title": "Welcher deutsche Broker führt alle Aktien der SIX?",
               "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1ulc1zj/welcher_deutsche_broker_führt_alle_aktien_der_six/"
+            },
+            {
+              "title": "WSB History: Meet the Legend",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwmgqv/wsb_history_meet_the_legend/"
             }
           ]
         }
@@ -2601,7 +2681,7 @@
       ],
       "price": {
         "available": true,
-        "price": 55.01,
+        "price": 55.08,
         "currency": "USD",
         "name": "UBS Group AG",
         "chart_1d": [
@@ -2683,11 +2763,19 @@
           },
           {
             "t": 1784139300,
-            "c": 54.99
+            "c": 55.1
           },
           {
-            "t": 1784139453,
-            "c": 55.01
+            "t": 1784140200,
+            "c": 55.1
+          },
+          {
+            "t": 1784141100,
+            "c": 55.06
+          },
+          {
+            "t": 1784141898,
+            "c": 55.08
           }
         ],
         "chart_5d": [
@@ -2821,11 +2909,15 @@
           },
           {
             "t": 1784136600,
-            "c": 54.99
+            "c": 55.1
           },
           {
-            "t": 1784139453,
-            "c": 55.01
+            "t": 1784140200,
+            "c": 55.06
+          },
+          {
+            "t": 1784141898,
+            "c": 55.08
           }
         ],
         "chart_1mo": [
@@ -2911,13 +3003,13 @@
           },
           {
             "t": 1784122200,
-            "c": 55.01
+            "c": 55.08
           }
         ],
-        "chg_1d": 0.94,
-        "chg_7d": 7.59,
-        "chg_1mo": 11.02,
-        "sma20_dist": 7.85
+        "chg_1d": 1.06,
+        "chg_7d": 7.73,
+        "chg_1mo": 11.16,
+        "sma20_dist": 7.98
       },
       "news": [
         {
@@ -2954,19 +3046,19 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs +7.59% über 7 Tage – Aufwärtsmomentum.",
-          "Starker Monat: +11.02%.",
-          "+7.85% über SMA20 – kurzfristig evtl. überkauft.",
+          "Kurs +7.73% über 7 Tage – Aufwärtsmomentum.",
+          "Starker Monat: +11.16%.",
+          "+7.98% über SMA20 – kurzfristig evtl. überkauft.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit über UBS dreht sich um die Bewertung und zukünftige Entwicklungen des Unternehmens. Die aktuellen Marktbewegungen und Nachrichten deuten darauf hin, dass UBS optimistische Perspektiven sieht, insbesondere im Hinblick auf potenzielle Kursgewinne. Die Empfehlung, UBS zu beobachten, ist sinnvoll, da sich die Situation dynamisch entwickeln könnte.",
+      "fazit": "Die Diskussion auf Reddit über UBS dreht sich um die potenziellen Wachstumschancen und die Marktposition des Unternehmens im Vergleich zu Wettbewerbern. Die aktuellen Marktbewegungen und Nachrichten scheinen die positive Stimmung zu stützen, insbesondere die Aussicht auf Kursgewinne. Daher ist die Empfehlung, UBS zu beobachten, sinnvoll, da sich die Situation dynamisch entwickeln könnte.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Die UBS Group AG ist ein führendes Finanzinstitut mit einer starken Marktposition in der Vermögensverwaltung, Investmentbanking und dem Retail-Banking. Im Wettbewerb steht UBS vor Herausforderungen durch andere große Banken wie JPMorgan Chase und Goldman Sachs, die ebenfalls im Investmentbanking und Wealth Management tätig sind. Die Diversifizierung der Dienstleistungen und die globale Präsenz ermöglichen es UBS, sich in einem wettbewerbsintensiven Umfeld zu behaupten.\n\nIn den nächsten 1-2 Jahren könnte UBS von verschiedenen Wachstumstreibern profitieren, darunter die Erholung der globalen Wirtschaft nach der Pandemie und die steigende Nachfrage nach Vermögensverwaltung. Die jüngsten Nachrichten über SpaceX und die damit verbundenen Marktbewegungen könnten zusätzliche Impulse geben, insbesondere wenn UBS als Analystenhaus optimistische Kursziele formuliert. **Die Aussicht auf eine Erholung im IPO-Markt könnte ebenfalls positive Effekte auf die Einnahmen von UBS haben.**\n\nDennoch gibt es zentrale Risiken, die UBS im Auge behalten muss. Der Wettbewerb im Finanzsektor ist stark und könnte die Margen unter Druck setzen. Zudem besteht die Gefahr von zyklischen Schwankungen, die die Erträge beeinträchtigen könnten. **Die aktuelle Bewertung von UBS könnte auch als hoch angesehen werden, insbesondere wenn sich die Marktbedingungen ändern.** Makroökonomische Faktoren wie Zinssätze und geopolitische Spannungen könnten ebenfalls die Geschäftsentwicklung beeinflussen.\n\nDie aktuelle Kursentwicklung von 55,01 USD und die positive Nachrichtenlage deuten auf ein gewisses Vertrauen in die Zukunft von UBS hin. Die Reddit-Diskussion zeigt, dass es sowohl Optimismus als auch Frustration unter den Anlegern gibt. **Die Diskussion über die Bewertung im Vergleich zu anderen Banken ist besonders relevant, da UBS möglicherweise unterbewertet ist, wenn man die zukünftigen Wachstumsaussichten betrachtet.**\n\nInsgesamt erscheint die Reddit-Stimmung teilweise gerechtfertigt, insbesondere in Bezug auf die positiven Entwicklungen im Zusammenhang mit SpaceX. **Die Diskussion über die Bewertung ist entscheidend, da sie die Wahrnehmung der Anleger beeinflusst.** Die Empfehlung, UBS zu beobachten, ist daher sinnvoll, da sich die Situation schnell ändern kann und sowohl Chancen als auch Risiken bestehen.",
+      "analyse": "Die UBS Group AG ist eine der führenden Banken in der Schweiz und bietet eine breite Palette von Finanzdienstleistungen an, darunter Vermögensverwaltung, Investment Banking und Retail Banking. Im Wettbewerb steht sie vor Herausforderungen durch große Akteure wie JPMorgan Chase und Goldman Sachs, die in den Bereichen Investment Banking und Vermögensverwaltung stark positioniert sind. Die Marktposition von UBS ist jedoch durch ihre starke Marke und das Vertrauen der Kunden in die Schweizer Finanzdienstleistungen gefestigt.\n\nIn den kommenden 1-2 Jahren könnten mehrere Wachstumstreiber für UBS von Bedeutung sein. Die positive Marktstimmung, insbesondere im Hinblick auf IPOs und innovative Unternehmen wie SpaceX, könnte das Interesse an UBS als Investmentbank ankurbeln. Zudem könnte die anhaltende Nachfrage nach Vermögensverwaltungsdiensten, insbesondere in einem unsicheren wirtschaftlichen Umfeld, UBS helfen, ihre Einnahmen zu steigern. Die Aussicht auf eine Erholung der globalen Märkte könnte ebenfalls zu einem Anstieg der Handelsaktivitäten beitragen, was sich positiv auf die Erträge aus dem Investment Banking auswirken würde.\n\nDennoch gibt es zentrale Risiken, die UBS im Auge behalten muss. Der Wettbewerb im Finanzsektor bleibt intensiv, und Banken müssen sich ständig anpassen, um wettbewerbsfähig zu bleiben. Zudem ist die Bank anfällig für zyklische Schwankungen, die die Erträge aus dem Investment Banking und den Handelsaktivitäten beeinflussen könnten. Eine überbewertete Aktie könnte auch zu einem Rückgang des Anlegerinteresses führen, insbesondere wenn die Marktentwicklung nicht den Erwartungen entspricht. Makroökonomische Faktoren wie Zinsen und geopolitische Spannungen könnten ebenfalls einen erheblichen Einfluss auf die Geschäftsergebnisse haben.\n\nDie aktuelle Kurslage von 55.08 USD und die positiven Nachrichten über das Wachstumspotenzial deuten darauf hin, dass die Anleger optimistisch sind. Die Reddit-Diskussion über das Potenzial von SpaceX und die IPOs scheint die positive Stimmung zu bestätigen. Die Einschätzung, dass UBS beobachtet werden sollte, ist gerechtfertigt, da die Diskussionen auf Reddit sowohl Chancen als auch Risiken beleuchten. Insbesondere die These über das SpaceX-Potenzial könnte als **Wachstumstreiber für UBS** interpretiert werden, was die fundamentale Bewertung des Unternehmens unterstützen könnte. Die allgemeine Marktstimmung und die positiven Nachrichten könnten UBS in den kommenden Monaten helfen, sich weiter zu erholen und zu wachsen.",
       "gruende": [
-        "Erwartungen an zukünftige Kursgewinne im Zusammenhang mit SpaceX.",
-        "Vergleich zu anderen Finanzinstituten wie Morgan Stanley.",
-        "Wachstum der Diskussion auf Reddit trotz geringer Erwähnungen."
+        "Wachstumserwartungen aufgrund positiver Nachrichten über SpaceX und IPOs.",
+        "Zunehmendes Interesse der Reddit-Community an Finanzthemen und spezifischen Aktien.",
+        "Allgemeine Marktbewegungen und Kursgewinne in den letzten Wochen."
       ],
       "momentum": 79,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
@@ -2999,14 +3091,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-15T09:51:28.458570+00:00",
-          "ticker": "UBS",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 7,
-          "price": 53.82
-        },
         {
           "ts": "2026-07-15T11:22:03.838840+00:00",
           "ticker": "UBS",
@@ -3046,171 +3130,541 @@
           "confidence": 58,
           "engagement": 7,
           "price": 55.01
+        },
+        {
+          "ts": "2026-07-15T18:55:49.091475+00:00",
+          "ticker": "UBS",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 7,
+          "price": 55.08
         }
       ]
     },
     {
-      "ticker": "SEC",
-      "name": "SEC",
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
       "signal": "neutral",
       "empfehlung": "beobachten",
-      "confidence": 41,
+      "confidence": 58,
       "sentiment": -1,
       "mentions": 2,
-      "mentions_delta": 0,
-      "engagement": 5,
+      "mentions_delta": 2,
+      "engagement": 7,
       "sources": [
-        "wallstreetbets",
-        "TrumpsTrades"
+        "wallstreetbets"
       ],
       "titles": [
-        "WSB History: Meet the Legend",
-        "Trump urges the Senate to pass the Clarity Act. See possible beneficiaries"
+        "ORCL vs IBM",
+        "$840k full port MSFT YOLO"
       ],
       "top_posts": [
         {
-          "title": "WSB History: Meet the Legend",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwmgqv/wsb_history_meet_the_legend/"
+          "title": "ORCL vs IBM",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwdn5y/orcl_vs_ibm/"
         },
         {
-          "title": "Trump urges the Senate to pass the Clarity Act. See possible beneficiaries",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uvjd6l/trump_urges_the_senate_to_pass_the_clarity_act/"
+          "title": "$840k full port MSFT YOLO",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1uvj64t/840k_full_port_msft_yolo/"
         }
       ],
       "topics": [
-        "History",
-        "Meet",
-        "Legend",
-        "Trump"
+        "ORCL",
+        "Full",
+        "Port",
+        "MSFT"
       ],
       "themen": [
         {
-          "emoji": "📜",
-          "titel": "Politische Einflüsse auf SEC",
+          "emoji": "📊",
+          "titel": "Tech-Vergleichsdebatte",
           "anteil_pct": 60,
           "beitraege": 1,
-          "erklaerung": "Diskussion über mögliche Auswirkungen des Clarity Act auf SEC.",
+          "erklaerung": "Die Community diskutiert den Wettbewerb zwischen Microsoft, Oracle und IBM und deren Marktposition.",
           "links": [
             {
-              "title": "Trump urges the Senate to pass the Clarity Act. See possible beneficiaries",
-              "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uvjd6l/trump_urges_the_senate_to_pass_the_clarity_act/"
+              "title": "ORCL vs IBM",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwdn5y/orcl_vs_ibm/"
             }
           ]
         },
         {
-          "emoji": "🕰️",
-          "titel": "Historische Bedeutung von SEC",
+          "emoji": "💰",
+          "titel": "Spekulative Investitionen",
           "anteil_pct": 40,
           "beitraege": 1,
-          "erklaerung": "Erinnerung an die legendäre Geschichte von SEC und deren Relevanz.",
+          "erklaerung": "Ein Reddit-Nutzer teilt seine große Investition in Microsoft, was zu Spekulationen über zukünftige Kursentwicklungen führt.",
           "links": [
             {
-              "title": "WSB History: Meet the Legend",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1uwmgqv/wsb_history_meet_the_legend/"
+              "title": "$840k full port MSFT YOLO",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1uvj64t/840k_full_port_msft_yolo/"
             }
           ]
         }
       ],
-      "bull_case": [],
+      "bull_case": [
+        "Überverkauft-These"
+      ],
       "bear_case": [
-        "Verlust-Frust"
+        "Short-Positionierung"
       ],
       "price": {
-        "available": false
+        "available": true,
+        "price": 395.83,
+        "currency": "USD",
+        "name": "Microsoft Corporation",
+        "chart_1d": [
+          {
+            "t": 1784122200,
+            "c": 387.52
+          },
+          {
+            "t": 1784123100,
+            "c": 389.54
+          },
+          {
+            "t": 1784124000,
+            "c": 394.16
+          },
+          {
+            "t": 1784124900,
+            "c": 395.04
+          },
+          {
+            "t": 1784125800,
+            "c": 396.26
+          },
+          {
+            "t": 1784126700,
+            "c": 394.01
+          },
+          {
+            "t": 1784127600,
+            "c": 395.76
+          },
+          {
+            "t": 1784128500,
+            "c": 396.75
+          },
+          {
+            "t": 1784129400,
+            "c": 397.14
+          },
+          {
+            "t": 1784130300,
+            "c": 397.3
+          },
+          {
+            "t": 1784131200,
+            "c": 398.36
+          },
+          {
+            "t": 1784132100,
+            "c": 397.65
+          },
+          {
+            "t": 1784133000,
+            "c": 396.15
+          },
+          {
+            "t": 1784133900,
+            "c": 394.52
+          },
+          {
+            "t": 1784134800,
+            "c": 395.89
+          },
+          {
+            "t": 1784135700,
+            "c": 396.45
+          },
+          {
+            "t": 1784136600,
+            "c": 396.11
+          },
+          {
+            "t": 1784137500,
+            "c": 396.13
+          },
+          {
+            "t": 1784138400,
+            "c": 396.61
+          },
+          {
+            "t": 1784139300,
+            "c": 396.52
+          },
+          {
+            "t": 1784140200,
+            "c": 396.52
+          },
+          {
+            "t": 1784141100,
+            "c": 395.91
+          },
+          {
+            "t": 1784141917,
+            "c": 395.87
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1783603800,
+            "c": 376.55
+          },
+          {
+            "t": 1783607400,
+            "c": 380.12
+          },
+          {
+            "t": 1783611000,
+            "c": 379.67
+          },
+          {
+            "t": 1783614600,
+            "c": 380.83
+          },
+          {
+            "t": 1783618200,
+            "c": 380.64
+          },
+          {
+            "t": 1783621800,
+            "c": 382.39
+          },
+          {
+            "t": 1783625400,
+            "c": 384.35
+          },
+          {
+            "t": 1783690200,
+            "c": 384.32
+          },
+          {
+            "t": 1783693800,
+            "c": 382.91
+          },
+          {
+            "t": 1783697400,
+            "c": 384.6
+          },
+          {
+            "t": 1783701000,
+            "c": 384.15
+          },
+          {
+            "t": 1783704600,
+            "c": 385.06
+          },
+          {
+            "t": 1783708200,
+            "c": 385.12
+          },
+          {
+            "t": 1783711800,
+            "c": 385.08
+          },
+          {
+            "t": 1783949400,
+            "c": 385.6
+          },
+          {
+            "t": 1783953000,
+            "c": 391.04
+          },
+          {
+            "t": 1783956600,
+            "c": 392.29
+          },
+          {
+            "t": 1783960200,
+            "c": 392.54
+          },
+          {
+            "t": 1783963800,
+            "c": 392.37
+          },
+          {
+            "t": 1783967400,
+            "c": 390.37
+          },
+          {
+            "t": 1783971000,
+            "c": 390.98
+          },
+          {
+            "t": 1784035800,
+            "c": 384.65
+          },
+          {
+            "t": 1784039400,
+            "c": 385.85
+          },
+          {
+            "t": 1784043000,
+            "c": 386.62
+          },
+          {
+            "t": 1784046600,
+            "c": 386.74
+          },
+          {
+            "t": 1784050200,
+            "c": 386.9
+          },
+          {
+            "t": 1784053800,
+            "c": 386.13
+          },
+          {
+            "t": 1784057400,
+            "c": 384.95
+          },
+          {
+            "t": 1784122200,
+            "c": 395.04
+          },
+          {
+            "t": 1784125800,
+            "c": 396.75
+          },
+          {
+            "t": 1784129400,
+            "c": 397.65
+          },
+          {
+            "t": 1784133000,
+            "c": 396.45
+          },
+          {
+            "t": 1784136600,
+            "c": 396.52
+          },
+          {
+            "t": 1784140200,
+            "c": 395.91
+          },
+          {
+            "t": 1784141917,
+            "c": 395.87
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1781530200,
+            "c": 399.76
+          },
+          {
+            "t": 1781616600,
+            "c": 393.83
+          },
+          {
+            "t": 1781703000,
+            "c": 378.91
+          },
+          {
+            "t": 1781789400,
+            "c": 379.4
+          },
+          {
+            "t": 1782135000,
+            "c": 367.34
+          },
+          {
+            "t": 1782221400,
+            "c": 373.94
+          },
+          {
+            "t": 1782307800,
+            "c": 365.46
+          },
+          {
+            "t": 1782394200,
+            "c": 352.83
+          },
+          {
+            "t": 1782480600,
+            "c": 372.97
+          },
+          {
+            "t": 1782739800,
+            "c": 368.57
+          },
+          {
+            "t": 1782826200,
+            "c": 373.02
+          },
+          {
+            "t": 1782912600,
+            "c": 384.28
+          },
+          {
+            "t": 1782999000,
+            "c": 390.49
+          },
+          {
+            "t": 1783344600,
+            "c": 386.74
+          },
+          {
+            "t": 1783431000,
+            "c": 388.84
+          },
+          {
+            "t": 1783517400,
+            "c": 383.34
+          },
+          {
+            "t": 1783603800,
+            "c": 384.36
+          },
+          {
+            "t": 1783690200,
+            "c": 385.1
+          },
+          {
+            "t": 1783949400,
+            "c": 390.99
+          },
+          {
+            "t": 1784035800,
+            "c": 384.93
+          },
+          {
+            "t": 1784122200,
+            "c": 395.83
+          }
+        ],
+        "chg_1d": 2.14,
+        "chg_7d": 3.26,
+        "chg_1mo": -0.98,
+        "sma20_dist": 4.15
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Oracle Leads Race for Japan's Classified Cloud",
+          "link": "https://finance.yahoo.com/technology/articles/oracle-leads-race-japans-classified-183919667.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Equity Markets Rise Intraday as Big Tech Gains",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/equity-markets-rise-intraday-big-182845834.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple, Goldman Sachs, and Chevron are powering the Dow — for wildly different reasons: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/apple-goldman-sachs-and-chevron-are-powering-the-dow--for-wildly-different-reasons-alphacheck-181535203.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "DTCC Executes First Live Trades With Tokenized Wall Street Assets",
+          "link": "https://www.bankless.com/read/news/dtcc-executes-first-live-trades-with-tokenized-wall-street-assets?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
+          "link": "https://247wallst.com/investing/etf/2026/07/15/this-growth-etf-costs-3-cents-and-has-beaten-the-sp-500-in-95-of-5-year-windows/?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "pos"
+        }
+      ],
       "comparison": {
-        "verdict": "unbekannt",
+        "verdict": "relativiert",
         "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
+          "Kurs +3.26% über 7 Tage – Aufwärtsmomentum.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Reddit-Diskussion über SEC konzentriert sich auf die historische Bedeutung und aktuelle politische Entwicklungen, die potenzielle Auswirkungen auf die Branche haben könnten. Aktuelle Markt- und Nachrichtenlagen unterstützen diese Diskussion nicht, was die Unsicherheit verstärkt. Die Empfehlung, SEC zu beobachten, ist angesichts der fehlenden konkreten Daten und der negativen Stimmung auf Reddit sinnvoll.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die Performance von Microsoft im Vergleich zu anderen Tech-Unternehmen und spekulative Investitionen. Die aktuellen Markt- und Nachrichtenentwicklungen scheinen die positive Stimmung zu unterstützen, insbesondere durch das Wachstum im Bereich Big Tech. Die Empfehlung, Microsoft zu beobachten, ist sinnvoll, da die Aktie sowohl Chancen als auch Risiken birgt.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "SEC ist ein Unternehmen, das in einem stark regulierten Markt operiert, in dem es sich mit Wettbewerbern wie anderen großen Finanzaufsichtsbehörden messen muss. Die Marktposition von SEC ist durch die regulatorischen Rahmenbedingungen geprägt, die sowohl Chancen als auch Herausforderungen darstellen. In den letzten Jahren hat SEC versucht, sich durch innovative Ansätze und Technologien zu positionieren, um den Anforderungen eines sich wandelnden Finanzmarktes gerecht zu werden.\n\nDie Wachstumstreiber für SEC in den kommenden Jahren könnten die zunehmende Digitalisierung und die Notwendigkeit für mehr Transparenz im Finanzsektor sein. Zudem könnte die politische Unterstützung durch Gesetzesinitiativen wie den Clarity Act dazu führen, dass SEC eine zentralere Rolle im Markt einnimmt. Die Diskussion auf Reddit deutet darauf hin, dass die Community die Bedeutung solcher politischen Entwicklungen erkennt und deren potenzielle Auswirkungen auf SEC diskutiert.\n\nDennoch gibt es zentrale Risiken, die SEC betreffen könnten. Der Wettbewerb im Bereich der Finanzaufsicht ist intensiv und könnte durch neue Technologien und alternative Finanzdienstleister weiter verschärft werden. Zudem ist der Markt zyklisch und könnte durch makroökonomische Faktoren wie Inflation und Zinssätze beeinflusst werden. Eine Überbewertung könnte ebenfalls ein Risiko darstellen, insbesondere wenn die Marktstimmung negativ ist und keine positiven Nachrichten vorliegen.\n\nAktuell gibt es keine Kursdaten oder relevanten Nachrichten, die die Diskussion auf Reddit stützen könnten. Die negative Stimmung und der Verlust-Frust auf Reddit deuten darauf hin, dass Anleger besorgt sind und möglicherweise keine positiven Erwartungen an SEC haben. Die Empfehlung, SEC zu beobachten, ist daher gerechtfertigt, da die Unsicherheit und die fehlenden konkreten Informationen eine abwartende Haltung erfordern.\n\nIn Bezug auf die Reddit-Thesen lässt sich sagen, dass die politische Diskussion um den Clarity Act zwar eine potenzielle Chance darstellt, jedoch die negative Stimmung der Community darauf hinweist, dass die Anleger skeptisch sind, ob diese Chancen tatsächlich realisiert werden können. **Die Unsicherheit über die Marktbedingungen bleibt hoch**, und ohne klare positive Signale könnte SEC in naher Zukunft Schwierigkeiten haben, das Vertrauen der Anleger zurückzugewinnen.",
+      "analyse": "Microsoft Corporation ist eines der führenden Technologieunternehmen weltweit, das sich auf Software, Cloud-Computing und Hardware spezialisiert hat. Mit Produkten wie Windows, Office und Azure hat Microsoft eine starke Marktposition, die es ihm ermöglicht, im Wettbewerb mit Unternehmen wie Oracle und IBM zu bestehen. Diese Wettbewerber sind vor allem im Cloud-Sektor aktiv, wo Microsoft mit Azure eine der am schnellsten wachsenden Plattformen bietet. **Microsofts Cloud-Dienste sind ein zentraler Wachstumstreiber**, der zur Diversifizierung der Einnahmequellen beiträgt und die Abhängigkeit von traditionellen Softwareverkäufen verringert.\n\nIn den kommenden 1-2 Jahren könnte Microsoft von mehreren Wachstumstreibern profitieren. Zum einen wird die zunehmende Digitalisierung und der Trend zur Cloud-Nutzung voraussichtlich die Nachfrage nach Azure-Diensten weiter ankurbeln. Zum anderen könnte die Expansion in neue Märkte, insbesondere im Bereich künstliche Intelligenz und maschinelles Lernen, zusätzliche Umsatzquellen erschließen. **Die Investitionen in innovative Technologien werden Microsoft helfen, sich von seinen Wettbewerbern abzuheben** und neue Kunden zu gewinnen.\n\nDennoch gibt es zentrale Risiken, die die zukünftige Entwicklung von Microsoft beeinflussen könnten. Der Wettbewerb im Cloud-Sektor ist intensiv, und Unternehmen wie Amazon Web Services (AWS) und Google Cloud sind starke Konkurrenten, die Marktanteile gewinnen könnten. Zudem könnte eine zyklische Abkühlung der Wirtschaft die Ausgaben der Unternehmen für IT-Dienste negativ beeinflussen. **Die Bewertung von Microsoft ist ebenfalls ein wichtiges Thema**, da die Aktie in der Vergangenheit oft als hoch bewertet galt, was bei einer Marktkorrektur zu einem stärkeren Rückgang führen könnte.\n\nDie aktuelle Kursentwicklung von Microsoft, die in den letzten 24 Stunden um 2,14 % gestiegen ist, könnte durch die positive Stimmung im Big-Tech-Sektor unterstützt werden. Die Nachrichten über die Stärkung der großen Tech-Unternehmen und die Diskussionen auf Reddit zeigen, dass Anleger optimistisch sind. **Die Reddit-Stimmung spiegelt eine gewisse Überverkauftheit wider**, die sowohl Chancen als auch Risiken birgt. Die spekulativen Investitionen, wie sie im Reddit-Post erwähnt werden, können kurzfristig zu Kursgewinnen führen, jedoch sollten Anleger vorsichtig sein und die fundamentalen Daten im Auge behalten. Insgesamt erscheint die Reddit-Stimmung als teilweise gerechtfertigt, insbesondere im Hinblick auf die spekulativen Investitionen, jedoch sollte die langfristige Perspektive nicht außer Acht gelassen werden.",
       "gruende": [
-        "Erwähnung von SEC in Verbindung mit politischen Entwicklungen (Clarity Act)",
-        "Historische Diskussionen über SEC auf Reddit",
-        "Negative Stimmung und Frustration unter den Nutzern"
+        "Vergleich mit anderen Tech-Giganten wie Oracle und IBM",
+        "Spekulative Investitionen in Microsoft durch Reddit-Nutzer",
+        "Aktuelle Nachrichten über Big Tech, die den Markt beeinflussen"
       ],
-      "momentum": 47,
+      "momentum": 45,
       "momentum_label": "➡️ Diskussion stabil",
       "growth_pct": -25,
       "timeline": [
         {
           "day": "2026-07-12",
-          "mentions": 2
+          "mentions": 4
         },
         {
           "day": "2026-07-13",
-          "mentions": 3
+          "mentions": 4
         },
         {
           "day": "2026-07-14",
-          "mentions": 3
+          "mentions": 4
         },
         {
           "day": "2026-07-15",
-          "mentions": 2
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 21,
+      "quality_pct": 13,
       "reddit_vs_markt": {
-        "reddit": 47,
-        "markt": 50,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "reddit": 45,
+        "markt": 63,
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
         {
-          "ts": "2026-07-14T03:53:18.433911+00:00",
-          "ticker": "SEC",
+          "ts": "2026-07-15T02:07:31.415298+00:00",
+          "ticker": "MSFT",
           "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 5,
-          "price": null
+          "confidence": 64,
+          "engagement": 13,
+          "price": 384.93
         },
         {
-          "ts": "2026-07-14T04:41:58.993821+00:00",
-          "ticker": "SEC",
+          "ts": "2026-07-15T04:42:00.011045+00:00",
+          "ticker": "MSFT",
           "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 5,
-          "price": null
+          "confidence": 55,
+          "engagement": 6,
+          "price": 390.99
         },
         {
-          "ts": "2026-07-14T07:47:57.608036+00:00",
-          "ticker": "SEC",
+          "ts": "2026-07-15T11:22:03.838840+00:00",
+          "ticker": "MSFT",
           "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 5,
-          "price": null
+          "confidence": 55,
+          "engagement": 6,
+          "price": 390.99
         },
         {
-          "ts": "2026-07-14T09:47:20.230487+00:00",
-          "ticker": "SEC",
+          "ts": "2026-07-15T13:13:57.747735+00:00",
+          "ticker": "MSFT",
           "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 5,
-          "price": null
+          "confidence": 55,
+          "engagement": 6,
+          "price": 390.99
         },
         {
-          "ts": "2026-07-14T15:16:58.940363+00:00",
-          "ticker": "SEC",
+          "ts": "2026-07-15T15:18:53.880873+00:00",
+          "ticker": "MSFT",
           "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 5,
-          "price": null
+          "confidence": 55,
+          "engagement": 6,
+          "price": 396.76
         },
         {
-          "ts": "2026-07-15T18:15:50.138383+00:00",
-          "ticker": "SEC",
+          "ts": "2026-07-15T18:55:49.091475+00:00",
+          "ticker": "MSFT",
           "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 5,
-          "price": null
+          "confidence": 58,
+          "engagement": 7,
+          "price": 395.83
         }
       ]
     }
@@ -3234,7 +3688,7 @@
         "date": "Wed, 15 Jul 2026 17:09",
         "id": "https://www.trumpstruth.org/statuses/40066",
         "companies": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "It is my Great Honor to endorse MAGA Warrior, Michael Alfonso, a young “STAR” who is running to represent the incredible people of Wisconsin’s 7th Congressional District. Michael is the son-in-law of our GREAT Secretary of Transportation, Sean Duffy, and the wonderful Rachel Campos-Duffy, of FoxNews, one of the most popular (and talented!) anchors in all of Television. His family has been fierce a",
@@ -3320,26 +3774,26 @@
     {
       "ticker": "AEHR",
       "name": "Aehr Test Systems, Inc.",
-      "price": 87.65,
+      "price": 86.56,
       "currency": "USD",
-      "chg_1d": 21.72,
-      "vol_ratio": 5.9,
+      "chg_1d": 20.21,
+      "vol_ratio": 6.1,
       "warum": [
-        "Aktie steigt aufgrund besserer Quartalszahlen.",
-        "Starke Umsatzprognose treibt das Interesse.",
-        "Hohe Handelsaktivität (Volumen 5.9x) zeigt Anlegerinteresse."
+        "Aktie steigt nach besser als erwarteten Quartalszahlen.",
+        "Starke Prognose für die Zukunft.",
+        "Hohe Handelsaktivität mit 6.1-fachem Volumen."
       ],
-      "bedeutung": "Einmaliges Ereignis, das auf positive Geschäftsentwicklung hinweist.",
+      "bedeutung": "Einmaliges Ereignis, das durch positive Unternehmensnachrichten ausgelöst wurde.",
       "sterne": 3,
       "risiken": [
-        "Marktschwankungen könnten den Kurs belasten.",
-        "Abhängigkeit von der Chipindustrie kann volatil sein.",
-        "Zukünftige Quartalszahlen müssen die Erwartungen erfüllen."
+        "Volatilität nach großen Kursbewegungen.",
+        "Abhängigkeit von der Chipindustrie.",
+        "Marktreaktionen auf zukünftige Quartalszahlen."
       ],
       "news": [
         {
-          "title": "Stock Market Today: Nasdaq, S&P 500 Weaken; PayPal Surges, But Sandisk, Chip Stocks Tumble (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-nasdaq%2C.html?.tsrc=rss",
+          "title": "Stock Market Today: Nasdaq Gains Steam; PayPal Surges, But Sandisk, Chip Stocks Tumble (Live Coverage)",
+          "link": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-nasdaq.html?.tsrc=rss",
           "date": "Wed, 15 Jul 2026",
           "tone": "pos"
         },
@@ -3354,89 +3808,55 @@
     {
       "ticker": "PYPL",
       "name": "PayPal Holdings, Inc.",
-      "price": 55.28,
+      "price": 55.49,
       "currency": "USD",
-      "chg_1d": 16.7,
-      "vol_ratio": 4.2,
+      "chg_1d": 17.14,
+      "vol_ratio": 4.5,
       "warum": [
-        "Aktie profitiert von positiven Marktbedingungen.",
-        "Starker Kursanstieg aufgrund von Marktnachrichten.",
-        "Finanzsektor zeigt Erholung, was PayPal zugutekommt."
+        "Aktie profitiert von einem möglichen Übernahmeangebot für Stripe.",
+        "Positive Marktstimmung mit großen Tech-Gewinnen.",
+        "Hohe Handelsaktivität mit 4.5-fachem Volumen."
       ],
-      "bedeutung": "Einmaliges Ereignis, könnte aber kurzfristig die Marktstimmung verbessern.",
+      "bedeutung": "Einmaliges Ereignis, das durch Übernahmegerüchte befeuert wird.",
       "sterne": 2,
       "risiken": [
-        "Regulatorische Herausforderungen im Finanzsektor.",
-        "Konkurrenzdruck von anderen Zahlungsanbietern.",
-        "Volatilität durch allgemeine Marktbedingungen."
+        "Ungewissheit über die Übernahme und deren Auswirkungen.",
+        "Konkurrenz im Zahlungsverkehrsmarkt.",
+        "Regulatorische Herausforderungen."
       ],
       "news": [
         {
-          "title": "Update: US Equity Indexes Edge Up After Producer Price Inflation Unexpectedly Drops, Iran Signals Red Sea Disruption",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-edge-producer-180300908.html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neg"
-        },
-        {
-          "title": "Sector Update: Financial Stocks Rise Wednesday Trading",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-wednesday-173952578.html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies Inc.",
-      "price": 403.34,
-      "currency": "USD",
-      "chg_1d": -11.85,
-      "vol_ratio": 1.2,
-      "warum": [
-        "Aktie fällt aufgrund eines breiteren Verkaufs im AI-Hardware-Sektor.",
-        "Negative Marktstimmung drückt die Kurse.",
-        "Schwaches Handelsvolumen (1.2x) zeigt geringes Interesse."
-      ],
-      "bedeutung": "Langfristige Herausforderungen im AI-Sektor könnten die Aktie belasten.",
-      "sterne": 1,
-      "risiken": [
-        "Wettbewerb im AI-Markt könnte zunehmen.",
-        "Abhängigkeit von Hardware-Verkäufen.",
-        "Negative Marktpsychologie könnte anhalten."
-      ],
-      "news": [
-        {
-          "title": "Dell leads broader AI hardware selloff as shares tumble 14%",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-leads-broader-ai-hardware-173339617.html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq, S&P 500 Weaken; PayPal Surges, But Sandisk, Chip Stocks Tumble (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-nasdaq%2C.html?.tsrc=rss",
+          "title": "PayPal Stock Soars After Report Reveals $53 Billion Stripe Buyout Proposal",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/paypal-stock-soars-report-reveals-183501597.html?.tsrc=rss",
           "date": "Wed, 15 Jul 2026",
           "tone": "pos"
+        },
+        {
+          "title": "Equity Markets Rise Intraday as Big Tech Gains",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/equity-markets-rise-intraday-big-182845834.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
         }
       ]
     },
     {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics, Inc.",
-      "price": 4.43,
+      "price": 4.65,
       "currency": "USD",
-      "chg_1d": 12.72,
-      "vol_ratio": 2.0,
+      "chg_1d": 18.32,
+      "vol_ratio": 2.3,
       "warum": [
-        "Aktie steigt nach positiver Unternehmenspräsentation.",
-        "Hohe Jahresperformance (74%) zieht Anleger an.",
-        "Diskussion über Wettbewerbsfähigkeit im Gesundheitssektor."
+        "Aktie steigt nach Aktualisierung der Unternehmenspräsentation.",
+        "Hohe Jahresperformance von 74%.",
+        "Diskussion über zukünftige Kaufgelegenheiten."
       ],
-      "bedeutung": "Langfristiger Treiber, wenn das Unternehmen weiterhin Fortschritte macht.",
+      "bedeutung": "Langfristiger Treiber durch zunehmendes Interesse an Biotherapeutika.",
       "sterne": 2,
       "risiken": [
-        "Ergebnisse klinischer Studien könnten enttäuschen.",
-        "Marktzugang und Zulassungen sind unsicher.",
-        "Volatilität durch Marktbedingungen im Biotech-Sektor."
+        "Abhängigkeit von klinischen Studien und deren Ergebnissen.",
+        "Marktsättigung im Biotech-Sektor.",
+        "Regulatorische Hürden."
       ],
       "news": [
         {
@@ -3454,36 +3874,70 @@
       ]
     },
     {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "price": 402.45,
+      "currency": "USD",
+      "chg_1d": -12.04,
+      "vol_ratio": 1.3,
+      "warum": [
+        "Aktie fällt stark im Zuge eines breiteren AI-Hardware-Verkaufs.",
+        "Negative Marktstimmung trotz positiver Nasdaq-Entwicklung.",
+        "Geringes Handelsvolumen von 1.3x."
+      ],
+      "bedeutung": "Einmaliges Ereignis, das durch Marktvolatilität verursacht wird.",
+      "sterne": 1,
+      "risiken": [
+        "Anhaltende Marktunsicherheit.",
+        "Rückgang der Nachfrage nach Hardware.",
+        "Wettbewerbsdruck im Technologiemarkt."
+      ],
+      "news": [
+        {
+          "title": "Stock Market Today: Nasdaq Gains Steam; PayPal Surges, But Sandisk, Chip Stocks Tumble (Live Coverage)",
+          "link": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Dell leads broader AI hardware selloff as shares tumble 14%",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-leads-broader-ai-hardware-173339617.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
-      "price": 1620.78,
+      "price": 1592.6,
       "currency": "USD",
-      "chg_1d": -7.8,
-      "vol_ratio": 1.2,
+      "chg_1d": -9.4,
+      "vol_ratio": 1.3,
       "warum": [
-        "Aktie fällt im Zuge des allgemeinen Rückgangs bei Speicheraktien.",
-        "Negative Marktstimmung drückt die Kurse.",
-        "Geringes Handelsvolumen (1.2x) zeigt Desinteresse."
+        "Aktie fällt im Kontext eines breiten Rückgangs bei Speicheraktien.",
+        "Negative Marktstimmung trotz positiver Nasdaq-Entwicklung.",
+        "Geringes Handelsvolumen von 1.3x."
       ],
-      "bedeutung": "Einmaliges Ereignis, könnte jedoch auf langfristige Probleme im Sektor hinweisen.",
+      "bedeutung": "Einmaliges Ereignis, das durch Markttrends beeinflusst wird.",
       "sterne": 1,
       "risiken": [
         "Abhängigkeit von der Nachfrage nach Speicherlösungen.",
-        "Preisdruck durch Wettbewerber.",
-        "Marktschwankungen könnten die Aktie weiter belasten."
+        "Preisdruck in der Branche.",
+        "Marktsättigung."
       ],
       "news": [
+        {
+          "title": "Stock Market Today: Nasdaq Gains Steam; PayPal Surges, But Sandisk, Chip Stocks Tumble (Live Coverage)",
+          "link": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+          "date": "Wed, 15 Jul 2026",
+          "tone": "pos"
+        },
         {
           "title": "Is This Why Memory Stocks Are Plunging?",
           "link": "https://finance.yahoo.com/m/8ee5b847-f107-3228-a9e2-816b0ac8b85a/is-this-why-memory-stocks-are.html?.tsrc=rss",
           "date": "Wed, 15 Jul 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq, S&P 500 Weaken; PayPal Surges, But Sandisk, Chip Stocks Tumble (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-nasdaq%2C.html?.tsrc=rss",
-          "date": "Wed, 15 Jul 2026",
-          "tone": "pos"
         }
       ]
     }
@@ -3495,18 +3949,18 @@
       "groesse": "€12.5bn",
       "branche": "Lebensmittellieferung",
       "warum": [
-        "Erweiterung des Serviceangebots im Bereich Lebensmittellieferung",
-        "Stärkung der Marktposition in Europa",
-        "Zugang zu neuen Kunden und Märkten"
+        "Erweiterung des Dienstleistungsangebots",
+        "Zugang zu neuen Märkten",
+        "Stärkung der Wettbewerbsposition"
       ],
       "synergien": [
-        "Optimierung der Logistik und Lieferketten",
-        "Cross-Selling von Dienstleistungen"
+        "Optimierung der Lieferketten",
+        "Cross-Selling-Möglichkeiten zwischen den Plattformen"
       ],
       "risiken": [
-        "Kartellrechtliche Bedenken in verschiedenen Märkten",
+        "Kartellrechtliche Bedenken",
         "Integrationsrisiko aufgrund unterschiedlicher Unternehmenskulturen",
-        "Wettbewerbsdruck von anderen Lieferdiensten"
+        "Abhängigkeit von regulatorischen Rahmenbedingungen in verschiedenen Ländern"
       ],
       "einordnung": "strategisch sinnvoll ✅ | teuer ⚠️ | Wachstumsdeal",
       "link": "https://www.ft.com/content/c15115ea-7386-4f44-9643-f95f58187514",
@@ -3517,21 +3971,21 @@
     {
       "kaeufer": "Stripe und Advent",
       "ziel": "PayPal",
-      "groesse": "> $53 billion",
+      "groesse": "mehr als $53 billion",
       "branche": "Finanztechnologie",
       "warum": [
-        "Erweiterung des Kundenstamms und der Marktanteile",
-        "Synergien durch kombinierte Technologien und Dienstleistungen",
-        "Stärkung der Wettbewerbsfähigkeit gegenüber anderen Zahlungsdienstleistern"
+        "Erweiterung des Kundenstamms",
+        "Stärkung der Marktposition im Zahlungsverkehr",
+        "Zugang zu neuen Technologien"
       ],
       "synergien": [
-        "Integration von Zahlungsplattformen",
-        "Erweiterung des Angebots an Finanzdienstleistungen"
+        "Kombination von Technologien und Plattformen",
+        "Erhöhung der Marktanteile im E-Commerce"
       ],
       "risiken": [
-        "Kartellrechtliche Herausforderungen",
-        "Hohe Integrationskosten und -aufwand",
-        "Mögliche Ablehnung durch Aktionäre oder Regulierungsbehörden"
+        "Kartellrechtliche Bedenken",
+        "Integrationsrisiko",
+        "Mögliche negative Reaktionen von Investoren"
       ],
       "einordnung": "strategisch sinnvoll ✅ | teuer ⚠️ | Wachstumsdeal",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeTJ6Wng1a0VaQXRFS3dXYml0Vk1TWTZEYWxOTElCNzJhNU5xamNacW0yczJVT3RZZ2oxcnE0VVhkTEYtS1FZWFIxZTJHNjNaXzVoci00aTNGcEFpTFRXcE1xaVA1cEZ1ZmFKZWRKcm1LcU0wUGZIRXJEMDdXaUM5ektPWUhaQU5mZmMxdWZIYTB3a2hqWlpfR3d3V0tIQWs0SmhKcVpuTVdfbS1VVEx2RjI5RXVkTFk?oc=5",
