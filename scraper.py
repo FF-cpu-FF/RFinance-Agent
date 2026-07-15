@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v12 – scraper.py
+Reddit Finanz-Agent v13.1 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -27,7 +27,7 @@ SUBREDDITS = [
     "wallstreetbets",
     "Ameisenstrassenwetten",
     "TrumpsTrades",
-    "Aktien",
+    "wallstreetbetsGER",
 ]
 
 SORT    = "hot"
@@ -87,6 +87,264 @@ COMPANY_MAP = {
     "caterpillar": "CAT", "carrier": "CARR", "truth social": "DJT",
     "trump media": "DJT", "djt": "DJT", "palantir": "PLTR", "oracle": "ORCL",
 }
+
+
+EVENT_KW = ["beat","beats","fda","approval","approved","acquisition","acquire",
+    "merger","upgrade","downgrade","contract","partnership","guidance","launch",
+    "buyout","takeover","stake","wins","order","deal","invests","split",
+    "spinoff","recall","lawsuit","probe","insider","raises","surges","soars",
+    "plunges","earnings"]
+
+
+def gh_chat(prompt, max_tokens=1000):
+    """Generischer GitHub-Models-Aufruf. Gibt Text oder None zurück."""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if not token:
+        return None
+    payload = json.dumps({
+        "model": "openai/gpt-4o-mini",
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": max_tokens,
+        "temperature": 0.4,
+    }).encode("utf-8")
+    try:
+        req = urllib.request.Request(
+            "https://models.github.ai/inference/chat/completions",
+            data=payload, method="POST",
+            headers={"Authorization": f"Bearer {token}",
+                     "Content-Type": "application/json",
+                     "User-Agent": "FinanzAgent/13.0"})
+        with urllib.request.urlopen(req, timeout=35) as resp:
+            data = json.loads(resp.read().decode())
+        text = data["choices"][0]["message"]["content"].strip()
+        return re.sub(r"^```(json)?|```$", "", text, flags=re.M).strip()
+    except Exception as e:
+        print(f"    (KI-Aufruf fehlgeschlagen: {e})")
+        return None
+
+
+# ── 🔥 Spannende Aktien des Tages ────────────────────────────────────────────
+
+def fetch_trending(max_n=10):
+    """Yahoo Trending-Ticker (US) als Kandidaten-Universum."""
+    url = "https://query1.finance.yahoo.com/v1/finance/trending/US?count=20"
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            data = json.loads(resp.read().decode())
+        quotes = data["finance"]["result"][0].get("quotes", [])
+        symbols = [q.get("symbol", "") for q in quotes]
+        clean = [s for s in symbols
+                 if s and s.isalpha() and 1 < len(s) <= 5 and s not in SKIP]
+        return clean[:max_n]
+    except Exception as e:
+        print(f"  ✗ Trending-Liste: {e}")
+        return []
+
+
+def build_spannende_aktien():
+    """Story-getriebene Bewegungen statt langweiliger Top-Gainer-Liste."""
+    candidates = []
+    for sym in fetch_trending(10):
+        vol = volume_profile(sym)
+        time.sleep(0.6)
+        if not vol:
+            continue
+        news = fetch_news(sym, 3)
+        time.sleep(0.5)
+        has_event = any(
+            any(k in (n["title"] or "").lower() for k in EVENT_KW)
+            for n in news)
+        chg = vol.get("chg_1d") or 0
+        vr  = vol.get("vol_ratio") or 0
+        # Filter: nur mit Story-Kriterium
+        if abs(chg) >= 8 or vr >= 2 or has_event:
+            candidates.append({
+                "ticker": sym, "name": vol.get("name", sym),
+                "price": vol.get("price"), "currency": vol.get("currency", "USD"),
+                "chg_1d": chg, "vol_ratio": vr, "has_event": has_event,
+                "news": news,
+                "_score": abs(chg) + vr * 3 + (5 if has_event else 0),
+            })
+    candidates.sort(key=lambda x: x["_score"], reverse=True)
+    picks = candidates[:5]
+    if not picks:
+        return []
+
+    # KI-Einordnung (1 Batch-Aufruf für alle)
+    lines = []
+    for p in picks:
+        heads = "; ".join(n["title"] for n in p["news"][:3]) or "keine Headlines"
+        lines.append(f"- {p['ticker']} ({p['name']}): {p['chg_1d']:+}% heute, "
+                     f"Volumen {p['vol_ratio']}x. News: {heads}")
+    prompt = (
+        "Du bist ein nüchterner Finanzanalyst. Für jede Aktie unten, "
+        "basierend NUR auf den gelieferten Daten und Headlines:\n"
+        + "\n".join(lines) +
+        "\n\nAntworte NUR mit validem JSON-Array ohne Markdown, je Aktie ein Objekt:\n"
+        '[{"ticker": "...", '
+        '"warum": ["2-4 kurze Stichpunkte Deutsch: was treibt die Aktie heute (aus den Headlines abgeleitet)"], '
+        '"bedeutung": "1 Satz: einmaliges Ereignis oder langfristiger Treiber?", '
+        '"sterne": 1 bis 3 (1=kurzfristiger Momentum-Trade, 2=Watchlist, 3=langfristig interessant), '
+        '"risiken": ["2-3 kurze konkrete Risiken"]}]'
+    )
+    parsed = None
+    text = gh_chat(prompt, 1100)
+    if text:
+        try:
+            parsed = {x.get("ticker"): x for x in json.loads(text) if isinstance(x, dict)}
+        except Exception:
+            parsed = None
+
+    out = []
+    for p in picks:
+        ai = (parsed or {}).get(p["ticker"], {})
+        warum = ai.get("warum") or [
+            n["title"][:80] for n in p["news"][:2] if n.get("title")
+        ] or ["Ungewöhnliche Kurs-/Volumenbewegung ohne klare Headline"]
+        out.append({
+            "ticker": p["ticker"], "name": p["name"],
+            "price": p["price"], "currency": p["currency"],
+            "chg_1d": p["chg_1d"], "vol_ratio": p["vol_ratio"],
+            "warum": warum[:4],
+            "bedeutung": ai.get("bedeutung", "Einordnung nicht verfügbar."),
+            "sterne": min(3, max(1, int(ai.get("sterne", 1 + (1 if p["has_event"] else 0))))),
+            "risiken": (ai.get("risiken") or
+                        ["Hohe Volatilität nach starker Bewegung",
+                         "Nachrichtenlage kann schnell drehen"])[:3],
+            "news": p["news"][:2],
+        })
+    return out
+
+
+# ── 🤝 M&A Deal-Tracker ──────────────────────────────────────────────────────
+
+MA_KW = ["acquir", "merger", "takeover", "buyout", "to buy ", "übern", "buys ",
+         "agrees to buy", "all-cash", "all-stock"]
+MA_BLOCK = ["denies", "rules out", "not for sale", "rumor debunked"]
+
+
+def _parse_rss_items(content, source_label, max_n):
+    """Generischer RSS-Item-Parser (Google News & FT nutzen <item>)."""
+    items = []
+    try:
+        root = ET.fromstring(content)
+        for item in root.iter("item"):
+            title = (item.findtext("title", "") or "").strip()
+            if title:
+                items.append({
+                    "title": title[:160],
+                    "link":  item.findtext("link", "") or "",
+                    "date":  (item.findtext("pubDate", "") or "")[:16],
+                    "source": source_label,
+                })
+            if len(items) >= max_n:
+                break
+    except Exception:
+        pass
+    return items
+
+
+def fetch_ma_headlines(max_n=6):
+    """M&A-Headlines aus mehreren Quellen: FT (Companies + Markets) + Google News."""
+    feeds = [
+        ("https://www.ft.com/companies?format=rss", "FT"),
+        ("https://www.ft.com/markets?format=rss",   "FT"),
+        (("https://news.google.com/rss/search?"
+          "q=(acquisition%20OR%20merger%20OR%20takeover)%20billion"
+          "&hl=en-US&gl=US&ceid=US:en"), "Google News"),
+    ]
+    collected = []
+    for url, label in feeds:
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                content = resp.read().decode("utf-8", errors="replace")
+            collected += _parse_rss_items(content, label, 20)
+            time.sleep(1)
+        except Exception as e:
+            print(f"  ✗ {label}-Feed: {e}")
+
+    # Nur M&A-relevante Headlines, Dementis raus, deduplizieren
+    items, seen = [], set()
+    # FT zuerst sortieren (Qualitätsquelle bevorzugen)
+    collected.sort(key=lambda x: 0 if x["source"] == "FT" else 1)
+    for it in collected:
+        tl = it["title"].lower()
+        if not any(k in tl for k in MA_KW):
+            continue
+        if any(b in tl for b in MA_BLOCK):
+            continue
+        key = tl[:40]
+        if key in seen:
+            continue
+        seen.add(key)
+        items.append(it)
+        if len(items) >= max_n:
+            break
+    src_counts = {}
+    for it in items:
+        src_counts[it["source"]] = src_counts.get(it["source"], 0) + 1
+    if items:
+        print(f"  ✓ M&A-Headlines: {', '.join(f'{v}× {k}' for k, v in src_counts.items())}")
+    return items
+
+
+def build_ma_tracker():
+    heads = fetch_ma_headlines(5)
+    if not heads:
+        return []
+    prompt = (
+        "Du bist ein M&A-Analyst. Analysiere diese aktuellen Deal-Headlines. "
+        "Nutze NUR Informationen aus den Headlines selbst – wenn Dealgröße, "
+        "Prämie oder Zahlungsart nicht genannt sind, schreibe exakt 'k.A.'. "
+        "Dein Branchen-/Firmenwissen darfst du nur für die strategische "
+        "Einordnung nutzen, nicht für Zahlen.\n\nHeadlines:\n"
+        + "\n".join(f"{i+1}. {h['title']}" for i, h in enumerate(heads)) +
+        "\n\nAntworte NUR mit validem JSON-Array ohne Markdown, je Deal ein Objekt "
+        "(nur Headlines mit klar erkennbarem Käufer UND Ziel aufnehmen):\n"
+        '[{"headline_nr": 1, "kaeufer": "...", "ziel": "...", "groesse": "... oder k.A.", '
+        '"branche": "...", "warum": ["2-3 strategische Motive"], '
+        '"synergien": ["1-2 mögliche Synergien"], '
+        '"risiken": ["2-3 Risiken, z.B. Kartellrecht, Integrationsrisiko"], '
+        '"einordnung": "strategisch sinnvoll ✅ | teuer ⚠️ | defensiver Deal | Wachstumsdeal | Konsolidierung"}]'
+    )
+    parsed = []
+    text = gh_chat(prompt, 1300)
+    if text:
+        try:
+            parsed = [x for x in json.loads(text) if isinstance(x, dict)]
+        except Exception:
+            parsed = []
+
+    out = []
+    if parsed:
+        for deal in parsed[:4]:
+            nr = deal.get("headline_nr")
+            src = heads[nr - 1] if isinstance(nr, int) and 1 <= nr <= len(heads) else {}
+            out.append({
+                "kaeufer":    str(deal.get("kaeufer", "k.A."))[:60],
+                "ziel":       str(deal.get("ziel", "k.A."))[:60],
+                "groesse":    str(deal.get("groesse", "k.A."))[:40],
+                "branche":    str(deal.get("branche", ""))[:40],
+                "warum":      (deal.get("warum") or [])[:3],
+                "synergien":  (deal.get("synergien") or [])[:2],
+                "risiken":    (deal.get("risiken") or [])[:3],
+                "einordnung": str(deal.get("einordnung", ""))[:60],
+                "link":       src.get("link", ""),
+                "date":       src.get("date", ""),
+                "headline":   src.get("title", ""),
+                "source":     src.get("source", ""),
+            })
+    else:
+        # Fallback ohne KI: nur Headlines listen
+        for h in heads[:4]:
+            out.append({"kaeufer": "", "ziel": "", "groesse": "k.A.", "branche": "",
+                        "warum": [], "synergien": [], "risiken": [],
+                        "einordnung": "", "link": h["link"],
+                        "date": h["date"], "headline": h["title"],
+                        "source": h.get("source", "")})
+    return out
 
 
 # ── Trump Truth-Social-Tracker ───────────────────────────────────────────────
@@ -935,7 +1193,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v12   |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v13.1 |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
@@ -1148,6 +1406,16 @@ def run():
     if trump["market_hits"]:
         print(f"  🦅 {trump['market_hits']} Post(s) mit Firmen-Erwähnungen!")
 
+    # 🔥 Spannende Aktien des Tages
+    print("\nSuche spannende Story-Aktien (Trending + Filter)...")
+    spannende = build_spannende_aktien()
+    print(f"  🔥 {len(spannende)} Aktien mit Story gefunden")
+
+    # 🤝 M&A Deal-Tracker
+    print("\nLade M&A-Deals...")
+    ma_deals = build_ma_tracker()
+    print(f"  🤝 {len(ma_deals)} Deals analysiert")
+
     output = {
         "generated_at":    now_iso,
         "total_posts":     total_posts,
@@ -1158,6 +1426,8 @@ def run():
         "history_evaluated": evaluated[-40:],
         "squeeze_radar":   radar,
         "trump_tracker":   trump,
+        "spannende_aktien": spannende,
+        "ma_deals":        ma_deals,
     }
 
     os.makedirs("docs", exist_ok=True)
