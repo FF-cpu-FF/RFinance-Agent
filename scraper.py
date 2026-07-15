@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v11 – scraper.py
+Reddit Finanz-Agent v12 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -245,7 +245,9 @@ def fetch_subreddit_rss(sub, sort="hot", limit=50):
                 title = entry.findtext("atom:title", "", ns)
                 content_el = entry.find("atom:content", ns)
                 body = re.sub(r"<[^>]+>", " ", (content_el.text or "") if content_el is not None else "")
-                posts.append({"title": title, "selftext": body})
+                link_el = entry.find("atom:link", ns)
+                url = link_el.get("href", "") if link_el is not None else ""
+                posts.append({"title": title, "selftext": body, "url": url})
             if posts:
                 print(f"  ✓ r/{sub}: {len(posts)} Posts geladen")
                 return posts
@@ -868,7 +870,8 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         f"Reddit: {mentions} Mentions (Δ {delta:+}), Sentiment {sentiment:+}, "
         f"Momentum {momentum}/100 ({growth_info}), Einstufung: {hype_typ}. "
         f"Bull: {', '.join(bull_case) or 'keine'}. Bear: {', '.join(bear_case) or 'keine'}.\n"
-        f"Reddit-Post-Titel:\n" + "\n".join(f"- {t}" for t in (titles or [])[:10]) + "\n"
+        f"Reddit-Post-Titel (nummeriert):\n"
+        + "\n".join(f"{i+1}. {t}" for i, t in enumerate((titles or [])[:10])) + "\n"
         f"Markt: {kurs_info}. Verdict: {verdict}. Empfehlung: {rec}.\n"
         f"News: {news_info}\n\n"
         f"Antworte NUR mit validem JSON ohne Markdown:\n"
@@ -881,6 +884,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         f'{{"emoji": "passendes Emoji", "titel": "kurzer verständlicher Thementitel (2-5 Wörter)", '
         f'"anteil_pct": geschätzter Anteil an der Diskussion in Prozent (Summe max 100), '
         f'"beitraege": geschätzte Anzahl Posts zu diesem Thema (Summe max {mentions}), '
+        f'"posts": [Nummern der zugehörigen Post-Titel aus der nummerierten Liste, max 3], '
         f'"erklaerung": "1 Satz Deutsch was die Community dazu diskutiert"}}], '
         f'"analyse": "Ausführliche eigenständige Unternehmensanalyse, 350-500 Wörter Deutsch, '
         f'Fließtext in 4-5 Absätzen (Absätze mit \\n\\n trennen), keine Aufzählungen. Struktur: '
@@ -931,7 +935,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v11   |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v12   |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
@@ -945,7 +949,7 @@ def run():
     ticker_data = defaultdict(lambda: {
         "bull": 0, "bear": 0, "mentions": 0, "engagement": 0,
         "sources": [], "titles": [], "bull_hits": [], "bear_hits": [],
-        "squeeze_hits": 0,
+        "squeeze_hits": 0, "post_refs": [],
     })
 
     total_posts = 0
@@ -979,6 +983,8 @@ def run():
                     title = p.get("title", "")[:110]
                     if title:
                         d["titles"].append(title)
+                        d["post_refs"].append({"title": title,
+                                               "url": p.get("url", "")})
 
     # Scan in Historie eintragen (VOR den Timeline-Berechnungen)
     history["scans"].append({
@@ -1040,6 +1046,19 @@ def run():
                       if isinstance(t, dict) and len(str(t.get("titel", ""))) > 7
                       and str(t.get("titel", "")).strip().lower() not in GENERIC
                       and t.get("erklaerung")][:5]
+            # Post-Indizes der KI in echte Links übersetzen
+            refs = d["post_refs"]
+            for th in themen:
+                idxs = th.pop("posts", []) or []
+                links = []
+                for i in idxs:
+                    try:
+                        i = int(i)
+                        if 1 <= i <= len(refs) and refs[i-1].get("url"):
+                            links.append(refs[i-1])
+                    except (ValueError, TypeError):
+                        pass
+                th["links"] = links[:3]
             if not themen:
                 themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
             analyse = str(ai.get("analyse", "")).strip()
@@ -1079,6 +1098,7 @@ def run():
             "engagement":     round(d["engagement"]),
             "sources":        d["sources"],
             "titles":         d["titles"][:3],
+            "top_posts":      d["post_refs"][:5],
             "topics":         topics,
             "themen":         themen,
             "bull_case":      bull_case,
