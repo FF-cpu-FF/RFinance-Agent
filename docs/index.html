@@ -110,6 +110,13 @@ header h1{font-size:23px;font-weight:650;letter-spacing:-0.02em}
   background:var(--blue-bg);padding:1px 8px;border-radius:12px}
 .thema-count{font-size:10.5px;color:var(--text3)}
 .thema-erkl{font-size:11.5px;color:var(--text2);line-height:1.5}
+.thema-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:5px}
+.thema-links a{font-size:10.5px;color:var(--blue);text-decoration:none;
+  background:var(--blue-bg);padding:2px 10px;border-radius:10px;
+  max-width:280px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.thema-links a:hover{text-decoration:underline}
+.quote a{color:inherit;text-decoration:none}
+.quote a:hover{color:var(--blue)}
 
 /* Momentum / Hype Engine */
 .momentum-box{background:linear-gradient(135deg,rgba(167,139,250,0.08),rgba(167,139,250,0.02));
@@ -538,6 +545,9 @@ function buildCard(r, i) {
         ${th.beitraege != null ? `<span class="thema-count">${th.beitraege} Beiträge</span>` : ""}
       </div>
       <div class="thema-erkl">${th.erklaerung || ""}</div>
+      ${(th.links || []).length ? `<div class="thema-links">
+        ${th.links.map(l => `<a href="${l.url}" target="_blank" rel="noopener" title="${(l.title || "").replace(/"/g, "'")}">↗ ${(l.title || "Post").slice(0, 45)}${(l.title || "").length > 45 ? "…" : ""}</a>`).join("")}
+      </div>` : ""}
     </div>`).join("");
   const compPoints = (r.comparison?.points || []).map(pt => `<li>${pt}</li>`).join("");
 
@@ -637,7 +647,9 @@ function buildCard(r, i) {
           <span class="metric">Qualität <b>${r.quality_grade || "–"}</b></span>
           <span class="metric">r/${(r.sources || []).join(", r/")}</span>
         </div>
-        <div class="quote">"${(r.titles?.[0] || "").slice(0, 110)}"</div>
+        <div class="quote">${r.top_posts?.[0]?.url
+          ? `<a href="${r.top_posts[0].url}" target="_blank" rel="noopener">"${(r.titles?.[0] || "").slice(0, 110)}" ↗</a>`
+          : `"${(r.titles?.[0] || "").slice(0, 110)}"`}</div>
         ${themen ? `<div class="themen-label">🧠 Was sagt Reddit?</div>
         <div>${themen}</div>` : ""}
       </div>
