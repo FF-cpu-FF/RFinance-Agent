@@ -27,7 +27,7 @@ SUBREDDITS = [
     "wallstreetbets",
     "Ameisenstrassenwetten",
     "TrumpsTrades",
-    "wallstreetbetsGER",
+    "Aktien",
 ]
 
 SORT    = "hot"
