@@ -493,21 +493,24 @@ function render() {
       <details class="trump" ${hits ? "open" : ""}>
         <summary>🦅 Trump Truth-Social-Tracker
           <span class="sum-chip">${tt.posts.length} Posts</span>
-          ${hits ? `<span class="tp-company">💼 ${hits} mit Firmen-Erwähnung</span>` : `<span class="sum-chip">keine Firmen-Erwähnungen</span>`}
+          ${hits ? `<span class="tp-company">⚡ ${hits} marktrelevant</span>` : `<span class="sum-chip">nichts Marktrelevantes</span>`}
         </summary>
         <div class="trump-body">
           ${tt.posts.map(p => `
-            <div class="trump-post ${p.companies?.length ? "hit" : ""}">
+            <div class="trump-post ${(p.companies?.length || p.policy?.length) ? "hit" : ""}">
               <div class="tp-meta">
                 <span class="tp-date">${p.date || ""}</span>
+                ${p.source ? `<span class="sum-chip">${p.source}</span>` : ""}
                 ${p.is_new ? `<span class="tp-new">Neu</span>` : ""}
-                ${(p.companies || []).map(c => `<span class="tp-company">${c.name} · ${c.ticker}</span>`).join("")}
+                ${(p.companies || []).map(c => `<span class="tp-company">💼 ${c.name} · ${c.ticker}</span>`).join("")}
+                ${(p.policy || []).map(pl => `<span class="tp-company">${pl}</span>`).join("")}
               </div>
               <div class="tp-text">${(p.text || "").slice(0, 280)}${(p.text || "").length > 280 ? "…" : ""}
                 ${p.url ? ` <a href="${p.url}" target="_blank" rel="noopener">→ Original</a>` : ""}</div>
             </div>`).join("")}
-          <div class="trump-note">Quelle: trumpstruth.org (Archiv von Defending Democracy Together).
-            Firmen-Erkennung automatisch – Posts mit 💼-Markierung erwähnen börsennotierte Unternehmen.</div>
+          <div class="trump-note">Quellen: trumpstruth.org (Truth Social), whitehouse.gov (offizielle Statements &amp; Pressekonferenzen),
+            Google News (fängt marktrelevante X-Posts &amp; Äußerungen ein). 💼 = Firmen-Erwähnung, 🏛️ = marktrelevante Politik.
+            News-Meldungen erscheinen nur bei Marktrelevanz.</div>
         </div>
       </details>`;
   } else {
