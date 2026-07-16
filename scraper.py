@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v13.1 – scraper.py
+Reddit Finanz-Agent v14 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -85,8 +85,31 @@ COMPANY_MAP = {
     "mcdonald": "MCD", "walmart": "WMT", "target": "TGT", "netflix": "NFLX",
     "at&t": "T", "verizon": "VZ", "tsmc": "TSM", "softbank": "SFTBY",
     "caterpillar": "CAT", "carrier": "CARR", "truth social": "DJT",
-    "trump media": "DJT", "djt": "DJT", "palantir": "PLTR", "oracle": "ORCL",
+    "trump media": "DJT", "$djt": "DJT", "palantir": "PLTR", "oracle": "ORCL",
 }
+
+# Marktrelevante Politik-Themen (bewegen Märkte auch ohne Firmennennung)
+POLICY_KW = {
+    "tariff": "🏛️ Zölle", "tariffs": "🏛️ Zölle", "zoll": "🏛️ Zölle",
+    "trade deal": "🏛️ Handelsdeal", "trade agreement": "🏛️ Handelsdeal",
+    "sanction": "🏛️ Sanktionen", "federal reserve": "🏛️ Fed",
+    "interest rate": "🏛️ Zinsen", "jerome powell": "🏛️ Fed",
+    "tax cut": "🏛️ Steuern", "taxes": "🏛️ Steuern",
+    "chips act": "🏛️ Chips Act", "export control": "🏛️ Exportkontrollen",
+    "oil price": "🏛️ Öl", "opec": "🏛️ Öl", "drill": "🏛️ Energie",
+    "data center": "🏛️ Rechenzentren", "crypto": "🏛️ Krypto",
+    "bitcoin": "🏛️ Krypto", "pharma prices": "🏛️ Pharma",
+    "drug prices": "🏛️ Pharma", "auto industry": "🏛️ Autoindustrie",
+}
+
+
+def detect_policy(text):
+    t = text.lower()
+    hits = []
+    for kw, label in POLICY_KW.items():
+        if kw in t and label not in hits:
+            hits.append(label)
+    return hits[:3]
 
 
 EVENT_KW = ["beat","beats","fda","approval","approved","acquisition","acquire",
@@ -420,24 +443,82 @@ def fetch_trump_posts(max_posts=10):
         return []
 
 
+def fetch_whitehouse_items(max_n=5):
+    """Offizielle Statements/Reden/Pressebriefings vom Weißen Haus (RSS)."""
+    try:
+        req = urllib.request.Request("https://www.whitehouse.gov/feed/", headers=UA)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            content = resp.read().decode("utf-8", errors="replace")
+        items = _parse_rss_items(content, "Weißes Haus", max_n)
+        for it in items:
+            it["text"] = it.pop("title")
+            it["url"]  = it.pop("link")
+            it["id"]   = it["url"]
+        if items:
+            print(f"  ✓ Weißes Haus: {len(items)} Meldungen")
+        return items
+    except Exception as e:
+        print(f"  ✗ Weißes Haus: {e}")
+        return []
+
+
+def fetch_trump_news(max_n=8):
+    """Google News: fängt marktrelevante Trump-Äußerungen aus X, Pressekonferenzen etc. ein."""
+    url = ("https://news.google.com/rss/search?q=%22Trump%22"
+           "&hl=en-US&gl=US&ceid=US:en")
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            content = resp.read().decode("utf-8", errors="replace")
+        items = _parse_rss_items(content, "News (X/Presse)", 25)
+        out = []
+        for it in items:
+            it["text"] = it.pop("title")
+            it["url"]  = it.pop("link")
+            it["id"]   = it["url"]
+            out.append(it)
+            if len(out) >= max_n:
+                break
+        return out
+    except Exception as e:
+        print(f"  ✗ Trump-News: {e}")
+        return []
+
+
 def build_trump_tracker(history):
-    """Holt Posts, markiert neue seit letztem Scan, erkennt Firmen-Erwähnungen."""
-    posts = fetch_trump_posts(10)
-    if not posts:
-        return {"posts": [], "market_hits": 0}
+    """Truth Social + Weißes Haus + News. Erkennt Firmen- UND Politik-Relevanz."""
+    posts = fetch_trump_posts(8)
+    for p in posts:
+        p["source"] = "Truth Social"
+    wh = fetch_whitehouse_items(5)
+    news = fetch_trump_news(10)
 
     seen = set(history.get("trump_seen", []))
     market_hits = 0
     out = []
-    for p in posts:
-        companies = analyze_trump_post(p["text"])
-        is_new = p["id"] not in seen
-        if companies:
-            market_hits += 1
-        out.append({**p, "companies": companies, "is_new": is_new})
 
-    history["trump_seen"] = (list(seen) + [p["id"] for p in posts])[-300:]
-    return {"posts": out, "market_hits": market_hits}
+    for p in posts + wh + news:
+        companies = analyze_trump_post(p.get("text", ""))
+        policy = detect_policy(p.get("text", ""))
+        relevant = bool(companies or policy)
+        # News-Quellen nur aufnehmen wenn marktrelevant (sonst Politik-Rauschen)
+        if p.get("source") in ("News (X/Presse)", "Weißes Haus") and not relevant:
+            continue
+        if relevant:
+            market_hits += 1
+        out.append({
+            "text": p.get("text", "")[:400],
+            "url": p.get("url", ""),
+            "date": p.get("date", ""),
+            "source": p.get("source", ""),
+            "companies": companies,
+            "policy": policy,
+            "is_new": p.get("id", "") not in seen,
+        })
+
+    all_ids = [p.get("id", "") for p in posts + wh + news if p.get("id")]
+    history["trump_seen"] = (list(seen) + all_ids)[-400:]
+    return {"posts": out[:14], "market_hits": market_hits}
 
 KW_LABELS = {
     "squeeze": "Short-Squeeze-Spekulation", "moon": "Kursfantasie", "rocket": "Kursfantasie",
@@ -1193,7 +1274,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v13.1 |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v14   |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
