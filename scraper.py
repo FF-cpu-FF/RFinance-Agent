@@ -1,5 +1,5 @@
 """
-Reddit Finanz-Agent v14 – scraper.py
+Reddit Finanz-Agent v15 – scraper.py
 v4-Features (Reddit-Signal, Marktabgleich, GitHub-Models-KI-Fazit) PLUS:
   - Hype Engine: Mentions-Timeline über mehrere Tage (docs/history.json)
   - Momentum Score (0-100) aus Diskussions-Wachstum
@@ -747,6 +747,8 @@ def fetch_price_data(ticker):
     series_1d, _ = yahoo_chart(ticker, "1d", "15m")
     time.sleep(0.5)
     series_5d, _ = yahoo_chart(ticker, "5d", "60m")
+    time.sleep(0.5)
+    series_1y, _ = yahoo_chart(ticker, "1y", "1wk")
 
     closes = [p["c"] for p in series_1mo]
     price  = closes[-1]
@@ -762,9 +764,11 @@ def fetch_price_data(ticker):
         "chart_1d":  series_1d[-40:],
         "chart_5d":  series_5d[-60:],
         "chart_1mo": series_1mo,
+        "chart_1y":  series_1y[-56:],
         "chg_1d":    pct(price, series_1d[0]["c"]) if series_1d else 0.0,
         "chg_7d":    pct(price, closes[-6]) if len(closes) >= 6 else 0.0,
         "chg_1mo":   pct(price, closes[0]) if len(closes) >= 2 else 0.0,
+        "chg_1y":    pct(price, series_1y[0]["c"]) if series_1y else None,
     })
     sma20 = sum(closes[-20:]) / min(len(closes), 20)
     out["sma20_dist"] = pct(price, sma20)
@@ -1235,13 +1239,16 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
         f'Gehe dabei explizit auf 1-2 der Reddit-Thesen ein und bestätige oder widerlege sie. '
         f'Nutze für aktuelle Aussagen NUR die gelieferten Markt-/News-Daten, dein Firmenwissen nur für Grundsätzliches. '
         f'Markiere 4-6 zentrale Kernaussagen mit **doppelten Sternchen** (Beispiel: **HBM-Nachfrage bleibt der Haupttreiber**). '
-        f'Sei konkret und meinungsstark statt generisch."}}'
+        f'Sei konkret und meinungsstark statt generisch.", '
+        f'"konkurrenten": [2-4 Objekte: die wichtigsten Wettbewerber. Format: '
+        f'{{"name": "Firmenname", "ticker": "Ticker oder k.A.", '
+        f'"vergleich": "1 kurzer Satz: Stellung im Vergleich zu {ticker} (Marktanteil, Stärke, Schwäche)"}}]}}'
     )
 
     payload = json.dumps({
         "model": "openai/gpt-4o-mini",
         "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 2600,
+        "max_tokens": 2900,
         "temperature": 0.4,
     }).encode("utf-8")
 
@@ -1274,7 +1281,7 @@ def ai_analysis(ticker, name, sentiment, verdict, rec, price, mentions,
 def run():
     now_iso = datetime.now(timezone.utc).isoformat()
     print(f"\n{'='*50}")
-    print(f"Reddit Finanz-Agent v14   |  {now_iso[:16]} UTC")
+    print(f"Reddit Finanz-Agent v15   |  {now_iso[:16]} UTC")
     print(f"{'='*50}")
 
     check_ai_status()
@@ -1403,12 +1410,16 @@ def run():
             analyse = str(ai.get("analyse", "")).strip()
             if len(analyse) < 100:
                 analyse = ""
+            konkurrenten = [k for k in (ai.get("konkurrenten") or [])
+                            if isinstance(k, dict) and k.get("name")
+                            and k.get("vergleich")][:4]
         else:
             fazit = build_fazit(ticker, price.get("name", ticker), net,
                                 comparison["verdict"], rec, price, d["mentions"], delta)
             themen = fallback_themen(d["bull_hits"], d["bear_hits"], d["mentions"])
             gruende = anstieg_gruende_fallback(themen, news, delta)
             analyse = ""
+            konkurrenten = []
             fazit_quelle = "regelbasiert"
 
         # Empfehlung in Historie
@@ -1448,6 +1459,7 @@ def run():
             "fazit":          fazit,
             "fazit_quelle":   fazit_quelle,
             "analyse":        analyse,
+            "konkurrenten":   konkurrenten,
             "gruende":        gruende,
             "momentum":       momentum,
             "momentum_label": momentum_label(momentum),
