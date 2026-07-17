@@ -34,7 +34,7 @@ SORT    = "hot"
 LIMIT   = 50
 OUTPUT  = "docs/data.json"
 HISTORY = "docs/history.json"
-TOP_N   = 8
+TOP_N   = 6
 MAX_HIST_PRICE_FETCH = 12   # max. Kursabrufe für historische Auswertung
 UA      = {"User-Agent": "Mozilla/5.0 (compatible; FinanzAgent/5.0)"}
 
@@ -224,17 +224,50 @@ def build_spannende_aktien():
         ai = (parsed or {}).get(p["ticker"], {})
         warum = ai.get("warum") or [
             n["title"][:80] for n in p["news"][:2] if n.get("title")
-        ] or ["Ungewöhnliche Kurs-/Volumenbewegung ohne klare Headline"]
+        ] or ["Ungewöhnliche Kurs-/Volumenbewegung"]
+
+        # Regelbasierte Einordnung als Fallback
+        if ai.get("bedeutung"):
+            bedeutung = ai["bedeutung"]
+        else:
+            chg = abs(p["chg_1d"])
+            vr = p["vol_ratio"] or 0
+            if p["has_event"] and chg >= 8:
+                bedeutung = "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber."
+            elif p["has_event"]:
+                bedeutung = "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab."
+            elif chg >= 12:
+                bedeutung = f"Extreme Bewegung ({p['chg_1d']:+}%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens."
+            elif vr >= 3:
+                bedeutung = f"Handelsvolumen {vr}× über Normal – institutionelle Aktivität möglich, Ursache prüfen."
+            else:
+                bedeutung = "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten."
+
+        # Regelbasierte Sterne als Fallback
+        if ai.get("sterne"):
+            sterne = min(3, max(1, int(ai["sterne"])))
+        else:
+            sterne = 3 if (p["has_event"] and abs(p["chg_1d"]) >= 5) else 2 if p["has_event"] else 1
+
+        # Regelbasierte Risiken als Fallback
+        risiken = ai.get("risiken") or []
+        if not risiken:
+            risiken = ["Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"]
+            if p["chg_1d"] > 8:
+                risiken.append("Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich")
+            elif p["chg_1d"] < -8:
+                risiken.append("Fallender Kurs könnte weiteren Abwärtsdruck signalisieren")
+            if (p["vol_ratio"] or 0) >= 2:
+                risiken.append("Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten")
+
         out.append({
             "ticker": p["ticker"], "name": p["name"],
             "price": p["price"], "currency": p["currency"],
             "chg_1d": p["chg_1d"], "vol_ratio": p["vol_ratio"],
             "warum": warum[:4],
-            "bedeutung": ai.get("bedeutung", "Einordnung nicht verfügbar."),
-            "sterne": min(3, max(1, int(ai.get("sterne", 1 + (1 if p["has_event"] else 0))))),
-            "risiken": (ai.get("risiken") or
-                        ["Hohe Volatilität nach starker Bewegung",
-                         "Nachrichtenlage kann schnell drehen"])[:3],
+            "bedeutung": bedeutung,
+            "sterne": sterne,
+            "risiken": risiken[:3],
             "news": p["news"][:2],
         })
     return out
@@ -402,14 +435,25 @@ def fetch_trump_posts(max_posts=10):
         root = ET.fromstring(content)
         posts = []
         for item in root.iter("item"):
-            desc = item.findtext("description", "") or item.findtext("title", "")
-            text = re.sub(r"<[^>]+>", " ", desc).strip()
+            # Versuche mehrere Felder — Truth Social RSS ist inkonsistent
+            desc = item.findtext("description", "") or ""
+            title = item.findtext("title", "") or ""
+            encoded = item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded", "") or ""
+            raw = desc or encoded or title
+            text = re.sub(r"<[^>]+>", " ", raw).strip()
             text = re.sub(r"\s+", " ", text)
+            link = item.findtext("link", "") or ""
+            # Bei leeren Posts mit Link: Link als Inhalt anzeigen
+            if not text and link:
+                text = f"[Link geteilt] {link}"
+            # Komplett leere Posts überspringen
+            if not text or len(text) < 5:
+                continue
             posts.append({
                 "text": text[:400],
-                "url":  item.findtext("link", ""),
+                "url":  link,
                 "date": (item.findtext("pubDate", "") or "")[:22],
-                "id":   item.findtext("guid", "") or item.findtext("link", ""),
+                "id":   item.findtext("guid", "") or link or text[:40],
             })
             if len(posts) >= max_posts:
                 break
@@ -429,8 +473,11 @@ def fetch_trump_posts(max_posts=10):
         posts = []
         for p in data:
             text = re.sub(r"<[^>]+>", " ", p.get("content", "") or "").strip()
+            text = re.sub(r"\s+", " ", text)
+            if not text or len(text) < 5:
+                continue
             posts.append({
-                "text": re.sub(r"\s+", " ", text)[:400],
+                "text": text[:400],
                 "url":  p.get("url", ""),
                 "date": (p.get("created_at", "") or "")[:16].replace("T", " "),
                 "id":   str(p.get("id", "")),
