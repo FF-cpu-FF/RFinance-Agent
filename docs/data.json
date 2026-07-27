@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T17:30:14.867819+00:00",
+  "generated_at": "2026-07-27T19:13:27.711174+00:00",
   "total_posts": 250,
-  "unique_tickers": 170,
+  "unique_tickers": 172,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -30,10 +30,10 @@
       "name": "Micron Technology, Inc.",
       "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 63,
+      "confidence": 79,
       "sentiment": 4,
       "mentions": 6,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 18,
       "sources": [
         "wallstreetbets",
@@ -74,16 +74,12 @@
       ],
       "themen": [
         {
-          "emoji": "📉",
-          "titel": "Kursvolatilität analysieren",
+          "emoji": "📈",
+          "titel": "Wettbewerb im Speicherchip-Markt",
           "anteil_pct": 40,
           "beitraege": 3,
-          "erklaerung": "Die Community diskutiert die Gründe für die Kursbewegungen und die Auswirkungen auf Micron.",
+          "erklaerung": "Die Community diskutiert die Konkurrenzsituation zwischen Micron und SK Hynix und deren Einfluss auf die Marktposition.",
           "links": [
-            {
-              "title": "CME Group to Launch Single Stock Futures on July 27",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
-            },
             {
               "title": "Hold the Line or Cut and Run?",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
@@ -95,11 +91,11 @@
           ]
         },
         {
-          "emoji": "🛑",
-          "titel": "Short-Positionen im Fokus",
+          "emoji": "⚠️",
+          "titel": "Risiken einer Blasenbildung",
           "anteil_pct": 30,
           "beitraege": 2,
-          "erklaerung": "Es wird über die Risiken von Short-Positionen und deren Einfluss auf den Markt diskutiert.",
+          "erklaerung": "Es gibt Bedenken hinsichtlich einer möglichen Überbewertung von Micron und der allgemeinen Marktentwicklung.",
           "links": [
             {
               "title": "Im so fucking retarded",
@@ -113,14 +109,14 @@
         },
         {
           "emoji": "💡",
-          "titel": "Zukunft der Halbleiterindustrie",
+          "titel": "Chancen durch Call-Optionen",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Die Diskussion dreht sich um die zukünftigen Trends und Technologien im Halbleitersektor.",
+          "erklaerung": "Die Aktivität bei Call-Optionen wird als Indikator für potenzielle Kursgewinne und positive Marktbewegungen gesehen.",
           "links": [
             {
-              "title": "Frequency AI Ratio Tracker (FART) stategy",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
+              "title": "CME Group to Launch Single Stock Futures on July 27",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
             }
           ]
         }
@@ -135,7 +131,7 @@
       ],
       "price": {
         "available": true,
-        "price": 868.42,
+        "price": 894.3,
         "currency": "USD",
         "name": "Micron Technology, Inc.",
         "chart_1d": [
@@ -204,8 +200,36 @@
             "c": 868.95
           },
           {
-            "t": 1785173452,
-            "c": 868.68
+            "t": 1785173400,
+            "c": 871.74
+          },
+          {
+            "t": 1785174300,
+            "c": 881.68
+          },
+          {
+            "t": 1785175200,
+            "c": 885.12
+          },
+          {
+            "t": 1785176100,
+            "c": 884.66
+          },
+          {
+            "t": 1785177000,
+            "c": 883.9
+          },
+          {
+            "t": 1785177900,
+            "c": 892.74
+          },
+          {
+            "t": 1785178800,
+            "c": 893.43
+          },
+          {
+            "t": 1785179645,
+            "c": 894.3
           }
         ],
         "chart_5d": [
@@ -338,8 +362,16 @@
             "c": 868.95
           },
           {
-            "t": 1785173452,
-            "c": 868.68
+            "t": 1785173400,
+            "c": 884.66
+          },
+          {
+            "t": 1785177000,
+            "c": 893.43
+          },
+          {
+            "t": 1785179645,
+            "c": 894.3
           }
         ],
         "chart_1mo": [
@@ -416,8 +448,12 @@
             "c": 990.21
           },
           {
+            "t": 1784899800,
+            "c": 920.95
+          },
+          {
             "t": 1785159000,
-            "c": 868.42
+            "c": 894.3
           }
         ],
         "chart_1y": [
@@ -627,84 +663,84 @@
           },
           {
             "t": 1784520000,
-            "c": 990.21
+            "c": 920.95
           },
           {
             "t": 1785124800,
-            "c": 868.74
+            "c": 894.74
           }
         ],
-        "chg_1d": -5.93,
-        "chg_7d": 2.29,
-        "chg_1mo": -24.17,
-        "chg_1y": 728.01,
-        "sma20_dist": -9.99
+        "chg_1d": -3.13,
+        "chg_7d": 3.33,
+        "chg_1mo": -21.91,
+        "chg_1y": 752.69,
+        "sma20_dist": -7.22
       },
       "news": [
         {
-          "title": "Applied Materials Stock Keeps Winning Upgrades: Is Michael Burry Dead Wrong to Short This Semiconductor Gem?",
-          "link": "https://247wallst.com/investing/2026/07/27/applied-materials-stock-keeps-winning-upgrades-is-michael-burry-dead-wrong-to-short-this-semiconductor-gem/?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Michael Burry increases his bet against popular chip giant",
-          "link": "https://www.thestreet.com/investing/stocks/mu-micron-burry-increases-micron-stock-short-position-nvidia-caterpillar-soxx-tesla-palantir?.tsrc=rss",
+          "title": "Oracle Stock Is Down 64% in 10 Months. Is This the Best Buying Opportunity in AI -- or a Falling Knife?",
+          "link": "https://www.fool.com/investing/2026/07/27/oracle-stock-down-buy-opportunity-ai-trap/?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, and More Stocks That Explain Today’s Market",
+          "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and More Stocks That Explain Today’s Market",
           "link": "https://finance.yahoo.com/m/c397de15-047a-3e51-8ff2-89a83ea62d40/cxmt%2C-sandisk%2C-asml%2C-spacex%2C.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Chip stocks slide as China advances domestic lithography, memory production",
-          "link": "https://www.proactiveinvestors.com/companies/news/1096092/chip-stocks-slide-as-china-advances-domestic-lithography-memory-production-1096092.html?.tsrc=rss",
+          "title": "Inside China’s Blockbuster $484 Billion Memory Chip Debut",
+          "link": "https://finance.yahoo.com/m/40d81832-850a-3fcb-84bd-f1a7a4c227f7/inside-china%E2%80%99s-blockbuster.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Chinese memory chipmaker CXMT booms in IPO. Does US memory stand a chance?",
-          "link": "https://finance.yahoo.com/video/chinese-memory-chipmaker-cxmt-booms-in-ipo-does-us-memory-stand-a-chance-161109405.html?.tsrc=rss",
+          "title": "Memory-Chip Stocks Micron, SK Hynix Drop After China Rival's IPO",
+          "link": "https://finance.yahoo.com/m/6419fb14-d24c-390d-8353-4909937d409b/memory-chip-stocks-micron%2C-sk.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Why Micron Stock Just Dropped Again",
+          "link": "https://www.fool.com/investing/2026/07/27/why-micron-stock-just-dropped-again/?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         }
       ],
       "comparison": {
-        "verdict": "widerspricht",
+        "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+2.29%).",
-          "Schwacher Monat: -24.17%.",
-          "-9.99% unter SMA20 – technisch angeschlagen.",
-          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
+          "Kurs +3.33% über 7 Tage – Aufwärtsmomentum.",
+          "Schwacher Monat: -21.91%.",
+          "-7.22% unter SMA20 – technisch angeschlagen.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Reddit-Diskussion um Micron Technology dreht sich vor allem um die zukünftige Marktposition im Halbleitersektor und die Auswirkungen von Short-Positionierungen. Die Markt- und Nachrichtenlage zeigt eine gemischte Stimmung, wobei die Kursentwicklung und Short-Aktivitäten auf Unsicherheiten hindeuten. Die Empfehlung lautet, die Entwicklung weiterhin zu beobachten, da die fundamentalen Daten und die Reddit-Stimmung nicht eindeutig übereinstimmen.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die aktuelle Marktsituation und die Wettbewerbsbedingungen von Micron Technology. Die Markt- und Nachrichtenlage zeigt gemischte Signale, wobei die Kursentwicklung in den letzten Monaten eher negativ war. Die Empfehlung ist, die Situation weiterhin zu beobachten, da sowohl Chancen als auch Risiken bestehen.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicherlösungen, insbesondere DRAM und NAND-Flash-Speicher, und bedient eine Vielzahl von Märkten, darunter Personal Computer, Smartphones und Rechenzentren. Die Hauptkonkurrenten sind SK Hynix und Samsung, die beide über signifikante Marktanteile verfügen und in der Lage sind, Preisdruck auf Micron auszuüben. Micron hat sich jedoch durch technologische Innovationen und Kosteneffizienz einen soliden Platz im Markt erarbeitet.\n\nDie Wachstumstreiber für Micron in den nächsten 1-2 Jahren sind vor allem die steigende Nachfrage nach Speicherlösungen in den Bereichen Cloud-Computing und Künstliche Intelligenz. **Die zunehmende Digitalisierung und der Trend zur Automatisierung** in verschiedenen Industrien treiben die Nachfrage nach leistungsfähigen Speicherlösungen voran. Zudem könnten strategische Partnerschaften und Investitionen in neue Technologien das Wachstum weiter fördern.\n\nAllerdings gibt es auch zentrale Risiken, die Micron belasten könnten. Die Halbleiterindustrie ist stark zyklisch, was bedeutet, dass die Nachfrage und die Preise stark schwanken können. **Die Konkurrenz durch SK Hynix und Samsung** bleibt eine ständige Herausforderung, insbesondere in Zeiten, in denen die Preise unter Druck geraten. Zudem könnte eine mögliche wirtschaftliche Abkühlung die Nachfrage nach Halbleitern negativ beeinflussen.\n\nDie aktuelle Kurslage von Micron zeigt eine signifikante Volatilität, mit einem Rückgang von 24,17 % über den letzten Monat. Die Reddit-Diskussionen spiegeln diese Unsicherheiten wider, insbesondere die Bedenken über Short-Positionierungen, die durch die Aktivitäten von Michael Burry verstärkt werden. **Die Nachrichtenlage über Applied Materials und die allgemeine Marktentwicklung** deuten darauf hin, dass es sowohl Chancen als auch Risiken gibt, die die Marktstimmung beeinflussen.\n\nInsgesamt erscheint die Reddit-Stimmung teilweise gerechtfertigt, da die Unsicherheiten im Markt und die Diskussion über Short-Positionen die Anleger verunsichern. Die These, dass die Konkurrenz von SK Hynix eine Bedrohung darstellt, ist durchaus valide, da sie den Preisdruck erhöhen könnte. Dennoch bleibt die langfristige Perspektive für Micron aufgrund der wachsenden Nachfrage nach Speicherlösungen positiv, was eine Beobachtung der Aktie ratsam macht.",
+      "analyse": "Micron Technology, Inc. ist ein führender Anbieter von Speicherlösungen, insbesondere DRAM und NAND-Flash-Speicher, und steht im Wettbewerb mit Unternehmen wie SK Hynix, Samsung und Western Digital. Diese Wettbewerber haben starke Marktanteile und bieten ähnliche Produkte an, was Micron unter Druck setzt, innovativ zu bleiben und seine Kostenstruktur zu optimieren. **Die Nachfrage nach Speicherlösungen in den Bereichen Cloud-Computing und KI wird als wesentlicher Wachstumstreiber angesehen**, da Unternehmen zunehmend auf leistungsfähige Speicherlösungen angewiesen sind.\n\nIn den nächsten 1-2 Jahren könnte Micron von der steigenden Nachfrage nach Speicherchips profitieren, insbesondere im Hinblick auf die zunehmende Digitalisierung und den Bedarf an Hochgeschwindigkeitsdatenverarbeitung. **Die Entwicklung von KI-Anwendungen und das Wachstum im Bereich autonomer Fahrzeuge** könnten zusätzliche Chancen bieten, die Marktposition von Micron zu stärken. Dennoch bleibt die Branche zyklisch, und die Preise für Speicherchips unterliegen starken Schwankungen, was das Umsatzwachstum beeinträchtigen kann.\n\nZentrale Risiken für Micron sind die starke Wettbewerbssituation, insbesondere durch SK Hynix und Samsung, die Innovationsgeschwindigkeit und Preisdruck. **Die Möglichkeit einer Überbewertung und die Warnungen vor einer Blasenbildung** in der Technologiebranche könnten ebenfalls das Vertrauen der Investoren beeinträchtigen. Zudem könnten makroökonomische Faktoren wie Inflation und Zinsänderungen die Nachfrage nach Speicherlösungen negativ beeinflussen.\n\nDie aktuelle Kursentwicklung von Micron, mit einem Rückgang von 21,91 % über den letzten Monat, spiegelt eine gewisse Unsicherheit im Markt wider. Die Reddit-Diskussionen zeigen ein gemischtes Sentiment, wobei einige Investoren optimistisch über die Call-Optionen sind, während andere Bedenken hinsichtlich einer Überbewertung äußern. **Die Diskussion über die Wettbewerbsbedingungen mit SK Hynix ist besonders relevant**, da dies die zukünftige Marktposition von Micron erheblich beeinflussen könnte. Die Reddit-Stimmung könnte teilweise gerechtfertigt sein, da die Risiken und Chancen in der Branche klar erkennbar sind, jedoch sollten Anleger vorsichtig sein und die Entwicklungen genau beobachten.\n\nInsgesamt ist die aktuelle Situation von Micron ambivalent. Während es klare Chancen gibt, die durch die Nachfrage nach Speicherlösungen unterstützt werden, sind auch die Risiken durch Wettbewerb und mögliche Marktüberbewertungen nicht zu vernachlässigen. Anleger sollten daher eine abwartende Haltung einnehmen und die weitere Entwicklung genau verfolgen.",
       "konkurrenten": [
         {
           "name": "SK Hynix",
-          "ticker": "005930.KS",
-          "vergleich": "SK Hynix ist ein direkter Konkurrent mit ähnlichen Produkten und einem hohen Marktanteil im DRAM-Segment."
+          "ticker": "000660.KS",
+          "vergleich": "SK Hynix ist ein direkter Wettbewerber von Micron mit starkem Fokus auf DRAM und NAND, was den Preisdruck in der Branche erhöht."
         },
         {
           "name": "Samsung Electronics",
           "ticker": "005930.KS",
-          "vergleich": "Samsung ist der größte Anbieter im Speicherbereich und hat eine starke Marktstellung, die Micron unter Druck setzen kann."
+          "vergleich": "Samsung ist der Marktführer im Speicherchip-Segment und hat eine dominante Stellung, was Microns Wettbewerbsfähigkeit beeinträchtigen kann."
         },
         {
-          "name": "Kioxia",
-          "ticker": "k.A.",
-          "vergleich": "Kioxia ist ein bedeutender Anbieter von NAND-Flash-Speicher und stellt eine ernstzunehmende Konkurrenz dar."
+          "name": "Western Digital",
+          "ticker": "WDC",
+          "vergleich": "Western Digital bietet ebenfalls Speicherlösungen an, hat jedoch einen stärkeren Fokus auf HDDs und SSDs, was eine andere Marktposition darstellt."
         }
       ],
       "gruende": [
-        "Zunehmende Diskussion über Halbleiterpreise und Marktveränderungen.",
-        "Michael Burry's Short-Positionierung sorgt für Aufmerksamkeit.",
-        "Konkurrenzdruck durch Unternehmen wie SK Hynix."
+        "Aktuelle Diskussion über die Wettbewerbssituation mit SK Hynix.",
+        "Befürchtungen über eine mögliche Überbewertung und Blasenbildung.",
+        "Interesse an der Entwicklung von Call-Optionen als Zeichen für potenzielle Kursgewinne."
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -730,21 +766,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "C",
-      "quality_pct": 46,
+      "quality_pct": 42,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 59,
+        "markt": 63,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-26T22:51:33.573293+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 79,
-          "engagement": 15,
-          "price": 920.95
-        },
         {
           "ts": "2026-07-27T02:01:16.773881+00:00",
           "ticker": "MU",
@@ -784,791 +812,40 @@
           "confidence": 63,
           "engagement": 18,
           "price": 868.42
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc.",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 67,
-      "sentiment": 1,
-      "mentions": 5,
-      "mentions_delta": 0,
-      "engagement": 16,
-      "sources": [
-        "wallstreetbets"
-      ],
-      "titles": [
-        "CME Group to Launch Single Stock Futures on July 27",
-        "Hold the Line or Cut and Run?",
-        "Thank you, regards!"
-      ],
-      "top_posts": [
-        {
-          "title": "CME Group to Launch Single Stock Futures on July 27",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
         },
         {
-          "title": "Hold the Line or Cut and Run?",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
-        },
-        {
-          "title": "Thank you, regards!",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5y4aa/thank_you_regards/"
-        },
-        {
-          "title": "319k GOOGL Yolo",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5tkjj/319k_googl_yolo/"
-        },
-        {
-          "title": "Frequency AI Ratio Tracker (FART) stategy",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
-        }
-      ],
-      "topics": [
-        "Group",
-        "Launch",
-        "Single",
-        "Futures"
-      ],
-      "themen": [
-        {
-          "emoji": "📈",
-          "titel": "Kursfantasien und Strategien",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert über mögliche Kursgewinne und Strategien, um von der aktuellen Marktlage zu profitieren.",
-          "links": [
-            {
-              "title": "CME Group to Launch Single Stock Futures on July 27",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
-            },
-            {
-              "title": "319k GOOGL Yolo",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5tkjj/319k_googl_yolo/"
-            }
-          ]
-        },
-        {
-          "emoji": "⚠️",
-          "titel": "Risiken und Short-Positionen",
-          "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Es gibt Bedenken hinsichtlich der Short-Positionierungen und der Möglichkeit einer Blase im Markt.",
-          "links": [
-            {
-              "title": "Hold the Line or Cut and Run?",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
-            },
-            {
-              "title": "Frequency AI Ratio Tracker (FART) stategy",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
-            }
-          ]
-        },
-        {
-          "emoji": "🤔",
-          "titel": "Marktanalyse und Trends",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Die Nutzer bedanken sich für die Analysen und diskutieren die allgemeine Marktentwicklung.",
-          "links": [
-            {
-              "title": "Thank you, regards!",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5y4aa/thank_you_regards/"
-            }
-          ]
-        }
-      ],
-      "bull_case": [
-        "Kursfantasie"
-      ],
-      "bear_case": [
-        "Short-Positionierung",
-        "Blasen-Warnung"
-      ],
-      "price": {
-        "available": true,
-        "price": 326.73,
-        "currency": "USD",
-        "name": "Alphabet Inc.",
-        "chart_1d": [
-          {
-            "t": 1785159000,
-            "c": 328.61
-          },
-          {
-            "t": 1785159900,
-            "c": 327.77
-          },
-          {
-            "t": 1785160800,
-            "c": 329.7
-          },
-          {
-            "t": 1785161700,
-            "c": 326.47
-          },
-          {
-            "t": 1785162600,
-            "c": 324.92
-          },
-          {
-            "t": 1785163500,
-            "c": 327.49
-          },
-          {
-            "t": 1785164400,
-            "c": 329.45
-          },
-          {
-            "t": 1785165300,
-            "c": 328.22
-          },
-          {
-            "t": 1785166200,
-            "c": 327.61
-          },
-          {
-            "t": 1785167100,
-            "c": 328.52
-          },
-          {
-            "t": 1785168000,
-            "c": 327.95
-          },
-          {
-            "t": 1785168900,
-            "c": 327.9
-          },
-          {
-            "t": 1785169800,
-            "c": 327.29
-          },
-          {
-            "t": 1785170700,
-            "c": 326.57
-          },
-          {
-            "t": 1785171600,
-            "c": 326.89
-          },
-          {
-            "t": 1785172500,
-            "c": 326.74
-          },
-          {
-            "t": 1785173400,
-            "c": 326.77
-          },
-          {
-            "t": 1785173471,
-            "c": 326.75
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1784640600,
-            "c": 349.53
-          },
-          {
-            "t": 1784644200,
-            "c": 347.83
-          },
-          {
-            "t": 1784647800,
-            "c": 349.6
-          },
-          {
-            "t": 1784651400,
-            "c": 349.14
-          },
-          {
-            "t": 1784655000,
-            "c": 348.81
-          },
-          {
-            "t": 1784658600,
-            "c": 349.61
-          },
-          {
-            "t": 1784662200,
-            "c": 347.11
-          },
-          {
-            "t": 1784727000,
-            "c": 347.81
-          },
-          {
-            "t": 1784730600,
-            "c": 347.46
-          },
-          {
-            "t": 1784734200,
-            "c": 348.36
-          },
-          {
-            "t": 1784737800,
-            "c": 348.0
-          },
-          {
-            "t": 1784741400,
-            "c": 346.48
-          },
-          {
-            "t": 1784745000,
-            "c": 345.31
-          },
-          {
-            "t": 1784748600,
-            "c": 342.07
-          },
-          {
-            "t": 1784813400,
-            "c": 318.61
-          },
-          {
-            "t": 1784817000,
-            "c": 316.64
-          },
-          {
-            "t": 1784820600,
-            "c": 320.89
-          },
-          {
-            "t": 1784824200,
-            "c": 320.38
-          },
-          {
-            "t": 1784827800,
-            "c": 319.68
-          },
-          {
-            "t": 1784831400,
-            "c": 318.09
-          },
-          {
-            "t": 1784835000,
-            "c": 317.65
-          },
-          {
-            "t": 1784899800,
-            "c": 319.83
-          },
-          {
-            "t": 1784903400,
-            "c": 321.75
-          },
-          {
-            "t": 1784907000,
-            "c": 319.4
-          },
-          {
-            "t": 1784910600,
-            "c": 320.53
-          },
-          {
-            "t": 1784914200,
-            "c": 319.98
-          },
-          {
-            "t": 1784917800,
-            "c": 319.52
-          },
-          {
-            "t": 1784921400,
-            "c": 319.77
-          },
-          {
-            "t": 1785159000,
-            "c": 326.47
-          },
-          {
-            "t": 1785162600,
-            "c": 328.22
-          },
-          {
-            "t": 1785166200,
-            "c": 327.9
-          },
-          {
-            "t": 1785169800,
-            "c": 326.74
-          },
-          {
-            "t": 1785173400,
-            "c": 326.77
-          },
-          {
-            "t": 1785173471,
-            "c": 326.75
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1782739800,
-            "c": 353.65
-          },
-          {
-            "t": 1782826200,
-            "c": 357.37
-          },
-          {
-            "t": 1782912600,
-            "c": 361.21
-          },
-          {
-            "t": 1782999000,
-            "c": 359.91
-          },
-          {
-            "t": 1783344600,
-            "c": 366.46
-          },
-          {
-            "t": 1783431000,
-            "c": 367.03
-          },
-          {
-            "t": 1783517400,
-            "c": 361.92
-          },
-          {
-            "t": 1783603800,
-            "c": 358.89
-          },
-          {
-            "t": 1783690200,
-            "c": 357.18
-          },
-          {
-            "t": 1783949400,
-            "c": 352.51
-          },
-          {
-            "t": 1784035800,
-            "c": 359.51
-          },
-          {
-            "t": 1784122200,
-            "c": 370.92
-          },
-          {
-            "t": 1784208600,
-            "c": 354.46
-          },
-          {
-            "t": 1784295000,
-            "c": 346.77
-          },
-          {
-            "t": 1784554200,
-            "c": 351.99
-          },
-          {
-            "t": 1784640600,
-            "c": 347.15
-          },
-          {
-            "t": 1784727000,
-            "c": 342.09
-          },
-          {
-            "t": 1784813400,
-            "c": 317.69
-          },
-          {
-            "t": 1785159000,
-            "c": 326.73
-          }
-        ],
-        "chart_1y": [
-          {
-            "t": 1753675200,
-            "c": 189.13
-          },
-          {
-            "t": 1754280000,
-            "c": 201.42
-          },
-          {
-            "t": 1754884800,
-            "c": 203.9
-          },
-          {
-            "t": 1755489600,
-            "c": 206.09
-          },
-          {
-            "t": 1756094400,
-            "c": 212.91
-          },
-          {
-            "t": 1756699200,
-            "c": 235.0
-          },
-          {
-            "t": 1757304000,
-            "c": 240.8
-          },
-          {
-            "t": 1757908800,
-            "c": 254.72
-          },
-          {
-            "t": 1758513600,
-            "c": 246.54
-          },
-          {
-            "t": 1759118400,
-            "c": 245.35
-          },
-          {
-            "t": 1759723200,
-            "c": 236.57
-          },
-          {
-            "t": 1760328000,
-            "c": 253.3
-          },
-          {
-            "t": 1760932800,
-            "c": 259.92
-          },
-          {
-            "t": 1761537600,
-            "c": 281.19
-          },
-          {
-            "t": 1762146000,
-            "c": 278.83
-          },
-          {
-            "t": 1762750800,
-            "c": 276.41
-          },
-          {
-            "t": 1763355600,
-            "c": 299.66
-          },
-          {
-            "t": 1763960400,
-            "c": 320.18
-          },
-          {
-            "t": 1764565200,
-            "c": 321.27
-          },
-          {
-            "t": 1765170000,
-            "c": 309.29
-          },
-          {
-            "t": 1765774800,
-            "c": 307.16
-          },
-          {
-            "t": 1766379600,
-            "c": 313.51
-          },
-          {
-            "t": 1766984400,
-            "c": 315.15
-          },
-          {
-            "t": 1767589200,
-            "c": 328.57
-          },
-          {
-            "t": 1768194000,
-            "c": 330.0
-          },
-          {
-            "t": 1768798800,
-            "c": 327.93
-          },
-          {
-            "t": 1769403600,
-            "c": 338.0
-          },
-          {
-            "t": 1770008400,
-            "c": 322.86
-          },
-          {
-            "t": 1770613200,
-            "c": 305.72
-          },
-          {
-            "t": 1771218000,
-            "c": 314.98
-          },
-          {
-            "t": 1771822800,
-            "c": 311.76
-          },
-          {
-            "t": 1772427600,
-            "c": 298.52
-          },
-          {
-            "t": 1773028800,
-            "c": 302.28
-          },
-          {
-            "t": 1773633600,
-            "c": 301.0
-          },
-          {
-            "t": 1774238400,
-            "c": 274.34
-          },
-          {
-            "t": 1774843200,
-            "c": 295.77
-          },
-          {
-            "t": 1775448000,
-            "c": 317.24
-          },
-          {
-            "t": 1776052800,
-            "c": 341.68
-          },
-          {
-            "t": 1776657600,
-            "c": 344.4
-          },
-          {
-            "t": 1777262400,
-            "c": 385.69
-          },
-          {
-            "t": 1777867200,
-            "c": 400.8
-          },
-          {
-            "t": 1778472000,
-            "c": 396.78
-          },
-          {
-            "t": 1779076800,
-            "c": 382.97
-          },
-          {
-            "t": 1779681600,
-            "c": 380.34
-          },
-          {
-            "t": 1780286400,
-            "c": 368.53
-          },
-          {
-            "t": 1780891200,
-            "c": 359.68
-          },
-          {
-            "t": 1781496000,
-            "c": 368.03
-          },
-          {
-            "t": 1782100800,
-            "c": 337.39
-          },
-          {
-            "t": 1782705600,
-            "c": 359.91
-          },
-          {
-            "t": 1783310400,
-            "c": 357.18
-          },
-          {
-            "t": 1783915200,
-            "c": 346.77
-          },
-          {
-            "t": 1784520000,
-            "c": 317.69
-          },
-          {
-            "t": 1785124800,
-            "c": 326.77
-          }
-        ],
-        "chg_1d": -0.57,
-        "chg_7d": -5.78,
-        "chg_1mo": -7.61,
-        "chg_1y": 72.75,
-        "sma20_dist": -7.53
-      },
-      "news": [
-        {
-          "title": "Stock Market Today: Dow Up; Pharma Firm Tests Entry; Memory Plays Sink As China Rival Soars (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/de8b5436-c73d-31ce-a62f-9df4d32cb08d/stock-market-today%3A-dow-up%3B.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "SpaceX and Tesla shed $1.2 trillion in July as Apple keeps the megacaps afloat: Chart of the Day",
-          "link": "https://finance.yahoo.com/markets/article/spacex-and-tesla-shed-12-trillion-in-july-as-apple-keeps-the-megacaps-afloat-chart-of-the-day-172709478.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Oil-Turned-AI Power Play Baker Hughes Gaps Up On Surprise Earnings Gain",
-          "link": "https://finance.yahoo.com/m/8a9120f8-90f7-37bc-b1e9-55874a85490e/oil-turned-ai-power-play.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Is Meta Platforms' Stock a Buy Ahead of Its Q2 Earnings Report?",
-          "link": "https://www.fool.com/investing/2026/07/27/is-meta-platforms-stock-a-buy-ahead-of-its-q2-earnings-report/?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Sellers Hit Nvidia Amid OpenAI Data Center News; Is Nvidia A Sell Now?",
-          "link": "https://finance.yahoo.com/m/cd7f1b57-d40d-30de-902c-81f0338bcfaf/sellers-hit-nvidia-amid.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        }
-      ],
-      "comparison": {
-        "verdict": "relativiert",
-        "points": [
-          "Kurs -5.78% über 7 Tage – Abwärtsdruck.",
-          "-7.53% unter SMA20 – technisch angeschlagen.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
-        ]
-      },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die zukünftige Entwicklung von Alphabet Inc. und mögliche Kursfantasien. Die aktuellen Marktbedingungen und Nachrichten scheinen jedoch eher negativ zu sein, was die Kursentwicklung betrifft. Die Empfehlung lautet, die Aktie weiterhin zu beobachten und keine sofortigen Entscheidungen zu treffen.",
-      "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Alphabet Inc. ist eines der führenden Technologieunternehmen weltweit, bekannt für seine Suchmaschine Google, YouTube und eine Vielzahl von anderen Dienstleistungen. Die Marktposition ist stark, jedoch sieht sich das Unternehmen einem intensiven Wettbewerb ausgesetzt, insbesondere von Unternehmen wie Meta Platforms (Facebook) und Amazon. Diese Firmen bieten ähnliche Dienstleistungen und versuchen, Marktanteile in den Bereichen Werbung und Cloud-Computing zu gewinnen.\n\nIn den kommenden 1-2 Jahren könnte Alphabet von verschiedenen Wachstumstreibern profitieren. Dazu zählen die zunehmende Monetarisierung von YouTube, die Expansion in Cloud-Dienste und die Entwicklung von KI-Technologien. Insbesondere die Integration von KI in bestehende Produkte könnte neue Einnahmequellen erschließen und die Wettbewerbsfähigkeit erhöhen. Die Diskussion auf Reddit über Kursfantasien könnte teilweise durch diese Chancen motiviert sein.\n\nDennoch gibt es zentrale Risiken, die das Unternehmen belasten könnten. Der Wettbewerb im digitalen Werbemarkt ist intensiv und könnte die Margen unter Druck setzen. Zudem könnte eine zyklische Abkühlung der Werbeausgaben in einem wirtschaftlich unsicheren Umfeld die Einnahmen negativ beeinflussen. Auch die Bewertung von Alphabet ist ein Thema, da die Aktie in den letzten Monaten an Wert verloren hat und einige Analysten eine Blasenwarnung aussprechen.\n\nDie aktuelle Kurslage von 326,73 USD und der Rückgang von 5,78% in den letzten sieben Tagen deuten auf eine gewisse Unsicherheit hin. Die Nachrichtenlage, die von einem Rückgang bei anderen großen Technologiekonzernen berichtet, könnte sich ebenfalls negativ auf die Stimmung auswirken. Die Reddit-Diskussionen über Short-Positionen und potenzielle Risiken sind daher nicht unbegründet.\n\nInsgesamt erscheint die Reddit-Stimmung teilweise gerechtfertigt, insbesondere in Bezug auf die Diskussion über Risiken und Short-Positionen. Die These über Kursfantasien könnte jedoch übertrieben sein, wenn man die aktuellen Marktbedingungen und die Herausforderungen betrachtet, denen Alphabet gegenübersteht. Eine vorsichtige Beobachtung der Aktie ist ratsam, um die Entwicklung besser einschätzen zu können.",
-      "konkurrenten": [
-        {
-          "name": "Meta Platforms",
-          "ticker": "META",
-          "vergleich": "Starker Wettbewerber im Bereich digitale Werbung mit wachsendem Einfluss im sozialen Netzwerk."
-        },
-        {
-          "name": "Amazon",
-          "ticker": "AMZN",
-          "vergleich": "Dominant im E-Commerce und Cloud-Computing, was Alphabet im Werbemarkt herausfordert."
-        },
-        {
-          "name": "Microsoft",
-          "ticker": "MSFT",
-          "vergleich": "Wettbewerber im Cloud-Bereich mit starker Position durch Azure und Integration von KI."
-        }
-      ],
-      "gruende": [
-        "Kursrückgang über die letzten Wochen",
-        "Diskussion über Short-Positionierungen",
-        "Erwähnung von Kursfantasien und strategischen Überlegungen"
-      ],
-      "momentum": 50,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": -6,
-      "timeline": [
-        {
-          "day": "2026-07-24",
-          "mentions": 4
-        },
-        {
-          "day": "2026-07-25",
-          "mentions": 6
-        },
-        {
-          "day": "2026-07-26",
-          "mentions": 6
-        },
-        {
-          "day": "2026-07-27",
-          "mentions": 5
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 18,
-      "reddit_vs_markt": {
-        "reddit": 50,
-        "markt": 26,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-07-26T22:51:33.573293+00:00",
-          "ticker": "GOOGL",
+          "ts": "2026-07-27T19:13:27.711174+00:00",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 12,
-          "price": 319.74
-        },
-        {
-          "ts": "2026-07-27T02:01:16.773881+00:00",
-          "ticker": "GOOGL",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 12,
-          "price": 319.74
-        },
-        {
-          "ts": "2026-07-27T06:55:05.804545+00:00",
-          "ticker": "GOOGL",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 12,
-          "price": 319.74
-        },
-        {
-          "ts": "2026-07-27T11:10:39.769028+00:00",
-          "ticker": "GOOGL",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 12,
-          "price": 319.74
-        },
-        {
-          "ts": "2026-07-27T14:11:18.938117+00:00",
-          "ticker": "GOOGL",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 12,
-          "price": 329.27
-        },
-        {
-          "ts": "2026-07-27T17:30:14.867819+00:00",
-          "ticker": "GOOGL",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 16,
-          "price": 326.73
+          "confidence": 79,
+          "engagement": 18,
+          "price": 894.3
         }
       ]
     },
     {
       "ticker": "AAPL",
       "name": "Apple Inc.",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 64,
-      "sentiment": 1,
-      "mentions": 4,
+      "signal": "bullish",
+      "empfehlung": "kaufen",
+      "confidence": 84,
+      "sentiment": 2,
+      "mentions": 5,
       "mentions_delta": 1,
-      "engagement": 15,
+      "engagement": 17,
       "sources": [
         "wallstreetbets"
       ],
       "titles": [
+        "Why the fuck is Apple booming so much this year?",
         "CME Group to Launch Single Stock Futures on July 27",
-        "Hold the Line or Cut and Run?",
-        "Thank you, regards!"
+        "Hold the Line or Cut and Run?"
       ],
       "top_posts": [
+        {
+          "title": "Why the fuck is Apple booming so much this year?",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v87aed/why_the_fuck_is_apple_booming_so_much_this_year/"
+        },
         {
           "title": "CME Group to Launch Single Stock Futures on July 27",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
@@ -1587,36 +864,23 @@
         }
       ],
       "topics": [
-        "Group",
-        "Launch",
-        "Single",
-        "Futures"
+        "Fuck",
+        "Apple",
+        "Booming",
+        "Much"
       ],
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Earnings-Rallye",
-          "anteil_pct": 50,
+          "titel": "Kursentwicklung und Momentum",
+          "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die positive Entwicklung der Unternehmensgewinne und deren Einfluss auf den Aktienkurs.",
+          "erklaerung": "Die Community diskutiert die Gründe für den aktuellen Kursboom von Apple und die Frage, ob man weiterhin investiert bleiben sollte.",
           "links": [
             {
-              "title": "CME Group to Launch Single Stock Futures on July 27",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
+              "title": "Why the fuck is Apple booming so much this year?",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v87aed/why_the_fuck_is_apple_booming_so_much_this_year/"
             },
-            {
-              "title": "Thank you, regards!",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5y4aa/thank_you_regards/"
-            }
-          ]
-        },
-        {
-          "emoji": "🤔",
-          "titel": "Strategische Entscheidungen",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Es gibt Überlegungen, ob Anleger halten oder verkaufen sollten, abhängig von den kommenden Ergebnissen.",
-          "links": [
             {
               "title": "Hold the Line or Cut and Run?",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
@@ -1624,12 +888,29 @@
           ]
         },
         {
-          "emoji": "📊",
-          "titel": "Innovationsfokus",
-          "anteil_pct": 20,
+          "emoji": "💼",
+          "titel": "Zukunft der App Store-Regulierung",
+          "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Diskussion über die zukünftigen Innovationsstrategien von Apple und deren Auswirkungen auf die Aktie.",
+          "erklaerung": "Es wird über die rechtlichen Herausforderungen diskutiert, mit denen Apple konfrontiert ist, und deren Auswirkungen auf das Geschäftsmodell.",
           "links": [
+            {
+              "title": "CME Group to Launch Single Stock Futures on July 27",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
+            }
+          ]
+        },
+        {
+          "emoji": "🤖",
+          "titel": "Technologische Innovationen",
+          "anteil_pct": 30,
+          "beitraege": 2,
+          "erklaerung": "Die Community zeigt Interesse an den neuesten technologischen Entwicklungen und deren potenziellen Einfluss auf Apples Marktstellung.",
+          "links": [
+            {
+              "title": "Thank you, regards!",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5y4aa/thank_you_regards/"
+            },
             {
               "title": "Frequency AI Ratio Tracker (FART) stategy",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
@@ -1646,7 +927,7 @@
       ],
       "price": {
         "available": true,
-        "price": 336.17,
+        "price": 335.55,
         "currency": "USD",
         "name": "Apple Inc.",
         "chart_1d": [
@@ -1716,11 +997,35 @@
           },
           {
             "t": 1785173400,
-            "c": 336.11
+            "c": 336.26
           },
           {
-            "t": 1785173489,
-            "c": 336.14
+            "t": 1785174300,
+            "c": 335.52
+          },
+          {
+            "t": 1785175200,
+            "c": 335.63
+          },
+          {
+            "t": 1785176100,
+            "c": 335.15
+          },
+          {
+            "t": 1785177000,
+            "c": 335.04
+          },
+          {
+            "t": 1785177900,
+            "c": 335.85
+          },
+          {
+            "t": 1785178800,
+            "c": 335.78
+          },
+          {
+            "t": 1785179666,
+            "c": 335.55
           }
         ],
         "chart_5d": [
@@ -1854,11 +1159,15 @@
           },
           {
             "t": 1785173400,
-            "c": 336.11
+            "c": 335.15
           },
           {
-            "t": 1785173488,
-            "c": 336.17
+            "t": 1785177000,
+            "c": 335.78
+          },
+          {
+            "t": 1785179667,
+            "c": 335.58
           }
         ],
         "chart_1mo": [
@@ -1935,8 +1244,12 @@
             "c": 321.66
           },
           {
+            "t": 1784899800,
+            "c": 333.02
+          },
+          {
             "t": 1785159000,
-            "c": 336.17
+            "c": 335.55
           }
         ],
         "chart_1y": [
@@ -2146,88 +1459,83 @@
           },
           {
             "t": 1784520000,
-            "c": 321.66
+            "c": 333.02
           },
           {
             "t": 1785124800,
-            "c": 336.14
+            "c": 335.58
           }
         ],
-        "chg_1d": 0.33,
-        "chg_7d": 0.73,
-        "chg_1mo": 19.32,
-        "chg_1y": 66.11,
-        "sma20_dist": 6.33
+        "chg_1d": 0.15,
+        "chg_7d": 2.74,
+        "chg_1mo": 19.1,
+        "chg_1y": 65.8,
+        "sma20_dist": 5.86
       },
       "news": [
         {
-          "title": "S&P 500 Second-Quarter Earnings Growth Reaches 70%, Oppenheimer Says",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-second-quarter-earnings-171610205.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "US Futures Rise as Megacap Earnings and Fed Decision Headline Quarter's Busiest Week",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-futures-rise-megacap-earnings-170443204.html?.tsrc=rss",
+          "title": "Inside China’s Blockbuster $484 Billion Memory Chip Debut",
+          "link": "https://finance.yahoo.com/m/40d81832-850a-3fcb-84bd-f1a7a4c227f7/inside-china%E2%80%99s-blockbuster.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Apple's Pre-Earnings Rally Pushes Stock Near Record Highs",
-          "link": "https://finance.yahoo.com/m/7dbc3d1b-3f04-30a9-9461-15ed78e415ce/apple%27s-pre-earnings-rally.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Chinese memory chipmaker CXMT booms in IPO. Does US memory stand a chance?",
-          "link": "https://finance.yahoo.com/video/chinese-memory-chipmaker-cxmt-booms-in-ipo-does-us-memory-stand-a-chance-161109405.html?.tsrc=rss",
+          "title": "Apple sued after alleged App Store crypto scam cost users $1.8M",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/apple-sued-alleged-app-store-182815635.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Self Inspection Raises $10 Million to Build the System of Record for Vehicle Condition",
-          "link": "https://finance.yahoo.com/technology/articles/self-inspection-raises-10-million-161000208.html?.tsrc=rss",
+          "title": "Memory-Chip Stocks Micron, SK Hynix Drop After China Rival's IPO",
+          "link": "https://finance.yahoo.com/m/6419fb14-d24c-390d-8353-4909937d409b/memory-chip-stocks-micron%2C-sk.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
+          "tone": "neu"
+        },
+        {
+          "title": "Amazon’s new satellite network for mobile phones could turn up the heat on SpaceX",
+          "link": "https://finance.yahoo.com/technology/articles/amazon-satellite-network-mobile-phones-180829515.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Why Micron Stock Just Dropped Again",
+          "link": "https://www.fool.com/investing/2026/07/27/why-micron-stock-just-dropped-again/?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
         }
       ],
       "comparison": {
-        "verdict": "relativiert",
+        "verdict": "bestätigt",
         "points": [
-          "Kurs seitwärts über 7 Tage (+0.73%).",
-          "Starker Monat: +19.32%.",
-          "+6.33% über SMA20 – kurzfristig evtl. überkauft.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+          "Kurs seitwärts über 7 Tage (+2.74%).",
+          "Starker Monat: +19.1%.",
+          "+5.86% über SMA20 – kurzfristig evtl. überkauft.",
+          "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "1) Reddit diskutiert über die bevorstehenden Entwicklungen bei Apple und deren Auswirkungen auf den Aktienkurs. 2) Die positive Markt- und Nachrichtenlage, insbesondere die starke Earnings-Wachstumsprognose, unterstützt die Diskussion. 3) Die Empfehlung, Apple zu beobachten, ist aufgrund der positiven Momentum-Indikatoren und der aktuellen Kursentwicklung gerechtfertigt.",
+      "fazit": "Die Reddit-Diskussion um Apple Inc. zeigt ein starkes Interesse an der aktuellen Kursentwicklung und den damit verbundenen Chancen. Die Markt- und Nachrichtenlage unterstützt diese Stimmung, insbesondere durch die positiven Kursgewinne und das hohe Momentum. Die Empfehlung, die Aktie zu kaufen, wird durch die positive Marktstimmung und die Wachstumsaussichten untermauert.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Apple Inc. ist ein führendes Technologieunternehmen, das sich auf die Entwicklung und Vermarktung von Elektronik, Software und Dienstleistungen spezialisiert hat. Mit Produkten wie dem iPhone, iPad und Mac hat Apple eine starke Marktposition und einen signifikanten Anteil im Premium-Segment der Technologiebranche. Die Hauptkonkurrenten sind Samsung, Microsoft und Google, die jeweils in verschiedenen Bereichen wie Smartphones, Software und Cloud-Diensten stark sind. Apples Differenzierung durch Design und Benutzererfahrung bleibt jedoch ein entscheidender Vorteil.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für Apple von Bedeutung sein. Dazu zählen die fortlaufende Expansion in den Dienstleistungssektor, insbesondere durch Apple Music, Apple TV+ und Apple Pay, sowie die Einführung neuer Produkte und Technologien, die die Kundenbindung erhöhen und neue Einnahmequellen erschließen könnten. Die positive Marktstimmung, wie sie durch die jüngsten Earnings-Prognosen angedeutet wird, könnte zudem zu einem weiteren Anstieg des Aktienkurses führen.\n\nDennoch gibt es zentrale Risiken, die die zukünftige Entwicklung von Apple beeinflussen könnten. Der Wettbewerb im Smartphone- und Dienstleistungsmarkt wird intensiver, insbesondere durch aggressive Preisstrategien von Konkurrenten wie Samsung und Xiaomi. Zudem könnte eine zyklische Abschwächung der Nachfrage nach Elektronikprodukten und mögliche makroökonomische Unsicherheiten, wie Inflation oder Zinsänderungen, die Konsumausgaben beeinträchtigen. Auch die Bewertung von Apple könnte als hoch angesehen werden, was zu einem potenziellen Rückgang führen könnte, falls die Erwartungen nicht erfüllt werden.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass Apple sich in einer starken Position befindet, insbesondere mit einem Kurs von 336,17 USD und einem positiven Momentum von 87/100. Die Diskussion auf Reddit über die bevorstehenden Quartalszahlen und die positive Earnings-Rallye deutet darauf hin, dass die Anleger optimistisch sind. **Die starke Earnings-Wachstumsprognose** und die positive Marktreaktion unterstützen die These, dass die Aktie in naher Zukunft weiter steigen könnte. Gleichzeitig gibt es Bedenken hinsichtlich der **Short-Positionierung** und der Warnungen vor einer möglichen Blase, die nicht ignoriert werden sollten.\n\nInsgesamt erscheint die Reddit-Stimmung in Bezug auf Apple fundamental gerechtfertigt, insbesondere in Anbetracht der positiven Markt- und Nachrichtenlage. Die Diskussion über die strategischen Entscheidungen, wie sie in den Posts angedeutet wird, zeigt, dass Anleger sowohl die Chancen als auch die Risiken im Blick haben. Die These zur **Earnings-Rallye** wird durch die aktuellen Entwicklungen gestützt, während die Diskussion über strategische Entscheidungen darauf hinweist, dass Anleger vorsichtig bleiben sollten.",
+      "analyse": "Apple Inc. ist ein führendes Unternehmen im Bereich Technologie und Unterhaltungselektronik, bekannt für seine Produkte wie iPhones, iPads und Mac-Computer. Die Marktstellung von Apple ist stark, insbesondere im Premium-Segment, wo es mit Konkurrenten wie Samsung und Google konkurriert. Apple hat sich durch ein starkes Ökosystem und eine treue Kundenbasis ausgezeichnet, was das Unternehmen in der Branche einzigartig macht.\n\nIn den nächsten 1-2 Jahren könnten mehrere Faktoren das Wachstum von Apple antreiben. Dazu gehören die Einführung neuer Produkte, insbesondere im Bereich der Wearables und Dienstleistungen wie Apple Music und Apple TV+. Zudem könnte die Expansion in neue Märkte, wie beispielsweise in den Bereich der Künstlichen Intelligenz und der Gesundheitsüberwachung, zusätzliche Umsatzquellen erschließen. Das Momentum, das die Aktie derzeit zeigt, ist ein weiteres Zeichen für das Vertrauen der Anleger in die zukünftige Entwicklung des Unternehmens.\n\nJedoch gibt es auch zentrale Risiken, die Apple betreffen könnten. Der Wettbewerb im Technologiebereich ist intensiv, und Unternehmen wie Samsung und Huawei drängen weiterhin auf den Markt. Zudem könnte eine wirtschaftliche Abkühlung oder eine Veränderung im Verbraucherverhalten die Nachfrage nach Premium-Produkten beeinträchtigen. Auch die regulatorischen Herausforderungen, insbesondere im Hinblick auf den App Store, könnten sich negativ auf die Geschäftsentwicklung auswirken.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass Apple eine positive Marktstimmung genießt, was durch das hohe Momentum und die steigenden Kursgewinne untermauert wird. Die Reddit-Diskussion spiegelt diese Stimmung wider, insbesondere die Fragen zur Kursentwicklung und den rechtlichen Herausforderungen. Die Thesen auf Reddit, insbesondere die Diskussion über den Kursboom, scheinen durch die aktuellen Marktbedingungen und die positiven Wachstumsprognosen für Apple gerechtfertigt zu sein.\n\nInsgesamt erscheint die Reddit-Stimmung fundamental gerechtfertigt. Die Diskussion über die Kursentwicklung und die technologischen Innovationen zeigt, dass die Community optimistisch ist, was die zukünftige Entwicklung von Apple angeht. Die rechtlichen Herausforderungen könnten kurzfristig Druck ausüben, jedoch scheinen die langfristigen Wachstumsaussichten stark zu bleiben. Daher ist die Empfehlung, die Aktie zu kaufen, gut begründet.",
       "konkurrenten": [
         {
           "name": "Samsung Electronics",
           "ticker": "005930.KS",
-          "vergleich": "Samsung ist ein starker Wettbewerber im Smartphone-Segment, hat jedoch nicht die gleiche Markenloyalität wie Apple."
+          "vergleich": "Samsung ist ein starker Wettbewerber im Smartphone-Segment, hat jedoch nicht die gleiche Markentreue wie Apple."
         },
         {
-          "name": "Microsoft Corporation",
-          "ticker": "MSFT",
-          "vergleich": "Microsoft ist führend im Softwarebereich, hat jedoch weniger Einfluss im Hardware-Markt, wo Apple dominiert."
-        },
-        {
-          "name": "Alphabet Inc.",
+          "name": "Google LLC",
           "ticker": "GOOGL",
-          "vergleich": "Alphabet ist stark im Online-Dienstleistungssektor, bietet jedoch keine vergleichbaren Hardwareprodukte wie Apple."
+          "vergleich": "Google konkurriert im Bereich Software und Dienstleistungen, hat jedoch weniger Einfluss im Hardware-Segment."
         }
       ],
       "gruende": [
-        "Vorfreude auf bevorstehende Quartalszahlen",
-        "Starkes Momentum und positive Marktstimmung",
-        "Erwartungen an die Innovationskraft von Apple"
+        "Starkes Kurswachstum in den letzten Monaten",
+        "Erwartungen an neue Produkte und Dienstleistungen",
+        "Positive Marktstimmung und hohe Reddit-Aktivität"
       ],
-      "momentum": 87,
+      "momentum": 92,
       "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 140,
+      "growth_pct": 200,
       "timeline": [
         {
           "day": "2026-07-24",
@@ -2243,16 +1551,16 @@
         },
         {
           "day": "2026-07-27",
-          "mentions": 4
+          "mentions": 5
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 23,
+      "quality_pct": 29,
       "reddit_vs_markt": {
-        "reddit": 87,
-        "markt": 52,
+        "reddit": 92,
+        "markt": 60,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
@@ -2263,6 +1571,810 @@
           "confidence": 64,
           "engagement": 15,
           "price": 336.17
+        },
+        {
+          "ts": "2026-07-27T19:13:27.711174+00:00",
+          "ticker": "AAPL",
+          "rec": "kaufen",
+          "confidence": 84,
+          "engagement": 17,
+          "price": 335.55
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 64,
+      "sentiment": 0,
+      "mentions": 5,
+      "mentions_delta": 0,
+      "engagement": 17,
+      "sources": [
+        "wallstreetbets"
+      ],
+      "titles": [
+        "CME Group to Launch Single Stock Futures on July 27",
+        "Hold the Line or Cut and Run?",
+        "Thank you, regards!"
+      ],
+      "top_posts": [
+        {
+          "title": "CME Group to Launch Single Stock Futures on July 27",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
+        },
+        {
+          "title": "Hold the Line or Cut and Run?",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
+        },
+        {
+          "title": "Thank you, regards!",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5y4aa/thank_you_regards/"
+        },
+        {
+          "title": "319k GOOGL Yolo",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5tkjj/319k_googl_yolo/"
+        },
+        {
+          "title": "Frequency AI Ratio Tracker (FART) stategy",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
+        }
+      ],
+      "topics": [
+        "Group",
+        "Launch",
+        "Single",
+        "Futures"
+      ],
+      "themen": [
+        {
+          "emoji": "📈",
+          "titel": "AI-Investitionsrisiken",
+          "anteil_pct": 40,
+          "beitraege": 2,
+          "erklaerung": "Die Community diskutiert die Risiken und Chancen von Investitionen in AI-Technologien, insbesondere im Kontext von Alphabet.",
+          "links": [
+            {
+              "title": "CME Group to Launch Single Stock Futures on July 27",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
+            },
+            {
+              "title": "319k GOOGL Yolo",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5tkjj/319k_googl_yolo/"
+            }
+          ]
+        },
+        {
+          "emoji": "⚖️",
+          "titel": "Kursbewertung und Volatilität",
+          "anteil_pct": 30,
+          "beitraege": 2,
+          "erklaerung": "Es gibt Bedenken über die aktuelle Kursbewertung von Alphabet und die Volatilität des Marktes, die zu Unsicherheiten führen.",
+          "links": [
+            {
+              "title": "Hold the Line or Cut and Run?",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
+            },
+            {
+              "title": "Frequency AI Ratio Tracker (FART) stategy",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
+            }
+          ]
+        },
+        {
+          "emoji": "💼",
+          "titel": "Wettbewerbsdruck im Tech-Sektor",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Die Diskussion beleuchtet den zunehmenden Wettbewerbsdruck, dem Alphabet durch andere Tech-Unternehmen ausgesetzt ist.",
+          "links": [
+            {
+              "title": "Thank you, regards!",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5y4aa/thank_you_regards/"
+            }
+          ]
+        }
+      ],
+      "bull_case": [
+        "Kursfantasie"
+      ],
+      "bear_case": [
+        "Short-Positionierung",
+        "Put-Optionen-Aktivität",
+        "Blasen-Warnung"
+      ],
+      "price": {
+        "available": true,
+        "price": 327.29,
+        "currency": "USD",
+        "name": "Alphabet Inc.",
+        "chart_1d": [
+          {
+            "t": 1785159000,
+            "c": 328.61
+          },
+          {
+            "t": 1785159900,
+            "c": 327.77
+          },
+          {
+            "t": 1785160800,
+            "c": 329.7
+          },
+          {
+            "t": 1785161700,
+            "c": 326.47
+          },
+          {
+            "t": 1785162600,
+            "c": 324.92
+          },
+          {
+            "t": 1785163500,
+            "c": 327.49
+          },
+          {
+            "t": 1785164400,
+            "c": 329.45
+          },
+          {
+            "t": 1785165300,
+            "c": 328.22
+          },
+          {
+            "t": 1785166200,
+            "c": 327.61
+          },
+          {
+            "t": 1785167100,
+            "c": 328.52
+          },
+          {
+            "t": 1785168000,
+            "c": 327.95
+          },
+          {
+            "t": 1785168900,
+            "c": 327.9
+          },
+          {
+            "t": 1785169800,
+            "c": 327.29
+          },
+          {
+            "t": 1785170700,
+            "c": 326.57
+          },
+          {
+            "t": 1785171600,
+            "c": 326.89
+          },
+          {
+            "t": 1785172500,
+            "c": 326.74
+          },
+          {
+            "t": 1785173400,
+            "c": 326.45
+          },
+          {
+            "t": 1785174300,
+            "c": 326.16
+          },
+          {
+            "t": 1785175200,
+            "c": 326.39
+          },
+          {
+            "t": 1785176100,
+            "c": 326.17
+          },
+          {
+            "t": 1785177000,
+            "c": 326.48
+          },
+          {
+            "t": 1785177900,
+            "c": 327.48
+          },
+          {
+            "t": 1785178800,
+            "c": 327.2
+          },
+          {
+            "t": 1785179684,
+            "c": 327.3
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1784640600,
+            "c": 349.53
+          },
+          {
+            "t": 1784644200,
+            "c": 347.83
+          },
+          {
+            "t": 1784647800,
+            "c": 349.6
+          },
+          {
+            "t": 1784651400,
+            "c": 349.14
+          },
+          {
+            "t": 1784655000,
+            "c": 348.81
+          },
+          {
+            "t": 1784658600,
+            "c": 349.61
+          },
+          {
+            "t": 1784662200,
+            "c": 347.11
+          },
+          {
+            "t": 1784727000,
+            "c": 347.81
+          },
+          {
+            "t": 1784730600,
+            "c": 347.46
+          },
+          {
+            "t": 1784734200,
+            "c": 348.36
+          },
+          {
+            "t": 1784737800,
+            "c": 348.0
+          },
+          {
+            "t": 1784741400,
+            "c": 346.48
+          },
+          {
+            "t": 1784745000,
+            "c": 345.31
+          },
+          {
+            "t": 1784748600,
+            "c": 342.07
+          },
+          {
+            "t": 1784813400,
+            "c": 318.61
+          },
+          {
+            "t": 1784817000,
+            "c": 316.64
+          },
+          {
+            "t": 1784820600,
+            "c": 320.89
+          },
+          {
+            "t": 1784824200,
+            "c": 320.38
+          },
+          {
+            "t": 1784827800,
+            "c": 319.68
+          },
+          {
+            "t": 1784831400,
+            "c": 318.09
+          },
+          {
+            "t": 1784835000,
+            "c": 317.65
+          },
+          {
+            "t": 1784899800,
+            "c": 319.83
+          },
+          {
+            "t": 1784903400,
+            "c": 321.75
+          },
+          {
+            "t": 1784907000,
+            "c": 319.4
+          },
+          {
+            "t": 1784910600,
+            "c": 320.53
+          },
+          {
+            "t": 1784914200,
+            "c": 319.98
+          },
+          {
+            "t": 1784917800,
+            "c": 319.52
+          },
+          {
+            "t": 1784921400,
+            "c": 319.77
+          },
+          {
+            "t": 1785159000,
+            "c": 326.47
+          },
+          {
+            "t": 1785162600,
+            "c": 328.22
+          },
+          {
+            "t": 1785166200,
+            "c": 327.9
+          },
+          {
+            "t": 1785169800,
+            "c": 326.74
+          },
+          {
+            "t": 1785173400,
+            "c": 326.17
+          },
+          {
+            "t": 1785177000,
+            "c": 327.2
+          },
+          {
+            "t": 1785179684,
+            "c": 327.3
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1782739800,
+            "c": 353.65
+          },
+          {
+            "t": 1782826200,
+            "c": 357.37
+          },
+          {
+            "t": 1782912600,
+            "c": 361.21
+          },
+          {
+            "t": 1782999000,
+            "c": 359.91
+          },
+          {
+            "t": 1783344600,
+            "c": 366.46
+          },
+          {
+            "t": 1783431000,
+            "c": 367.03
+          },
+          {
+            "t": 1783517400,
+            "c": 361.92
+          },
+          {
+            "t": 1783603800,
+            "c": 358.89
+          },
+          {
+            "t": 1783690200,
+            "c": 357.18
+          },
+          {
+            "t": 1783949400,
+            "c": 352.51
+          },
+          {
+            "t": 1784035800,
+            "c": 359.51
+          },
+          {
+            "t": 1784122200,
+            "c": 370.92
+          },
+          {
+            "t": 1784208600,
+            "c": 354.46
+          },
+          {
+            "t": 1784295000,
+            "c": 346.77
+          },
+          {
+            "t": 1784554200,
+            "c": 351.99
+          },
+          {
+            "t": 1784640600,
+            "c": 347.15
+          },
+          {
+            "t": 1784727000,
+            "c": 342.09
+          },
+          {
+            "t": 1784813400,
+            "c": 317.69
+          },
+          {
+            "t": 1784899800,
+            "c": 319.74
+          },
+          {
+            "t": 1785159000,
+            "c": 327.29
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1753675200,
+            "c": 189.13
+          },
+          {
+            "t": 1754280000,
+            "c": 201.42
+          },
+          {
+            "t": 1754884800,
+            "c": 203.9
+          },
+          {
+            "t": 1755489600,
+            "c": 206.09
+          },
+          {
+            "t": 1756094400,
+            "c": 212.91
+          },
+          {
+            "t": 1756699200,
+            "c": 235.0
+          },
+          {
+            "t": 1757304000,
+            "c": 240.8
+          },
+          {
+            "t": 1757908800,
+            "c": 254.72
+          },
+          {
+            "t": 1758513600,
+            "c": 246.54
+          },
+          {
+            "t": 1759118400,
+            "c": 245.35
+          },
+          {
+            "t": 1759723200,
+            "c": 236.57
+          },
+          {
+            "t": 1760328000,
+            "c": 253.3
+          },
+          {
+            "t": 1760932800,
+            "c": 259.92
+          },
+          {
+            "t": 1761537600,
+            "c": 281.19
+          },
+          {
+            "t": 1762146000,
+            "c": 278.83
+          },
+          {
+            "t": 1762750800,
+            "c": 276.41
+          },
+          {
+            "t": 1763355600,
+            "c": 299.66
+          },
+          {
+            "t": 1763960400,
+            "c": 320.18
+          },
+          {
+            "t": 1764565200,
+            "c": 321.27
+          },
+          {
+            "t": 1765170000,
+            "c": 309.29
+          },
+          {
+            "t": 1765774800,
+            "c": 307.16
+          },
+          {
+            "t": 1766379600,
+            "c": 313.51
+          },
+          {
+            "t": 1766984400,
+            "c": 315.15
+          },
+          {
+            "t": 1767589200,
+            "c": 328.57
+          },
+          {
+            "t": 1768194000,
+            "c": 330.0
+          },
+          {
+            "t": 1768798800,
+            "c": 327.93
+          },
+          {
+            "t": 1769403600,
+            "c": 338.0
+          },
+          {
+            "t": 1770008400,
+            "c": 322.86
+          },
+          {
+            "t": 1770613200,
+            "c": 305.72
+          },
+          {
+            "t": 1771218000,
+            "c": 314.98
+          },
+          {
+            "t": 1771822800,
+            "c": 311.76
+          },
+          {
+            "t": 1772427600,
+            "c": 298.52
+          },
+          {
+            "t": 1773028800,
+            "c": 302.28
+          },
+          {
+            "t": 1773633600,
+            "c": 301.0
+          },
+          {
+            "t": 1774238400,
+            "c": 274.34
+          },
+          {
+            "t": 1774843200,
+            "c": 295.77
+          },
+          {
+            "t": 1775448000,
+            "c": 317.24
+          },
+          {
+            "t": 1776052800,
+            "c": 341.68
+          },
+          {
+            "t": 1776657600,
+            "c": 344.4
+          },
+          {
+            "t": 1777262400,
+            "c": 385.69
+          },
+          {
+            "t": 1777867200,
+            "c": 400.8
+          },
+          {
+            "t": 1778472000,
+            "c": 396.78
+          },
+          {
+            "t": 1779076800,
+            "c": 382.97
+          },
+          {
+            "t": 1779681600,
+            "c": 380.34
+          },
+          {
+            "t": 1780286400,
+            "c": 368.53
+          },
+          {
+            "t": 1780891200,
+            "c": 359.68
+          },
+          {
+            "t": 1781496000,
+            "c": 368.03
+          },
+          {
+            "t": 1782100800,
+            "c": 337.39
+          },
+          {
+            "t": 1782705600,
+            "c": 359.91
+          },
+          {
+            "t": 1783310400,
+            "c": 357.18
+          },
+          {
+            "t": 1783915200,
+            "c": 346.77
+          },
+          {
+            "t": 1784520000,
+            "c": 319.74
+          },
+          {
+            "t": 1785124800,
+            "c": 327.32
+          }
+        ],
+        "chg_1d": -0.4,
+        "chg_7d": -7.02,
+        "chg_1mo": -7.45,
+        "chg_1y": 73.05,
+        "sma20_dist": -6.94
+      },
+      "news": [
+        {
+          "title": "Oracle Stock Is Down 64% in 10 Months. Is This the Best Buying Opportunity in AI -- or a Falling Knife?",
+          "link": "https://www.fool.com/investing/2026/07/27/oracle-stock-down-buy-opportunity-ai-trap/?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Stock Market Today: Dow Up, Memory Plays Sink As China Rival Soars; This Auto Stock Tests Entry (Live Coverage)",
+          "link": "https://finance.yahoo.com/m/de8b5436-c73d-31ce-a62f-9df4d32cb08d/stock-market-today%3A-dow-up%2C.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Alphabet’s biggest AI fear may be fading",
+          "link": "https://www.thestreet.com/investing/alphabets-biggest-ai-fear-may-be-fading?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple overtakes Nvidia as world's most valuable company",
+          "link": "https://qz.com/apple-reclaims-most-valuable-company-nvidia-072726?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple Is Barely Spending on AI While Its Rivals Pour In $700 Billion. Is That Discipline or Denial?",
+          "link": "https://www.fool.com/investing/2026/07/27/apple-is-barely-spending-on-ai-while-its-rivals-po/?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs -7.02% über 7 Tage – Abwärtsdruck.",
+          "-6.94% unter SMA20 – technisch angeschlagen.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Die Diskussion auf Reddit dreht sich um die aktuelle Kursentwicklung und die Zukunftsaussichten von Alphabet Inc. Markt- und Nachrichtenlage zeigen gemischte Signale, wobei die Bedenken über Wettbewerbsdruck und Marktvolatilität bestehen. Die Empfehlung lautet, die Entwicklung weiter zu beobachten, da die Stimmung auf Reddit sowohl optimistische als auch vorsichtige Ansichten widerspiegelt.",
+      "fazit_quelle": "KI (GitHub Models)",
+      "analyse": "Alphabet Inc. ist ein führendes Unternehmen im Bereich Internetdienstleistungen und -technologien, das vor allem durch seine Suchmaschine Google, YouTube und das Android-Betriebssystem bekannt ist. **Die Marktposition von Alphabet ist stark**, jedoch sieht sich das Unternehmen einem intensiven Wettbewerb von Firmen wie Microsoft (über Bing und Azure) und Meta Platforms (über soziale Medien und Werbung) gegenüber. Diese Konkurrenz könnte die Marktanteile von Alphabet gefährden, insbesondere im Werbegeschäft, das eine der Hauptumsatzquellen darstellt.\n\nIn den nächsten 1-2 Jahren könnten **Wachstumstreiber wie die Weiterentwicklung von Künstlicher Intelligenz (KI) und Cloud-Diensten** für Alphabet von großer Bedeutung sein. Das Unternehmen investiert stark in KI-Technologien, was potenziell zu neuen Einnahmequellen führen könnte. Die Nachfrage nach Cloud-Diensten wächst ebenfalls, was Alphabet helfen könnte, seine Marktstellung zu festigen und auszubauen. Dennoch bleibt abzuwarten, wie sich die Konkurrenz in diesen Bereichen entwickeln wird.\n\nZentrale Risiken für Alphabet umfassen den **Wettbewerbsdruck durch andere Tech-Giganten**, die zyklischen Schwankungen im Werbemarkt sowie mögliche regulatorische Herausforderungen. Die aktuelle Marktsituation zeigt, dass Anleger vorsichtig sind, was sich in der Short-Positionierung und der Aktivität von Put-Optionen widerspiegelt. **Die Nachrichtenlage deutet auf Unsicherheiten im Markt hin**, was potenziell zu weiteren Kursrückgängen führen könnte.\n\nDie aktuelle Kursentwicklung von 327,29 USD spiegelt diese Unsicherheiten wider, insbesondere mit einem Rückgang von 7,02% in den letzten sieben Tagen. Die Reddit-Diskussionen zeigen eine gespaltene Meinung über die Zukunft von Alphabet, wobei einige Anleger optimistisch sind und auf Kursfantasien setzen, während andere vor den Risiken warnen. **Die These über die AI-Investitionsrisiken ist besonders relevant**, da sie die Bedenken der Anleger über die zukünftige Rentabilität und die Marktstellung von Alphabet unterstreicht. Insgesamt erscheint die Reddit-Stimmung sowohl optimistisch als auch besorgt, was die fundamentalen Aspekte von Alphabet betrifft.",
+      "konkurrenten": [
+        {
+          "name": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "vergleich": "Microsoft ist ein starker Wettbewerber im Cloud-Sektor und hat mit Bing eine direkte Konkurrenz zu Google."
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "ticker": "META",
+          "vergleich": "Meta ist ein bedeutender Akteur im Online-Werbemarkt, der Alphabet unter Druck setzt."
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN",
+          "vergleich": "Amazon konkurriert im Cloud-Bereich und im Online-Werbemarkt, was Alphabet zusätzlich herausfordert."
+        }
+      ],
+      "gruende": [
+        "Zunehmende Diskussion über AI-Investitionen und deren Risiken.",
+        "Kursrückgänge in der Tech-Branche beeinflussen die Wahrnehmung von Alphabet.",
+        "Bedenken über Short-Positionierungen und Marktvolatilität."
+      ],
+      "momentum": 50,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": -6,
+      "timeline": [
+        {
+          "day": "2026-07-24",
+          "mentions": 4
+        },
+        {
+          "day": "2026-07-25",
+          "mentions": 6
+        },
+        {
+          "day": "2026-07-26",
+          "mentions": 6
+        },
+        {
+          "day": "2026-07-27",
+          "mentions": 5
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 13,
+      "reddit_vs_markt": {
+        "reddit": 50,
+        "markt": 21,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-07-27T02:01:16.773881+00:00",
+          "ticker": "GOOGL",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 12,
+          "price": 319.74
+        },
+        {
+          "ts": "2026-07-27T06:55:05.804545+00:00",
+          "ticker": "GOOGL",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 12,
+          "price": 319.74
+        },
+        {
+          "ts": "2026-07-27T11:10:39.769028+00:00",
+          "ticker": "GOOGL",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 12,
+          "price": 319.74
+        },
+        {
+          "ts": "2026-07-27T14:11:18.938117+00:00",
+          "ticker": "GOOGL",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 12,
+          "price": 329.27
+        },
+        {
+          "ts": "2026-07-27T17:30:14.867819+00:00",
+          "ticker": "GOOGL",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 16,
+          "price": 326.73
+        },
+        {
+          "ts": "2026-07-27T19:13:27.711174+00:00",
+          "ticker": "GOOGL",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 17,
+          "price": 327.29
         }
       ]
     },
@@ -2311,27 +2423,27 @@
       "themen": [
         {
           "emoji": "📉",
-          "titel": "Kursrückgang und Optionen",
+          "titel": "Kursentwicklung und Volatilität",
           "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert über die Auswirkungen der Kursverluste auf Call- und Put-Optionen.",
+          "erklaerung": "Die Community diskutiert die starke Kursbewegung von Tesla und die damit verbundenen Handelsstrategien.",
           "links": [
+            {
+              "title": "CME Group to Launch Single Stock Futures on July 27",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
+            },
             {
               "title": "Cooking or copium? TSLA Calls (After earnings) Averaged down from 19.55 to 11.24",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5s8wv/cooking_or_copium_tsla_calls_after_earnings/"
-            },
-            {
-              "title": "I lost 72,000 today.",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v4s0k8/i_lost_72000_today/"
             }
           ]
         },
         {
-          "emoji": "🛒",
-          "titel": "Schnäppchenjagd",
+          "emoji": "⚔️",
+          "titel": "Konkurrenzdruck durch Ford und GM",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Es gibt Überlegungen, ob der aktuelle Kurs Rückkäufe und Investitionen rechtfertigt.",
+          "erklaerung": "Die Marktteilnehmer analysieren, wie die Konkurrenz von Ford und GM Tesla unter Druck setzt.",
           "links": [
             {
               "title": "Frequency AI Ratio Tracker (FART) stategy",
@@ -2340,15 +2452,15 @@
           ]
         },
         {
-          "emoji": "⚠️",
-          "titel": "Blasenwarnung",
+          "emoji": "📊",
+          "titel": "Optionshandel und Marktstimmung",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Diskussion über die Risiken einer möglichen Überbewertung von Tesla.",
+          "erklaerung": "Die Diskussion über die Handelsaktivitäten mit Call- und Put-Optionen spiegelt die Marktstimmung wider.",
           "links": [
             {
-              "title": "CME Group to Launch Single Stock Futures on July 27",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
+              "title": "I lost 72,000 today.",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v4s0k8/i_lost_72000_today/"
             }
           ]
         }
@@ -2363,7 +2475,7 @@
       ],
       "price": {
         "available": true,
-        "price": 307.46,
+        "price": 308.07,
         "currency": "USD",
         "name": "Tesla, Inc.",
         "chart_1d": [
@@ -2433,11 +2545,35 @@
           },
           {
             "t": 1785173400,
-            "c": 307.4
+            "c": 308.39
           },
           {
-            "t": 1785173512,
-            "c": 307.42
+            "t": 1785174300,
+            "c": 308.44
+          },
+          {
+            "t": 1785175200,
+            "c": 307.15
+          },
+          {
+            "t": 1785176100,
+            "c": 306.5
+          },
+          {
+            "t": 1785177000,
+            "c": 306.39
+          },
+          {
+            "t": 1785177900,
+            "c": 307.63
+          },
+          {
+            "t": 1785178800,
+            "c": 308.07
+          },
+          {
+            "t": 1785179699,
+            "c": 308.07
           }
         ],
         "chart_5d": [
@@ -2571,11 +2707,15 @@
           },
           {
             "t": 1785173400,
-            "c": 307.4
+            "c": 306.5
           },
           {
-            "t": 1785173512,
-            "c": 307.42
+            "t": 1785177000,
+            "c": 308.07
+          },
+          {
+            "t": 1785179700,
+            "c": 308.15
           }
         ],
         "chart_1mo": [
@@ -2652,8 +2792,12 @@
             "c": 319.69
           },
           {
+            "t": 1784899800,
+            "c": 313.03
+          },
+          {
             "t": 1785159000,
-            "c": 307.46
+            "c": 308.07
           }
         ],
         "chart_1y": [
@@ -2863,84 +3007,79 @@
           },
           {
             "t": 1784520000,
-            "c": 319.69
+            "c": 313.03
           },
           {
             "t": 1785124800,
-            "c": 307.42
+            "c": 308.22
           }
         ],
-        "chg_1d": -2.13,
-        "chg_7d": -19.27,
-        "chg_1mo": -25.34,
-        "chg_1y": 1.6,
-        "sma20_dist": -20.94
+        "chg_1d": -1.93,
+        "chg_7d": -16.64,
+        "chg_1mo": -25.2,
+        "chg_1y": 1.8,
+        "sma20_dist": -20.01
       },
       "news": [
         {
-          "title": "Tesla Stock Breaks Down After Worst Week Since 2022, Charts Point to $296",
-          "link": "https://beincrypto.com/tesla-tsla-stock-breakdown-296-target/?.tsrc=rss",
+          "title": "As Elon Musk Promises The Future, Tesla Stock Slides Into The Past",
+          "link": "https://finance.yahoo.com/m/7cf4189e-49db-3f09-af15-86579aadfebe/as-elon-musk-promises-the.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Cathie Wood Goes Bargain Hunting: 3 Huge Stocks She Bought Last Week",
-          "link": "https://www.fool.com/investing/2026/07/27/cathie-wood-goes-bargain-hunting-3-stocks-she-boug/?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "This Bearish Put Spread Can Cash In On Tesla Stock's Bleak Outlook",
-          "link": "https://finance.yahoo.com/m/5a52ab98-074c-3c6a-a8d0-ddfb3080466e/this-bearish-put-spread-can.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Ford, General Motors Upgraded On Profit, Cash Flow Outlooks. One Eyes A Buy Point.",
-          "link": "https://finance.yahoo.com/m/8f052087-6c3e-332f-912d-1ad292b7f7e8/ford%2C-general-motors-upgraded.html?.tsrc=rss",
+          "title": "Ford and GM Look to Defense for New Growth",
+          "link": "https://finance.yahoo.com/m/2729392e-4b9c-384b-8a04-c5883e92de0b/ford-and-gm-look-to-defense.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "pos"
         },
         {
-          "title": "Ford, PACCAR, OSK & ABG: Can They Beat Q2 Earnings Estimates?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ford-paccar-osk-abg-beat-153700190.html?.tsrc=rss",
+          "title": "Tesla V4 Supercharger Now Available to U.S. Government Agencies Through Verdek's GSA Contract",
+          "link": "https://finance.yahoo.com/energy/articles/tesla-v4-supercharger-now-available-180400978.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
+          "tone": "neu"
+        },
+        {
+          "title": "Apple overtakes Nvidia as world's most valuable company",
+          "link": "https://qz.com/apple-reclaims-most-valuable-company-nvidia-072726?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Should You Buy Tesla Stock After Its Post-Earnings Dip?",
+          "link": "https://www.fool.com/investing/2026/07/27/should-you-buy-tesla-stock-after-its-post-earnings/?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs -19.27% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -25.34%.",
-          "-20.94% unter SMA20 – technisch angeschlagen.",
+          "Kurs -16.64% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -25.2%.",
+          "-20.01% unter SMA20 – technisch angeschlagen.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Diskussion auf Reddit dreht sich um die volatile Kursentwicklung von Tesla und die damit verbundenen Optionen. Markt und Nachrichten deuten auf eine bearish Stimmung hin, die durch die jüngsten Kursverluste und die Warnungen vor einer Blase unterstützt wird. Die Empfehlung, Tesla zu beobachten, ist angesichts der gemischten Signale und der Unsicherheiten im Markt sinnvoll.",
+      "fazit": "Die Diskussion auf Reddit dreht sich um die volatile Kursentwicklung von Tesla und die damit verbundenen Handelsstrategien. Markt und Nachrichten zeigen eine gemischte Lage, wobei die rückläufige Kursentwicklung und die Konkurrenz von Ford und GM die Stimmung belasten. Die Empfehlung lautet, die Situation genau zu beobachten, da die Unsicherheiten überwiegen.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "Tesla, Inc. hat sich als führender Anbieter im Bereich Elektrofahrzeuge etabliert und konkurriert direkt mit Unternehmen wie Ford, General Motors und neuen Marktteilnehmern wie Rivian und Lucid Motors. Die Innovationskraft und die starke Marke von Tesla haben es dem Unternehmen ermöglicht, einen signifikanten Marktanteil zu gewinnen, jedoch sehen sich die Wettbewerber zunehmend in der Lage, ebenfalls wettbewerbsfähige Elektrofahrzeuge anzubieten, was den Druck auf Tesla erhöht.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für Tesla von Bedeutung sein. Dazu gehören die Expansion in neue Märkte, insbesondere in Europa und Asien, sowie die Einführung neuer Modelle und Technologien, die die Produktionskosten senken und die Reichweite der Fahrzeuge erhöhen könnten. Zudem könnte die zunehmende Akzeptanz von Elektrofahrzeugen durch staatliche Anreize und eine wachsende Infrastruktur für Ladestationen Tesla zugutekommen.\n\nDennoch gibt es zentrale Risiken, die das Unternehmen betreffen. Der Wettbewerb im Elektrofahrzeugmarkt nimmt zu, was zu einem möglichen Preisdruck führen könnte. Zudem ist die Nachfrage nach Elektrofahrzeugen zyklisch und kann durch wirtschaftliche Unsicherheiten beeinflusst werden. Die Bewertung von Tesla ist ebenfalls ein heiß diskutiertes Thema, da die hohen Kurs-Gewinn-Verhältnisse viele Investoren skeptisch stimmen könnten. Makroökonomische Faktoren wie Zinserhöhungen könnten zudem die Finanzierungskosten für Tesla erhöhen.\n\nDie aktuelle Kurslage von Tesla, die durch einen Rückgang von über 25% im letzten Monat geprägt ist, steht im Einklang mit den bearischen Nachrichten und der allgemeinen Marktstimmung. Die Diskussion auf Reddit über die Möglichkeit eines Schnäppchens nach den Kursverlusten und die Warnungen vor einer Blase spiegeln die Unsicherheiten wider, mit denen Investoren konfrontiert sind. Die Tatsache, dass Cathie Wood, eine bekannte Investorin, in Tesla investiert hat, könnte als positives Signal gewertet werden, allerdings bleibt die allgemeine Marktstimmung bearish.\n\nInsgesamt erscheint die Reddit-Stimmung als teilweise gerechtfertigt. Die Diskussion über die Schnäppchenjagd könnte durch die aktuellen Kursverluste und die Möglichkeit, von einem potenziellen Aufschwung zu profitieren, unterstützt werden. Allerdings sollte die Warnung vor einer Blase nicht ignoriert werden, da die fundamentalen Daten und die Marktbedingungen darauf hinweisen, dass eine gewisse Vorsicht geboten ist. Die These, dass die Call-Optionen-Aktivität ein Zeichen für zukünftige Kursgewinne ist, könnte in einem bullischen Markt zutreffen, jedoch ist die gegenwärtige Marktlage eher bearish, was die Unsicherheit verstärkt.",
+      "analyse": "Tesla, Inc. ist ein führendes Unternehmen im Bereich Elektrofahrzeuge und erneuerbare Energien, das sich durch seine Innovationskraft und technologische Überlegenheit von Wettbewerbern wie Ford und General Motors abhebt. **Die Marktposition von Tesla bleibt stark**, jedoch sehen sich die Hersteller einer zunehmenden Konkurrenz gegenüber, insbesondere durch die aggressiven Elektrofahrzeugstrategien von Ford und GM, die versuchen, Marktanteile zurückzugewinnen. Diese Wettbewerber haben in den letzten Jahren erhebliche Investitionen in die Entwicklung ihrer Elektrofahrzeuglinien getätigt, was den Druck auf Tesla erhöht.\n\nIn den kommenden 1-2 Jahren könnten mehrere Wachstumstreiber für Tesla relevant sein. Dazu zählen die Expansion in neue Märkte, die Einführung neuer Modelle und die Verbesserung der Produktionskapazitäten. **Die Nachfrage nach Elektrofahrzeugen wird voraussichtlich weiter steigen**, insbesondere in Regionen mit strengen Emissionsvorschriften. Zudem könnte die Einführung neuer Technologien, wie etwa die Tesla V4 Supercharger, die Marktattraktivität erhöhen und die Kundenbindung stärken.\n\nJedoch gibt es auch zentrale Risiken, die das Unternehmen belasten könnten. **Der zunehmende Wettbewerb im Elektrofahrzeugsektor** könnte zu Preisdruck und Margenverringerungen führen. Zudem ist die Branche zyklisch und anfällig für makroökonomische Faktoren wie Zinssätze und Inflation, die die Kaufkraft der Verbraucher beeinflussen können. **Die Bewertung von Tesla wird von vielen Analysten als hoch angesehen**, was zu einer möglichen Korrektur führen könnte, wenn die Marktbedingungen sich verschlechtern.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass Tesla in einer kritischen Phase ist. Die Rückgänge in den letzten Wochen, insbesondere um -25,2% im letzten Monat, deuten auf eine Unsicherheit im Markt hin. Die Reddit-Diskussionen über die Handelsstrategien, insbesondere die Call-Optionen, reflektieren eine gewisse Hoffnung auf eine Erholung, während die Warnungen über eine mögliche Blase ernst genommen werden sollten. **Die Nachrichten über die Konkurrenz und die neuen Produkte von Ford und GM** könnten das Vertrauen in Teslas zukünftiges Wachstum beeinträchtigen.\n\nInsgesamt erscheint die Reddit-Stimmung nicht vollständig fundamental gerechtfertigt. Während die Diskussion über die Kursfantasie und die Handelsstrategien verständlich ist, sollte die Realität der Konkurrenz und der aktuellen Marktbedingungen nicht ignoriert werden. Die These, dass Tesla weiterhin die Marktführerschaft behaupten kann, könnte durch die aggressive Strategie der Wettbewerber in Frage gestellt werden. **Die Unsicherheiten überwiegen**, und es ist ratsam, die Entwicklungen genau zu beobachten, bevor man in Tesla investiert.",
       "konkurrenten": [
         {
           "name": "Ford Motor Company",
           "ticker": "F",
-          "vergleich": "Ford hat sich mit der Einführung der Mustang Mach-E und der F-150 Lightning im Elektrofahrzeugmarkt positioniert, ist jedoch hinter Tesla zurück."
+          "vergleich": "Ford hat eine starke Marktpräsenz und investiert massiv in Elektrofahrzeuge, was den Druck auf Tesla erhöht."
         },
         {
           "name": "General Motors",
           "ticker": "GM",
-          "vergleich": "GM plant eine aggressive Elektrifizierungsstrategie, hat aber noch nicht die Marktanteile von Tesla erreicht."
-        },
-        {
-          "name": "Rivian Automotive, Inc.",
-          "ticker": "RIVN",
-          "vergleich": "Rivian ist ein neuer Wettbewerber im Elektro-SUV-Segment, hat jedoch noch nicht die Produktionskapazitäten von Tesla."
+          "vergleich": "GM hat ebenfalls bedeutende Fortschritte im Elektrofahrzeugbereich gemacht und plant, Tesla in den kommenden Jahren verstärkt Konkurrenz zu machen."
         }
       ],
       "gruende": [
-        "Starke Kursverluste in den letzten Wochen",
-        "Aktive Diskussion über Optionen und deren Strategien",
-        "Interesse an potenziellen Schnäppchen nach dem Rückgang"
+        "Volatile Kursbewegungen und Handelsstrategien",
+        "Aktivitäten im Optionshandel (Calls und Puts)",
+        "Neuigkeiten über Konkurrenz und Produktentwicklungen"
       ],
       "momentum": 58,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2973,14 +3112,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-26T22:51:33.573293+00:00",
-          "ticker": "TSLA",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 15,
-          "price": 313.03
-        },
         {
           "ts": "2026-07-27T02:01:16.773881+00:00",
           "ticker": "TSLA",
@@ -3020,6 +3151,14 @@
           "confidence": 61,
           "engagement": 14,
           "price": 307.46
+        },
+        {
+          "ts": "2026-07-27T19:13:27.711174+00:00",
+          "ticker": "TSLA",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 14,
+          "price": 308.07
         }
       ]
     },
@@ -3031,7 +3170,7 @@
       "confidence": 64,
       "sentiment": 1,
       "mentions": 4,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 13,
       "sources": [
         "wallstreetbets"
@@ -3068,44 +3207,44 @@
       "themen": [
         {
           "emoji": "🤝",
-          "titel": "Partnerschaften im Halbleitermarkt",
-          "anteil_pct": 50,
+          "titel": "Partnerschaften im Fokus",
+          "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert über die strategische Partnerschaft mit Sk Hynix und deren Auswirkungen auf die Marktposition von NVIDIA.",
+          "erklaerung": "Die Community diskutiert die strategische Bedeutung der Partnerschaft mit Sk Hynix und deren Einfluss auf die Innovationskraft von NVIDIA.",
           "links": [
             {
               "title": "Sk Hynix NVDA partnership",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5u5db/sk_hynix_nvda_partnership/"
+            },
+            {
+              "title": "Frequency AI Ratio Tracker (FART) stategy",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
             }
           ]
         },
         {
-          "emoji": "📉",
-          "titel": "Marktanalyse und Kursentwicklung",
+          "emoji": "📈",
+          "titel": "Marktreaktionen auf Earnings",
           "anteil_pct": 30,
-          "beitraege": 2,
-          "erklaerung": "Es wird über die aktuelle Marktverfassung und die Kursrückgänge diskutiert, insbesondere im Hinblick auf die allgemeine Unsicherheit im Halbleitermarkt.",
+          "beitraege": 1,
+          "erklaerung": "Die bevorstehenden Finanzberichte von Arm Holdings könnten die Aktienkurse von NVIDIA beeinflussen, was zu spekulativen Diskussionen führt.",
           "links": [
             {
               "title": "CME Group to Launch Single Stock Futures on July 27",
               "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7b89j/cme_group_to_launch_single_stock_futures_on_july/"
-            },
-            {
-              "title": "Hold the Line or Cut and Run?",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
             }
           ]
         },
         {
-          "emoji": "📊",
-          "titel": "Strategien zur Kursoptimierung",
-          "anteil_pct": 20,
+          "emoji": "⚠️",
+          "titel": "Risiken der Überbewertung",
+          "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Die Reddit-Nutzer diskutieren über verschiedene Strategien zur Kursoptimierung, was auf ein Interesse an kurzfristigen Handelsstrategien hinweist.",
+          "erklaerung": "Bedenken über die Short-Positionierung und mögliche Blasenbildung werden thematisiert, was zu einer kritischen Betrachtung des aktuellen Kursniveaus führt.",
           "links": [
             {
-              "title": "Frequency AI Ratio Tracker (FART) stategy",
-              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v5huol/frequency_ai_ratio_tracker_fart_stategy/"
+              "title": "Hold the Line or Cut and Run?",
+              "url": "https://www.reddit.com/r/wallstreetbets/comments/1v7yvjf/hold_the_line_or_cut_and_run/"
             }
           ]
         }
@@ -3119,7 +3258,7 @@
       ],
       "price": {
         "available": true,
-        "price": 195.62,
+        "price": 197.49,
         "currency": "USD",
         "name": "NVIDIA Corporation",
         "chart_1d": [
@@ -3189,11 +3328,35 @@
           },
           {
             "t": 1785173400,
-            "c": 195.64
+            "c": 195.9
           },
           {
-            "t": 1785173537,
-            "c": 195.6
+            "t": 1785174300,
+            "c": 196.79
+          },
+          {
+            "t": 1785175200,
+            "c": 196.61
+          },
+          {
+            "t": 1785176100,
+            "c": 196.71
+          },
+          {
+            "t": 1785177000,
+            "c": 196.79
+          },
+          {
+            "t": 1785177900,
+            "c": 197.45
+          },
+          {
+            "t": 1785178800,
+            "c": 197.51
+          },
+          {
+            "t": 1785179719,
+            "c": 197.49
           }
         ],
         "chart_5d": [
@@ -3327,11 +3490,15 @@
           },
           {
             "t": 1785173400,
-            "c": 195.64
+            "c": 196.71
           },
           {
-            "t": 1785173537,
-            "c": 195.6
+            "t": 1785177000,
+            "c": 197.51
+          },
+          {
+            "t": 1785179720,
+            "c": 197.45
           }
         ],
         "chart_1mo": [
@@ -3408,8 +3575,12 @@
             "c": 208.76
           },
           {
+            "t": 1784899800,
+            "c": 206.84
+          },
+          {
             "t": 1785159000,
-            "c": 195.62
+            "c": 197.49
           }
         ],
         "chart_1y": [
@@ -3619,47 +3790,47 @@
           },
           {
             "t": 1784520000,
-            "c": 208.76
+            "c": 206.84
           },
           {
             "t": 1785124800,
-            "c": 195.64
+            "c": 197.45
           }
         ],
-        "chg_1d": -3.29,
-        "chg_7d": -3.55,
-        "chg_1mo": 0.33,
-        "chg_1y": 12.61,
-        "sma20_dist": -3.78
+        "chg_1d": -2.36,
+        "chg_7d": -2.85,
+        "chg_1mo": 1.29,
+        "chg_1y": 13.68,
+        "sma20_dist": -2.99
       },
       "news": [
         {
-          "title": "Stock Market Today: Dow Up; Pharma Firm Tests Entry; Memory Plays Sink As China Rival Soars (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/de8b5436-c73d-31ce-a62f-9df4d32cb08d/stock-market-today%3A-dow-up%3B.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Arm Holdings Has Fallen 28% in the Past Month. Should You Buy Before July 29 Earnings?",
-          "link": "https://247wallst.com/investing/2026/07/27/arm-holdings-has-fallen-28-in-the-past-month-should-you-buy-before-july-29-earnings/?.tsrc=rss",
+          "title": "Arm Holdings' Next Earnings Report on July 29 Could Send the Stock Soaring. Here's Why.",
+          "link": "https://www.fool.com/investing/2026/07/27/arm-holdings-next-earnings-report-on-july-29-could-send-the-stock-soaring-heres-why/?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Dow Jones Holds Gains While S&P 500 Turns Negative on Semiconductor Weakness",
-          "link": "https://www.fool.com/investing/2026/07/27/dow-jones-holds-gains-while-sp-500-turns-negative/?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neg"
-        },
-        {
-          "title": "Forget EEM. iShares Sells Nearly the Same Emerging Markets for 87% Less",
-          "link": "https://247wallst.com/investing/2026/07/27/forget-eem-ishares-sells-nearly-the-same-emerging-markets-for-87-less/?.tsrc=rss",
+          "title": "Oracle Stock Is Down 64% in 10 Months. Is This the Best Buying Opportunity in AI -- or a Falling Knife?",
+          "link": "https://www.fool.com/investing/2026/07/27/oracle-stock-down-buy-opportunity-ai-trap/?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Bold Prediction: NuScale Power Is About to Break Out",
-          "link": "https://www.fool.com/investing/2026/07/27/bold-prediction-nuscale-power-about-to-break-out/?.tsrc=rss",
+          "title": "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock.",
+          "link": "https://finance.yahoo.com/m/6ab3072e-eacd-31e2-b70d-4835b7ae70b2/nvidia-in-talks-to-finance.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and More Stocks That Explain Today’s Market",
+          "link": "https://finance.yahoo.com/m/c397de15-047a-3e51-8ff2-89a83ea62d40/cxmt%2C-sandisk%2C-asml%2C-spacex%2C.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "This Could Be the Most Important 401(k) Move You'll Make All Year",
+          "link": "https://www.fool.com/retirement/2026/07/27/this-could-be-the-most-important-401k-move-youll-m/?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         }
@@ -3667,29 +3838,29 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs -3.55% über 7 Tage – Abwärtsdruck.",
+          "Kurs seitwärts über 7 Tage (-2.85%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Die Reddit-Diskussionen zu NVIDIA drehen sich um strategische Partnerschaften und Marktbewegungen, was durch die aktuelle Marktverfassung und Nachrichtenlage unterstützt wird. Die Kursentwicklung zeigt eine gewisse Unsicherheit, während die Diskussionen tendenziell optimistisch sind. Insgesamt ist die Empfehlung, die Entwicklungen weiterhin zu beobachten, sinnvoll.",
+      "fazit": "Die Reddit-Diskussion dreht sich um die potenziellen Auswirkungen von Partnerschaften und Marktbewegungen auf NVIDIA. Die aktuellen Markt- und Nachrichtenlagen scheinen die Diskussion zu stützen, insbesondere die Berichte über mögliche Finanzierungsstrategien mit OpenAI. Die Empfehlung lautet, die Entwicklung weiterhin zu beobachten, da sowohl Chancen als auch Risiken bestehen.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "NVIDIA Corporation ist ein führendes Unternehmen im Bereich Grafikprozessoren und KI-Technologien, das sich durch seine Innovationskraft und Marktführerschaft auszeichnet. Die Hauptwettbewerber sind Advanced Micro Devices (AMD) und Intel, die beide in verschiedenen Segmenten des Halbleitermarktes stark vertreten sind. NVIDIA hat jedoch einen klaren Vorteil im Bereich der Grafikverarbeitung und der KI-Anwendungen, was die Marktposition stärkt.\n\nIn den nächsten 1-2 Jahren könnten mehrere Wachstumstreiber für NVIDIA relevant sein. Die zunehmende Nachfrage nach KI-Anwendungen und maschinellem Lernen, die durch Partnerschaften wie die mit Sk Hynix gefördert wird, könnte das Umsatzwachstum erheblich steigern. Zudem wird erwartet, dass die Einführung neuer Produkte und Technologien, insbesondere im Gaming- und Rechenzentrumssektor, NVIDIA helfen wird, seine Marktanteile weiter auszubauen.\n\nDennoch gibt es zentrale Risiken, die das Unternehmen betreffen. Der Wettbewerb im Halbleitermarkt ist intensiv und kann zu Preisdruck führen. Zyklische Schwankungen in der Nachfrage nach Halbleiterprodukten könnten ebenfalls die Einnahmen beeinflussen. Zudem gibt es Bedenken hinsichtlich der Bewertung von NVIDIA, insbesondere nach den jüngsten Kursrückgängen, die auf eine mögliche Überbewertung hindeuten könnten. Makroökonomische Faktoren, wie die allgemeine wirtschaftliche Unsicherheit und geopolitische Spannungen, könnten ebenfalls die Geschäftsentwicklung beeinträchtigen.\n\nDie aktuelle Kursentwicklung von NVIDIA, die in den letzten Wochen Rückgänge verzeichnet hat, spiegelt die Unsicherheiten im Markt wider. Die Nachrichten über die Schwäche im Halbleitermarkt und die Performance von Wettbewerbern wie Arm Holdings könnten die Anleger verunsichern. Dennoch bleibt die Diskussion auf Reddit überwiegend positiv, insbesondere im Hinblick auf die Partnerschaft mit Sk Hynix und die potenziellen Wachstumschancen. **Die Reddit-Stimmung könnte durch die positiven Aussichten auf Partnerschaften und technologische Entwicklungen gerechtfertigt sein**, auch wenn die Marktbedingungen derzeit herausfordernd sind.\n\nInsgesamt ist es wichtig, die Entwicklungen bei NVIDIA genau zu beobachten. Die Diskussionen auf Reddit zu den Themen Partnerschaften und Marktanalysen deuten darauf hin, dass es sowohl Chancen als auch Risiken gibt. **Die strategische Partnerschaft mit Sk Hynix könnte ein entscheidender Faktor für zukünftiges Wachstum sein**, während die Unsicherheiten im Markt weiterhin im Fokus stehen sollten.",
+      "analyse": "NVIDIA Corporation ist ein führendes Unternehmen im Bereich Grafikprozessoren und KI-Technologien, das sich in einem wettbewerbsintensiven Markt behauptet. Zu den Hauptkonkurrenten zählen Advanced Micro Devices (AMD) und Intel Corporation, die beide über signifikante Marktanteile verfügen und in der Lage sind, NVIDIA in verschiedenen Segmenten herauszufordern. NVIDIA hat jedoch eine starke Marktposition, insbesondere im Bereich der KI und Gaming, was das Unternehmen als bevorzugten Anbieter für Hochleistungsrechner und Grafikanwendungen positioniert.\n\nIn den kommenden 1-2 Jahren wird NVIDIA voraussichtlich von mehreren Wachstumstreibern profitieren. Dazu gehören die steigende Nachfrage nach KI-Anwendungen, die Expansion in neue Märkte und die kontinuierliche Verbesserung der Produktlinien, die auf die Bedürfnisse von Entwicklern und Unternehmen zugeschnitten sind. Die Partnerschaft mit Sk Hynix könnte zudem neue Möglichkeiten in der Speichertechnologie eröffnen, was die Innovationskraft des Unternehmens weiter stärkt. **Die bevorstehenden Finanzberichte von Arm Holdings** könnten ebenfalls eine wichtige Rolle spielen und die Marktstimmung beeinflussen.\n\nDennoch gibt es auch zentrale Risiken, die NVIDIA im Auge behalten muss. Der Wettbewerb im Bereich der Halbleiter ist intensiv, und Unternehmen wie AMD und Intel investieren stark in Forschung und Entwicklung, um ihre Marktanteile zu verteidigen. Zudem könnte eine zyklische Abschwächung der Nachfrage nach Hardware-Produkten die Umsätze von NVIDIA belasten. Die aktuelle Bewertung des Unternehmens wird von vielen Analysten als hoch angesehen, was zu Bedenken hinsichtlich einer möglichen Überbewertung führt.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass es sowohl positive als auch negative Faktoren gibt, die die Diskussion über NVIDIA beeinflussen. Die Reddit-Diskussion über die Partnerschaft mit Sk Hynix und die bevorstehenden Finanzberichte von Arm Holdings deutet darauf hin, dass Anleger optimistisch sind, was das zukünftige Wachstum betrifft. **Die Short-Positionierung und die Warnungen vor einer Blase** sind jedoch ernst zu nehmen und könnten die Marktstimmung schnell umkehren. \n\nInsgesamt erscheint die Reddit-Stimmung in Bezug auf NVIDIA teilweise gerechtfertigt, insbesondere in Bezug auf die **Partnerschaft mit Sk Hynix** und die damit verbundenen Chancen. Allerdings sollten Anleger auch die Risiken und die aktuelle Marktbewertung im Hinterkopf behalten, bevor sie Entscheidungen treffen. Die Empfehlung, die Entwicklungen weiterhin zu beobachten, ist daher sinnvoll.",
       "konkurrenten": [
         {
           "name": "Advanced Micro Devices",
           "ticker": "AMD",
-          "vergleich": "AMD ist ein starker Wettbewerber im Grafik- und Prozessorbereich, hat jedoch nicht die gleiche Marktführerschaft wie NVIDIA."
+          "vergleich": "AMD ist ein starker Wettbewerber im Bereich Grafikprozessoren und hat in den letzten Jahren Marktanteile gewonnen."
         },
         {
           "name": "Intel Corporation",
           "ticker": "INTC",
-          "vergleich": "Intel ist ein bedeutender Akteur im Halbleitermarkt, hat jedoch im Bereich Grafikprozessoren und KI hinter NVIDIA zurückgefallen."
+          "vergleich": "Intel ist ein etablierter Anbieter, der jedoch im Bereich der Grafikprozessoren hinter NVIDIA zurückbleibt."
         }
       ],
       "gruende": [
-        "Partnerschaften wie die mit Sk Hynix könnten das Wachstum fördern.",
-        "Marktsituation und Nachrichten über den Halbleitermarkt beeinflussen die Stimmung.",
-        "Kursrückgänge könnten Anleger verunsichern und Diskussionen anheizen."
+        "Diskussion über die Partnerschaft mit Sk Hynix und deren Einfluss auf die Produktentwicklung.",
+        "Erwartungen an die bevorstehenden Finanzberichte von Arm Holdings und deren Auswirkungen auf den Markt.",
+        "Bedenken hinsichtlich der Short-Positionierung und möglicher Überbewertung."
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -3715,21 +3886,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 20,
+      "quality_pct": 15,
       "reddit_vs_markt": {
         "reddit": 52,
-        "markt": 35,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "markt": 38,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-26T18:57:33.593022+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 9,
-          "price": 208.76
-        },
         {
           "ts": "2026-07-26T20:46:02.455879+00:00",
           "ticker": "NVDA",
@@ -3769,6 +3932,14 @@
           "confidence": 64,
           "engagement": 13,
           "price": 195.62
+        },
+        {
+          "ts": "2026-07-27T19:13:27.711174+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 13,
+          "price": 197.49
         }
       ]
     },
@@ -3817,40 +3988,40 @@
       "themen": [
         {
           "emoji": "📈",
-          "titel": "Dividenden und Wachstumsstrategien",
+          "titel": "Einzelaktien vs. ETFs",
           "anteil_pct": 40,
           "beitraege": 2,
-          "erklaerung": "Die Community diskutiert, wie Dividenden und Wachstumsinvestitionen kombiniert werden können.",
-          "links": [
-            {
-              "title": "Dividenden/Wachstum/Satelliten",
-              "url": "https://www.reddit.com/r/Aktien/comments/1v52wch/dividendenwachstumsatelliten/"
-            },
-            {
-              "title": "Eure Meinung zu den aufgeführten Aktien?",
-              "url": "https://www.reddit.com/r/Aktien/comments/1uzsxf0/eure_meinung_zu_den_aufgeführten_aktien/"
-            }
-          ]
-        },
-        {
-          "emoji": "🤔",
-          "titel": "ETFs vs. Einzelaktien",
-          "anteil_pct": 30,
-          "beitraege": 1,
-          "erklaerung": "Es wird hinterfragt, ob Investitionen in Einzelaktien sinnvoller sind als in einen All World ETF.",
+          "erklaerung": "Die Community diskutiert, ob es sinnvoll ist, in Einzelaktien zu investieren oder lieber breit gestreut in ETFs.",
           "links": [
             {
               "title": "Gibt es einen logischen Grund, in Einzelaktien zu investieren statt einfach alles in einen All World ETF zu st",
               "url": "https://www.reddit.com/r/Aktien/comments/1v4710n/gibt_es_einen_logischen_grund_in_einzelaktien_zu/"
+            },
+            {
+              "title": "Macht ihr mit Aktieninvestments wirklich Überrendite?",
+              "url": "https://www.reddit.com/r/Aktien/comments/1v3s8gj/macht_ihr_mit_aktieninvestments_wirklich/"
             }
           ]
         },
         {
           "emoji": "💰",
-          "titel": "Überrendite durch Aktieninvestments",
+          "titel": "Dividenden und Wachstum",
           "anteil_pct": 30,
           "beitraege": 1,
-          "erklaerung": "Die Nutzer fragen sich, ob es tatsächlich möglich ist, mit Aktieninvestments Überrendite zu erzielen.",
+          "erklaerung": "Es wird erörtert, wie Dividenden und Wachstumsstrategien in die Anlagestrategie integriert werden können.",
+          "links": [
+            {
+              "title": "Dividenden/Wachstum/Satelliten",
+              "url": "https://www.reddit.com/r/Aktien/comments/1v52wch/dividendenwachstumsatelliten/"
+            }
+          ]
+        },
+        {
+          "emoji": "🤔",
+          "titel": "Überrendite-Debatte",
+          "anteil_pct": 30,
+          "beitraege": 1,
+          "erklaerung": "Die Frage, ob Aktieninvestments tatsächlich Überrenditen generieren können, steht im Fokus.",
           "links": [
             {
               "title": "Macht ihr mit Aktieninvestments wirklich Überrendite?",
@@ -3874,25 +4045,25 @@
           "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
         ]
       },
-      "fazit": "Die Reddit-Diskussion dreht sich um die Vor- und Nachteile von Investitionen in Einzelaktien im Vergleich zu ETFs, was auf ein wachsendes Interesse an spezifischen Wachstumsstorys hinweist. Der Markt und die Nachrichten unterstützen diese Diskussion nicht aktiv, da keine aktuellen Kursdaten oder Neuigkeiten vorliegen. Die Empfehlung, FTSE zu beobachten, ist sinnvoll, da die Reddit-Stimmung auf eine positive Entwicklung hindeutet, jedoch keine konkreten Marktinformationen zur Verfügung stehen.",
+      "fazit": "Die Reddit-Diskussion dreht sich um die Vor- und Nachteile von Einzelaktien im Vergleich zu ETFs, was auf ein wachsendes Interesse an spezifischen Investitionsmöglichkeiten hinweist. Es gibt jedoch keine aktuellen Markt- oder Nachrichtenereignisse, die diese Diskussion stützen. Die Empfehlung, das Geschehen zu beobachten, ist sinnvoll, da die Situation unklar bleibt und keine konkreten Kursdaten vorliegen.",
       "fazit_quelle": "KI (GitHub Models)",
-      "analyse": "FTSE ist ein bedeutender Index, der die Performance der 100 größten an der Londoner Börse notierten Unternehmen abbildet. Die Marktposition von FTSE ist stark, da er als Benchmark für viele institutionelle Investoren dient und eine Vielzahl von Sektoren abdeckt. Zu den Hauptkonkurrenten gehören der DAX in Deutschland und der S&P 500 in den USA, die beide in ihren jeweiligen Märkten dominant sind und unterschiedliche wirtschaftliche Rahmenbedingungen widerspiegeln.\n\nWachstumstreiber für FTSE könnten in den kommenden 1-2 Jahren in der Stabilität der britischen Wirtschaft und der Erholung nach der Pandemie liegen. Insbesondere Unternehmen im Technologiesektor und in der erneuerbaren Energie könnten von der zunehmenden Nachfrage profitieren. Die Diskussion auf Reddit über Dividenden und Wachstumsstrategien zeigt, dass Anleger ein Interesse an nachhaltigen Erträgen haben, was positiv für die Unternehmen im FTSE ist, die in diesen Bereichen tätig sind.\n\nZentrale Risiken für FTSE sind der starke Wettbewerb aus anderen Märkten, insbesondere aus den USA, sowie makroökonomische Unsicherheiten wie Inflation und Zinserhöhungen. Die zyklische Natur vieler im FTSE gelisteter Unternehmen könnte ebenfalls zu Schwankungen führen, insbesondere wenn sich die wirtschaftlichen Bedingungen verschlechtern. Darüber hinaus könnte die Bewertung der Unternehmen im FTSE im Vergleich zu anderen Märkten als hoch angesehen werden, was zu einem Rückgang des Anlegerinteresses führen könnte.\n\nDie aktuelle Kurs- und Nachrichtenlage zeigt, dass es keine neuen Informationen gibt, die die Diskussion auf Reddit unterstützen oder widerlegen könnten. Das Fehlen von Kursdaten macht es schwierig, eine fundierte Einschätzung der aktuellen Marktlage vorzunehmen. Die Reddit-Stimmung, die auf eine positive Entwicklung hinweist, könnte jedoch durch das anhaltende Interesse an Dividenden und Wachstumsstrategien gerechtfertigt sein. Die Diskussion über die Überrendite durch Aktieninvestments spiegelt die Suche nach Möglichkeiten wider, die über das passive Investieren in ETFs hinausgehen.\n\nInsgesamt scheint die Reddit-Stimmung bezüglich FTSE fundamental gerechtfertigt zu sein, insbesondere in Bezug auf die Thesen zu Dividenden und Wachstumsstrategien. Die Community zeigt ein starkes Interesse an der Möglichkeit, mit gezielten Investitionen in Einzelaktien eine Überrendite zu erzielen, was die Relevanz von FTSE als Index unterstreicht, der viele potenziell starke Unternehmen umfasst.",
+      "analyse": "FTSE ist ein bedeutender Akteur im Finanzsektor, der sich auf die Bereitstellung von Indizes und Datenanalysen spezialisiert hat. Die Marktposition wird durch die Konkurrenz mit anderen großen Indexanbietern wie MSCI und S&P Global beeinflusst, die ebenfalls umfassende Datenlösungen und Indizes anbieten. FTSE hat sich jedoch durch seine breite Palette an Indizes, die verschiedene Märkte und Sektoren abdecken, eine solide Marktstellung erarbeitet.\n\nIn den kommenden 1-2 Jahren könnten mehrere **Wachstumstreiber** für FTSE von Bedeutung sein, darunter die zunehmende Nachfrage nach passiven Anlageprodukten und die steigende Bedeutung von ESG-Investitionen. Die Community diskutiert insbesondere die Rolle von **Dividenden und Wachstumsstrategien**, was darauf hindeutet, dass Anleger nach Möglichkeiten suchen, ihre Portfolios zu diversifizieren und von den Vorteilen der FTSE-Indizes zu profitieren. Die Expansion in aufstrebende Märkte könnte ebenfalls ein strategischer Fokus sein, um neue Kunden zu gewinnen und das Wachstum zu fördern.\n\nAllerdings gibt es auch zentrale **Risiken**, die FTSE betreffen könnten. Der Wettbewerb im Bereich der Finanzindizes ist intensiv, und Anbieter wie MSCI und S&P Global könnten Marktanteile gewinnen, wenn sie innovative Produkte oder Dienstleistungen anbieten. Zudem könnte die allgemeine Marktentwicklung und wirtschaftliche Unsicherheiten, wie Inflation oder geopolitische Spannungen, die Nachfrage nach FTSE-Indizes negativ beeinflussen. Eine Überbewertung der Indizes könnte ebenfalls ein Risiko darstellen, insbesondere wenn Anleger auf kurzfristige Trends reagieren.\n\nAktuell gibt es keine spezifischen Kursdaten oder Nachrichten, die die Diskussion um FTSE unterstützen. Die Reddit-Diskussion scheint eher theoretischer Natur zu sein, ohne dass konkrete Marktentwicklungen diese stützen. Die Empfehlung, die Situation zu beobachten, ist daher angebracht, da die Unsicherheit über die zukünftige Entwicklung der Indizes und die allgemeine Marktlage bestehen bleibt.\n\nInsgesamt erscheint die Reddit-Stimmung als teilweise gerechtfertigt, insbesondere in Bezug auf die Diskussion über **Einzelaktien vs. ETFs**. Während die Community berechtigte Fragen zur Überrendite aufwirft, ist die Unsicherheit über die Marktbedingungen und das Fehlen konkreter Nachrichten ein Hinweis darauf, dass Anleger vorsichtig bleiben sollten. Die Diskussion über Dividenden und Wachstumsstrategien zeigt jedoch, dass es ein wachsendes Interesse an spezifischen Investitionsmöglichkeiten gibt, was für FTSE positiv sein könnte.",
       "konkurrenten": [
         {
-          "name": "DAX",
-          "ticker": "DAX",
-          "vergleich": "Der DAX ist im deutschen Markt führend und bietet eine starke Konkurrenz durch seine hohe Liquidität und Diversifikation."
+          "name": "MSCI",
+          "ticker": "MSCI",
+          "vergleich": "MSCI ist ein starker Wettbewerber im Bereich der Finanzindizes, mit einem breiten Angebot an ESG-Indizes, das FTSE herausfordert."
         },
         {
-          "name": "S&P 500",
-          "ticker": "SPY",
-          "vergleich": "Der S&P 500 hat eine größere internationale Reichweite und zieht viele Investoren an, was ihn zu einem starken Wettbewerber macht."
+          "name": "S&P Global",
+          "ticker": "SPGI",
+          "vergleich": "S&P Global hat eine dominante Marktstellung im Bereich der Indizes und bietet umfassende Datenlösungen, was FTSE unter Druck setzen könnte."
         }
       ],
       "gruende": [
-        "Diskussion über Dividenden und Wachstumsstrategien",
-        "Interesse an der Überrendite durch Einzelaktien",
-        "Debatte über die Vorzüge von ETFs vs. Einzelaktien"
+        "Diskussion über die Vorzüge von Einzelaktien gegenüber ETFs.",
+        "Interesse an Dividenden und Wachstumsstrategien.",
+        "Fragen zur Überrendite von Aktieninvestments."
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -3925,14 +4096,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-26T22:51:33.573293+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 10,
-          "price": null
-        },
         {
           "ts": "2026-07-27T02:01:16.773881+00:00",
           "ticker": "FTSE",
@@ -3972,16 +4135,24 @@
           "confidence": 56,
           "engagement": 10,
           "price": null
+        },
+        {
+          "ts": "2026-07-27T19:13:27.711174+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 10,
+          "price": null
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 55,
-    "n_evaluated": 123,
+    "hit_rate": 34,
+    "n_evaluated": 117,
     "rate_kaufen": null,
-    "rate_verkaufen": 75,
-    "rate_beobachten": 55,
+    "rate_verkaufen": 50,
+    "rate_beobachten": 34,
     "kauf_perf_7d": null,
     "kauf_perf_30d": null
   },
@@ -3993,9 +4164,9 @@
       "confidence": 61,
       "engagement": 8,
       "price": 148.19,
-      "chg_since": -0.5,
+      "chg_since": -0.29,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-07-19T18:52:05.343683+00:00",
@@ -4004,9 +4175,9 @@
       "confidence": 61,
       "engagement": 6,
       "price": 193.51,
-      "chg_since": 13.12,
+      "chg_since": 13.73,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-07-19T18:52:05.343683+00:00",
@@ -4015,9 +4186,9 @@
       "confidence": 61,
       "engagement": 6,
       "price": 521.57,
-      "chg_since": 5.4,
+      "chg_since": 5.22,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-07-19T20:38:11.495043+00:00",
@@ -4026,8 +4197,8 @@
       "confidence": 63,
       "engagement": 14,
       "price": 848.95,
-      "chg_since": 2.29,
-      "correct": true,
+      "chg_since": 5.34,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4037,7 +4208,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 123.99,
-      "chg_since": -11.36,
+      "chg_since": -10.03,
       "correct": false,
       "age_days": 7
     },
@@ -4048,7 +4219,7 @@
       "confidence": 78,
       "engagement": 9,
       "price": 94.85,
-      "chg_since": 3.73,
+      "chg_since": 4.26,
       "correct": false,
       "age_days": 7
     },
@@ -4059,7 +4230,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 148.19,
-      "chg_since": -0.5,
+      "chg_since": -0.29,
       "correct": true,
       "age_days": 7
     },
@@ -4070,8 +4241,8 @@
       "confidence": 63,
       "engagement": 14,
       "price": 848.95,
-      "chg_since": 2.29,
-      "correct": true,
+      "chg_since": 5.34,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4081,7 +4252,7 @@
       "confidence": 51,
       "engagement": 12,
       "price": 123.99,
-      "chg_since": -11.36,
+      "chg_since": -10.03,
       "correct": false,
       "age_days": 7
     },
@@ -4092,7 +4263,7 @@
       "confidence": 58,
       "engagement": 11,
       "price": 94.85,
-      "chg_since": 3.73,
+      "chg_since": 4.26,
       "correct": true,
       "age_days": 7
     },
@@ -4103,7 +4274,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 148.19,
-      "chg_since": -0.5,
+      "chg_since": -0.29,
       "correct": true,
       "age_days": 7
     },
@@ -4114,8 +4285,8 @@
       "confidence": 63,
       "engagement": 14,
       "price": 848.95,
-      "chg_since": 2.29,
-      "correct": true,
+      "chg_since": 5.34,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4125,7 +4296,7 @@
       "confidence": 51,
       "engagement": 12,
       "price": 123.99,
-      "chg_since": -11.36,
+      "chg_since": -10.03,
       "correct": false,
       "age_days": 7
     },
@@ -4136,7 +4307,7 @@
       "confidence": 58,
       "engagement": 11,
       "price": 94.85,
-      "chg_since": 3.73,
+      "chg_since": 4.26,
       "correct": true,
       "age_days": 7
     },
@@ -4147,7 +4318,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 148.19,
-      "chg_since": -0.5,
+      "chg_since": -0.29,
       "correct": true,
       "age_days": 7
     },
@@ -4158,8 +4329,8 @@
       "confidence": 63,
       "engagement": 14,
       "price": 848.95,
-      "chg_since": 2.29,
-      "correct": true,
+      "chg_since": 5.34,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4169,7 +4340,7 @@
       "confidence": 61,
       "engagement": 18,
       "price": 628.66,
-      "chg_since": -9.26,
+      "chg_since": -9.13,
       "correct": false,
       "age_days": 7
     },
@@ -4180,7 +4351,7 @@
       "confidence": 54,
       "engagement": 13,
       "price": 123.99,
-      "chg_since": -11.36,
+      "chg_since": -10.03,
       "correct": false,
       "age_days": 7
     },
@@ -4191,7 +4362,7 @@
       "confidence": 61,
       "engagement": 12,
       "price": 94.85,
-      "chg_since": 3.73,
+      "chg_since": 4.26,
       "correct": true,
       "age_days": 7
     },
@@ -4202,7 +4373,7 @@
       "confidence": 78,
       "engagement": 9,
       "price": 67.62,
-      "chg_since": -4.01,
+      "chg_since": -2.65,
       "correct": true,
       "age_days": 7
     },
@@ -4213,8 +4384,8 @@
       "confidence": 63,
       "engagement": 14,
       "price": 848.95,
-      "chg_since": 2.29,
-      "correct": true,
+      "chg_since": 5.34,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4224,7 +4395,7 @@
       "confidence": 54,
       "engagement": 15,
       "price": 123.99,
-      "chg_since": -11.36,
+      "chg_since": -10.03,
       "correct": false,
       "age_days": 7
     },
@@ -4235,7 +4406,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 94.85,
-      "chg_since": 3.73,
+      "chg_since": 4.26,
       "correct": true,
       "age_days": 7
     },
@@ -4246,7 +4417,7 @@
       "confidence": 78,
       "engagement": 9,
       "price": 67.62,
-      "chg_since": -4.01,
+      "chg_since": -2.65,
       "correct": true,
       "age_days": 7
     },
@@ -4257,7 +4428,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 148.19,
-      "chg_since": -0.5,
+      "chg_since": -0.29,
       "correct": true,
       "age_days": 7
     },
@@ -4268,7 +4439,7 @@
       "confidence": 63,
       "engagement": 14,
       "price": 889.58,
-      "chg_since": -2.38,
+      "chg_since": 0.53,
       "correct": true,
       "age_days": 7
     },
@@ -4279,7 +4450,7 @@
       "confidence": 54,
       "engagement": 15,
       "price": 122.16,
-      "chg_since": -10.04,
+      "chg_since": -8.69,
       "correct": false,
       "age_days": 7
     },
@@ -4290,7 +4461,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 96.41,
-      "chg_since": 2.05,
+      "chg_since": 2.57,
       "correct": true,
       "age_days": 7
     },
@@ -4301,8 +4472,8 @@
       "confidence": 78,
       "engagement": 9,
       "price": 66.71,
-      "chg_since": -2.7,
-      "correct": true,
+      "chg_since": -1.32,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4312,7 +4483,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 148.5,
-      "chg_since": -0.71,
+      "chg_since": -0.5,
       "correct": true,
       "age_days": 7
     },
@@ -4323,7 +4494,7 @@
       "confidence": 63,
       "engagement": 14,
       "price": 883.22,
-      "chg_since": -1.68,
+      "chg_since": 1.25,
       "correct": true,
       "age_days": 7
     },
@@ -4334,7 +4505,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 146.65,
-      "chg_since": 0.55,
+      "chg_since": 0.76,
       "correct": true,
       "age_days": 7
     },
@@ -4345,7 +4516,7 @@
       "confidence": 54,
       "engagement": 15,
       "price": 123.03,
-      "chg_since": -10.67,
+      "chg_since": -9.33,
       "correct": false,
       "age_days": 7
     },
@@ -4356,7 +4527,7 @@
       "confidence": 51,
       "engagement": 14,
       "price": 648.14,
-      "chg_since": -7.87,
+      "chg_since": -8.08,
       "correct": false,
       "age_days": 7
     },
@@ -4367,7 +4538,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 98.88,
-      "chg_since": -0.5,
+      "chg_since": 0.01,
       "correct": true,
       "age_days": 7
     },
@@ -4378,7 +4549,7 @@
       "confidence": 63,
       "engagement": 15,
       "price": 891.57,
-      "chg_since": -2.6,
+      "chg_since": 0.31,
       "correct": true,
       "age_days": 7
     },
@@ -4389,7 +4560,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 146.01,
-      "chg_since": 0.99,
+      "chg_since": 1.2,
       "correct": true,
       "age_days": 7
     },
@@ -4400,7 +4571,7 @@
       "confidence": 54,
       "engagement": 15,
       "price": 122.57,
-      "chg_since": -10.34,
+      "chg_since": -8.99,
       "correct": false,
       "age_days": 7
     },
@@ -4411,7 +4582,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 99.67,
-      "chg_since": -1.28,
+      "chg_since": -0.78,
       "correct": true,
       "age_days": 7
     },
@@ -4422,8 +4593,8 @@
       "confidence": 61,
       "engagement": 12,
       "price": 54.26,
-      "chg_since": -5.68,
-      "correct": false,
+      "chg_since": -3.85,
+      "correct": true,
       "age_days": 7
     }
   ],
@@ -4437,7 +4608,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40309",
@@ -4446,7 +4617,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40305",
@@ -4455,7 +4626,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "https:// trumpaccounts.gov",
@@ -4464,7 +4635,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "https:// trumpaccounts.gov",
@@ -4473,7 +4644,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Exclusive — President Donald Trump on Hard-Left Socialist Turn of ‘Dumocrats’: ‘Concept of Give Away Everything Ends up In Squalor, Crime, and Death’: https://www. breitbart.com/politics/2026/07 /03/exclusive-president-donald-trump-on-hard-left-socialist-turn-of-dumocrats-concept-of-give-away-everything-ends-up-in-squalor-crime-and-death/",
@@ -4482,7 +4653,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "https:// nypost.com/2026/06/26/opinion/ republicans-should-cheer-the-exit-of-sad-tucker-carlson/",
@@ -4491,7 +4662,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Whichever Party Terminates the Filibuster FIRST will be the Party that survives and thrives. If the Dumocrats win this race, however, America will rapidly become nothing more than a Third World Nation! President DONALD J. TRUMP",
@@ -4499,6 +4670,31 @@
         "date": "Mon, 27 Jul 2026 13:16",
         "source": "Truth Social",
         "companies": [],
+        "policy": [],
+        "is_new": false
+      },
+      {
+        "text": "Trump is set to defend his economic policies in Michigan, where new Canadian tariffs may sting - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeUU5MExheTc4TEM5ckI0RGR4LWR0MmZrUjE2ZUhWOUdYRDJBakpKYTh4VUZMMUpmQVdic05OSGwyYzdwMWZqSFdsTWRuT1QzeWlLRUE5cHdJUjVFbndCSW1ZcU5hdjVxNDFoR1M0cVJvckxOMVJhMFF5V0pJZmMxN1JsbDB3Q1QwNjRNVnJmalhxNjFmb3hMUmQ5Tk4yS01NLTczbg?oc=5",
+        "date": "Mon, 27 Jul 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Zölle"
+        ],
+        "is_new": false
+      },
+      {
+        "text": "Republicans spent years targeting progressive dark money. That could now boomerang on Trump. - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOW5VV084c0ZwVDdyaHBNRGdTOV96blgzY2V3UEJ1eU9LcEJVWTg2aEIxdEJlaEJKLTMxYXY3R2ZmODZWd3lOdDJTSVNRNF9NNzJfalF6LTlZV1JMVk5uRFJadVVocmVXbjdmMUFWWDlxRlhEVUpWMlJUZmdpNnc2aS1xYzlwd005V0E?oc=5",
+        "date": "Mon, 27 Jul 2026",
+        "source": "News (X/Presse)",
+        "companies": [
+          {
+            "name": "Target",
+            "ticker": "TGT"
+          }
+        ],
         "policy": [],
         "is_new": false
       },
@@ -4511,41 +4707,29 @@
         "policy": [
           "🏛️ Krypto"
         ],
-        "is_new": true
-      },
-      {
-        "text": "Why Trump's new tariff blitz is very different this time around - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBuVjlpeGxVWU1oTmJXNE42NjE0Rlh6YmI4TTFlS3lXaDhEQzFocktkR1Q4OU9CRl9vMElCUmxZUTVzRUl1U1lqdldTTjdNY1JqSHZfVzBWOHVuZUZqT1VBbWNuZ09Xc2RjeWZEcXlGN0E1V2pxMGdHTElobVfSAYIBQVVfeXFMT1g0a3p4SlJWZFlzaGh3bGM2aGVkV253cmp5d2Q1TlFoSm1rX2lObDZtSGRobWVRSXVvVUppVFNmOS05ZDZ6anZHVm5taGsxZnJSVjc5RkoxWjZNWjM0QUpIQ3RUSE1oNzdYaHVNQjBXQ0o4M0VkYlp1ZkwwLThSbWVVZw?oc=5",
-        "date": "Mon, 27 Jul 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Zölle"
-        ],
         "is_new": false
       }
     ],
-    "market_hits": 2
+    "market_hits": 3
   },
   "spannende_aktien": [
     {
       "ticker": "DFNS",
       "name": "T3 Defense Inc.",
-      "price": 10.17,
+      "price": 11.39,
       "currency": "USD",
-      "chg_1d": 160.77,
-      "vol_ratio": 1.4,
+      "chg_1d": 161.84,
+      "vol_ratio": 2.0,
       "warum": [
-        "Starker Kursanstieg durch positive Nachrichten über neue Produktionslinie",
-        "CEO-Interview könnte Vertrauen in das Unternehmen stärken",
-        "Reverse Stock Split könnte kurzfristig für Volatilität sorgen"
+        "Starker Anstieg durch Lieferung fortschrittlicher Produktionslinie",
+        "CEO-Interview könnte Vertrauen stärken",
+        "Reverse Stock Split könnte Volatilität erhöhen"
       ],
-      "bedeutung": "Einmaliges Ereignis, das kurzfristig die Aktie antreibt.",
+      "bedeutung": "Einmaliges Ereignis, das kurzfristig den Kurs beeinflusst.",
       "sterne": 2,
       "risiken": [
-        "Volatilität durch Reverse Stock Split",
-        "Abhängigkeit von der Verteidigungsindustrie",
-        "Marktsituation könnte sich schnell ändern"
+        "Abhängigkeit von Regierungsaufträgen",
+        "Marktreaktion auf Reverse Stock Split"
       ],
       "news": [
         {
@@ -4563,23 +4747,55 @@
       ]
     },
     {
+      "ticker": "BIYA",
+      "name": "Baiya International Group Inc.",
+      "price": 4.3,
+      "currency": "USD",
+      "chg_1d": 122.8,
+      "vol_ratio": 8.9,
+      "warum": [
+        "Erheblicher Anstieg durch Ankündigung des Reverse Splits",
+        "Umbenennung der Krypto-Strategie könnte neue Investoren anziehen",
+        "Hohe Volatilität durch großes Handelsvolumen"
+      ],
+      "bedeutung": "Einmaliges Ereignis, das kurzfristig den Kurs beeinflusst.",
+      "sterne": 2,
+      "risiken": [
+        "Unsicherheit über künftige Strategie",
+        "Marktskepsis aufgrund anderer fallender Aktien"
+      ],
+      "news": [
+        {
+          "title": "Baiya International Group Inc. Announces Reverse Split Record Date",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/baiya-international-group-inc-announces-125000439.html?.tsrc=rss",
+          "date": "Wed, 08 Jul 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "These Three Stocks Fell More Than 10% Today To Hit 52-Week Lows -- What's Driving The Investor Skepticism?",
+          "link": "https://stocktwits.com/news-articles/markets/equity/celz-biya-gdc-stocks-crash-to-52-week-lows/cZ1cwRjR7Wc?.tsrc=rss",
+          "date": "Fri, 26 Jun 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
       "ticker": "CAPR",
       "name": "Capricor Therapeutics, Inc.",
-      "price": 7.49,
+      "price": 6.84,
       "currency": "USD",
-      "chg_1d": -62.23,
-      "vol_ratio": 12.7,
+      "chg_1d": -65.28,
+      "vol_ratio": 15.5,
       "warum": [
-        "Starker Kursrückgang aufgrund negativer FDA-Analyse",
-        "Bedenken über Therapie für Duchenne könnten langfristige Perspektiven trüben",
-        "Hohe Handelsaktivität deutet auf Panikverkäufe hin"
+        "Starker Rückgang aufgrund negativer FDA-Analyse",
+        "Bedenken über Therapie könnten langfristige Perspektiven trüben",
+        "Hohe Handelsaktivität zeigt Marktreaktion"
       ],
-      "bedeutung": "Langfristiger Treiber, da regulatorische Probleme schwerwiegende Folgen haben können.",
+      "bedeutung": "Langfristiger Treiber durch regulatorische Unsicherheiten.",
       "sterne": 1,
       "risiken": [
-        "Regulatorische Hürden für zukünftige Produkte",
-        "Vertrauensverlust bei Investoren",
-        "Abhängigkeit von FDA-Zulassungen"
+        "Regulatorische Hürden",
+        "Vertrauensverlust bei Investoren"
       ],
       "news": [
         {
@@ -4597,103 +4813,67 @@
       ]
     },
     {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "price": 1261.0,
-      "currency": "USD",
-      "chg_1d": -21.69,
-      "vol_ratio": 1.1,
-      "warum": [
-        "Kursrückgang durch negative Marktbedingungen und spezifische Probleme in der Chipindustrie",
-        "Berichte über Handelshemmnisse in China belasten den Sektor",
-        "Marktvolumen ist nicht außergewöhnlich hoch"
-      ],
-      "bedeutung": "Einmaliges Ereignis, das durch externe Marktbedingungen beeinflusst wird.",
-      "sterne": 1,
-      "risiken": [
-        "Abhängigkeit von globalen Lieferketten",
-        "Wettbewerb und Preisdruck in der Chipindustrie",
-        "Negative Marktstimmung könnte anhalten"
-      ],
-      "news": [
-        {
-          "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/c397de15-047a-3e51-8ff2-89a83ea62d40/cxmt%2C-sandisk%2C-asml%2C-spacex%2C.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "SNDK Just Dropped 12%: Here Is the 1 Number That Tells You Whether to Panic or Buy",
-          "link": "https://247wallst.com/investing/2026/07/27/sndk-just-dropped-12-here-is-the-1-number-that-tells-you-whether-to-panic-or-buy/?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
       "ticker": "QBTS",
       "name": "D-Wave Quantum Inc. Common Stock",
-      "price": 18.83,
+      "price": 19.14,
       "currency": "USD",
-      "chg_1d": 10.12,
-      "vol_ratio": 2.0,
+      "chg_1d": 18.08,
+      "vol_ratio": 2.3,
       "warum": [
-        "Leichter Kursanstieg durch positive Nachrichten über AT&T-Deal",
-        "Erfolgreiche Tests könnten Vertrauen in das Produkt stärken",
-        "Erhöhtes Handelsvolumen zeigt Interesse der Anleger"
+        "Moderater Anstieg durch Erweiterung des AT&T-Deals",
+        "Positive Marktreaktion auf strategische Partnerschaften",
+        "Volumensteigerung deutet auf erhöhtes Interesse hin"
       ],
-      "bedeutung": "Einmaliges Ereignis, das kurzfristig das Interesse weckt.",
+      "bedeutung": "Langfristiger Treiber durch strategische Partnerschaften.",
       "sterne": 2,
       "risiken": [
-        "Abhängigkeit von großen Kunden wie AT&T",
-        "Technologische Risiken im Quantencomputing",
-        "Markt könnte überreagieren auf zukünftige Nachrichten"
+        "Abhängigkeit von großen Kunden",
+        "Marktdynamik im Technologiesektor"
       ],
       "news": [
         {
-          "title": "D-Wave Wins Wider AT&T Deal After 15-Second Test",
-          "link": "https://finance.yahoo.com/technology/ai/articles/d-wave-wins-wider-t-164904741.html?.tsrc=rss",
-          "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, and More Stocks That Explain Today’s Market",
+          "title": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and More Stocks That Explain Today’s Market",
           "link": "https://finance.yahoo.com/m/c397de15-047a-3e51-8ff2-89a83ea62d40/cxmt%2C-sandisk%2C-asml%2C-spacex%2C.html?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
           "tone": "neu"
+        },
+        {
+          "title": "D-Wave Quantum Stock Jumps on Major AT&T Deal Expansion",
+          "link": "https://finance.yahoo.com/technology/ai/articles/d-wave-quantum-stock-jumps-182349388.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "pos"
         }
       ]
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify Inc.",
-      "price": 125.58,
+      "ticker": "BMNR",
+      "name": "Bitmine Immersion Technologies, Inc.",
+      "price": 18.24,
       "currency": "USD",
-      "chg_1d": 12.12,
-      "vol_ratio": 0.8,
+      "chg_1d": 15.52,
+      "vol_ratio": 1.2,
       "warum": [
-        "Leichter Kursanstieg durch positive Marktstimmung",
-        "Neue Tools für Händler könnten Umsatz steigern",
-        "Unterstützung durch langfristige Investoren"
+        "Leichter Anstieg durch positive Nachrichten über ETH-Besitz",
+        "Ziel, 5% der Ethereum-Versorgung zu kontrollieren, könnte Vertrauen stärken",
+        "Allgemeine Erholung im Kryptomarkt"
       ],
-      "bedeutung": "Langfristiger Treiber, da kontinuierliche Innovationen das Wachstum fördern.",
-      "sterne": 3,
+      "bedeutung": "Langfristiger Treiber durch strategische Positionierung im Kryptomarkt.",
+      "sterne": 2,
       "risiken": [
-        "Wettbewerb im E-Commerce-Sektor",
-        "Marktanpassungen könnten das Wachstum bremsen",
-        "Abhängigkeit von der allgemeinen Wirtschaftslage"
+        "Volatilität im Kryptomarkt",
+        "Regulatorische Unsicherheiten im Krypto-Sektor"
       ],
       "news": [
         {
-          "title": "Stock Market Today: Dow Up; Pharma Firm Tests Entry; Memory Plays Sink As China Rival Soars (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/de8b5436-c73d-31ce-a62f-9df4d32cb08d/stock-market-today%3A-dow-up%3B.html?.tsrc=rss",
+          "title": "Bitmine Added ETH While Strategy's BTC Lull Continues",
+          "link": "https://www.bankless.com/read/news/bitmine-added-eth-while-strategys-btc-lull-continues?.tsrc=rss",
           "date": "Mon, 27 Jul 2026",
-          "tone": "pos"
+          "tone": "neu"
         },
         {
-          "title": "Shopify (SHOP) Gets Native Fulfillment Support As DSCP Launches Tools For Merchants",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/shopify-shop-gets-native-fulfillment-100624114.html?.tsrc=rss",
-          "date": "Sat, 25 Jul 2026",
+          "title": "Bitmine Nears Goal of Controlling 5% of Ethereum Supply With $11.8 Billion Treasury",
+          "link": "https://decrypt.co/374389/bitmine-nears-5-percent-ethereum-supply-with-11-8-billion-treasury?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         }
       ]
@@ -4702,22 +4882,21 @@
   "ma_deals": [
     {
       "kaeufer": "DCC",
-      "ziel": "unbekannt",
+      "ziel": "DCC Energy",
       "groesse": "£5.75bn",
-      "branche": "Diversifiziert (Energie, Logistik, etc.)",
+      "branche": "Energie",
       "warum": [
         "Zugang zu neuen Märkten",
-        "Erweiterung des Produktportfolios",
-        "Stärkung der Marktposition"
+        "Erweiterung des Produktportfolios"
       ],
       "synergien": [
-        "Optimierung der Lieferkette",
-        "Kostensenkungen durch Skaleneffekte"
+        "Kostensenkungen durch Skaleneffekte",
+        "Cross-Selling-Möglichkeiten"
       ],
       "risiken": [
         "Kartellrechtliche Bedenken",
         "Integrationsrisiko",
-        "Kulturelle Unterschiede zwischen den Unternehmen"
+        "Marktunsicherheiten"
       ],
       "einordnung": "strategisch sinnvoll ✅ | teuer ⚠️ | Wachstumsdeal",
       "link": "https://www.ft.com/content/e7966a18-6144-4873-940d-3f4d6bfccc4c?syn-25a6b1a6=1",
@@ -4726,23 +4905,46 @@
       "source": "FT"
     },
     {
+      "kaeufer": "Ares Management",
+      "ziel": "Leonard Green & Partners",
+      "groesse": "k.A.",
+      "branche": "Private Equity",
+      "warum": [
+        "Diversifikation des Portfolios",
+        "Zugang zu neuen Investitionsmöglichkeiten"
+      ],
+      "synergien": [
+        "Erweiterung der Expertise",
+        "Optimierung der Investitionsstrategien"
+      ],
+      "risiken": [
+        "Wettbewerbsdruck",
+        "Marktvolatilität",
+        "Integrationsrisiko"
+      ],
+      "einordnung": "strategisch sinnvoll ✅ | defensiver Deal",
+      "link": "https://www.ft.com/content/9f446812-5dc9-4d25-9a4b-ac5162e62d81?syn-25a6b1a6=1",
+      "date": "Mon, 27 Jul 2026",
+      "headline": "Ares Management has held talks to buy Leonard Green & Partners",
+      "source": "FT"
+    },
+    {
       "kaeufer": "Carlyle und Bain Capital",
-      "ziel": "wealth manager",
+      "ziel": "Vermögensverwalter",
       "groesse": "$7bn",
       "branche": "Finanzdienstleistungen",
       "warum": [
-        "Zugang zu neuen Kunden und Vermögenswerten",
-        "Diversifikation des Dienstleistungsangebots",
-        "Stärkung der Wettbewerbsposition"
+        "Zugang zu neuen Kunden",
+        "Stärkung der Marktposition"
       ],
       "synergien": [
-        "Kombination von Expertise in Vermögensverwaltung",
-        "Erweiterung des Kundenstamms"
+        "Erweiterung des Dienstleistungsangebots",
+        "Kostensenkungen durch Effizienzgewinne"
       ],
       "risiken": [
-        "Marktvolatilität",
-        "Regulatorische Herausforderungen",
-        "Integrationsrisiko"
+        "Wettbewerbsdruck",
+        "Integrationsrisiko",
+        "Regulatorische Herausforderungen"
       ],
       "einordnung": "strategisch sinnvoll ✅ | teuer ⚠️ | Wachstumsdeal",
       "link": "https://www.ft.com/content/083aa3f4-04c8-48d1-905f-11ccee299ca4?syn-25a6b1a6=1",
@@ -4751,28 +4953,27 @@
       "source": "FT"
     },
     {
-      "kaeufer": "Arax",
-      "ziel": "RIA",
-      "groesse": "$3 Billion",
-      "branche": "Finanzdienstleistungen",
+      "kaeufer": "Rival Spirits Giant",
+      "ziel": "Maker Behind Jack Daniel's",
+      "groesse": "$15 Billion",
+      "branche": "Spirituosen",
       "warum": [
-        "Erweiterung des Dienstleistungsangebots",
-        "Zugang zu neuen Kunden",
-        "Stärkung der Marktposition"
+        "Erweiterung des Markenportfolios",
+        "Zugang zu neuen Märkten"
       ],
       "synergien": [
-        "Erhöhung der Skaleneffekte",
-        "Optimierung des Kundenservice"
+        "Kostensenkungen durch gemeinsame Produktion",
+        "Cross-Selling-Möglichkeiten"
       ],
       "risiken": [
-        "Regulatorische Hürden",
+        "Markenimage-Risiken",
         "Integrationsrisiko",
-        "Wettbewerbsdruck"
+        "Regulatorische Hürden"
       ],
-      "einordnung": "strategisch sinnvoll ✅ | Wachstumsdeal",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUENpNmZHNWV0UDByZHZnYUVUOHZzVVBjSUZPVzhrTEEzOTZoUUE4QmlQZG9GMkFrRUdkVkUySl9haWdjc1ZVZHBlRVRPaWMzLWVUc1RidXZjSEZfaERsSDdyZVVndWVvcE9QSE5Zam1ta3ZMQ1NtdHNmS2xEVERWRmduWUYxeFRmTGRJZ1hyaG5pOXctSzdR?oc=5",
+      "einordnung": "strategisch sinnvoll ✅ | teuer ⚠️ | Wachstumsdeal",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRXAyVFBKazhDa0FLbUhaa0w1bzlaYU5SbFdXallQQmFSdEVYNDlnR0pHQnQ1eWVMaDI2clNsV3hGS3J3RnFLcTlrMTZLSzZld0JDM21aSUtHS01HVUNxQXExZkhRYTVRS3U2RFR3WEpZVnU5ZVUxNzBQZVhua2p4cW50OHRTTFdtOVBaLVluOGtsMWZZQnUxSTByUzl6WEpIWFBoNHdhN2did0d6TWhKRnFWVTQyMHVhRXRlSDlvOGZFUQ?oc=5",
       "date": "Mon, 27 Jul 2026",
-      "headline": "Arax to Buy $3 Billion RIA Furthering Acquisition Spree - Barron's",
+      "headline": "The Maker Behind Jack Daniel's Just Rejected a $15 Billion Takeover Offer From a Rival Spirits Giant - inc.com",
       "source": "Google News"
     }
   ]
