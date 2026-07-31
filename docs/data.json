@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T19:09:17.226388+00:00",
+  "generated_at": "2026-07-31T20:53:55.574748+00:00",
   "total_posts": 250,
-  "unique_tickers": 131,
+  "unique_tickers": 133,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -150,14 +150,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-07-31T08:35:01.290118+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 10,
-          "price": null
-        },
-        {
           "ts": "2026-07-31T11:52:23.891129+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
@@ -196,6 +188,14 @@
           "confidence": 56,
           "engagement": 10,
           "price": null
+        },
+        {
+          "ts": "2026-07-31T20:53:55.574748+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 10,
+          "price": null
         }
       ]
     },
@@ -207,7 +207,7 @@
       "confidence": 57,
       "sentiment": 4,
       "mentions": 4,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 10,
       "sources": [
         "wallstreetbets",
@@ -267,7 +267,7 @@
       ],
       "price": {
         "available": true,
-        "price": 837.55,
+        "price": 823.03,
         "currency": "USD",
         "name": "Micron Technology, Inc.",
         "chart_1d": [
@@ -361,11 +361,23 @@
           },
           {
             "t": 1785524400,
-            "c": 837.77
+            "c": 837.18
           },
           {
-            "t": 1785524993,
-            "c": 837.55
+            "t": 1785525300,
+            "c": 842.07
+          },
+          {
+            "t": 1785526200,
+            "c": 834.04
+          },
+          {
+            "t": 1785527100,
+            "c": 822.83
+          },
+          {
+            "t": 1785528000,
+            "c": 823.03
           }
         ],
         "chart_5d": [
@@ -503,18 +515,18 @@
           },
           {
             "t": 1785522600,
-            "c": 837.77
+            "c": 842.07
           },
           {
-            "t": 1785524993,
-            "c": 837.55
+            "t": 1785526200,
+            "c": 822.83
+          },
+          {
+            "t": 1785528000,
+            "c": 823.03
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1782826200,
-            "c": 1154.29
-          },
           {
             "t": 1782912600,
             "c": 1032.28
@@ -601,7 +613,7 @@
           },
           {
             "t": 1785504600,
-            "c": 837.55
+            "c": 823.03
           }
         ],
         "chart_1y": [
@@ -818,44 +830,44 @@
             "c": 874.66
           },
           {
-            "t": 1785524995,
-            "c": 837.87
+            "t": 1785528000,
+            "c": 823.03
           }
         ],
-        "chg_1d": -5.17,
-        "chg_7d": -9.06,
-        "chg_1mo": -27.44,
-        "chg_1y": 698.58,
-        "sma20_dist": -8.21
+        "chg_1d": -6.82,
+        "chg_7d": -10.63,
+        "chg_1mo": -20.27,
+        "chg_1y": 684.73,
+        "sma20_dist": -9.72
       },
       "news": [
         {
-          "title": "SanDisk Is Down 45% in a Month. Should Memory Investors Switch to Micron or SK Hynix Now?",
-          "link": "https://247wallst.com/investing/2026/07/31/sandisk-is-down-45-in-a-month-should-memory-investors-switch-to-micron-or-sk-hynix-now/?.tsrc=rss",
+          "title": "Micron's Rebound Still Faces Resistance",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microns-rebound-still-faces-resistance-195501442.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Micron Stock Falls. Here’s What’s Overshadowing Big Tech Spending.",
-          "link": "https://finance.yahoo.com/m/7fa3af56-c624-3e1b-95e7-d0de14ed1384/micron-stock-falls.-here%E2%80%99s.html?.tsrc=rss",
+          "title": "Why Wall Street Keeps Underestimating Micron",
+          "link": "https://www.fool.com/investing/2026/07/31/why-wall-street-keeps-underestimating-micron/?.tsrc=rss",
+          "date": "Fri, 31 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Micron Stock Drops 4.2% Despite Amazon's $220 Billion AI Bet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-drops-4-2-193736166.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neg"
         },
         {
-          "title": "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/c7088c5b-b522-3124-b711-72c511e1146a/amazon%2C-apple%2C-microsoft%2C.html?.tsrc=rss",
+          "title": "Why Micron Stock Was Up and Down Today",
+          "link": "https://www.fool.com/investing/2026/07/31/why-micron-stock-was-up-and-down-today/?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Leopold Aschenbrenner's AI hedge fund collapses after margin calls",
-          "link": "https://qz.com/situational-awareness-hedge-fund-margin-call-citadel-fire-sale-073126?.tsrc=rss",
-          "date": "Fri, 31 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "'Big Short' Investor Takes Fresh Aim at Nvidia",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/big-short-investor-takes-fresh-165230526.html?.tsrc=rss",
+          "title": "SanDisk Is Down 45% in a Month. Should Memory Investors Switch to Micron or SK Hynix Now?",
+          "link": "https://247wallst.com/investing/2026/07/31/sandisk-is-down-45-in-a-month-should-memory-investors-switch-to-micron-or-sk-hynix-now/?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         }
@@ -863,9 +875,9 @@
       "comparison": {
         "verdict": "widerspricht",
         "points": [
-          "Kurs -9.06% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -27.44%.",
-          "-8.21% unter SMA20 – technisch angeschlagen.",
+          "Kurs -10.63% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -20.27%.",
+          "-9.72% unter SMA20 – technisch angeschlagen.",
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
@@ -875,8 +887,7 @@
       "konkurrenten": [],
       "gruende": [
         "🎯 Optionen & Short-Interest",
-        "💰 Einstiegs-Debatte",
-        "News: Micron Stock Falls. Here’s What’s Overshadowing Big Tech Spending."
+        "💰 Einstiegs-Debatte"
       ],
       "momentum": 56,
       "momentum_label": "➡️ Diskussion stabil",
@@ -905,18 +916,10 @@
       "quality_pct": 44,
       "reddit_vs_markt": {
         "reddit": 56,
-        "markt": 13,
+        "markt": 7,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-31T08:35:01.290118+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 66,
-          "engagement": 15,
-          "price": 874.66
-        },
         {
           "ts": "2026-07-31T11:52:23.891129+00:00",
           "ticker": "MU",
@@ -956,6 +959,14 @@
           "confidence": 57,
           "engagement": 10,
           "price": 837.55
+        },
+        {
+          "ts": "2026-07-31T20:53:55.574748+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 57,
+          "engagement": 10,
+          "price": 823.03
         }
       ]
     },
@@ -1031,7 +1042,7 @@
       ],
       "price": {
         "available": true,
-        "price": 88.46,
+        "price": 87.99,
         "currency": "USD",
         "name": "Interactive Brokers Group, Inc.",
         "chart_1d": [
@@ -1125,11 +1136,23 @@
           },
           {
             "t": 1785524400,
-            "c": 88.45
+            "c": 88.53
           },
           {
-            "t": 1785524994,
-            "c": 88.46
+            "t": 1785525300,
+            "c": 88.54
+          },
+          {
+            "t": 1785526200,
+            "c": 88.7
+          },
+          {
+            "t": 1785527100,
+            "c": 87.99
+          },
+          {
+            "t": 1785528000,
+            "c": 87.99
           }
         ],
         "chart_5d": [
@@ -1267,18 +1290,18 @@
           },
           {
             "t": 1785522600,
-            "c": 88.45
+            "c": 88.54
           },
           {
-            "t": 1785524994,
-            "c": 88.46
+            "t": 1785526200,
+            "c": 87.99
+          },
+          {
+            "t": 1785528000,
+            "c": 87.99
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1782826200,
-            "c": 87.04
-          },
           {
             "t": 1782912600,
             "c": 93.25
@@ -1365,7 +1388,7 @@
           },
           {
             "t": 1785504600,
-            "c": 88.46
+            "c": 87.99
           }
         ],
         "chart_1y": [
@@ -1582,15 +1605,15 @@
             "c": 90.48
           },
           {
-            "t": 1785524994,
-            "c": 88.46
+            "t": 1785528001,
+            "c": 87.99
           }
         ],
-        "chg_1d": -2.98,
-        "chg_7d": -3.58,
-        "chg_1mo": 1.63,
-        "chg_1y": 39.07,
-        "sma20_dist": -4.58
+        "chg_1d": -3.5,
+        "chg_7d": -4.09,
+        "chg_1mo": -5.64,
+        "chg_1y": 38.33,
+        "sma20_dist": -5.06
       },
       "news": [
         {
@@ -1627,7 +1650,8 @@
       "comparison": {
         "verdict": "widerspricht",
         "points": [
-          "Kurs -3.58% über 7 Tage – Abwärtsdruck.",
+          "Kurs -4.09% über 7 Tage – Abwärtsdruck.",
+          "-5.06% unter SMA20 – technisch angeschlagen.",
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
@@ -1667,18 +1691,10 @@
       "quality_pct": 24,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 35,
+        "markt": 33,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-31T08:35:01.290118+00:00",
-          "ticker": "IBKR",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 17,
-          "price": 90.48
-        },
         {
           "ts": "2026-07-31T11:52:23.891129+00:00",
           "ticker": "IBKR",
@@ -1718,6 +1734,14 @@
           "confidence": 48,
           "engagement": 17,
           "price": 88.46
+        },
+        {
+          "ts": "2026-07-31T20:53:55.574748+00:00",
+          "ticker": "IBKR",
+          "rec": "beobachten",
+          "confidence": 48,
+          "engagement": 17,
+          "price": 87.99
         }
       ]
     },
@@ -1729,7 +1753,7 @@
       "confidence": 54,
       "sentiment": 4,
       "mentions": 3,
-      "mentions_delta": 3,
+      "mentions_delta": 0,
       "engagement": 9,
       "sources": [
         "wallstreetbets",
@@ -1798,7 +1822,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 304.4,
+        "price": 308.91,
         "currency": "USD",
         "name": "Apple Inc.",
         "chart_1d": [
@@ -1892,11 +1916,23 @@
           },
           {
             "t": 1785524400,
-            "c": 304.42
+            "c": 304.58
           },
           {
-            "t": 1785525001,
-            "c": 304.4
+            "t": 1785525300,
+            "c": 305.65
+          },
+          {
+            "t": 1785526200,
+            "c": 306.54
+          },
+          {
+            "t": 1785527100,
+            "c": 309.03
+          },
+          {
+            "t": 1785528000,
+            "c": 308.91
           }
         ],
         "chart_5d": [
@@ -2034,18 +2070,18 @@
           },
           {
             "t": 1785522600,
-            "c": 304.42
+            "c": 305.65
           },
           {
-            "t": 1785525001,
-            "c": 304.4
+            "t": 1785526200,
+            "c": 309.03
+          },
+          {
+            "t": 1785528000,
+            "c": 308.91
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1782826200,
-            "c": 289.36
-          },
           {
             "t": 1782912600,
             "c": 294.38
@@ -2132,7 +2168,7 @@
           },
           {
             "t": 1785504600,
-            "c": 304.4
+            "c": 308.91
           }
         ],
         "chart_1y": [
@@ -2349,28 +2385,28 @@
             "c": 333.43
           },
           {
-            "t": 1785525003,
-            "c": 304.43
+            "t": 1785528001,
+            "c": 308.91
           }
         ],
-        "chg_1d": -0.13,
-        "chg_7d": -8.59,
-        "chg_1mo": 5.2,
-        "chg_1y": 50.41,
-        "sma20_dist": -6.09
+        "chg_1d": 1.35,
+        "chg_7d": -7.24,
+        "chg_1mo": 4.94,
+        "chg_1y": 52.64,
+        "sma20_dist": -4.77
       },
       "news": [
         {
-          "title": "Did Apple just signal a bottom in momentum-driven memory chip stocks?",
-          "link": "https://finance.yahoo.com/markets/article/did-apple-just-signal-a-bottom-in-momentum-driven-memory-chip-stocks-184019981.html?.tsrc=rss",
+          "title": "Apple Forecasts Slowing Growth Due To Chip Shortages",
+          "link": "https://finance.yahoo.com/m/1f444c16-3468-3ee6-89ea-92b40ac5844d/apple-forecasts-slowing.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
-          "title": "Stock Market Today: Nasdaq Advances Despite Spiking Yields; Coinbase Tumbles (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/6ec11dff-c0be-3dbf-a268-76836122a7aa/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+          "title": "Stock Market Today: Dow, Nasdaq End Higher Despite Spiking Yields; Amazon Soars",
+          "link": "https://finance.yahoo.com/m/6ec11dff-c0be-3dbf-a268-76836122a7aa/stock-market-today%3A-dow%2C.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
           "title": "Micron Stock Falls. Here’s What’s Overshadowing Big Tech Spending.",
@@ -2379,14 +2415,14 @@
           "tone": "neg"
         },
         {
-          "title": "Investing.com’s stocks of the week",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investing-com-stocks-week-182718809.html?.tsrc=rss",
+          "title": "Apple Stock Tumbles, Wiping Out $359 Billion in Value",
+          "link": "https://finance.yahoo.com/m/202ba772-35d7-38be-8197-1d8c3ff9871a/apple-stock-tumbles%2C-wiping.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Apple Advances Advertising Gains",
-          "link": "https://www.mediapost.com/publications/article/416949/apple-advances-advertising-gains.html?.tsrc=rss",
+          "title": "Apple's Supply Woes Likely to Continue Into Fiscal 2027, UBS Says",
+          "link": "https://finance.yahoo.com/news/apple-apos-supply-woes-likely-202634893.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         }
@@ -2394,19 +2430,19 @@
       "comparison": {
         "verdict": "widerspricht",
         "points": [
-          "Kurs -8.59% über 7 Tage – Abwärtsdruck.",
-          "-6.09% unter SMA20 – technisch angeschlagen.",
+          "Kurs -7.24% über 7 Tage – Abwärtsdruck.",
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Reddit diskutiert Apple Inc. aktuell deutlich bullisch (3 Mentions mit steigender Dynamik (+3 Mentions)). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Apple Inc. aktuell deutlich bullisch (3 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +3 gegenüber dem letzten Scan",
         "📈 Wachstums-Story",
-        "📊 Quartalszahlen"
+        "📊 Quartalszahlen",
+        "News: Apple Forecasts Slowing Growth Due To Chip Shortages",
+        "News: Stock Market Today: Dow, Nasdaq End Higher Despite Spiking Yields; Ama"
       ],
       "momentum": 85,
       "momentum_label": "🚀 Diskussion wächst extrem schnell",
@@ -2431,22 +2467,14 @@
       ],
       "hype_typ": "hype",
       "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
-      "quality_grade": "C",
-      "quality_pct": 42,
+      "quality_grade": "D",
+      "quality_pct": 29,
       "reddit_vs_markt": {
         "reddit": 85,
-        "markt": 15,
+        "markt": 21,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-27T21:02:56.343153+00:00",
-          "ticker": "AAPL",
-          "rec": "kaufen",
-          "confidence": 84,
-          "engagement": 17,
-          "price": 336.91
-        },
         {
           "ts": "2026-07-27T22:52:52.235760+00:00",
           "ticker": "AAPL",
@@ -2486,6 +2514,14 @@
           "confidence": 54,
           "engagement": 9,
           "price": 304.4
+        },
+        {
+          "ts": "2026-07-31T20:53:55.574748+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 54,
+          "engagement": 9,
+          "price": 308.91
         }
       ]
     },
@@ -2497,7 +2533,7 @@
       "confidence": 61,
       "sentiment": 1,
       "mentions": 3,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 6,
       "sources": [
         "wallstreetbets",
@@ -2544,7 +2580,7 @@
       ],
       "price": {
         "available": true,
-        "price": 19.85,
+        "price": 18.94,
         "currency": "USD",
         "name": "Corgi SK hynix 2x Daily ETF",
         "chart_1d": [
@@ -2634,15 +2670,27 @@
           },
           {
             "t": 1785523500,
-            "c": 19.83
+            "c": 19.85
           },
           {
             "t": 1785524400,
-            "c": 19.84
+            "c": 19.79
           },
           {
-            "t": 1785524941,
+            "t": 1785525300,
             "c": 19.85
+          },
+          {
+            "t": 1785526200,
+            "c": 19.44
+          },
+          {
+            "t": 1785527100,
+            "c": 18.83
+          },
+          {
+            "t": 1785528000,
+            "c": 18.94
           }
         ],
         "chart_5d": [
@@ -2780,11 +2828,15 @@
           },
           {
             "t": 1785522600,
-            "c": 19.84
+            "c": 19.85
           },
           {
-            "t": 1785524941,
-            "c": 19.85
+            "t": 1785526200,
+            "c": 18.83
+          },
+          {
+            "t": 1785528000,
+            "c": 18.94
           }
         ],
         "chart_1mo": [
@@ -2842,7 +2894,7 @@
           },
           {
             "t": 1785504600,
-            "c": 19.85
+            "c": 18.94
           }
         ],
         "chart_1y": [
@@ -2859,15 +2911,15 @@
             "c": 20.35
           },
           {
-            "t": 1785524941,
-            "c": 19.85
+            "t": 1785528000,
+            "c": 18.94
           }
         ],
-        "chg_1d": -6.54,
-        "chg_7d": -13.47,
-        "chg_1mo": -48.43,
-        "chg_1y": -14.81,
-        "sma20_dist": -17.15
+        "chg_1d": -10.83,
+        "chg_7d": -17.44,
+        "chg_1mo": -50.79,
+        "chg_1y": -18.71,
+        "sma20_dist": -20.73
       },
       "news": [
         {
@@ -2898,9 +2950,9 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs -13.47% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -48.43%.",
-          "-17.15% unter SMA20 – technisch angeschlagen.",
+          "Kurs -17.44% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -50.79%.",
+          "-20.73% unter SMA20 – technisch angeschlagen.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -2943,14 +2995,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-07-31T08:35:01.290118+00:00",
-          "ticker": "SK",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 14,
-          "price": 20.35
-        },
-        {
           "ts": "2026-07-31T11:52:23.891129+00:00",
           "ticker": "SK",
           "rec": "beobachten",
@@ -2989,6 +3033,14 @@
           "confidence": 61,
           "engagement": 6,
           "price": 19.85
+        },
+        {
+          "ts": "2026-07-31T20:53:55.574748+00:00",
+          "ticker": "SK",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 6,
+          "price": 18.94
         }
       ]
     },
@@ -3047,7 +3099,7 @@
       ],
       "price": {
         "available": true,
-        "price": 462.57,
+        "price": 464.72,
         "currency": "USD",
         "name": "Microsoft Corporation",
         "chart_1d": [
@@ -3141,11 +3193,23 @@
           },
           {
             "t": 1785524400,
-            "c": 462.44
+            "c": 462.06
           },
           {
-            "t": 1785525009,
-            "c": 462.58
+            "t": 1785525300,
+            "c": 462.19
+          },
+          {
+            "t": 1785526200,
+            "c": 462.73
+          },
+          {
+            "t": 1785527100,
+            "c": 464.92
+          },
+          {
+            "t": 1785528000,
+            "c": 464.72
           }
         ],
         "chart_5d": [
@@ -3283,18 +3347,18 @@
           },
           {
             "t": 1785522600,
-            "c": 462.44
+            "c": 462.19
           },
           {
-            "t": 1785525010,
-            "c": 462.56
+            "t": 1785526200,
+            "c": 464.92
+          },
+          {
+            "t": 1785528000,
+            "c": 464.72
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1782826200,
-            "c": 373.02
-          },
           {
             "t": 1782912600,
             "c": 384.28
@@ -3381,7 +3445,7 @@
           },
           {
             "t": 1785504600,
-            "c": 462.57
+            "c": 464.72
           }
         ],
         "chart_1y": [
@@ -3598,54 +3662,54 @@
             "c": 451.1
           },
           {
-            "t": 1785525010,
-            "c": 462.56
+            "t": 1785528001,
+            "c": 464.72
           }
         ],
-        "chg_1d": 0.57,
-        "chg_7d": 21.19,
-        "chg_1mo": 24.01,
-        "chg_1y": -11.74,
-        "sma20_dist": 16.59
+        "chg_1d": 1.03,
+        "chg_7d": 21.75,
+        "chg_1mo": 20.93,
+        "chg_1y": -11.33,
+        "sma20_dist": 17.1
       },
       "news": [
         {
-          "title": "2 Growth Stocks with Explosive Upside and 1 That Underwhelm",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/2-growth-stocks-explosive-upside-185157878.html?.tsrc=rss",
+          "title": "US Equity Indexes Rise This Week as AI Monetization Evidence in Big-Tech Quarterly Results Energizes Bulls",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202115125.html?.tsrc=rss",
+          "date": "Fri, 31 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Microsoft Stock Rises Again After Record $450 Billion Gain",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-rises-again-record-201157133.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "pos"
         },
         {
-          "title": "This Tech Giant Is Investing Billions in AI. Here’s Why It Could Pay Off.",
-          "link": "https://247wallst.com/investing/2026/07/31/this-tech-giant-is-investing-billions-in-ai-heres-why-it-could-pay-off/?.tsrc=rss",
+          "title": "Research Firm Says Big Tech Earnings Just Flipped Valuation Risk",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/research-firm-says-big-tech-195552438.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Investing.com’s stocks of the week",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investing-com-stocks-week-182718809.html?.tsrc=rss",
+          "title": "Samsung Stock Soars 27% as Korea's AI-Chip Rally Breaks Records",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/samsung-stock-soars-27-koreas-194037099.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
-          "title": "These 3 Dividend ETFs Own Nvidia and Microsoft and Still Pay Up to 8 Percent",
-          "link": "https://247wallst.com/investing/2026/07/31/these-3-dividend-etfs-own-nvidia-and-microsoft-and-still-pay-up-to-8-percent/?.tsrc=rss",
+          "title": "Micron Stock Drops 4.2% Despite Amazon's $220 Billion AI Bet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-drops-4-2-193736166.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/c7088c5b-b522-3124-b711-72c511e1146a/amazon%2C-apple%2C-microsoft%2C.html?.tsrc=rss",
-          "date": "Fri, 31 Jul 2026",
-          "tone": "neu"
+          "tone": "neg"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs +21.19% über 7 Tage – Aufwärtsmomentum.",
-          "Starker Monat: +24.01%.",
-          "+16.59% über SMA20 – kurzfristig evtl. überkauft.",
+          "Kurs +21.75% über 7 Tage – Aufwärtsmomentum.",
+          "Starker Monat: +20.93%.",
+          "+17.1% über SMA20 – kurzfristig evtl. überkauft.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -3655,7 +3719,7 @@
       "konkurrenten": [],
       "gruende": [
         "📊 Quartalszahlen",
-        "News: 2 Growth Stocks with Explosive Upside and 1 That Underwhelm"
+        "News: Microsoft Stock Rises Again After Record $450 Billion Gain"
       ],
       "momentum": 83,
       "momentum_label": "🚀 Diskussion wächst extrem schnell",
@@ -3688,14 +3752,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-31T08:35:01.290118+00:00",
-          "ticker": "MSFT",
-          "rec": "kaufen",
-          "confidence": 78,
-          "engagement": 9,
-          "price": 451.1
-        },
         {
           "ts": "2026-07-31T11:52:23.891129+00:00",
           "ticker": "MSFT",
@@ -3735,83 +3791,36 @@
           "confidence": 61,
           "engagement": 6,
           "price": 462.57
+        },
+        {
+          "ts": "2026-07-31T20:53:55.574748+00:00",
+          "ticker": "MSFT",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 6,
+          "price": 464.72
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 44,
+    "hit_rate": 46,
     "n_evaluated": 151,
     "rate_kaufen": 0,
     "rate_verkaufen": 100,
-    "rate_beobachten": 42,
-    "kauf_perf_7d": -15.4,
+    "rate_beobachten": 44,
+    "kauf_perf_7d": -16.8,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
     {
-      "ts": "2026-07-23T22:47:40.889742+00:00",
-      "ticker": "MU",
-      "rec": "kaufen",
-      "confidence": 90,
-      "engagement": 9,
-      "price": 990.21,
-      "chg_since": -15.42,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-23T22:47:40.889742+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 7,
-      "price": 208.76,
-      "chg_since": -5.0,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-23T22:47:40.889742+00:00",
-      "ticker": "RTX",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 6,
-      "price": 209.16,
-      "chg_since": 2.82,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-23T22:47:40.889742+00:00",
-      "ticker": "NOC",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 6,
-      "price": 533.48,
-      "chg_since": 1.69,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-24T01:50:28.826700+00:00",
-      "ticker": "MU",
-      "rec": "kaufen",
-      "confidence": 90,
-      "engagement": 9,
-      "price": 990.21,
-      "chg_since": -15.42,
-      "correct": false,
-      "age_days": 7
-    },
-    {
       "ts": "2026-07-24T01:50:28.826700+00:00",
       "ticker": "NVDA",
       "rec": "beobachten",
       "confidence": 64,
       "engagement": 7,
       "price": 208.76,
-      "chg_since": -5.0,
+      "chg_since": -3.84,
       "correct": true,
       "age_days": 7
     },
@@ -3822,7 +3831,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 209.16,
-      "chg_since": 2.82,
+      "chg_since": 2.9,
       "correct": true,
       "age_days": 7
     },
@@ -3833,7 +3842,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 568.59,
-      "chg_since": 2.17,
+      "chg_since": 2.49,
       "correct": true,
       "age_days": 7
     },
@@ -3844,7 +3853,7 @@
       "confidence": 90,
       "engagement": 9,
       "price": 990.21,
-      "chg_since": -15.42,
+      "chg_since": -16.88,
       "correct": false,
       "age_days": 7
     },
@@ -3855,7 +3864,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 208.76,
-      "chg_since": -5.0,
+      "chg_since": -3.84,
       "correct": true,
       "age_days": 7
     },
@@ -3877,7 +3886,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 209.16,
-      "chg_since": 2.82,
+      "chg_since": 2.9,
       "correct": true,
       "age_days": 7
     },
@@ -3888,7 +3897,7 @@
       "confidence": 90,
       "engagement": 9,
       "price": 990.21,
-      "chg_since": -15.42,
+      "chg_since": -16.88,
       "correct": false,
       "age_days": 7
     },
@@ -3899,7 +3908,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 208.76,
-      "chg_since": -5.0,
+      "chg_since": -3.84,
       "correct": true,
       "age_days": 7
     },
@@ -3921,7 +3930,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 209.16,
-      "chg_since": 2.82,
+      "chg_since": 2.9,
       "correct": true,
       "age_days": 7
     },
@@ -3932,7 +3941,7 @@
       "confidence": 90,
       "engagement": 9,
       "price": 990.21,
-      "chg_since": -15.42,
+      "chg_since": -16.88,
       "correct": false,
       "age_days": 7
     },
@@ -3943,7 +3952,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 208.76,
-      "chg_since": -5.0,
+      "chg_since": -3.84,
       "correct": true,
       "age_days": 7
     },
@@ -3954,7 +3963,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 209.16,
-      "chg_since": 2.82,
+      "chg_since": 2.9,
       "correct": true,
       "age_days": 7
     },
@@ -3976,7 +3985,7 @@
       "confidence": 87,
       "engagement": 8,
       "price": 990.21,
-      "chg_since": -15.42,
+      "chg_since": -16.88,
       "correct": false,
       "age_days": 7
     },
@@ -3987,7 +3996,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 208.76,
-      "chg_since": -5.0,
+      "chg_since": -3.84,
       "correct": true,
       "age_days": 7
     },
@@ -3998,7 +4007,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 568.59,
-      "chg_since": 2.17,
+      "chg_since": 2.49,
       "correct": true,
       "age_days": 7
     },
@@ -4020,7 +4029,7 @@
       "confidence": 87,
       "engagement": 8,
       "price": 990.21,
-      "chg_since": -15.42,
+      "chg_since": -16.88,
       "correct": false,
       "age_days": 7
     },
@@ -4031,7 +4040,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 208.76,
-      "chg_since": -5.0,
+      "chg_since": -3.84,
       "correct": true,
       "age_days": 7
     },
@@ -4042,7 +4051,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 568.59,
-      "chg_since": 2.17,
+      "chg_since": 2.49,
       "correct": true,
       "age_days": 7
     },
@@ -4064,7 +4073,7 @@
       "confidence": 87,
       "engagement": 8,
       "price": 990.21,
-      "chg_since": -15.42,
+      "chg_since": -16.88,
       "correct": false,
       "age_days": 7
     },
@@ -4075,7 +4084,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 208.76,
-      "chg_since": -5.0,
+      "chg_since": -3.84,
       "correct": true,
       "age_days": 7
     },
@@ -4097,7 +4106,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 209.16,
-      "chg_since": 2.82,
+      "chg_since": 2.9,
       "correct": true,
       "age_days": 7
     },
@@ -4108,7 +4117,7 @@
       "confidence": 73,
       "engagement": 8,
       "price": 923.86,
-      "chg_since": -9.34,
+      "chg_since": -10.91,
       "correct": false,
       "age_days": 7
     },
@@ -4119,7 +4128,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 208.02,
-      "chg_since": -4.66,
+      "chg_since": -3.49,
       "correct": true,
       "age_days": 7
     },
@@ -4130,7 +4139,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 542.84,
-      "chg_since": -0.06,
+      "chg_since": -0.07,
       "correct": true,
       "age_days": 7
     },
@@ -4141,7 +4150,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 585.53,
-      "chg_since": -0.79,
+      "chg_since": -0.48,
       "correct": true,
       "age_days": 7
     },
@@ -4152,7 +4161,7 @@
       "confidence": 73,
       "engagement": 8,
       "price": 934.7,
-      "chg_since": -10.39,
+      "chg_since": -11.95,
       "correct": false,
       "age_days": 7
     },
@@ -4163,8 +4172,8 @@
       "confidence": 48,
       "engagement": 7,
       "price": 210.05,
-      "chg_since": -5.58,
-      "correct": false,
+      "chg_since": -4.43,
+      "correct": true,
       "age_days": 7
     },
     {
@@ -4174,7 +4183,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 213.55,
-      "chg_since": 0.71,
+      "chg_since": 0.78,
       "correct": true,
       "age_days": 7
     },
@@ -4185,14 +4194,78 @@
       "confidence": 61,
       "engagement": 6,
       "price": 540.24,
-      "chg_since": 0.42,
+      "chg_since": 0.41,
       "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-24T19:12:52.612455+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 82,
+      "engagement": 13,
+      "price": 906.63,
+      "chg_since": -9.22,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-24T19:12:52.612455+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 12,
+      "price": 205.11,
+      "chg_since": -2.13,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-24T19:12:52.612455+00:00",
+      "ticker": "GOOGL",
+      "rec": "beobachten",
+      "confidence": 54,
+      "engagement": 9,
+      "price": 320.04,
+      "chg_since": 11.28,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-24T19:12:52.612455+00:00",
+      "ticker": "MSFT",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 11,
+      "price": 384.32,
+      "chg_since": 20.92,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-24T19:12:52.612455+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 11,
+      "price": 231.97,
+      "chg_since": 17.08,
+      "correct": false,
       "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
+      {
+        "text": "What’s happening with Spain, with tens of thousands of Illegal Immigrants invading it, happened in the United States during the Sleepy Joe Biden Administration, and it will happen again, only worse, if the Dumocrats ever again gain power. DON’T LET OUR COUNTRY BE DESTROYED. VOTE REPUBLICAN, AND BE PROUD OF THE U.S.A. President DONALD J. TRUMP",
+        "url": "https://www.trumpstruth.org/statuses/40404",
+        "date": "Fri, 31 Jul 2026 20:10",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
       {
         "text": "I am pleased to announce that the man who so foolishly led the Indiana State Senate, with almost every Candidate losing their Race, many of them in Office for years, will not be seeking Re-Election as Senate President because he wouldn’t have had a chance to be elected — Better yet would be if he would resign from Office, completely, but he will be met by us at the Indiana Polls. Rodric Bray shoul",
         "url": "https://www.trumpstruth.org/statuses/40403",
@@ -4255,15 +4328,6 @@
         "companies": [],
         "policy": [],
         "is_new": false
-      },
-      {
-        "text": "Todd Blanche is a STAR, and everyone knows it! He has the potential to go down as one of the Greatest Attorney Generals of All Time. However, John Cornyn, of Texas, and Thom Tillis, of North Carolina, both of whom I refused to Endorse, and whose political careers have been ended by my action, are refusing to vote for this Great Nominee, who will remain, in any event, as Acting. Remember, both Corn",
-        "url": "https://www.trumpstruth.org/statuses/40395",
-        "date": "Thu, 30 Jul 2026 15:15",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
       }
     ],
     "market_hits": 0
@@ -4272,15 +4336,15 @@
     {
       "ticker": "FCUV",
       "name": "Focus Universal Inc.",
-      "price": 14.05,
+      "price": 11.6,
       "currency": "USD",
-      "chg_1d": 647.34,
-      "vol_ratio": 1914.6,
+      "chg_1d": 517.02,
+      "vol_ratio": 2280.2,
       "warum": [
         "Focus Universal Announces Deterministic AI Forms Auto-Populate Engine, Introduci",
         "Focus Universal Continues to Introduce Further Facets of Proprietary Determinist"
       ],
-      "bedeutung": "Extreme Bewegung (+647.34%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "bedeutung": "Extreme Bewegung (+517.02%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
@@ -4305,13 +4369,13 @@
     {
       "ticker": "RBLX",
       "name": "Roblox Corporation",
-      "price": 34.72,
+      "price": 35.6,
       "currency": "USD",
-      "chg_1d": -28.66,
-      "vol_ratio": 6.5,
+      "chg_1d": -26.85,
+      "vol_ratio": 7.5,
       "warum": [
-        "Why Roblox Stock Is Having Its Worst Day Ever After Earnings",
-        "Roblox stock worst day ever after Q2 earnings miss"
+        "Why Roblox Had Its Worst Day Ever After Earnings",
+        "Sector Update: Tech Stocks Mixed Late Afternoon"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -4322,29 +4386,29 @@
       ],
       "news": [
         {
-          "title": "Why Roblox Stock Is Having Its Worst Day Ever After Earnings",
-          "link": "https://finance.yahoo.com/m/68ad47f6-7aca-32ad-8bdc-977a0b5dc61d/why-roblox-stock-is-having.html?.tsrc=rss",
+          "title": "Why Roblox Had Its Worst Day Ever After Earnings",
+          "link": "https://finance.yahoo.com/m/68ad47f6-7aca-32ad-8bdc-977a0b5dc61d/why-roblox-had-its-worst-day.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "Roblox stock worst day ever after Q2 earnings miss",
-          "link": "https://qz.com/roblox-stock-earnings-miss-outlook-073126?.tsrc=rss",
+          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-194133265.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
-          "tone": "neg"
+          "tone": "neu"
         }
       ]
     },
     {
       "ticker": "RDDT",
       "name": "Reddit, Inc.",
-      "price": 141.48,
+      "price": 140.67,
       "currency": "USD",
-      "chg_1d": -20.53,
-      "vol_ratio": 5.8,
+      "chg_1d": -20.99,
+      "vol_ratio": 6.4,
       "warum": [
-        "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That",
-        "Reddit Q2 Earnings Beat on Ad Growth and Strong Monetization"
+        "Reddit Stock Plunges 22% as U.S. User Growth Slows",
+        "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -4355,29 +4419,29 @@
       ],
       "news": [
         {
+          "title": "Reddit Stock Plunges 22% as U.S. User Growth Slows",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-stock-plunges-22-u-191234234.html?.tsrc=rss",
+          "date": "Fri, 31 Jul 2026",
+          "tone": "pos"
+        },
+        {
           "title": "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market",
           "link": "https://finance.yahoo.com/m/c7088c5b-b522-3124-b711-72c511e1146a/amazon%2C-apple%2C-microsoft%2C.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Reddit Q2 Earnings Beat on Ad Growth and Strong Monetization",
-          "link": "https://finance.yahoo.com/media-advertising/articles/reddit-q2-earnings-beat-ad-174900520.html?.tsrc=rss",
-          "date": "Fri, 31 Jul 2026",
-          "tone": "pos"
         }
       ]
     },
     {
-      "ticker": "AMBA",
-      "name": "Ambarella, Inc.",
-      "price": 86.76,
+      "ticker": "IESC",
+      "name": "IES Holdings, Inc.",
+      "price": 744.54,
       "currency": "USD",
-      "chg_1d": 17.1,
-      "vol_ratio": 3.6,
+      "chg_1d": 30.27,
+      "vol_ratio": 2.2,
       "warum": [
-        "Ambarella reportedly in talks to be acquired by NXP Semiconductors, shares spike",
-        "NXP in talks to buy chip developer Ambarella, FT reports"
+        "Data Center Builder Leaps 31% On Earnings As AI Trade Divides",
+        "IES Holdings Reports Fiscal 2026 Third Quarter Results and Announces Two-for-One"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -4388,32 +4452,32 @@
       ],
       "news": [
         {
-          "title": "Ambarella reportedly in talks to be acquired by NXP Semiconductors, shares spike",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ambarella-reportedly-talks-acquired-nxp-173701702.html?.tsrc=rss",
+          "title": "Data Center Builder Leaps 31% On Earnings As AI Trade Divides",
+          "link": "https://finance.yahoo.com/m/b178963f-df3d-3067-8ae7-0e9b6e24db0a/data-center-builder-leaps-31%25.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "NXP in talks to buy chip developer Ambarella, FT reports",
-          "link": "https://finance.yahoo.com/technology/articles/nxp-talks-buy-chip-developer-170639271.html?.tsrc=rss",
+          "title": "IES Holdings Reports Fiscal 2026 Third Quarter Results and Announces Two-for-One Stock Split",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ies-holdings-reports-fiscal-2026-114500516.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 271.52,
+      "ticker": "AMBA",
+      "name": "Ambarella, Inc.",
+      "price": 86.0,
       "currency": "USD",
-      "chg_1d": 15.3,
-      "vol_ratio": 2.3,
+      "chg_1d": 16.08,
+      "vol_ratio": 5.0,
       "warum": [
-        "Amazon Partner Rockets 144%, But This Risk Lies Ahead",
-        "How Alphabet and Amazon Each Built The ‘Best’ Nvidia Chip Alternatives"
+        "Sector Update: Tech Stocks Mixed Late Afternoon",
+        "AMBA Stock Rockets 18% On NXP Buyout Talks For Self-Driving Chip Maker"
       ],
-      "bedeutung": "Extreme Bewegung (+15.3%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
@@ -4421,14 +4485,14 @@
       ],
       "news": [
         {
-          "title": "Amazon Partner Rockets 144%, But This Risk Lies Ahead",
-          "link": "https://finance.yahoo.com/m/403bdf26-4e68-3e86-ada9-e43f03d5acaf/amazon-partner-rockets-144%25%2C.html?.tsrc=rss",
+          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-194133265.html?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         },
         {
-          "title": "How Alphabet and Amazon Each Built The ‘Best’ Nvidia Chip Alternatives",
-          "link": "https://247wallst.com/investing/2026/07/31/how-alphabet-and-amazon-each-built-the-best-nvidia-chip-alternatives/?.tsrc=rss",
+          "title": "AMBA Stock Rockets 18% On NXP Buyout Talks For Self-Driving Chip Maker",
+          "link": "https://stocktwits.com/news-articles/markets/equity/amba-stock-rockets-18-on-nxp-buyout-talks-for-self-driving-chip-maker/cZN4SELRJPU?.tsrc=rss",
           "date": "Fri, 31 Jul 2026",
           "tone": "neu"
         }
@@ -4436,6 +4500,20 @@
     }
   ],
   "ma_deals": [
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://www.ft.com/content/664f7b45-d92a-44c4-9824-9008001e887e?syn-25a6b1a6=1",
+      "date": "Fri, 31 Jul 2026",
+      "headline": "KKR nears over $4bn deal to buy medical device maker Integer Holdings",
+      "source": "FT"
+    },
     {
       "kaeufer": "",
       "ziel": "",
@@ -4476,20 +4554,6 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQzJoS1ljZjk5dy1POV9iT1V6amtsdVVLa21xa3ZUUjhzb0NTRm5xdWQxX29zMktmZDFycDlJOFlSeG1rOVFRR0twSlhNNVFwNEgtYVBEZ3hkNUtRZjY4V1lVYV9qU3ZEcld5NDRQc2dfRXF5MGdYNTQwOHdGOHU1cXZQYzlEa0tMd1Q5WnU1VHA1a0hHN1k2SUZ4OG53d3VIRFBsSVBhNA?oc=5",
       "date": "Fri, 31 Jul 2026",
       "headline": "Couche-Tard Plans to Buy Poland’s Zabka for About $8.7 Billion - WSJ",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS2hiVGdfU3M3VFBkakhTSHIyU3o2OEI3M2Jvb1VoMC1uYWxzS09iRE1HSnZKVHh2RGx5bi0tOUE5ZzdOaEVaemV2X1ZJTDJWQ0FLVVR6bDZqVEFfaHdLY0Naa0dGX2JuOGo4alRDRHdtWllBNW5lUHc2ekZLMGZOeHZueWV1N18wUnNfbU1VMXNuYUxZWTRObTBfaXYtWW1MbTh4Q1VFSWN5VGo2cWdIdDAwRGlEckluRlE?oc=5",
-      "date": "Fri, 31 Jul 2026",
-      "headline": "Electronic Arts $55 billion merger is expected to be completed as soon as next week - Gamereactor UK",
       "source": "Google News"
     }
   ]
