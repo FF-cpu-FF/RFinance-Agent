@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T01:29:50.344044+00:00",
+  "generated_at": "2026-08-04T04:55:06.266456+00:00",
   "total_posts": 250,
-  "unique_tickers": 157,
+  "unique_tickers": 161,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -134,14 +134,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-03T12:49:58.948951+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 9,
-          "price": null
-        },
-        {
           "ts": "2026-08-03T16:14:05.730468+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
@@ -175,6 +167,14 @@
         },
         {
           "ts": "2026-08-04T01:29:50.344044+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 9,
+          "price": null
+        },
+        {
+          "ts": "2026-08-04T04:55:06.266456+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
           "confidence": 53,
@@ -262,7 +262,7 @@
       ],
       "price": {
         "available": true,
-        "price": 574.43,
+        "price": 572.24,
         "currency": "USD",
         "name": "MSCI Inc.",
         "chart_1d": [
@@ -601,10 +601,6 @@
           {
             "t": 1785504600,
             "c": 572.24
-          },
-          {
-            "t": 1785763800,
-            "c": 574.43
           }
         ],
         "chart_1y": [
@@ -815,17 +811,13 @@
           {
             "t": 1785124800,
             "c": 572.24
-          },
-          {
-            "t": 1785729600,
-            "c": 574.43
           }
         ],
-        "chg_1d": -0.84,
-        "chg_7d": 0.6,
-        "chg_1mo": -6.45,
-        "chg_1y": 5.08,
-        "sma20_dist": -3.1
+        "chg_1d": -1.22,
+        "chg_7d": 3.89,
+        "chg_1mo": -6.81,
+        "chg_1y": 4.68,
+        "sma20_dist": -3.79
       },
       "news": [
         {
@@ -862,7 +854,7 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+0.6%).",
+          "Kurs +3.89% über 7 Tage – Aufwärtsmomentum.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -901,18 +893,10 @@
       "quality_pct": 23,
       "reddit_vs_markt": {
         "reddit": 66,
-        "markt": 52,
+        "markt": 65,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-03T12:49:58.948951+00:00",
-          "ticker": "MSCI",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 16,
-          "price": 572.24
-        },
         {
           "ts": "2026-08-03T16:14:05.730468+00:00",
           "ticker": "MSCI",
@@ -952,6 +936,14 @@
           "confidence": 61,
           "engagement": 16,
           "price": 574.43
+        },
+        {
+          "ts": "2026-08-04T04:55:06.266456+00:00",
+          "ticker": "MSCI",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 16,
+          "price": 572.24
         }
       ]
     },
@@ -1030,7 +1022,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 487.65,
+        "price": 464.72,
         "currency": "USD",
         "name": "Microsoft Corporation",
         "chart_1d": [
@@ -1369,10 +1361,6 @@
           {
             "t": 1785504600,
             "c": 464.72
-          },
-          {
-            "t": 1785763800,
-            "c": 487.65
           }
         ],
         "chart_1y": [
@@ -1583,19 +1571,27 @@
           {
             "t": 1785124800,
             "c": 464.72
-          },
-          {
-            "t": 1785729600,
-            "c": 487.65
           }
         ],
-        "chg_1d": -0.43,
-        "chg_7d": 25.33,
-        "chg_1mo": 26.09,
-        "chg_1y": -6.59,
-        "sma20_dist": 21.33
+        "chg_1d": -5.11,
+        "chg_7d": 21.75,
+        "chg_1mo": 20.16,
+        "chg_1y": -10.98,
+        "sma20_dist": 17.1
       },
       "news": [
+        {
+          "title": "NYU Professor Says Watch Smaller AI Stocks When The Shakeout Hits",
+          "link": "https://beincrypto.com/damodaran-warns-ai-stocks-shakeout/?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "The Sharpest Exchanges From META's Earnings Call",
+          "link": "https://www.trefis.com/articles/609835/the-sharpest-exchanges-from-metas-earnings-call/2026-08-03?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "neu"
+        },
         {
           "title": "Review & Preview: Starting Strong",
           "link": "https://finance.yahoo.com/m/ab7f72d3-f156-3529-afbd-59d88624a733/review-%26-preview%3A-starting.html?.tsrc=rss",
@@ -1613,26 +1609,14 @@
           "link": "https://www.fool.com/investing/2026/08/03/magnificent-7-pick-poison-negative-fcf-or-valuatio/?.tsrc=rss",
           "date": "Mon, 03 Aug 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Bill Ackman's Pershing Square Owns Amazon, Microsoft, and Meta Platforms. Here's the Best Buy of the Bunch in August.",
-          "link": "https://www.fool.com/investing/2026/08/03/bill-ackmans-pershing-square-owns-amazon-microsoft/?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Amazon Hits $3 Trillion Market Cap for the First Time as Stock Closes At Record",
-          "link": "https://finance.yahoo.com/m/f10b69e1-c9eb-3a99-be98-17914e53d5fc/amazon-hits-%243-trillion.html?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "pos"
         }
       ],
       "comparison": {
         "verdict": "bestätigt",
         "points": [
-          "Kurs +25.33% über 7 Tage – Aufwärtsmomentum.",
-          "Starker Monat: +26.09%.",
-          "+21.33% über SMA20 – kurzfristig evtl. überkauft.",
+          "Kurs +21.75% über 7 Tage – Aufwärtsmomentum.",
+          "Starker Monat: +20.16%.",
+          "+17.1% über SMA20 – kurzfristig evtl. überkauft.",
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
@@ -1642,8 +1626,7 @@
       "konkurrenten": [],
       "gruende": [
         "📈 Wachstums-Story",
-        "📉 Kursverluste",
-        "News: Review & Preview: Starting Strong"
+        "📉 Kursverluste"
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1676,14 +1659,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-31T20:53:55.574748+00:00",
-          "ticker": "MSFT",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 464.72
-        },
         {
           "ts": "2026-08-01T01:55:55.352380+00:00",
           "ticker": "MSFT",
@@ -1723,685 +1698,709 @@
           "confidence": 81,
           "engagement": 10,
           "price": 487.65
+        },
+        {
+          "ts": "2026-08-04T04:55:06.266456+00:00",
+          "ticker": "MSFT",
+          "rec": "kaufen",
+          "confidence": 81,
+          "engagement": 10,
+          "price": 464.72
         }
       ]
     },
     {
-      "ticker": "RTX",
-      "name": "RTX Corporation",
-      "signal": "neutral",
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 61,
-      "sentiment": -1,
+      "confidence": 57,
+      "sentiment": 5,
       "mentions": 3,
-      "mentions_delta": 0,
-      "engagement": 6,
+      "mentions_delta": 1,
+      "engagement": 10,
       "sources": [
-        "TrumpsTrades"
+        "wallstreetbets",
+        "TrumpsTrades",
+        "Aktien"
       ],
       "titles": [
-        "Defense stocks held by Trump are up +6.6% since 30 Jun",
-        "Trump mentioned NOC, BA, RTX, LMT at the NATO Summit",
-        "$50B+ in NATO defense deals announced: LMT, NOC, Saab, RTX & more in focus (Reuters)"
+        "$500 to $13000 in one day",
+        "Trump said it again: \"Go out and buy a Dell computer\"",
+        "SK Hynix Earnings Straddle-Overlay für Earnings am 29.07. 02:00 Uhr"
       ],
       "top_posts": [
         {
-          "title": "Defense stocks held by Trump are up +6.6% since 30 Jun",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uyamh9/defense_stocks_held_by_trump_are_up_66_since_30/"
+          "title": "$500 to $13000 in one day",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vd2fzc/500_to_13000_in_one_day/"
         },
         {
-          "title": "Trump mentioned NOC, BA, RTX, LMT at the NATO Summit",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1usw4t7/trump_mentioned_noc_ba_rtx_lmt_at_the_nato_summit/"
+          "title": "Trump said it again: \"Go out and buy a Dell computer\"",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1upay0p/trump_said_it_again_go_out_and_buy_a_dell_computer/"
         },
         {
-          "title": "$50B+ in NATO defense deals announced: LMT, NOC, Saab, RTX & more in focus (Reuters)",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1ur46pr/50b_in_nato_defense_deals_announced_lmt_noc_saab/"
+          "title": "SK Hynix Earnings Straddle-Overlay für Earnings am 29.07. 02:00 Uhr",
+          "url": "https://www.reddit.com/r/Aktien/comments/1v8r3fb/sk_hynix_earnings_straddleoverlay_für_earnings_am/"
         }
       ],
       "topics": [
-        "Defense",
+        "Earnings",
         "Trump",
-        "NATO",
-        "Held"
+        "Said",
+        "Again"
       ],
       "themen": [
         {
-          "emoji": "📊",
-          "titel": "Quartalszahlen",
-          "anteil_pct": 33,
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 29,
+          "beitraege": 2,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
+        },
+        {
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 14,
           "beitraege": 1,
-          "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        },
+        {
+          "emoji": "📈",
+          "titel": "Wachstums-Story",
+          "anteil_pct": 14,
+          "beitraege": 1,
+          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
         }
       ],
-      "bull_case": [],
+      "bull_case": [
+        "Chart-Ausbruch",
+        "Call-Optionen-Aktivität"
+      ],
       "bear_case": [
-        "Zahlen unter Erwartung"
+        "Short-Positionierung"
       ],
       "price": {
         "available": true,
-        "price": 216.65,
+        "price": 823.03,
         "currency": "USD",
-        "name": "RTX Corporation",
+        "name": "Micron Technology, Inc.",
         "chart_1d": [
           {
             "t": 1785763800,
-            "c": 216.49
+            "c": 786.63
           },
           {
             "t": 1785764700,
-            "c": 216.9
+            "c": 797.82
           },
           {
             "t": 1785765600,
-            "c": 218.03
+            "c": 791.52
           },
           {
             "t": 1785766500,
-            "c": 217.76
+            "c": 814.41
           },
           {
             "t": 1785767400,
-            "c": 216.15
+            "c": 813.03
           },
           {
             "t": 1785768300,
-            "c": 215.72
+            "c": 827.62
           },
           {
             "t": 1785769200,
-            "c": 215.38
+            "c": 814.33
           },
           {
             "t": 1785770100,
-            "c": 214.93
+            "c": 804.44
           },
           {
             "t": 1785771000,
-            "c": 214.97
+            "c": 813.46
           },
           {
             "t": 1785771900,
-            "c": 215.41
+            "c": 814.29
           },
           {
             "t": 1785772800,
-            "c": 215.47
+            "c": 818.0
           },
           {
             "t": 1785773700,
-            "c": 215.91
+            "c": 819.8
           },
           {
             "t": 1785774600,
-            "c": 215.76
+            "c": 821.0
           },
           {
             "t": 1785775500,
-            "c": 215.58
+            "c": 817.95
           },
           {
             "t": 1785776400,
-            "c": 215.59
+            "c": 824.62
           },
           {
             "t": 1785777300,
-            "c": 215.49
+            "c": 824.28
           },
           {
             "t": 1785778200,
-            "c": 216.15
+            "c": 828.4
           },
           {
             "t": 1785779100,
-            "c": 215.99
+            "c": 833.77
           },
           {
             "t": 1785780000,
-            "c": 216.15
+            "c": 833.43
           },
           {
             "t": 1785780900,
-            "c": 216.54
+            "c": 824.8
           },
           {
             "t": 1785781800,
-            "c": 216.58
+            "c": 824.73
           },
           {
             "t": 1785782700,
-            "c": 216.45
+            "c": 823.64
           },
           {
             "t": 1785783600,
-            "c": 217.04
+            "c": 821.26
           },
           {
             "t": 1785784500,
-            "c": 216.79
+            "c": 826.69
           },
           {
             "t": 1785785400,
-            "c": 216.71
+            "c": 833.57
           },
           {
             "t": 1785786300,
-            "c": 216.66
+            "c": 829.04
           },
           {
             "t": 1785787200,
-            "c": 216.65
+            "c": 829.5
           }
         ],
         "chart_5d": [
           {
             "t": 1785245400,
-            "c": 220.88
+            "c": 802.53
           },
           {
             "t": 1785249000,
-            "c": 217.08
+            "c": 818.63
           },
           {
             "t": 1785252600,
-            "c": 217.6
+            "c": 824.54
           },
           {
             "t": 1785256200,
-            "c": 216.68
+            "c": 819.89
           },
           {
             "t": 1785259800,
-            "c": 215.95
+            "c": 815.27
           },
           {
             "t": 1785263400,
-            "c": 217.73
+            "c": 829.4
           },
           {
             "t": 1785267000,
-            "c": 218.59
+            "c": 820.68
           },
           {
             "t": 1785331800,
-            "c": 217.84
+            "c": 787.44
           },
           {
             "t": 1785335400,
-            "c": 215.6
+            "c": 781.58
           },
           {
             "t": 1785339000,
-            "c": 215.6
+            "c": 774.22
           },
           {
             "t": 1785342600,
-            "c": 218.85
+            "c": 771.0
           },
           {
             "t": 1785346200,
-            "c": 218.7
+            "c": 766.26
           },
           {
             "t": 1785349800,
-            "c": 217.11
+            "c": 765.8
           },
           {
             "t": 1785353400,
-            "c": 215.43
+            "c": 737.88
           },
           {
             "t": 1785418200,
-            "c": 211.16
+            "c": 862.92
           },
           {
             "t": 1785421800,
-            "c": 209.74
+            "c": 847.31
           },
           {
             "t": 1785425400,
-            "c": 211.49
+            "c": 856.72
           },
           {
             "t": 1785429000,
-            "c": 211.45
+            "c": 869.9
           },
           {
             "t": 1785432600,
-            "c": 212.15
+            "c": 871.94
           },
           {
             "t": 1785436200,
-            "c": 213.65
+            "c": 874.6
           },
           {
             "t": 1785439800,
-            "c": 214.39
+            "c": 873.46
           },
           {
             "t": 1785504600,
-            "c": 213.02
+            "c": 852.43
           },
           {
             "t": 1785508200,
-            "c": 214.18
+            "c": 825.75
           },
           {
             "t": 1785511800,
-            "c": 214.92
+            "c": 834.5
           },
           {
             "t": 1785515400,
-            "c": 215.21
+            "c": 847.5
           },
           {
             "t": 1785519000,
-            "c": 215.44
+            "c": 835.83
           },
           {
             "t": 1785522600,
-            "c": 215.14
+            "c": 842.07
           },
           {
             "t": 1785526200,
-            "c": 215.21
+            "c": 822.83
           },
           {
             "t": 1785763800,
-            "c": 217.76
+            "c": 814.41
           },
           {
             "t": 1785767400,
-            "c": 214.93
+            "c": 804.44
           },
           {
             "t": 1785771000,
-            "c": 215.91
+            "c": 819.8
           },
           {
             "t": 1785774600,
-            "c": 215.49
+            "c": 824.28
           },
           {
             "t": 1785778200,
-            "c": 216.54
+            "c": 824.8
           },
           {
             "t": 1785781800,
-            "c": 216.79
+            "c": 826.69
           },
           {
             "t": 1785785400,
-            "c": 216.66
+            "c": 829.04
           },
           {
             "t": 1785787200,
-            "c": 216.65
+            "c": 829.5
           }
         ],
         "chart_1mo": [
           {
             "t": 1783344600,
-            "c": 201.37
+            "c": 984.75
           },
           {
             "t": 1783431000,
-            "c": 200.85
+            "c": 938.38
           },
           {
             "t": 1783517400,
-            "c": 194.91
+            "c": 948.8
           },
           {
             "t": 1783603800,
-            "c": 195.2
+            "c": 991.64
           },
           {
             "t": 1783690200,
-            "c": 195.93
+            "c": 979.3
           },
           {
             "t": 1783949400,
-            "c": 196.39
+            "c": 937.0
           },
           {
             "t": 1784035800,
-            "c": 193.39
+            "c": 983.12
           },
           {
             "t": 1784122200,
-            "c": 195.89
+            "c": 904.28
           },
           {
             "t": 1784208600,
-            "c": 194.36
+            "c": 853.2
           },
           {
             "t": 1784295000,
-            "c": 193.51
+            "c": 848.95
           },
           {
             "t": 1784554200,
-            "c": 194.44
+            "c": 865.46
           },
           {
             "t": 1784640600,
-            "c": 193.67
+            "c": 970.82
           },
           {
             "t": 1784727000,
-            "c": 194.88
+            "c": 959.48
           },
           {
             "t": 1784813400,
-            "c": 209.16
+            "c": 990.21
           },
           {
             "t": 1784899800,
-            "c": 212.79
+            "c": 920.95
           },
           {
             "t": 1785159000,
-            "c": 218.42
+            "c": 900.2
           },
           {
             "t": 1785245400,
-            "c": 218.58
+            "c": 820.53
           },
           {
             "t": 1785331800,
-            "c": 215.25
+            "c": 739.0
           },
           {
             "t": 1785418200,
-            "c": 214.38
+            "c": 874.66
           },
           {
             "t": 1785504600,
-            "c": 215.22
-          },
-          {
-            "t": 1785763800,
-            "c": 216.65
+            "c": 823.03
           }
         ],
         "chart_1y": [
           {
             "t": 1754280000,
-            "c": 154.86
+            "c": 118.89
           },
           {
             "t": 1754884800,
-            "c": 154.09
+            "c": 120.87
           },
           {
             "t": 1755489600,
-            "c": 156.24
+            "c": 117.68
           },
           {
             "t": 1756094400,
-            "c": 158.6
+            "c": 119.01
           },
           {
             "t": 1756699200,
-            "c": 157.52
+            "c": 131.37
           },
           {
             "t": 1757304000,
-            "c": 155.85
+            "c": 157.23
           },
           {
             "t": 1757908800,
-            "c": 158.24
+            "c": 162.73
           },
           {
             "t": 1758513600,
-            "c": 163.35
+            "c": 157.27
           },
           {
             "t": 1759118400,
-            "c": 166.58
+            "c": 187.83
           },
           {
             "t": 1759723200,
-            "c": 157.7
+            "c": 181.6
           },
           {
             "t": 1760328000,
-            "c": 157.95
+            "c": 202.38
           },
           {
             "t": 1760932800,
-            "c": 178.65
+            "c": 219.02
           },
           {
             "t": 1761537600,
-            "c": 178.5
+            "c": 223.77
           },
           {
             "t": 1762146000,
-            "c": 176.97
+            "c": 237.92
           },
           {
             "t": 1762750800,
-            "c": 175.57
+            "c": 246.83
           },
           {
             "t": 1763355600,
-            "c": 169.68
+            "c": 207.37
           },
           {
             "t": 1763960400,
-            "c": 174.91
+            "c": 236.48
           },
           {
             "t": 1764565200,
-            "c": 171.1
+            "c": 237.22
           },
           {
             "t": 1765170000,
-            "c": 178.66
+            "c": 241.14
           },
           {
             "t": 1765774800,
-            "c": 182.01
+            "c": 265.92
           },
           {
             "t": 1766379600,
-            "c": 185.17
+            "c": 284.79
           },
           {
             "t": 1766984400,
-            "c": 187.25
+            "c": 315.42
           },
           {
             "t": 1767589200,
-            "c": 188.5
+            "c": 345.09
           },
           {
             "t": 1768194000,
-            "c": 201.92
+            "c": 362.75
           },
           {
             "t": 1768798800,
-            "c": 195.93
+            "c": 399.65
           },
           {
             "t": 1769403600,
-            "c": 200.93
+            "c": 414.88
           },
           {
             "t": 1770008400,
-            "c": 198.66
+            "c": 394.69
           },
           {
             "t": 1770613200,
-            "c": 200.06
+            "c": 411.66
           },
           {
             "t": 1771218000,
-            "c": 204.92
+            "c": 428.17
           },
           {
             "t": 1771822800,
-            "c": 202.62
+            "c": 412.37
           },
           {
             "t": 1772427600,
-            "c": 209.76
+            "c": 370.3
           },
           {
             "t": 1773028800,
-            "c": 204.52
+            "c": 426.13
           },
           {
             "t": 1773633600,
-            "c": 198.16
+            "c": 422.9
           },
           {
             "t": 1774238400,
-            "c": 189.71
+            "c": 357.22
           },
           {
             "t": 1774843200,
-            "c": 196.21
+            "c": 366.24
           },
           {
             "t": 1775448000,
-            "c": 201.56
+            "c": 420.59
           },
           {
             "t": 1776052800,
-            "c": 196.42
+            "c": 455.07
           },
           {
             "t": 1776657600,
-            "c": 174.26
+            "c": 496.72
           },
           {
             "t": 1777262400,
-            "c": 173.99
+            "c": 542.21
           },
           {
             "t": 1777867200,
-            "c": 176.09
+            "c": 746.81
           },
           {
             "t": 1778472000,
-            "c": 171.18
+            "c": 724.66
           },
           {
             "t": 1779076800,
-            "c": 177.01
+            "c": 751.0
           },
           {
             "t": 1779681600,
-            "c": 179.66
+            "c": 971.0
           },
           {
             "t": 1780286400,
-            "c": 180.99
+            "c": 864.01
           },
           {
             "t": 1780891200,
-            "c": 183.53
+            "c": 981.61
           },
           {
             "t": 1781496000,
-            "c": 185.6
+            "c": 1133.99
           },
           {
             "t": 1782100800,
-            "c": 187.99
+            "c": 1132.33
           },
           {
             "t": 1782705600,
-            "c": 199.25
+            "c": 975.56
           },
           {
             "t": 1783310400,
-            "c": 195.93
+            "c": 979.3
           },
           {
             "t": 1783915200,
-            "c": 193.51
+            "c": 848.95
           },
           {
             "t": 1784520000,
-            "c": 212.79
+            "c": 920.95
           },
           {
             "t": 1785124800,
-            "c": 215.22
-          },
-          {
-            "t": 1785729600,
-            "c": 216.65
+            "c": 823.03
           }
         ],
-        "chg_1d": 0.07,
-        "chg_7d": -0.81,
-        "chg_1mo": 7.59,
-        "chg_1y": 39.9,
-        "sma20_dist": 6.62
+        "chg_1d": 4.63,
+        "chg_7d": -10.63,
+        "chg_1mo": -16.42,
+        "chg_1y": 592.26,
+        "sma20_dist": -9.72
       },
       "news": [
         {
-          "title": "The Production Ramp That Could Repower Boeing Stock",
-          "link": "https://www.trefis.com/articles/609850/the-production-ramp-that-could-repower-boeing-stock/2026-08-03?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
+          "title": "MU Stock Falls Premarket After Worst Month In 11 Years: Analysts Say Memory Demand Intact, See 85% Upside",
+          "link": "https://stocktwits.com/news-articles/markets/equity/mu-stock-falls-premarket-after-worst-month-in-11-years-analysts-say-memory-demand-intact-see-85-upside/cZo5bq7RJd2?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "neg"
         },
         {
-          "title": "RTX's Raytheon completes installation of first SPY-6(V)4 array at Wallops Island test site",
-          "link": "https://finance.yahoo.com/technology/articles/rtxs-raytheon-completes-installation-first-120000656.html?.tsrc=rss",
+          "title": "For Micron Stock, The Growth That Justifies The Price Has To Arrive",
+          "link": "https://www.trefis.com/articles/609827/for-micron-stock-the-growth-that-justifies-the-price-has-to-arrive/2026-08-03?.tsrc=rss",
           "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "MarketBeat Week in Review – 07/27- 07/31",
-          "link": "https://www.marketbeat.com/articles/marketbeat-week-in-review-07-27-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Sat, 01 Aug 2026",
           "tone": "pos"
         },
         {
-          "title": "RTX vs. Redwire: Which Aerospace & Defense Stock Offers More Upside?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/rtx-vs-redwire-aerospace-defense-181800681.html?.tsrc=rss",
-          "date": "Fri, 31 Jul 2026",
+          "title": "Own The AI Boom? NVIDIA's Story vs. Micron's Contracts",
+          "link": "https://www.trefis.com/articles/609824/own-the-ai-boom-nvidias-story-vs-microns-contracts/2026-08-03?.tsrc=rss",
+          "date": "Mon, 03 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "RTX's Pratt & Whitney awarded $1.3 billion F135 sustainment contract",
-          "link": "https://finance.yahoo.com/technology/articles/rtxs-pratt-whitney-awarded-1-120000428.html?.tsrc=rss",
-          "date": "Fri, 31 Jul 2026",
+          "title": "Amazon, Apple, Boeing, Micron, Bristol Myers, GameStop, SpaceX, and More Stocks That Explain Today’s Market",
+          "link": "https://finance.yahoo.com/m/43e3b66a-fc8c-3bba-9d54-03a4046409ea/amazon%2C-apple%2C-boeing%2C.html?.tsrc=rss",
+          "date": "Mon, 03 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Micron Stock Rises Despite Rising Competition From Chinese Memory Chip",
+          "link": "https://finance.yahoo.com/m/4f413e20-c742-389c-93ac-e0b6349f0c66/micron-stock-rises-despite.html?.tsrc=rss",
+          "date": "Mon, 03 Aug 2026",
           "tone": "neu"
         }
       ],
       "comparison": {
-        "verdict": "relativiert",
+        "verdict": "widerspricht",
         "points": [
-          "Kurs seitwärts über 7 Tage (-0.81%).",
-          "+6.62% über SMA20 – kurzfristig evtl. überkauft.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+          "Kurs -10.63% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -16.42%.",
+          "-9.72% unter SMA20 – technisch angeschlagen.",
+          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Reddit diskutiert RTX Corporation aktuell gemischt (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell deutlich bullisch (3 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "📊 Quartalszahlen"
+        "Mentions +1 gegenüber dem letzten Scan",
+        "🎯 Optionen & Short-Interest",
+        "💰 Einstiegs-Debatte",
+        "News: MU Stock Falls Premarket After Worst Month In 11 Years: Analysts Say M",
+        "News: For Micron Stock, The Growth That Justifies The Price Has To Arrive"
       ],
-      "momentum": 52,
+      "momentum": 51,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
+      "growth_pct": -18,
       "timeline": [
         {
           "day": "2026-08-01",
-          "mentions": 3
+          "mentions": 4
         },
         {
           "day": "2026-08-02",
-          "mentions": 3
+          "mentions": 4
         },
         {
           "day": "2026-08-03",
@@ -2414,61 +2413,61 @@
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 10,
+      "quality_grade": "C",
+      "quality_pct": 51,
       "reddit_vs_markt": {
-        "reddit": 52,
-        "markt": 46,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "reddit": 51,
+        "markt": 7,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
         {
-          "ts": "2026-07-30T11:45:31.021197+00:00",
-          "ticker": "RTX",
+          "ts": "2026-08-03T12:49:58.948951+00:00",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 215.25
+          "confidence": 57,
+          "engagement": 10,
+          "price": 823.03
         },
         {
-          "ts": "2026-07-30T17:15:11.509337+00:00",
-          "ticker": "RTX",
+          "ts": "2026-08-03T16:14:05.730468+00:00",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 211.43
+          "confidence": 57,
+          "engagement": 10,
+          "price": 818.09
         },
         {
-          "ts": "2026-07-30T19:10:27.467630+00:00",
-          "ticker": "RTX",
+          "ts": "2026-08-03T19:19:40.517497+00:00",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 213.32
+          "confidence": 57,
+          "engagement": 10,
+          "price": 824.51
         },
         {
-          "ts": "2026-07-30T22:56:29.602928+00:00",
-          "ticker": "RTX",
+          "ts": "2026-08-03T20:55:29.187994+00:00",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 214.38
+          "confidence": 57,
+          "engagement": 10,
+          "price": 829.5
         },
         {
           "ts": "2026-08-03T22:52:30.958172+00:00",
-          "ticker": "RTX",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 216.65
+          "confidence": 57,
+          "engagement": 10,
+          "price": 829.5
         },
         {
-          "ts": "2026-08-04T01:29:50.344044+00:00",
-          "ticker": "RTX",
+          "ts": "2026-08-04T04:55:06.266456+00:00",
+          "ticker": "MU",
           "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 216.65
+          "confidence": 57,
+          "engagement": 10,
+          "price": 823.03
         }
       ]
     },
@@ -2525,7 +2524,7 @@
       ],
       "price": {
         "available": true,
-        "price": 586.29,
+        "price": 582.74,
         "currency": "USD",
         "name": "Lockheed Martin Corporation",
         "chart_1d": [
@@ -2864,10 +2863,6 @@
           {
             "t": 1785504600,
             "c": 582.74
-          },
-          {
-            "t": 1785763800,
-            "c": 586.29
           }
         ],
         "chart_1y": [
@@ -3078,17 +3073,13 @@
           {
             "t": 1785124800,
             "c": 582.74
-          },
-          {
-            "t": 1785729600,
-            "c": 586.29
           }
         ],
-        "chg_1d": 0.21,
-        "chg_7d": 1.08,
-        "chg_1mo": 8.98,
-        "chg_1y": 37.75,
-        "sma20_dist": 8.24
+        "chg_1d": -0.4,
+        "chg_7d": 0.02,
+        "chg_1mo": 8.32,
+        "chg_1y": 36.91,
+        "sma20_dist": 8.07
       },
       "news": [
         {
@@ -3125,9 +3116,9 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+1.08%).",
-          "Starker Monat: +8.98%.",
-          "+8.24% über SMA20 – kurzfristig evtl. überkauft.",
+          "Kurs seitwärts über 7 Tage (+0.02%).",
+          "Starker Monat: +8.32%.",
+          "+8.07% über SMA20 – kurzfristig evtl. überkauft.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -3166,18 +3157,10 @@
       "quality_pct": 10,
       "reddit_vs_markt": {
         "reddit": 52,
-        "markt": 54,
+        "markt": 50,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-07-30T04:49:00.326750+00:00",
-          "ticker": "LMT",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 569.2
-        },
         {
           "ts": "2026-07-30T15:45:17.680648+00:00",
           "ticker": "LMT",
@@ -3217,12 +3200,20 @@
           "confidence": 61,
           "engagement": 6,
           "price": 586.29
+        },
+        {
+          "ts": "2026-08-04T04:55:06.266456+00:00",
+          "ticker": "LMT",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 6,
+          "price": 582.74
         }
       ]
     },
     {
-      "ticker": "NOC",
-      "name": "Northrop Grumman Corporation",
+      "ticker": "RTX",
+      "name": "RTX Corporation",
       "signal": "neutral",
       "empfehlung": "beobachten",
       "confidence": 61,
@@ -3273,590 +3264,564 @@
       ],
       "price": {
         "available": true,
-        "price": 548.47,
+        "price": 215.22,
         "currency": "USD",
-        "name": "Northrop Grumman Corporation",
+        "name": "RTX Corporation",
         "chart_1d": [
           {
             "t": 1785763800,
-            "c": 548.47
+            "c": 216.49
           },
           {
             "t": 1785764700,
-            "c": 553.33
+            "c": 216.9
           },
           {
             "t": 1785765600,
-            "c": 554.15
+            "c": 218.03
           },
           {
             "t": 1785766500,
-            "c": 552.94
+            "c": 217.76
           },
           {
             "t": 1785767400,
-            "c": 549.64
+            "c": 216.15
           },
           {
             "t": 1785768300,
-            "c": 547.76
+            "c": 215.72
           },
           {
             "t": 1785769200,
-            "c": 547.67
+            "c": 215.38
           },
           {
             "t": 1785770100,
-            "c": 547.13
+            "c": 214.93
           },
           {
             "t": 1785771000,
-            "c": 545.27
+            "c": 214.97
           },
           {
             "t": 1785771900,
-            "c": 545.82
+            "c": 215.41
           },
           {
             "t": 1785772800,
-            "c": 544.11
+            "c": 215.47
           },
           {
             "t": 1785773700,
-            "c": 545.59
+            "c": 215.91
           },
           {
             "t": 1785774600,
-            "c": 544.89
+            "c": 215.76
           },
           {
             "t": 1785775500,
-            "c": 544.81
+            "c": 215.58
           },
           {
             "t": 1785776400,
-            "c": 545.22
+            "c": 215.59
           },
           {
             "t": 1785777300,
-            "c": 544.51
+            "c": 215.49
           },
           {
             "t": 1785778200,
-            "c": 545.72
+            "c": 216.15
           },
           {
             "t": 1785779100,
-            "c": 545.22
+            "c": 215.99
           },
           {
             "t": 1785780000,
-            "c": 545.72
+            "c": 216.15
           },
           {
             "t": 1785780900,
-            "c": 545.72
+            "c": 216.54
           },
           {
             "t": 1785781800,
-            "c": 545.79
+            "c": 216.58
           },
           {
             "t": 1785782700,
-            "c": 546.46
+            "c": 216.45
           },
           {
             "t": 1785783600,
-            "c": 547.98
+            "c": 217.04
           },
           {
             "t": 1785784500,
-            "c": 548.02
+            "c": 216.79
           },
           {
             "t": 1785785400,
-            "c": 547.83
+            "c": 216.71
           },
           {
             "t": 1785786300,
-            "c": 548.45
+            "c": 216.66
           },
           {
             "t": 1785787200,
-            "c": 548.47
+            "c": 216.65
           }
         ],
         "chart_5d": [
           {
             "t": 1785245400,
-            "c": 556.21
+            "c": 220.88
           },
           {
             "t": 1785249000,
-            "c": 553.4
+            "c": 217.08
           },
           {
             "t": 1785252600,
-            "c": 553.93
+            "c": 217.6
           },
           {
             "t": 1785256200,
-            "c": 550.53
+            "c": 216.68
           },
           {
             "t": 1785259800,
-            "c": 549.13
+            "c": 215.95
           },
           {
             "t": 1785263400,
-            "c": 552.37
+            "c": 217.73
           },
           {
             "t": 1785267000,
-            "c": 549.23
+            "c": 218.59
           },
           {
             "t": 1785331800,
-            "c": 545.17
+            "c": 217.84
           },
           {
             "t": 1785335400,
-            "c": 543.29
+            "c": 215.6
           },
           {
             "t": 1785339000,
-            "c": 541.52
+            "c": 215.6
           },
           {
             "t": 1785342600,
-            "c": 545.47
+            "c": 218.85
           },
           {
             "t": 1785346200,
-            "c": 544.31
+            "c": 218.7
           },
           {
             "t": 1785349800,
-            "c": 536.05
+            "c": 217.11
           },
           {
             "t": 1785353400,
-            "c": 535.15
+            "c": 215.43
           },
           {
             "t": 1785418200,
-            "c": 522.9
+            "c": 211.16
           },
           {
             "t": 1785421800,
-            "c": 523.37
+            "c": 209.74
           },
           {
             "t": 1785425400,
-            "c": 526.35
+            "c": 211.49
           },
           {
             "t": 1785429000,
-            "c": 527.22
+            "c": 211.45
           },
           {
             "t": 1785432600,
-            "c": 528.76
+            "c": 212.15
           },
           {
             "t": 1785436200,
-            "c": 531.7
+            "c": 213.65
           },
           {
             "t": 1785439800,
-            "c": 534.85
+            "c": 214.39
           },
           {
             "t": 1785504600,
-            "c": 532.13
+            "c": 213.02
           },
           {
             "t": 1785508200,
-            "c": 536.99
+            "c": 214.18
           },
           {
             "t": 1785511800,
-            "c": 539.08
+            "c": 214.92
           },
           {
             "t": 1785515400,
-            "c": 542.38
+            "c": 215.21
           },
           {
             "t": 1785519000,
-            "c": 543.7
+            "c": 215.44
           },
           {
             "t": 1785522600,
-            "c": 544.54
+            "c": 215.14
           },
           {
             "t": 1785526200,
-            "c": 542.73
+            "c": 215.21
           },
           {
             "t": 1785763800,
-            "c": 552.94
+            "c": 217.76
           },
           {
             "t": 1785767400,
-            "c": 547.13
+            "c": 214.93
           },
           {
             "t": 1785771000,
-            "c": 545.59
+            "c": 215.91
           },
           {
             "t": 1785774600,
-            "c": 544.51
+            "c": 215.49
           },
           {
             "t": 1785778200,
-            "c": 545.72
+            "c": 216.54
           },
           {
             "t": 1785781800,
-            "c": 548.02
+            "c": 216.79
           },
           {
             "t": 1785785400,
-            "c": 548.45
+            "c": 216.66
           },
           {
             "t": 1785787200,
-            "c": 548.47
+            "c": 216.65
           }
         ],
         "chart_1mo": [
           {
             "t": 1783344600,
-            "c": 547.75
+            "c": 201.37
           },
           {
             "t": 1783431000,
-            "c": 549.04
+            "c": 200.85
           },
           {
             "t": 1783517400,
-            "c": 545.11
+            "c": 194.91
           },
           {
             "t": 1783603800,
-            "c": 532.23
+            "c": 195.2
           },
           {
             "t": 1783690200,
-            "c": 539.63
+            "c": 195.93
           },
           {
             "t": 1783949400,
-            "c": 541.82
+            "c": 196.39
           },
           {
             "t": 1784035800,
-            "c": 528.67
+            "c": 193.39
           },
           {
             "t": 1784122200,
-            "c": 525.22
+            "c": 195.89
           },
           {
             "t": 1784208600,
-            "c": 518.65
+            "c": 194.36
           },
           {
             "t": 1784295000,
-            "c": 521.57
+            "c": 193.51
           },
           {
             "t": 1784554200,
-            "c": 523.96
+            "c": 194.44
           },
           {
             "t": 1784640600,
-            "c": 512.29
+            "c": 193.67
           },
           {
             "t": 1784727000,
-            "c": 525.28
+            "c": 194.88
           },
           {
             "t": 1784813400,
-            "c": 533.48
+            "c": 209.16
           },
           {
             "t": 1784899800,
-            "c": 542.24
+            "c": 212.79
           },
           {
             "t": 1785159000,
-            "c": 547.58
+            "c": 218.42
           },
           {
             "t": 1785245400,
-            "c": 549.22
+            "c": 218.58
           },
           {
             "t": 1785331800,
-            "c": 535.05
+            "c": 215.25
           },
           {
             "t": 1785418200,
-            "c": 534.85
+            "c": 214.38
           },
           {
             "t": 1785504600,
-            "c": 542.48
-          },
-          {
-            "t": 1785763800,
-            "c": 548.47
+            "c": 215.22
           }
         ],
         "chart_1y": [
           {
             "t": 1754280000,
-            "c": 581.11
+            "c": 154.86
           },
           {
             "t": 1754884800,
-            "c": 583.96
+            "c": 154.09
           },
           {
             "t": 1755489600,
-            "c": 592.44
+            "c": 156.24
           },
           {
             "t": 1756094400,
-            "c": 590.04
+            "c": 158.6
           },
           {
             "t": 1756699200,
-            "c": 580.8
+            "c": 157.52
           },
           {
             "t": 1757304000,
-            "c": 575.96
+            "c": 155.85
           },
           {
             "t": 1757908800,
-            "c": 573.03
+            "c": 158.24
           },
           {
             "t": 1758513600,
-            "c": 594.52
+            "c": 163.35
           },
           {
             "t": 1759118400,
-            "c": 609.54
+            "c": 166.58
           },
           {
             "t": 1759723200,
-            "c": 623.49
+            "c": 157.7
           },
           {
             "t": 1760328000,
-            "c": 594.5
+            "c": 157.95
           },
           {
             "t": 1760932800,
-            "c": 605.58
+            "c": 178.65
           },
           {
             "t": 1761537600,
-            "c": 583.45
+            "c": 178.5
           },
           {
             "t": 1762146000,
-            "c": 568.61
+            "c": 176.97
           },
           {
             "t": 1762750800,
-            "c": 558.0
+            "c": 175.57
           },
           {
             "t": 1763355600,
-            "c": 566.7
+            "c": 169.68
           },
           {
             "t": 1763960400,
-            "c": 572.25
+            "c": 174.91
           },
           {
             "t": 1764565200,
-            "c": 548.97
+            "c": 171.1
           },
           {
             "t": 1765170000,
-            "c": 569.76
+            "c": 178.66
           },
           {
             "t": 1765774800,
-            "c": 568.46
+            "c": 182.01
           },
           {
             "t": 1766379600,
-            "c": 577.37
+            "c": 185.17
           },
           {
             "t": 1766984400,
-            "c": 585.66
+            "c": 187.25
           },
           {
             "t": 1767589200,
-            "c": 618.82
+            "c": 188.5
           },
           {
             "t": 1768194000,
-            "c": 666.9
+            "c": 201.92
           },
           {
             "t": 1768798800,
-            "c": 672.95
+            "c": 195.93
           },
           {
             "t": 1769403600,
-            "c": 692.26
+            "c": 200.93
           },
           {
             "t": 1770008400,
-            "c": 709.11
+            "c": 198.66
           },
           {
             "t": 1770613200,
-            "c": 702.57
+            "c": 200.06
           },
           {
             "t": 1771218000,
-            "c": 723.56
+            "c": 204.92
           },
           {
             "t": 1771822800,
-            "c": 724.38
+            "c": 202.62
           },
           {
             "t": 1772427600,
-            "c": 756.13
+            "c": 209.76
           },
           {
             "t": 1773028800,
-            "c": 733.71
+            "c": 204.52
           },
           {
             "t": 1773633600,
-            "c": 706.95
+            "c": 198.16
           },
           {
             "t": 1774238400,
-            "c": 679.0
+            "c": 189.71
           },
           {
             "t": 1774843200,
-            "c": 702.5
+            "c": 196.21
           },
           {
             "t": 1775448000,
-            "c": 673.73
+            "c": 201.56
           },
           {
             "t": 1776052800,
-            "c": 665.26
+            "c": 196.42
           },
           {
             "t": 1776657600,
-            "c": 575.11
+            "c": 174.26
           },
           {
             "t": 1777262400,
-            "c": 568.14
+            "c": 173.99
           },
           {
             "t": 1777867200,
-            "c": 549.52
+            "c": 176.09
           },
           {
             "t": 1778472000,
-            "c": 540.69
+            "c": 171.18
           },
           {
             "t": 1779076800,
-            "c": 555.58
+            "c": 177.01
           },
           {
             "t": 1779681600,
-            "c": 563.68
+            "c": 179.66
           },
           {
             "t": 1780286400,
-            "c": 544.4
+            "c": 180.99
           },
           {
             "t": 1780891200,
-            "c": 550.33
+            "c": 183.53
           },
           {
             "t": 1781496000,
-            "c": 521.5
+            "c": 185.6
           },
           {
             "t": 1782100800,
-            "c": 500.03
+            "c": 187.99
           },
           {
             "t": 1782705600,
-            "c": 549.01
+            "c": 199.25
           },
           {
             "t": 1783310400,
-            "c": 539.63
+            "c": 195.93
           },
           {
             "t": 1783915200,
-            "c": 521.57
+            "c": 193.51
           },
           {
             "t": 1784520000,
-            "c": 542.24
+            "c": 212.79
           },
           {
             "t": 1785124800,
-            "c": 542.48
-          },
-          {
-            "t": 1785729600,
-            "c": 548.47
+            "c": 215.22
           }
         ],
-        "chg_1d": 0.0,
-        "chg_7d": 0.16,
-        "chg_1mo": 0.13,
-        "chg_1y": -5.62,
-        "sma20_dist": 2.55
+        "chg_1d": -0.59,
+        "chg_7d": 1.14,
+        "chg_1mo": 6.88,
+        "chg_1y": 38.98,
+        "sma20_dist": 6.32
       },
       "news": [
-        {
-          "title": "Northrop Grumman (NOC) Lands Over $3 Billion In Missile Defense Deals",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/northrop-grumman-noc-lands-over-220948859.html?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neg"
-        },
-        {
-          "title": "This ETF, The IBD Stock Of The Day, Breaks Out As Cybersecurity Stocks Rebound",
-          "link": "https://finance.yahoo.com/m/51aefed6-dc38-3796-b699-ff8d66ba8cdf/this-etf%2C-the-ibd-stock-of.html?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Northrop Grumman To Boost Missile Component Production For ‘Arsenal of Freedom’ – Retail Views Steady Execution To Be Key For Growth",
-          "link": "https://stocktwits.com/news-articles/markets/equity/northrop-grumman-to-boost-missile-component-production-for-arsenal-of-freedom-retail-views-steady-execution-to-be-key-for-growth/cZoTS9dRJ32?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "pos"
-        },
         {
           "title": "The Production Ramp That Could Repower Boeing Stock",
           "link": "https://www.trefis.com/articles/609850/the-production-ramp-that-could-repower-boeing-stock/2026-08-03?.tsrc=rss",
@@ -3864,26 +3829,44 @@
           "tone": "neu"
         },
         {
-          "title": "Northrop Grumman Enters Into $3 Billion Landmark Agreements to Accelerate Missile Interceptor Production",
-          "link": "https://finance.yahoo.com/economy/policy/articles/northrop-grumman-enters-3-billion-120800435.html?.tsrc=rss",
+          "title": "RTX's Raytheon completes installation of first SPY-6(V)4 array at Wallops Island test site",
+          "link": "https://finance.yahoo.com/technology/articles/rtxs-raytheon-completes-installation-first-120000656.html?.tsrc=rss",
           "date": "Mon, 03 Aug 2026",
-          "tone": "neg"
+          "tone": "neu"
+        },
+        {
+          "title": "MarketBeat Week in Review – 07/27- 07/31",
+          "link": "https://www.marketbeat.com/articles/marketbeat-week-in-review-07-27-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "Sat, 01 Aug 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "RTX vs. Redwire: Which Aerospace & Defense Stock Offers More Upside?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rtx-vs-redwire-aerospace-defense-181800681.html?.tsrc=rss",
+          "date": "Fri, 31 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "RTX's Pratt & Whitney awarded $1.3 billion F135 sustainment contract",
+          "link": "https://finance.yahoo.com/technology/articles/rtxs-pratt-whitney-awarded-1-120000428.html?.tsrc=rss",
+          "date": "Fri, 31 Jul 2026",
+          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+0.16%).",
+          "Kurs seitwärts über 7 Tage (+1.14%).",
+          "+6.32% über SMA20 – kurzfristig evtl. überkauft.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Northrop Grumman Corporation aktuell gemischt (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert RTX Corporation aktuell gemischt (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "📊 Quartalszahlen",
-        "News: Northrop Grumman (NOC) Lands Over $3 Billion In Missile Defense Deals"
+        "📊 Quartalszahlen"
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -3912,181 +3895,71 @@
       "quality_pct": 10,
       "reddit_vs_markt": {
         "reddit": 52,
-        "markt": 50,
+        "markt": 54,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
         {
-          "ts": "2026-07-30T20:56:21.626981+00:00",
-          "ticker": "NOC",
+          "ts": "2026-07-30T17:15:11.509337+00:00",
+          "ticker": "RTX",
           "rec": "beobachten",
           "confidence": 61,
           "engagement": 6,
-          "price": 534.85
+          "price": 211.43
         },
         {
-          "ts": "2026-07-31T17:19:57.818995+00:00",
-          "ticker": "NOC",
+          "ts": "2026-07-30T19:10:27.467630+00:00",
+          "ticker": "RTX",
           "rec": "beobachten",
           "confidence": 61,
           "engagement": 6,
-          "price": 542.33
+          "price": 213.32
         },
         {
-          "ts": "2026-08-01T12:57:44.570293+00:00",
-          "ticker": "NOC",
+          "ts": "2026-07-30T22:56:29.602928+00:00",
+          "ticker": "RTX",
           "rec": "beobachten",
           "confidence": 61,
           "engagement": 6,
-          "price": 542.48
+          "price": 214.38
         },
         {
-          "ts": "2026-08-01T14:52:04.503899+00:00",
-          "ticker": "NOC",
+          "ts": "2026-08-03T22:52:30.958172+00:00",
+          "ticker": "RTX",
           "rec": "beobachten",
           "confidence": 61,
           "engagement": 6,
-          "price": 542.48
-        },
-        {
-          "ts": "2026-08-03T19:19:40.517497+00:00",
-          "ticker": "NOC",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 547.59
+          "price": 216.65
         },
         {
           "ts": "2026-08-04T01:29:50.344044+00:00",
-          "ticker": "NOC",
+          "ticker": "RTX",
           "rec": "beobachten",
           "confidence": 61,
           "engagement": 6,
-          "price": 548.47
+          "price": 216.65
+        },
+        {
+          "ts": "2026-08-04T04:55:06.266456+00:00",
+          "ticker": "RTX",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 6,
+          "price": 215.22
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 47,
-    "n_evaluated": 140,
+    "n_evaluated": 145,
     "rate_kaufen": 0,
     "rate_verkaufen": null,
-    "rate_beobachten": 48,
-    "kauf_perf_7d": -9.8,
+    "rate_beobachten": 49,
+    "kauf_perf_7d": -8.2,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-07-27T02:01:16.773881+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 79,
-      "engagement": 15,
-      "price": 920.95,
-      "chg_since": -9.93,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T02:01:16.773881+00:00",
-      "ticker": "TSLA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 15,
-      "price": 313.03,
-      "chg_since": 2.89,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T02:01:16.773881+00:00",
-      "ticker": "GOOGL",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 12,
-      "price": 319.74,
-      "chg_since": 16.82,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T02:01:16.773881+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 9,
-      "price": 206.84,
-      "chg_since": -0.1,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T02:01:16.773881+00:00",
-      "ticker": "LMT",
-      "rec": "beobachten",
-      "confidence": 51,
-      "engagement": 8,
-      "price": 582.6,
-      "chg_since": 0.63,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T06:55:05.804545+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 79,
-      "engagement": 14,
-      "price": 920.95,
-      "chg_since": -9.93,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T06:55:05.804545+00:00",
-      "ticker": "TSLA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 15,
-      "price": 313.03,
-      "chg_since": 2.89,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T06:55:05.804545+00:00",
-      "ticker": "GOOGL",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 12,
-      "price": 319.74,
-      "chg_since": 16.82,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T06:55:05.804545+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 9,
-      "price": 206.84,
-      "chg_since": -0.1,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-27T06:55:05.804545+00:00",
-      "ticker": "LMT",
-      "rec": "beobachten",
-      "confidence": 51,
-      "engagement": 8,
-      "price": 582.6,
-      "chg_since": 0.63,
-      "correct": true,
-      "age_days": 7
-    },
     {
       "ts": "2026-07-27T11:10:39.769028+00:00",
       "ticker": "MU",
@@ -4094,7 +3967,7 @@
       "confidence": 76,
       "engagement": 13,
       "price": 920.95,
-      "chg_since": -9.93,
+      "chg_since": -10.63,
       "correct": false,
       "age_days": 7
     },
@@ -4105,7 +3978,7 @@
       "confidence": 67,
       "engagement": 12,
       "price": 319.74,
-      "chg_since": 16.82,
+      "chg_since": 11.38,
       "correct": false,
       "age_days": 7
     },
@@ -4116,7 +3989,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 313.03,
-      "chg_since": 2.89,
+      "chg_since": -0.58,
       "correct": true,
       "age_days": 7
     },
@@ -4127,7 +4000,7 @@
       "confidence": 51,
       "engagement": 8,
       "price": 582.6,
-      "chg_since": 0.63,
+      "chg_since": 0.02,
       "correct": true,
       "age_days": 7
     },
@@ -4138,7 +4011,7 @@
       "confidence": 64,
       "engagement": 15,
       "price": 114.17,
-      "chg_since": 1.48,
+      "chg_since": 1.59,
       "correct": true,
       "age_days": 7
     },
@@ -4149,7 +4022,7 @@
       "confidence": 60,
       "engagement": 13,
       "price": 883.91,
-      "chg_since": -6.16,
+      "chg_since": -6.89,
       "correct": false,
       "age_days": 7
     },
@@ -4160,7 +4033,7 @@
       "confidence": 67,
       "engagement": 12,
       "price": 329.27,
-      "chg_since": 13.44,
+      "chg_since": 8.16,
       "correct": false,
       "age_days": 7
     },
@@ -4171,7 +4044,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 309.17,
-      "chg_since": 4.18,
+      "chg_since": 0.66,
       "correct": true,
       "age_days": 7
     },
@@ -4182,7 +4055,7 @@
       "confidence": 51,
       "engagement": 8,
       "price": 580.78,
-      "chg_since": 0.95,
+      "chg_since": 0.34,
       "correct": true,
       "age_days": 7
     },
@@ -4193,7 +4066,7 @@
       "confidence": 64,
       "engagement": 15,
       "price": 113.31,
-      "chg_since": 2.25,
+      "chg_since": 2.37,
       "correct": true,
       "age_days": 7
     },
@@ -4204,8 +4077,8 @@
       "confidence": 63,
       "engagement": 18,
       "price": 868.42,
-      "chg_since": -4.48,
-      "correct": true,
+      "chg_since": -5.23,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4215,7 +4088,7 @@
       "confidence": 67,
       "engagement": 16,
       "price": 326.73,
-      "chg_since": 14.32,
+      "chg_since": 9.0,
       "correct": false,
       "age_days": 7
     },
@@ -4226,7 +4099,7 @@
       "confidence": 64,
       "engagement": 15,
       "price": 336.17,
-      "chg_since": -9.74,
+      "chg_since": -8.11,
       "correct": false,
       "age_days": 7
     },
@@ -4237,7 +4110,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 307.46,
-      "chg_since": 4.76,
+      "chg_since": 1.22,
       "correct": true,
       "age_days": 7
     },
@@ -4248,8 +4121,8 @@
       "confidence": 64,
       "engagement": 13,
       "price": 195.62,
-      "chg_since": 5.63,
-      "correct": false,
+      "chg_since": 2.62,
+      "correct": true,
       "age_days": 7
     },
     {
@@ -4259,7 +4132,7 @@
       "confidence": 79,
       "engagement": 18,
       "price": 894.3,
-      "chg_since": -7.25,
+      "chg_since": -7.97,
       "correct": false,
       "age_days": 7
     },
@@ -4270,7 +4143,7 @@
       "confidence": 84,
       "engagement": 17,
       "price": 335.55,
-      "chg_since": -9.58,
+      "chg_since": -7.94,
       "correct": false,
       "age_days": 7
     },
@@ -4281,7 +4154,7 @@
       "confidence": 64,
       "engagement": 17,
       "price": 327.29,
-      "chg_since": 14.12,
+      "chg_since": 8.81,
       "correct": false,
       "age_days": 7
     },
@@ -4292,7 +4165,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 308.07,
-      "chg_since": 4.55,
+      "chg_since": 1.02,
       "correct": true,
       "age_days": 7
     },
@@ -4303,7 +4176,7 @@
       "confidence": 64,
       "engagement": 13,
       "price": 197.49,
-      "chg_since": 4.63,
+      "chg_since": 1.65,
       "correct": true,
       "age_days": 7
     },
@@ -4314,7 +4187,7 @@
       "confidence": 76,
       "engagement": 20,
       "price": 900.2,
-      "chg_since": -7.85,
+      "chg_since": -8.57,
       "correct": false,
       "age_days": 7
     },
@@ -4325,7 +4198,7 @@
       "confidence": 84,
       "engagement": 17,
       "price": 336.91,
-      "chg_since": -9.94,
+      "chg_since": -8.31,
       "correct": false,
       "age_days": 7
     },
@@ -4336,7 +4209,7 @@
       "confidence": 64,
       "engagement": 17,
       "price": 326.56,
-      "chg_since": 14.38,
+      "chg_since": 9.05,
       "correct": false,
       "age_days": 7
     },
@@ -4347,8 +4220,8 @@
       "confidence": 64,
       "engagement": 13,
       "price": 196.51,
-      "chg_since": 5.15,
-      "correct": false,
+      "chg_since": 2.16,
+      "correct": true,
       "age_days": 7
     },
     {
@@ -4358,7 +4231,7 @@
       "confidence": 51,
       "engagement": 8,
       "price": 580.0,
-      "chg_since": 1.08,
+      "chg_since": 0.47,
       "correct": true,
       "age_days": 7
     },
@@ -4369,7 +4242,7 @@
       "confidence": 76,
       "engagement": 15,
       "price": 900.2,
-      "chg_since": -7.85,
+      "chg_since": -8.57,
       "correct": false,
       "age_days": 7
     },
@@ -4380,8 +4253,8 @@
       "confidence": 64,
       "engagement": 15,
       "price": 196.51,
-      "chg_since": 5.15,
-      "correct": false,
+      "chg_since": 2.16,
+      "correct": true,
       "age_days": 7
     },
     {
@@ -4391,8 +4264,8 @@
       "confidence": 64,
       "engagement": 15,
       "price": 131.53,
-      "chg_since": -4.47,
-      "correct": true,
+      "chg_since": -6.44,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -4402,7 +4275,7 @@
       "confidence": 81,
       "engagement": 12,
       "price": 336.91,
-      "chg_since": -9.94,
+      "chg_since": -8.31,
       "correct": false,
       "age_days": 7
     },
@@ -4413,7 +4286,117 @@
       "confidence": 61,
       "engagement": 12,
       "price": 326.56,
-      "chg_since": 14.38,
+      "chg_since": 9.05,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T01:43:53.937170+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 76,
+      "engagement": 15,
+      "price": 900.2,
+      "chg_since": -8.57,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T01:43:53.937170+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 15,
+      "price": 196.51,
+      "chg_since": 2.16,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T01:43:53.937170+00:00",
+      "ticker": "PLTR",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 15,
+      "price": 131.53,
+      "chg_since": -6.44,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T01:43:53.937170+00:00",
+      "ticker": "AAPL",
+      "rec": "kaufen",
+      "confidence": 81,
+      "engagement": 12,
+      "price": 336.91,
+      "chg_since": -8.31,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T01:43:53.937170+00:00",
+      "ticker": "GOOGL",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 12,
+      "price": 326.56,
+      "chg_since": 9.05,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T04:55:33.307302+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 76,
+      "engagement": 15,
+      "price": 900.2,
+      "chg_since": -8.57,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T04:55:33.307302+00:00",
+      "ticker": "PLTR",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 15,
+      "price": 131.53,
+      "chg_since": -6.44,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T04:55:33.307302+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 15,
+      "price": 196.51,
+      "chg_since": 2.16,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T04:55:33.307302+00:00",
+      "ticker": "AAPL",
+      "rec": "kaufen",
+      "confidence": 81,
+      "engagement": 12,
+      "price": 336.91,
+      "chg_since": -8.31,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-28T04:55:33.307302+00:00",
+      "ticker": "GOOGL",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 12,
+      "price": 326.56,
+      "chg_since": 9.05,
       "correct": false,
       "age_days": 7
     }
@@ -4428,7 +4411,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the fantastic people of Florida’s 87th State House District! Jon is a very successful Businessman and Civic Leader, who is known and loved, and also endorsed by so many of my Palm Beach County friends, including by Great State Representative “MAGA” Meg Weinberger. As your next State Representative, Jon w",
@@ -4437,7 +4420,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Wilton Simpson is the strong and highly popular Agriculture Commissioner for Florida, my “Home” State, which I love and won SIX times, including with 6.1 Million Votes in 2024, the most in History (BY FAR)! Wilton is a Fifth Generation Floridian, lifelong Egg Farmer, successful Businessman, former President of the State Senate, and now, as Agriculture Commissioner, has served the Sunshine State du",
@@ -4446,7 +4429,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Senator Ashley Moody is doing a tremendous job representing the incredible people of Florida, a State I love, and WON BIG, in 2016, 2020, and 2024! A fifth generation Floridian, Ashley served as State Attorney General for six years prior to becoming a very distinguished and well respected U.S. Senator. Ashley is working tirelessly to Grow our Economy, Cut Taxes and Regulations, Promote MADE IN THE",
@@ -4457,7 +4440,7 @@
         "policy": [
           "🏛️ Steuern"
         ],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Florida Attorney General James Uthmeier is doing a GREAT job for the Sunshine State, which I won BIG in 2016, 2020, and 2024. James is an America First Warrior, who is a true champion for “MAGA.” He is THE MAN behind ALLIGATOR ALCATRAZ, and argued strongly at the United States Supreme Court in defense of my Executive Power to fire Deep State bureaucrats. Under James’ fearless leadership, over 1,00",
@@ -4466,7 +4449,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Highly Respected Congressman Byron Donalds is running for Governor of Florida, a State that I love, and WON BIG, in 2016, 2020, and 2024. I know Byron well, have seen him tested at the highest and most difficult levels, and he is a TOTAL WINNER! Byron has a great wife, Erika, and three beautiful sons. They are very proud of him! As Governor, Byron will have a BIG Voice, and work closely with me to",
@@ -4475,7 +4458,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "RT @ realDonaldTrump It is my Great Honor to endorse MAGA Warrior, Rick Brattin, who is running to represent the wonderful people of Missouri’s 5th Congressional District! Rick is strongly supported by many of the greatest America First Patriots in Missouri, including Governor Mike Kehoe, and Congressmen Jason Smith, Bob Onder, and Eric Burlison, among others! From bravely fighting for the U.S. Ma",
@@ -4496,151 +4479,85 @@
           "🏛️ Steuern"
         ],
         "is_new": false
-      },
-      {
-        "text": "US states sue Trump administration over new tariffs on 60 trading partners - theguardian.com",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRHVKdHU0cVZxWVVCd3FobzhaNUtTN0VNSVRoSzdzdERONlY1eHFqRS1sLVI1bExMdmZ6YnNaNmVZTUJrbkNWZzhiZUkwR2ltYktBaXpPR3FVS1Rvclk4dU03cjZvM2prYlVnZzJTcVNwNUZPSnItWkh0RUhLTk5rTENLMU5nOS14cXh4WDNhT0M?oc=5",
-        "date": "Mon, 03 Aug 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Zölle"
-        ],
-        "is_new": true
-      },
-      {
-        "text": "Twenty five states sue Trump administration over latest global tariffs - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUGEyTWEwWDd5cS1Sa25DWXBwUExTNzRzMFI4Z0lPMFJQcF9MS3ZWdTZqcEZxUlNZWmVoWlk5STd0ZEZMZ1RNSDZJZEZHc2tfUF9OSkV4WGNDcjUzNGFlZ1dENVVUcnZPelYzU2JYWm9uZDBMNjlZSGdZTV9mUzdWenVkSmo2TmtTX0HSAY8BQVVfeXFMT2Vid1luOHBnLWUtamNtcF9KcjFkRVJfLThFQUxnS3preGw4UDhubWVzRzN6aURJSy11U3ptUTdFejNvUEVpNXQtajJiZXZrY09WbzhYYUpBSVhXT053RGd5UDdVRDhZUnRnTDNxOVh4bWhaMkI3YWVhNjJ1M2lpZGVzTmdYcjVhS1NjNmVxOWc?oc=5",
-        "date": "Mon, 03 Aug 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Zölle"
-        ],
-        "is_new": true
-      },
-      {
-        "text": "Oregon attorney general again sues the Trump administration over tariffs - Oregon Public Broadcasting - OPB",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX3lsa1RkUGlGcEkycFBHMGd2S09XQ2FCZ3BrNGVNY092OUozSmRrQXdpenYtYjNWQWxXZFhkQXVmaFdhVlRQQ0tkZUNGd0JEeHZQX0w5c3ZES2lYVHVqMDhzN0VvWjY3UVRFakJSa1F2dUROV21HSWdnR0Rsal83empyOW1CenpndkE?oc=5",
-        "date": "Tue, 04 Aug 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Zölle"
-        ],
-        "is_new": true
       }
     ],
-    "market_hits": 5
+    "market_hits": 2
   },
   "spannende_aktien": [
     {
+      "ticker": "RITR",
+      "name": "Reitar Logtech Holdings Limited",
+      "price": 0.06,
+      "currency": "USD",
+      "chg_1d": 0,
+      "vol_ratio": 208.3,
+      "warum": [
+        "Jingxing HK, Logistics Technology Arm of Reitar Logtech, Partners with Cainiao G",
+        "Reitar Logtech Signs Landmark US$60 Million Strategic Equity Investment Agreemen"
+      ],
+      "bedeutung": "Handelsvolumen 208.3× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Jingxing HK, Logistics Technology Arm of Reitar Logtech, Partners with Cainiao Group to Capture Global Smart Warehousing Market",
+          "link": "https://finance.yahoo.com/technology/articles/jingxing-hk-logistics-technology-arm-130300329.html?.tsrc=rss",
+          "date": "Mon, 03 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Reitar Logtech Signs Landmark US$60 Million Strategic Equity Investment Agreement at US$4.00 per Share Marking a Major New Milestone in the ",
+          "link": "https://finance.yahoo.com/news/reitar-logtech-signs-landmark-us-133500797.html?.tsrc=rss",
+          "date": "Fri, 06 Mar 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
       "ticker": "GME",
       "name": "GameStop Corp.",
-      "price": 19.06,
+      "price": 21.72,
       "currency": "USD",
-      "chg_1d": -12.25,
+      "chg_1d": -0.73,
       "vol_ratio": 13.2,
       "warum": [
-        "Amazon, Apple, Boeing, Micron, Bristol Myers, GameStop, SpaceX, and More Stocks ",
-        "A $1.4 Billion Reason GameStop Stock Is Down Today"
+        "GME Stock Ticks Up Overnight: Retail Believes GameStop’s Massive Debt Exchange S",
+        "Why Did GME, SPCX, HTZ Stocks Plunge To 52-Week Lows?"
       ],
-      "bedeutung": "Extreme Bewegung (-12.25%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "bedeutung": "Handelsvolumen 13.2× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
       "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Amazon, Apple, Boeing, Micron, Bristol Myers, GameStop, SpaceX, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/43e3b66a-fc8c-3bba-9d54-03a4046409ea/amazon%2C-apple%2C-boeing%2C.html?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "A $1.4 Billion Reason GameStop Stock Is Down Today",
-          "link": "https://www.barchart.com/story/news/3618452/a-1-4-billion-reason-gamestop-stock-is-down-today?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWV",
-      "name": "CoreWeave, Inc.",
-      "price": 85.76,
-      "currency": "USD",
-      "chg_1d": 19.49,
-      "vol_ratio": 1.7,
-      "warum": [
-        "Oracle Is Still Down 28% This Year. What Will It Take to Get ORCL Stock Back to ",
-        "Nebius (NBIS): The Neocloud Leader"
-      ],
-      "bedeutung": "Extreme Bewegung (+19.49%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
-      ],
-      "news": [
-        {
-          "title": "Oracle Is Still Down 28% This Year. What Will It Take to Get ORCL Stock Back to $200?",
-          "link": "https://247wallst.com/investing/2026/08/03/oracle-is-still-down-28-this-year-what-will-it-take-to-get-orcl-stock-back-to-200/?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Nebius (NBIS): The Neocloud Leader",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nebius-nbis-neocloud-leader-185600913.html?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "SNAP",
-      "name": "Snap Inc.",
-      "price": 5.04,
-      "currency": "USD",
-      "chg_1d": 7.46,
-      "vol_ratio": 2.3,
-      "warum": [
-        "Snap Q2 Earnings Call Highlights",
-        "SNAP Stock Jumps 7% After-Hours — Snap Beats Q2 Estimates, Issues Consensus-Beat"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Snap Q2 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/snap-q2-earnings-call-highlights-2026-08-03/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "title": "GME Stock Ticks Up Overnight: Retail Believes GameStop’s Massive Debt Exchange Signals A Bigger Corporate Play",
+          "link": "https://stocktwits.com/news-articles/markets/equity/gme-stock-ticks-up-overnight-retail-believes-game-stop-s-massive-debt-exchange-signals-a-bigger-corporate-play/cZo5419RJ3M?.tsrc=rss",
           "date": "Tue, 04 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "SNAP Stock Jumps 7% After-Hours — Snap Beats Q2 Estimates, Issues Consensus-Beating Q3 Outlook On Ad Recovery And Subscription Growth",
-          "link": "https://stocktwits.com/news-articles/markets/equity/snap-beats-q2-estimates-issues-consensus-beating-q3-outlook/cZoTsqhRJ3k?.tsrc=rss",
-          "date": "Mon, 03 Aug 2026",
-          "tone": "pos"
+          "title": "Why Did GME, SPCX, HTZ Stocks Plunge To 52-Week Lows?",
+          "link": "https://stocktwits.com/news-articles/markets/equity/why-did-gme-spcx-htz-stocks-plunge-to-52-week-lows/cZo53nFRJ3t?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "neg"
         }
       ]
     },
     {
       "ticker": "GRAB",
       "name": "Grab Holdings Limited",
-      "price": 3.67,
+      "price": 3.5,
       "currency": "USD",
-      "chg_1d": 4.86,
+      "chg_1d": 2.94,
       "vol_ratio": 1.4,
       "warum": [
         "Grab Q2 Earnings Call Highlights",
-        "Grab Holdings Limited (GRAB) Q2 Earnings Beat Estimates"
+        "Grab  (GRAB) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4655,41 +4572,72 @@
           "tone": "neu"
         },
         {
-          "title": "Grab Holdings Limited (GRAB) Q2 Earnings Beat Estimates",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/grab-holdings-limited-grab-q2-000502656.html?.tsrc=rss",
+          "title": "Grab  (GRAB) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/grab-grab-q2-earnings-key-003001320.html?.tsrc=rss",
           "date": "Tue, 04 Aug 2026",
-          "tone": "pos"
+          "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "BA",
-      "name": "The Boeing Company",
-      "price": 233.49,
+      "ticker": "ON",
+      "name": "ON Semiconductor Corporation",
+      "price": 81.61,
       "currency": "USD",
-      "chg_1d": 8.03,
-      "vol_ratio": 1.8,
+      "chg_1d": -2.54,
+      "vol_ratio": 1.5,
       "warum": [
-        "S&P500, Nasdaq End Higher, Dow Hits Record High On Strong Mag 7 Performance And ",
-        "US regulators grant long-awaited Boeing 737 MAX 7 certificate"
+        "onsemi Q2 Earnings Call Highlights",
+        "Here's What Key Metrics Tell Us About ON Semiconductor Corp. (ON) Q2 Earnings"
       ],
-      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
-      "sterne": 1,
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "S&P500, Nasdaq End Higher, Dow Hits Record High On Strong Mag 7 Performance And Falling Oil Prices — BA, XOM, CVX, HOOD, AMD In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-end-higher-dow-hits-record-high-on-strong-mag-7-performance/cZoTYo1RJ3K?.tsrc=rss",
+          "title": "onsemi Q2 Earnings Call Highlights",
+          "link": "https://www.marketbeat.com/instant-alerts/onsemi-q2-earnings-call-highlights-2026-08-03/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
           "date": "Mon, 03 Aug 2026",
-          "tone": "pos"
+          "tone": "neu"
         },
         {
-          "title": "US regulators grant long-awaited Boeing 737 MAX 7 certificate",
-          "link": "https://finance.yahoo.com/technology/articles/us-regulators-grant-long-awaited-171655533.html?.tsrc=rss",
+          "title": "Here's What Key Metrics Tell Us About ON Semiconductor Corp. (ON) Q2 Earnings",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-220002045.html?.tsrc=rss",
           "date": "Mon, 03 Aug 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "SNAP",
+      "name": "Snap Inc.",
+      "price": 4.69,
+      "currency": "USD",
+      "chg_1d": 0,
+      "vol_ratio": 2.3,
+      "warum": [
+        "The Sharpest Exchanges From META's Earnings Call",
+        "Snap Q2 Earnings Call Highlights"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "The Sharpest Exchanges From META's Earnings Call",
+          "link": "https://www.trefis.com/articles/609835/the-sharpest-exchanges-from-metas-earnings-call/2026-08-03?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Snap Q2 Earnings Call Highlights",
+          "link": "https://www.marketbeat.com/instant-alerts/snap-q2-earnings-call-highlights-2026-08-03/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
           "tone": "neu"
         }
       ]
@@ -4721,7 +4669,7 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaHQwejFPdGpTWG93VlB0V09MMmtHdGl4VVd4NzNCdnRjY3JvNWt2dUNGeU9WRjdUUF9ocDN5RC0zMGlxTTZsLTBMRUFGZTBTLVhFVHd4b0k1VzFzeW4zWUpqaExCUmxtekNhN1NjWGZNM2trUGxjSm5CMHRSRk45MDlUQjBOclJyaVFwa0Z5eXd6aEdfNF9hTzlIYldTeU9zRXhV?oc=5",
       "date": "Mon, 03 Aug 2026",
-      "headline": "AstraZeneca, Bristol Myers Squibb Explore US$400 Billion Merger - mexicobusiness.news",
+      "headline": "AstraZeneca, Bristol Myers Squibb Explore US$400 Billion Merger - Mexico Business News",
       "source": "Google News"
     },
     {
@@ -4749,7 +4697,7 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQnRtQ0JBT0RVVFczWlRfak5NZTY5cVNWdFRHTjZIelBDbkJ1TUZMTmUxNFoySm1QUUJrOEk0Y2duQk5yUFpZb2hWRVl4R0doT0VQank5WC1KUUY3aGVBUk4yWTMzNFdOczktVndCRm1iMEhneUZDUnRBUlcwSFpEUjdvdkZsclZSZ0ZILXRGMFgwVHhRbHlmRHdONXFMdjQzcU4wMk8zSQ?oc=5",
       "date": "Mon, 03 Aug 2026",
-      "headline": "News | Public Storage's $2 billion CMBS deal finances blockbuster merger - CoStar",
+      "headline": "News | Public Storage’s more than $2 billion CMBS deal finances blockbuster merger - CoStar",
       "source": "Google News"
     }
   ]
