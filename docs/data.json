@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T01:43:37.533708+00:00",
+  "generated_at": "2026-08-05T04:56:37.208709+00:00",
   "total_posts": 250,
-  "unique_tickers": 157,
+  "unique_tickers": 164,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,7 +33,7 @@
       "confidence": 67,
       "sentiment": 1,
       "mentions": 5,
-      "mentions_delta": 2,
+      "mentions_delta": 0,
       "engagement": 8,
       "sources": [
         "wallstreetbets"
@@ -57,12 +57,12 @@
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1vep733/lost_107k_in_15_mins_doing_spx_0dte/"
         },
         {
-          "title": "$2K -> $36K",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vfjrtq/2k_36k/"
-        },
-        {
           "title": "Sold Too Early…but I’m Still Happy :)",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1vfqhfu/sold_too_earlybut_im_still_happy/"
+        },
+        {
+          "title": "$2K -> $36K",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vfjrtq/2k_36k/"
         }
       ],
       "topics": [
@@ -700,12 +700,11 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert DTE Energy Company aktuell gemischt (5 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert DTE Energy Company aktuell gemischt (5 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +2 gegenüber dem letzten Scan",
         "🎯 Optionen & Short-Interest",
         "News: WIX Q2 Earnings Beat Expectations, Revenue Rises Y/Y on Base44 Strengt",
         "News: TELUS Q2 Earnings Fall Y/Y on Digital Weakness, Outlook Cut"
@@ -734,7 +733,7 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 29,
+      "quality_pct": 21,
       "reddit_vs_markt": {
         "reddit": 74,
         "markt": 38,
@@ -751,6 +750,14 @@
         },
         {
           "ts": "2026-08-05T01:43:37.533708+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 8,
+          "price": 141.72
+        },
+        {
+          "ts": "2026-08-05T04:56:37.208709+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
           "confidence": 67,
@@ -1379,7 +1386,7 @@
           },
           {
             "t": 1785729600,
-            "c": 484.64
+            "c": 518.58
           },
           {
             "t": 1785873601,
@@ -1394,32 +1401,32 @@
       },
       "news": [
         {
+          "title": "AMD Vs. Broadcom: Why Broadcom is Actually Nvidia’s Biggest Problem",
+          "link": "https://247wallst.com/investing/2026/08/05/amd-vs-broadcom-why-broadcom-is-actually-nvidias-biggest-problem/?.tsrc=rss",
+          "date": "Wed, 05 Aug 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Dow Jones Futures Rise; SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High",
           "link": "https://finance.yahoo.com/m/63f73cc3-b9b2-3295-a581-3f2fee0b0e0e/dow-jones-futures-rise%3B.html?.tsrc=rss",
           "date": "Wed, 05 Aug 2026",
           "tone": "pos"
         },
         {
+          "title": "AMD Stock Tumbles Overnight As CapEx Surge And SpaceX’s Nvidia Switch Overshadow Q2 Beat",
+          "link": "https://stocktwits.com/news-articles/markets/equity/amd-stock-tumbles-overnight-as-cap-ex-surge-and-space-x-s-nvidia-switch-overshadow-q2-beat/cZo4BNHRJ4F?.tsrc=rss",
+          "date": "Wed, 05 Aug 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "AMD Earnings 'Were Good,' Says Analyst Even as Stock Sinks 9% After Hours: Wall Street Wanted a 'Blowout' Forecast",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-earnings-were-good-says-015720661.html?.tsrc=rss",
+          "date": "Wed, 05 Aug 2026",
+          "tone": "neg"
+        },
+        {
           "title": "A 'Market Wizard' Is Running One of the Worst ETFs of 2026",
           "link": "http://www.etf.com/sections/features/market-wizard-running-one-worst-etfs-2026?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-          "date": "Tue, 04 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "AMD and SpaceX Earnings: Good or Bad?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-spacex-earnings-good-bad-235500303.html?.tsrc=rss",
-          "date": "Tue, 04 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Advanced Micro Devices Q2 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/advanced-micro-devices-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Tue, 04 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Advanced Micro (AMD) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-amd-q2-earnings-220002343.html?.tsrc=rss",
           "date": "Tue, 04 Aug 2026",
           "tone": "neu"
         }
@@ -1488,6 +1495,14 @@
         },
         {
           "ts": "2026-08-05T01:43:37.533708+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 6,
+          "price": 518.58
+        },
+        {
+          "ts": "2026-08-05T04:56:37.208709+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
           "confidence": 67,
@@ -1601,14 +1616,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-04T13:57:51.436882+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 9,
-          "price": null
-        },
-        {
           "ts": "2026-08-04T16:10:02.953354+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
@@ -1642,6 +1649,14 @@
         },
         {
           "ts": "2026-08-05T01:43:37.533708+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 50,
+          "engagement": 8,
+          "price": null
+        },
+        {
+          "ts": "2026-08-05T04:56:37.208709+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
           "confidence": 50,
@@ -2289,7 +2304,7 @@
           },
           {
             "t": 1785729600,
-            "c": 574.43
+            "c": 571.47
           },
           {
             "t": 1785873603,
@@ -2381,14 +2396,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-04T13:57:51.436882+00:00",
-          "ticker": "MSCI",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 16,
-          "price": 580.55
-        },
-        {
           "ts": "2026-08-04T16:10:02.953354+00:00",
           "ticker": "MSCI",
           "rec": "beobachten",
@@ -2422,6 +2429,14 @@
         },
         {
           "ts": "2026-08-05T01:43:37.533708+00:00",
+          "ticker": "MSCI",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 16,
+          "price": 571.47
+        },
+        {
+          "ts": "2026-08-05T04:56:37.208709+00:00",
           "ticker": "MSCI",
           "rec": "beobachten",
           "confidence": 61,
@@ -2558,6 +2573,14 @@
         },
         {
           "ts": "2026-08-05T01:43:37.533708+00:00",
+          "ticker": "OTM",
+          "rec": "beobachten",
+          "confidence": 47,
+          "engagement": 11,
+          "price": null
+        },
+        {
+          "ts": "2026-08-05T04:56:37.208709+00:00",
           "ticker": "OTM",
           "rec": "beobachten",
           "confidence": 47,
@@ -3037,7 +3060,7 @@
           },
           {
             "t": 1785729600,
-            "c": 10.43
+            "c": 10.44
           },
           {
             "t": 1785873600,
@@ -3116,14 +3139,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-07-30T04:49:00.326750+00:00",
-          "ticker": "TACO",
-          "rec": "beobachten",
-          "confidence": 70,
-          "engagement": 7,
-          "price": 10.47
-        },
-        {
           "ts": "2026-08-04T16:10:02.953354+00:00",
           "ticker": "TACO",
           "rec": "beobachten",
@@ -3162,13 +3177,21 @@
           "confidence": 70,
           "engagement": 7,
           "price": 10.44
+        },
+        {
+          "ts": "2026-08-05T04:56:37.208709+00:00",
+          "ticker": "TACO",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 7,
+          "price": 10.44
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 55,
-    "n_evaluated": 150,
+    "n_evaluated": 151,
     "rate_kaufen": 0,
     "rate_verkaufen": null,
     "rate_beobachten": 57,
@@ -3176,61 +3199,6 @@
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-07-28T08:14:53.007130+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 73,
-      "engagement": 26,
-      "price": 900.2,
-      "chg_since": -0.84,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-28T08:14:53.007130+00:00",
-      "ticker": "SK",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 17,
-      "price": 19.52,
-      "chg_since": 10.91,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-28T08:14:53.007130+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 15,
-      "price": 196.51,
-      "chg_since": 7.85,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-28T08:14:53.007130+00:00",
-      "ticker": "PLTR",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 15,
-      "price": 131.53,
-      "chg_since": 23.67,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-07-28T08:14:53.007130+00:00",
-      "ticker": "AAPL",
-      "rec": "kaufen",
-      "confidence": 81,
-      "engagement": 12,
-      "price": 336.91,
-      "chg_since": -8.17,
-      "correct": false,
-      "age_days": 7
-    },
     {
       "ts": "2026-07-28T11:50:24.063317+00:00",
       "ticker": "MU",
@@ -3615,78 +3583,133 @@
       "chg_since": 31.68,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-07-29T01:45:23.701736+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 51,
+      "engagement": 10,
+      "price": 820.53,
+      "chg_since": 8.79,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-29T01:45:23.701736+00:00",
+      "ticker": "IBKR",
+      "rec": "beobachten",
+      "confidence": 48,
+      "engagement": 17,
+      "price": 90.91,
+      "chg_since": -2.51,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-29T01:45:23.701736+00:00",
+      "ticker": "MSCI",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 15,
+      "price": 579.39,
+      "chg_since": -1.37,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-29T01:45:23.701736+00:00",
+      "ticker": "TACO",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 7,
+      "price": 10.48,
+      "chg_since": -0.38,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-29T01:45:23.701736+00:00",
+      "ticker": "LMT",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 581.31,
+      "chg_since": 1.38,
+      "correct": true,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40566",
-        "url": "https://www.trumpstruth.org/statuses/40566",
-        "date": "Wed, 05 Aug 2026 01:07",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40585",
+        "url": "https://www.trumpstruth.org/statuses/40585",
+        "date": "Wed, 05 Aug 2026 04:56",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40567",
-        "url": "https://www.trumpstruth.org/statuses/40567",
-        "date": "Wed, 05 Aug 2026 01:07",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40586",
+        "url": "https://www.trumpstruth.org/statuses/40586",
+        "date": "Wed, 05 Aug 2026 04:55",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40568",
-        "url": "https://www.trumpstruth.org/statuses/40568",
-        "date": "Wed, 05 Aug 2026 01:07",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40587",
+        "url": "https://www.trumpstruth.org/statuses/40587",
+        "date": "Wed, 05 Aug 2026 04:54",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40569",
-        "url": "https://www.trumpstruth.org/statuses/40569",
-        "date": "Wed, 05 Aug 2026 01:07",
+        "text": "Scott Bessent interviewed by Joe Kernen! https://www. cnbc.com/video/2026/08/04/watc h-cnbcs-full-interview-with-treasury-secretary-scott-bessent.html",
+        "url": "https://www.trumpstruth.org/statuses/40584",
+        "date": "Wed, 05 Aug 2026 04:35",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40570",
-        "url": "https://www.trumpstruth.org/statuses/40570",
-        "date": "Wed, 05 Aug 2026 01:06",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40581",
+        "url": "https://www.trumpstruth.org/statuses/40581",
+        "date": "Wed, 05 Aug 2026 04:05",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40571",
-        "url": "https://www.trumpstruth.org/statuses/40571",
-        "date": "Wed, 05 Aug 2026 01:06",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40582",
+        "url": "https://www.trumpstruth.org/statuses/40582",
+        "date": "Wed, 05 Aug 2026 04:05",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40561",
-        "url": "https://www.trumpstruth.org/statuses/40561",
-        "date": "Wed, 05 Aug 2026 01:03",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40583",
+        "url": "https://www.trumpstruth.org/statuses/40583",
+        "date": "Wed, 05 Aug 2026 04:05",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40562",
-        "url": "https://www.trumpstruth.org/statuses/40562",
-        "date": "Wed, 05 Aug 2026 01:03",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40572",
+        "url": "https://www.trumpstruth.org/statuses/40572",
+        "date": "Wed, 05 Aug 2026 02:13",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
@@ -3702,7 +3725,7 @@
       "price": 19.5,
       "currency": "USD",
       "chg_1d": 434.25,
-      "vol_ratio": 25.8,
+      "vol_ratio": 26.1,
       "warum": [
         "Autonomix Medical Receives U.S. Patent for Precision Neuromodulation Platform Ex",
         "Autonomix Medical Expands Precision Neuromodulation Platform with Broad New U.S."
@@ -3730,12 +3753,77 @@
       ]
     },
     {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies Corporation",
+      "price": 368.83,
+      "currency": "USD",
+      "chg_1d": 26.47,
+      "vol_ratio": 3.7,
+      "warum": [
+        "Zebra Technologies Corporation Q2 2026 Earnings Call Summary",
+        "Zebra Technologies Corp (ZBRA) (Q2 2026) Earnings Call Highlights: Record Sales "
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Zebra Technologies Corporation Q2 2026 Earnings Call Summary",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-zebra-technologies-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Zebra Technologies Corp (ZBRA) (Q2 2026) Earnings Call Highlights: Record Sales and EPS Surge ...",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zebra-technologies-corp-zbra-q2-210530721.html?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "pos"
+        }
+      ]
+    },
+    {
+      "ticker": "NVO",
+      "name": "Novo Nordisk A/S",
+      "price": 44.28,
+      "currency": "USD",
+      "chg_1d": -5.97,
+      "vol_ratio": 4.9,
+      "warum": [
+        "Novo Nordisk Stock Stumbles On A Key Miss As Its Battle With Eli Lilly Heats Up",
+        "Novo Nordisk Raises Earnings Guidance. The Stock Sinks."
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Novo Nordisk Stock Stumbles On A Key Miss As Its Battle With Eli Lilly Heats Up",
+          "link": "https://finance.yahoo.com/m/c4ecc3bc-64a8-3f02-b861-1581f635e650/novo-nordisk-stock-stumbles.html?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "neg"
+        },
+        {
+          "title": "Novo Nordisk Raises Earnings Guidance. The Stock Sinks.",
+          "link": "https://finance.yahoo.com/m/6d8e7c89-896b-331b-83c2-d09d3c1cd893/novo-nordisk-raises-earnings.html?.tsrc=rss",
+          "date": "Tue, 04 Aug 2026",
+          "tone": "pos"
+        }
+      ]
+    },
+    {
       "ticker": "ALAB",
       "name": "Astera Labs, Inc.",
       "price": 361.67,
       "currency": "USD",
       "chg_1d": 12.65,
-      "vol_ratio": 2.2,
+      "vol_ratio": 2.3,
       "warum": [
         "Dow Jones Futures Rise; SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 J",
         "Astera Labs (ALAB) Is Up 40.6% After Record Q2 Results And Scorpio X-Series Ramp"
@@ -3768,92 +3856,29 @@
       "price": 125.33,
       "currency": "USD",
       "chg_1d": 9.43,
-      "vol_ratio": 1.6,
+      "vol_ratio": 2.0,
       "warum": [
-        "Dow Jones Futures Rise; SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 J",
-        "SpaceX CEO Elon Musk Just Delivered Fantastic News for Nvidia Investors"
+        "Why SpaceX (SPCX) Is Up 11.4% After First Public Earnings and Expanded Equity Sh",
+        "Viasat Q1 Earnings Call Highlights"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
-      ],
-      "news": [
-        {
-          "title": "Dow Jones Futures Rise; SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High",
-          "link": "https://finance.yahoo.com/m/63f73cc3-b9b2-3295-a581-3f2fee0b0e0e/dow-jones-futures-rise%3B.html?.tsrc=rss",
-          "date": "Wed, 05 Aug 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "SpaceX CEO Elon Musk Just Delivered Fantastic News for Nvidia Investors",
-          "link": "https://www.fool.com/investing/2026/08/04/spacex-ceo-elon-musk-just-delivered-fantastic-news-for-nvidia-investors/?.tsrc=rss",
-          "date": "Wed, 05 Aug 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "CMG",
-      "name": "Chipotle Mexican Grill, Inc.",
-      "price": 33.82,
-      "currency": "USD",
-      "chg_1d": -9.72,
-      "vol_ratio": 2.8,
-      "warum": [
-        "Chipotle Stops Serving Jalapenos at Certain Restaurants Due to Potential Salmone",
-        "Chipotle Stock Tanks on Potential Salmonella Outbreak Tied to Jalapeños"
-      ],
-      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Chipotle Stops Serving Jalapenos at Certain Restaurants Due to Potential Salmonella Outbreak. Here's What Investors Need to Know.",
-          "link": "https://www.fool.com/investing/2026/08/04/chipotle-stops-serving-jalapenos-at-certain-restaurants-due-to-potential-salmonella-outbreak-heres-what-investors-need-to-know/?.tsrc=rss",
-          "date": "Tue, 04 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Chipotle Stock Tanks on Potential Salmonella Outbreak Tied to Jalapeños",
-          "link": "https://finance.yahoo.com/m/c74e79e6-5321-3359-8f78-d189ddd87c83/chipotle-stock-tanks-on.html?.tsrc=rss",
-          "date": "Tue, 04 Aug 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "price": 518.58,
-      "currency": "USD",
-      "chg_1d": 7.0,
-      "vol_ratio": 1.3,
-      "warum": [
-        "Dow Jones Futures Rise; SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 J",
-        "A 'Market Wizard' Is Running One of the Worst ETFs of 2026"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Dow Jones Futures Rise; SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High",
-          "link": "https://finance.yahoo.com/m/63f73cc3-b9b2-3295-a581-3f2fee0b0e0e/dow-jones-futures-rise%3B.html?.tsrc=rss",
+          "title": "Why SpaceX (SPCX) Is Up 11.4% After First Public Earnings and Expanded Equity Shelf Registration",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-spacex-spcx-11-4-042943856.html?.tsrc=rss",
           "date": "Wed, 05 Aug 2026",
-          "tone": "pos"
+          "tone": "neu"
         },
         {
-          "title": "A 'Market Wizard' Is Running One of the Worst ETFs of 2026",
-          "link": "http://www.etf.com/sections/features/market-wizard-running-one-worst-etfs-2026?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-          "date": "Tue, 04 Aug 2026",
+          "title": "Viasat Q1 Earnings Call Highlights",
+          "link": "https://www.marketbeat.com/instant-alerts/viasat-q1-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "Wed, 05 Aug 2026",
           "tone": "neu"
         }
       ]
@@ -3883,10 +3908,10 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://www.ft.com/content/1d8ac0ff-8ff0-44fd-bd92-5fd18983f31e?syn-25a6b1a6=1",
-      "date": "Tue, 04 Aug 2026",
-      "headline": "Segro accepts £14bn takeover offer from US rival Prologis",
-      "source": "FT"
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeFV5VXJ4TU44RHlMYVBrcnFqOG4xbTg2WWV4emFBaHFFdHdORjRDOXpUZFhrRHFoa05KNktHc3VzZTBSeEtNb01SVzg4WHhtYVlzZTBVOG9SRUZEei03LXBQcVpISm1iT01qb0g2cTFSeVdzOU16aXBOSmc4NGVXVDllT1Y4R3lVclJJdXdoNGlRWGNHM0ZCUXFwc2JZNlFsVHlURmQ3UVlHY1Z0REZSVFl4a2tMV3JGM2c?oc=5",
+      "date": "Wed, 05 Aug 2026",
+      "headline": "Paramount Merger Trial Set for March 2027 as Delay Costs Could Reach $1.5 Billion - Law Commentary",
+      "source": "Google News"
     },
     {
       "kaeufer": "",
@@ -3911,9 +3936,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSjBmT0NULWYyRjl3UDhpem9RRnBPVTdNcFJGN2RmOUtiNTJMU2Fud3dqQ1c0eFZubWdIdFVreFZPVWZmaG12Y3l5blhGWHBSUjc1U3I4WmZ4ckkyUjRfOVBEd2U0N3doekxINjJtT0NOaHg3ZU1wajUtVGxrMmdZa1kxeUFNc0t5QnhEQThlZXpSeXM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZmI1ZjlSWS1nMWx4S09VZEhheThLYVpNWVczWllTaXN4RXhmRGNDbE9QbW1XaGNBR0ZzSzg2cDc2RThlZ0NGdGdHaGJ5N1hES3RjWDRncDE1UFFnRGdyRmREZUh3RDlPWWszcjBrWHFSWkJNOXJOOFBjUFgwbDVRUEJfNkVnbEJLaXJWRw?oc=5",
       "date": "Tue, 04 Aug 2026",
-      "headline": "UK's Segro agrees $19 billion Prologis takeover after investor pressure - Reuters",
+      "headline": "The Saudi-Led $55 Billion Takeover Of EA Has Closed - Engadget",
       "source": "Google News"
     }
   ]
