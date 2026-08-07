@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:00:25.254864+00:00",
+  "generated_at": "2026-08-07T08:46:25.550544+00:00",
   "total_posts": 250,
   "unique_tickers": 159,
   "subreddits": [
@@ -28,15 +28,16 @@
     {
       "ticker": "HTZ",
       "name": "Hertz Global Holdings, Inc.",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 70,
-      "sentiment": 1,
-      "mentions": 7,
-      "mentions_delta": 0,
-      "engagement": 16,
+      "signal": "bullish",
+      "empfehlung": "kaufen",
+      "confidence": 87,
+      "sentiment": 2,
+      "mentions": 8,
+      "mentions_delta": 1,
+      "engagement": 20,
       "sources": [
-        "wallstreetbets"
+        "wallstreetbets",
+        "Aktien"
       ],
       "titles": [
         "17250 shares on margin $HTZ",
@@ -75,28 +76,28 @@
         {
           "emoji": "🎯",
           "titel": "Optionen & Short-Interest",
-          "anteil_pct": 44,
-          "beitraege": 4,
+          "anteil_pct": 50,
+          "beitraege": 6,
           "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
         },
         {
           "emoji": "📊",
           "titel": "Quartalszahlen",
-          "anteil_pct": 22,
+          "anteil_pct": 17,
           "beitraege": 2,
           "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
         },
         {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 11,
-          "beitraege": 1,
+          "anteil_pct": 17,
+          "beitraege": 2,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
         },
         {
           "emoji": "📈",
           "titel": "Wachstums-Story",
-          "anteil_pct": 11,
+          "anteil_pct": 8,
           "beitraege": 1,
           "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
         }
@@ -722,23 +723,24 @@
         }
       ],
       "comparison": {
-        "verdict": "relativiert",
+        "verdict": "bestätigt",
         "points": [
           "Kurs +22.42% über 7 Tage – Aufwärtsmomentum.",
           "+12.75% über SMA20 – kurzfristig evtl. überkauft.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+          "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Reddit diskutiert Hertz Global Holdings, Inc. aktuell gemischt (7 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Hertz Global Holdings, Inc. aktuell bullisch (8 Mentions). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
+        "Mentions +1 gegenüber dem letzten Scan",
         "🎯 Optionen & Short-Interest",
         "📊 Quartalszahlen",
         "News: Hertz Stock Soars. Why Earnings Might Be a Problem for Short Sellers."
       ],
-      "momentum": 92,
+      "momentum": 94,
       "momentum_label": "🚀 Diskussion wächst extrem schnell",
       "growth_pct": 200,
       "timeline": [
@@ -762,9 +764,9 @@
       "hype_typ": "hype",
       "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
       "quality_grade": "D",
-      "quality_pct": 22,
+      "quality_pct": 39,
       "reddit_vs_markt": {
-        "reddit": 92,
+        "reddit": 94,
         "markt": 100,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
@@ -799,6 +801,14 @@
           "rec": "beobachten",
           "confidence": 70,
           "engagement": 16,
+          "price": 2.02
+        },
+        {
+          "ts": "2026-08-07T08:46:25.550544+00:00",
+          "ticker": "HTZ",
+          "rec": "kaufen",
+          "confidence": 87,
+          "engagement": 20,
           "price": 2.02
         }
       ]
@@ -1473,32 +1483,32 @@
       },
       "news": [
         {
-          "title": "July 2026 Mailbag: Year 12 Begins",
-          "link": "https://www.fool.com/investing/2026/08/07/july-2026-mailbag-year-12-begins/?.tsrc=rss",
+          "title": "No Forward-Looking Guidance Needed: Fed Chair Kevin Warsh Just Outlined His Inflation Plan in 9 Words",
+          "link": "https://www.fool.com/investing/2026/08/07/fed-kevin-warsh-outlined-inflation-plan-in-9-words/?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "Nvidia Is a Massive Investor in the Genius Artificial Intelligence (AI) Stock Up 170% This Year",
-          "link": "https://www.fool.com/investing/2026/08/07/nvidia-is-a-massive-investor-in-the-genius-artific/?.tsrc=rss",
+          "title": "Mark Zuckerberg's Net Worth Swung by Double-Digit Billions Twice This Summer as Meta's AI Spending Divides Wall Street. Here's What the Vola",
+          "link": "https://www.fool.com/investing/2026/08/07/mark-zuckerberg-net-worth-volatility-meta-ai/?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "Samsung’s new memory chip could make Nvidia’s AI chips faster",
-          "link": "https://www.thestreet.com/technology/samsung-new-memory-chip-ai-faster?.tsrc=rss",
+          "title": "SNDK, WDC Rout Tests Chip Rally — Roundhill CEO Says ‘Beat And Raise Is Not Enough’ As Investors Return To NVDA",
+          "link": "https://stocktwits.com/news-articles/markets/equity/sndk-wdc-rout-roundhill-ceo-investors-return-to-nvda/cZoOUz6RJBI?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Ooredoo invests $800m in Indonesian AI neocloud platform Zankore",
+          "link": "https://www.verdict.co.uk/ooredoo-invests-800m-zankore/?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "SpaceX (SPCX) Unveils Orbital AI Network And $16.8 Billion Chip Factory Plans",
-          "link": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-unveils-orbital-ai-051429949.html?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Is Broadcom the Best Chip Stock to Own Now? Maybe",
-          "link": "https://247wallst.com/investing/2026/08/07/is-broadcom-the-best-chip-stock-to-own-now-maybe/?.tsrc=rss",
+          "title": "SpaceX Shares Fail to Launch Despite Soaring Revenue. Is the Stock a Buy on the Dip?",
+          "link": "https://www.fool.com/investing/2026/08/07/spacex-shares-fail-to-launch-despite-soaring-reven/?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
           "tone": "neu"
         }
@@ -1552,14 +1562,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-06T11:57:15.794702+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 17,
-          "price": 219.22
-        },
-        {
           "ts": "2026-08-06T13:57:27.281985+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
@@ -1593,6 +1595,14 @@
         },
         {
           "ts": "2026-08-07T07:00:25.254864+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 17,
+          "price": 218.99
+        },
+        {
+          "ts": "2026-08-07T08:46:25.550544+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
           "confidence": 64,
@@ -1706,14 +1716,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-06T11:57:15.794702+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 50,
-          "engagement": 8,
-          "price": null
-        },
-        {
           "ts": "2026-08-06T13:57:27.281985+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
@@ -1747,6 +1749,14 @@
         },
         {
           "ts": "2026-08-07T07:00:25.254864+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 50,
+          "engagement": 8,
+          "price": null
+        },
+        {
+          "ts": "2026-08-07T08:46:25.550544+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
           "confidence": 50,
@@ -2493,14 +2503,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-04T13:57:51.436882+00:00",
-          "ticker": "MSFT",
-          "rec": "kaufen",
-          "confidence": 81,
-          "engagement": 10,
-          "price": 489.68
-        },
-        {
           "ts": "2026-08-04T16:10:02.953354+00:00",
           "ticker": "MSFT",
           "rec": "kaufen",
@@ -2539,6 +2541,14 @@
           "confidence": 81,
           "engagement": 18,
           "price": 499.86
+        },
+        {
+          "ts": "2026-08-07T08:46:25.550544+00:00",
+          "ticker": "MSFT",
+          "rec": "kaufen",
+          "confidence": 81,
+          "engagement": 18,
+          "price": 499.86
         }
       ]
     },
@@ -2550,7 +2560,7 @@
       "confidence": 58,
       "sentiment": 0,
       "mentions": 3,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 15,
       "sources": [
         "wallstreetbets",
@@ -3208,8 +3218,8 @@
       },
       "news": [
         {
-          "title": "Is Broadcom the Best Chip Stock to Own Now? Maybe",
-          "link": "https://247wallst.com/investing/2026/08/07/is-broadcom-the-best-chip-stock-to-own-now-maybe/?.tsrc=rss",
+          "title": "AMD to acquire Taalas for specialised AI inference silicon",
+          "link": "https://www.verdict.co.uk/amd-taalas-acquisition/?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
           "tone": "neu"
         },
@@ -3220,21 +3230,21 @@
           "tone": "neu"
         },
         {
-          "title": "Earnings Have Been Excellent. Why Stocks Aren’t Showing It.",
-          "link": "https://finance.yahoo.com/m/12b9367a-3a89-38c1-9561-9b306438de9e/earnings-have-been-excellent..html?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
+          "title": "AMD Buys Toronto AI Chip Startup Taalas — Retail Says It’s A Move To ‘Compete More Directly With Nvidia’",
+          "link": "https://stocktwits.com/news-articles/markets/equity/amd-buys-toronto-ai-chip-startup-taalas-retail-says-its-a-move-to-compete-more-directly-with-nvidia/cZoBg5yRJJM?.tsrc=rss",
+          "date": "Thu, 06 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "Chinese AI Chipmakers Poised to Gain From Beijing’s Tech Push",
-          "link": "https://finance.yahoo.com/technology/ai/articles/chinese-ai-chipmakers-poised-gain-033220643.html?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
+          "title": "Nvidia dominates AI chips, but BofA sees AMD closing in",
+          "link": "https://www.thestreet.com/investing/stocks/nvidia-vs-amd-ai-chips-bofa-analysis?.tsrc=rss",
+          "date": "Thu, 06 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "Earn 14% On MRVL Stock Now, Or Own It 60% Cheaper Later",
-          "link": "https://www.trefis.com/articles/610346/earn-14-on-mrvl-stock-now-or-own-it-60-cheaper-later/2026-08-06?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
+          "title": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-acquires-taalas-advance-compute-200500133.html?.tsrc=rss",
+          "date": "Thu, 06 Aug 2026",
           "tone": "neu"
         }
       ],
@@ -3285,14 +3295,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-06T11:57:15.794702+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 17,
-          "price": 482.05
-        },
-        {
           "ts": "2026-08-06T13:57:27.281985+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
@@ -3326,6 +3328,14 @@
         },
         {
           "ts": "2026-08-07T07:00:25.254864+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 15,
+          "price": 489.28
+        },
+        {
+          "ts": "2026-08-07T08:46:25.550544+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
           "confidence": 58,
@@ -3983,6 +3993,12 @@
       },
       "news": [
         {
+          "title": "SNDK, WDC Rout Tests Chip Rally — Roundhill CEO Says ‘Beat And Raise Is Not Enough’ As Investors Return To NVDA",
+          "link": "https://stocktwits.com/news-articles/markets/equity/sndk-wdc-rout-roundhill-ceo-investors-return-to-nvda/cZoOUz6RJBI?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "pos"
+        },
+        {
           "title": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
           "link": "https://stocktwits.com/news-articles/markets/equity/sndk-stock-edges-up-overnight-jefferies-slashes-price-target-by-nearly-50-on-memory-growth-concerns/cZoOAccRJJz?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
@@ -4005,12 +4021,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-falls-14-billion-210334897.html?.tsrc=rss",
           "date": "Thu, 06 Aug 2026",
           "tone": "neg"
-        },
-        {
-          "title": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-          "link": "https://finance.yahoo.com/m/cc4bce1f-18fb-31cf-84fe-ebe8d5450eb5/micron-pares-most-of-its.html?.tsrc=rss",
-          "date": "Thu, 06 Aug 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -4029,6 +4039,7 @@
       "gruende": [
         "🎯 Optionen & Short-Interest",
         "📈 Wachstums-Story",
+        "News: SNDK, WDC Rout Tests Chip Rally — Roundhill CEO Says ‘Beat And Raise I",
         "News: SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearl"
       ],
       "momentum": 47,
@@ -4062,14 +4073,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-06T11:57:15.794702+00:00",
-          "ticker": "SNDK",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 20,
-          "price": 1350.5
-        },
         {
           "ts": "2026-08-06T13:57:27.281985+00:00",
           "ticker": "SNDK",
@@ -4109,64 +4112,28 @@
           "confidence": 48,
           "engagement": 13,
           "price": 1258.58
+        },
+        {
+          "ts": "2026-08-07T08:46:25.550544+00:00",
+          "ticker": "SNDK",
+          "rec": "beobachten",
+          "confidence": 48,
+          "engagement": 13,
+          "price": 1258.58
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 52,
-    "n_evaluated": 157,
-    "rate_kaufen": 14,
+    "hit_rate": 53,
+    "n_evaluated": 156,
+    "rate_kaufen": 25,
     "rate_verkaufen": null,
-    "rate_beobachten": 53,
-    "kauf_perf_7d": -4.6,
+    "rate_beobachten": 54,
+    "kauf_perf_7d": -2.7,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-07-30T04:49:00.326750+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 60,
-      "engagement": 11,
-      "price": 739.0,
-      "chg_since": 19.28,
-      "correct": false,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-07-30T04:49:00.326750+00:00",
-      "ticker": "IBKR",
-      "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 17,
-      "price": 86.26,
-      "chg_since": -0.28,
-      "correct": true,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-07-30T04:49:00.326750+00:00",
-      "ticker": "SK",
-      "rec": "beobachten",
-      "confidence": 58,
-      "engagement": 13,
-      "price": 14.94,
-      "chg_since": 24.83,
-      "correct": false,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-07-30T04:49:00.326750+00:00",
-      "ticker": "TACO",
-      "rec": "beobachten",
-      "confidence": 70,
-      "engagement": 7,
-      "price": 10.47,
-      "chg_since": -0.29,
-      "correct": true,
-      "age_days": 8
-    },
     {
       "ts": "2026-07-30T04:49:00.326750+00:00",
       "ticker": "LMT",
@@ -4187,7 +4154,7 @@
       "price": 739.0,
       "chg_since": 19.28,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-07-30T08:08:18.477624+00:00",
@@ -4198,7 +4165,7 @@
       "price": 86.26,
       "chg_since": -0.28,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-07-30T08:08:18.477624+00:00",
@@ -4209,7 +4176,7 @@
       "price": 14.94,
       "chg_since": 24.83,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-07-30T11:45:31.021197+00:00",
@@ -4562,6 +4529,50 @@
       "chg_since": 1.52,
       "correct": true,
       "age_days": 7
+    },
+    {
+      "ts": "2026-07-31T08:35:01.290118+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 66,
+      "engagement": 15,
+      "price": 874.66,
+      "chg_since": 0.78,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-31T08:35:01.290118+00:00",
+      "ticker": "SK",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 14,
+      "price": 20.35,
+      "chg_since": -8.35,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-31T08:35:01.290118+00:00",
+      "ticker": "IBKR",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 17,
+      "price": 90.48,
+      "chg_since": -4.93,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-07-31T08:35:01.290118+00:00",
+      "ticker": "MSFT",
+      "rec": "kaufen",
+      "confidence": 78,
+      "engagement": 9,
+      "price": 451.1,
+      "chg_since": 10.81,
+      "correct": true,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [
@@ -4570,18 +4581,19 @@
       "name": "Hertz Global Holdings, Inc.",
       "score": 55,
       "signals": [
-        "Squeeze-Vokabular in Posts (6× erkannt)",
+        "Squeeze-Vokabular in Posts (7× erkannt)",
         "Handelsvolumen 6.8× über Normal – ungewöhnliche Aktivität",
         "Niedriger Kurs – typisch für Retail-Wellen"
       ],
-      "mentions": 7,
-      "delta": 0,
+      "mentions": 8,
+      "delta": 1,
       "vol_ratio": 6.8,
       "price": 2.02,
       "currency": "USD",
       "chg_1d": 29.49,
       "sources": [
-        "wallstreetbets"
+        "wallstreetbets",
+        "Aktien"
       ]
     }
   ],
@@ -4660,9 +4672,9 @@
         "is_new": false
       },
       {
-        "text": "Trump Signs Executive Orders Targeting Birthright Citizenship and ‘Birth Tourism’ - The New York Times",
+        "text": "Trump Signs Executive Orders Targeting Birthright Citizenship and ‘Birth Tourism’ - nytimes.com",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTVJTMjUzcjk1Y2lZb1EtZmxnSWpBck1hZHY0MmRVT3ZQa3JJLVJEOWN0Q2d5a3Q0cHJBbkF6Vm9yV0xCVXliY3dxbXRFTkpST2JSSFBZMkNCdTJaWTdId0ZrZ0FISkhCYVY5SlYwTDA4YVNQaVlZUTVnbE40MVVwVlFZTlJ2WEJQVlEyUE5aenU4QQ?oc=5",
-        "date": "Fri, 07 Aug 2026",
+        "date": "Thu, 06 Aug 2026",
         "source": "News (X/Presse)",
         "companies": [
           {
@@ -4672,44 +4684,36 @@
         ],
         "policy": [],
         "is_new": false
+      },
+      {
+        "text": "Trump signs new orders targeting birthright citizenship - theguardian.com",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSDhqMFc3SnYtNzl2Z05wMXJwcVUxek5GNlZEQlZaVkRPcUw4YjA4M1Q5eWI5UmR0ZlpvOGJCcEhaYnE1LUhmRjIyTHU0ZDZLdVY5dTB0c2lBcEZiM3VPeWJTZkZtT0tiQlhSRl9mNDZCUGNHdzlvMWNWeTlPX01MZk9taXdsMThYNmdUODZxWEgzRy14QnYxdQ?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "News (X/Presse)",
+        "companies": [
+          {
+            "name": "Target",
+            "ticker": "TGT"
+          }
+        ],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "Crypto bill ethics counteroffer includes divestment requirement for Trump - Politico",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVDJMMnBFZVN5X0VXQmdWZi0tR2h4R1duaEM4bkt1elB3STA4eDFTejd2YlN3WE83dzFZSXpueFRSdUpxd0huUVdsSF9VaFBNSk8xX3BLQllQRFJ5Q0ZSV2tSVExsdFJPTG5RM2V6X0l4eXFTQm9wOURqaTlIa2toOHJ1R1h0bVVfQnpTWkM4bjN2Z1dIbDBHSXAxdG9WSUhzRW1YOTV6NVpSNkw5UHRqb3FOb1NUS0ZkT05tU1k2Q2xFZDhETXc?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Krypto"
+        ],
+        "is_new": false
       }
     ],
-    "market_hits": 1
+    "market_hits": 3
   },
   "spannende_aktien": [
-    {
-      "ticker": "IOVA",
-      "name": "Iovance Biotherapeutics, Inc.",
-      "price": 6.21,
-      "currency": "USD",
-      "chg_1d": 43.09,
-      "vol_ratio": 4.6,
-      "warum": [
-        "Why Did IOVA, REPL, ROKU Stocks Surge To 52-Week Highs Today?",
-        "Iovance Biotherapeutics Inc (IOVA) (Q2 2026) Earnings Call Highlights: Record Re"
-      ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Why Did IOVA, REPL, ROKU Stocks Surge To 52-Week Highs Today?",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-did-iova-repl-roku-stocks-surge-to-52-week-highs-today/cZoOYbURJJx?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Iovance Biotherapeutics Inc (IOVA) (Q2 2026) Earnings Call Highlights: Record Revenue and ...",
-          "link": "https://finance.yahoo.com/healthcare/articles/iovance-biotherapeutics-inc-iova-q2-231515435.html?.tsrc=rss",
-          "date": "Thu, 06 Aug 2026",
-          "tone": "pos"
-        }
-      ]
-    },
     {
       "ticker": "HTZ",
       "name": "Hertz Global Holdings, Inc.",
@@ -4744,15 +4748,15 @@
       ]
     },
     {
-      "ticker": "DDOG",
-      "name": "Datadog, Inc.",
-      "price": 229.29,
+      "ticker": "CELH",
+      "name": "Celsius Holdings, Inc.",
+      "price": 23.77,
       "currency": "USD",
-      "chg_1d": -19.03,
-      "vol_ratio": 3.5,
+      "chg_1d": -18.46,
+      "vol_ratio": 5.4,
       "warum": [
-        "Datadog Beat on Revenue, Beat on Earnings, and Raised Its Outlook. The Stock Fel",
-        "Stock Market Today, Aug. 6: Datadog Plummets 19%, Leading Software Stock Slide"
+        "APP Vs CELH Vs BROS Vs AXON: Retail Traders Are Most Interested In Buying Post-E",
+        "Stock Market Today, Aug. 6: Celsius Whiffs on Q2 Earnings, Shares Tumble 18%"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -4763,14 +4767,14 @@
       ],
       "news": [
         {
-          "title": "Datadog Beat on Revenue, Beat on Earnings, and Raised Its Outlook. The Stock Fell 19%.",
-          "link": "https://www.fool.com/investing/2026/08/06/datadog-beat-on-revenue-beat-on-earnings-and-raise/?.tsrc=rss",
+          "title": "APP Vs CELH Vs BROS Vs AXON: Retail Traders Are Most Interested In Buying Post-Earnings Dips Of These 2 Stocks",
+          "link": "https://stocktwits.com/news-articles/markets/equity/app-vs-celh-vs-bros-vs-axon-retail-traders-are-most-interested-in-buying-post-earnings-dips-of-these-2-stocks/cZoOuIiRJBR?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
-          "tone": "pos"
+          "tone": "neu"
         },
         {
-          "title": "Stock Market Today, Aug. 6: Datadog Plummets 19%, Leading Software Stock Slide",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/06/stock-market-today-aug-6-datadog-plummets-19-leading-software-stock-slide/?.tsrc=rss",
+          "title": "Stock Market Today, Aug. 6: Celsius Whiffs on Q2 Earnings, Shares Tumble 18%",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/06/stock-market-today-aug-6-celsius-whiffs-on-q2-earnings-shares-tumble-18/?.tsrc=rss",
           "date": "Thu, 06 Aug 2026",
           "tone": "neu"
         }
@@ -4839,6 +4843,38 @@
           "tone": "neu"
         }
       ]
+    },
+    {
+      "ticker": "INOD",
+      "name": "Innodata Inc.",
+      "price": 65.48,
+      "currency": "USD",
+      "chg_1d": -5.61,
+      "vol_ratio": 2.7,
+      "warum": [
+        "Innodata Inc (INOD) (Q2 2026) Earnings Call Highlights: Record Revenue and Strat",
+        "Innodata Q2 Earnings Call Highlights"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Innodata Inc (INOD) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic Expansion ...",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Innodata Q2 Earnings Call Highlights",
+          "link": "https://www.marketbeat.com/instant-alerts/innodata-q2-earnings-call-highlights-2026-08-06/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
+        }
+      ]
     }
   ],
   "ma_deals": [
@@ -4853,7 +4889,7 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVF81ejV3OTNvNFdETEFTMlhYSE9NYS1SM05BYUZ3eGNtMXc4cmVCcm1oZ2lQUmpOU2VZeGFzeFRjUUwzemxIMjJRdnpWcUpwcm5qWl9rVjF6RDU2MWdNS0pEV2ZHWU9IbmNQTnRHQ25qeU5icXNLUDRnYS1lT3ZDdXkzRGVicFJnUE90eHZNdWhJRVROUGhXbDE3cFcxOWh1Q3NjTEZWZW1nZw?oc=5",
       "date": "Thu, 06 Aug 2026",
-      "headline": "Britain clears Paramount's $110 billion takeover ​of Warner Bros. - Reuters",
+      "headline": "Britain clears Paramount's $110 billion takeover ​of Warner Bros. - reuters.com",
       "source": "Google News"
     },
     {
@@ -4893,9 +4929,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTzBGNWJzT2ZzUGZkWXNEYUVvdU14SFU1T2lJNmFHVFpTR2UzekhoYTFCMUFMTjhLTVBmSWtTbzcyYS0wNlZDeGdIXzNIdk5tbTQ3QUxpT3N6MEdJNzh1ZWdlMmFfZzlsZmpTdUZQNGxyck04LUY0R0dpRkNzQWdKaWJDQWFXVkFzY3ZnSFpBOVJZQzg3M2NWUGthMlB2Y0JzNUIxWEcwaElKTW9HdFHSAbMBQVVfeXFMT3FUa2lCcmVTVllueTBzOEtPdkJJUHk3Z282cU1vZEJmd1VvdjJXRUg4djY2U0t5ZTF2b0s3bkpjVFA3Zi1DT19oeVZVc3V6YU1OOGRkTk5iN0hRZGtvNnZMX3hqR2l4MTFoM0ktRnVkOUZramoxSzgzQzBxdzdyNXpWdjd0Z2plQ09BRjNEdnE3VVd3bU9tMGQ1UWc1ZFBuMVhhdlI0c1VEN3lyUVVjNmZjMkU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc1g2VjNxU0hlQkZvclN4N0h5ZWRnWTZIRGZvallKY1ZpU3V2el9LZHNTVFhyTlhjcW1PR0xrcW04MHVQLUVILXhSODhOZ2dpeXdaLS05elJIWkRZXzg2MzlQT2FPRkJGLTFYWWRCbnY2MjE4Y3N3X2tMZ1UwajFXRnVzX0hNRDBlaEdkMQ?oc=5",
       "date": "Thu, 06 Aug 2026",
-      "headline": "UK won't intervene in Paramount's $81 billion takeover of Warner Bros. Discovery - ABC News - Breaking News, Latest News and Videos",
+      "headline": "Spanberger to intervene in $67B Dominion-NextEra merger - Virginia Business",
       "source": "Google News"
     }
   ]
