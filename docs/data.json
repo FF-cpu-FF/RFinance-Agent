@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T06:35:02.842244+00:00",
+  "generated_at": "2026-08-08T08:28:45.389296+00:00",
   "total_posts": 250,
   "unique_tickers": 167,
   "subreddits": [
@@ -33,7 +33,7 @@
       "confidence": 90,
       "sentiment": 3,
       "mentions": 10,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 25,
       "sources": [
         "wallstreetbets",
@@ -773,14 +773,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-07T20:30:08.525189+00:00",
-          "ticker": "HTZ",
-          "rec": "kaufen",
-          "confidence": 90,
-          "engagement": 26,
-          "price": 2.27
-        },
-        {
           "ts": "2026-08-07T22:25:53.986319+00:00",
           "ticker": "HTZ",
           "rec": "kaufen",
@@ -814,6 +806,14 @@
         },
         {
           "ts": "2026-08-08T06:35:02.842244+00:00",
+          "ticker": "HTZ",
+          "rec": "kaufen",
+          "confidence": 90,
+          "engagement": 25,
+          "price": 2.27
+        },
+        {
+          "ts": "2026-08-08T08:28:45.389296+00:00",
           "ticker": "HTZ",
           "rec": "kaufen",
           "confidence": 90,
@@ -927,14 +927,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-07T20:30:08.525189+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 50,
-          "engagement": 8,
-          "price": null
-        },
-        {
           "ts": "2026-08-07T22:25:53.986319+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
@@ -968,6 +960,14 @@
         },
         {
           "ts": "2026-08-08T06:35:02.842244+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 50,
+          "engagement": 8,
+          "price": null
+        },
+        {
+          "ts": "2026-08-08T08:28:45.389296+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
           "confidence": 50,
@@ -1633,32 +1633,32 @@
       },
       "news": [
         {
+          "title": "AMD Drops 6% Post Q2 Earnings: Is the Stock a Buy on the Dip?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-drops-6-post-q2-171500161.html?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neg"
+        },
+        {
+          "title": "AMD Buys AI Chip Start-Up. Can It Close the Gap to Nvidia?",
+          "link": "https://finance.yahoo.com/m/d57f7dd6-254b-39db-8491-89131221d7a8/amd-buys-ai-chip-start-up..html?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AMD Is Buying Its Way Deeper Into AI Inference",
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-buying-way-deeper-ai-164255362.html?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AMD Will Become a $1 Trillion Company By This Date",
+          "link": "https://247wallst.com/investing/2026/08/07/amd-will-become-a-1-trillion-company-by-this-date/?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Intel Quashed Its Dividend in 2024. Now the Stock's Up 389% and Investors Want It Back.",
           "link": "https://www.barchart.com/story/news/3728869/intel-quashed-its-dividend-in-2024-now-the-stock-s-up-389-and-investors-want-it-back?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "News of the day: Interfor's move to U.S., job gains, AMD buying Taalas, interest rate expectations, short-term investing and more",
-          "link": "https://financialpost.com/uncategorized/news-of-the-day-interfors-move-to-u-s-job-gains-amd-buying-taalas-interest-rate-expectations-short-term-investing-and-more?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "A Volatile Week for Tech Revealed New Stock Narratives—and 1 Bargain",
-          "link": "https://finance.yahoo.com/m/a25b582f-1b54-3eb0-aff1-04998e15ce34/a-volatile-week-for-tech.html?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
-          "link": "https://finance.yahoo.com/m/4c427706-d807-397b-8248-5aafd35373c7/nvidia%2C-microsoft-partner.html?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Jim Cramer Shares Reasons Behind Why NVIDIA Corporation (NASDAQ:NVDA)’s Shares Are Finally Rising",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-reasons-behind-182404118.html?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
           "tone": "neu"
         }
@@ -1676,7 +1676,8 @@
       "konkurrenten": [],
       "gruende": [
         "💰 Einstiegs-Debatte",
-        "📈 Wachstums-Story"
+        "📈 Wachstums-Story",
+        "News: AMD Drops 6% Post Q2 Earnings: Is the Stock a Buy on the Dip?"
       ],
       "momentum": 44,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1709,14 +1710,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-07T20:30:08.525189+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 20,
-          "price": 483.36
-        },
         {
           "ts": "2026-08-07T22:25:53.986319+00:00",
           "ticker": "AMD",
@@ -1751,6 +1744,14 @@
         },
         {
           "ts": "2026-08-08T06:35:02.842244+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 20,
+          "price": 483.36
+        },
+        {
+          "ts": "2026-08-08T08:28:45.389296+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
           "confidence": 67,
@@ -2416,6 +2417,24 @@
       },
       "news": [
         {
+          "title": "JPMorgan's $1.5 Trillion Initiative to Finance U.S. Shipbuilding and Defense Could Be a Tailwind for Industrial and Defense Stocks",
+          "link": "https://www.fool.com/investing/2026/08/08/jpmorgans-15-trillion-initiative-to-finance-us-shi/?.tsrc=rss",
+          "date": "Sat, 08 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "The AI Trade Rotation: Money Is Moving Out of Chips and Into This",
+          "link": "https://www.fool.com/investing/2026/08/08/the-ai-trade-rotation-money-is-moving-out-of-chips/?.tsrc=rss",
+          "date": "Sat, 08 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "CEO Elon Musk Says This Is the Most Underappreciated Part of SpaceX's Business",
+          "link": "https://www.fool.com/investing/2026/08/08/ceo-elon-musk-says-this-is-the-most-underappreciat/?.tsrc=rss",
+          "date": "Sat, 08 Aug 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Situational Awareness invested $500 million in chip startup Source Foundry",
           "link": "https://finance.yahoo.com/technology/articles/situational-awareness-invested-500-million-052325217.html?.tsrc=rss",
           "date": "Sat, 08 Aug 2026",
@@ -2426,24 +2445,6 @@
           "link": "https://www.fool.com/investing/2026/08/08/alphabet-just-posted-a-jaw-dropping-112-billion-pr/?.tsrc=rss",
           "date": "Sat, 08 Aug 2026",
           "tone": "pos"
-        },
-        {
-          "title": "NVDL’s 2x Promise Delivered Only 17.21% While NVIDIA Soared 22.21% in One Year",
-          "link": "https://247wallst.com/investing/etf/2026/08/07/nvdls-2x-promise-delivered-only-17-21-while-nvidia-soared-22-21-in-one-year/?.tsrc=rss",
-          "date": "Sat, 08 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Airbnb Just Hit a Four-Year High. Is It a Buy?",
-          "link": "https://www.fool.com/investing/2026/08/07/airbnb-just-hit-a-four-year-high-is-it-a-buy/?.tsrc=rss",
-          "date": "Sat, 08 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Nvidia to invest up to $3 billion in Stargate data center developer Lancium, the Information reports",
-          "link": "https://finance.yahoo.com/technology/articles/nvidia-invest-3-billion-lancium-014211358.html?.tsrc=rss",
-          "date": "Sat, 08 Aug 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -2461,8 +2462,7 @@
       "konkurrenten": [],
       "gruende": [
         "💰 Einstiegs-Debatte",
-        "📈 Wachstums-Story",
-        "News: Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Ca"
+        "📈 Wachstums-Story"
       ],
       "momentum": 51,
       "momentum_label": "➡️ Diskussion stabil",
@@ -2495,14 +2495,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-07T20:30:08.525189+00:00",
-          "ticker": "NVDA",
-          "rec": "kaufen",
-          "confidence": 81,
-          "engagement": 14,
-          "price": 223.96
-        },
         {
           "ts": "2026-08-07T22:25:53.986319+00:00",
           "ticker": "NVDA",
@@ -2537,6 +2529,14 @@
         },
         {
           "ts": "2026-08-08T06:35:02.842244+00:00",
+          "ticker": "NVDA",
+          "rec": "kaufen",
+          "confidence": 81,
+          "engagement": 14,
+          "price": 223.96
+        },
+        {
+          "ts": "2026-08-08T08:28:45.389296+00:00",
           "ticker": "NVDA",
           "rec": "kaufen",
           "confidence": 81,
@@ -3024,12 +3024,6 @@
       },
       "news": [
         {
-          "title": "Weekly Wrap: Bitcoin Hit By Coldcard Hack And Clarity Act Disappointment",
-          "link": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-hit-by-coldcard-hack-and-clarity-act-disappointment-6364?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "neu"
-        },
-        {
           "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
           "link": "https://finance.yahoo.com/m/8118379d-0173-3caf-bae7-b24c96670077/spacex%2C-doximity%2C-trade-desk%2C.html?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
@@ -3048,8 +3042,14 @@
           "tone": "neg"
         },
         {
-          "title": "SpaceX Soars 13% After Analyst Upgrade Says AI Spending Could Pay Back in Under a Year",
-          "link": "https://www.benzinga.com/markets/prediction-markets/26/08/61055247/spacex-stock-argus-upgrade-ai-spending?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+          "title": "SpaceX Gets Jaw-Dropping Street High Price Target with 560% Upside",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-gets-jaw-dropping-street-193936018.html?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "SpaceX Stock Surges 10.5% as Argus Sees Rapid AI Payback",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-surges-10-5-193844125.html?.tsrc=rss",
           "date": "Fri, 07 Aug 2026",
           "tone": "pos"
         }
@@ -3069,7 +3069,8 @@
       "konkurrenten": [],
       "gruende": [
         "💰 Einstiegs-Debatte",
-        "📉 Kursverluste"
+        "📉 Kursverluste",
+        "News: SpaceX Stock Lands An Upgrade, Rocket Lab Surges After Electron Missio"
       ],
       "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
@@ -3102,14 +3103,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-07T20:30:08.525189+00:00",
-          "ticker": "SPCX",
-          "rec": "verkaufen",
-          "confidence": 81,
-          "engagement": 12,
-          "price": 133.11
-        },
         {
           "ts": "2026-08-07T22:25:53.986319+00:00",
           "ticker": "SPCX",
@@ -3144,6 +3137,14 @@
         },
         {
           "ts": "2026-08-08T06:35:02.842244+00:00",
+          "ticker": "SPCX",
+          "rec": "verkaufen",
+          "confidence": 81,
+          "engagement": 12,
+          "price": 133.11
+        },
+        {
+          "ts": "2026-08-08T08:28:45.389296+00:00",
           "ticker": "SPCX",
           "rec": "verkaufen",
           "confidence": 81,
@@ -3884,14 +3885,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-07T20:30:08.525189+00:00",
-          "ticker": "MSCI",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 9,
-          "price": 563.17
-        },
-        {
           "ts": "2026-08-07T22:25:53.986319+00:00",
           "ticker": "MSCI",
           "rec": "beobachten",
@@ -3930,53 +3923,28 @@
           "confidence": 58,
           "engagement": 9,
           "price": 563.17
+        },
+        {
+          "ts": "2026-08-08T08:28:45.389296+00:00",
+          "ticker": "MSCI",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 9,
+          "price": 563.17
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 63,
-    "n_evaluated": 154,
+    "hit_rate": 62,
+    "n_evaluated": 152,
     "rate_kaufen": null,
     "rate_verkaufen": null,
-    "rate_beobachten": 63,
+    "rate_beobachten": 62,
     "kauf_perf_7d": null,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-07-31T05:26:47.110861+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 66,
-      "engagement": 15,
-      "price": 874.66,
-      "chg_since": 0.33,
-      "correct": true,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-07-31T05:26:47.110861+00:00",
-      "ticker": "SK",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 14,
-      "price": 20.35,
-      "chg_since": -15.53,
-      "correct": false,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-07-31T05:26:47.110861+00:00",
-      "ticker": "IBKR",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 17,
-      "price": 90.48,
-      "chg_since": -2.93,
-      "correct": true,
-      "age_days": 8
-    },
     {
       "ts": "2026-07-31T05:26:47.110861+00:00",
       "ticker": "FT",
@@ -4383,6 +4351,39 @@
       "chg_since": -9.24,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-08-01T08:04:09.238028+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 10,
+      "price": 823.03,
+      "chg_since": 6.63,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-01T08:04:09.238028+00:00",
+      "ticker": "IBKR",
+      "rec": "beobachten",
+      "confidence": 48,
+      "engagement": 17,
+      "price": 87.99,
+      "chg_since": -0.18,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-01T08:04:09.238028+00:00",
+      "ticker": "SK",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 18.94,
+      "chg_since": -9.24,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [
@@ -4396,7 +4397,7 @@
         "Niedriger Kurs – typisch für Retail-Wellen"
       ],
       "mentions": 10,
-      "delta": -1,
+      "delta": 0,
       "vol_ratio": 8.4,
       "price": 2.27,
       "currency": "USD",
@@ -4480,20 +4481,9 @@
         "companies": [],
         "policy": [],
         "is_new": false
-      },
-      {
-        "text": "Trump administration moves ahead with efforts to fire Federal Reserve governor Lisa Cook - apnews.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVN4VXRHS2pWOHdBdUhwYWpqODh6S0RTTTN0WTFqQlUxcU92YmNvV0ZtQ2FqTXNTbHQ5X3hQWE54RDRPVzhmc0xLZzd3cW9wekFhNGVyTnFDeVJMQmM3aF9OSEhteERaU2Q2Wnl3bHFEMEdsbXJ4aE92QXo4SkFxaHhuNXZKZy1DZ2dBbjBzV3l6MmNQTUkwSXE2OUpjN211Y1ZHYWhsSUhNLWlLdWFLNg?oc=5",
-        "date": "Fri, 07 Aug 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Fed"
-        ],
-        "is_new": true
       }
     ],
-    "market_hits": 1
+    "market_hits": 0
   },
   "spannende_aktien": [
     {
@@ -4670,9 +4660,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQVdIVmZmZlEtNjA4ODR6XzZWckhxZ05uY0JkMFpjc2d2MklDUmp2S3NZWktjQ1B5aElQWUVhMXhqU211bFZYTWN6bnZJYVFQOXFtT2JEQjZIZEdBZW5hZlg3UU9oZFJWamRrWk5FeF9RMHplQlJoT3loWHREYUJjZnlyQTBqUG4zN0xhWFdxNlBuRnFwZzB6ZTdBQ0pZQQ?oc=5",
-      "date": "Fri, 07 Aug 2026",
-      "headline": "This $2.2 Billion Merger Will Create the Nation’s 6th Largest Homebuilder - Realtor.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVF81ejV3OTNvNFdETEFTMlhYSE9NYS1SM05BYUZ3eGNtMXc4cmVCcm1oZ2lQUmpOU2VZeGFzeFRjUUwzemxIMjJRdnpWcUpwcm5qWl9rVjF6RDU2MWdNS0pEV2ZHWU9IbmNQTnRHQ25qeU5icXNLUDRnYS1lT3ZDdXkzRGVicFJnUE90eHZNdWhJRVROUGhXbDE3cFcxOWh1Q3NjTEZWZW1nZw?oc=5",
+      "date": "Thu, 06 Aug 2026",
+      "headline": "Britain clears Paramount's $110 billion takeover ​of Warner Bros. - Reuters",
       "source": "Google News"
     },
     {
@@ -4684,9 +4674,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVF81ejV3OTNvNFdETEFTMlhYSE9NYS1SM05BYUZ3eGNtMXc4cmVCcm1oZ2lQUmpOU2VZeGFzeFRjUUwzemxIMjJRdnpWcUpwcm5qWl9rVjF6RDU2MWdNS0pEV2ZHWU9IbmNQTnRHQ25qeU5icXNLUDRnYS1lT3ZDdXkzRGVicFJnUE90eHZNdWhJRVROUGhXbDE3cFcxOWh1Q3NjTEZWZW1nZw?oc=5",
-      "date": "Thu, 06 Aug 2026",
-      "headline": "Britain clears Paramount's $110 billion takeover ​of Warner Bros. - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQVdIVmZmZlEtNjA4ODR6XzZWckhxZ05uY0JkMFpjc2d2MklDUmp2S3NZWktjQ1B5aElQWUVhMXhqU211bFZYTWN6bnZJYVFQOXFtT2JEQjZIZEdBZW5hZlg3UU9oZFJWamRrWk5FeF9RMHplQlJoT3loWHREYUJjZnlyQTBqUG4zN0xhWFdxNlBuRnFwZzB6ZTdBQ0pZQQ?oc=5",
+      "date": "Fri, 07 Aug 2026",
+      "headline": "This $2.2 Billion Merger Will Create the Nation’s 6th Largest Homebuilder - Realtor.com",
       "source": "Google News"
     },
     {
