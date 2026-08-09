@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T06:38:45.723047+00:00",
+  "generated_at": "2026-08-09T08:30:46.460415+00:00",
   "total_posts": 250,
-  "unique_tickers": 184,
+  "unique_tickers": 182,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -30,11 +30,11 @@
       "name": "Hertz Global Holdings, Inc.",
       "signal": "bullish",
       "empfehlung": "kaufen",
-      "confidence": 90,
-      "sentiment": 3,
-      "mentions": 6,
-      "mentions_delta": 2,
-      "engagement": 15,
+      "confidence": 84,
+      "sentiment": 2,
+      "mentions": 5,
+      "mentions_delta": -1,
+      "engagement": 11,
       "sources": [
         "wallstreetbets",
         "Aktien"
@@ -62,8 +62,8 @@
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1vhj1o0/17250_shares_on_margin_htz/"
         },
         {
-          "title": "Upcoming Hertz 10+ Bagger",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vh9ltr/upcoming_hertz_10_bagger/"
+          "title": "HTZ is going to short squeeze and jane street purchase comfirms",
+          "url": "https://www.reddit.com/r/Aktien/comments/1vhtiac/htz_is_going_to_short_squeeze_and_jane_street/"
         }
       ],
       "topics": [
@@ -74,23 +74,21 @@
       ],
       "themen": [
         {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 44,
-          "beitraege": 4,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 44,
-          "beitraege": 4,
+          "anteil_pct": 50,
+          "beitraege": 3,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        },
+        {
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 33,
+          "beitraege": 2,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
         }
       ],
       "bull_case": [
-        "Überverkauft-These",
-        "Call-Optionen-Aktivität",
         "Short-Squeeze-Spekulation"
       ],
       "bear_case": [
@@ -716,14 +714,13 @@
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Reddit diskutiert Hertz Global Holdings, Inc. aktuell bullisch (6 Mentions mit steigender Dynamik (+2 Mentions)). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
+      "fazit": "Reddit diskutiert Hertz Global Holdings, Inc. aktuell bullisch (5 Mentions). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +2 gegenüber dem letzten Scan",
-        "🎯 Optionen & Short-Interest",
         "💰 Einstiegs-Debatte",
+        "🎯 Optionen & Short-Interest",
         "News: Hertz Beats Estimates and Squeezes the Shorts",
         "News: Why Hertz (HTZ) Is Up 22.1% After Returning To Profit Amid Ongoing Sec"
       ],
@@ -750,22 +747,14 @@
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "C",
-      "quality_pct": 40,
+      "quality_grade": "D",
+      "quality_pct": 25,
       "reddit_vs_markt": {
         "reddit": 44,
         "markt": 100,
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-08T20:17:56.323141+00:00",
-          "ticker": "HTZ",
-          "rec": "kaufen",
-          "confidence": 90,
-          "engagement": 21,
-          "price": 2.27
-        },
         {
           "ts": "2026-08-08T22:18:12.004566+00:00",
           "ticker": "HTZ",
@@ -804,6 +793,14 @@
           "rec": "kaufen",
           "confidence": 90,
           "engagement": 15,
+          "price": 2.27
+        },
+        {
+          "ts": "2026-08-09T08:30:46.460415+00:00",
+          "ticker": "HTZ",
+          "rec": "kaufen",
+          "confidence": 84,
+          "engagement": 11,
           "price": 2.27
         }
       ]
@@ -1461,6 +1458,12 @@
       },
       "news": [
         {
+          "title": "Earnings beats ease concerns over record U.S. stock rally - WSJ",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beats-ease-concerns-over-070820398.html?.tsrc=rss",
+          "date": "Sun, 09 Aug 2026",
+          "tone": "pos"
+        },
+        {
           "title": "Is the Worst Finally Over for Palantir Stock?",
           "link": "https://www.fool.com/investing/2026/08/09/is-the-worst-finally-over-for-palantir-stock/?.tsrc=rss",
           "date": "Sun, 09 Aug 2026",
@@ -1475,12 +1478,6 @@
         {
           "title": "Wall Street Can't Agree on Palantir. Here's What Investors Should Do Next",
           "link": "https://www.barchart.com/story/news/3737462/wall-street-can-t-agree-on-palantir-here-s-what-investors-should-do-next?.tsrc=rss",
-          "date": "Sat, 08 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Stock Market Week Ahead: Bullish Signals Amid 'Dirty' Volume",
-          "link": "https://finance.yahoo.com/m/45c294a4-903e-3084-886a-427304d6d54c/stock-market-week-ahead%3A.html?.tsrc=rss",
           "date": "Sat, 08 Aug 2026",
           "tone": "neu"
         },
@@ -1507,7 +1504,7 @@
       "gruende": [
         "🎯 Optionen & Short-Interest",
         "📈 Wachstums-Story",
-        "News: Palantir Is Worth $413 Billion. The $500 Billion Line Sits Almost Exac"
+        "News: Earnings beats ease concerns over record U.S. stock rally - WSJ"
       ],
       "momentum": 64,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
@@ -1540,14 +1537,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-08T20:17:56.323141+00:00",
-          "ticker": "PLTR",
-          "rec": "kaufen",
-          "confidence": 90,
-          "engagement": 9,
-          "price": 172.01
-        },
         {
           "ts": "2026-08-08T22:18:12.004566+00:00",
           "ticker": "PLTR",
@@ -1582,6 +1571,14 @@
         },
         {
           "ts": "2026-08-09T06:38:45.723047+00:00",
+          "ticker": "PLTR",
+          "rec": "kaufen",
+          "confidence": 90,
+          "engagement": 10,
+          "price": 172.01
+        },
+        {
+          "ts": "2026-08-09T08:30:46.460415+00:00",
           "ticker": "PLTR",
           "rec": "kaufen",
           "confidence": 90,
@@ -1695,14 +1692,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-08T20:17:56.323141+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 13,
-          "price": null
-        },
-        {
           "ts": "2026-08-08T22:18:12.004566+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
@@ -1736,6 +1725,14 @@
         },
         {
           "ts": "2026-08-09T06:38:45.723047+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 50,
+          "engagement": 8,
+          "price": null
+        },
+        {
+          "ts": "2026-08-09T08:30:46.460415+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
           "confidence": 50,
@@ -2472,14 +2469,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-08T20:17:56.323141+00:00",
-          "ticker": "TR",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 7,
-          "price": 39.63
-        },
-        {
           "ts": "2026-08-08T22:18:12.004566+00:00",
           "ticker": "TR",
           "rec": "beobachten",
@@ -2513,6 +2502,14 @@
         },
         {
           "ts": "2026-08-09T06:38:45.723047+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 39.63
+        },
+        {
+          "ts": "2026-08-09T08:30:46.460415+00:00",
           "ticker": "TR",
           "rec": "beobachten",
           "confidence": 64,
@@ -3255,14 +3252,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-08T20:17:56.323141+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 20,
-          "price": 483.36
-        },
-        {
           "ts": "2026-08-08T22:18:12.004566+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
@@ -3296,6 +3285,14 @@
         },
         {
           "ts": "2026-08-09T06:38:45.723047+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 20,
+          "price": 483.36
+        },
+        {
+          "ts": "2026-08-09T08:30:46.460415+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
           "confidence": 67,
@@ -3961,32 +3958,32 @@
       },
       "news": [
         {
-          "title": "Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade.",
-          "link": "https://www.fool.com/investing/2026/08/09/jensen-huang-says-ai-will-kill-tasks-not-jobs-here/?.tsrc=rss",
+          "title": "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now.",
+          "link": "https://www.fool.com/investing/2026/08/09/apple-added-about-15-trillion-in-market-value-in-a/?.tsrc=rss",
           "date": "Sun, 09 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "Nvidia vs. Navitas Semiconductor: Here's What Their Revenue Trends Tell Investors About These Artificial Intelligence Companies",
-          "link": "https://www.fool.com/coverage/charts/2026/08/08/nvidia-vs-navitas-semiconductor-here-s-what-their-revenue-trends-tell-investors-about-these-artificial-intelligence-companies/?.tsrc=rss",
-          "date": "Sat, 08 Aug 2026",
+          "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
+          "link": "https://www.fool.com/investing/2026/08/09/micron-stock-price-has-corrected-30-from-its-all-t/?.tsrc=rss",
+          "date": "Sun, 09 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "Warren Buffett Warned About the Dot-Com Bubble. Now, the Stock Market Is Flashing the Same Warning Signal.",
-          "link": "https://www.fool.com/investing/2026/08/08/warren-buffett-warned-about-the-dot-com-bubble-now/?.tsrc=rss",
-          "date": "Sat, 08 Aug 2026",
+          "title": "Why the 20% Sell-Off in Dutch Bros Stock Is a Massive Opportunity",
+          "link": "https://www.fool.com/investing/2026/08/09/why-the-20-sell-off-in-dutch-bros-stock-is-a-massi/?.tsrc=rss",
+          "date": "Sun, 09 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Cathie Wood's Ark Piled Into Nvidia and Taiwan Semiconductor After Meta's Earnings Miss. Here's What It Signals for Artificial Intelligence ",
+          "link": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/?.tsrc=rss",
+          "date": "Sun, 09 Aug 2026",
           "tone": "neg"
         },
         {
-          "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
-          "link": "https://www.fool.com/investing/2026/08/09/moonshot-ais-28-trillion-parameter-model-just-beca/?.tsrc=rss",
-          "date": "Sun, 09 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Intel Foundry Lands a Major New Client Worth Watching",
-          "link": "https://www.fool.com/investing/2026/08/09/intel-foundry-lands-a-major-new-client-worth-watch/?.tsrc=rss",
+          "title": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
+          "link": "https://finance.yahoo.com/healthcare/articles/geron-gern-14-7-issuing-071513251.html?.tsrc=rss",
           "date": "Sun, 09 Aug 2026",
           "tone": "neu"
         }
@@ -4040,14 +4037,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-08T18:22:56.039065+00:00",
-          "ticker": "NVDA",
-          "rec": "kaufen",
-          "confidence": 81,
-          "engagement": 14,
-          "price": 223.96
-        },
-        {
           "ts": "2026-08-08T22:18:12.004566+00:00",
           "ticker": "NVDA",
           "rec": "kaufen",
@@ -4086,130 +4075,28 @@
           "confidence": 81,
           "engagement": 14,
           "price": 223.96
+        },
+        {
+          "ts": "2026-08-09T08:30:46.460415+00:00",
+          "ticker": "NVDA",
+          "rec": "kaufen",
+          "confidence": 81,
+          "engagement": 14,
+          "price": 223.96
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 56,
-    "n_evaluated": 152,
-    "rate_kaufen": 100,
+    "hit_rate": 52,
+    "n_evaluated": 160,
+    "rate_kaufen": 31,
     "rate_verkaufen": null,
-    "rate_beobachten": 55,
-    "kauf_perf_7d": 10.4,
+    "rate_beobachten": 54,
+    "kauf_perf_7d": 3.9,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-08-01T11:10:28.873038+00:00",
-      "ticker": "SK",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 20,
-      "price": 18.94,
-      "chg_since": -9.24,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T11:10:28.873038+00:00",
-      "ticker": "AAPL",
-      "rec": "beobachten",
-      "confidence": 57,
-      "engagement": 12,
-      "price": 308.91,
-      "chg_since": 1.43,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T11:10:28.873038+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 57,
-      "engagement": 10,
-      "price": 823.03,
-      "chg_since": 6.63,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T11:10:28.873038+00:00",
-      "ticker": "IBKR",
-      "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 17,
-      "price": 87.99,
-      "chg_since": -0.18,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T11:10:28.873038+00:00",
-      "ticker": "LMT",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 6,
-      "price": 582.74,
-      "chg_since": 0.89,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T12:57:44.570293+00:00",
-      "ticker": "SK",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 20,
-      "price": 18.94,
-      "chg_since": -9.24,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T12:57:44.570293+00:00",
-      "ticker": "AAPL",
-      "rec": "beobachten",
-      "confidence": 57,
-      "engagement": 12,
-      "price": 308.91,
-      "chg_since": 1.43,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T12:57:44.570293+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 57,
-      "engagement": 10,
-      "price": 823.03,
-      "chg_since": 6.63,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T12:57:44.570293+00:00",
-      "ticker": "IBKR",
-      "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 17,
-      "price": 87.99,
-      "chg_since": -0.18,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-01T12:57:44.570293+00:00",
-      "ticker": "NOC",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 6,
-      "price": 542.48,
-      "chg_since": 5.36,
-      "correct": false,
-      "age_days": 7
-    },
     {
       "ts": "2026-08-01T14:52:04.503899+00:00",
       "ticker": "SK",
@@ -4344,6 +4231,17 @@
     },
     {
       "ts": "2026-08-01T18:54:59.791411+00:00",
+      "ticker": "AMZN",
+      "rec": "kaufen",
+      "confidence": 84,
+      "engagement": 11,
+      "price": 271.58,
+      "chg_since": 1.07,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-01T18:54:59.791411+00:00",
       "ticker": "AAPL",
       "rec": "beobachten",
       "confidence": 51,
@@ -4388,6 +4286,17 @@
     },
     {
       "ts": "2026-08-01T20:40:41.581812+00:00",
+      "ticker": "AMZN",
+      "rec": "kaufen",
+      "confidence": 84,
+      "engagement": 11,
+      "price": 271.58,
+      "chg_since": 1.07,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-01T20:40:41.581812+00:00",
       "ticker": "AAPL",
       "rec": "beobachten",
       "confidence": 51,
@@ -4416,6 +4325,17 @@
       "engagement": 20,
       "price": 18.94,
       "chg_since": -9.24,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-01T22:44:50.815541+00:00",
+      "ticker": "AMZN",
+      "rec": "kaufen",
+      "confidence": 87,
+      "engagement": 16,
+      "price": 271.58,
+      "chg_since": 1.07,
       "correct": false,
       "age_days": 7
     },
@@ -4465,6 +4385,17 @@
     },
     {
       "ts": "2026-08-02T01:52:27.416770+00:00",
+      "ticker": "AMZN",
+      "rec": "kaufen",
+      "confidence": 87,
+      "engagement": 16,
+      "price": 271.58,
+      "chg_since": 1.07,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-02T01:52:27.416770+00:00",
       "ticker": "MU",
       "rec": "beobachten",
       "confidence": 60,
@@ -4509,6 +4440,17 @@
     },
     {
       "ts": "2026-08-02T05:18:34.724099+00:00",
+      "ticker": "AMZN",
+      "rec": "kaufen",
+      "confidence": 87,
+      "engagement": 16,
+      "price": 271.58,
+      "chg_since": 1.07,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-02T05:18:34.724099+00:00",
       "ticker": "MU",
       "rec": "beobachten",
       "confidence": 60,
@@ -4539,6 +4481,61 @@
       "chg_since": -0.18,
       "correct": true,
       "age_days": 7
+    },
+    {
+      "ts": "2026-08-02T08:06:11.231158+00:00",
+      "ticker": "AMZN",
+      "rec": "kaufen",
+      "confidence": 87,
+      "engagement": 16,
+      "price": 271.58,
+      "chg_since": 1.07,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-02T08:06:11.231158+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 20,
+      "price": 200.75,
+      "chg_since": 11.56,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-02T08:06:11.231158+00:00",
+      "ticker": "SK",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 19,
+      "price": 18.94,
+      "chg_since": -9.24,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-02T08:06:11.231158+00:00",
+      "ticker": "IBKR",
+      "rec": "beobachten",
+      "confidence": 48,
+      "engagement": 17,
+      "price": 87.99,
+      "chg_since": -0.18,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-02T08:06:11.231158+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 10,
+      "price": 823.03,
+      "chg_since": 6.63,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [
@@ -4547,12 +4544,12 @@
       "name": "Hertz Global Holdings, Inc.",
       "score": 55,
       "signals": [
-        "Squeeze-Vokabular in Posts (5× erkannt)",
+        "Squeeze-Vokabular in Posts (4× erkannt)",
         "Handelsvolumen 8.4× über Normal – ungewöhnliche Aktivität",
         "Niedriger Kurs – typisch für Retail-Wellen"
       ],
-      "mentions": 6,
-      "delta": 2,
+      "mentions": 5,
+      "delta": -1,
       "vol_ratio": 8.4,
       "price": 2.27,
       "currency": "USD",
@@ -4566,79 +4563,7 @@
   "trump_tracker": {
     "posts": [
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40674",
-        "url": "https://www.trumpstruth.org/statuses/40674",
-        "date": "Sun, 09 Aug 2026 02:22",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40675",
-        "url": "https://www.trumpstruth.org/statuses/40675",
-        "date": "Sun, 09 Aug 2026 02:22",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40676",
-        "url": "https://www.trumpstruth.org/statuses/40676",
-        "date": "Sun, 09 Aug 2026 02:22",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40677",
-        "url": "https://www.trumpstruth.org/statuses/40677",
-        "date": "Sun, 09 Aug 2026 02:22",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40678",
-        "url": "https://www.trumpstruth.org/statuses/40678",
-        "date": "Sun, 09 Aug 2026 02:22",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40679",
-        "url": "https://www.trumpstruth.org/statuses/40679",
-        "date": "Sun, 09 Aug 2026 02:21",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40680",
-        "url": "https://www.trumpstruth.org/statuses/40680",
-        "date": "Sun, 09 Aug 2026 02:21",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/40681",
-        "url": "https://www.trumpstruth.org/statuses/40681",
-        "date": "Sun, 09 Aug 2026 02:21",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Greenland issues ‘strong warning’ as Trump-linked oil firm prepares to drill - The Guardian",
+        "text": "Greenland issues ‘strong warning’ as Trump-linked oil firm prepares to drill - theguardian.com",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSllLM2Ric0pYWGF5SUNLYjI3MVF2YnVBZ3lIU2p2X3A1bzJOWjFBUDA3R1ZKU2RWWi0xVXF6d2MtMTd3VjczTDVUSndFY201c3lGMXA4YVpueUFqWXprQ1JWNUh2S1BiTV9JeXNuMVlfOXdYRjZzTFZ6Z3Q1OTh4M1NuaWdVZkRTOUtoUmpnTEZWMjYyQm9TUGR5dDFQekZXZjBZ?oc=5",
         "date": "Sat, 08 Aug 2026",
         "source": "News (X/Presse)",
@@ -4653,15 +4578,15 @@
   },
   "spannende_aktien": [
     {
-      "ticker": "WMT",
-      "name": "Walmart Inc.",
-      "price": 111.85,
+      "ticker": "HOOD",
+      "name": "Robinhood Markets, Inc.",
+      "price": 93.29,
       "currency": "USD",
-      "chg_1d": -0.2,
-      "vol_ratio": 0.9,
+      "chg_1d": 2.84,
+      "vol_ratio": 0.7,
       "warum": [
-        "Home Depot Has Raised Its Dividend for 17 Consecutive Years and Reports Earnings",
-        "113-year-old discount grocery chain closes more stores"
+        "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chai",
+        "Robinhood’s new venture fund comes with a bold risk label"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4670,29 +4595,29 @@
       ],
       "news": [
         {
-          "title": "Home Depot Has Raised Its Dividend for 17 Consecutive Years and Reports Earnings Aug. 18. Is It the Smarter Dow Stock to Buy Over Walmart?",
-          "link": "https://www.fool.com/investing/2026/08/08/home-depot-dividend-17-years-walmart/?.tsrc=rss",
+          "title": "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chain",
+          "link": "https://decrypt.co/375158/robinhood-crypto-two-wolves-robinhood-chain-rwa-meme-coins?.tsrc=rss",
           "date": "Sat, 08 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "113-year-old discount grocery chain closes more stores",
-          "link": "https://www.thestreet.com/retail/113-year-old-discount-grocery-chain-aldi-closes-more-stores?.tsrc=rss",
+          "title": "Robinhood’s new venture fund comes with a bold risk label",
+          "link": "https://www.thestreet.com/investing/robinhood-rvii-fund-seed-startups-nyse-retail?.tsrc=rss",
           "date": "Sat, 08 Aug 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "SPMO",
-      "name": "Invesco S&P 500 Momentum ETF",
-      "price": 149.69,
+      "ticker": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "price": 18.38,
       "currency": "USD",
-      "chg_1d": 0.4,
-      "vol_ratio": 0.8,
+      "chg_1d": 1.55,
+      "vol_ratio": 0.6,
       "warum": [
-        "SPMO ETF Hides A Heavy Tech Tilt",
-        "This 1 Momentum ETF Is Still Beating the S&P 500 With Lower Drawdowns"
+        "1 Million Reasons to Buy SoFi Stock Now",
+        "SoFi Technologies (SOFI) Could Be 20% Undervalued On Record Growth And Steady Gu"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4701,16 +4626,78 @@
       ],
       "news": [
         {
-          "title": "SPMO ETF Hides A Heavy Tech Tilt",
-          "link": "https://www.trefis.com/articles/609471/spmo-etf-hides-a-heavy-tech-tilt/2026-07-30?.tsrc=rss",
-          "date": "Thu, 30 Jul 2026",
+          "title": "1 Million Reasons to Buy SoFi Stock Now",
+          "link": "https://www.barchart.com/story/news/3739352/1-million-reasons-to-buy-sofi-stock-now?.tsrc=rss",
+          "date": "Sat, 08 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "This 1 Momentum ETF Is Still Beating the S&P 500 With Lower Drawdowns",
-          "link": "https://247wallst.com/investing/etf/2026/07/22/this-1-momentum-etf-is-still-beating-the-sp-500-with-lower-drawdowns/?.tsrc=rss",
-          "date": "Wed, 22 Jul 2026",
+          "title": "SoFi Technologies (SOFI) Could Be 20% Undervalued On Record Growth And Steady Guidance",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-could-20-031734559.html?.tsrc=rss",
+          "date": "Sat, 08 Aug 2026",
           "tone": "pos"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc",
+      "price": 282.57,
+      "currency": "USD",
+      "chg_1d": -1.43,
+      "vol_ratio": 0.6,
+      "warum": [
+        "This Analyst On Wall Street Thinks The CPU Trade Is Overdone, Should You Sell AR",
+        "Arm (ARM) Q1 2027 Earnings Call Transcript"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "This Analyst On Wall Street Thinks The CPU Trade Is Overdone, Should You Sell ARM (ARM) Stock?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-wall-street-thinks-cpu-125533234.html?.tsrc=rss",
+          "date": "Sat, 08 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Arm (ARM) Q1 2027 Earnings Call Transcript",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/arm-arm-q1-2027-earnings-call-transcript/?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "BA",
+      "name": "The Boeing Company",
+      "price": 234.42,
+      "currency": "USD",
+      "chg_1d": 0.96,
+      "vol_ratio": 0.7,
+      "warum": [
+        "Top Stock Reports for SpaceX, Arista Networks & Boeing",
+        "Boeing snags $75M Pentagon contract for long-range bomb kits at St. Charles plan"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "Top Stock Reports for SpaceX, Arista Networks & Boeing",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-spacex-arista-211700765.html?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Boeing snags $75M Pentagon contract for long-range bomb kits at St. Charles plant",
+          "link": "https://www.ksdk.com/article/news/local/business-journal/boeing-pentagon-contract-long-range-bomb-kits-st-charles-plant/63-7109ca51-d77f-4780-8d37-857b4a6cc593?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "neu"
         }
       ]
     }
@@ -4753,9 +4740,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd1ExcVYzaVFESEctSnpxUlU5cWI1V2U4MVIxYXdrcmpuNHFuZG9zdl9nMUNyRUY1WjFhamliWWUzSm1UUm1sdHM4V0ZBMndtRjQ2QkxjLWJFM210ZHVqU2M2TjI0OERIaXp0eTBURkdWTFJMTnpNSXVYX0N1dkRQUW9HUkp6UQ?oc=5",
-      "date": "Sat, 08 Aug 2026",
-      "headline": "Warner Bros. Discovery (WBD) Wins UK Clearance For $110 Billion Takeover - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRjNNeV9ka21IVnpyZEk1d3ZKQmlZM21yTVVuUmRtWEhaaGpOOW9HOGNwdTIyYkpSRTlwcXRFZUJuUWE5bWgzT3lWdWw4Y2dkU25fZlRSa0lyU2cyWUdYTTRydnRDQThGcDZaQ01xbUE0dXhxaGtXc3Z2MlpibFMxZVZMaGdQZGpLdmVGZmk5SmllR2JmUVA3b0hQRmNJNFRiLTl4TUh5R2paZVJpX0RBMjlXZ1FHalpyVnhj?oc=5",
+      "date": "Thu, 06 Aug 2026",
+      "headline": "Spanberger takes unprecedented step to intervene in $67B Dominion-NextEra merger - Virginia Mercury",
       "source": "Google News"
     },
     {
@@ -4767,9 +4754,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRjNNeV9ka21IVnpyZEk1d3ZKQmlZM21yTVVuUmRtWEhaaGpOOW9HOGNwdTIyYkpSRTlwcXRFZUJuUWE5bWgzT3lWdWw4Y2dkU25fZlRSa0lyU2cyWUdYTTRydnRDQThGcDZaQ01xbUE0dXhxaGtXc3Z2MlpibFMxZVZMaGdQZGpLdmVGZmk5SmllR2JmUVA3b0hQRmNJNFRiLTl4TUh5R2paZVJpX0RBMjlXZ1FHalpyVnhj?oc=5",
-      "date": "Thu, 06 Aug 2026",
-      "headline": "Spanberger takes unprecedented step to intervene in $67B Dominion-NextEra merger - Virginia Mercury",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd1ExcVYzaVFESEctSnpxUlU5cWI1V2U4MVIxYXdrcmpuNHFuZG9zdl9nMUNyRUY1WjFhamliWWUzSm1UUm1sdHM4V0ZBMndtRjQ2QkxjLWJFM210ZHVqU2M2TjI0OERIaXp0eTBURkdWTFJMTnpNSXVYX0N1dkRQUW9HUkp6UQ?oc=5",
+      "date": "Sat, 08 Aug 2026",
+      "headline": "Warner Bros. Discovery (WBD) Wins UK Clearance For $110 Billion Takeover - Yahoo! Finance Canada",
       "source": "Google News"
     }
   ]
