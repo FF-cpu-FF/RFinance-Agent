@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T00:41:02.988466+00:00",
+  "generated_at": "2026-08-17T02:52:09.144872+00:00",
   "total_posts": 250,
-  "unique_tickers": 201,
+  "unique_tickers": 200,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,7 +33,7 @@
       "confidence": 63,
       "sentiment": 5,
       "mentions": 5,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 30,
       "sources": [
         "Ameisenstrassenwetten",
@@ -700,8 +700,26 @@
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
+          "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Nears Key Level; Walmart Looms",
           "link": "https://finance.yahoo.com/m/79b73c1c-e364-315f-8433-18e9ae96269d/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
+          "date": "Mon, 17 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AI Money Moves Put These Five Stocks In Spotlight Last Week: NVDA, INTC, ORCL, AMD, SNDK",
+          "link": "https://stocktwits.com/news-articles/markets/equity/ai-money-moves-put-these-five-stocks-in-spotlight-last-week-nvda-intc-orcl-amd-sndk/cZo6V2KRJKf?.tsrc=rss",
+          "date": "Mon, 17 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "RocketLab’s Neutron Update, On Holdings Earnings, and the eVTOL Rivalry Heats Up",
+          "link": "https://www.fool.com/investing/2026/08/16/rocketlabs-neutron-update-on-holdings-earnings-and-the-evtol-rivalry-heats-up/?.tsrc=rss",
+          "date": "Mon, 17 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Cloudflare CEO Says the Internet Is Changing Exponentially",
+          "link": "https://www.fool.com/investing/2026/08/16/cloudflare-ceo-says-the-internet-is-changing-exponentially/?.tsrc=rss",
           "date": "Mon, 17 Aug 2026",
           "tone": "neu"
         },
@@ -709,24 +727,6 @@
           "title": "Billionaires Battle on NVIDIA: David Tepper Bought More. Dan Loeb Sold Every Share. George Soros Bought Puts.",
           "link": "https://247wallst.com/investing/2026/08/16/billionaires-battle-on-nvidia-david-tepper-bought-more-dan-loeb-sold-every-share-george-soros-bought-puts/?.tsrc=rss",
           "date": "Sun, 16 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Elon Musk and Jensen Huang’s New Partnership Could Create the Next Era of Technology",
-          "link": "https://247wallst.com/investing/2026/08/16/elon-musk-and-jensen-huangs-new-partnership-could-create-the-next-era-of-technology/?.tsrc=rss",
-          "date": "Sun, 16 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Shopify Shines and Uber Declines",
-          "link": "https://www.fool.com/investing/2026/08/16/shopify-shines-and-uber-declines/?.tsrc=rss",
-          "date": "Sun, 16 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Mastercard CEO: Cybersecurity Is Our Fastest-Growing Business",
-          "link": "https://www.fool.com/investing/2026/08/16/mastercard-ceo-cybersecurity-is-our-fastest-growing-business/?.tsrc=rss",
-          "date": "Mon, 17 Aug 2026",
           "tone": "neu"
         }
       ],
@@ -778,14 +778,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-16T14:13:18.972456+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 66,
-          "engagement": 31,
-          "price": 225.16
-        },
-        {
           "ts": "2026-08-16T16:13:14.006319+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
@@ -819,6 +811,14 @@
         },
         {
           "ts": "2026-08-17T00:41:02.988466+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 63,
+          "engagement": 30,
+          "price": 225.16
+        },
+        {
+          "ts": "2026-08-17T02:52:09.144872+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
           "confidence": 63,
@@ -933,14 +933,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-16T14:13:18.972456+00:00",
-          "ticker": "NICHT",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 5,
-          "price": null
-        },
-        {
           "ts": "2026-08-16T16:13:14.006319+00:00",
           "ticker": "NICHT",
           "rec": "beobachten",
@@ -974,6 +966,14 @@
         },
         {
           "ts": "2026-08-17T00:41:02.988466+00:00",
+          "ticker": "NICHT",
+          "rec": "beobachten",
+          "confidence": 47,
+          "engagement": 5,
+          "price": null
+        },
+        {
+          "ts": "2026-08-17T02:52:09.144872+00:00",
           "ticker": "NICHT",
           "rec": "beobachten",
           "confidence": 47,
@@ -1725,14 +1725,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-16T14:13:18.972456+00:00",
-          "ticker": "AMZN",
-          "rec": "beobachten",
-          "confidence": 57,
-          "engagement": 30,
-          "price": 262.65
-        },
-        {
           "ts": "2026-08-16T16:13:14.006319+00:00",
           "ticker": "AMZN",
           "rec": "beobachten",
@@ -1766,6 +1758,14 @@
         },
         {
           "ts": "2026-08-17T00:41:02.988466+00:00",
+          "ticker": "AMZN",
+          "rec": "beobachten",
+          "confidence": 57,
+          "engagement": 30,
+          "price": 262.65
+        },
+        {
+          "ts": "2026-08-17T02:52:09.144872+00:00",
           "ticker": "AMZN",
           "rec": "beobachten",
           "confidence": 57,
@@ -2517,14 +2517,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-16T14:13:18.972456+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 73,
-          "engagement": 30,
-          "price": 305.93
-        },
-        {
           "ts": "2026-08-16T16:13:14.006319+00:00",
           "ticker": "AAPL",
           "rec": "beobachten",
@@ -2558,6 +2550,14 @@
         },
         {
           "ts": "2026-08-17T00:41:02.988466+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 73,
+          "engagement": 30,
+          "price": 305.93
+        },
+        {
+          "ts": "2026-08-17T02:52:09.144872+00:00",
           "ticker": "AAPL",
           "rec": "beobachten",
           "confidence": 73,
@@ -3224,12 +3224,6 @@
       },
       "news": [
         {
-          "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
-          "link": "https://247wallst.com/investing/2026/08/16/wall-streets-biggest-funds-are-dumping-broadcom-and-adding-taiwan-semiconductor-time-to-follow-the-smart-money/?.tsrc=rss",
-          "date": "Sun, 16 Aug 2026",
-          "tone": "neu"
-        },
-        {
           "title": "1 Major Red Flag AMD Investors Can't Afford to Ignore",
           "link": "https://www.fool.com/investing/2026/08/16/1-major-red-flag-amd-investors-cant-afford-to-igno/?.tsrc=rss",
           "date": "Sun, 16 Aug 2026",
@@ -3248,9 +3242,15 @@
           "tone": "neu"
         },
         {
-          "title": "Broadcom vs. AMD: Which AI Chip Stock Is the Better Buy?",
-          "link": "https://www.fool.com/investing/2026/08/16/broadcom-vs-amd-which-ai-chip-stock-is-the-better/?.tsrc=rss",
+          "title": "AMD Just Borrowed $4.75 Billion, More Than Triple Its Last Bond Sale",
+          "link": "https://www.fool.com/investing/2026/08/15/amd-just-borrowed-475-billion-more-than-triple-its/?.tsrc=rss",
           "date": "Sun, 16 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Prediction: Even After Soaring 180%, a Stock Split Isn't on the Horizon for AMD. Here's Why.",
+          "link": "https://www.fool.com/investing/2026/08/15/prediction-amd-stock-wont-split-soon/?.tsrc=rss",
+          "date": "Sat, 15 Aug 2026",
           "tone": "neu"
         }
       ],
@@ -3301,14 +3301,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-16T14:13:18.972456+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 22,
-          "price": 514.39
-        },
-        {
           "ts": "2026-08-16T16:13:14.006319+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
@@ -3347,731 +3339,700 @@
           "confidence": 61,
           "engagement": 22,
           "price": 514.39
+        },
+        {
+          "ts": "2026-08-17T02:52:09.144872+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 22,
+          "price": 514.39
         }
       ]
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc.",
+      "ticker": "BYD",
+      "name": "Boyd Gaming Corporation",
       "signal": "bullish",
-      "empfehlung": "kaufen",
-      "confidence": 87,
-      "sentiment": 5,
+      "empfehlung": "beobachten",
+      "confidence": 67,
+      "sentiment": 3,
       "mentions": 3,
       "mentions_delta": 0,
-      "engagement": 16,
+      "engagement": 14,
       "sources": [
-        "wallstreetbets",
-        "Ameisenstrassenwetten",
-        "TrumpsTrades"
+        "Mauerstrassenwetten"
       ],
       "titles": [
-        "After losing 1m. Decided to YOLO 340k on options",
-        "PREMARKET NEWS REPORT vom 10.08.2026",
-        "Defense stocks held by Trump are up +6.6% since 30 Jun"
+        "Update 2: VW prüft China-Modelle für Europa – verschiebt sich die Wertschöpfung jetzt tatsächlich?",
+        "VW, Porsche & Mercedes schrumpfen – während BYD, Geely, SAIC und Leapmotor in Europa produzieren. Strukturell ",
+        "Chinesische Autos zeigen gerade, wie viel Preismacht VW & Co. wirklich hatten."
       ],
       "top_posts": [
         {
-          "title": "After losing 1m. Decided to YOLO 340k on options",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vq0oz7/after_losing_1m_decided_to_yolo_340k_on_options/"
+          "title": "Update 2: VW prüft China-Modelle für Europa – verschiebt sich die Wertschöpfung jetzt tatsächlich?",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1vpcsmh/update_2_vw_prüft_chinamodelle_für_europa/"
         },
         {
-          "title": "PREMARKET NEWS REPORT vom 10.08.2026",
-          "url": "https://www.reddit.com/r/ameisenstrassenwetten/comments/1vkae8v/premarket_news_report_vom_10082026/"
+          "title": "VW, Porsche & Mercedes schrumpfen – während BYD, Geely, SAIC und Leapmotor in Europa produzieren. Strukturell ",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1vorron/vw_porsche_mercedes_schrumpfen_während_byd_geely/"
         },
         {
-          "title": "Defense stocks held by Trump are up +6.6% since 30 Jun",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uyamh9/defense_stocks_held_by_trump_are_up_66_since_30/"
+          "title": "Chinesische Autos zeigen gerade, wie viel Preismacht VW & Co. wirklich hatten.",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1vmxpro/chinesische_autos_zeigen_gerade_wie_viel/"
         }
       ],
       "topics": [
-        "Losing",
-        "Decided",
-        "YOLO",
-        "Options"
+        "Europa",
+        "Update",
+        "Prüft",
+        "China-Modelle"
       ],
       "themen": [
         {
-          "emoji": "📊",
-          "titel": "Quartalszahlen",
-          "anteil_pct": 15,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
-        },
-        {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 15,
-          "beitraege": 2,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 15,
-          "beitraege": 2,
+          "anteil_pct": 45,
+          "beitraege": 3,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        },
-        {
-          "emoji": "📈",
-          "titel": "Wachstums-Story",
-          "anteil_pct": 15,
-          "beitraege": 2,
-          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
         },
         {
           "emoji": "📉",
           "titel": "Kursverluste",
-          "anteil_pct": 8,
+          "anteil_pct": 9,
           "beitraege": 1,
           "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
         }
       ],
       "bull_case": [
-        "Erhöhte Kursziele",
-        "Wachstumsstory",
-        "Zahlen über Erwartung"
+        "Unterbewertung"
       ],
       "bear_case": [
-        "Put-Optionen-Aktivität",
-        "Verlust-Meldungen",
-        "Zahlen unter Erwartung"
+        "Verlust-Meldungen"
       ],
       "price": {
         "available": true,
-        "price": 174.04,
+        "price": 84.13,
         "currency": "USD",
-        "name": "Palantir Technologies Inc.",
+        "name": "Boyd Gaming Corporation",
         "chart_1d": [
           {
             "t": 1786714200,
-            "c": 178.57
+            "c": 83.29
           },
           {
             "t": 1786715100,
-            "c": 178.37
+            "c": 83.67
           },
           {
             "t": 1786716000,
-            "c": 177.03
+            "c": 83.9
           },
           {
             "t": 1786716900,
-            "c": 177.09
+            "c": 83.93
           },
           {
             "t": 1786717800,
-            "c": 176.78
+            "c": 83.97
           },
           {
             "t": 1786718700,
-            "c": 176.27
+            "c": 84.2
           },
           {
             "t": 1786719600,
-            "c": 176.81
+            "c": 84.04
           },
           {
             "t": 1786720500,
-            "c": 177.21
+            "c": 83.77
           },
           {
             "t": 1786721400,
-            "c": 177.45
+            "c": 83.79
           },
           {
             "t": 1786722300,
-            "c": 177.9
+            "c": 83.82
           },
           {
             "t": 1786723200,
-            "c": 177.34
+            "c": 83.75
           },
           {
             "t": 1786724100,
-            "c": 177.0
+            "c": 83.93
           },
           {
             "t": 1786725000,
-            "c": 176.84
+            "c": 84.01
           },
           {
             "t": 1786725900,
-            "c": 176.68
+            "c": 83.93
           },
           {
             "t": 1786726800,
-            "c": 176.89
+            "c": 83.98
           },
           {
             "t": 1786727700,
-            "c": 176.77
+            "c": 84.05
           },
           {
             "t": 1786728600,
-            "c": 176.88
+            "c": 83.93
           },
           {
             "t": 1786729500,
-            "c": 176.78
+            "c": 83.96
           },
           {
             "t": 1786730400,
-            "c": 176.13
+            "c": 83.9
           },
           {
             "t": 1786731300,
-            "c": 175.05
+            "c": 83.95
           },
           {
             "t": 1786732200,
-            "c": 174.9
+            "c": 84.0
           },
           {
             "t": 1786733100,
-            "c": 174.87
+            "c": 84.02
           },
           {
             "t": 1786734000,
-            "c": 174.73
+            "c": 84.07
           },
           {
             "t": 1786734900,
-            "c": 174.37
+            "c": 83.83
           },
           {
             "t": 1786735800,
-            "c": 174.63
+            "c": 83.82
           },
           {
             "t": 1786736700,
-            "c": 174.04
+            "c": 84.13
           },
           {
             "t": 1786737600,
-            "c": 174.04
+            "c": 84.13
           }
         ],
         "chart_5d": [
           {
             "t": 1786368600,
-            "c": 177.67
+            "c": 81.65
           },
           {
             "t": 1786372200,
-            "c": 178.13
+            "c": 81.54
           },
           {
             "t": 1786375800,
-            "c": 178.06
+            "c": 81.42
           },
           {
             "t": 1786379400,
-            "c": 177.47
+            "c": 81.35
           },
           {
             "t": 1786383000,
-            "c": 175.89
+            "c": 81.39
           },
           {
             "t": 1786386600,
-            "c": 175.71
+            "c": 81.43
           },
           {
             "t": 1786390200,
-            "c": 175.22
+            "c": 81.49
           },
           {
             "t": 1786455000,
-            "c": 176.66
+            "c": 83.2
           },
           {
             "t": 1786458600,
-            "c": 174.91
+            "c": 83.11
           },
           {
             "t": 1786462200,
-            "c": 173.18
+            "c": 82.89
           },
           {
             "t": 1786465800,
-            "c": 175.94
+            "c": 82.98
           },
           {
             "t": 1786469400,
-            "c": 174.9
+            "c": 82.79
           },
           {
             "t": 1786473000,
-            "c": 175.25
+            "c": 82.92
           },
           {
             "t": 1786476600,
-            "c": 174.93
+            "c": 82.37
           },
           {
             "t": 1786541400,
-            "c": 170.02
+            "c": 82.73
           },
           {
             "t": 1786545000,
-            "c": 169.84
+            "c": 83.03
           },
           {
             "t": 1786548600,
-            "c": 171.25
+            "c": 82.64
           },
           {
             "t": 1786552200,
-            "c": 172.44
+            "c": 82.88
           },
           {
             "t": 1786555800,
-            "c": 171.31
+            "c": 82.76
           },
           {
             "t": 1786559400,
-            "c": 171.01
+            "c": 82.87
           },
           {
             "t": 1786563000,
-            "c": 171.09
+            "c": 83.01
           },
           {
             "t": 1786627800,
-            "c": 175.48
+            "c": 83.28
           },
           {
             "t": 1786631400,
-            "c": 173.61
+            "c": 82.85
           },
           {
             "t": 1786635000,
-            "c": 175.24
+            "c": 82.9
           },
           {
             "t": 1786638600,
-            "c": 176.37
+            "c": 82.76
           },
           {
             "t": 1786642200,
-            "c": 175.87
+            "c": 82.95
           },
           {
             "t": 1786645800,
-            "c": 178.69
+            "c": 82.75
           },
           {
             "t": 1786649400,
-            "c": 179.0
+            "c": 83.24
           },
           {
             "t": 1786714200,
-            "c": 177.09
+            "c": 83.93
           },
           {
             "t": 1786717800,
-            "c": 177.21
+            "c": 83.77
           },
           {
             "t": 1786721400,
-            "c": 177.0
+            "c": 83.93
           },
           {
             "t": 1786725000,
-            "c": 176.77
+            "c": 84.05
           },
           {
             "t": 1786728600,
-            "c": 175.05
+            "c": 83.95
           },
           {
             "t": 1786732200,
-            "c": 174.37
+            "c": 83.83
           },
           {
             "t": 1786735800,
-            "c": 174.04
+            "c": 84.13
           },
           {
             "t": 1786737600,
-            "c": 174.04
+            "c": 84.13
           }
         ],
         "chart_1mo": [
           {
             "t": 1784122200,
-            "c": 133.76
+            "c": 87.64
           },
           {
             "t": 1784208600,
-            "c": 134.44
+            "c": 89.77
           },
           {
             "t": 1784295000,
-            "c": 132.38
+            "c": 87.72
           },
           {
             "t": 1784554200,
-            "c": 134.85
-          },
-          {
-            "t": 1784640600,
-            "c": 132.66
-          },
-          {
-            "t": 1784727000,
-            "c": 124.57
+            "c": 88.17
           },
           {
             "t": 1784813400,
-            "c": 123.37
+            "c": 86.56
           },
           {
             "t": 1784899800,
-            "c": 122.92
+            "c": 87.04
           },
           {
             "t": 1785159000,
-            "c": 131.53
+            "c": 89.29
           },
           {
             "t": 1785245400,
-            "c": 123.53
+            "c": 91.26
           },
           {
             "t": 1785331800,
-            "c": 123.0
+            "c": 90.79
           },
           {
             "t": 1785418200,
-            "c": 122.26
-          },
-          {
-            "t": 1785504600,
-            "c": 123.06
+            "c": 87.05
           },
           {
             "t": 1785763800,
-            "c": 125.65
+            "c": 84.83
           },
           {
             "t": 1785850200,
-            "c": 162.66
+            "c": 86.32
           },
           {
             "t": 1785936600,
-            "c": 158.43
+            "c": 84.32
           },
           {
             "t": 1786023000,
-            "c": 155.92
+            "c": 84.12
           },
           {
             "t": 1786109400,
-            "c": 172.01
+            "c": 83.42
           },
           {
             "t": 1786368600,
-            "c": 175.23
+            "c": 81.46
           },
           {
             "t": 1786455000,
-            "c": 174.94
+            "c": 82.37
           },
           {
             "t": 1786541400,
-            "c": 171.04
+            "c": 82.98
           },
           {
             "t": 1786627800,
-            "c": 179.01
+            "c": 83.26
           },
           {
             "t": 1786714200,
-            "c": 174.04
+            "c": 84.13
           }
         ],
         "chart_1y": [
           {
             "t": 1754884800,
-            "c": 177.17
+            "c": 82.72
           },
           {
             "t": 1755489600,
-            "c": 158.74
+            "c": 85.66
           },
           {
             "t": 1756094400,
-            "c": 156.71
+            "c": 85.86
           },
           {
             "t": 1756699200,
-            "c": 153.11
+            "c": 86.46
           },
           {
             "t": 1757304000,
-            "c": 171.43
+            "c": 84.68
           },
           {
             "t": 1757908800,
-            "c": 182.39
+            "c": 83.3
           },
           {
             "t": 1758513600,
-            "c": 177.57
+            "c": 85.94
           },
           {
             "t": 1759118400,
-            "c": 173.07
+            "c": 86.48
           },
           {
             "t": 1759723200,
-            "c": 175.44
+            "c": 81.54
           },
           {
             "t": 1760328000,
-            "c": 178.15
+            "c": 82.37
           },
           {
             "t": 1760932800,
-            "c": 184.63
+            "c": 78.77
           },
           {
             "t": 1761537600,
-            "c": 200.47
+            "c": 77.87
           },
           {
             "t": 1762146000,
-            "c": 177.93
+            "c": 81.27
           },
           {
             "t": 1762750800,
-            "c": 174.01
+            "c": 79.78
           },
           {
             "t": 1763355600,
-            "c": 154.85
+            "c": 80.72
           },
           {
             "t": 1763960400,
-            "c": 168.45
+            "c": 83.3
           },
           {
             "t": 1764565200,
-            "c": 181.76
+            "c": 80.88
           },
           {
             "t": 1765170000,
-            "c": 183.57
+            "c": 85.1
           },
           {
             "t": 1765774800,
-            "c": 193.38
+            "c": 86.37
           },
           {
             "t": 1766379600,
-            "c": 188.71
+            "c": 86.6
           },
           {
             "t": 1766984400,
-            "c": 167.86
+            "c": 86.19
           },
           {
             "t": 1767589200,
-            "c": 177.49
+            "c": 87.92
           },
           {
             "t": 1768194000,
-            "c": 170.96
+            "c": 88.65
           },
           {
             "t": 1768798800,
-            "c": 169.6
+            "c": 83.89
           },
           {
             "t": 1769403600,
-            "c": 146.59
+            "c": 84.54
           },
           {
             "t": 1770008400,
-            "c": 135.9
+            "c": 83.24
           },
           {
             "t": 1770613200,
-            "c": 131.41
+            "c": 81.99
           },
           {
             "t": 1771218000,
-            "c": 135.24
+            "c": 86.2
           },
           {
             "t": 1771822800,
-            "c": 137.19
+            "c": 83.23
           },
           {
             "t": 1772427600,
-            "c": 157.16
+            "c": 80.13
           },
           {
             "t": 1773028800,
-            "c": 150.95
+            "c": 81.64
           },
           {
             "t": 1773633600,
-            "c": 150.68
+            "c": 81.06
           },
           {
             "t": 1774238400,
-            "c": 143.06
+            "c": 80.16
           },
           {
             "t": 1774843200,
-            "c": 148.46
+            "c": 83.74
           },
           {
             "t": 1775448000,
-            "c": 128.06
+            "c": 86.5
           },
           {
             "t": 1776052800,
-            "c": 146.39
+            "c": 87.52
           },
           {
             "t": 1776657600,
-            "c": 143.09
+            "c": 83.88
           },
           {
             "t": 1777262400,
-            "c": 144.07
+            "c": 84.5
           },
           {
             "t": 1777867200,
-            "c": 137.8
+            "c": 85.64
           },
           {
             "t": 1778472000,
-            "c": 133.99
+            "c": 79.09
           },
           {
             "t": 1779076800,
-            "c": 136.88
+            "c": 79.31
           },
           {
             "t": 1779681600,
-            "c": 156.54
+            "c": 82.68
           },
           {
             "t": 1780286400,
-            "c": 135.53
+            "c": 87.87
           },
           {
             "t": 1780891200,
-            "c": 127.99
+            "c": 87.46
           },
           {
             "t": 1781496000,
-            "c": 128.47
+            "c": 84.68
           },
           {
             "t": 1782100800,
-            "c": 112.93
+            "c": 89.7
           },
           {
             "t": 1782705600,
-            "c": 129.3
+            "c": 87.9
           },
           {
             "t": 1783310400,
-            "c": 126.79
+            "c": 86.2
           },
           {
             "t": 1783915200,
-            "c": 132.38
+            "c": 87.72
           },
           {
             "t": 1784520000,
-            "c": 122.92
+            "c": 87.04
           },
           {
             "t": 1785124800,
-            "c": 123.06
+            "c": 87.05
           },
           {
             "t": 1785729600,
-            "c": 172.01
+            "c": 83.42
           },
           {
             "t": 1786334400,
-            "c": 174.04
+            "c": 84.13
           },
           {
-            "t": 1786737600,
-            "c": 174.04
+            "t": 1786737602,
+            "c": 84.13
           }
         ],
-        "chg_1d": -2.54,
-        "chg_7d": 1.18,
-        "chg_1mo": 30.11,
-        "chg_1y": -1.77,
-        "sma20_dist": 19.59
+        "chg_1d": 1.01,
+        "chg_7d": 0.85,
+        "chg_1mo": -4.01,
+        "chg_1y": 1.7,
+        "sma20_dist": -2.32
       },
       "news": [
         {
-          "title": "Here's What a $10,000 Palantir Investment Could Be Worth by 2028",
-          "link": "https://www.fool.com/investing/2026/08/16/heres-what-a-10000-palantir-investment-could-be-wo/?.tsrc=rss",
+          "title": "1 Profitable Stock with Exciting Potential and 2 We Question",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-exciting-potential-150100032.html?.tsrc=rss",
           "date": "Sun, 16 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Palantir Makes Its Case Against Frontier AI",
-          "link": "https://www.fool.com/investing/2026/08/15/palantir-makes-its-case-against-frontier-ai/?.tsrc=rss",
-          "date": "Sat, 15 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Up Over 35% Since Aug. 3, Is it Too Late to Buy Palantir Stock?",
-          "link": "https://www.fool.com/investing/2026/08/15/up-over-35-since-aug-3-is-it-too-late-to-buy-palan/?.tsrc=rss",
-          "date": "Sat, 15 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Jim Cramer Says Palantir (PLTR) Deserves a “Little Bit More Love” After a Massive Surge",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-palantir-pltr-000702429.html?.tsrc=rss",
-          "date": "Sat, 15 Aug 2026",
           "tone": "pos"
         },
         {
-          "title": "PLTR Jumped 31.53% in a Month. PLTY Holders Got 28.93%",
-          "link": "https://247wallst.com/investing/etf/2026/08/14/pltr-jumped-31-53-in-a-month-plty-holders-got-28-93/?.tsrc=rss",
-          "date": "Fri, 14 Aug 2026",
+          "title": "Is Boyd Gaming Worth Buying as Growth Projects Lift Execution Risk?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boyd-gaming-worth-buying-growth-171300710.html?.tsrc=rss",
+          "date": "Fri, 07 Aug 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "The Top 5 Analyst Questions From Boyd Gaming’s Q2 Earnings Call",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-boyd-174902058.html?.tsrc=rss",
+          "date": "Thu, 30 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "BYD Q2 Deep Dive: Diversified Operations and Capital Investments Counter Mixed Segment Trends",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/byd-q2-deep-dive-diversified-155702387.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Las Vegas Sands, Boyd Gaming In-Line Results Backed by Domestic Gaming Strength, Morgan Stanley Says",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/las-vegas-sands-boyd-gaming-150033036.html?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
           "tone": "neu"
         }
       ],
       "comparison": {
-        "verdict": "bestätigt",
+        "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+1.18%).",
-          "Starker Monat: +30.11%.",
-          "+19.59% über SMA20 – kurzfristig evtl. überkauft.",
-          "Marktlage stützt die bullische Reddit-Stimmung."
+          "Kurs seitwärts über 7 Tage (+0.85%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Palantir Technologies Inc. aktuell deutlich bullisch (3 Mentions). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
+      "fazit": "Reddit diskutiert Boyd Gaming Corporation aktuell bullisch (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "📊 Quartalszahlen",
-        "🎯 Optionen & Short-Interest"
+        "💰 Einstiegs-Debatte",
+        "📉 Kursverluste",
+        "News: 1 Profitable Stock with Exciting Potential and 2 We Question",
+        "News: Is Boyd Gaming Worth Buying as Growth Projects Lift Execution Risk?"
       ],
-      "momentum": 49,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": -25,
+      "momentum": 64,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 50,
       "timeline": [
         {
           "day": "2026-08-14",
-          "mentions": 5
+          "mentions": 0
         },
         {
           "day": "2026-08-15",
@@ -4079,7 +4040,7 @@
         },
         {
           "day": "2026-08-16",
-          "mentions": 4
+          "mentions": 3
         },
         {
           "day": "2026-08-17",
@@ -4087,131 +4048,36 @@
         }
       ],
       "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 34,
+      "quality_pct": 22,
       "reddit_vs_markt": {
-        "reddit": 49,
-        "markt": 54,
+        "reddit": 64,
+        "markt": 53,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
         {
-          "ts": "2026-08-16T10:14:01.466597+00:00",
-          "ticker": "PLTR",
-          "rec": "kaufen",
-          "confidence": 81,
-          "engagement": 20,
-          "price": 174.04
-        },
-        {
-          "ts": "2026-08-16T16:13:14.006319+00:00",
-          "ticker": "PLTR",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 16,
-          "price": 174.04
-        },
-        {
-          "ts": "2026-08-16T18:14:57.707420+00:00",
-          "ticker": "PLTR",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 16,
-          "price": 174.04
-        },
-        {
-          "ts": "2026-08-16T20:11:27.250747+00:00",
-          "ticker": "PLTR",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 16,
-          "price": 174.04
-        },
-        {
-          "ts": "2026-08-16T22:11:28.549066+00:00",
-          "ticker": "PLTR",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 16,
-          "price": 174.04
-        },
-        {
-          "ts": "2026-08-17T00:41:02.988466+00:00",
-          "ticker": "PLTR",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 16,
-          "price": 174.04
+          "ts": "2026-08-17T02:52:09.144872+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 14,
+          "price": 84.13
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 26,
+    "hit_rate": 28,
     "n_evaluated": 80,
-    "rate_kaufen": 13,
+    "rate_kaufen": 15,
     "rate_verkaufen": 0,
     "rate_beobachten": 48,
-    "kauf_perf_7d": 1.4,
+    "kauf_perf_7d": 1.7,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-08-09T08:30:46.460415+00:00",
-      "ticker": "HTZ",
-      "rec": "kaufen",
-      "confidence": 84,
-      "engagement": 11,
-      "price": 2.27,
-      "chg_since": -1.32,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-09T08:30:46.460415+00:00",
-      "ticker": "PLTR",
-      "rec": "kaufen",
-      "confidence": 90,
-      "engagement": 10,
-      "price": 172.01,
-      "chg_since": 1.18,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-09T08:30:46.460415+00:00",
-      "ticker": "TR",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 7,
-      "price": 39.63,
-      "chg_since": 3.26,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-09T08:30:46.460415+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 20,
-      "price": 483.36,
-      "chg_since": 6.42,
-      "correct": false,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-09T08:30:46.460415+00:00",
-      "ticker": "NVDA",
-      "rec": "kaufen",
-      "confidence": 81,
-      "engagement": 14,
-      "price": 223.96,
-      "chg_since": 0.54,
-      "correct": false,
-      "age_days": 7
-    },
     {
       "ts": "2026-08-09T10:22:49.329999+00:00",
       "ticker": "HTZ",
@@ -4596,11 +4462,120 @@
       "chg_since": 5.18,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-08-10T01:00:43.298042+00:00",
+      "ticker": "HTZ",
+      "rec": "beobachten",
+      "confidence": 67,
+      "engagement": 16,
+      "price": 2.27,
+      "chg_since": -1.32,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-10T01:00:43.298042+00:00",
+      "ticker": "MU",
+      "rec": "kaufen",
+      "confidence": 84,
+      "engagement": 23,
+      "price": 877.57,
+      "chg_since": 10.72,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-10T01:00:43.298042+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 67,
+      "engagement": 20,
+      "price": 483.36,
+      "chg_since": 6.42,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-10T01:00:43.298042+00:00",
+      "ticker": "NVDA",
+      "rec": "kaufen",
+      "confidence": 81,
+      "engagement": 14,
+      "price": 223.96,
+      "chg_since": 0.54,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-10T01:00:43.298042+00:00",
+      "ticker": "SPCX",
+      "rec": "verkaufen",
+      "confidence": 81,
+      "engagement": 12,
+      "price": 133.11,
+      "chg_since": 5.18,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
+      {
+        "text": "RT @ realDonaldTrump Based on my very good relationship with Kim Jong Un, of North Korea, I am not happy with the fact that the United States has, long ago, agreed to participate in Joint Military Exercises with South Korea. These exercises are not only costly, with much of these costs paid for by the United States of America (as usual!), but send a signal that is totally inappropriate and hostile",
+        "url": "https://www.trumpstruth.org/statuses/40910",
+        "date": "Mon, 17 Aug 2026 01:02",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "RT @ realDonaldTrump https:// x.com/hughhewitt/status/208895 6209831227412?s=12",
+        "url": "https://www.trumpstruth.org/statuses/40911",
+        "date": "Mon, 17 Aug 2026 01:02",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "Thank you! Trump’s support ‘empowers’ law enforcement to make the country safer: Former FBI agent: https://www. foxnews.com/video/640347673611 2",
+        "url": "https://www.trumpstruth.org/statuses/40912",
+        "date": "Mon, 17 Aug 2026 01:02",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "During Shannon Bream’s show, they showed pictures of the Military Complex/Ballroom site at the White House. Unfortunately, the pictures were months old, before much work had been started. Now the hardest work is substantially complete with work on the roof/DronePort to begin very shortly. Why didn’t Shannon Bream, “Milktoast” to her friends, show the updated pictures instead of ones that were so o",
+        "url": "https://www.trumpstruth.org/statuses/40913",
+        "date": "Mon, 17 Aug 2026 01:01",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "Look what VANDALS did to the grass connecting the vandalized World War II Monument and the vandalized Reflecting Pool, which will be opened again, and better than ever, shortly. Anybody who thinks the Reflecting Pool wasn’t vandalized should go back to Law School! President DONALD J. TRUMP",
+        "url": "https://www.trumpstruth.org/statuses/40908",
+        "date": "Mon, 17 Aug 2026 00:58",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "I am happy to reveal that former hostage Kevin Rideout is getting ready to fly home to the United States after having been reunited with his beautiful wife, Krista. This return marks the 110th captive American liberated since I was sworn in as President for a second time. I look forward to seeing Kevin and Krista at the White House soon! Thank you for your attention to this matter. President DONAL",
+        "url": "https://www.trumpstruth.org/statuses/40909",
+        "date": "Mon, 17 Aug 2026 00:56",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
       {
         "text": "https:// x.com/hughhewitt/status/208895 6209831227412?s=12",
         "url": "https://www.trumpstruth.org/statuses/40907",
@@ -4608,7 +4583,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Based on my very good relationship with Kim Jong Un, of North Korea, I am not happy with the fact that the United States has, long ago, agreed to participate in Joint Military Exercises with South Korea. These exercises are not only costly, with much of these costs paid for by the United States of America (as usual!), but send a signal that is totally inappropriate and hostile, to a Country that, ",
@@ -4618,88 +4593,86 @@
         "companies": [],
         "policy": [],
         "is_new": false
-      },
-      {
-        "text": "Very happy to see that Saudi Arabia, Turkey, and Pakistan have recently, and finally, signed the Mecca Joint Defence Agreement. It shows how the Middle East is coming together, and how Countries will finally be able to defend themselves in a more meaningful way. Congratulations to the Great Leadership of the three Nations mentioned. THIS IS A BIG, BOLD, AND IMPORTANT FIRST STEP — WOW! President DO",
-        "url": "https://www.trumpstruth.org/statuses/40906",
-        "date": "Sun, 16 Aug 2026 21:04",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Watching FoxNews with Shannon Bream is always like watching the Worst of Fake News CNN. I don’t know Shannon, but she always seems to pick guests, charts, and “polls” that are negative, never talking about all of the incredible things that the Trump Administration has done, like Total Border Control, the Most Successful Stock Market in History (81 Record Days in a year and a half!), Biggest Invest",
-        "url": "https://www.trumpstruth.org/statuses/40904",
-        "date": "Sun, 16 Aug 2026 20:10",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "RT @ AndrewHGiuliani Thanks to the vision and leadership of President Donald J. Trump, America fell in love with the World Cup, and the world fell in love with the United States of America, again!",
-        "url": "https://www.trumpstruth.org/statuses/40893",
-        "date": "Sun, 16 Aug 2026 13:28",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Todd Blanche sworn in as AG; White House celebrates ‘huge win’: https:// heartlandernews.com/todd-blanc he-sworn-in-as-ag-white-house-celebrates-huge-win/",
-        "url": "https://www.trumpstruth.org/statuses/40895",
-        "date": "Sun, 16 Aug 2026 13:28",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Trump Effect: Prescription Drug Prices Fall At Record-Breaking Pace: https://www. breitbart.com/economy/2026/08/ 12/trump-effect-prescription-drug-prices-fall-for-fifth-month-this-year/",
-        "url": "https://www.trumpstruth.org/statuses/40896",
-        "date": "Sun, 16 Aug 2026 13:27",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [
-          "🏛️ Pharma"
-        ],
-        "is_new": false
-      },
-      {
-        "text": "Feds bust NYC fraud scheme that engineered hundreds of sham marriages between Americans, Chinese nationals: https:// nypost.com/2026/08/12/us-news/ feds-bust-nyc-fraud-scheme-that-engineered-hundreds-of-sham-marriages-between-americans-chinese-nationals/",
-        "url": "https://www.trumpstruth.org/statuses/40897",
-        "date": "Sun, 16 Aug 2026 13:27",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Trump Orders Cuts to U.S.-South Korea Military Drills - WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUDVQTzdjVF9VSERmRV9LNzBieTBoTlZKQTNSZGZMWm5Ub0VtOE02T01hZERHRWJTMmtBaHdDNl80cFlERDE3WVdEOW9ONERDa0N4LUk5ZEF3Qkx3MkwxaExWYmZ6MFVHaDg4TUEzTVFTMS11RHRZMWtfcHFBRzdscnhjN052NkRDX2o5Skt6SFhjeThJU01xQUp5V2RCRTFpdGk4QzJ2YlByV0NU?oc=5",
-        "date": "Sun, 16 Aug 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Energie"
-        ],
-        "is_new": true
       }
     ],
-    "market_hits": 2
+    "market_hits": 0
   },
   "spannende_aktien": [
     {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "price": 1641.11,
+      "ticker": "WETO",
+      "name": "Wetour Robotics Limited",
+      "price": 8.22,
       "currency": "USD",
-      "chg_1d": 7.39,
-      "vol_ratio": 1.2,
+      "chg_1d": 127.7,
+      "vol_ratio": 5.3,
       "warum": [
-        "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walma",
-        "These 2 Potential Stock Splits Look Like Screaming Deals Right Now"
+        "Wetour Robotics Announces Share Consolidation",
+        "Wetour Robotics Pursues Warehouse Robotics Cooperation to Support Orchestra Depl"
+      ],
+      "bedeutung": "Extreme Bewegung (+127.7%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Wetour Robotics Announces Share Consolidation",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wetour-robotics-announces-share-consolidation-221800169.html?.tsrc=rss",
+          "date": "Wed, 29 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Wetour Robotics Pursues Warehouse Robotics Cooperation to Support Orchestra Deployment",
+          "link": "https://investorshub.advfn.com/market-news/article/32769/wetour-robotics-pursues-warehouse-robotics-cooperation-to-support-orchestra-deployment?.tsrc=rss",
+          "date": "Mon, 27 Jul 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics, Inc.",
+      "price": 150.28,
+      "currency": "USD",
+      "chg_1d": 15.53,
+      "vol_ratio": 1.6,
+      "warum": [
+        "Applied Optoelectronics (AAOI) Expected to Announce Business Updates Next Week",
+        "Applied Optoelectronics (AAOI) Could Be 93% Overvalued As Amazon Deal Lifts Reve"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "Applied Optoelectronics (AAOI) Expected to Announce Business Updates Next Week",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-expected-announce-033623370.html?.tsrc=rss",
+          "date": "Sat, 15 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Applied Optoelectronics (AAOI) Could Be 93% Overvalued As Amazon Deal Lifts Revenue Hopes",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-could-93-001604934.html?.tsrc=rss",
+          "date": "Sat, 15 Aug 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 392.99,
+      "currency": "USD",
+      "chg_1d": -5.94,
+      "vol_ratio": 1.6,
+      "warum": [
+        "Dow Futures Slip, S&P 500, Nasdaq Futures Climb Ahead Of Key Retail Earnings, Fe",
+        "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 3,
@@ -4708,108 +4681,77 @@
       ],
       "news": [
         {
-          "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
-          "link": "https://finance.yahoo.com/m/79b73c1c-e364-315f-8433-18e9ae96269d/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
+          "title": "Dow Futures Slip, S&P 500, Nasdaq Futures Climb Ahead Of Key Retail Earnings, Fed Minutes: NLST, AVGO, LUNR, MRK Stocks In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/dow-futures-slip-s-and-p-500-nasdaq-futures-climb-ahead-of-key-retail-earnings-fed-minutes-nlst-avgo-lunr-mrk-stocks-in-focus/cZo6n1CRJKQ?.tsrc=rss",
           "date": "Mon, 17 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "These 2 Potential Stock Splits Look Like Screaming Deals Right Now",
-          "link": "https://www.fool.com/investing/2026/08/16/these-2-potential-stock-splits-look-like-screaming/?.tsrc=rss",
+          "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
+          "link": "https://247wallst.com/investing/2026/08/16/wall-streets-biggest-funds-are-dumping-broadcom-and-adding-taiwan-semiconductor-time-to-follow-the-smart-money/?.tsrc=rss",
           "date": "Sun, 16 Aug 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "MTZ",
-      "name": "MasTec, Inc.",
-      "price": 297.59,
+      "ticker": "NVTS",
+      "name": "Navitas Semiconductor Corporation",
+      "price": 14.45,
       "currency": "USD",
-      "chg_1d": 4.01,
+      "chg_1d": 5.78,
       "vol_ratio": 1.1,
       "warum": [
-        "MasTec Stock Up 26% YTD: Is the Rally Still Worth Chasing?",
-        "MasTec (MTZ) Board Expands To 10 With Alexander Benjamin Spiro"
+        "Navitas to Participate at Upcoming Investor Conferences",
+        "Navitas Files Patent Infringement Lawsuit Against Renesas Electronics"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "MasTec Stock Up 26% YTD: Is the Rally Still Worth Chasing?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastec-stock-26-ytd-rally-173500357.html?.tsrc=rss",
+          "title": "Navitas to Participate at Upcoming Investor Conferences",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/navitas-participate-upcoming-investor-conferences-120000895.html?.tsrc=rss",
+          "date": "Thu, 13 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Navitas Files Patent Infringement Lawsuit Against Renesas Electronics",
+          "link": "https://finance.yahoo.com/technology/articles/navitas-files-patent-infringement-lawsuit-200500126.html?.tsrc=rss",
           "date": "Mon, 10 Aug 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "MasTec (MTZ) Board Expands To 10 With Alexander Benjamin Spiro",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastec-mtz-board-expands-10-071423637.html?.tsrc=rss",
-          "date": "Sat, 08 Aug 2026",
-          "tone": "neu"
+          "tone": "neg"
         }
       ]
     },
     {
-      "ticker": "WEN",
-      "name": "The Wendy's Company",
-      "price": 8.64,
+      "ticker": "CCXI",
+      "name": "Churchill Capital Corp XI",
+      "price": 17.07,
       "currency": "USD",
-      "chg_1d": -0.12,
-      "vol_ratio": 0.7,
+      "chg_1d": 5.44,
+      "vol_ratio": 1.2,
       "warum": [
-        "Wendy's Traders Smell a Buyout Cooking — Nelson Peltz Preps a Bid",
-        "Wendy’s Jumps on Report That Nelson Peltz Wants to Take His Old Company Private"
+        "Agility Robotics and Churchill Capital Corp XI Announce Confidential Submission ",
+        "Agility Robotics’ SPAC Deal Opens a Rare Door Into Humanoid AI"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "Wendy's Traders Smell a Buyout Cooking — Nelson Peltz Preps a Bid",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wendys-traders-smell-buyout-cooking-213005518.html?.tsrc=rss",
-          "date": "Sun, 16 Aug 2026",
-          "tone": "neu"
+          "title": "Agility Robotics and Churchill Capital Corp XI Announce Confidential Submission of Draft Registration Statement on Form S-4 in Connection wi",
+          "link": "https://finance.yahoo.com/technology/ai/articles/agility-robotics-churchill-capital-corp-153000154.html?.tsrc=rss",
+          "date": "Tue, 14 Jul 2026",
+          "tone": "neg"
         },
         {
-          "title": "Wendy’s Jumps on Report That Nelson Peltz Wants to Take His Old Company Private",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wendy-jumps-report-nelson-peltz-134908532.html?.tsrc=rss",
-          "date": "Sun, 16 Aug 2026",
-          "tone": "pos"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 225.16,
-      "currency": "USD",
-      "chg_1d": -0.06,
-      "vol_ratio": 0.6,
-      "warum": [
-        "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walma",
-        "Billionaires Battle on NVIDIA: David Tepper Bought More. Dan Loeb Sold Every Sha"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
-          "link": "https://finance.yahoo.com/m/79b73c1c-e364-315f-8433-18e9ae96269d/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
-          "date": "Mon, 17 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Billionaires Battle on NVIDIA: David Tepper Bought More. Dan Loeb Sold Every Share. George Soros Bought Puts.",
-          "link": "https://247wallst.com/investing/2026/08/16/billionaires-battle-on-nvidia-david-tepper-bought-more-dan-loeb-sold-every-share-george-soros-bought-puts/?.tsrc=rss",
-          "date": "Sun, 16 Aug 2026",
+          "title": "Agility Robotics’ SPAC Deal Opens a Rare Door Into Humanoid AI",
+          "link": "https://www.marketbeat.com/articles/agility-robotics-spac-deal-opens-a-rare-door-into-humanoid-ai/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "Thu, 02 Jul 2026",
           "tone": "neu"
         }
       ]
@@ -4825,51 +4767,51 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
+      "link": "https://www.ft.com/content/db29304b-6a28-4e12-8125-3f9658efb89e?syn-25a6b1a6=1",
+      "date": "Mon, 17 Aug 2026",
+      "headline": "Olympus boss tries to beat buyout firms at their own game",
+      "source": "FT"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMlZXRVY0UElQQkRrcFNtUXV4TWtTck1nWWZ1VUNXR3ZiZFZFQ0lrSGRxcV9tN09OU25sa2Q1WWlrZXFFUWQwTmNNZUd5eTJSeXZCeVZESnlteDMtVVNmZU93MHB2RC0tUDM4b1lvNVdvbGpFall4VmJzT25RY1ZWaGROU3hvSG1WMVRHTA?oc=5",
+      "date": "Sun, 16 Aug 2026",
+      "headline": "Stripe clinches over $7 billion deal to buy AI firm OpenRouter - fortune.com",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNzVpeE9rTUo1RFdwZFZ4dU5QbmttMUE0eXBXWFJBVEhDSGRHRXVWcXpjb0Y4cl9iNHFQV2ZTcUJOaTdPUjZGeldSOHZvWFRHZHdicjVuTW1FdmF5c3NNbWNyRUNEclZlRC1XQUljME5oWnVfTzc0T1JSUzBNd1ExY2hwcFVsUnhNU21ITU53WHJpWEN5N3BOc1lkNkVWa1FZNTFJc1Y0TG1sUDV5cUZtNGF2SXVGTHN6VEdJd3NB?oc=5",
+      "date": "Mon, 17 Aug 2026",
+      "headline": "Nexstar's $6.2 Billion Merger With Tegna Will Change Houston Media 08/17/2026 - MediaPost",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOckNPTDlyNnliSGExZUVzVE5SZkdHek1PTkVqTk5jeW1nNlB1WlNndURLTExRUE9xdDQ4d0g4Z09LS2lDVUw4TVdBNXhuNklyY2JTS0ZaMFRzLVRIMk5rTkpUWG94eUVwYkFnWklZLVdERDd3T25paWFRZnpjLUdJOU4wNjNWUktqaUNfdi1uR3QyVGFkM0ZjRGI2ckpXV1ZoSmVlQk8wOW9VbGxlYU02aC1n0gG3AUFVX3lxTE9CUEEtRU9Odk5ocThaeWJSVFk5N09FT2hEMjdXUDE1bUg1SG9JdnR5SUYwaVdWVFdGc1RFcW14VmVCamRoclhEWGFLNjJXa3hvT1VaNGs5M1k5dnVfZmtYMzdZek5tNDBaaWozejhzYjNMQ3p1c1pUcGdOU3Z3R0FJLTJPUTg3VER5M19CQVlMUTVEajVTWUFSTWI0czZ5bHpCbWRXUVFjbG1OODdTdUpkS1ZXVGZZdw?oc=5",
       "date": "Sun, 16 Aug 2026",
       "headline": "Real And RE/MAX Securityholders Approve Merger Creating $2.3 Billion-Revenue Real REMAX Group - Pulse 2.0",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGRwckpIVUxCUlhELVVpVDBURlJUM1hLbENaZ1plWHQ0R0xRT2ZNTWJMblNRZ3Q4RFgyVmVaVm9ra1U3c2xVTzJ1Vk1xRnhLa2lUN1FGWmUwRE1SSVNoSS1NRk5TRVNzaGU5SXBadUoxcllyMDZzdlZGWEpEdW02Um9nU2Y2U1hUV3Yycld1eEUwaElYdlhBZEltR0hPb3M4VnhR?oc=5",
-      "date": "Sun, 16 Aug 2026",
-      "headline": "Workday’s $51 billion takeover talks could reset the software trade - thestreet.com",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObVhvQjl5dW53Nk5WRm1JTUFvY2JDMFY3cEVDQ3JIbFd2ZjBMRW15b1Boa2xfSU92YnZ0ZGU0aG5BVC1MQjVTem9fdERDbjhZRE5WNlRSNjVMMWVtd0hXdW5ZQzZYSkMxY3hRekVYZjFMTTF0T2FuRGFsaFJ3X2pZc1RianMwUWN6bDRzXzlhbnVPVWdKdGpMcXNVZEY1N3l4Z0Yw?oc=5",
-      "date": "Fri, 14 Aug 2026",
-      "headline": "California approves Charter's $21.9 billion Cox Communications merger - Yahoo Finance",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ2NzX3R2ZGZxVXlzN2gycWZ6ZjhWdkVydHVnZnZJdGZmQ1hDVldJLURPeVloTHVZMm9pVEVMS1NZa2RkeDVyLUNUUXlLY3NKZDRHT0NudkpCRjhCelE2d2toUktnNzJON3kxVEhxbFUycjJrY19sM0M2QXRfeGdBS18xWQ?oc=5",
-      "date": "Thu, 13 Aug 2026",
-      "headline": "CPUC Approves $34.5 Billion Charter-Cox Merger - Broadband Breakfast",
       "source": "Google News"
     }
   ]
