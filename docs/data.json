@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:27:10.486922+00:00",
+  "generated_at": "2026-08-20T06:28:02.905287+00:00",
   "total_posts": 250,
-  "unique_tickers": 226,
+  "unique_tickers": 227,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -28,13 +28,13 @@
     {
       "ticker": "MRNA",
       "name": "Moderna, Inc.",
-      "signal": "bullish",
-      "empfehlung": "kaufen",
-      "confidence": 87,
-      "sentiment": 2,
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 70,
+      "sentiment": 1,
       "mentions": 8,
       "mentions_delta": 0,
-      "engagement": 18,
+      "engagement": 19,
       "sources": [
         "wallstreetbets",
         "Aktien"
@@ -76,14 +76,14 @@
         {
           "emoji": "🎯",
           "titel": "Optionen & Short-Interest",
-          "anteil_pct": 30,
+          "anteil_pct": 27,
           "beitraege": 3,
           "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
         },
         {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 20,
+          "anteil_pct": 18,
           "beitraege": 2,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
         }
@@ -320,7 +320,7 @@
           },
           {
             "t": 1787081400,
-            "c": 62.96
+            "c": 62.95
           },
           {
             "t": 1787146200,
@@ -706,15 +706,15 @@
         }
       ],
       "comparison": {
-        "verdict": "bestätigt",
+        "verdict": "relativiert",
         "points": [
           "Kurs +173.88% über 7 Tage – Aufwärtsmomentum.",
           "Starker Monat: +193.12%.",
           "+171.62% über SMA20 – kurzfristig evtl. überkauft.",
-          "Marktlage stützt die bullische Reddit-Stimmung."
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Moderna, Inc. aktuell bullisch (8 Mentions). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
+      "fazit": "Reddit diskutiert Moderna, Inc. aktuell gemischt (8 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
@@ -746,21 +746,13 @@
       "hype_typ": "hype",
       "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
       "quality_grade": "D",
-      "quality_pct": 22,
+      "quality_pct": 18,
       "reddit_vs_markt": {
         "reddit": 94,
         "markt": 100,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-19T18:19:27.884242+00:00",
-          "ticker": "MRNA",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 12,
-          "price": 151.31
-        },
         {
           "ts": "2026-08-19T20:16:26.530453+00:00",
           "ticker": "MRNA",
@@ -799,6 +791,14 @@
           "rec": "kaufen",
           "confidence": 87,
           "engagement": 18,
+          "price": 174.38
+        },
+        {
+          "ts": "2026-08-20T06:28:02.905287+00:00",
+          "ticker": "MRNA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 19,
           "price": 174.38
         }
       ]
@@ -1498,10 +1498,10 @@
           "tone": "neu"
         },
         {
-          "title": "Stifel Has Message For Nvidia Investors Before Earnings",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stifel-message-nvidia-investors-earnings-215114118.html?.tsrc=rss",
-          "date": "Wed, 19 Aug 2026",
-          "tone": "neu"
+          "title": "Why Marvell Stock Surged Today",
+          "link": "https://www.fool.com/investing/2026/08/19/why-marvell-stock-surged-today/?.tsrc=rss",
+          "date": "Thu, 20 Aug 2026",
+          "tone": "pos"
         }
       ],
       "comparison": {
@@ -1551,14 +1551,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-19T18:19:27.884242+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 79,
-          "engagement": 30,
-          "price": 219.06
-        },
-        {
           "ts": "2026-08-19T20:16:26.530453+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
@@ -1592,6 +1584,14 @@
         },
         {
           "ts": "2026-08-20T04:27:10.486922+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 76,
+          "engagement": 29,
+          "price": 217.56
+        },
+        {
+          "ts": "2026-08-20T06:28:02.905287+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
           "confidence": 76,
@@ -2383,6 +2383,14 @@
           "confidence": 73,
           "engagement": 25,
           "price": 75.84
+        },
+        {
+          "ts": "2026-08-20T06:28:02.905287+00:00",
+          "ticker": "RKLB",
+          "rec": "beobachten",
+          "confidence": 73,
+          "engagement": 25,
+          "price": 75.84
         }
       ]
     },
@@ -2522,14 +2530,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-19T18:19:27.884242+00:00",
-          "ticker": "SPX",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 25,
-          "price": null
-        },
-        {
           "ts": "2026-08-19T20:16:26.530453+00:00",
           "ticker": "SPX",
           "rec": "beobachten",
@@ -2563,6 +2563,14 @@
         },
         {
           "ts": "2026-08-20T04:27:10.486922+00:00",
+          "ticker": "SPX",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 25,
+          "price": null
+        },
+        {
+          "ts": "2026-08-20T06:28:02.905287+00:00",
           "ticker": "SPX",
           "rec": "beobachten",
           "confidence": 56,
@@ -3262,9 +3270,9 @@
           "tone": "neu"
         },
         {
-          "title": "Prediction: Microsoft’s AI Boom Is Bigger Than Investors Realize",
-          "link": "https://247wallst.com/investing/2026/08/19/prediction-microsofts-ai-boom-is-bigger-than-investors-realize/?.tsrc=rss",
-          "date": "Wed, 19 Aug 2026",
+          "title": "Revisiting Former Stock Picks Microsoft, Kingstone, Cadre Holdings",
+          "link": "https://finance.yahoo.com/m/7c3bb9f9-d3bb-3e43-ad47-214fdbfce2cf/revisiting-former-stock-picks.html?.tsrc=rss",
+          "date": "Thu, 20 Aug 2026",
           "tone": "neu"
         }
       ],
@@ -3316,14 +3324,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-19T18:19:27.884242+00:00",
-          "ticker": "MSFT",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 25,
-          "price": 483.59
-        },
-        {
           "ts": "2026-08-19T20:16:26.530453+00:00",
           "ticker": "MSFT",
           "rec": "kaufen",
@@ -3357,6 +3357,14 @@
         },
         {
           "ts": "2026-08-20T04:27:10.486922+00:00",
+          "ticker": "MSFT",
+          "rec": "kaufen",
+          "confidence": 87,
+          "engagement": 25,
+          "price": 484.31
+        },
+        {
+          "ts": "2026-08-20T06:28:02.905287+00:00",
           "ticker": "MSFT",
           "rec": "kaufen",
           "confidence": 87,
@@ -4100,14 +4108,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-08-19T18:19:27.884242+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 22,
-          "price": 464.95
-        },
-        {
           "ts": "2026-08-19T20:16:26.530453+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
@@ -4146,14 +4146,22 @@
           "confidence": 61,
           "engagement": 22,
           "price": 466.42
+        },
+        {
+          "ts": "2026-08-20T06:28:02.905287+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 22,
+          "price": 466.42
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 60,
-    "n_evaluated": 80,
-    "rate_kaufen": 18,
+    "n_evaluated": 75,
+    "rate_kaufen": 19,
     "rate_verkaufen": null,
     "rate_beobachten": 100,
     "kauf_perf_7d": -1.2,
@@ -4605,27 +4613,36 @@
   "trump_tracker": {
     "posts": [
       {
-        "text": "Trump’s support ‘empowers’ law enforcement to make the country safer: Former FBI agent: https://www. foxnews.com/video/640347673611 2",
-        "url": "https://www.trumpstruth.org/statuses/41024",
-        "date": "Thu, 20 Aug 2026 04:19",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117125949632758649",
+        "url": "https://truthsocial.com/@realDonaldTrump/117125950821111248",
+        "date": "2026-08-20 04:29",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "MORNING GLORY: SCOTUS should urgently allow construction at the White House to proceed: https://www. foxnews.com/opinion/morning-gl ory-scotus-should-urgently-allow-construction-white-house-proceed",
-        "url": "https://www.trumpstruth.org/statuses/41023",
-        "date": "Thu, 20 Aug 2026 03:30",
+        "text": "Trump's support 'empowers' law enforcement to make the country safer: Former FBI agent: https://www.foxnews.com/video/6403476736112",
+        "url": "https://truthsocial.com/@realDonaldTrump/117125911763587334",
+        "date": "2026-08-20 04:19",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "https:// m.youtube.com/watch?v=VXHfx0tl 0Wk&amp;ra=m",
-        "url": "https://www.trumpstruth.org/statuses/41022",
-        "date": "Thu, 20 Aug 2026 03:08",
+        "text": "MORNING GLORY: SCOTUS should urgently allow construction at the White House to proceed: https://www.foxnews.com/opinion/morning-glory-scotus-should-urgently-allow-construction-white-house-proceed",
+        "url": "https://truthsocial.com/@realDonaldTrump/117125718254050188",
+        "date": "2026-08-20 03:30",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "https://m.youtube.com/watch?v=VXHfx0tl0Wk&ra=m",
+        "url": "https://truthsocial.com/@realDonaldTrump/117125632032911785",
+        "date": "2026-08-20 03:08",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
@@ -4633,51 +4650,24 @@
       },
       {
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117125340444071624",
-        "url": "https://www.trumpstruth.org/statuses/41020",
-        "date": "Thu, 20 Aug 2026 01:54",
+        "url": "https://truthsocial.com/@realDonaldTrump/117125341278153871",
+        "date": "2026-08-20 01:54",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41021",
-        "url": "https://www.trumpstruth.org/statuses/41021",
-        "date": "Thu, 20 Aug 2026 01:54",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117125319695089292",
-        "url": "https://www.trumpstruth.org/statuses/41018",
-        "date": "Thu, 20 Aug 2026 01:49",
+        "url": "https://truthsocial.com/@realDonaldTrump/117125320372310851",
+        "date": "2026-08-20 01:49",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41019",
-        "url": "https://www.trumpstruth.org/statuses/41019",
-        "date": "Thu, 20 Aug 2026 01:49",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "No one has given the Islamic Republic of Iran a greater opportunity to make a Deal than me. TRAGICALLY, for them, they have failed to take it. Therefore, today, I am announcing the MOST CRUSHING ECONOMIC OPERATION EVER TAKEN AGAINST ANY COUNTRY! This will be Economic Warfare and Isolation on an unprecedented scale. Their navy is gone, their air force is destroyed, their military factories are now ",
-        "url": "https://www.trumpstruth.org/statuses/41017",
-        "date": "Wed, 19 Aug 2026 22:59",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Iran war live: Trump announces ‘most crushing’ Iran sanctions - aljazeera.com",
+        "text": "Iran war live: Trump announces ‘most crushing’ Iran sanctions - Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?oc=5",
         "date": "Thu, 20 Aug 2026",
         "source": "News (X/Presse)",
@@ -4685,10 +4675,54 @@
         "policy": [
           "🏛️ Sanktionen"
         ],
+        "is_new": false
+      },
+      {
+        "text": "Trump Asks Congress to Pass Crypto Bill Alongside Executives - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcUdDb1pzdVBnbVkyMFp4V2VJQU1aS3NPMzlib2x5bGs3ejB5UWF1azBlMHBPTXBMTXRIMV9wOXVNQ1hDWlZBR2l1S3lNbC02Q3ByLTN4bWRHN2ZGQzl6a25ZWXEwZUVyRkt4RktKNHB3WURBN3pHQWtzOERqNGpDU1JvOXJqcTdRVFhVQVZfaVdVczhxeTFHYV8tVkJncDlLUFRlWVU0LUxHQnUzb2lTOA?oc=5",
+        "date": "Wed, 19 Aug 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Krypto"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Bitcoin, ether surge as Trump urges Congress to pass crypto Clarity Act - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOVN1aWdNWVNNd21RNmo3MU0zOFlwMmZkT05zQ0JzeXl4eGxybnNIQkpjU1pwODNUbDg4cUhpVzlPSHQybTZOSUpNRXhQd1dRUGpMM3J0THpJQ05COWpvRVhIcW9HUTlMU1FreVJ6SUtmbUxucFM1Y29UUTVYUEV1TGdR0gGHAUFVX3lxTE9iX3dndjVoOEdJNWUxS2JMNUg1UzhOYVljd3g5WmFLdTE3TnVXNFhBdU1RbW9yUEJiT0RfOWNMSEUxQVEzUk5oUFk3aVlrNExVd2M3b2JfdVJVX09GQVl6ZlJaU0dLczdTeFdmdmtHTUNSZjFrY1FHTGdJSW5JRmoxZVJ3R2JOTQ?oc=5",
+        "date": "Thu, 20 Aug 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Krypto"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Trump, Who Has Amassed Enormous Wealth in Crypto, Hosts Industry Leaders - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWtSWkYxM3p4S0VaalBlTS05R0xjczUydzlGY29iOU9CZmd4c09ZYUVqSzRwRk9JTENLN3QxTDFiQWptMy1qc3dDZEFhd2dYdzJBaHBaT0R5WFQ5d05oM3NpbWVMVFpOc2NDYXJEdXZOUlhzVDlzTDl6bXRoUEU4NQ?oc=5",
+        "date": "Wed, 19 Aug 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Krypto"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Trump scaling down U.S.-South Korea drills risks more than just joint military readiness - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbVdVZ3p5TmlUd2VvMHRjZlR6WWF2RU9IbjEtbG5tbFlnX25ndU5NTVRIMEVTbFVUWXczVXRLZDdyUkJlcWdOVUttQTFtZ1AtRXJYYzF5ZFB5bzd2VEd1aVZMS1FDemVBcklsd3lKRjJTQUxHVUtKLWVZWm4xVy14bFJn0gGHAUFVX3lxTFBYQVVxOFV3UkR1Q195RFpPSnFvckFsMVF1X0NUeHhvV2FYRlhEQWJNVnR2NXNvQlhFWG1JUFFzSHFqWTZ3dnFvODFuQnFMUkpyNGNVRUtxZW9LVUwxT2ZRTG5CNnVjVTQxZzlEOU5MOEk3eWIyREV2Uk1ub3RzTzVCZmdPZmpZRQ?oc=5",
+        "date": "Thu, 20 Aug 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Energie"
+        ],
         "is_new": true
       }
     ],
-    "market_hits": 1
+    "market_hits": 5
   },
   "spannende_aktien": [
     {
@@ -4697,7 +4731,7 @@
       "price": 0.84,
       "currency": "USD",
       "chg_1d": 82.61,
-      "vol_ratio": 538.7,
+      "vol_ratio": 524.6,
       "warum": [
         "BTCT, CTNT, PAVS: Why These Stocks Posted Double-Digit Gains After-Hours Today",
         "Why Is BTCT Stock Falling Today?"
@@ -4758,15 +4792,15 @@
       ]
     },
     {
-      "ticker": "PURR",
-      "name": "Hyperliquid Strategies Inc.",
-      "price": 9.39,
+      "ticker": "BNTX",
+      "name": "BioNTech SE",
+      "price": 113.12,
       "currency": "USD",
-      "chg_1d": 30.42,
-      "vol_ratio": 8.3,
+      "chg_1d": 21.96,
+      "vol_ratio": 9.5,
       "warum": [
-        "Stan Druckenmiller Reveals $23 Million PURR Bet as Hyperliquid Takes On Polymark",
-        "Hyperliquid Strategies (PURR) Is Down 14.6% After Gamma Squeeze Speculation and "
+        "BioNTech Stock Surges 22% on Moderna Cancer Vaccine Win. Why the Gains Could Fad",
+        "How Moderna’s Cancer Breakthrough Reversed Its Fortunes and Revived the Stock"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -4777,15 +4811,15 @@
       ],
       "news": [
         {
-          "title": "Stan Druckenmiller Reveals $23 Million PURR Bet as Hyperliquid Takes On Polymarket",
-          "link": "https://www.benzinga.com/markets/prediction-markets/26/08/61251896/stan-druckenmiller-hyperliquid-bet?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-          "date": "Mon, 17 Aug 2026",
-          "tone": "neu"
+          "title": "BioNTech Stock Surges 22% on Moderna Cancer Vaccine Win. Why the Gains Could Fade.",
+          "link": "https://finance.yahoo.com/m/54926def-c88c-3783-9c11-a0a6c00b7bed/biontech-stock-surges-22%25-on.html?.tsrc=rss",
+          "date": "Wed, 19 Aug 2026",
+          "tone": "pos"
         },
         {
-          "title": "Hyperliquid Strategies (PURR) Is Down 14.6% After Gamma Squeeze Speculation and Index Inclusion Buzz – What's Changed",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/hyperliquid-strategies-purr-down-14-021310465.html?.tsrc=rss",
-          "date": "Sat, 06 Jun 2026",
+          "title": "How Moderna’s Cancer Breakthrough Reversed Its Fortunes and Revived the Stock",
+          "link": "https://finance.yahoo.com/m/46ee6bad-a1ca-3803-901e-a9bb055a64e6/how-moderna%E2%80%99s-cancer.html?.tsrc=rss",
+          "date": "Wed, 19 Aug 2026",
           "tone": "neu"
         }
       ]
@@ -4909,9 +4943,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSGxnUllxSFhIYjNTbTRmRk5TbFpQd250aktDVWhZRkIyRkpIbkdka1FveVo0bmdSNXJLYzRBQWlncFdiNEFacEp5eWNLYnF2UUR0cTBaUWZwYmlaN19YcF9leDZIaHIzNENiLWJUWnhGVWZfd3FzdXJNdmtCWmo1TDhnT1RfNEc1Vmp0T04xaEhxQi1MMTVJNExWc0RzZEVKN3FMZlliRzJ2eTg5SjZzdzFfcGxBeFoxVjF5Z1VPNHVBMzJYbjBqQURCY1NnTzhXZ2EySXFYQQ?oc=5",
-      "date": "Thu, 20 Aug 2026",
-      "headline": "Hong Kong conglomerate seeks $1.5 billion in damages from Panama for takeover of canal ports - WKMG",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdmw1dFdaTm0wd0gybUJrYnBVdDkwX0xXYXdlNTdRNnFhWS1YMGtnOGVsNDQwc0diMlJ4Q21McFNTWnRUVEl3WER5LXlOMFBNZHR5Umx0Z2poMG5zMDlDOHlNOU8zV0JDaWtVQUlhNDR3Z3VfdjU0NnlqVTlwOWZoNVlzX3BQYkpSNld4OFF6bldmNUlnSVpCY3B4ZHhlS2JOUVBybEpYOA?oc=5",
+      "date": "Mon, 17 Aug 2026",
+      "headline": "Paramount seeks $1.88 billion bond from state AGs over merger lawsuit - reuters.com",
       "source": "Google News"
     }
   ]
