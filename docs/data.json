@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:11:57.610865+00:00",
+  "generated_at": "2026-08-22T16:12:39.490666+00:00",
   "total_posts": 250,
   "unique_tickers": 226,
   "subreddits": [
@@ -33,7 +33,7 @@
       "confidence": 70,
       "sentiment": -1,
       "mentions": 7,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 14,
       "sources": [
         "wallstreetbets",
@@ -712,7 +712,6 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "🎯 Optionen & Short-Interest",
         "News: ARCT Surges Over 60% Toward Best Week In Year As Moderna Cancer Win Li"
       ],
@@ -740,21 +739,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 26,
+      "quality_pct": 22,
       "reddit_vs_markt": {
         "reddit": 51,
         "markt": 100,
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-22T04:22:39.521389+00:00",
-          "ticker": "MRNA",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 12,
-          "price": 145.13
-        },
         {
           "ts": "2026-08-22T06:22:25.769859+00:00",
           "ticker": "MRNA",
@@ -789,6 +780,14 @@
         },
         {
           "ts": "2026-08-22T14:11:57.610865+00:00",
+          "ticker": "MRNA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 14,
+          "price": 145.13
+        },
+        {
+          "ts": "2026-08-22T16:12:39.490666+00:00",
           "ticker": "MRNA",
           "rec": "beobachten",
           "confidence": 70,
@@ -1468,34 +1467,34 @@
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
+          "title": "Nvidia Stock Doesn’t Look as Expensive as You Think",
+          "link": "https://247wallst.com/investing/2026/08/22/nvidia-stock-doesnt-look-as-expensive-as-you-think/?.tsrc=rss",
+          "date": "Sat, 22 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
           "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html?.tsrc=rss",
           "date": "Sat, 22 Aug 2026",
           "tone": "pos"
         },
         {
-          "title": "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
-          "link": "https://www.fool.com/investing/2026/08/22/forget-yield-trap-coca-cola-best-dividend-stock/?.tsrc=rss",
+          "title": "Forget Rate Hikes. These 3 Vanguard ETFs Could Be Better Positioned for What Comes Next.",
+          "link": "https://www.fool.com/investing/2026/08/22/forget-rate-hikes-3-vanguard-etfs-better-next/?.tsrc=rss",
           "date": "Sat, 22 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "India Leaves the Door Ajar for China’s Investors",
-          "link": "https://app.moby.co/home/news/news-india-leaves-the-door-ajar-for-chinas-investors?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+          "title": "Peter Lynch Beat the S&P 500 in 11 of His 13 Years Running Magellan. Here's Why He Says \"Turning Over the Most Rocks\" Is the Key to Winning.",
+          "link": "https://www.fool.com/investing/2026/08/22/peter-lynch-beat-the-sp-500-in-11-of-his-13-years/?.tsrc=rss",
           "date": "Sat, 22 Aug 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
-          "title": "Prediction: This Artificial Intelligence (AI) Semiconductor Stock Will Outperform Nvidia Over the Next 3 Years",
-          "link": "https://www.fool.com/investing/2026/08/22/prediction-this-artificial-intelligence-ai-semicon/?.tsrc=rss",
+          "title": "Can Bloom Energy Keep Beating the Market?",
+          "link": "https://www.fool.com/investing/2026/08/22/can-bloom-energy-keep-beating-the-market/?.tsrc=rss",
           "date": "Sat, 22 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Where Will This Vanguard ETF, Loaded With Nvidia and Broadcom, Be in 10 Years?",
-          "link": "https://www.fool.com/investing/2026/08/22/where-will-this-vanguard-etf-loaded-with-nvidia-an/?.tsrc=rss",
-          "date": "Sat, 22 Aug 2026",
-          "tone": "neu"
+          "tone": "pos"
         }
       ],
       "comparison": {
@@ -1512,7 +1511,7 @@
       "gruende": [
         "💰 Einstiegs-Debatte",
         "📈 Wachstums-Story",
-        "News: Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings L"
+        "News: Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; N"
       ],
       "momentum": 50,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1545,14 +1544,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-22T04:22:39.521389+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 60,
-          "engagement": 29,
-          "price": 214.72
-        },
         {
           "ts": "2026-08-22T06:22:25.769859+00:00",
           "ticker": "NVDA",
@@ -1592,6 +1583,14 @@
           "confidence": 60,
           "engagement": 29,
           "price": 214.72
+        },
+        {
+          "ts": "2026-08-22T16:12:39.490666+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 60,
+          "engagement": 29,
+          "price": 214.72
         }
       ]
     },
@@ -1603,7 +1602,7 @@
       "confidence": 60,
       "sentiment": 5,
       "mentions": 4,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 19,
       "sources": [
         "Mauerstrassenwetten"
@@ -2291,7 +2290,6 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest",
         "News: 1 Profitable Stock with Exciting Potential and 2 We Question",
@@ -2321,21 +2319,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 37,
+      "quality_pct": 32,
       "reddit_vs_markt": {
         "reddit": 60,
         "markt": 34,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-22T04:22:39.521389+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 51,
-          "engagement": 14,
-          "price": 80.78
-        },
         {
           "ts": "2026-08-22T06:22:25.769859+00:00",
           "ticker": "BYD",
@@ -2375,6 +2365,14 @@
           "confidence": 60,
           "engagement": 19,
           "price": 80.78
+        },
+        {
+          "ts": "2026-08-22T16:12:39.490666+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 60,
+          "engagement": 19,
+          "price": 80.78
         }
       ]
     },
@@ -2386,7 +2384,7 @@
       "confidence": 84,
       "sentiment": 3,
       "mentions": 4,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 13,
       "sources": [
         "Mauerstrassenwetten"
@@ -3075,7 +3073,6 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
@@ -3103,7 +3100,7 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 28,
+      "quality_pct": 24,
       "reddit_vs_markt": {
         "reddit": 60,
         "markt": 54,
@@ -3112,6 +3109,14 @@
       "verlauf": [
         {
           "ts": "2026-08-22T14:11:57.610865+00:00",
+          "ticker": "SAIC",
+          "rec": "kaufen",
+          "confidence": 84,
+          "engagement": 13,
+          "price": 128.04
+        },
+        {
+          "ts": "2026-08-22T16:12:39.490666+00:00",
           "ticker": "SAIC",
           "rec": "kaufen",
           "confidence": 84,
@@ -3128,7 +3133,7 @@
       "confidence": 56,
       "sentiment": 5,
       "mentions": 3,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 18,
       "sources": [
         "Mauerstrassenwetten"
@@ -3204,7 +3209,6 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
@@ -3232,7 +3236,7 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 38,
+      "quality_pct": 34,
       "reddit_vs_markt": {
         "reddit": 64,
         "markt": 50,
@@ -3241,6 +3245,14 @@
       "verlauf": [
         {
           "ts": "2026-08-22T14:11:57.610865+00:00",
+          "ticker": "BMW",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 18,
+          "price": null
+        },
+        {
+          "ts": "2026-08-22T16:12:39.490666+00:00",
           "ticker": "BMW",
           "rec": "beobachten",
           "confidence": 56,
@@ -3257,7 +3269,7 @@
       "confidence": 56,
       "sentiment": 6,
       "mentions": 3,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 17,
       "sources": [
         "Mauerstrassenwetten"
@@ -3333,7 +3345,6 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
@@ -3361,7 +3372,7 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 38,
+      "quality_pct": 34,
       "reddit_vs_markt": {
         "reddit": 83,
         "markt": 50,
@@ -3370,6 +3381,14 @@
       "verlauf": [
         {
           "ts": "2026-08-22T14:11:57.610865+00:00",
+          "ticker": "SUV",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 17,
+          "price": null
+        },
+        {
+          "ts": "2026-08-22T16:12:39.490666+00:00",
           "ticker": "SUV",
           "rec": "beobachten",
           "confidence": 56,
@@ -3385,66 +3404,11 @@
     "rate_kaufen": 0,
     "rate_verkaufen": null,
     "rate_beobachten": 98,
-    "kauf_perf_7d": -1.7,
+    "kauf_perf_7d": -1.9,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
     {
-      "ts": "2026-08-15T00:41:15.394864+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 66,
-      "engagement": 31,
-      "price": 225.16,
-      "chg_since": -4.64,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-15T00:41:15.394864+00:00",
-      "ticker": "AMZN",
-      "rec": "beobachten",
-      "confidence": 57,
-      "engagement": 30,
-      "price": 262.65,
-      "chg_since": -1.53,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-15T00:41:15.394864+00:00",
-      "ticker": "AAPL",
-      "rec": "beobachten",
-      "confidence": 73,
-      "engagement": 30,
-      "price": 305.93,
-      "chg_since": 1.12,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-15T00:41:15.394864+00:00",
-      "ticker": "MSCI",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 13,
-      "price": 569.13,
-      "chg_since": -0.99,
-      "correct": true,
-      "age_days": 7
-    },
-    {
-      "ts": "2026-08-15T00:41:15.394864+00:00",
-      "ticker": "MSFT",
-      "rec": "kaufen",
-      "confidence": 87,
-      "engagement": 27,
-      "price": 495.4,
-      "chg_since": -2.45,
-      "correct": false,
-      "age_days": 7
-    },
-    {
       "ts": "2026-08-15T02:43:42.143656+00:00",
       "ticker": "NVDA",
       "rec": "beobachten",
@@ -3820,6 +3784,61 @@
     },
     {
       "ts": "2026-08-15T14:12:51.970203+00:00",
+      "ticker": "MSFT",
+      "rec": "kaufen",
+      "confidence": 87,
+      "engagement": 27,
+      "price": 495.4,
+      "chg_since": -2.45,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-15T16:12:54.007711+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 66,
+      "engagement": 31,
+      "price": 225.16,
+      "chg_since": -4.64,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-15T16:12:54.007711+00:00",
+      "ticker": "AAPL",
+      "rec": "beobachten",
+      "confidence": 73,
+      "engagement": 30,
+      "price": 305.93,
+      "chg_since": 1.12,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-15T16:12:54.007711+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 30,
+      "price": 262.65,
+      "chg_since": -1.53,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-15T16:12:54.007711+00:00",
+      "ticker": "MSCI",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 13,
+      "price": 569.13,
+      "chg_since": -0.99,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-08-15T16:12:54.007711+00:00",
       "ticker": "MSFT",
       "rec": "kaufen",
       "confidence": 87,
@@ -3840,7 +3859,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Tucker Carlson just met with Lightweight “Former” Congressman, Thomas Massie, and Marjorie “Traitor” Greene, LOSERS ALL! Tucker’s “Views” have fallen through the floor, and will only get worse. Nobody cares about him any longer in that he has become totally irrelevant, and happens to be, surprisingly, a very Low I.Q. individual. He could barely get out of College, and maybe he didn’t, but only rea",
@@ -4009,6 +4028,20 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMTdqcDM3YUNWTWlBSzZFZDZhd3R5YWs0MW9lUWxObFVrc1Ewd1lybUg5WEVSUk1aZF93a1NyT0VQSTN4N05vXzB4MkQ0Zm4tNWttdWJrVDBrbVRLNjhfN0lPOGpSRk83cjNoU2F0Mk8tc21teXRxRTExcld3V09ZSmJxYm5sRGVrQm1GSjh0TDc2QWFsekgyVW03ZXh5STVZbjlHbkVHbUJkUdIBrwFBVV95cUxQX25iOTZDdzZ2cmVYQTNWc0xVdkp3aEhHVy1JOGtNTEdYZWdIdW5iOHJUazZ2aDd1RS10eVdfdnpwMUdXalU0bEd2WjFGRmVad09SMGpMeWpfZnNlYTVReDk0Z2pGUlYwTThtdldoQ2xFbFBMNTJrS0JRSGE2QW9rdGUtSHFOVFFmcTh4b1YwTGlXdHFBUFNMY0lpbU5JY2RBSG5ERy1MRGthSktPcjdj?oc=5",
+      "date": "Sat, 22 Aug 2026",
+      "headline": "Monte Dei Paschi Launches $40 Billion Of Takeover Bids For Banco BPM And Banca Generali - Pulse 2.0",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUVVkNEJzQVBkWGVOd25UeUdxWV9hbEpsQ2RWcHl4MDFxek5hcGo1Yl9UUk8wekRVdUQ5VENQWEdLRFQ2SHA2Mjd0S2dfUUktNTh5ZjBva1BIN0JlcUgySnZRSk5oeExNU2wzTXlfaUczX0FaT3BTUHQzTVJkd2l1SE53TFlmMVlmU2dHVXZfVzJSZw?oc=5",
       "date": "Fri, 21 Aug 2026",
       "headline": "Cox, Spectrum complete multi-billion dollar merger - WOWT",
@@ -4026,20 +4059,6 @@
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORzZSaGpOLXY3dTl3UlB5anVDdzRIbXA1RmJjNXF5NUFtZFg2OWdVWmVMd0c5ZnZ5Y2tCQU1VU0x4aHJBbFNMZnBYbzBqSlF0bHJqZVloWkhTQm8yTjBaVW9MSHNTUVQ3ZjE5YWdUcmJYT3dFSkVxUXUyRmNPLS1LM080dEI4WHdzMXpRYjliNU5QWFJUNXlIV3daU0tGZlktVGlqazZLR3oyNXlOMVpxTjVEckE2Y3NhT2FiWktFcDZmQzd6MWxobEdOQUlKNUJJTTlzQjFTTQ?oc=5",
       "date": "Sat, 22 Aug 2026",
       "headline": "South African businessman set to join Abu Dhabi’s $1 billion takeover of Shell’s 580 petrol stations - Business Insider Africa",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WMF9JVldSWTZ2X0xIdzdPUnprX2Z3clV1Z1NnY2JYX2xtUW83RHV2ZUU1VDh3NWFYRWRSd1diZVoyYUpEOXRjX1RNTFdQa1lLRklEMUkyZEtIV1VTdGhv?oc=5",
-      "date": "Mon, 17 Aug 2026",
-      "headline": "Evidence of a massive accretion event 1.8 billion years before the Gaia-Sausage-Enceladus merger - Nature",
       "source": "Google News"
     }
   ]
