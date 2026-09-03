@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T23:41:14.230744+00:00",
+  "generated_at": "2026-09-03T02:07:07.424455+00:00",
   "total_posts": 250,
-  "unique_tickers": 139,
+  "unique_tickers": 137,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,20 +33,24 @@
       "confidence": 64,
       "sentiment": 1,
       "mentions": 4,
-      "mentions_delta": 2,
+      "mentions_delta": 0,
       "engagement": 7,
       "sources": [
         "wallstreetbets"
       ],
       "titles": [
         "Holding 80% of my portfolio in AVGO going into earnings.",
-        "Can we turn on the money printer tomorrow?",
-        "AVGO Buy before ER"
+        "AVGO 700K YOLO - Am I cooked?",
+        "Can we turn on the money printer tomorrow?"
       ],
       "top_posts": [
         {
           "title": "Holding 80% of my portfolio in AVGO going into earnings.",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1w5iy0r/holding_80_of_my_portfolio_in_avgo_going_into/"
+        },
+        {
+          "title": "AVGO 700K YOLO - Am I cooked?",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1w5qn81/avgo_700k_yolo_am_i_cooked/"
         },
         {
           "title": "Can we turn on the money printer tomorrow?",
@@ -55,10 +59,6 @@
         {
           "title": "AVGO Buy before ER",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1w5eud6/avgo_buy_before_er/"
-        },
-        {
-          "title": "AVGO 700K YOLO - Am I cooked?",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1w5qn81/avgo_700k_yolo_am_i_cooked/"
         }
       ],
       "topics": [
@@ -660,7 +660,7 @@
           },
           {
             "t": 1788148800,
-            "c": 369.68
+            "c": 367.24
           },
           {
             "t": 1788379201,
@@ -693,15 +693,15 @@
           "tone": "neg"
         },
         {
-          "title": "Broadcom Earnings: AI Chip Sales Tripled. Here’s the $34.8 Billion Number Investors Need to Watch.",
-          "link": "https://www.fool.com/investing/2026/09/02/broadcom-earnings-ai-chip-sales-tripled-here-s-the-usd34-8-billion-number-investors-need-to-watch/?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
+          "title": "Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cybercab Event Due",
+          "link": "https://finance.yahoo.com/m/1d7123ac-a008-32ff-9bbd-f00beb6c5dbf/dow-jones-futures%3A-snowflake%2C.html?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Broadcom Q3 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/transcript-broadcom-q3-earnings-call-highlights-2026-09-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
+          "title": "US Stock Futures Rangebound After S&P 500, Dow Snap Three-Day Losing Streak As Oil Steadies — MSFT, DELL, UBER, ASTS, AVGO In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-rangebound-after-s-and-p-500-dow-snap-three-day-losing-streak-as-oil-steadies-msft-dell-uber-asts-avgo-in-focus/cZsMh2WRJHh?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
           "tone": "neu"
         }
       ],
@@ -712,12 +712,11 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Broadcom Inc. aktuell gemischt (4 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Broadcom Inc. aktuell gemischt (4 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +2 gegenüber dem letzten Scan",
         "📊 Quartalszahlen",
         "💰 Einstiegs-Debatte",
         "News: Broadcom stock slips as chipmaker's strong results 'not enough to keep",
@@ -725,12 +724,8 @@
       ],
       "momentum": 92,
       "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 300,
+      "growth_pct": 200,
       "timeline": [
-        {
-          "day": "2026-08-30",
-          "mentions": 0
-        },
         {
           "day": "2026-08-31",
           "mentions": 0
@@ -742,12 +737,16 @@
         {
           "day": "2026-09-02",
           "mentions": 4
+        },
+        {
+          "day": "2026-09-03",
+          "mentions": 4
         }
       ],
       "hype_typ": "hype",
       "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
       "quality_grade": "D",
-      "quality_pct": 14,
+      "quality_pct": 6,
       "reddit_vs_markt": {
         "reddit": 92,
         "markt": 63,
@@ -756,6 +755,14 @@
       "verlauf": [
         {
           "ts": "2026-09-02T23:41:14.230744+00:00",
+          "ticker": "AVGO",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 367.24
+        },
+        {
+          "ts": "2026-09-03T02:07:07.424455+00:00",
           "ticker": "AVGO",
           "rec": "beobachten",
           "confidence": 64,
@@ -849,14 +856,10 @@
         "💰 Einstiegs-Debatte",
         "📈 Wachstums-Story"
       ],
-      "momentum": 47,
+      "momentum": 49,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": -18,
+      "growth_pct": -10,
       "timeline": [
-        {
-          "day": "2026-08-30",
-          "mentions": 4
-        },
         {
           "day": "2026-08-31",
           "mentions": 4
@@ -868,6 +871,10 @@
         {
           "day": "2026-09-02",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-03",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
@@ -875,19 +882,11 @@
       "quality_grade": "D",
       "quality_pct": 34,
       "reddit_vs_markt": {
-        "reddit": 47,
+        "reddit": 49,
         "markt": 50,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-02T02:02:18.093396+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 17,
-          "price": null
-        },
         {
           "ts": "2026-09-02T08:14:08.057643+00:00",
           "ticker": "KGV",
@@ -922,6 +921,14 @@
         },
         {
           "ts": "2026-09-02T23:41:14.230744+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 17,
+          "price": null
+        },
+        {
+          "ts": "2026-09-03T02:07:07.424455+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
           "confidence": 56,
@@ -1320,10 +1327,6 @@
             "c": 22.7
           },
           {
-            "t": 1787923800,
-            "c": 22.43
-          },
-          {
             "t": 1788183000,
             "c": 23.44
           },
@@ -1363,11 +1366,11 @@
           },
           {
             "t": 1787544000,
-            "c": 22.43
+            "c": 22.7
           },
           {
             "t": 1788148800,
-            "c": 22.42
+            "c": 23.42
           },
           {
             "t": 1788379200,
@@ -1375,10 +1378,10 @@
           }
         ],
         "chg_1d": 4.79,
-        "chg_7d": 8.23,
+        "chg_7d": 6.02,
         "chg_1mo": 25.44,
         "chg_1y": 0.52,
-        "sma20_dist": 7.74
+        "sma20_dist": 8.16
       },
       "news": [
         {
@@ -1415,9 +1418,9 @@
       "comparison": {
         "verdict": "bestätigt",
         "points": [
-          "Kurs +8.23% über 7 Tage – Aufwärtsmomentum.",
+          "Kurs +6.02% über 7 Tage – Aufwärtsmomentum.",
           "Starker Monat: +25.44%.",
-          "+7.74% über SMA20 – kurzfristig evtl. überkauft.",
+          "+8.16% über SMA20 – kurzfristig evtl. überkauft.",
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
@@ -1428,14 +1431,10 @@
       "gruende": [
         "💰 Einstiegs-Debatte"
       ],
-      "momentum": 63,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 29,
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 13,
       "timeline": [
-        {
-          "day": "2026-08-30",
-          "mentions": 2
-        },
         {
           "day": "2026-08-31",
           "mentions": 2
@@ -1447,6 +1446,10 @@
         {
           "day": "2026-09-02",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-03",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
@@ -1454,19 +1457,11 @@
       "quality_grade": "D",
       "quality_pct": 34,
       "reddit_vs_markt": {
-        "reddit": 63,
-        "markt": 82,
+        "reddit": 59,
+        "markt": 74,
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-02T02:02:18.093396+00:00",
-          "ticker": "SK",
-          "rec": "kaufen",
-          "confidence": 78,
-          "engagement": 7,
-          "price": 22.42
-        },
         {
           "ts": "2026-09-02T08:14:08.057643+00:00",
           "ticker": "SK",
@@ -1506,6 +1501,14 @@
           "confidence": 78,
           "engagement": 7,
           "price": 23.42
+        },
+        {
+          "ts": "2026-09-03T02:07:07.424455+00:00",
+          "ticker": "SK",
+          "rec": "kaufen",
+          "confidence": 78,
+          "engagement": 7,
+          "price": 23.42
         }
       ]
     },
@@ -1517,7 +1520,7 @@
       "confidence": 61,
       "sentiment": 1,
       "mentions": 3,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 4,
       "sources": [
         "wallstreetbets",
@@ -2125,7 +2128,7 @@
           },
           {
             "t": 1788148800,
-            "c": 425.0
+            "c": 492.2
           },
           {
             "t": 1788379487,
@@ -2140,6 +2143,24 @@
       },
       "news": [
         {
+          "title": "Dell Technologies (DELL) Raises the Bar Again as AI Demand Fuels Another Strong Quarter",
+          "link": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-dell-raises-bar-014353245.html?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "US Stock Futures Rangebound After S&P 500, Dow Snap Three-Day Losing Streak As Oil Steadies — MSFT, DELL, UBER, ASTS, AVGO In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-rangebound-after-s-and-p-500-dow-snap-three-day-losing-streak-as-oil-steadies-msft-dell-uber-asts-avgo-in-focus/cZsMh2WRJHh?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Trump Accounts Get Major Corporate Boost: American Airlines Offers $1,000 Match, Dell Starts $250 Payments",
+          "link": "https://finance.yahoo.com/small-business/articles/trump-accounts-major-corporate-boost-233047485.html?.tsrc=rss",
+          "date": "Wed, 02 Sep 2026",
+          "tone": "pos"
+        },
+        {
           "title": "Stock Market Today, Sept. 2: Dell Helps Stocks Edge Higher Despite Geopolitical Tensions",
           "link": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-helps-stocks-edge-higher-despite-geopolitical-tensions/?.tsrc=rss",
           "date": "Wed, 02 Sep 2026",
@@ -2150,24 +2171,6 @@
           "link": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-surges-16-on-soaring-ai-backlog/?.tsrc=rss",
           "date": "Wed, 02 Sep 2026",
           "tone": "pos"
-        },
-        {
-          "title": "Stock Market Today: Dow Rises Nearly 300 Points; Dell Retakes A Breakout Point (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/cfb2cdec-15e7-3189-8ed9-8dc34c530637/stock-market-today%3A-dow-rises.html?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Why “Phenomenal” Results Still Only Get Dell a Hold Rating",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-phenomenal-results-still-only-203253238.html?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Credo, Dell, Palo Alto, PG&E, Uber, MongoDB, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/ac2d4863-67cf-3a37-9639-c1b87a367e0f/credo%2C-dell%2C-palo-alto%2C-pg%26e%2C.html?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -2184,18 +2187,13 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "💰 Einstiegs-Debatte",
-        "News: Stock Market Today, Sept. 2: Dell Surges 16% on Soaring AI Backlog"
+        "News: Dell Technologies (DELL) Raises the Bar Again as AI Demand Fuels Anoth"
       ],
-      "momentum": 66,
+      "momentum": 61,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 50,
+      "growth_pct": 29,
       "timeline": [
-        {
-          "day": "2026-08-30",
-          "mentions": 2
-        },
         {
           "day": "2026-08-31",
           "mentions": 2
@@ -2207,20 +2205,32 @@
         {
           "day": "2026-09-02",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-03",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 18,
+      "quality_pct": 13,
       "reddit_vs_markt": {
-        "reddit": 66,
+        "reddit": 61,
         "markt": 74,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
         {
           "ts": "2026-09-02T23:41:14.230744+00:00",
+          "ticker": "DELL",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 492.2
+        },
+        {
+          "ts": "2026-09-03T02:07:07.424455+00:00",
           "ticker": "DELL",
           "rec": "beobachten",
           "confidence": 61,
@@ -2846,7 +2856,7 @@
           },
           {
             "t": 1788148800,
-            "c": 933.44
+            "c": 956.08
           },
           {
             "t": 1788379201,
@@ -2860,6 +2870,12 @@
         "sma20_dist": 2.53
       },
       "news": [
+        {
+          "title": "Micron's Taiwan Unions Are Asking for a Bonus Worth 83 Months of Pay. A Strike Vote Could Come This Month.",
+          "link": "https://www.fool.com/investing/2026/09/02/micron-s-taiwan-unions-are-asking-for-a-bonus-worth-83-months-of-pay-a-strike-vote-could-come-this-month/?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
+          "tone": "neu"
+        },
         {
           "title": "Billionaire David Tepper Cut Micron 41% and Kept Buying This AI Chip Stock for a Sixth Quarter",
           "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-david-tepper-cut-micron-220154130.html?.tsrc=rss",
@@ -2883,12 +2899,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-rises-taiwan-workers-demand-164555504.html?.tsrc=rss",
           "date": "Wed, 02 Sep 2026",
           "tone": "pos"
-        },
-        {
-          "title": "Dell Called Out the Memory Chip Shortage. Micron Stock Shrugs.",
-          "link": "https://finance.yahoo.com/m/10b4e05f-5a07-377f-9bcf-a436b002445e/dell-called-out-the-memory.html?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -2906,14 +2916,10 @@
       "gruende": [
         "🎯 Optionen & Short-Interest"
       ],
-      "momentum": 52,
+      "momentum": 45,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
+      "growth_pct": -25,
       "timeline": [
-        {
-          "day": "2026-08-30",
-          "mentions": 4
-        },
         {
           "day": "2026-08-31",
           "mentions": 4
@@ -2925,6 +2931,10 @@
         {
           "day": "2026-09-02",
           "mentions": 4
+        },
+        {
+          "day": "2026-09-03",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
@@ -2932,19 +2942,11 @@
       "quality_grade": "D",
       "quality_pct": 17,
       "reddit_vs_markt": {
-        "reddit": 52,
+        "reddit": 45,
         "markt": 57,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-02T02:02:18.093396+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 5,
-          "price": 933.44
-        },
         {
           "ts": "2026-09-02T08:14:08.057643+00:00",
           "ticker": "MU",
@@ -2979,6 +2981,14 @@
         },
         {
           "ts": "2026-09-02T23:41:14.230744+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 956.08
+        },
+        {
+          "ts": "2026-09-03T02:07:07.424455+00:00",
           "ticker": "MU",
           "rec": "beobachten",
           "confidence": 61,
@@ -3081,10 +3091,6 @@
       "growth_pct": 100,
       "timeline": [
         {
-          "day": "2026-08-30",
-          "mentions": 2
-        },
-        {
           "day": "2026-08-31",
           "mentions": 0
         },
@@ -3094,6 +3100,10 @@
         },
         {
           "day": "2026-09-02",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-03",
           "mentions": 2
         }
       ],
@@ -3130,13 +3140,21 @@
           "confidence": 44,
           "engagement": 14,
           "price": null
+        },
+        {
+          "ts": "2026-09-03T02:07:07.424455+00:00",
+          "ticker": "ER",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 14,
+          "price": null
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 50,
-    "n_evaluated": 285,
+    "n_evaluated": 280,
     "rate_kaufen": 48,
     "rate_verkaufen": null,
     "rate_beobachten": 50,
@@ -3153,7 +3171,7 @@
       "price": 309.9,
       "chg_since": 4.86,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-08-26T00:42:38.033458+00:00",
@@ -3164,7 +3182,7 @@
       "price": 81.11,
       "chg_since": -5.44,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-08-26T00:42:38.033458+00:00",
@@ -3175,7 +3193,7 @@
       "price": 570.05,
       "chg_since": 4.0,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-08-26T02:56:44.358632+00:00",
@@ -3604,7 +3622,7 @@
           }
         ],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Now that we have it under U.S.A. control, should we change the name Hormuz Strait to TRUMP STRAIT??? Like America itself, it would be “hotter” than ever before! Thank you for your attention to this matter. President DONALD J. TRUMP",
@@ -3675,29 +3693,51 @@
         "companies": [],
         "policy": [],
         "is_new": false
-      },
-      {
-        "text": "Mamma mia! How a panic over pasta prices prompted a Trump tariff retreat. - Politico",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQWFPQzhpOG16SGliUHdzMlg1dFRneUVqdDU1d2dGRENSWGNwcGFjb21pdXRDbDB2eXkzYS02akpMLTFvNW90UEc0ZE1wNE55d216UWlYZWUxazR6ajNqczVHVV9BMkhoYXpSRVlVVXNQQ0sxOTF3M0FGZ2hxbS1oZUV0RW9VbkNEMThN?oc=5",
-        "date": "Wed, 02 Sep 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Zölle"
-        ],
-        "is_new": true
       }
     ],
-    "market_hits": 4
+    "market_hits": 3
   },
   "spannende_aktien": [
+    {
+      "ticker": "EOSE",
+      "name": "Eos Energy Enterprises, Inc.",
+      "price": 3.61,
+      "currency": "USD",
+      "chg_1d": 18.75,
+      "vol_ratio": 3.0,
+      "warum": [
+        "Stock Market Today, Sept. 2: Eos Energy Surges 19% on Google Partnership for $35",
+        "This Energy Storage Stock Jumps on Deal to Power Google Data Centers"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Stock Market Today, Sept. 2: Eos Energy Surges 19% on Google Partnership for $350M West Virginia Project",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-eos-energy-surges-19-on-google-partnership-for-usd350m-west-virginia-project/?.tsrc=rss",
+          "date": "Wed, 02 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "This Energy Storage Stock Jumps on Deal to Power Google Data Centers",
+          "link": "https://finance.yahoo.com/m/8434188d-e61f-31ad-8056-2951d21907c1/this-energy-storage-stock.html?.tsrc=rss",
+          "date": "Wed, 02 Sep 2026",
+          "tone": "pos"
+        }
+      ]
+    },
     {
       "ticker": "CHPT",
       "name": "ChargePoint Holdings, Inc.",
       "price": 5.19,
       "currency": "USD",
       "chg_1d": -2.08,
-      "vol_ratio": 4.0,
+      "vol_ratio": 4.3,
       "warum": [
         "ChargePoint Q2 Earnings Call Highlights",
         "ChargePoint Holdings, Inc. (CHPT) Reports Q2 Loss, Beats Revenue Estimates"
@@ -3729,10 +3769,10 @@
       "price": 51.83,
       "currency": "USD",
       "chg_1d": 1.89,
-      "vol_ratio": 3.6,
+      "vol_ratio": 3.7,
       "warum": [
         "Snowflake (SNOW) price skyrockets after posting strong quarterly results",
-        "Hewlett Packard Enterprise Q3 Earnings Call Highlights"
+        "HPE Delivers A Blowout Quarter And Raises Guidance — Shares Still Fall"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -3748,10 +3788,10 @@
           "tone": "pos"
         },
         {
-          "title": "Hewlett Packard Enterprise Q3 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/transcript-hewlett-packard-enterprise-q3-earnings-call-highlights-2026-09-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "title": "HPE Delivers A Blowout Quarter And Raises Guidance — Shares Still Fall",
+          "link": "https://stocktwits.com/news-articles/markets/equity/hpe-delivers-a-blowout-quarter-and-raises-guidance-shares-still-fall/cZsr4OpRJHX?.tsrc=rss",
           "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
+          "tone": "pos"
         }
       ]
     },
@@ -3761,10 +3801,10 @@
       "price": 305.84,
       "currency": "USD",
       "chg_1d": -4.37,
-      "vol_ratio": 2.5,
+      "vol_ratio": 2.6,
       "warum": [
-        "Snowflake Q2 Earnings Call Highlights",
-        "Snowflake Inc. Q2 2027 Earnings: Live Updates of $SNOW Earnings Call, Forecast"
+        "Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cyber",
+        "SNOW Stock Rallies 23% After-Hours As AI Coding Tool Fuels Revenue Growth, Aids "
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -3774,16 +3814,16 @@
       ],
       "news": [
         {
-          "title": "Snowflake Q2 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/transcript-snowflake-q2-earnings-call-highlights-2026-09-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
+          "title": "Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cybercab Event Due",
+          "link": "https://finance.yahoo.com/m/1d7123ac-a008-32ff-9bbd-f00beb6c5dbf/dow-jones-futures%3A-snowflake%2C.html?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Snowflake Inc. Q2 2027 Earnings: Live Updates of $SNOW Earnings Call, Forecast",
-          "link": "https://www.thestreet.com/latest-news/snowflake-inc-snow-q2-2027-earnings-updates?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
+          "title": "SNOW Stock Rallies 23% After-Hours As AI Coding Tool Fuels Revenue Growth, Aids Raised Outlook",
+          "link": "https://stocktwits.com/news-articles/markets/equity/snow-stock-rallies-23-after-hours-as-ai-coding-tool-fuels-revenue-growth-aids-raised-outlook/cZsMWCWRJHg?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
+          "tone": "pos"
         }
       ]
     },
@@ -3793,7 +3833,7 @@
       "price": 26.53,
       "currency": "USD",
       "chg_1d": 2.79,
-      "vol_ratio": 2.7,
+      "vol_ratio": 3.1,
       "warum": [
         "Why Did RARE Stock Slump 46% After-Hours?",
         "Ultragenyx Announces Phase 3 Aspire results in Angelman Syndrome"
@@ -3818,40 +3858,23 @@
           "tone": "neu"
         }
       ]
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "price": 169.46,
-      "currency": "USD",
-      "chg_1d": -5.81,
-      "vol_ratio": 0.9,
-      "warum": [
-        "Palantir Shares Sink Despite $192 Million Army Contract",
-        "Palantir Stock Gets New Problem From Google"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Palantir Shares Sink Despite $192 Million Army Contract",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-shares-sink-despite-192-203219324.html?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Palantir Stock Gets New Problem From Google",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-gets-problem-google-203038795.html?.tsrc=rss",
-          "date": "Wed, 02 Sep 2026",
-          "tone": "neu"
-        }
-      ]
     }
   ],
   "ma_deals": [
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://www.ft.com/content/16034441-608c-42de-90ff-1a2b7607fc79?syn-25a6b1a6=1",
+      "date": "Wed, 02 Sep 2026",
+      "headline": "Elliott builds stake in Deutsche Telekom and opposes T-Mobile US merger",
+      "source": "FT"
+    },
     {
       "kaeufer": "",
       "ziel": "",
@@ -3875,23 +3898,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaFdLWlNUeWszSTVVVmU5MGplM2d0eGplYW9JLTFDTnZaSXZoSkkydTZtd013ZUJTa0NSUWRCVkU5RF9yVkdKY1FYdlVXbGZhM0NQYldIaGZjTnBKaXdOSmZZLU1VSURxeWRvbjhTaWJqT0NsMERFckZOcDFSX2M3MUpORjduNHM2dWFJR0hBX0VoRmtNVmlVVmRFa1R2M1BqaVVEQkN6OFIzZFNCMnpkV3dBTjA5YWk3aVZhZlRMTGQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc3ZuTmV5M01oODJXeEhaTjZ5emlYeENNNHluUk14SHF4dzNuSHFMT2VMaldEZTJFb3NWRGJlMjc2OEJEVFctSmkzYWNta2ZwczNBNUFpR0VoaVJIckZxMUxna3RiTThNX3BNMW9xMHJ0Z2NfVHJid0dMaXJWNUFaQ2ttZG9SdWp2R1E1U2MtUFRWQS1BamI3Nm0xTWkzaFVzV2lGLW9fS2VPM2t5WXAzTWpFaEZlOTR1b29aVnZmRkc?oc=5",
       "date": "Wed, 02 Sep 2026",
-      "headline": "Cramer Says This Software Giant Is Fighting a Takeover With a $4 Billion Buyback - 24/7 Wall St.",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOGJFbkxiRmVGY1V1TGVGQjVXVlVSZWFDT2NoVmpDUEs5b2lJQkNILUk3TXNLSVRDcTZJSTlENzlfQmdFX2p1WXVycWpuazZrb0pfeklIbFpxT2kxVGhXZWJKQ2JxRUpIRmcxRVpHbHZRUGhNSFZSWGt1OUNzNk92cEhBVWRvc3B2U3RQcGtvbld0cFhTTk8wUmpJNTNCUQ?oc=5",
-      "date": "Wed, 02 Sep 2026",
-      "headline": "St. Pete potential takeover of Duke Energy system could cost $4B - The Business Journals",
+      "headline": "Delivery Hero Board Recommends Holders Accept Uber Takeover Bid - Bloomberg.com",
       "source": "Google News"
     },
     {
