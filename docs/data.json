@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T02:08:15.749303+00:00",
+  "generated_at": "2026-09-08T08:26:02.776353+00:00",
   "total_posts": 250,
-  "unique_tickers": 140,
+  "unique_tickers": 142,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,7 +33,7 @@
       "confidence": 58,
       "sentiment": 0,
       "mentions": 3,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 7,
       "sources": [
         "wallstreetbets",
@@ -699,7 +699,6 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "💰 Einstiegs-Debatte",
         "News: Bloom Energy (BE) Joins S&P 500: Can Its AI Rally Continue?"
       ],
@@ -727,21 +726,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 23,
+      "quality_pct": 19,
       "reddit_vs_markt": {
         "reddit": 66,
         "markt": 100,
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-06T21:51:04.725638+00:00",
-          "ticker": "BE",
-          "rec": "beobachten",
-          "confidence": 55,
-          "engagement": 6,
-          "price": 252.87
-        },
         {
           "ts": "2026-09-06T23:21:24.751676+00:00",
           "ticker": "BE",
@@ -776,6 +767,14 @@
         },
         {
           "ts": "2026-09-08T02:08:15.749303+00:00",
+          "ticker": "BE",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 7,
+          "price": 252.87
+        },
+        {
+          "ts": "2026-09-08T08:26:02.776353+00:00",
           "ticker": "BE",
           "rec": "beobachten",
           "confidence": 58,
@@ -1516,14 +1515,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-07T01:56:43.907092+00:00",
-          "ticker": "IREN",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 14,
-          "price": 44.68
-        },
-        {
           "ts": "2026-09-07T06:55:40.397524+00:00",
           "ticker": "IREN",
           "rec": "kaufen",
@@ -1557,6 +1548,14 @@
         },
         {
           "ts": "2026-09-08T02:08:15.749303+00:00",
+          "ticker": "IREN",
+          "rec": "kaufen",
+          "confidence": 84,
+          "engagement": 13,
+          "price": 44.68
+        },
+        {
+          "ts": "2026-09-08T08:26:02.776353+00:00",
           "ticker": "IREN",
           "rec": "kaufen",
           "confidence": 84,
@@ -2319,6 +2318,14 @@
         },
         {
           "ts": "2026-09-08T02:08:15.749303+00:00",
+          "ticker": "ARR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 9,
+          "price": 16.35
+        },
+        {
+          "ts": "2026-09-08T08:26:02.776353+00:00",
           "ticker": "ARR",
           "rec": "beobachten",
           "confidence": 58,
@@ -3093,6 +3100,14 @@
           "confidence": 55,
           "engagement": 8,
           "price": 38.4
+        },
+        {
+          "ts": "2026-09-08T08:26:02.776353+00:00",
+          "ticker": "NKE",
+          "rec": "beobachten",
+          "confidence": 55,
+          "engagement": 8,
+          "price": 38.4
         }
       ]
     },
@@ -3201,14 +3216,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-07T01:56:43.907092+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 7,
-          "price": null
-        },
-        {
           "ts": "2026-09-07T06:55:40.397524+00:00",
           "ticker": "ZL",
           "rec": "beobachten",
@@ -3242,6 +3249,14 @@
         },
         {
           "ts": "2026-09-08T02:08:15.749303+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 7,
+          "price": null
+        },
+        {
+          "ts": "2026-09-08T08:26:02.776353+00:00",
           "ticker": "ZL",
           "rec": "beobachten",
           "confidence": 41,
@@ -3964,14 +3979,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-07T01:56:43.907092+00:00",
-          "ticker": "NG",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 7,
-          "price": 8.07
-        },
-        {
           "ts": "2026-09-07T06:55:40.397524+00:00",
           "ticker": "NG",
           "rec": "beobachten",
@@ -4010,53 +4017,28 @@
           "confidence": 58,
           "engagement": 7,
           "price": 8.07
+        },
+        {
+          "ts": "2026-09-08T08:26:02.776353+00:00",
+          "ticker": "NG",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 7,
+          "price": 8.07
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 50,
-    "n_evaluated": 218,
-    "rate_kaufen": 46,
+    "n_evaluated": 217,
+    "rate_kaufen": 47,
     "rate_verkaufen": null,
     "rate_beobachten": 52,
     "kauf_perf_7d": 2.3,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-08-28T13:33:48.961000+00:00",
-      "ticker": "META",
-      "rec": "kaufen",
-      "confidence": 84,
-      "engagement": 15,
-      "price": 578.21,
-      "chg_since": 6.67,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-08-28T23:18:08.778494+00:00",
-      "ticker": "NVDA",
-      "rec": "kaufen",
-      "confidence": 90,
-      "engagement": 31,
-      "price": 217.55,
-      "chg_since": 5.89,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-08-28T23:18:08.778494+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 5,
-      "price": 932.86,
-      "chg_since": 8.98,
-      "correct": false,
-      "age_days": 10
-    },
     {
       "ts": "2026-08-28T23:18:08.778494+00:00",
       "ticker": "META",
@@ -4077,7 +4059,7 @@
       "price": 227.98,
       "chg_since": 1.04,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-08-29T04:50:21.100751+00:00",
@@ -4088,7 +4070,7 @@
       "price": 935.39,
       "chg_since": 8.68,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-08-29T04:50:21.100751+00:00",
@@ -4099,7 +4081,7 @@
       "price": 571.1,
       "chg_since": 8.0,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-08-29T11:58:47.279193+00:00",
@@ -4220,7 +4202,7 @@
       "price": 217.55,
       "chg_since": 5.89,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-08-30T02:30:54.682529+00:00",
@@ -4231,7 +4213,7 @@
       "price": 932.86,
       "chg_since": 8.98,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-08-30T09:34:50.670195+00:00",
@@ -4341,7 +4323,7 @@
       "price": 217.55,
       "chg_since": 5.89,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-08-31T02:24:47.217008+00:00",
@@ -4352,7 +4334,7 @@
       "price": 932.86,
       "chg_since": 8.98,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-08-31T02:24:47.217008+00:00",
@@ -4363,7 +4345,7 @@
       "price": 35.45,
       "chg_since": 26.04,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-08-31T10:16:08.946053+00:00",
@@ -4463,11 +4445,71 @@
       "chg_since": 20.37,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-09-01T02:41:19.344625+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 12,
+      "price": 220.78,
+      "chg_since": 4.34,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-01T02:41:19.344625+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 5,
+      "price": 958.73,
+      "chg_since": 6.04,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-01T02:41:19.344625+00:00",
+      "ticker": "IREN",
+      "rec": "beobachten",
+      "confidence": 51,
+      "engagement": 12,
+      "price": 37.12,
+      "chg_since": 20.37,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
+      {
+        "text": "[Link geteilt] https://trumpstruth.org/statuses/41633",
+        "url": "https://trumpstruth.org/statuses/41633",
+        "date": "Tue, 08 Sep 2026 01:27",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://trumpstruth.org/statuses/41631",
+        "url": "https://trumpstruth.org/statuses/41631",
+        "date": "Tue, 08 Sep 2026 00:54",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://trumpstruth.org/statuses/41632",
+        "url": "https://trumpstruth.org/statuses/41632",
+        "date": "Tue, 08 Sep 2026 00:53",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
       {
         "text": "Exclusive — Orthodox Patriarch Encourages All World Leaders to Follow Trump, Vance in Visiting Jerusalem’s Church of Holy Sepulchre: ’Heartbeat of Our Faith’: https://www. breitbart.com/politics/2026/09 /07/exclusive-orthodox-patriarch-encourages-all-world-leaders-follow-trump-vance-visiting-jerusalems-church-holy-sepulchre-heartbeat-our-faith/",
         "url": "https://trumpstruth.org/statuses/41629",
@@ -4475,7 +4517,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Oil prices will drop precipitously, like everything else is dropping (but more!), when we WIN the war with Iran. Three Dollars a gallon, but ultimately, below Two Dollars a gallon. It will all happen quickly, and Iran will never have a Nuclear Weapon. MAGA! President DJT",
@@ -4486,7 +4528,7 @@
         "policy": [
           "🏛️ Öl"
         ],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117232228056672165",
@@ -4495,7 +4537,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://trumpstruth.org/statuses/41628",
@@ -4504,7 +4546,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://trumpstruth.org/statuses/41626",
@@ -4513,40 +4555,165 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
+        "is_new": false
+      },
+      {
+        "text": "Donald Trump’s Oil Price Promise Was Just Struck by Houthis Defying Hegseth - Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZHF2bEpTVnB3NkNkZ1FDeG9LNFFBOWNsUVhWMWd4QXNSMl9LZU5wSVhuYVhEU1ZBZUVsU2E0aDJaLWVCMjZyaVU2Zm5reUJOT3ZWUU9Mb0VPRTA4SC14VUQwY3pqVFVVblVUejVOdzd3eG9PQmVFUjUzRjVnUGhqYUVvT044ME1qNXAxSmY0R2w?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Öl"
+        ],
         "is_new": true
-      },
-      {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117231954791116629",
-        "url": "https://trumpstruth.org/statuses/41624",
-        "date": "Mon, 07 Sep 2026 21:47",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://trumpstruth.org/statuses/41625",
-        "url": "https://trumpstruth.org/statuses/41625",
-        "date": "Mon, 07 Sep 2026 21:47",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://trumpstruth.org/statuses/41623",
-        "url": "https://trumpstruth.org/statuses/41623",
-        "date": "Mon, 07 Sep 2026 21:41",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
       }
     ],
-    "market_hits": 1
+    "market_hits": 2
   },
-  "spannende_aktien": [],
+  "spannende_aktien": [
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation",
+      "price": 1740.0,
+      "currency": "USD",
+      "chg_1d": 11.9,
+      "vol_ratio": 1.2,
+      "warum": [
+        "Sandisk Soars Nearly 12% Before Joining the S&P 100",
+        "Micron, SanDisk get new aggressive price targets from top analyst"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "Sandisk Soars Nearly 12% Before Joining the S&P 100",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-soars-nearly-12-joining-215620577.html?.tsrc=rss",
+          "date": "Mon, 07 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Micron, SanDisk get new aggressive price targets from top analyst",
+          "link": "https://www.thestreet.com/investing/stocks/mu-micron-sndk-sandisk-lynx-research-stock-price-targets-september-2026?.tsrc=rss",
+          "date": "Mon, 07 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "price": 158.78,
+      "currency": "USD",
+      "chg_1d": 3.08,
+      "vol_ratio": 1.2,
+      "warum": [
+        "ORCL Stock Rallies Into Earnings Week: OpenAI GPT-6 Astra Buzz, Morgan Stanley’s",
+        "EU regulators send early warning to Oracle ahead of earnings"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "ORCL Stock Rallies Into Earnings Week: OpenAI GPT-6 Astra Buzz, Morgan Stanley’s Big Target Give Bulls A Boost",
+          "link": "https://stocktwits.com/news-articles/markets/equity/orcl-stock-rallies-into-earnings-week-open-ai-gpt-6-astra-buzz-morgan-stanley-s-big-target-give-bulls-a-boost/cZt3SZbRJxA?.tsrc=rss",
+          "date": "Tue, 08 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "EU regulators send early warning to Oracle ahead of earnings",
+          "link": "https://www.thestreet.com/investing/stocks/eu-regulators-warn-oracle-antitrust-ahead-of-earnings?.tsrc=rss",
+          "date": "Tue, 08 Sep 2026",
+          "tone": "neg"
+        }
+      ]
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc.",
+      "price": 177.0,
+      "currency": "USD",
+      "chg_1d": 8.14,
+      "vol_ratio": 1.1,
+      "warum": [
+        "Samsung, SK Hynix Lead Kospi Higher as Wall Street Faces Tough Opening After Lab",
+        "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stac"
+      ],
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "Samsung, SK Hynix Lead Kospi Higher as Wall Street Faces Tough Opening After Labor Day",
+          "link": "https://beincrypto.com/samsung-sk-hynix-lead-kospi-rally/?.tsrc=rss",
+          "date": "Tue, 08 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stack",
+          "link": "https://247wallst.com/investing/2026/09/07/why-micron-and-sk-hynix-sit-in-the-most-valuable-spot-in-the-entire-compute-stack/?.tsrc=rss",
+          "date": "Mon, 07 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 230.36,
+      "currency": "USD",
+      "chg_1d": 0.84,
+      "vol_ratio": 1.1,
+      "warum": [
+        "Jensen Huang Says a 22% Rent Jump Proves Old Nvidia Chips Keep Earning",
+        "Could Buying Nvidia Today Set You Up for Life?"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "Jensen Huang Says a 22% Rent Jump Proves Old Nvidia Chips Keep Earning",
+          "link": "https://beincrypto.com/ai-chip-rental-prices-jensen-huang/?.tsrc=rss",
+          "date": "Tue, 08 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Could Buying Nvidia Today Set You Up for Life?",
+          "link": "https://www.fool.com/investing/2026/09/08/could-buying-nvidia-today-set-you-up-for-life/?.tsrc=rss",
+          "date": "Tue, 08 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    }
+  ],
   "ma_deals": [
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://www.ft.com/content/7c53cee9-3066-4722-acf6-17daa2f54631?syn-25a6b1a6=1",
+      "date": "Tue, 08 Sep 2026",
+      "headline": "EU opens door to bigger corporate mergers",
+      "source": "FT"
+    },
     {
       "kaeufer": "",
       "ziel": "",
@@ -4559,20 +4726,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNelU0R1E2eUVzYUFFM3ZfeXZLNlJ1NHlmODEycFBPZzA0S0c4OHl5YTNyRy16dDZTdmhqU2RwdVIzUUFVcnYyY2hSSV9DR0dwV3ZoOFQtcWhYTG1adEwwWHpvMjVXTjlSQ0RHbGttV25EemEtWXU1THNrMlh3NHRwVDhNV1lEZ1J0VmwwaDA2RlMyZzFJbzRkanllcVN0ZEpSQi10aHluUXhkSzRF?oc=5",
       "date": "Mon, 07 Sep 2026",
       "headline": "EverBank to combine with WaFd in $3.9 billion reverse merger - Reuters",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSE50YVNGbEk4UGlDSWhkTFp4MjVCSEpFNzUzakNaRUtvUTEzRG9vVUFvWW5PQTNwa3FaNlduX0VZQUlSdVg0VkkzRktSaGV0Z2Jhd25UcmRHREJPS2xPcndNeERmelZLYVZLRFBiQVRPTWxxc2pvU2FPZE05TjZGV0lNWGJEZElTOHpBNVBQMVRNaGo0ZGJfN1VJUjZOWjhma0E?oc=5",
-      "date": "Mon, 07 Sep 2026",
-      "headline": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing - WSJ",
       "source": "Google News"
     },
     {
