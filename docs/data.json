@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T02:12:09.549993+00:00",
+  "generated_at": "2026-09-09T08:28:38.050620+00:00",
   "total_posts": 250,
-  "unique_tickers": 149,
+  "unique_tickers": 148,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -748,14 +748,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-08T08:26:02.776353+00:00",
-          "ticker": "IREN",
-          "rec": "kaufen",
-          "confidence": 84,
-          "engagement": 13,
-          "price": 44.68
-        },
-        {
           "ts": "2026-09-08T13:59:39.093273+00:00",
           "ticker": "IREN",
           "rec": "kaufen",
@@ -789,6 +781,14 @@
         },
         {
           "ts": "2026-09-09T02:12:09.549993+00:00",
+          "ticker": "IREN",
+          "rec": "kaufen",
+          "confidence": 84,
+          "engagement": 13,
+          "price": 46.93
+        },
+        {
+          "ts": "2026-09-09T08:28:38.050620+00:00",
           "ticker": "IREN",
           "rec": "kaufen",
           "confidence": 84,
@@ -1518,14 +1518,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-08T08:26:02.776353+00:00",
-          "ticker": "ARR",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 9,
-          "price": 16.35
-        },
-        {
           "ts": "2026-09-08T13:59:39.093273+00:00",
           "ticker": "ARR",
           "rec": "beobachten",
@@ -1564,6 +1556,168 @@
           "confidence": 58,
           "engagement": 9,
           "price": 16.23
+        },
+        {
+          "ts": "2026-09-09T08:28:38.050620+00:00",
+          "ticker": "ARR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 9,
+          "price": 16.23
+        }
+      ]
+    },
+    {
+      "ticker": "ZL",
+      "name": "ZL",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 41,
+      "sentiment": 1,
+      "mentions": 2,
+      "mentions_delta": 0,
+      "engagement": 7,
+      "sources": [
+        "Mauerstrassenwetten"
+      ],
+      "titles": [
+        "2026 COMMUNITYTREFFEN IN FRANKFURT AM MAIN",
+        "MSW Treffen 2.0 Fürth am 03.10.2026 (FFF - Fragt Furley Faden)"
+      ],
+      "top_posts": [
+        {
+          "title": "2026 COMMUNITYTREFFEN IN FRANKFURT AM MAIN",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1vxc6i9/2026_communitytreffen_in_frankfurt_am_main/"
+        },
+        {
+          "title": "MSW Treffen 2.0 Fürth am 03.10.2026 (FFF - Fragt Furley Faden)",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1vwwm1q/msw_treffen_20_fürth_am_03102026_fff_fragt_furley/"
+        }
+      ],
+      "topics": [
+        "COMMUNITYTREFFEN",
+        "FRANKFURT",
+        "MAIN",
+        "Treffen"
+      ],
+      "themen": [
+        {
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 40,
+          "beitraege": 2,
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Kursverluste",
+          "anteil_pct": 20,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
+        }
+      ],
+      "bull_case": [
+        "Unterbewertung"
+      ],
+      "bear_case": [
+        "Verlust-Meldungen"
+      ],
+      "price": {
+        "available": false
+      },
+      "news": [],
+      "comparison": {
+        "verdict": "unbekannt",
+        "points": [
+          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
+        ]
+      },
+      "fazit": "Reddit diskutiert ZL aktuell gemischt (2 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "💰 Einstiegs-Debatte",
+        "📉 Kursverluste"
+      ],
+      "momentum": 52,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
+      "timeline": [
+        {
+          "day": "2026-09-06",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-07",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-08",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-09",
+          "mentions": 2
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 5,
+      "reddit_vs_markt": {
+        "reddit": 52,
+        "markt": 50,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-09-08T13:59:39.093273+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 7,
+          "price": null
+        },
+        {
+          "ts": "2026-09-08T17:49:09.051336+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 7,
+          "price": null
+        },
+        {
+          "ts": "2026-09-08T20:29:32.846857+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 7,
+          "price": null
+        },
+        {
+          "ts": "2026-09-08T23:45:02.460059+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 7,
+          "price": null
+        },
+        {
+          "ts": "2026-09-09T02:12:09.549993+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 7,
+          "price": null
+        },
+        {
+          "ts": "2026-09-09T08:28:38.050620+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 7,
+          "price": null
         }
       ]
     },
@@ -2273,14 +2427,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-08T08:26:02.776353+00:00",
-          "ticker": "NG",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 7,
-          "price": 8.07
-        },
-        {
           "ts": "2026-09-08T13:59:39.093273+00:00",
           "ticker": "NG",
           "rec": "beobachten",
@@ -2319,160 +2465,14 @@
           "confidence": 58,
           "engagement": 7,
           "price": 7.9
-        }
-      ]
-    },
-    {
-      "ticker": "ZL",
-      "name": "ZL",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 41,
-      "sentiment": 1,
-      "mentions": 2,
-      "mentions_delta": 0,
-      "engagement": 7,
-      "sources": [
-        "Mauerstrassenwetten"
-      ],
-      "titles": [
-        "2026 COMMUNITYTREFFEN IN FRANKFURT AM MAIN",
-        "MSW Treffen 2.0 Fürth am 03.10.2026 (FFF - Fragt Furley Faden)"
-      ],
-      "top_posts": [
-        {
-          "title": "2026 COMMUNITYTREFFEN IN FRANKFURT AM MAIN",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1vxc6i9/2026_communitytreffen_in_frankfurt_am_main/"
         },
         {
-          "title": "MSW Treffen 2.0 Fürth am 03.10.2026 (FFF - Fragt Furley Faden)",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1vwwm1q/msw_treffen_20_fürth_am_03102026_fff_fragt_furley/"
-        }
-      ],
-      "topics": [
-        "COMMUNITYTREFFEN",
-        "FRANKFURT",
-        "MAIN",
-        "Treffen"
-      ],
-      "themen": [
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 40,
-          "beitraege": 2,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        },
-        {
-          "emoji": "📉",
-          "titel": "Kursverluste",
-          "anteil_pct": 20,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
-        }
-      ],
-      "bull_case": [
-        "Unterbewertung"
-      ],
-      "bear_case": [
-        "Verlust-Meldungen"
-      ],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
-        ]
-      },
-      "fazit": "Reddit diskutiert ZL aktuell gemischt (2 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "💰 Einstiegs-Debatte",
-        "📉 Kursverluste"
-      ],
-      "momentum": 52,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
-      "timeline": [
-        {
-          "day": "2026-09-06",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-07",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-08",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-09",
-          "mentions": 2
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 5,
-      "reddit_vs_markt": {
-        "reddit": 52,
-        "markt": 50,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-09-08T08:26:02.776353+00:00",
-          "ticker": "ZL",
+          "ts": "2026-09-09T08:28:38.050620+00:00",
+          "ticker": "NG",
           "rec": "beobachten",
-          "confidence": 41,
+          "confidence": 58,
           "engagement": 7,
-          "price": null
-        },
-        {
-          "ts": "2026-09-08T13:59:39.093273+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 7,
-          "price": null
-        },
-        {
-          "ts": "2026-09-08T17:49:09.051336+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 7,
-          "price": null
-        },
-        {
-          "ts": "2026-09-08T20:29:32.846857+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 7,
-          "price": null
-        },
-        {
-          "ts": "2026-09-08T23:45:02.460059+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 7,
-          "price": null
-        },
-        {
-          "ts": "2026-09-09T02:12:09.549993+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 7,
-          "price": null
+          "price": 7.9
         }
       ]
     },
@@ -3102,6 +3102,12 @@
       },
       "news": [
         {
+          "title": "Market Chatter: Uber to Apply for Hong Kong Ride-Hailing License by October",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-uber-apply-hong-073635748.html?.tsrc=rss",
+          "date": "Wed, 09 Sep 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Uber Stock Falls As Wall Street Sizes Up Tesla's Cybercab Rollout",
           "link": "https://finance.yahoo.com/m/9c2c91dd-3d01-3936-994f-6a242e6828ae/uber-stock-falls-as-wall.html?.tsrc=rss",
           "date": "Tue, 08 Sep 2026",
@@ -3124,12 +3130,6 @@
           "link": "https://finance.yahoo.com/technology/articles/uber-technologies-poised-benefit-long-151704061.html?.tsrc=rss",
           "date": "Tue, 08 Sep 2026",
           "tone": "neu"
-        },
-        {
-          "title": "If Uber’s Fundamentals Have ‘Dramatically Improved,’ Why Has the Stock Gone Nowhere?",
-          "link": "https://247wallst.com/investing/2026/09/08/if-ubers-fundamentals-have-dramatically-improved-why-has-the-stock-gone-nowhere/?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -3146,8 +3146,7 @@
       "gruende": [
         "🎯 Optionen & Short-Interest",
         "💰 Einstiegs-Debatte",
-        "News: Uber Stock Falls As Wall Street Sizes Up Tesla's Cybercab Rollout",
-        "News: Top Uber Executive Buys $5.3 Million in Stock After Job Cuts"
+        "News: Uber Stock Falls As Wall Street Sizes Up Tesla's Cybercab Rollout"
       ],
       "momentum": 77,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
@@ -3198,6 +3197,14 @@
         },
         {
           "ts": "2026-09-09T02:12:09.549993+00:00",
+          "ticker": "UBER",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 73.13
+        },
+        {
+          "ts": "2026-09-09T08:28:38.050620+00:00",
           "ticker": "UBER",
           "rec": "beobachten",
           "confidence": 58,
@@ -3913,33 +3920,30 @@
           "confidence": 58,
           "engagement": 5,
           "price": 47.39
+        },
+        {
+          "ts": "2026-09-09T08:28:38.050620+00:00",
+          "ticker": "OGE",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 47.39
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 39,
-    "n_evaluated": 209,
-    "rate_kaufen": 58,
+    "hit_rate": 38,
+    "n_evaluated": 206,
+    "rate_kaufen": 57,
     "rate_verkaufen": null,
-    "rate_beobachten": 32,
+    "rate_beobachten": 31,
     "kauf_perf_7d": 2.6,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
     {
       "ts": "2026-08-29T23:43:00.995720+00:00",
-      "ticker": "NVDA",
-      "rec": "kaufen",
-      "confidence": 90,
-      "engagement": 31,
-      "price": 217.55,
-      "chg_since": 3.76,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-08-29T23:43:00.995720+00:00",
       "ticker": "MU",
       "rec": "beobachten",
       "confidence": 64,
@@ -3958,7 +3962,7 @@
       "price": 217.55,
       "chg_since": 3.76,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-08-30T02:30:54.682529+00:00",
@@ -3969,7 +3973,7 @@
       "price": 932.86,
       "chg_since": 7.23,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-08-30T09:34:50.670195+00:00",
@@ -4079,7 +4083,7 @@
       "price": 217.55,
       "chg_since": 3.76,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-08-31T02:24:47.217008+00:00",
@@ -4090,7 +4094,7 @@
       "price": 932.86,
       "chg_since": 7.23,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-08-31T02:24:47.217008+00:00",
@@ -4101,7 +4105,7 @@
       "price": 35.45,
       "chg_since": 32.38,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-08-31T10:16:08.946053+00:00",
@@ -4211,7 +4215,7 @@
       "price": 220.78,
       "chg_since": 2.24,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-01T02:41:19.344625+00:00",
@@ -4222,7 +4226,7 @@
       "price": 958.73,
       "chg_since": 4.33,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-01T02:41:19.344625+00:00",
@@ -4233,7 +4237,7 @@
       "price": 37.12,
       "chg_since": 26.43,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-01T09:00:38.045691+00:00",
@@ -4366,116 +4370,111 @@
       "chg_since": 27.46,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-09-02T08:14:08.057643+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 5,
+      "price": 933.44,
+      "chg_since": 7.16,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
       {
-        "text": "Wow! The Populist Party in Germany just had a really big night. They finally got tired of the absolutely horrible Immigration rules and regulations which have hurt Germany so badly. THEY ARE ON THE RISE, and not going to take it anymore! MGGA!!! President DJT",
-        "url": "https://trumpstruth.org/statuses/41639",
-        "date": "Tue, 08 Sep 2026 23:37",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41653",
+        "url": "https://www.trumpstruth.org/statuses/41653",
+        "date": "Wed, 09 Sep 2026 02:25",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "Very dumb and unhappy Fake News CNN “reporter,” Kaitlan Collins (really low ratings, also!), had a panel where discussions were all FICTION AND LIES. You would think that CNN, which is suffering terribly in the TV Ratings, would get rid of their 3rd rate “anchors,” and try to bring credibility back to their once storied network. It is fading FAST! See you all at the Republican National Convention ",
-        "url": "https://trumpstruth.org/statuses/41638",
-        "date": "Tue, 08 Sep 2026 23:28",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41654",
+        "url": "https://www.trumpstruth.org/statuses/41654",
+        "date": "Wed, 09 Sep 2026 02:25",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "Happy Birthday Mary, Queen of Victories!",
-        "url": "https://trumpstruth.org/statuses/41637",
-        "date": "Tue, 08 Sep 2026 23:20",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41655",
+        "url": "https://www.trumpstruth.org/statuses/41655",
+        "date": "Wed, 09 Sep 2026 02:24",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "https://www. foxnews.com/politics/trumps-un usual-role-midterm-convention",
-        "url": "https://trumpstruth.org/statuses/41636",
-        "date": "Tue, 08 Sep 2026 21:59",
+        "text": "RT @ realDonaldTrump The Failing New York Magazine wrote a story that I wasn’t down at the World Trade Center after the Tragedy of September 11th, because nobody saw me there. Well, I don’t think I would be the first thing on anyone’s mind but, I was there, obviously not on the same day as the collapse, but shortly thereafter, with a large group of Construction Workers. I discussed it today during",
+        "url": "https://www.trumpstruth.org/statuses/41651",
+        "date": "Wed, 09 Sep 2026 01:23",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "The Republican National Convention, tomorrow night in Dallas, is really “HOT!” The American Airlines Center, home to the Dallas Mavericks, is totally sold out! Everybody wants to be there, but we’re really asking only those Candidates that are in tight Races, a little up, a little down, or even, to speak. We want to save the “stage” for them. We don’t need people who are up 45 points, and have bee",
-        "url": "https://trumpstruth.org/statuses/41635",
-        "date": "Tue, 08 Sep 2026 21:29",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41652",
+        "url": "https://www.trumpstruth.org/statuses/41652",
+        "date": "Wed, 09 Sep 2026 01:23",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "Everyone knows that Canada doesn’t let our Great Dairy Farmers sell into the Canadian Market, and that the only reason Canada makes Autos is because of previous disastrous Trade Agreements while other Presidents were in Office. Canada has been ripping us off for years, but what many do not realize is that the Canadian Government, including Canadian Provinces, have banned American Small Businesses ",
-        "url": "https://trumpstruth.org/statuses/41634",
-        "date": "Tue, 08 Sep 2026 20:29",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [
-          "🏛️ Handelsdeal"
-        ],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://trumpstruth.org/statuses/41633",
-        "url": "https://trumpstruth.org/statuses/41633",
-        "date": "Tue, 08 Sep 2026 01:27",
+        "text": "RT @ realDonaldTrump The Failing New York Magazine wrote a story that I wasn’t down at the World Trade Center after the Tragedy of September 11th, because nobody saw me there. Well, I don’t think I would be the first thing on anyone’s mind but, I was there, obviously not on the same day as the collapse, but shortly thereafter, with a large group of Construction Workers. I discussed it today during",
+        "url": "https://www.trumpstruth.org/statuses/41649",
+        "date": "Wed, 09 Sep 2026 01:10",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "[Link geteilt] https://trumpstruth.org/statuses/41631",
-        "url": "https://trumpstruth.org/statuses/41631",
-        "date": "Tue, 08 Sep 2026 00:54",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41650",
+        "url": "https://www.trumpstruth.org/statuses/41650",
+        "date": "Wed, 09 Sep 2026 01:07",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "‘South Park’ Skewers Trump — And Paramount — With Name Change To ‘South America’ - Deadline",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxOGxGWDNlcEhHUkpEOE1hUnJ0Q1FKMWp6c1V6UnBnUktLS2lsMTAyZ04yMk5tRmRuWkpPVkhmcm5sZ3h1OGFYZzlncHNxQ002bGNKT2JqS210NkF6ZHJrRmNYT1BwSXd2SGRNSDlNckJaaXZGZjFYWg?oc=5",
-        "date": "Tue, 08 Sep 2026",
-        "source": "News (X/Presse)",
-        "companies": [
-          {
-            "name": "Paramount",
-            "ticker": "PARA"
-          }
-        ],
+        "text": "RT @ realDonaldTrump The Failing New York Magazine wrote a story that I wasn’t down at the World Trade Center after the Tragedy of September 11th, because nobody saw me there. Well, I don’t think I would be the first thing on anyone’s mind but, I was there, obviously not on the same day as the collapse, but shortly thereafter, with a large group of Construction Workers. I discussed it today during",
+        "url": "https://www.trumpstruth.org/statuses/41646",
+        "date": "Wed, 09 Sep 2026 00:53",
+        "source": "Truth Social",
+        "companies": [],
         "policy": [],
         "is_new": true
       }
     ],
-    "market_hits": 2
+    "market_hits": 0
   },
   "spannende_aktien": [
     {
-      "ticker": "PDSB",
-      "name": "PDS Biotechnology Corporation",
-      "price": 0.3,
+      "ticker": "MOBX",
+      "name": "Mobix Labs, Inc.",
+      "price": 1.27,
       "currency": "USD",
-      "chg_1d": 36.36,
-      "vol_ratio": 154.3,
+      "chg_1d": 36.56,
+      "vol_ratio": 70.3,
       "warum": [
-        "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shi",
-        "PDS Biotech Reports Second Quarter 2026 Financial Results"
+        "Mobix Labs Secures Initial F-16 Component Order, Expanding Defense Aircraft Foot",
+        "MOBX Stock Jumps After First F-16 Production Order, Expands US Fighter Jet Footp"
       ],
-      "bedeutung": "Extreme Bewegung (+36.36%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
@@ -4483,48 +4482,47 @@
       ],
       "news": [
         {
-          "title": "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks",
-          "link": "https://finance.yahoo.com/healthcare/articles/pds-biotech-announces-22-55-123000137.html?.tsrc=rss",
+          "title": "Mobix Labs Secures Initial F-16 Component Order, Expanding Defense Aircraft Footprint",
+          "link": "https://investorshub.advfn.com/market-news/article/35875/mobix-labs-secures-initial-f-16-component-order-expanding-defense-aircraft-footprint?.tsrc=rss",
           "date": "Tue, 08 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "PDS Biotech Reports Second Quarter 2026 Financial Results",
-          "link": "https://finance.yahoo.com/healthcare/articles/pds-biotech-reports-second-quarter-123000834.html?.tsrc=rss",
-          "date": "Thu, 13 Aug 2026",
-          "tone": "neu"
+          "title": "MOBX Stock Jumps After First F-16 Production Order, Expands US Fighter Jet Footprint",
+          "link": "https://stocktwits.com/news-articles/markets/equity/mobx-stock-jumps-after-first-f-16-production-order/cZt3Ch3RJU8?.tsrc=rss",
+          "date": "Tue, 08 Sep 2026",
+          "tone": "pos"
         }
       ]
     },
     {
-      "ticker": "NVS",
-      "name": "Novartis AG",
-      "price": 137.7,
+      "ticker": "SUNE",
+      "name": "SUNation Energy Inc.",
+      "price": 2.37,
       "currency": "USD",
-      "chg_1d": -13.93,
-      "vol_ratio": 5.9,
+      "chg_1d": 0.42,
+      "vol_ratio": 74.2,
       "warum": [
-        "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Ge",
-        "How Novartis' Double-Stacked Failures Reverberated Through Biopharma"
+        "SUNation Energy Celebrates Installation of 800th Residential Battery",
+        "SUNation Stock Dips Post Q2 Earnings, Revenues Decline Y/Y"
       ],
-      "bedeutung": "Extreme Bewegung (-13.93%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Geopolotical Tenisons",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/09/08/stock-market-today-sept-8-stocks-slide-amid-surging-oil-prices-persistent-geopolotical-tenisons/?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
+          "title": "SUNation Energy Celebrates Installation of 800th Residential Battery",
+          "link": "https://finance.yahoo.com/energy/articles/sunation-energy-celebrates-installation-800th-124500334.html?.tsrc=rss",
+          "date": "Tue, 18 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "How Novartis' Double-Stacked Failures Reverberated Through Biopharma",
-          "link": "https://finance.yahoo.com/m/4093556e-6402-3964-8b20-aea8691719b6/how-novartis%27-double-stacked.html?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
+          "title": "SUNation Stock Dips Post Q2 Earnings, Revenues Decline Y/Y",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sunation-stock-dips-post-q2-173100207.html?.tsrc=rss",
+          "date": "Mon, 17 Aug 2026",
           "tone": "neu"
         }
       ]
@@ -4537,8 +4535,8 @@
       "chg_1d": -7.21,
       "vol_ratio": 4.3,
       "warum": [
-        "ServiceTitan Q2 Earnings Call Highlights",
-        "Compared to Estimates, ServiceTitan Inc. (TTAN) Q2 Earnings: A Look at Key Metri"
+        "ServiceTitan Inc (TTAN) (Q2 2027) Earnings Call Highlights: Record Free Cash Flo",
+        "ServiceTitan Q2 Earnings Call Highlights"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 3,
@@ -4548,81 +4546,79 @@
       ],
       "news": [
         {
+          "title": "ServiceTitan Inc (TTAN) (Q2 2027) Earnings Call Highlights: Record Free Cash Flow and AI-Driven ...",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicetitan-inc-ttan-q2-2027-050029559.html?.tsrc=rss",
+          "date": "Wed, 09 Sep 2026",
+          "tone": "pos"
+        },
+        {
           "title": "ServiceTitan Q2 Earnings Call Highlights",
           "link": "https://www.marketbeat.com/instant-alerts/transcript-servicetitan-q2-earnings-call-highlights-2026-09-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
           "date": "Tue, 08 Sep 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Compared to Estimates, ServiceTitan Inc. (TTAN) Q2 Earnings: A Look at Key Metrics",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-servicetitan-inc-ttan-220001631.html?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
-          "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "AMGN",
-      "name": "Amgen Inc.",
-      "price": 393.17,
+      "ticker": "SMR",
+      "name": "NuScale Power Corporation",
+      "price": 11.18,
       "currency": "USD",
-      "chg_1d": -10.08,
-      "vol_ratio": 3.1,
+      "chg_1d": 15.26,
+      "vol_ratio": 1.7,
       "warum": [
-        "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Ge",
-        "Stock Market Today: Dow Dives, Qualcomm Clears Key Level On Amazon Deal; Fertili"
+        "NuScale Is Already Down 70%. Here's the Price I'd Actually Start Buying.",
+        "Jim Cramer Weighs In on GE Vernova (GEV) and NuScale Power (SMR)"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Geopolotical Tenisons",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/09/08/stock-market-today-sept-8-stocks-slide-amid-surging-oil-prices-persistent-geopolotical-tenisons/?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Stock Market Today: Dow Dives, Qualcomm Clears Key Level On Amazon Deal; Fertilizer Leader Rises (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/e8996bc1-197c-3547-a5f4-23a6a4308b86/stock-market-today%3A-dow.html?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "HWM",
-      "name": "Howmet Aerospace Inc.",
-      "price": 231.53,
-      "currency": "USD",
-      "chg_1d": -10.7,
-      "vol_ratio": 4.2,
-      "warum": [
-        "Why Howmet (HWM) Dipped More Than Broader Market Today",
-        "Howmet Rises 26.5% Year to Date: Should Investors Buy the Stock Now?"
-      ],
-      "bedeutung": "Handelsvolumen 4.2× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
+      "bedeutung": "Extreme Bewegung (+15.26%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "NuScale Is Already Down 70%. Here's the Price I'd Actually Start Buying.",
+          "link": "https://www.fool.com/investing/2026/09/09/nuscale-is-already-down-x-heres-the-price-id-actua/?.tsrc=rss",
+          "date": "Wed, 09 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Jim Cramer Weighs In on GE Vernova (GEV) and NuScale Power (SMR)",
+          "link": "https://finance.yahoo.com/energy/articles/jim-cramer-weighs-ge-vernova-230639655.html?.tsrc=rss",
+          "date": "Tue, 08 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings Inc.",
+      "price": 180.3,
+      "currency": "USD",
+      "chg_1d": -6.72,
+      "vol_ratio": 2.3,
+      "warum": [
+        "Here's How Many Shares of Booking Holdings (BKNG) Stock You'd Need for $1,000 in",
+        "Why Is Booking Holdings (BKNG) Down 3.6% Since Last Earnings Report?"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Why Howmet (HWM) Dipped More Than Broader Market Today",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-howmet-hwm-dipped-more-220001229.html?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
+          "title": "Here's How Many Shares of Booking Holdings (BKNG) Stock You'd Need for $1,000 in Yearly Dividends",
+          "link": "https://www.fool.com/investing/2026/09/03/heres-how-many-shares-booking-holdings-bkng-stock/?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Howmet Rises 26.5% Year to Date: Should Investors Buy the Stock Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/howmet-rises-26-5-date-165100941.html?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
+          "title": "Why Is Booking Holdings (BKNG) Down 3.6% Since Last Earnings Report?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-booking-holdings-bkng-down-153009641.html?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
           "tone": "neu"
         }
       ]
@@ -4654,7 +4650,7 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSE50YVNGbEk4UGlDSWhkTFp4MjVCSEpFNzUzakNaRUtvUTEzRG9vVUFvWW5PQTNwa3FaNlduX0VZQUlSdVg0VkkzRktSaGV0Z2Jhd25UcmRHREJPS2xPcndNeERmelZLYVZLRFBiQVRPTWxxc2pvU2FPZE05TjZGV0lNWGJEZElTOHpBNVBQMVRNaGo0ZGJfN1VJUjZOWjhma0E?oc=5",
       "date": "Wed, 09 Sep 2026",
-      "headline": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing - WSJ",
+      "headline": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing - wsj.com",
       "source": "Google News"
     },
     {
@@ -4668,7 +4664,7 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd2lUQkNNMWJpOVZNNnNwanVCWkdrWk9lRWpweHY2SmxmSmFEOUFxNjhoR19aY3VEbmJkMU9mektJRkRFVlFZaklyWGR2Q1kydXM1QV96aXliQk1NRzAzVmtRYU0wQUFxeTc3RVF1c2l1UGVoM2luclk2MWZDdVZWM2xqMXVUcGkzX3ZsRVM1bWplM1MxWVh4Qkw4aGJrN0hxenZn0gGoAUFVX3lxTE9ZR2NiM0dEUlJIb3c4dTF6TG1aeWI2aFRvQ182bFRLaVlyLWJkWGswMTl4N2x0SzV6dEFfTk9KaUMyZnBtWnVFVll1dzZhUXNYblViT25vOGZ5dTVJQWZfQXdGTWpqVGxLQXZzamNiallQUTM1NUl0bEJnbjVWM0VnMXlUX3lsSkRxZ1Q4eXcwYkYzbElhZWI2d28xdnZ6SDhKZ3IzblMxSA?oc=5",
       "date": "Tue, 08 Sep 2026",
-      "headline": "EverBank to combine with WaFd in $3.9 billion reverse merger - CNBC",
+      "headline": "EverBank to combine with WaFd in $3.9 billion reverse merger - cnbc.com",
       "source": "Google News"
     },
     {
