@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:33:49.218804+00:00",
+  "generated_at": "2026-09-11T02:06:36.716778+00:00",
   "total_posts": 250,
   "unique_tickers": 202,
   "subreddits": [
@@ -33,7 +33,7 @@
       "confidence": 79,
       "sentiment": 5,
       "mentions": 5,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 14,
       "sources": [
         "wallstreetbets"
@@ -655,7 +655,7 @@
           },
           {
             "t": 1788753600,
-            "c": 136.06
+            "c": 134.34
           },
           {
             "t": 1789070403,
@@ -712,18 +712,13 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "💰 Einstiegs-Debatte",
         "📊 Quartalszahlen"
       ],
-      "momentum": 92,
+      "momentum": 80,
       "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 400,
+      "growth_pct": 114,
       "timeline": [
-        {
-          "day": "2026-09-07",
-          "mentions": 0
-        },
         {
           "day": "2026-09-08",
           "mentions": 0
@@ -735,14 +730,18 @@
         {
           "day": "2026-09-10",
           "mentions": 5
+        },
+        {
+          "day": "2026-09-11",
+          "mentions": 5
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 32,
+      "quality_pct": 28,
       "reddit_vs_markt": {
-        "reddit": 92,
+        "reddit": 80,
         "markt": 44,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
@@ -765,6 +764,14 @@
         },
         {
           "ts": "2026-09-10T23:33:49.218804+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 79,
+          "engagement": 14,
+          "price": 134.34
+        },
+        {
+          "ts": "2026-09-11T02:06:36.716778+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
           "confidence": 79,
@@ -1421,7 +1428,7 @@
           },
           {
             "t": 1788753600,
-            "c": 653.69
+            "c": 644.38
           },
           {
             "t": 1789070401,
@@ -1435,6 +1442,12 @@
         "sma20_dist": 10.37
       },
       "news": [
+        {
+          "title": "Meta’s $18 Billion Settlement Removes a Massive Risk, But May Reshape Teen Engagement",
+          "link": "https://finance.yahoo.com/technology/articles/meta-18-billion-settlement-removes-012812562.html?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
         {
           "title": "Meta Announces Quarterly Cash Dividend",
           "link": "https://finance.yahoo.com/markets/stocks/articles/meta-announces-quarterly-cash-dividend-230100741.html?.tsrc=rss",
@@ -1458,12 +1471,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/meta-shares-rise-muse-cracks-184203324.html?.tsrc=rss",
           "date": "Thu, 10 Sep 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Why Meta’s Consumer AI Agent Is Good News for Shopify Stock",
-          "link": "https://finance.yahoo.com/m/0675cb7d-7a02-3980-8ed2-dd7a62e230b4/why-meta%E2%80%99s-consumer-ai-agent.html?.tsrc=rss",
-          "date": "Thu, 10 Sep 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -1482,14 +1489,10 @@
         "🎯 Optionen & Short-Interest",
         "💰 Einstiegs-Debatte"
       ],
-      "momentum": 92,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 200,
+      "momentum": 64,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 50,
       "timeline": [
-        {
-          "day": "2026-09-07",
-          "mentions": 0
-        },
         {
           "day": "2026-09-08",
           "mentions": 0
@@ -1501,26 +1504,22 @@
         {
           "day": "2026-09-10",
           "mentions": 4
+        },
+        {
+          "day": "2026-09-11",
+          "mentions": 4
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 7,
       "reddit_vs_markt": {
-        "reddit": 92,
+        "reddit": 64,
         "markt": 84,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-10T02:09:53.215847+00:00",
-          "ticker": "META",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 15,
-          "price": 653.69
-        },
         {
           "ts": "2026-09-10T08:30:16.089840+00:00",
           "ticker": "META",
@@ -1555,6 +1554,14 @@
         },
         {
           "ts": "2026-09-10T23:33:49.218804+00:00",
+          "ticker": "META",
+          "rec": "beobachten",
+          "confidence": 51,
+          "engagement": 16,
+          "price": 644.38
+        },
+        {
+          "ts": "2026-09-11T02:06:36.716778+00:00",
           "ticker": "META",
           "rec": "beobachten",
           "confidence": 51,
@@ -2212,7 +2219,7 @@
           },
           {
             "t": 1788753600,
-            "c": 240.35
+            "c": 228.11
           },
           {
             "t": 1789070400,
@@ -2273,14 +2280,10 @@
         "💰 Einstiegs-Debatte",
         "📊 Quartalszahlen"
       ],
-      "momentum": 94,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 300,
+      "momentum": 71,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 71,
       "timeline": [
-        {
-          "day": "2026-09-07",
-          "mentions": 0
-        },
         {
           "day": "2026-09-08",
           "mentions": 0
@@ -2292,26 +2295,22 @@
         {
           "day": "2026-09-10",
           "mentions": 4
+        },
+        {
+          "day": "2026-09-11",
+          "mentions": 4
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 20,
       "reddit_vs_markt": {
-        "reddit": 94,
+        "reddit": 71,
         "markt": 97,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-10T02:09:53.215847+00:00",
-          "ticker": "NBIS",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 7,
-          "price": 240.35
-        },
         {
           "ts": "2026-09-10T08:30:16.089840+00:00",
           "ticker": "NBIS",
@@ -2346,6 +2345,14 @@
         },
         {
           "ts": "2026-09-10T23:33:49.218804+00:00",
+          "ticker": "NBIS",
+          "rec": "kaufen",
+          "confidence": 81,
+          "engagement": 12,
+          "price": 228.11
+        },
+        {
+          "ts": "2026-09-11T02:06:36.716778+00:00",
           "ticker": "NBIS",
           "rec": "kaufen",
           "confidence": 81,
@@ -3000,7 +3007,7 @@
           },
           {
             "t": 1788753600,
-            "c": 16.17
+            "c": 15.83
           },
           {
             "t": 1789070402,
@@ -3060,14 +3067,10 @@
         "📉 Kursverluste",
         "💰 Einstiegs-Debatte"
       ],
-      "momentum": 61,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 29,
+      "momentum": 57,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 13,
       "timeline": [
-        {
-          "day": "2026-09-07",
-          "mentions": 2
-        },
         {
           "day": "2026-09-08",
           "mentions": 2
@@ -3079,6 +3082,10 @@
         {
           "day": "2026-09-10",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-11",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
@@ -3086,19 +3093,11 @@
       "quality_grade": "D",
       "quality_pct": 21,
       "reddit_vs_markt": {
-        "reddit": 61,
+        "reddit": 57,
         "markt": 42,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-09T02:12:09.549993+00:00",
-          "ticker": "ARR",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 9,
-          "price": 16.23
-        },
         {
           "ts": "2026-09-09T08:28:38.050620+00:00",
           "ticker": "ARR",
@@ -3133,6 +3132,14 @@
         },
         {
           "ts": "2026-09-10T23:33:49.218804+00:00",
+          "ticker": "ARR",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 15,
+          "price": 15.83
+        },
+        {
+          "ts": "2026-09-11T02:06:36.716778+00:00",
           "ticker": "ARR",
           "rec": "beobachten",
           "confidence": 64,
@@ -3788,7 +3795,7 @@
           },
           {
             "t": 1788753600,
-            "c": 45.37
+            "c": 43.64
           },
           {
             "t": 1789070401,
@@ -3855,10 +3862,6 @@
       "growth_pct": 13,
       "timeline": [
         {
-          "day": "2026-09-07",
-          "mentions": 3
-        },
-        {
           "day": "2026-09-08",
           "mentions": 2
         },
@@ -3868,6 +3871,10 @@
         },
         {
           "day": "2026-09-10",
+          "mentions": 3
+        },
+        {
+          "day": "2026-09-11",
           "mentions": 3
         }
       ],
@@ -3881,14 +3888,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-10T02:09:53.215847+00:00",
-          "ticker": "IREN",
-          "rec": "kaufen",
-          "confidence": 84,
-          "engagement": 15,
-          "price": 45.37
-        },
         {
           "ts": "2026-09-10T08:30:16.089840+00:00",
           "ticker": "IREN",
@@ -3928,6 +3927,14 @@
           "confidence": 84,
           "engagement": 15,
           "price": 43.64
+        },
+        {
+          "ts": "2026-09-11T02:06:36.716778+00:00",
+          "ticker": "IREN",
+          "rec": "kaufen",
+          "confidence": 84,
+          "engagement": 15,
+          "price": 43.64
         }
       ]
     },
@@ -3945,18 +3952,18 @@
         "wallstreetbets"
       ],
       "titles": [
-        "AAPL 📈",
         "MADE 58K AAPL CALL🔥",
+        "AAPL 📈",
         "iPhone Duo made me Fat finger 200 AAPL contracts"
       ],
       "top_posts": [
         {
-          "title": "AAPL 📈",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wbzjl7/aapl/"
-        },
-        {
           "title": "MADE 58K AAPL CALL🔥",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1wcqurw/made_58k_aapl_call/"
+        },
+        {
+          "title": "AAPL 📈",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wbzjl7/aapl/"
         },
         {
           "title": "iPhone Duo made me Fat finger 200 AAPL contracts",
@@ -4542,7 +4549,7 @@
           },
           {
             "t": 1788753600,
-            "c": 315.34
+            "c": 326.57
           },
           {
             "t": 1789070401,
@@ -4563,6 +4570,12 @@
           "tone": "neu"
         },
         {
+          "title": "Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year ",
+          "link": "https://247wallst.com/personal-finance/2026/09/10/tech-millionaires-are-pooling-seven-figure-nvidia-and-apple-stakes-into-exchange-funds-to-diversify-without-selling-a-share-the-seven-year-lockup-is-the-price/?.tsrc=rss",
+          "date": "Thu, 10 Sep 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Apple, IBD Stock Of The Day, Rebounds Bullishly After iPhone Duo Debut",
           "link": "https://finance.yahoo.com/m/194905be-43c6-3265-b405-a453f8439ead/apple%2C-ibd-stock-of-the-day%2C.html?.tsrc=rss",
           "date": "Thu, 10 Sep 2026",
@@ -4579,12 +4592,6 @@
           "link": "https://finance.yahoo.com/m/9987e23c-83e5-3b7f-bae7-41125f2e9cc4/stock-market-today%3A-dow-drops.html?.tsrc=rss",
           "date": "Thu, 10 Sep 2026",
           "tone": "neg"
-        },
-        {
-          "title": "Oracle, SpaceX, Cooper Cos., Macy’s, Apple, Navan, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/248a808f-3481-3dd2-97d4-fdb98b4fea00/oracle%2C-spacex%2C-cooper-cos.%2C.html?.tsrc=rss",
-          "date": "Thu, 10 Sep 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
@@ -4601,14 +4608,10 @@
       "gruende": [
         "💬 Allgemeine Diskussion"
       ],
-      "momentum": 92,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 200,
+      "momentum": 72,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 80,
       "timeline": [
-        {
-          "day": "2026-09-07",
-          "mentions": 0
-        },
         {
           "day": "2026-09-08",
           "mentions": 0
@@ -4620,26 +4623,22 @@
         {
           "day": "2026-09-10",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-11",
+          "mentions": 3
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 0,
       "reddit_vs_markt": {
-        "reddit": 92,
+        "reddit": 72,
         "markt": 52,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-08-26T08:31:42.195443+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 57,
-          "engagement": 25,
-          "price": 309.9
-        },
         {
           "ts": "2026-08-26T10:24:46.642872+00:00",
           "ticker": "AAPL",
@@ -4679,64 +4678,28 @@
           "confidence": 58,
           "engagement": 3,
           "price": 326.57
+        },
+        {
+          "ts": "2026-09-11T02:06:36.716778+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 3,
+          "price": 326.57
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 56,
-    "n_evaluated": 196,
-    "rate_kaufen": 43,
+    "hit_rate": 57,
+    "n_evaluated": 195,
+    "rate_kaufen": 44,
     "rate_verkaufen": null,
-    "rate_beobachten": 59,
-    "kauf_perf_7d": 2.1,
+    "rate_beobachten": 61,
+    "kauf_perf_7d": 2.3,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-08-31T02:24:47.217008+00:00",
-      "ticker": "MRVL",
-      "rec": "beobachten",
-      "confidence": 58,
-      "engagement": 9,
-      "price": 216.62,
-      "chg_since": 4.77,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-08-31T10:16:08.946053+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 57,
-      "engagement": 16,
-      "price": 217.55,
-      "chg_since": 0.37,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-08-31T10:16:08.946053+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 5,
-      "price": 932.86,
-      "chg_since": 4.78,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-08-31T10:16:08.946053+00:00",
-      "ticker": "IREN",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 12,
-      "price": 35.45,
-      "chg_since": 23.1,
-      "correct": false,
-      "age_days": 10
-    },
     {
       "ts": "2026-08-31T10:16:08.946053+00:00",
       "ticker": "MRVL",
@@ -4977,7 +4940,7 @@
       "price": 933.44,
       "chg_since": 4.71,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-02T02:02:18.093396+00:00",
@@ -4988,7 +4951,7 @@
       "price": 36.82,
       "chg_since": 18.52,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-02T08:14:08.057643+00:00",
@@ -5054,7 +5017,7 @@
       "price": 956.08,
       "chg_since": 2.23,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-03T02:07:07.424455+00:00",
@@ -5065,7 +5028,7 @@
       "price": 956.08,
       "chg_since": 2.23,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-03T08:23:40.027887+00:00",
@@ -5130,6 +5093,50 @@
       "engagement": 4,
       "price": 958.16,
       "chg_since": 2.01,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-03T23:41:40.457636+00:00",
+      "ticker": "IREN",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 11,
+      "price": 41.65,
+      "chg_since": 4.78,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-03T23:41:40.457636+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 4,
+      "price": 958.16,
+      "chg_since": 2.01,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-04T02:03:45.479975+00:00",
+      "ticker": "IREN",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 11,
+      "price": 39.6,
+      "chg_since": 10.2,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-04T02:03:45.479975+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 4,
+      "price": 956.08,
+      "chg_since": 2.23,
       "correct": true,
       "age_days": 7
     }
@@ -5221,7 +5228,7 @@
           }
         ],
         "policy": [],
-        "is_new": true
+        "is_new": false
       }
     ],
     "market_hits": 1
@@ -5233,9 +5240,10 @@
       "price": 6.79,
       "currency": "USD",
       "chg_1d": 81.07,
-      "vol_ratio": 96.7,
+      "vol_ratio": 98.6,
       "warum": [
-        "Ungewöhnliche Kurs-/Volumenbewegung"
+        "Digital Brands Group Investor Update: U.S. Program & Go-Private Process and Time",
+        "Digital Brands Group Executes Binding $3.3 Million in Guaranteed Cash From Septe"
       ],
       "bedeutung": "Extreme Bewegung (+81.07%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
@@ -5244,7 +5252,20 @@
         "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
-      "news": []
+      "news": [
+        {
+          "title": "Digital Brands Group Investor Update: U.S. Program & Go-Private Process and Timeline",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/digital-brands-group-investor-u-131200046.html?.tsrc=rss",
+          "date": "Thu, 10 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Digital Brands Group Executes Binding $3.3 Million in Guaranteed Cash From September Through December 2026",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/digital-brands-group-executes-binding-130800212.html?.tsrc=rss",
+          "date": "Tue, 01 Sep 2026",
+          "tone": "neu"
+        }
+      ]
     },
     {
       "ticker": "TNON",
@@ -5252,7 +5273,7 @@
       "price": 5.3,
       "currency": "USD",
       "chg_1d": 117.21,
-      "vol_ratio": 30.2,
+      "vol_ratio": 30.6,
       "warum": [
         "Tenon Medical Announces Early Repayment of Its Convertible Notes",
         "/C O R R E C T I O N -- WallachBeth Capital LLC/"
@@ -5287,8 +5308,8 @@
       "chg_1d": 9.79,
       "vol_ratio": 2.0,
       "warum": [
-        "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Me",
-        "Skyworks Chair: It Will Be a While Before This Cycle Ends"
+        "Skyworks (SWKS) Rockets 9.8% on Looming $22B Qorvo Merger Nod",
+        "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Me"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -5299,16 +5320,16 @@
       ],
       "news": [
         {
+          "title": "Skyworks (SWKS) Rockets 9.8% on Looming $22B Qorvo Merger Nod",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-rockets-9-8-014200183.html?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Merger Finally Clearing?",
           "link": "https://247wallst.com/investing/2026/09/10/skyworks-solutions-surges-10-qorvo-climbs-6-while-chip-stocks-fall-is-the-merger-finally-clearing/?.tsrc=rss",
           "date": "Thu, 10 Sep 2026",
           "tone": "pos"
-        },
-        {
-          "title": "Skyworks Chair: It Will Be a While Before This Cycle Ends",
-          "link": "https://finance.yahoo.com/video/skyworks-chair-while-cycle-ends-214100651.html?.tsrc=rss",
-          "date": "Thu, 03 Sep 2026",
-          "tone": "neu"
         }
       ]
     },
@@ -5318,7 +5339,7 @@
       "price": 134.02,
       "currency": "USD",
       "chg_1d": -3.84,
-      "vol_ratio": 3.2,
+      "vol_ratio": 3.4,
       "warum": [
         "RH’s (NYSE:RH) Q2 CY2026 Sales Top Estimates, Stock Soars",
         "RH Reports Second Quarter Fiscal 2026 Results"
@@ -5345,34 +5366,34 @@
       ]
     },
     {
-      "ticker": "ACVA",
-      "name": "ACV Auctions Inc.",
-      "price": 7.22,
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "price": 152.94,
       "currency": "USD",
-      "chg_1d": -2.04,
-      "vol_ratio": 3.5,
+      "chg_1d": -5.38,
+      "vol_ratio": 2.4,
       "warum": [
-        "ACV Auctions (ACVA) Reports Record Revenue and EBITDA Growth As Market Softens",
-        "ACV Auctions (ACVA) Q2 2026 Earnings Call Transcript"
+        "Oracle earnings: Do concentration risks fall on Oracle or the big AI firms?",
+        "ORCL Stock Jumps After Strong Q1 Report: Analyst Says Oracle Cloud Demand Is Gro"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "ACV Auctions (ACVA) Reports Record Revenue and EBITDA Growth As Market Softens",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/acv-auctions-acva-reports-record-123518860.html?.tsrc=rss",
-          "date": "Thu, 20 Aug 2026",
-          "tone": "pos"
+          "title": "Oracle earnings: Do concentration risks fall on Oracle or the big AI firms?",
+          "link": "https://finance.yahoo.com/video/oracle-earnings-concentration-risks-fall-203751982.html?.tsrc=rss",
+          "date": "Thu, 10 Sep 2026",
+          "tone": "neu"
         },
         {
-          "title": "ACV Auctions (ACVA) Q2 2026 Earnings Call Transcript",
-          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/17/acv-auctions-acva-q2-2026-earnings-call-transcript/?.tsrc=rss",
-          "date": "Mon, 17 Aug 2026",
-          "tone": "neu"
+          "title": "ORCL Stock Jumps After Strong Q1 Report: Analyst Says Oracle Cloud Demand Is Growing Faster Than AWS, Azure",
+          "link": "https://stocktwits.com/news-articles/markets/equity/orcl-stock-jumps-after-strong-q1-report-analyst-says-oracle-cloud-demand-is-growing-faster-than-aws-azure/cZtXRT5RJ6M?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "pos"
         }
       ]
     }
@@ -5415,9 +5436,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmlJX19hZ21nN3VwWC1mVkFfLXgxaTllQjJtSlo5OFA4dXZsTE9rQjlKM1J1aVprQmNaMVJxeldPR1loMTdFMjk5SC1GVU1xSTlPcmxyNmo0OVdKc2g1ekVqeGYxdEluX1drQTl3YlRIdzhtM2ZvSFlZQVc4VzlwaFB1dFd6ZXlucE92bWg5TE9rWTNzaV8xVUpZVF9MTm5mNVRPTHN1Q3NiUTlWaTlnVnd3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdkVYTE84am1wUzhodVdSNFp3eXRvX1daUTVQc1BHbVR4MjNBUVc0c2RHblNUMlpZSm1DMWVlU0tHb0syX1RmaUR5UlZ3eEYyNzMxd1MtYzhHRGpxcFg3NVVZSmZtdm1DMmZlTEt5Y0xOZWtHLWhuR1YxcmtGcGNKVGVwTEtwZWc2QV9ldXVzd0xDUQ?oc=5",
       "date": "Thu, 10 Sep 2026",
-      "headline": "Brighthouse’s $4.1 Billion Takeover Drags as Regulators Dig In - Bloomberg.com",
+      "headline": "Brighthouse’s $4.1 Billion Takeover Drags as Regulators Dig In - AdvisorHub",
       "source": "Google News"
     },
     {
