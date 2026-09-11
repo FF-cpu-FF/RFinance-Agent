@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T17:28:10.079051+00:00",
+  "generated_at": "2026-09-11T20:13:15.995708+00:00",
   "total_posts": 250,
-  "unique_tickers": 196,
+  "unique_tickers": 199,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -30,7 +30,7 @@
       "name": "DTE Energy Company",
       "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 76,
+      "confidence": 60,
       "sentiment": 5,
       "mentions": 4,
       "mentions_delta": 0,
@@ -91,7 +91,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 133.5,
+        "price": 132.54,
         "currency": "USD",
         "name": "DTE Energy Company",
         "chart_1d": [
@@ -157,11 +157,47 @@
           },
           {
             "t": 1789146900,
+            "c": 133.51
+          },
+          {
+            "t": 1789147800,
             "c": 133.5
           },
           {
-            "t": 1789147723,
-            "c": 133.48
+            "t": 1789148700,
+            "c": 133.36
+          },
+          {
+            "t": 1789149600,
+            "c": 133.33
+          },
+          {
+            "t": 1789150500,
+            "c": 133.25
+          },
+          {
+            "t": 1789151400,
+            "c": 132.93
+          },
+          {
+            "t": 1789152300,
+            "c": 132.85
+          },
+          {
+            "t": 1789153200,
+            "c": 132.85
+          },
+          {
+            "t": 1789154100,
+            "c": 132.93
+          },
+          {
+            "t": 1789155000,
+            "c": 132.83
+          },
+          {
+            "t": 1789155900,
+            "c": 132.54
           }
         ],
         "chart_5d": [
@@ -291,18 +327,22 @@
           },
           {
             "t": 1789144200,
-            "c": 133.5
+            "c": 133.51
           },
           {
-            "t": 1789147723,
-            "c": 133.48
+            "t": 1789147800,
+            "c": 133.25
+          },
+          {
+            "t": 1789151400,
+            "c": 132.93
+          },
+          {
+            "t": 1789155000,
+            "c": 132.54
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1786455000,
-            "c": 137.64
-          },
           {
             "t": 1786541400,
             "c": 138.68
@@ -389,7 +429,7 @@
           },
           {
             "t": 1789133400,
-            "c": 133.5
+            "c": 132.54
           }
         ],
         "chart_1y": [
@@ -606,15 +646,15 @@
             "c": 134.34
           },
           {
-            "t": 1789147723,
-            "c": 133.48
+            "t": 1789156799,
+            "c": 132.54
           }
         ],
-        "chg_1d": -0.65,
-        "chg_7d": -2.6,
-        "chg_1mo": -3.01,
-        "chg_1y": -2.44,
-        "sma20_dist": -2.5
+        "chg_1d": -1.37,
+        "chg_7d": -3.3,
+        "chg_1mo": -4.43,
+        "chg_1y": -3.14,
+        "sma20_dist": -3.17
       },
       "news": [
         {
@@ -649,13 +689,13 @@
         }
       ],
       "comparison": {
-        "verdict": "relativiert",
+        "verdict": "widerspricht",
         "points": [
-          "Kurs seitwärts über 7 Tage (-2.6%).",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+          "Kurs -3.3% über 7 Tage – Abwärtsdruck.",
+          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Reddit diskutiert DTE Energy Company aktuell deutlich bullisch (4 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert DTE Energy Company aktuell deutlich bullisch (4 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
@@ -690,18 +730,10 @@
       "quality_pct": 29,
       "reddit_vs_markt": {
         "reddit": 80,
-        "markt": 39,
+        "markt": 36,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-10T20:14:05.316798+00:00",
-          "ticker": "DTE",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 10,
-          "price": 134.34
-        },
         {
           "ts": "2026-09-10T23:33:49.218804+00:00",
           "ticker": "DTE",
@@ -741,719 +773,14 @@
           "confidence": 76,
           "engagement": 13,
           "price": 133.5
-        }
-      ]
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple Inc.",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 64,
-      "sentiment": -1,
-      "mentions": 4,
-      "mentions_delta": 1,
-      "engagement": 5,
-      "sources": [
-        "wallstreetbets"
-      ],
-      "titles": [
-        "$AAPL puts it is",
-        "MADE 58K AAPL CALL🔥",
-        "AAPL 📈"
-      ],
-      "top_posts": [
-        {
-          "title": "$AAPL puts it is",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wdmd1f/aapl_puts_it_is/"
         },
         {
-          "title": "MADE 58K AAPL CALL🔥",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wcqurw/made_58k_aapl_call/"
-        },
-        {
-          "title": "AAPL 📈",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wbzjl7/aapl/"
-        },
-        {
-          "title": "iPhone Duo made me Fat finger 200 AAPL contracts",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wbverb/iphone_duo_made_me_fat_finger_200_aapl_contracts/"
-        }
-      ],
-      "topics": [
-        "AAPL",
-        "MADE",
-        "Puts",
-        "CALL"
-      ],
-      "themen": [
-        {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 100,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        }
-      ],
-      "bull_case": [],
-      "bear_case": [
-        "Put-Optionen-Aktivität"
-      ],
-      "price": {
-        "available": true,
-        "price": 334.0,
-        "currency": "USD",
-        "name": "Apple Inc.",
-        "chart_1d": [
-          {
-            "t": 1789133400,
-            "c": 333.35
-          },
-          {
-            "t": 1789134300,
-            "c": 332.47
-          },
-          {
-            "t": 1789135200,
-            "c": 331.7
-          },
-          {
-            "t": 1789136100,
-            "c": 334.09
-          },
-          {
-            "t": 1789137000,
-            "c": 334.7
-          },
-          {
-            "t": 1789137900,
-            "c": 334.96
-          },
-          {
-            "t": 1789138800,
-            "c": 335.54
-          },
-          {
-            "t": 1789139700,
-            "c": 335.57
-          },
-          {
-            "t": 1789140600,
-            "c": 334.78
-          },
-          {
-            "t": 1789141500,
-            "c": 333.92
-          },
-          {
-            "t": 1789142400,
-            "c": 334.71
-          },
-          {
-            "t": 1789143300,
-            "c": 334.17
-          },
-          {
-            "t": 1789144200,
-            "c": 334.13
-          },
-          {
-            "t": 1789145100,
-            "c": 334.74
-          },
-          {
-            "t": 1789146000,
-            "c": 334.34
-          },
-          {
-            "t": 1789146900,
-            "c": 334.15
-          },
-          {
-            "t": 1789147725,
-            "c": 334.0
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1788528600,
-            "c": 320.71
-          },
-          {
-            "t": 1788532200,
-            "c": 319.47
-          },
-          {
-            "t": 1788535800,
-            "c": 320.5
-          },
-          {
-            "t": 1788539400,
-            "c": 321.68
-          },
-          {
-            "t": 1788543000,
-            "c": 320.88
-          },
-          {
-            "t": 1788546600,
-            "c": 321.79
-          },
-          {
-            "t": 1788550200,
-            "c": 319.99
-          },
-          {
-            "t": 1788874200,
-            "c": 315.67
-          },
-          {
-            "t": 1788877800,
-            "c": 316.25
-          },
-          {
-            "t": 1788881400,
-            "c": 316.08
-          },
-          {
-            "t": 1788885000,
-            "c": 316.27
-          },
-          {
-            "t": 1788888600,
-            "c": 316.39
-          },
-          {
-            "t": 1788892200,
-            "c": 315.8
-          },
-          {
-            "t": 1788895800,
-            "c": 316.35
-          },
-          {
-            "t": 1788960600,
-            "c": 314.75
-          },
-          {
-            "t": 1788964200,
-            "c": 312.5
-          },
-          {
-            "t": 1788967800,
-            "c": 313.67
-          },
-          {
-            "t": 1788971400,
-            "c": 311.7
-          },
-          {
-            "t": 1788975000,
-            "c": 312.13
-          },
-          {
-            "t": 1788978600,
-            "c": 315.57
-          },
-          {
-            "t": 1788982200,
-            "c": 315.41
-          },
-          {
-            "t": 1789047000,
-            "c": 318.95
-          },
-          {
-            "t": 1789050600,
-            "c": 323.71
-          },
-          {
-            "t": 1789054200,
-            "c": 321.9
-          },
-          {
-            "t": 1789057800,
-            "c": 324.82
-          },
-          {
-            "t": 1789061400,
-            "c": 324.12
-          },
-          {
-            "t": 1789065000,
-            "c": 325.29
-          },
-          {
-            "t": 1789068600,
-            "c": 326.6
-          },
-          {
-            "t": 1789133400,
-            "c": 334.09
-          },
-          {
-            "t": 1789137000,
-            "c": 335.57
-          },
-          {
-            "t": 1789140600,
-            "c": 334.17
-          },
-          {
-            "t": 1789144200,
-            "c": 334.15
-          },
-          {
-            "t": 1789147727,
-            "c": 334.02
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1786455000,
-            "c": 304.91
-          },
-          {
-            "t": 1786541400,
-            "c": 302.25
-          },
-          {
-            "t": 1786627800,
-            "c": 305.26
-          },
-          {
-            "t": 1786714200,
-            "c": 305.93
-          },
-          {
-            "t": 1786973400,
-            "c": 305.59
-          },
-          {
-            "t": 1787059800,
-            "c": 310.03
-          },
-          {
-            "t": 1787146200,
-            "c": 316.83
-          },
-          {
-            "t": 1787232600,
-            "c": 311.3
-          },
-          {
-            "t": 1787319000,
-            "c": 309.35
-          },
-          {
-            "t": 1787578200,
-            "c": 310.34
-          },
-          {
-            "t": 1787664600,
-            "c": 309.9
-          },
-          {
-            "t": 1787751000,
-            "c": 313.45
-          },
-          {
-            "t": 1787837400,
-            "c": 314.58
-          },
-          {
-            "t": 1787923800,
-            "c": 319.7
-          },
-          {
-            "t": 1788183000,
-            "c": 316.85
-          },
-          {
-            "t": 1788269400,
-            "c": 325.13
-          },
-          {
-            "t": 1788355800,
-            "c": 324.96
-          },
-          {
-            "t": 1788442200,
-            "c": 328.21
-          },
-          {
-            "t": 1788528600,
-            "c": 319.97
-          },
-          {
-            "t": 1788874200,
-            "c": 316.22
-          },
-          {
-            "t": 1788960600,
-            "c": 315.34
-          },
-          {
-            "t": 1789047000,
-            "c": 326.57
-          },
-          {
-            "t": 1789133400,
-            "c": 334.0
-          }
-        ],
-        "chart_1y": [
-          {
-            "t": 1757304000,
-            "c": 234.07
-          },
-          {
-            "t": 1757908800,
-            "c": 245.5
-          },
-          {
-            "t": 1758513600,
-            "c": 255.46
-          },
-          {
-            "t": 1759118400,
-            "c": 258.02
-          },
-          {
-            "t": 1759723200,
-            "c": 245.27
-          },
-          {
-            "t": 1760328000,
-            "c": 252.29
-          },
-          {
-            "t": 1760932800,
-            "c": 262.82
-          },
-          {
-            "t": 1761537600,
-            "c": 270.37
-          },
-          {
-            "t": 1762146000,
-            "c": 268.47
-          },
-          {
-            "t": 1762750800,
-            "c": 272.41
-          },
-          {
-            "t": 1763355600,
-            "c": 271.49
-          },
-          {
-            "t": 1763960400,
-            "c": 278.85
-          },
-          {
-            "t": 1764565200,
-            "c": 278.78
-          },
-          {
-            "t": 1765170000,
-            "c": 278.28
-          },
-          {
-            "t": 1765774800,
-            "c": 273.67
-          },
-          {
-            "t": 1766379600,
-            "c": 273.4
-          },
-          {
-            "t": 1766984400,
-            "c": 271.01
-          },
-          {
-            "t": 1767589200,
-            "c": 259.37
-          },
-          {
-            "t": 1768194000,
-            "c": 255.53
-          },
-          {
-            "t": 1768798800,
-            "c": 248.04
-          },
-          {
-            "t": 1769403600,
-            "c": 259.48
-          },
-          {
-            "t": 1770008400,
-            "c": 278.12
-          },
-          {
-            "t": 1770613200,
-            "c": 255.78
-          },
-          {
-            "t": 1771218000,
-            "c": 264.58
-          },
-          {
-            "t": 1771822800,
-            "c": 264.18
-          },
-          {
-            "t": 1772427600,
-            "c": 257.46
-          },
-          {
-            "t": 1773028800,
-            "c": 250.12
-          },
-          {
-            "t": 1773633600,
-            "c": 247.99
-          },
-          {
-            "t": 1774238400,
-            "c": 248.8
-          },
-          {
-            "t": 1774843200,
-            "c": 255.92
-          },
-          {
-            "t": 1775448000,
-            "c": 260.48
-          },
-          {
-            "t": 1776052800,
-            "c": 270.23
-          },
-          {
-            "t": 1776657600,
-            "c": 271.06
-          },
-          {
-            "t": 1777262400,
-            "c": 280.14
-          },
-          {
-            "t": 1777867200,
-            "c": 293.32
-          },
-          {
-            "t": 1778472000,
-            "c": 300.23
-          },
-          {
-            "t": 1779076800,
-            "c": 308.82
-          },
-          {
-            "t": 1779681600,
-            "c": 312.06
-          },
-          {
-            "t": 1780286400,
-            "c": 307.34
-          },
-          {
-            "t": 1780891200,
-            "c": 291.13
-          },
-          {
-            "t": 1781496000,
-            "c": 298.01
-          },
-          {
-            "t": 1782100800,
-            "c": 283.78
-          },
-          {
-            "t": 1782705600,
-            "c": 308.63
-          },
-          {
-            "t": 1783310400,
-            "c": 315.32
-          },
-          {
-            "t": 1783915200,
-            "c": 333.74
-          },
-          {
-            "t": 1784520000,
-            "c": 333.02
-          },
-          {
-            "t": 1785124800,
-            "c": 308.91
-          },
-          {
-            "t": 1785729600,
-            "c": 313.33
-          },
-          {
-            "t": 1786334400,
-            "c": 305.93
-          },
-          {
-            "t": 1786939200,
-            "c": 309.35
-          },
-          {
-            "t": 1787544000,
-            "c": 319.7
-          },
-          {
-            "t": 1788148800,
-            "c": 319.97
-          },
-          {
-            "t": 1788753600,
-            "c": 326.57
-          },
-          {
-            "t": 1789147728,
-            "c": 334.02
-          }
-        ],
-        "chg_1d": 0.19,
-        "chg_7d": 1.76,
-        "chg_1mo": 9.54,
-        "chg_1y": 42.69,
-        "sma20_dist": 5.46
-      },
-      "news": [
-        {
-          "title": "‘Apple and Microsoft Look Like Value Stocks’: Morningstar on SanDisk’s 2,107% Year",
-          "link": "https://247wallst.com/investing/2026/09/11/apple-and-microsoft-look-like-value-stocks-morningstar-on-sandisks-2107-year/?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Apple’s $164 Billion Rally Hinges on iPhone Duo Adoption Among 6 Million Premium Buyers",
-          "link": "https://247wallst.com/investing/2026/09/11/apples-164-billion-rally-hinges-on-iphone-duo-adoption-among-6-million-premium-buyers/?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Analog Devices Retakes Key Level (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/061e595e-cb5c-3c1c-90f4-b7b5e8176ae4/stock-market-today%3A-dow.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Bank of America resets Apple stock price target after iPhone Duo launch",
-          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-cuts-apple-stock-price-target-after-iphone-duo-launch?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Kalshi wants 24/7 perps on Tesla, Apple & Nvidia",
-          "link": "http://videos.coindesk.com/previews/d0oTwPBl?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        }
-      ],
-      "comparison": {
-        "verdict": "relativiert",
-        "points": [
-          "Kurs seitwärts über 7 Tage (+1.76%).",
-          "Starker Monat: +9.54%.",
-          "+5.46% über SMA20 – kurzfristig evtl. überkauft.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
-        ]
-      },
-      "fazit": "Reddit diskutiert Apple Inc. aktuell gemischt (4 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
-        "🎯 Optionen & Short-Interest",
-        "News: Apple’s $164 Billion Rally Hinges on iPhone Duo Adoption Among 6 Milli"
-      ],
-      "momentum": 87,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 140,
-      "timeline": [
-        {
-          "day": "2026-09-08",
-          "mentions": 0
-        },
-        {
-          "day": "2026-09-09",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-10",
-          "mentions": 3
-        },
-        {
-          "day": "2026-09-11",
-          "mentions": 4
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 10,
-      "reddit_vs_markt": {
-        "reddit": 87,
-        "markt": 57,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-09-10T20:14:05.316798+00:00",
-          "ticker": "AAPL",
+          "ts": "2026-09-11T20:13:15.995708+00:00",
+          "ticker": "DTE",
           "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 3,
-          "price": 326.57
-        },
-        {
-          "ts": "2026-09-10T23:33:49.218804+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 3,
-          "price": 326.57
-        },
-        {
-          "ts": "2026-09-11T02:06:36.716778+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 3,
-          "price": 326.57
-        },
-        {
-          "ts": "2026-09-11T08:24:50.509487+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 3,
-          "price": 326.57
-        },
-        {
-          "ts": "2026-09-11T13:56:40.162321+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 3,
-          "price": 332.53
-        },
-        {
-          "ts": "2026-09-11T17:28:10.079051+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 5,
-          "price": 334.0
+          "confidence": 60,
+          "engagement": 13,
+          "price": 132.54
         }
       ]
     },
@@ -1465,7 +792,7 @@
       "confidence": 70,
       "sentiment": 4,
       "mentions": 3,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 19,
       "sources": [
         "wallstreetbets",
@@ -1544,7 +871,7 @@
       ],
       "price": {
         "available": true,
-        "price": 21.24,
+        "price": 21.31,
         "currency": "USD",
         "name": "First Commonwealth Financial Corporation",
         "chart_1d": [
@@ -1613,8 +940,44 @@
             "c": 21.24
           },
           {
-            "t": 1789147715,
+            "t": 1789147800,
+            "c": 21.22
+          },
+          {
+            "t": 1789148700,
+            "c": 21.23
+          },
+          {
+            "t": 1789149600,
             "c": 21.24
+          },
+          {
+            "t": 1789150500,
+            "c": 21.25
+          },
+          {
+            "t": 1789151400,
+            "c": 21.25
+          },
+          {
+            "t": 1789152300,
+            "c": 21.26
+          },
+          {
+            "t": 1789153200,
+            "c": 21.25
+          },
+          {
+            "t": 1789154100,
+            "c": 21.23
+          },
+          {
+            "t": 1789155000,
+            "c": 21.25
+          },
+          {
+            "t": 1789155900,
+            "c": 21.31
           }
         ],
         "chart_5d": [
@@ -1747,15 +1110,19 @@
             "c": 21.24
           },
           {
-            "t": 1789147715,
-            "c": 21.24
+            "t": 1789147800,
+            "c": 21.25
+          },
+          {
+            "t": 1789151400,
+            "c": 21.23
+          },
+          {
+            "t": 1789155000,
+            "c": 21.31
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1786455000,
-            "c": 21.54
-          },
           {
             "t": 1786541400,
             "c": 21.62
@@ -1842,7 +1209,7 @@
           },
           {
             "t": 1789133400,
-            "c": 21.24
+            "c": 21.31
           }
         ],
         "chart_1y": [
@@ -2059,15 +1426,15 @@
             "c": 21.25
           },
           {
-            "t": 1789147715,
-            "c": 21.24
+            "t": 1789156799,
+            "c": 21.31
           }
         ],
-        "chg_1d": -0.47,
-        "chg_7d": 0.38,
-        "chg_1mo": -1.39,
-        "chg_1y": 20.89,
-        "sma20_dist": 0.82
+        "chg_1d": -0.14,
+        "chg_7d": 0.71,
+        "chg_1mo": -1.43,
+        "chg_1y": 21.29,
+        "sma20_dist": 1.13
       },
       "news": [
         {
@@ -2104,7 +1471,7 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+0.38%).",
+          "Kurs seitwärts über 7 Tage (+0.71%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -2113,7 +1480,6 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "📉 Kursverluste",
         "💰 Einstiegs-Debatte"
       ],
@@ -2141,21 +1507,13 @@
       "hype_typ": "hype",
       "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
       "quality_grade": "D",
-      "quality_pct": 37,
+      "quality_pct": 32,
       "reddit_vs_markt": {
         "reddit": 94,
-        "markt": 51,
+        "markt": 52,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-04T20:02:25.321208+00:00",
-          "ticker": "FCF",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 11,
-          "price": 21.36
-        },
         {
           "ts": "2026-09-10T02:09:53.215847+00:00",
           "ticker": "FCF",
@@ -2195,6 +1553,14 @@
           "confidence": 70,
           "engagement": 19,
           "price": 21.24
+        },
+        {
+          "ts": "2026-09-11T20:13:15.995708+00:00",
+          "ticker": "FCF",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 19,
+          "price": 21.31
         }
       ]
     },
@@ -2206,7 +1572,7 @@
       "confidence": 61,
       "sentiment": 1,
       "mentions": 3,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 10,
       "sources": [
         "wallstreetbets"
@@ -2265,7 +1631,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 650.18,
+        "price": 648.03,
         "currency": "USD",
         "name": "Meta Platforms, Inc.",
         "chart_1d": [
@@ -2331,11 +1697,51 @@
           },
           {
             "t": 1789146900,
-            "c": 650.58
+            "c": 650.24
           },
           {
-            "t": 1789147730,
+            "t": 1789147800,
+            "c": 649.09
+          },
+          {
+            "t": 1789148700,
+            "c": 649.78
+          },
+          {
+            "t": 1789149600,
+            "c": 649.24
+          },
+          {
+            "t": 1789150500,
+            "c": 649.34
+          },
+          {
+            "t": 1789151400,
+            "c": 649.27
+          },
+          {
+            "t": 1789152300,
             "c": 650.18
+          },
+          {
+            "t": 1789153200,
+            "c": 650.84
+          },
+          {
+            "t": 1789154100,
+            "c": 651.08
+          },
+          {
+            "t": 1789155000,
+            "c": 648.51
+          },
+          {
+            "t": 1789155900,
+            "c": 648.23
+          },
+          {
+            "t": 1789156800,
+            "c": 648.03
           }
         ],
         "chart_5d": [
@@ -2465,18 +1871,26 @@
           },
           {
             "t": 1789144200,
-            "c": 650.58
+            "c": 650.24
           },
           {
-            "t": 1789147730,
-            "c": 650.18
+            "t": 1789147800,
+            "c": 649.34
+          },
+          {
+            "t": 1789151400,
+            "c": 651.08
+          },
+          {
+            "t": 1789155000,
+            "c": 648.23
+          },
+          {
+            "t": 1789156800,
+            "c": 648.03
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1786455000,
-            "c": 599.12
-          },
           {
             "t": 1786541400,
             "c": 578.85
@@ -2563,7 +1977,7 @@
           },
           {
             "t": 1789133400,
-            "c": 650.18
+            "c": 648.03
           }
         ],
         "chart_1y": [
@@ -2780,17 +2194,35 @@
             "c": 644.38
           },
           {
-            "t": 1789147737,
-            "c": 650.17
+            "t": 1789156801,
+            "c": 648.03
           }
         ],
-        "chg_1d": -1.68,
-        "chg_7d": 6.47,
-        "chg_1mo": 8.52,
-        "chg_1y": -13.95,
-        "sma20_dist": 10.84
+        "chg_1d": -2.01,
+        "chg_7d": 6.12,
+        "chg_1mo": 11.95,
+        "chg_1y": -14.24,
+        "sma20_dist": 10.5
       },
       "news": [
+        {
+          "title": "Meta Muse Personal AI Agent Promising, But Near-Term Monetization Potential Likely Limited, Wedbush Says",
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-muse-personal-ai-agent-193935863.html?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "How Far Could Meta Stock Swing While Its Data Center Bill Climbs?",
+          "link": "https://www.trefis.com/articles/615033/how-far-could-meta-stock-swing-while-its-data-center-bill-climbs/2026-09-11?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AppLovin vs. Meta Platforms: Which Technology Stock Is a Better Buy in 2026?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/11/applovin-vs-meta-platforms-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
         {
           "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
           "link": "https://finance.yahoo.com/technology/ai/articles/nscale-adds-former-openai-exec-164625951.html?.tsrc=rss",
@@ -2802,32 +2234,14 @@
           "link": "https://247wallst.com/investing/2026/09/11/mark-zuckerberg-may-have-found-metas-next-hit-would-you-hand-it-your-email-and-passwords/?.tsrc=rss",
           "date": "Fri, 11 Sep 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Alphabet vs. Meta: One Magnificent Seven Stock Is the Better Buy",
-          "link": "https://247wallst.com/investing/2026/09/11/alphabet-vs-meta-one-magnificent-seven-stock-is-the-better-buy/?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Meta Meets With European Credit Investors in Non-Deal Roadshow",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-meets-european-credit-investors-140841178.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Fidji Simo joins Nscale board ahead of IPO",
-          "link": "https://qz.com/fidji-simo-nscale-board-ipo-091126?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs +6.47% über 7 Tage – Aufwärtsmomentum.",
-          "Starker Monat: +8.52%.",
-          "+10.84% über SMA20 – kurzfristig evtl. überkauft.",
+          "Kurs +6.12% über 7 Tage – Aufwärtsmomentum.",
+          "Starker Monat: +11.95%.",
+          "+10.5% über SMA20 – kurzfristig evtl. überkauft.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -2866,18 +2280,10 @@
       "quality_pct": 1,
       "reddit_vs_markt": {
         "reddit": 64,
-        "markt": 75,
+        "markt": 74,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-10T20:14:05.316798+00:00",
-          "ticker": "META",
-          "rec": "beobachten",
-          "confidence": 51,
-          "engagement": 16,
-          "price": 644.38
-        },
         {
           "ts": "2026-09-10T23:33:49.218804+00:00",
           "ticker": "META",
@@ -2917,6 +2323,766 @@
           "confidence": 61,
           "engagement": 10,
           "price": 650.18
+        },
+        {
+          "ts": "2026-09-11T20:13:15.995708+00:00",
+          "ticker": "META",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 10,
+          "price": 648.03
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 58,
+      "sentiment": 0,
+      "mentions": 3,
+      "mentions_delta": -1,
+      "engagement": 3,
+      "sources": [
+        "wallstreetbets"
+      ],
+      "titles": [
+        "MADE 58K AAPL CALL🔥",
+        "AAPL 📈",
+        "iPhone Duo made me Fat finger 200 AAPL contracts"
+      ],
+      "top_posts": [
+        {
+          "title": "MADE 58K AAPL CALL🔥",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wcqurw/made_58k_aapl_call/"
+        },
+        {
+          "title": "AAPL 📈",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wbzjl7/aapl/"
+        },
+        {
+          "title": "iPhone Duo made me Fat finger 200 AAPL contracts",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wbverb/iphone_duo_made_me_fat_finger_200_aapl_contracts/"
+        }
+      ],
+      "topics": [
+        "AAPL",
+        "MADE",
+        "CALL",
+        "Iphone"
+      ],
+      "themen": [
+        {
+          "emoji": "💬",
+          "titel": "Allgemeine Diskussion",
+          "anteil_pct": 100,
+          "beitraege": 3,
+          "erklaerung": "Kein dominantes Einzelthema erkennbar – breite Diskussion ohne klaren Auslöser."
+        }
+      ],
+      "bull_case": [],
+      "bear_case": [],
+      "price": {
+        "available": true,
+        "price": 332.27,
+        "currency": "USD",
+        "name": "Apple Inc.",
+        "chart_1d": [
+          {
+            "t": 1789133400,
+            "c": 333.35
+          },
+          {
+            "t": 1789134300,
+            "c": 332.47
+          },
+          {
+            "t": 1789135200,
+            "c": 331.7
+          },
+          {
+            "t": 1789136100,
+            "c": 334.09
+          },
+          {
+            "t": 1789137000,
+            "c": 334.7
+          },
+          {
+            "t": 1789137900,
+            "c": 334.96
+          },
+          {
+            "t": 1789138800,
+            "c": 335.54
+          },
+          {
+            "t": 1789139700,
+            "c": 335.57
+          },
+          {
+            "t": 1789140600,
+            "c": 334.78
+          },
+          {
+            "t": 1789141500,
+            "c": 333.92
+          },
+          {
+            "t": 1789142400,
+            "c": 334.71
+          },
+          {
+            "t": 1789143300,
+            "c": 334.17
+          },
+          {
+            "t": 1789144200,
+            "c": 334.13
+          },
+          {
+            "t": 1789145100,
+            "c": 334.74
+          },
+          {
+            "t": 1789146000,
+            "c": 334.34
+          },
+          {
+            "t": 1789146900,
+            "c": 333.95
+          },
+          {
+            "t": 1789147800,
+            "c": 333.22
+          },
+          {
+            "t": 1789148700,
+            "c": 333.38
+          },
+          {
+            "t": 1789149600,
+            "c": 332.8
+          },
+          {
+            "t": 1789150500,
+            "c": 332.86
+          },
+          {
+            "t": 1789151400,
+            "c": 332.9
+          },
+          {
+            "t": 1789152300,
+            "c": 332.52
+          },
+          {
+            "t": 1789153200,
+            "c": 332.56
+          },
+          {
+            "t": 1789154100,
+            "c": 332.64
+          },
+          {
+            "t": 1789155000,
+            "c": 332.61
+          },
+          {
+            "t": 1789155900,
+            "c": 332.23
+          },
+          {
+            "t": 1789156800,
+            "c": 332.27
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1788528600,
+            "c": 320.71
+          },
+          {
+            "t": 1788532200,
+            "c": 319.47
+          },
+          {
+            "t": 1788535800,
+            "c": 320.5
+          },
+          {
+            "t": 1788539400,
+            "c": 321.68
+          },
+          {
+            "t": 1788543000,
+            "c": 320.88
+          },
+          {
+            "t": 1788546600,
+            "c": 321.79
+          },
+          {
+            "t": 1788550200,
+            "c": 319.99
+          },
+          {
+            "t": 1788874200,
+            "c": 315.67
+          },
+          {
+            "t": 1788877800,
+            "c": 316.25
+          },
+          {
+            "t": 1788881400,
+            "c": 316.08
+          },
+          {
+            "t": 1788885000,
+            "c": 316.27
+          },
+          {
+            "t": 1788888600,
+            "c": 316.39
+          },
+          {
+            "t": 1788892200,
+            "c": 315.8
+          },
+          {
+            "t": 1788895800,
+            "c": 316.35
+          },
+          {
+            "t": 1788960600,
+            "c": 314.75
+          },
+          {
+            "t": 1788964200,
+            "c": 312.5
+          },
+          {
+            "t": 1788967800,
+            "c": 313.67
+          },
+          {
+            "t": 1788971400,
+            "c": 311.7
+          },
+          {
+            "t": 1788975000,
+            "c": 312.13
+          },
+          {
+            "t": 1788978600,
+            "c": 315.57
+          },
+          {
+            "t": 1788982200,
+            "c": 315.41
+          },
+          {
+            "t": 1789047000,
+            "c": 318.95
+          },
+          {
+            "t": 1789050600,
+            "c": 323.71
+          },
+          {
+            "t": 1789054200,
+            "c": 321.9
+          },
+          {
+            "t": 1789057800,
+            "c": 324.82
+          },
+          {
+            "t": 1789061400,
+            "c": 324.12
+          },
+          {
+            "t": 1789065000,
+            "c": 325.29
+          },
+          {
+            "t": 1789068600,
+            "c": 326.6
+          },
+          {
+            "t": 1789133400,
+            "c": 334.09
+          },
+          {
+            "t": 1789137000,
+            "c": 335.57
+          },
+          {
+            "t": 1789140600,
+            "c": 334.17
+          },
+          {
+            "t": 1789144200,
+            "c": 333.95
+          },
+          {
+            "t": 1789147800,
+            "c": 332.86
+          },
+          {
+            "t": 1789151400,
+            "c": 332.64
+          },
+          {
+            "t": 1789155000,
+            "c": 332.23
+          },
+          {
+            "t": 1789156800,
+            "c": 332.27
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1786541400,
+            "c": 302.25
+          },
+          {
+            "t": 1786627800,
+            "c": 305.26
+          },
+          {
+            "t": 1786714200,
+            "c": 305.93
+          },
+          {
+            "t": 1786973400,
+            "c": 305.59
+          },
+          {
+            "t": 1787059800,
+            "c": 310.03
+          },
+          {
+            "t": 1787146200,
+            "c": 316.83
+          },
+          {
+            "t": 1787232600,
+            "c": 311.3
+          },
+          {
+            "t": 1787319000,
+            "c": 309.35
+          },
+          {
+            "t": 1787578200,
+            "c": 310.34
+          },
+          {
+            "t": 1787664600,
+            "c": 309.9
+          },
+          {
+            "t": 1787751000,
+            "c": 313.45
+          },
+          {
+            "t": 1787837400,
+            "c": 314.58
+          },
+          {
+            "t": 1787923800,
+            "c": 319.7
+          },
+          {
+            "t": 1788183000,
+            "c": 316.85
+          },
+          {
+            "t": 1788269400,
+            "c": 325.13
+          },
+          {
+            "t": 1788355800,
+            "c": 324.96
+          },
+          {
+            "t": 1788442200,
+            "c": 328.21
+          },
+          {
+            "t": 1788528600,
+            "c": 319.97
+          },
+          {
+            "t": 1788874200,
+            "c": 316.22
+          },
+          {
+            "t": 1788960600,
+            "c": 315.34
+          },
+          {
+            "t": 1789047000,
+            "c": 326.57
+          },
+          {
+            "t": 1789133400,
+            "c": 332.27
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1757304000,
+            "c": 234.07
+          },
+          {
+            "t": 1757908800,
+            "c": 245.5
+          },
+          {
+            "t": 1758513600,
+            "c": 255.46
+          },
+          {
+            "t": 1759118400,
+            "c": 258.02
+          },
+          {
+            "t": 1759723200,
+            "c": 245.27
+          },
+          {
+            "t": 1760328000,
+            "c": 252.29
+          },
+          {
+            "t": 1760932800,
+            "c": 262.82
+          },
+          {
+            "t": 1761537600,
+            "c": 270.37
+          },
+          {
+            "t": 1762146000,
+            "c": 268.47
+          },
+          {
+            "t": 1762750800,
+            "c": 272.41
+          },
+          {
+            "t": 1763355600,
+            "c": 271.49
+          },
+          {
+            "t": 1763960400,
+            "c": 278.85
+          },
+          {
+            "t": 1764565200,
+            "c": 278.78
+          },
+          {
+            "t": 1765170000,
+            "c": 278.28
+          },
+          {
+            "t": 1765774800,
+            "c": 273.67
+          },
+          {
+            "t": 1766379600,
+            "c": 273.4
+          },
+          {
+            "t": 1766984400,
+            "c": 271.01
+          },
+          {
+            "t": 1767589200,
+            "c": 259.37
+          },
+          {
+            "t": 1768194000,
+            "c": 255.53
+          },
+          {
+            "t": 1768798800,
+            "c": 248.04
+          },
+          {
+            "t": 1769403600,
+            "c": 259.48
+          },
+          {
+            "t": 1770008400,
+            "c": 278.12
+          },
+          {
+            "t": 1770613200,
+            "c": 255.78
+          },
+          {
+            "t": 1771218000,
+            "c": 264.58
+          },
+          {
+            "t": 1771822800,
+            "c": 264.18
+          },
+          {
+            "t": 1772427600,
+            "c": 257.46
+          },
+          {
+            "t": 1773028800,
+            "c": 250.12
+          },
+          {
+            "t": 1773633600,
+            "c": 247.99
+          },
+          {
+            "t": 1774238400,
+            "c": 248.8
+          },
+          {
+            "t": 1774843200,
+            "c": 255.92
+          },
+          {
+            "t": 1775448000,
+            "c": 260.48
+          },
+          {
+            "t": 1776052800,
+            "c": 270.23
+          },
+          {
+            "t": 1776657600,
+            "c": 271.06
+          },
+          {
+            "t": 1777262400,
+            "c": 280.14
+          },
+          {
+            "t": 1777867200,
+            "c": 293.32
+          },
+          {
+            "t": 1778472000,
+            "c": 300.23
+          },
+          {
+            "t": 1779076800,
+            "c": 308.82
+          },
+          {
+            "t": 1779681600,
+            "c": 312.06
+          },
+          {
+            "t": 1780286400,
+            "c": 307.34
+          },
+          {
+            "t": 1780891200,
+            "c": 291.13
+          },
+          {
+            "t": 1781496000,
+            "c": 298.01
+          },
+          {
+            "t": 1782100800,
+            "c": 283.78
+          },
+          {
+            "t": 1782705600,
+            "c": 308.63
+          },
+          {
+            "t": 1783310400,
+            "c": 315.32
+          },
+          {
+            "t": 1783915200,
+            "c": 333.74
+          },
+          {
+            "t": 1784520000,
+            "c": 333.02
+          },
+          {
+            "t": 1785124800,
+            "c": 308.91
+          },
+          {
+            "t": 1785729600,
+            "c": 313.33
+          },
+          {
+            "t": 1786334400,
+            "c": 305.93
+          },
+          {
+            "t": 1786939200,
+            "c": 309.35
+          },
+          {
+            "t": 1787544000,
+            "c": 319.7
+          },
+          {
+            "t": 1788148800,
+            "c": 319.97
+          },
+          {
+            "t": 1788753600,
+            "c": 326.57
+          },
+          {
+            "t": 1789156801,
+            "c": 332.27
+          }
+        ],
+        "chg_1d": -0.32,
+        "chg_7d": 1.24,
+        "chg_1mo": 9.93,
+        "chg_1y": 41.95,
+        "sma20_dist": 4.94
+      },
+      "news": [
+        {
+          "title": "Can Apple Stock's Premium Survive The Memory Squeeze On Its Margin?",
+          "link": "https://www.trefis.com/articles/615042/can-apple-stocks-premium-survive-the-memory-squeeze-on-its-margin/2026-09-11?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple Stock Has Returned Nearly 1,200% in 10 Years. How High Can AAPL Go From Here?",
+          "link": "https://247wallst.com/investing/2026/09/11/apple-stock-has-returned-nearly-1200-in-10-years-how-high-can-aapl-go-from-here/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "‘Apple and Microsoft Look Like Value Stocks’: Morningstar on SanDisk’s 2,107% Year",
+          "link": "https://247wallst.com/investing/2026/09/11/apple-and-microsoft-look-like-value-stocks-morningstar-on-sandisks-2107-year/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Apple’s $164 Billion Rally Hinges on iPhone Duo Adoption Among 6 Million Premium Buyers",
+          "link": "https://247wallst.com/investing/2026/09/11/apples-164-billion-rally-hinges-on-iphone-duo-adoption-among-6-million-premium-buyers/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Bank of America resets Apple stock price target after iPhone Duo launch",
+          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-cuts-apple-stock-price-target-after-iphone-duo-launch?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (+1.24%).",
+          "Starker Monat: +9.93%.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Reddit diskutiert Apple Inc. aktuell gemischt (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "💬 Allgemeine Diskussion"
+      ],
+      "momentum": 87,
+      "momentum_label": "🚀 Diskussion wächst extrem schnell",
+      "growth_pct": 140,
+      "timeline": [
+        {
+          "day": "2026-09-08",
+          "mentions": 0
+        },
+        {
+          "day": "2026-09-09",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-10",
+          "mentions": 3
+        },
+        {
+          "day": "2026-09-11",
+          "mentions": 4
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 0,
+      "reddit_vs_markt": {
+        "reddit": 87,
+        "markt": 54,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-09-10T23:33:49.218804+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 3,
+          "price": 326.57
+        },
+        {
+          "ts": "2026-09-11T02:06:36.716778+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 3,
+          "price": 326.57
+        },
+        {
+          "ts": "2026-09-11T08:24:50.509487+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 3,
+          "price": 326.57
+        },
+        {
+          "ts": "2026-09-11T13:56:40.162321+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 3,
+          "price": 332.53
+        },
+        {
+          "ts": "2026-09-11T17:28:10.079051+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 5,
+          "price": 334.0
+        },
+        {
+          "ts": "2026-09-11T20:13:15.995708+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 3,
+          "price": 332.27
         }
       ]
     },
@@ -3050,14 +3216,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-10T02:09:53.215847+00:00",
-          "ticker": "DCF",
-          "rec": "beobachten",
-          "confidence": 44,
-          "engagement": 16,
-          "price": null
-        },
-        {
           "ts": "2026-09-10T08:30:16.089840+00:00",
           "ticker": "DCF",
           "rec": "beobachten",
@@ -3091,6 +3249,14 @@
         },
         {
           "ts": "2026-09-11T17:28:10.079051+00:00",
+          "ticker": "DCF",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 16,
+          "price": null
+        },
+        {
+          "ts": "2026-09-11T20:13:15.995708+00:00",
           "ticker": "DCF",
           "rec": "beobachten",
           "confidence": 44,
@@ -3219,31 +3385,28 @@
           "confidence": 41,
           "engagement": 15,
           "price": null
+        },
+        {
+          "ts": "2026-09-11T20:13:15.995708+00:00",
+          "ticker": "VIX",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 15,
+          "price": null
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 69,
-    "n_evaluated": 166,
+    "hit_rate": 63,
+    "n_evaluated": 164,
     "rate_kaufen": 47,
     "rate_verkaufen": null,
-    "rate_beobachten": 76,
-    "kauf_perf_7d": 3.1,
+    "rate_beobachten": 69,
+    "kauf_perf_7d": 2.9,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-08-30T18:55:59.435003+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 5,
-      "price": 932.86,
-      "chg_since": 4.92,
-      "correct": true,
-      "age_days": 11
-    },
     {
       "ts": "2026-08-30T22:14:23.765779+00:00",
       "ticker": "NVDA",
@@ -3251,7 +3414,7 @@
       "confidence": 87,
       "engagement": 29,
       "price": 217.55,
-      "chg_since": 0.73,
+      "chg_since": 0.34,
       "correct": false,
       "age_days": 11
     },
@@ -3262,7 +3425,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 216.62,
-      "chg_since": 10.18,
+      "chg_since": 8.99,
       "correct": false,
       "age_days": 11
     },
@@ -3273,7 +3436,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 932.86,
-      "chg_since": 4.92,
+      "chg_since": 4.55,
       "correct": true,
       "age_days": 11
     },
@@ -3284,7 +3447,7 @@
       "confidence": 87,
       "engagement": 29,
       "price": 217.55,
-      "chg_since": 0.73,
+      "chg_since": 0.34,
       "correct": false,
       "age_days": 11
     },
@@ -3295,7 +3458,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 932.86,
-      "chg_since": 4.92,
+      "chg_since": 4.55,
       "correct": true,
       "age_days": 11
     },
@@ -3306,7 +3469,7 @@
       "confidence": 58,
       "engagement": 9,
       "price": 216.62,
-      "chg_since": 10.18,
+      "chg_since": 8.99,
       "correct": false,
       "age_days": 11
     },
@@ -3317,7 +3480,7 @@
       "confidence": 57,
       "engagement": 16,
       "price": 217.55,
-      "chg_since": 0.73,
+      "chg_since": 0.34,
       "correct": true,
       "age_days": 11
     },
@@ -3328,7 +3491,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 932.86,
-      "chg_since": 4.92,
+      "chg_since": 4.55,
       "correct": true,
       "age_days": 11
     },
@@ -3339,7 +3502,7 @@
       "confidence": 58,
       "engagement": 9,
       "price": 216.62,
-      "chg_since": 10.18,
+      "chg_since": 8.99,
       "correct": false,
       "age_days": 11
     },
@@ -3350,9 +3513,9 @@
       "confidence": 70,
       "engagement": 25,
       "price": 219.29,
-      "chg_since": -0.07,
+      "chg_since": -0.46,
       "correct": true,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-08-31T18:27:04.380195+00:00",
@@ -3361,9 +3524,9 @@
       "confidence": 64,
       "engagement": 5,
       "price": 948.25,
-      "chg_since": 3.22,
+      "chg_since": 2.85,
       "correct": true,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-08-31T18:27:04.380195+00:00",
@@ -3372,9 +3535,9 @@
       "confidence": 58,
       "engagement": 9,
       "price": 211.44,
-      "chg_since": 12.88,
+      "chg_since": 11.66,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-08-31T23:29:45.017434+00:00",
@@ -3383,7 +3546,7 @@
       "confidence": 57,
       "engagement": 12,
       "price": 220.78,
-      "chg_since": -0.74,
+      "chg_since": -1.13,
       "correct": true,
       "age_days": 10
     },
@@ -3394,7 +3557,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 958.73,
-      "chg_since": 2.09,
+      "chg_since": 1.72,
       "correct": true,
       "age_days": 10
     },
@@ -3405,7 +3568,7 @@
       "confidence": 57,
       "engagement": 12,
       "price": 220.78,
-      "chg_since": -0.74,
+      "chg_since": -1.13,
       "correct": true,
       "age_days": 10
     },
@@ -3416,7 +3579,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 958.73,
-      "chg_since": 2.09,
+      "chg_since": 1.72,
       "correct": true,
       "age_days": 10
     },
@@ -3427,7 +3590,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 220.78,
-      "chg_since": -0.74,
+      "chg_since": -1.13,
       "correct": true,
       "age_days": 10
     },
@@ -3438,7 +3601,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 958.73,
-      "chg_since": 2.09,
+      "chg_since": 1.72,
       "correct": true,
       "age_days": 10
     },
@@ -3449,7 +3612,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 936.38,
-      "chg_since": 4.53,
+      "chg_since": 4.15,
       "correct": true,
       "age_days": 10
     },
@@ -3460,7 +3623,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 217.73,
-      "chg_since": 0.65,
+      "chg_since": 0.26,
       "correct": true,
       "age_days": 10
     },
@@ -3471,9 +3634,9 @@
       "confidence": 64,
       "engagement": 5,
       "price": 929.32,
-      "chg_since": 5.32,
-      "correct": false,
-      "age_days": 9
+      "chg_since": 4.94,
+      "correct": true,
+      "age_days": 10
     },
     {
       "ts": "2026-09-01T19:00:26.762231+00:00",
@@ -3482,9 +3645,9 @@
       "confidence": 61,
       "engagement": 4,
       "price": 217.48,
-      "chg_since": 0.76,
+      "chg_since": 0.37,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-09-01T22:11:37.516005+00:00",
@@ -3493,7 +3656,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 933.44,
-      "chg_since": 4.86,
+      "chg_since": 4.48,
       "correct": true,
       "age_days": 9
     },
@@ -3504,7 +3667,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 933.44,
-      "chg_since": 4.86,
+      "chg_since": 4.48,
       "correct": true,
       "age_days": 9
     },
@@ -3515,7 +3678,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 933.44,
-      "chg_since": 4.86,
+      "chg_since": 4.48,
       "correct": true,
       "age_days": 9
     },
@@ -3526,7 +3689,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 933.93,
-      "chg_since": 4.8,
+      "chg_since": 4.43,
       "correct": true,
       "age_days": 9
     },
@@ -3537,9 +3700,9 @@
       "confidence": 64,
       "engagement": 5,
       "price": 945.09,
-      "chg_since": 3.57,
+      "chg_since": 3.19,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-02T20:17:58.407132+00:00",
@@ -3548,7 +3711,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 956.08,
-      "chg_since": 2.38,
+      "chg_since": 2.01,
       "correct": true,
       "age_days": 8
     },
@@ -3559,7 +3722,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 956.08,
-      "chg_since": 2.38,
+      "chg_since": 2.01,
       "correct": true,
       "age_days": 8
     },
@@ -3570,7 +3733,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 956.08,
-      "chg_since": 2.38,
+      "chg_since": 2.01,
       "correct": true,
       "age_days": 8
     },
@@ -3581,7 +3744,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 956.08,
-      "chg_since": 2.38,
+      "chg_since": 2.01,
       "correct": true,
       "age_days": 8
     },
@@ -3592,7 +3755,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 946.49,
-      "chg_since": 3.41,
+      "chg_since": 3.04,
       "correct": true,
       "age_days": 8
     },
@@ -3603,9 +3766,9 @@
       "confidence": 61,
       "engagement": 4,
       "price": 942.89,
-      "chg_since": 3.81,
+      "chg_since": 3.43,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-03T20:17:46.196433+00:00",
@@ -3614,7 +3777,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 958.16,
-      "chg_since": 2.15,
+      "chg_since": 1.78,
       "correct": true,
       "age_days": 7
     },
@@ -3625,7 +3788,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 958.16,
-      "chg_since": 2.15,
+      "chg_since": 1.78,
       "correct": true,
       "age_days": 7
     },
@@ -3636,7 +3799,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 956.08,
-      "chg_since": 2.38,
+      "chg_since": 2.01,
       "correct": true,
       "age_days": 7
     },
@@ -3647,7 +3810,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 958.16,
-      "chg_since": 2.15,
+      "chg_since": 1.78,
       "correct": true,
       "age_days": 7
     },
@@ -3658,7 +3821,7 @@
       "confidence": 58,
       "engagement": 11,
       "price": 21.27,
-      "chg_since": -0.14,
+      "chg_since": 0.19,
       "correct": true,
       "age_days": 7
     },
@@ -3669,7 +3832,18 @@
       "confidence": 58,
       "engagement": 11,
       "price": 21.39,
-      "chg_since": -0.7,
+      "chg_since": -0.37,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-04T20:02:25.321208+00:00",
+      "ticker": "FCF",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 11,
+      "price": 21.36,
+      "chg_since": -0.23,
       "correct": true,
       "age_days": 7
     }
@@ -3677,6 +3851,24 @@
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41689",
+        "url": "https://www.trumpstruth.org/statuses/41689",
+        "date": "Fri, 11 Sep 2026 17:39",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41688",
+        "url": "https://www.trumpstruth.org/statuses/41688",
+        "date": "Fri, 11 Sep 2026 17:35",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
       {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41687",
         "url": "https://www.trumpstruth.org/statuses/41687",
@@ -3730,41 +3922,23 @@
         "companies": [],
         "policy": [],
         "is_new": false
-      },
-      {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117246833197264572",
-        "url": "https://www.trumpstruth.org/statuses/41680",
-        "date": "Thu, 10 Sep 2026 12:51",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41681",
-        "url": "https://www.trumpstruth.org/statuses/41681",
-        "date": "Thu, 10 Sep 2026 12:51",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
       }
     ],
     "market_hits": 0
   },
   "spannende_aktien": [
     {
-      "ticker": "TNON",
-      "name": "Tenon Medical, Inc.",
-      "price": 8.03,
+      "ticker": "BDRX",
+      "name": "Biodexa Pharmaceuticals Plc",
+      "price": 1.3,
       "currency": "USD",
-      "chg_1d": 51.51,
-      "vol_ratio": 9.3,
+      "chg_1d": 96.97,
+      "vol_ratio": 142.6,
       "warum": [
-        "Tenon Medical Announces Warrant Inducement for Aggregate Gross Proceeds of Appro",
-        "Tenon Medical Announces Early Repayment of Its Convertible Notes"
+        "Biodexa announces major milestone for its Serenta registrational Phase 3 trial i",
+        "Result of Annual General Meeting"
       ],
-      "bedeutung": "Extreme Bewegung (+51.51%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "bedeutung": "Extreme Bewegung (+96.97%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
@@ -3773,203 +3947,150 @@
       ],
       "news": [
         {
-          "title": "Tenon Medical Announces Warrant Inducement for Aggregate Gross Proceeds of Approximately $2,872,338",
-          "link": "https://finance.yahoo.com/healthcare/articles/tenon-medical-announces-warrant-inducement-172200356.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
+          "title": "Biodexa announces major milestone for its Serenta registrational Phase 3 trial in FAP",
+          "link": "https://finance.yahoo.com/healthcare/articles/biodexa-announces-major-milestone-serenta-123000736.html?.tsrc=rss",
+          "date": "Wed, 19 Aug 2026",
           "tone": "neu"
         },
         {
-          "title": "Tenon Medical Announces Early Repayment of Its Convertible Notes",
-          "link": "https://finance.yahoo.com/healthcare/articles/tenon-medical-announces-early-repayment-123000340.html?.tsrc=rss",
-          "date": "Wed, 09 Sep 2026",
+          "title": "Result of Annual General Meeting",
+          "link": "https://finance.yahoo.com/healthcare/articles/result-annual-general-meeting-203000075.html?.tsrc=rss",
+          "date": "Tue, 30 Jun 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "SURG",
-      "name": "SurgePays, Inc.",
-      "price": 0.2,
+      "ticker": "SMR",
+      "name": "NuScale Power Corporation",
+      "price": 8.6,
       "currency": "USD",
-      "chg_1d": 17.65,
-      "vol_ratio": 8.9,
+      "chg_1d": -15.77,
+      "vol_ratio": 2.6,
       "warum": [
-        "SurgePays Sells ClearLine Apps Engagement Platform for $27.5 Million in Consider",
-        "SurgePays Reports 23% Month-Over-Month Growth in Smartphone Rent-to-Own Program,"
+        "NuScale Stock Falls 14% as UBS Sees a $95 Million EBITDA Gap",
+        "Why NuScale Power Stock Just Crashed"
+      ],
+      "bedeutung": "Extreme Bewegung (-15.77%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "NuScale Stock Falls 14% as UBS Sees a $95 Million EBITDA Gap",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nuscale-stock-falls-14-ubs-195503018.html?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neg"
+        },
+        {
+          "title": "Why NuScale Power Stock Just Crashed",
+          "link": "https://www.fool.com/investing/2026/09/11/why-nuscale-power-stock-just-crashed/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise Company",
+      "price": 62.08,
+      "currency": "USD",
+      "chg_1d": 12.42,
+      "vol_ratio": 1.5,
+      "warum": [
+        "DELL, HPE Stocks Lead S&P 500 Gains: Oracle’s $95B Capex Plan Lifts AI Stocks",
+        "Hewlett Packard Enterprise and Dell Surge 11% as Oracle’s Capex Guidance Lifts A"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "DELL, HPE Stocks Lead S&P 500 Gains: Oracle’s $95B Capex Plan Lifts AI Stocks",
+          "link": "https://stocktwits.com/news-articles/markets/equity/dell-hpe-stocks-lead-s-and-p-500-gains-oracle-s-95-b-capex-plan-lifts-ai-stocks/cZtXFJxRBb2?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Hewlett Packard Enterprise and Dell Surge 11% as Oracle’s Capex Guidance Lifts AI Server Demand; Super Micro Climbs 7%",
+          "link": "https://247wallst.com/investing/2026/09/11/hewlett-packard-enterprise-and-dell-surge-11-as-oracles-capex-guidance-lifts-ai-server-demand-super-micro-climbs-7/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "pos"
+        }
+      ]
+    },
+    {
+      "ticker": "OKLO",
+      "name": "Oklo Inc.",
+      "price": 36.25,
+      "currency": "USD",
+      "chg_1d": -9.1,
+      "vol_ratio": 2.3,
+      "warum": [
+        "Oklo CEO Jacob Dewitte Sells 120,000 Shares for $4.6 Million",
+        "Oklo shares slide after company launches new $1B stock offering"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "SurgePays Sells ClearLine Apps Engagement Platform for $27.5 Million in Consideration",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/surgepays-sells-clearline-apps-engagement-201500904.html?.tsrc=rss",
-          "date": "Thu, 10 Sep 2026",
-          "tone": "pos"
+          "title": "Oklo CEO Jacob Dewitte Sells 120,000 Shares for $4.6 Million",
+          "link": "https://www.fool.com/coverage/filings/2026/09/11/oklo-ceo-jacob-dewitte-sells-120000-shares-for-46-million/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
         },
         {
-          "title": "SurgePays Reports 23% Month-Over-Month Growth in Smartphone Rent-to-Own Program, Reaching $176,000 in July Retail Sales",
-          "link": "https://finance.yahoo.com/small-business/articles/surgepays-reports-23-month-over-123000726.html?.tsrc=rss",
-          "date": "Tue, 11 Aug 2026",
-          "tone": "pos"
+          "title": "Oklo shares slide after company launches new $1B stock offering",
+          "link": "https://www.proactiveinvestors.com/companies/news/1098457/oklo-shares-slide-after-company-launches-new-1b-stock-offering-1098457.html?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "DBGI",
-      "name": "Digital Brands Group, Inc.",
-      "price": 5.61,
+      "ticker": "SLS",
+      "name": "SELLAS Life Sciences Group, Inc.",
+      "price": 11.55,
       "currency": "USD",
-      "chg_1d": -17.38,
-      "vol_ratio": 1.6,
+      "chg_1d": -14.38,
+      "vol_ratio": 2.0,
       "warum": [
-        "Digital Brands Group Investor Update: U.S. Program & Go-Private Process and Time",
-        "Digital Brands Group Executes Binding $3.3 Million in Guaranteed Cash From Septe"
+        "SELLAS Life Sciences Group (SLS) Lands 3 AACR Abstracts For SLS009 Pancreatic Ca",
+        "Sellas Gears Up To Present Preclinical SLS009 Data For Pancreatic Cancer At Majo"
       ],
-      "bedeutung": "Extreme Bewegung (-17.38%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "bedeutung": "Extreme Bewegung (-14.38%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Digital Brands Group Investor Update: U.S. Program & Go-Private Process and Timeline",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/digital-brands-group-investor-u-131200046.html?.tsrc=rss",
-          "date": "Thu, 10 Sep 2026",
+          "title": "SELLAS Life Sciences Group (SLS) Lands 3 AACR Abstracts For SLS009 Pancreatic Cancer Data",
+          "link": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-group-sls-010428540.html?.tsrc=rss",
+          "date": "Thu, 03 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Digital Brands Group Executes Binding $3.3 Million in Guaranteed Cash From September Through December 2026",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/digital-brands-group-executes-binding-130800212.html?.tsrc=rss",
-          "date": "Tue, 01 Sep 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "QRVO",
-      "name": "Qorvo, Inc.",
-      "price": 118.4,
-      "currency": "USD",
-      "chg_1d": 5.38,
-      "vol_ratio": 1.4,
-      "warum": [
-        "Skyworks Rises 7%, Qorvo Gains 5% as CEO Says $22B Merger Is in Final Stages; Qu",
-        "Skyworks (SWKS) Rockets 9.8% on Looming $22B Qorvo Merger Nod"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Skyworks Rises 7%, Qorvo Gains 5% as CEO Says $22B Merger Is in Final Stages; Qualcomm Ticks Up",
-          "link": "https://247wallst.com/investing/2026/09/11/skyworks-rises-7-qorvo-gains-5-as-ceo-says-22b-merger-is-in-final-stages-qualcomm-ticks-up/?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Skyworks (SWKS) Rockets 9.8% on Looming $22B Qorvo Merger Nod",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-rockets-9-8-014200183.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "RH",
-      "name": "RH",
-      "price": 136.89,
-      "currency": "USD",
-      "chg_1d": 2.14,
-      "vol_ratio": 1.9,
-      "warum": [
-        "RH Q2 Adjusted EPS Reaches $2.70 as Shares Rise 7.9% Premarket",
-        "RH’s New Collection Could Double Its Market"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "RH Q2 Adjusted EPS Reaches $2.70 as Shares Rise 7.9% Premarket",
-          "link": "https://investorshub.advfn.com/market-news/article/36098/rh-q2-adjusted-eps-reaches-2-70-as-shares-rise-7-9-premarket?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "RH’s New Collection Could Double Its Market",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/rh-collection-could-double-market-101943343.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
+          "title": "Sellas Gears Up To Present Preclinical SLS009 Data For Pancreatic Cancer At Major Oncology Conference",
+          "link": "https://stocktwits.com/news-articles/markets/equity/sellas-gears-up-to-present-preclinical-sls-009-data-for-pancreatic-cancer-at-major-oncology-conference/cZsAM18RJuw?.tsrc=rss",
+          "date": "Wed, 02 Sep 2026",
           "tone": "neu"
         }
       ]
     }
   ],
-  "ma_deals": [
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZNRUJBOXkyWmJQS2NkMkJ5UzBmRFg4UDZLOUZWOEk2elViZ3pWdTdKUG5WTW5LVHI2c1RoNmdRZ0ZTWC15OV9TRnF1d3V6b3Y1MlpNZmc4dlh5T1FucTNqZEZlRlBvX2Rrb2NrdFVfckJKZ0p4am9KY1BFYWhBajNNVU5icnlRTEt0cm5GMzZ5M1hFSDZpaUtNalctQm85R1BUNG9yLWY5Q0xNZ29YTzI4cw?oc=5",
-      "date": "Wed, 09 Sep 2026",
-      "headline": "Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger - WSJ",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdkVYTE84am1wUzhodVdSNFp3eXRvX1daUTVQc1BHbVR4MjNBUVc0c2RHblNUMlpZSm1DMWVlU0tHb0syX1RmaUR5UlZ3eEYyNzMxd1MtYzhHRGpxcFg3NVVZSmZtdm1DMmZlTEt5Y0xOZWtHLWhuR1YxcmtGcGNKVGVwTEtwZWc2QV9ldXVzd0xDUQ?oc=5",
-      "date": "Thu, 10 Sep 2026",
-      "headline": "Brighthouse’s $4.1 Billion Takeover Drags as Regulators Dig In - AdvisorHub",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNelU0R1E2eUVzYUFFM3ZfeXZLNlJ1NHlmODEycFBPZzA0S0c4OHl5YTNyRy16dDZTdmhqU2RwdVIzUUFVcnYyY2hSSV9DR0dwV3ZoOFQtcWhYTG1adEwwWHpvMjVXTjlSQ0RHbGttV25EemEtWXU1THNrMlh3NHRwVDhNV1lEZ1J0VmwwaDA2RlMyZzFJbzRkanllcVN0ZEpSQi10aHluUXhkSzRF?oc=5",
-      "date": "Tue, 08 Sep 2026",
-      "headline": "EverBank to combine with WaFd in $3.9 billion reverse merger - Reuters",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeE03ODRXSFJmdVBjakxWRGh3MTRzN2xzYy1tRklXa05RNXJxWkY3dmFFcUduWUU1NDJuWl9LU240X290dm4xZDQ0VjR6VFVCejBINDZMOS15b1ZFX0Rrd2xiY3hpMEVBOUMwMEo5blQzSjJVbnJGdm51dXBnMXZINEZ3M2VobENaSjR0UldpOE1sWXBwNUR0TmRoTEQwOWxUUmk2U1pTR0pYVVd3c0hreWg2UWI0TWNCVzJEUXVLenA?oc=5",
-      "date": "Fri, 11 Sep 2026",
-      "headline": "ACV Auctions Stock Explodes After Copart's $1.9 Billion Takeover - TradingView",
-      "source": "Google News"
-    }
-  ]
+  "ma_deals": []
 }
