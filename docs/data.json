@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T21:49:07.458965+00:00",
+  "generated_at": "2026-09-12T23:34:52.964475+00:00",
   "total_posts": 250,
-  "unique_tickers": 194,
+  "unique_tickers": 185,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -729,14 +729,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-12T02:12:06.914211+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 77.0
-        },
-        {
           "ts": "2026-09-12T08:13:37.183073+00:00",
           "ticker": "BYD",
           "rec": "beobachten",
@@ -770,6 +762,14 @@
         },
         {
           "ts": "2026-09-12T21:49:07.458965+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 11,
+          "price": 77.0
+        },
+        {
+          "ts": "2026-09-12T23:34:52.964475+00:00",
           "ticker": "BYD",
           "rec": "beobachten",
           "confidence": 64,
@@ -1517,14 +1517,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-11T08:24:50.509487+00:00",
-          "ticker": "NBIS",
-          "rec": "kaufen",
-          "confidence": 81,
-          "engagement": 12,
-          "price": 228.11
-        },
-        {
           "ts": "2026-09-11T13:56:40.162321+00:00",
           "ticker": "NBIS",
           "rec": "kaufen",
@@ -1558,6 +1550,14 @@
         },
         {
           "ts": "2026-09-12T21:49:07.458965+00:00",
+          "ticker": "NBIS",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 11,
+          "price": 224.55
+        },
+        {
+          "ts": "2026-09-12T23:34:52.964475+00:00",
           "ticker": "NBIS",
           "rec": "beobachten",
           "confidence": 64,
@@ -2280,14 +2280,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-12T02:12:06.914211+00:00",
-          "ticker": "DTE",
-          "rec": "beobachten",
-          "confidence": 60,
-          "engagement": 13,
-          "price": 132.58
-        },
-        {
           "ts": "2026-09-12T08:13:37.183073+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
@@ -2321,6 +2313,14 @@
         },
         {
           "ts": "2026-09-12T21:49:07.458965+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 57,
+          "engagement": 11,
+          "price": 132.58
+        },
+        {
+          "ts": "2026-09-12T23:34:52.964475+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
           "confidence": 57,
@@ -2438,6 +2438,14 @@
         },
         {
           "ts": "2026-09-12T21:49:07.458965+00:00",
+          "ticker": "CPI",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 4,
+          "price": null
+        },
+        {
+          "ts": "2026-09-12T23:34:52.964475+00:00",
           "ticker": "CPI",
           "rec": "beobachten",
           "confidence": 44,
@@ -2578,6 +2586,14 @@
         },
         {
           "ts": "2026-09-12T21:49:07.458965+00:00",
+          "ticker": "NAV",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 18,
+          "price": null
+        },
+        {
+          "ts": "2026-09-12T23:34:52.964475+00:00",
           "ticker": "NAV",
           "rec": "beobachten",
           "confidence": 44,
@@ -3290,14 +3306,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-12T02:12:06.914211+00:00",
-          "ticker": "AAPL",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 3,
-          "price": 332.27
-        },
-        {
           "ts": "2026-09-12T08:13:37.183073+00:00",
           "ticker": "AAPL",
           "rec": "beobachten",
@@ -3336,31 +3344,28 @@
           "confidence": 58,
           "engagement": 3,
           "price": 332.27
+        },
+        {
+          "ts": "2026-09-12T23:34:52.964475+00:00",
+          "ticker": "AAPL",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 3,
+          "price": 332.27
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 67,
-    "n_evaluated": 134,
-    "rate_kaufen": 42,
+    "hit_rate": 68,
+    "n_evaluated": 131,
+    "rate_kaufen": 41,
     "rate_verkaufen": null,
-    "rate_beobachten": 75,
-    "kauf_perf_7d": 2.5,
+    "rate_beobachten": 77,
+    "kauf_perf_7d": 2.4,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-08-31T02:24:47.217008+00:00",
-      "ticker": "NVDA",
-      "rec": "kaufen",
-      "confidence": 87,
-      "engagement": 29,
-      "price": 217.55,
-      "chg_since": 0.34,
-      "correct": false,
-      "age_days": 12
-    },
     {
       "ts": "2026-08-31T02:24:47.217008+00:00",
       "ticker": "MU",
@@ -3458,7 +3463,7 @@
       "price": 220.78,
       "chg_since": -1.13,
       "correct": true,
-      "age_days": 11
+      "age_days": 12
     },
     {
       "ts": "2026-08-31T23:29:45.017434+00:00",
@@ -3469,7 +3474,7 @@
       "price": 958.73,
       "chg_since": 1.72,
       "correct": true,
-      "age_days": 11
+      "age_days": 12
     },
     {
       "ts": "2026-09-01T02:41:19.344625+00:00",
@@ -3568,7 +3573,7 @@
       "price": 933.44,
       "chg_since": 4.48,
       "correct": true,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-09-02T02:02:18.093396+00:00",
@@ -3733,7 +3738,7 @@
       "price": 354.08,
       "chg_since": 3.21,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-05T02:03:58.217338+00:00",
@@ -3781,6 +3786,17 @@
     },
     {
       "ts": "2026-09-05T21:48:12.944645+00:00",
+      "ticker": "TSLA",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 5,
+      "price": 354.08,
+      "chg_since": 3.21,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-05T23:27:26.016131+00:00",
       "ticker": "TSLA",
       "rec": "beobachten",
       "confidence": 58,
@@ -3935,6 +3951,37 @@
       ]
     },
     {
+      "ticker": "QQQM",
+      "name": "Invesco NASDAQ 100 ETF",
+      "price": 294.39,
+      "currency": "USD",
+      "chg_1d": 0.89,
+      "vol_ratio": 1.2,
+      "warum": [
+        "Converting Your IRA to a Roth Means Paying the Tax Early on Purpose, and These 3",
+        "How a 66-Year-Old’s $800,000 in JEPQ and QQQI Pays $8,200 a Month, and the IRS O"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "Converting Your IRA to a Roth Means Paying the Tax Early on Purpose, and These 3 ETFs Are Why It Still Wins",
+          "link": "https://247wallst.com/investing/etf/2026/09/10/converting-your-ira-to-a-roth-means-paying-the-tax-early-on-purpose-and-these-3-etfs-are-why-it-still-wins/?.tsrc=rss",
+          "date": "Thu, 10 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "How a 66-Year-Old’s $800,000 in JEPQ and QQQI Pays $8,200 a Month, and the IRS Only Sees Half of It",
+          "link": "https://247wallst.com/investing/etf/2026/09/11/how-a-66-year-olds-800000-in-jepq-and-qqqi-pays-8200-a-month-and-the-irs-only-sees-half-of-it/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
       "ticker": "SCHD",
       "name": "Schwab U.S. Dividend Equity ETF",
       "price": 34.12,
@@ -3964,7 +4011,95 @@
           "tone": "neu"
         }
       ]
+    },
+    {
+      "ticker": "KO",
+      "name": "The Coca-Cola Company",
+      "price": 88.29,
+      "currency": "USD",
+      "chg_1d": 0.52,
+      "vol_ratio": 0.7,
+      "warum": [
+        "What Happened to Pepsi? Coca-Cola Pulled Away and Never Looked Back",
+        "Coca-Cola Loses to 30-year U.S. Treasury Bonds on Yield. Here's Why It Wins on E"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "What Happened to Pepsi? Coca-Cola Pulled Away and Never Looked Back",
+          "link": "https://247wallst.com/investing/2026/09/11/what-happened-to-pepsi-coca-cola-pulled-away-and-never-looked-back/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Coca-Cola Loses to 30-year U.S. Treasury Bonds on Yield. Here's Why It Wins on Everything Else.",
+          "link": "https://www.fool.com/investing/2026/09/11/coca-cola-loses-to-30-year-us-treasury-bonds-on-yi/?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "pos"
+        }
+      ]
     }
   ],
-  "ma_deals": []
+  "ma_deals": [
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZNRUJBOXkyWmJQS2NkMkJ5UzBmRFg4UDZLOUZWOEk2elViZ3pWdTdKUG5WTW5LVHI2c1RoNmdRZ0ZTWC15OV9TRnF1d3V6b3Y1MlpNZmc4dlh5T1FucTNqZEZlRlBvX2Rrb2NrdFVfckJKZ0p4am9KY1BFYWhBajNNVU5icnlRTEt0cm5GMzZ5M1hFSDZpaUtNalctQm85R1BUNG9yLWY5Q0xNZ29YTzI4cw?oc=5",
+      "date": "Wed, 09 Sep 2026",
+      "headline": "Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger - WSJ",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmlJX19hZ21nN3VwWC1mVkFfLXgxaTllQjJtSlo5OFA4dXZsTE9rQjlKM1J1aVprQmNaMVJxeldPR1loMTdFMjk5SC1GVU1xSTlPcmxyNmo0OVdKc2g1ekVqeGYxdEluX1drQTl3YlRIdzhtM2ZvSFlZQVc4VzlwaFB1dFd6ZXlucE92bWg5TE9rWTNzaV8xVUpZVF9MTm5mNVRPTHN1Q3NiUTlWaTlnVnd3?oc=5",
+      "date": "Thu, 10 Sep 2026",
+      "headline": "Brighthouse’s $4.1 Billion Takeover Drags as Regulators Dig In - bloomberg.com",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNelU0R1E2eUVzYUFFM3ZfeXZLNlJ1NHlmODEycFBPZzA0S0c4OHl5YTNyRy16dDZTdmhqU2RwdVIzUUFVcnYyY2hSSV9DR0dwV3ZoOFQtcWhYTG1adEwwWHpvMjVXTjlSQ0RHbGttV25EemEtWXU1THNrMlh3NHRwVDhNV1lEZ1J0VmwwaDA2RlMyZzFJbzRkanllcVN0ZEpSQi10aHluUXhkSzRF?oc=5",
+      "date": "Tue, 08 Sep 2026",
+      "headline": "EverBank to combine with WaFd in $3.9 billion reverse merger - Reuters",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VSEd6cUxGWE1Cc3Zic21ONERtN0hKMWN3cUtXRzd5SWZLeUJMY1dKaHlabEo3a1FmUXhjRE1JU0w4ZEJvLUttbzVxNi1vRzh2WnlqWURKSXJ3Zlg4NFd5M2ZrVDN2SGlVa0pQUmJ0bUI?oc=5",
+      "date": "Wed, 09 Sep 2026",
+      "headline": "DOJ issues second request in Fox-Roku $22 billion merger review - qz.com",
+      "source": "Google News"
+    }
+  ]
 }
