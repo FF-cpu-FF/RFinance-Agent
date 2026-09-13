@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:37:58.379578+00:00",
+  "generated_at": "2026-09-13T13:58:38.479984+00:00",
   "total_posts": 250,
   "unique_tickers": 177,
   "subreddits": [
@@ -729,14 +729,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-12T16:38:50.688106+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 77.0
-        },
-        {
           "ts": "2026-09-12T19:52:43.043160+00:00",
           "ticker": "BYD",
           "rec": "beobachten",
@@ -770,6 +762,14 @@
         },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 11,
+          "price": 77.0
+        },
+        {
+          "ts": "2026-09-13T13:58:38.479984+00:00",
           "ticker": "BYD",
           "rec": "beobachten",
           "confidence": 64,
@@ -1517,14 +1517,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-12T16:38:50.688106+00:00",
-          "ticker": "NBIS",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 224.55
-        },
-        {
           "ts": "2026-09-12T19:52:43.043160+00:00",
           "ticker": "NBIS",
           "rec": "beobachten",
@@ -1558,6 +1550,14 @@
         },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
+          "ticker": "NBIS",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 11,
+          "price": 224.55
+        },
+        {
+          "ts": "2026-09-13T13:58:38.479984+00:00",
           "ticker": "NBIS",
           "rec": "beobachten",
           "confidence": 64,
@@ -2280,14 +2280,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-12T16:38:50.688106+00:00",
-          "ticker": "DTE",
-          "rec": "beobachten",
-          "confidence": 57,
-          "engagement": 11,
-          "price": 132.58
-        },
-        {
           "ts": "2026-09-12T19:52:43.043160+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
@@ -2321,6 +2313,14 @@
         },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 57,
+          "engagement": 11,
+          "price": 132.58
+        },
+        {
+          "ts": "2026-09-13T13:58:38.479984+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
           "confidence": 57,
@@ -2490,6 +2490,14 @@
           "confidence": 44,
           "engagement": 18,
           "price": null
+        },
+        {
+          "ts": "2026-09-13T13:58:38.479984+00:00",
+          "ticker": "NAV",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 18,
+          "price": null
         }
       ]
     },
@@ -2623,14 +2631,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-11T23:41:25.500767+00:00",
-          "ticker": "SPR",
-          "rec": "beobachten",
-          "confidence": 38,
-          "engagement": 14,
-          "price": null
-        },
-        {
           "ts": "2026-09-12T02:12:06.914211+00:00",
           "ticker": "SPR",
           "rec": "beobachten",
@@ -2664,6 +2664,14 @@
         },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
+          "ticker": "SPR",
+          "rec": "beobachten",
+          "confidence": 38,
+          "engagement": 14,
+          "price": null
+        },
+        {
+          "ts": "2026-09-13T13:58:38.479984+00:00",
           "ticker": "SPR",
           "rec": "beobachten",
           "confidence": 38,
@@ -3409,14 +3417,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-11T23:41:25.500767+00:00",
-          "ticker": "WTI",
-          "rec": "beobachten",
-          "confidence": 55,
-          "engagement": 14,
-          "price": 4.11
-        },
-        {
           "ts": "2026-09-12T02:12:06.914211+00:00",
           "ticker": "WTI",
           "rec": "beobachten",
@@ -3455,17 +3455,25 @@
           "confidence": 55,
           "engagement": 14,
           "price": 4.11
+        },
+        {
+          "ts": "2026-09-13T13:58:38.479984+00:00",
+          "ticker": "WTI",
+          "rec": "beobachten",
+          "confidence": 55,
+          "engagement": 14,
+          "price": 4.11
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 70,
-    "n_evaluated": 122,
-    "rate_kaufen": 37,
+    "hit_rate": 69,
+    "n_evaluated": 118,
+    "rate_kaufen": 34,
     "rate_verkaufen": null,
-    "rate_beobachten": 80,
-    "kauf_perf_7d": 2.3,
+    "rate_beobachten": 81,
+    "kauf_perf_7d": 2.2,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
@@ -3489,7 +3497,7 @@
       "price": 217.55,
       "chg_since": 0.34,
       "correct": true,
-      "age_days": 12
+      "age_days": 13
     },
     {
       "ts": "2026-08-31T10:16:08.946053+00:00",
@@ -3500,7 +3508,7 @@
       "price": 932.86,
       "chg_since": 4.55,
       "correct": true,
-      "age_days": 12
+      "age_days": 13
     },
     {
       "ts": "2026-08-31T10:16:08.946053+00:00",
@@ -3511,7 +3519,7 @@
       "price": 216.62,
       "chg_since": 8.99,
       "correct": false,
-      "age_days": 12
+      "age_days": 13
     },
     {
       "ts": "2026-08-31T18:27:04.380195+00:00",
@@ -3599,7 +3607,7 @@
       "price": 220.78,
       "chg_since": -1.13,
       "correct": true,
-      "age_days": 11
+      "age_days": 12
     },
     {
       "ts": "2026-09-01T09:00:38.045691+00:00",
@@ -3610,7 +3618,7 @@
       "price": 958.73,
       "chg_since": 1.72,
       "correct": true,
-      "age_days": 11
+      "age_days": 12
     },
     {
       "ts": "2026-09-01T14:23:56.134115+00:00",
@@ -3698,7 +3706,7 @@
       "price": 933.93,
       "chg_since": 4.43,
       "correct": true,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-09-02T17:34:46.261876+00:00",
@@ -3863,7 +3871,7 @@
       "price": 354.08,
       "chg_since": 3.21,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-05T17:48:24.881340+00:00",
@@ -3913,6 +3921,24 @@
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
+      {
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117262935739176527 https:// x.com/interiorpress47/status/2 098824375214506096?s=46",
+        "url": "https://www.trumpstruth.org/statuses/41700",
+        "date": "Sun, 13 Sep 2026 09:06",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41701",
+        "url": "https://www.trumpstruth.org/statuses/41701",
+        "date": "Sun, 13 Sep 2026 09:06",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
       {
         "text": "Such a great golfer. Too bad I have very little time to play!!!",
         "url": "https://www.trumpstruth.org/statuses/41699",
@@ -3966,122 +3992,11 @@
         "companies": [],
         "policy": [],
         "is_new": false
-      },
-      {
-        "text": "‘Sold-out crowd’ in Dallas energized for midterms as Vance, Trump speak at Republican convention: https:// heartlandernews.com/sold-out-c rowd-in-dallas-energized-for-midterms-as-vance-trump-speak-at-republican-convention/",
-        "url": "https://www.trumpstruth.org/statuses/41693",
-        "date": "Fri, 11 Sep 2026 20:13",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41691",
-        "url": "https://www.trumpstruth.org/statuses/41691",
-        "date": "Fri, 11 Sep 2026 19:09",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
       }
     ],
     "market_hits": 0
   },
   "spannende_aktien": [
-    {
-      "ticker": "BA",
-      "name": "The Boeing Company",
-      "price": 210.45,
-      "currency": "USD",
-      "chg_1d": 2.76,
-      "vol_ratio": 0.8,
-      "warum": [
-        "If It Delivers Profit, Boeing (BA)’s Defense Franchise Can Buffer Its Commercial",
-        "$131.23 Billion on Paper: What The Boeing Company (BA)’s F-15 Ceiling Contract R"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "If It Delivers Profit, Boeing (BA)’s Defense Franchise Can Buffer Its Commercial Recovery",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/delivers-profit-boeing-ba-defense-000848794.html?.tsrc=rss",
-          "date": "Sun, 13 Sep 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "$131.23 Billion on Paper: What The Boeing Company (BA)’s F-15 Ceiling Contract Really Means for Investors",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/131-23-billion-paper-boeing-224145878.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "WMT",
-      "name": "Walmart Inc.",
-      "price": 107.15,
-      "currency": "USD",
-      "chg_1d": 1.34,
-      "vol_ratio": 0.6,
-      "warum": [
-        "Home Depot vs. Walmart: Which Consumer Stock Is a Better Buy in 2026?",
-        "Estée Lauder’s Lawsuit Over Alleged Counterfeits Sold On Walmart Moves Forward, "
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Home Depot vs. Walmart: Which Consumer Stock Is a Better Buy in 2026?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/09/12/home-depot-vs-walmart-which-consumer-stock-is-a-better-buy-in-2026/?.tsrc=rss",
-          "date": "Sat, 12 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Estée Lauder’s Lawsuit Over Alleged Counterfeits Sold On Walmart Moves Forward, Says Report",
-          "link": "https://stocktwits.com/news-articles/markets/equity/estee-lauder-s-lawsuit-over-alleged-counterfeits-sold-on-walmart-moves-forward-says-report/cZtXucpRBbW?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neg"
-        }
-      ]
-    },
-    {
-      "ticker": "SCHD",
-      "name": "Schwab U.S. Dividend Equity ETF",
-      "price": 34.12,
-      "currency": "USD",
-      "chg_1d": 0.38,
-      "vol_ratio": 0.8,
-      "warum": [
-        "SCHD's Stunning Reversal: Schwab's Flagship Dividend ETF Is Up 29% and Climbing",
-        "SCHD ETF quietly beats rival VYM in total returns"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "SCHD's Stunning Reversal: Schwab's Flagship Dividend ETF Is Up 29% and Climbing",
-          "link": "https://www.fool.com/investing/2026/09/13/schds-stunning-reversal-schwabs-flagship-dividend/?.tsrc=rss",
-          "date": "Sun, 13 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "SCHD ETF quietly beats rival VYM in total returns",
-          "link": "https://www.thestreet.com/investing/etfs/schd-etf-beats-vym-total-returns-dividend-investing?.tsrc=rss",
-          "date": "Sun, 13 Sep 2026",
-          "tone": "pos"
-        }
-      ]
-    },
     {
       "ticker": "CBRS",
       "name": "Cerebras Systems Inc.",
@@ -4124,9 +4039,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVFI0eEpFUTFMZzNtVldIUGwycEI0OXhLWmZUaTFCMVl3ZDV4T2c1bWx5WTc2TjUzN3p6WWRFNllqRlUyOS1Nei1Cbk44c0FpdkIyTElDb3RVaUpQb1ZPNmlHOVRmRmhDQTlXZTR2VkhldDdtb1B2UzVwVFFWVHgxUUpMMU5IUDdTeUVyZENsR3BvajhITlhHbWhXY3ZGalNsOVVrR045cUk1QXZxRExfSzU4a19aS2t5dDJVOVdTcnpFcXZReVh2TWZRS08zakl2cFJuaktZLTktTzJZMmc5Q093M3ZYV0xHN2fSAf4BQVVfeXFMT3p6M3M4TjZnamdaVjNKSGY0MTJjdjVLYzdQNTFkOHludEdJY0wwZjAwdXZiNktaWjBtcWFpMDUzOXhHVFRVb0dYMWRNekpRLVp4enlvaHN5NGdVeUhsR2hjbTNxQm1yMDRpeV9TaC1NQlZjMEtENTVaQmJmZjM0ZGpicGxXOGQwel9fTFlFdHBKZ181SGVLTHlXeFhVXzJxQkJEUU42OG95Q2U0YVZZc08yR3lqQ19zZGRLa0ZQTDY4NlM0OTdvYS12NENGaVR5bW0wc242SE5ieGZZblpBU3haNjdZeWNnVUJoRXBrd2UwdzRXSF9ndlFhbTFQMlE?oc=5",
-      "date": "Sat, 12 Sep 2026",
-      "headline": "WaFd entering $3.9 billion merger with Florida-based EverBank, creating $75 billion banking giant - KIRO 7 News Seattle",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZNRUJBOXkyWmJQS2NkMkJ5UzBmRFg4UDZLOUZWOEk2elViZ3pWdTdKUG5WTW5LVHI2c1RoNmdRZ0ZTWC15OV9TRnF1d3V6b3Y1MlpNZmc4dlh5T1FucTNqZEZlRlBvX2Rrb2NrdFVfckJKZ0p4am9KY1BFYWhBajNNVU5icnlRTEt0cm5GMzZ5M1hFSDZpaUtNalctQm85R1BUNG9yLWY5Q0xNZ29YTzI4cw?oc=5",
+      "date": "Wed, 09 Sep 2026",
+      "headline": "Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger - WSJ",
       "source": "Google News"
     },
     {
@@ -4138,9 +4053,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZNRUJBOXkyWmJQS2NkMkJ5UzBmRFg4UDZLOUZWOEk2elViZ3pWdTdKUG5WTW5LVHI2c1RoNmdRZ0ZTWC15OV9TRnF1d3V6b3Y1MlpNZmc4dlh5T1FucTNqZEZlRlBvX2Rrb2NrdFVfckJKZ0p4am9KY1BFYWhBajNNVU5icnlRTEt0cm5GMzZ5M1hFSDZpaUtNalctQm85R1BUNG9yLWY5Q0xNZ29YTzI4cw?oc=5",
-      "date": "Wed, 09 Sep 2026",
-      "headline": "Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVFI0eEpFUTFMZzNtVldIUGwycEI0OXhLWmZUaTFCMVl3ZDV4T2c1bWx5WTc2TjUzN3p6WWRFNllqRlUyOS1Nei1Cbk44c0FpdkIyTElDb3RVaUpQb1ZPNmlHOVRmRmhDQTlXZTR2VkhldDdtb1B2UzVwVFFWVHgxUUpMMU5IUDdTeUVyZENsR3BvajhITlhHbWhXY3ZGalNsOVVrR045cUk1QXZxRExfSzU4a19aS2t5dDJVOVdTcnpFcXZReVh2TWZRS08zakl2cFJuaktZLTktTzJZMmc5Q093M3ZYV0xHN2fSAf4BQVVfeXFMT3p6M3M4TjZnamdaVjNKSGY0MTJjdjVLYzdQNTFkOHludEdJY0wwZjAwdXZiNktaWjBtcWFpMDUzOXhHVFRVb0dYMWRNekpRLVp4enlvaHN5NGdVeUhsR2hjbTNxQm1yMDRpeV9TaC1NQlZjMEtENTVaQmJmZjM0ZGpicGxXOGQwel9fTFlFdHBKZ181SGVLTHlXeFhVXzJxQkJEUU42OG95Q2U0YVZZc08yR3lqQ19zZGRLa0ZQTDY4NlM0OTdvYS12NENGaVR5bW0wc242SE5ieGZZblpBU3haNjdZeWNnVUJoRXBrd2UwdzRXSF9ndlFhbTFQMlE?oc=5",
+      "date": "Sat, 12 Sep 2026",
+      "headline": "WaFd entering $3.9 billion merger with Florida-based EverBank, creating $75 billion banking giant - KIRO 7 News Seattle",
       "source": "Google News"
     },
     {
