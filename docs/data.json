@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T23:47:10.810857+00:00",
+  "generated_at": "2026-09-14T02:27:08.943332+00:00",
   "total_posts": 250,
-  "unique_tickers": 175,
+  "unique_tickers": 165,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -697,14 +697,10 @@
         "💰 Einstiegs-Debatte",
         "News: 1 Profitable Stock with Exciting Potential and 2 We Question"
       ],
-      "momentum": 57,
+      "momentum": 54,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 13,
+      "growth_pct": 0,
       "timeline": [
-        {
-          "day": "2026-09-10",
-          "mentions": 2
-        },
         {
           "day": "2026-09-11",
           "mentions": 3
@@ -716,6 +712,10 @@
         {
           "day": "2026-09-13",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-14",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
@@ -723,19 +723,11 @@
       "quality_grade": "D",
       "quality_pct": 27,
       "reddit_vs_markt": {
-        "reddit": 57,
+        "reddit": 54,
         "markt": 45,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-13T02:09:02.845900+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 77.0
-        },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
           "ticker": "BYD",
@@ -775,6 +767,777 @@
           "confidence": 64,
           "engagement": 11,
           "price": 77.0
+        },
+        {
+          "ts": "2026-09-14T02:27:08.943332+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 11,
+          "price": 77.0
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "signal": "bearish",
+      "empfehlung": "beobachten",
+      "confidence": 70,
+      "sentiment": -4,
+      "mentions": 3,
+      "mentions_delta": 1,
+      "engagement": 7,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "SNDK short until it drops to $999",
+        "Companies that donated to Trump's White House Ballroom project have tripled the S&P 500 returns",
+        "US Micron vs So Korean SK Hynix on 7/10"
+      ],
+      "top_posts": [
+        {
+          "title": "SNDK short until it drops to $999",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wfpe9i/sndk_short_until_it_drops_to_999/"
+        },
+        {
+          "title": "Companies that donated to Trump's White House Ballroom project have tripled the S&P 500 returns",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1wfbyb3/companies_that_donated_to_trumps_white_house/"
+        },
+        {
+          "title": "US Micron vs So Korean SK Hynix on 7/10",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1uo5js8/us_micron_vs_so_korean_sk_hynix_on_710/"
+        }
+      ],
+      "topics": [
+        "SNDK",
+        "Short",
+        "Until",
+        "Drops"
+      ],
+      "themen": [
+        {
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 25,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Kursverluste",
+          "anteil_pct": 25,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
+        }
+      ],
+      "bull_case": [],
+      "bear_case": [
+        "Short-Positionierung"
+      ],
+      "price": {
+        "available": true,
+        "price": 975.26,
+        "currency": "USD",
+        "name": "Micron Technology, Inc.",
+        "chart_1d": [
+          {
+            "t": 1789133400,
+            "c": 978.14
+          },
+          {
+            "t": 1789134300,
+            "c": 975.81
+          },
+          {
+            "t": 1789135200,
+            "c": 976.39
+          },
+          {
+            "t": 1789136100,
+            "c": 981.6
+          },
+          {
+            "t": 1789137000,
+            "c": 974.21
+          },
+          {
+            "t": 1789137900,
+            "c": 973.68
+          },
+          {
+            "t": 1789138800,
+            "c": 970.4
+          },
+          {
+            "t": 1789139700,
+            "c": 979.54
+          },
+          {
+            "t": 1789140600,
+            "c": 980.94
+          },
+          {
+            "t": 1789141500,
+            "c": 979.35
+          },
+          {
+            "t": 1789142400,
+            "c": 974.16
+          },
+          {
+            "t": 1789143300,
+            "c": 971.27
+          },
+          {
+            "t": 1789144200,
+            "c": 974.98
+          },
+          {
+            "t": 1789145100,
+            "c": 976.74
+          },
+          {
+            "t": 1789146000,
+            "c": 978.88
+          },
+          {
+            "t": 1789146900,
+            "c": 978.01
+          },
+          {
+            "t": 1789147800,
+            "c": 978.98
+          },
+          {
+            "t": 1789148700,
+            "c": 977.12
+          },
+          {
+            "t": 1789149600,
+            "c": 974.85
+          },
+          {
+            "t": 1789150500,
+            "c": 976.2
+          },
+          {
+            "t": 1789151400,
+            "c": 975.55
+          },
+          {
+            "t": 1789152300,
+            "c": 974.43
+          },
+          {
+            "t": 1789153200,
+            "c": 975.57
+          },
+          {
+            "t": 1789154100,
+            "c": 975.0
+          },
+          {
+            "t": 1789155000,
+            "c": 974.97
+          },
+          {
+            "t": 1789155900,
+            "c": 974.94
+          },
+          {
+            "t": 1789156800,
+            "c": 975.26
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1788528600,
+            "c": 1000.11
+          },
+          {
+            "t": 1788532200,
+            "c": 999.79
+          },
+          {
+            "t": 1788535800,
+            "c": 1006.35
+          },
+          {
+            "t": 1788539400,
+            "c": 999.37
+          },
+          {
+            "t": 1788543000,
+            "c": 1002.88
+          },
+          {
+            "t": 1788546600,
+            "c": 1002.34
+          },
+          {
+            "t": 1788550200,
+            "c": 1014.95
+          },
+          {
+            "t": 1788874200,
+            "c": 1020.99
+          },
+          {
+            "t": 1788877800,
+            "c": 1017.02
+          },
+          {
+            "t": 1788881400,
+            "c": 1020.22
+          },
+          {
+            "t": 1788885000,
+            "c": 1017.95
+          },
+          {
+            "t": 1788888600,
+            "c": 1016.92
+          },
+          {
+            "t": 1788892200,
+            "c": 1008.83
+          },
+          {
+            "t": 1788895800,
+            "c": 999.94
+          },
+          {
+            "t": 1788960600,
+            "c": 1034.0
+          },
+          {
+            "t": 1788964200,
+            "c": 1023.16
+          },
+          {
+            "t": 1788967800,
+            "c": 1018.49
+          },
+          {
+            "t": 1788971400,
+            "c": 1022.74
+          },
+          {
+            "t": 1788975000,
+            "c": 1024.74
+          },
+          {
+            "t": 1788978600,
+            "c": 1024.95
+          },
+          {
+            "t": 1788982200,
+            "c": 1027.51
+          },
+          {
+            "t": 1789047000,
+            "c": 991.32
+          },
+          {
+            "t": 1789050600,
+            "c": 984.46
+          },
+          {
+            "t": 1789054200,
+            "c": 977.42
+          },
+          {
+            "t": 1789057800,
+            "c": 981.77
+          },
+          {
+            "t": 1789061400,
+            "c": 981.81
+          },
+          {
+            "t": 1789065000,
+            "c": 983.89
+          },
+          {
+            "t": 1789068600,
+            "c": 980.0
+          },
+          {
+            "t": 1789133400,
+            "c": 981.6
+          },
+          {
+            "t": 1789137000,
+            "c": 979.54
+          },
+          {
+            "t": 1789140600,
+            "c": 971.27
+          },
+          {
+            "t": 1789144200,
+            "c": 978.01
+          },
+          {
+            "t": 1789147800,
+            "c": 976.2
+          },
+          {
+            "t": 1789151400,
+            "c": 975.0
+          },
+          {
+            "t": 1789155000,
+            "c": 974.94
+          },
+          {
+            "t": 1789156800,
+            "c": 975.26
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1786541400,
+            "c": 911.29
+          },
+          {
+            "t": 1786627800,
+            "c": 949.83
+          },
+          {
+            "t": 1786714200,
+            "c": 971.66
+          },
+          {
+            "t": 1786973400,
+            "c": 1011.75
+          },
+          {
+            "t": 1787059800,
+            "c": 940.76
+          },
+          {
+            "t": 1787146200,
+            "c": 937.11
+          },
+          {
+            "t": 1787232600,
+            "c": 974.33
+          },
+          {
+            "t": 1787319000,
+            "c": 966.78
+          },
+          {
+            "t": 1787578200,
+            "c": 910.43
+          },
+          {
+            "t": 1787664600,
+            "c": 932.97
+          },
+          {
+            "t": 1787751000,
+            "c": 938.4
+          },
+          {
+            "t": 1787837400,
+            "c": 935.39
+          },
+          {
+            "t": 1787923800,
+            "c": 932.86
+          },
+          {
+            "t": 1788183000,
+            "c": 958.73
+          },
+          {
+            "t": 1788269400,
+            "c": 933.44
+          },
+          {
+            "t": 1788355800,
+            "c": 956.08
+          },
+          {
+            "t": 1788442200,
+            "c": 958.16
+          },
+          {
+            "t": 1788528600,
+            "c": 1016.59
+          },
+          {
+            "t": 1788874200,
+            "c": 1000.26
+          },
+          {
+            "t": 1788960600,
+            "c": 1027.77
+          },
+          {
+            "t": 1789047000,
+            "c": 977.41
+          },
+          {
+            "t": 1789133400,
+            "c": 975.26
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1757304000,
+            "c": 157.23
+          },
+          {
+            "t": 1757908800,
+            "c": 162.73
+          },
+          {
+            "t": 1758513600,
+            "c": 157.27
+          },
+          {
+            "t": 1759118400,
+            "c": 187.83
+          },
+          {
+            "t": 1759723200,
+            "c": 181.6
+          },
+          {
+            "t": 1760328000,
+            "c": 202.38
+          },
+          {
+            "t": 1760932800,
+            "c": 219.02
+          },
+          {
+            "t": 1761537600,
+            "c": 223.77
+          },
+          {
+            "t": 1762146000,
+            "c": 237.92
+          },
+          {
+            "t": 1762750800,
+            "c": 246.83
+          },
+          {
+            "t": 1763355600,
+            "c": 207.37
+          },
+          {
+            "t": 1763960400,
+            "c": 236.48
+          },
+          {
+            "t": 1764565200,
+            "c": 237.22
+          },
+          {
+            "t": 1765170000,
+            "c": 241.14
+          },
+          {
+            "t": 1765774800,
+            "c": 265.92
+          },
+          {
+            "t": 1766379600,
+            "c": 284.79
+          },
+          {
+            "t": 1766984400,
+            "c": 315.42
+          },
+          {
+            "t": 1767589200,
+            "c": 345.09
+          },
+          {
+            "t": 1768194000,
+            "c": 362.75
+          },
+          {
+            "t": 1768798800,
+            "c": 399.65
+          },
+          {
+            "t": 1769403600,
+            "c": 414.88
+          },
+          {
+            "t": 1770008400,
+            "c": 394.69
+          },
+          {
+            "t": 1770613200,
+            "c": 411.66
+          },
+          {
+            "t": 1771218000,
+            "c": 428.17
+          },
+          {
+            "t": 1771822800,
+            "c": 412.37
+          },
+          {
+            "t": 1772427600,
+            "c": 370.3
+          },
+          {
+            "t": 1773028800,
+            "c": 426.13
+          },
+          {
+            "t": 1773633600,
+            "c": 422.9
+          },
+          {
+            "t": 1774238400,
+            "c": 357.22
+          },
+          {
+            "t": 1774843200,
+            "c": 366.24
+          },
+          {
+            "t": 1775448000,
+            "c": 420.59
+          },
+          {
+            "t": 1776052800,
+            "c": 455.07
+          },
+          {
+            "t": 1776657600,
+            "c": 496.72
+          },
+          {
+            "t": 1777262400,
+            "c": 542.21
+          },
+          {
+            "t": 1777867200,
+            "c": 746.81
+          },
+          {
+            "t": 1778472000,
+            "c": 724.66
+          },
+          {
+            "t": 1779076800,
+            "c": 751.0
+          },
+          {
+            "t": 1779681600,
+            "c": 971.0
+          },
+          {
+            "t": 1780286400,
+            "c": 864.01
+          },
+          {
+            "t": 1780891200,
+            "c": 981.61
+          },
+          {
+            "t": 1781496000,
+            "c": 1133.99
+          },
+          {
+            "t": 1782100800,
+            "c": 1132.33
+          },
+          {
+            "t": 1782705600,
+            "c": 975.56
+          },
+          {
+            "t": 1783310400,
+            "c": 979.3
+          },
+          {
+            "t": 1783915200,
+            "c": 848.95
+          },
+          {
+            "t": 1784520000,
+            "c": 920.95
+          },
+          {
+            "t": 1785124800,
+            "c": 823.03
+          },
+          {
+            "t": 1785729600,
+            "c": 877.57
+          },
+          {
+            "t": 1786334400,
+            "c": 971.66
+          },
+          {
+            "t": 1786939200,
+            "c": 966.78
+          },
+          {
+            "t": 1787544000,
+            "c": 932.86
+          },
+          {
+            "t": 1788148800,
+            "c": 1016.59
+          },
+          {
+            "t": 1788753600,
+            "c": 975.26
+          },
+          {
+            "t": 1789156801,
+            "c": 975.26
+          }
+        ],
+        "chg_1d": -0.29,
+        "chg_7d": 1.78,
+        "chg_1mo": 7.02,
+        "chg_1y": 520.28,
+        "sma20_dist": 1.29
+      },
+      "news": [
+        {
+          "title": "MU, SNDK, INTC, AMD: Chip Stocks Slide After Anthropic Calls For AI Industry Slowdown",
+          "link": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-intc-amd-chip-stocks-slide-after-anthropic-calls-for-ai-industry-slowdown/cZtlF2pRBRT?.tsrc=rss",
+          "date": "Mon, 14 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Will Micron Technology Stock Soar to $1,500 After Sept. 30?",
+          "link": "https://www.fool.com/investing/2026/09/13/will-micron-technology-stock-soar-to-1500-sept-30/?.tsrc=rss",
+          "date": "Sun, 13 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Prediction: This Memory Stock Could Surge 233% Over the Next 3 Years (Hint: It's not Micron or Sandisk)",
+          "link": "https://www.fool.com/investing/2026/09/13/prediction-this-memory-stock-could-surge-233-over/?.tsrc=rss",
+          "date": "Sun, 13 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Soar After Sept. 30 (Hint: It's Not Micron)",
+          "link": "https://www.fool.com/investing/2026/09/13/prediction-this-artificial-intelligence-ai-chip-st/?.tsrc=rss",
+          "date": "Sun, 13 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
+          "link": "https://finance.yahoo.com/technology/ai/articles/deepseek-cut-kv-cache-hbm-011603128.html?.tsrc=rss",
+          "date": "Sun, 13 Sep 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (+1.78%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell deutlich bearisch (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "Mentions +1 gegenüber dem letzten Scan",
+        "🎯 Optionen & Short-Interest",
+        "📉 Kursverluste"
+      ],
+      "momentum": 94,
+      "momentum_label": "🚀 Diskussion wächst extrem schnell",
+      "growth_pct": 200,
+      "timeline": [
+        {
+          "day": "2026-09-11",
+          "mentions": 0
+        },
+        {
+          "day": "2026-09-12",
+          "mentions": 0
+        },
+        {
+          "day": "2026-09-13",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-14",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "hype",
+      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "quality_grade": "D",
+      "quality_pct": 37,
+      "reddit_vs_markt": {
+        "reddit": 94,
+        "markt": 57,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-09-03T17:39:48.532428+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 942.89
+        },
+        {
+          "ts": "2026-09-03T20:17:46.196433+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 958.16
+        },
+        {
+          "ts": "2026-09-03T23:41:40.457636+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 958.16
+        },
+        {
+          "ts": "2026-09-04T02:03:45.479975+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 956.08
+        },
+        {
+          "ts": "2026-09-04T08:19:37.617326+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 958.16
+        },
+        {
+          "ts": "2026-09-14T02:27:08.943332+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 7,
+          "price": 975.26
         }
       ]
     },
@@ -869,14 +1632,10 @@
         "🎯 Optionen & Short-Interest",
         "💰 Einstiegs-Debatte"
       ],
-      "momentum": 79,
+      "momentum": 66,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 100,
+      "growth_pct": 50,
       "timeline": [
-        {
-          "day": "2026-09-10",
-          "mentions": 0
-        },
         {
           "day": "2026-09-11",
           "mentions": 0
@@ -888,26 +1647,22 @@
         {
           "day": "2026-09-13",
           "mentions": 2
+        },
+        {
+          "day": "2026-09-14",
+          "mentions": 2
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 22,
       "reddit_vs_markt": {
-        "reddit": 79,
+        "reddit": 66,
         "markt": 50,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-13T02:09:02.845900+00:00",
-          "ticker": "NAV",
-          "rec": "beobachten",
-          "confidence": 44,
-          "engagement": 18,
-          "price": null
-        },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
           "ticker": "NAV",
@@ -942,6 +1697,14 @@
         },
         {
           "ts": "2026-09-13T23:47:10.810857+00:00",
+          "ticker": "NAV",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 18,
+          "price": null
+        },
+        {
+          "ts": "2026-09-14T02:27:08.943332+00:00",
           "ticker": "NAV",
           "rec": "beobachten",
           "confidence": 44,
@@ -1655,14 +2418,10 @@
         "🎯 Optionen & Short-Interest",
         "News: W&T Offshore (WTI) Turns A Profit While Short Sellers Still Circle"
       ],
-      "momentum": 66,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 50,
+      "momentum": 54,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
       "timeline": [
-        {
-          "day": "2026-09-10",
-          "mentions": 0
-        },
         {
           "day": "2026-09-11",
           "mentions": 2
@@ -1674,26 +2433,22 @@
         {
           "day": "2026-09-13",
           "mentions": 2
+        },
+        {
+          "day": "2026-09-14",
+          "mentions": 2
         }
       ],
       "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 13,
       "reddit_vs_markt": {
-        "reddit": 66,
+        "reddit": 54,
         "markt": 72,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-12T16:38:50.688106+00:00",
-          "ticker": "WTI",
-          "rec": "beobachten",
-          "confidence": 55,
-          "engagement": 14,
-          "price": 4.11
-        },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
           "ticker": "WTI",
@@ -1728,6 +2483,14 @@
         },
         {
           "ts": "2026-09-13T23:47:10.810857+00:00",
+          "ticker": "WTI",
+          "rec": "beobachten",
+          "confidence": 55,
+          "engagement": 14,
+          "price": 4.11
+        },
+        {
+          "ts": "2026-09-14T02:27:08.943332+00:00",
           "ticker": "WTI",
           "rec": "beobachten",
           "confidence": 55,
@@ -1834,14 +2597,10 @@
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
-      "momentum": 66,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 50,
+      "momentum": 54,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
       "timeline": [
-        {
-          "day": "2026-09-10",
-          "mentions": 0
-        },
         {
           "day": "2026-09-11",
           "mentions": 2
@@ -1853,26 +2612,22 @@
         {
           "day": "2026-09-13",
           "mentions": 2
+        },
+        {
+          "day": "2026-09-14",
+          "mentions": 2
         }
       ],
       "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 13,
       "reddit_vs_markt": {
-        "reddit": 66,
+        "reddit": 54,
         "markt": 50,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-12T16:38:50.688106+00:00",
-          "ticker": "SPR",
-          "rec": "beobachten",
-          "confidence": 38,
-          "engagement": 14,
-          "price": null
-        },
         {
           "ts": "2026-09-13T08:37:58.379578+00:00",
           "ticker": "SPR",
@@ -1907,6 +2662,14 @@
         },
         {
           "ts": "2026-09-13T23:47:10.810857+00:00",
+          "ticker": "SPR",
+          "rec": "beobachten",
+          "confidence": 38,
+          "engagement": 14,
+          "price": null
+        },
+        {
+          "ts": "2026-09-14T02:27:08.943332+00:00",
           "ticker": "SPR",
           "rec": "beobachten",
           "confidence": 38,
@@ -2621,10 +3384,6 @@
       "growth_pct": -14,
       "timeline": [
         {
-          "day": "2026-09-10",
-          "mentions": 2
-        },
-        {
           "day": "2026-09-11",
           "mentions": 3
         },
@@ -2634,6 +3393,10 @@
         },
         {
           "day": "2026-09-13",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-14",
           "mentions": 2
         }
       ],
@@ -2647,14 +3410,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-10T08:30:16.089840+00:00",
-          "ticker": "FCF",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 16,
-          "price": 21.03
-        },
         {
           "ts": "2026-09-10T13:56:58.955756+00:00",
           "ticker": "FCF",
@@ -2694,180 +3449,36 @@
           "confidence": 64,
           "engagement": 11,
           "price": 21.31
-        }
-      ]
-    },
-    {
-      "ticker": "SPX",
-      "name": "SPX",
-      "signal": "bullish",
-      "empfehlung": "beobachten",
-      "confidence": 53,
-      "sentiment": 5,
-      "mentions": 2,
-      "mentions_delta": 0,
-      "engagement": 11,
-      "sources": [
-        "Aktien"
-      ],
-      "titles": [
-        "Box-Spread-Rechner gebaut: Wertpapierkredit nach Steuer für ca. 2,8 % p.a., günstigste ESTX50-Box automatisch ",
-        "Aktuell interessante Aktien:"
-      ],
-      "top_posts": [
-        {
-          "title": "Box-Spread-Rechner gebaut: Wertpapierkredit nach Steuer für ca. 2,8 % p.a., günstigste ESTX50-Box automatisch ",
-          "url": "https://www.reddit.com/r/Aktien/comments/1wdnxso/boxspreadrechner_gebaut_wertpapierkredit_nach/"
         },
         {
-          "title": "Aktuell interessante Aktien:",
-          "url": "https://www.reddit.com/r/Aktien/comments/1w5xz84/aktuell_interessante_aktien/"
-        }
-      ],
-      "topics": [
-        "Box-Spread-Rechner",
-        "Gebaut",
-        "Wertpapierkredit",
-        "Steuer"
-      ],
-      "themen": [
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 33,
-          "beitraege": 2,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        },
-        {
-          "emoji": "📊",
-          "titel": "Quartalszahlen",
-          "anteil_pct": 11,
-          "beitraege": 1,
-          "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
-        },
-        {
-          "emoji": "📈",
-          "titel": "Wachstums-Story",
-          "anteil_pct": 11,
-          "beitraege": 1,
-          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
-        },
-        {
-          "emoji": "📉",
-          "titel": "Kursverluste",
-          "anteil_pct": 11,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
-        }
-      ],
-      "bull_case": [
-        "Unterbewertung",
-        "Wachstumsstory"
-      ],
-      "bear_case": [
-        "Verlust-Meldungen",
-        "Zahlen unter Erwartung"
-      ],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
-        ]
-      },
-      "fazit": "Reddit diskutiert SPX aktuell deutlich bullisch (2 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "💰 Einstiegs-Debatte",
-        "📊 Quartalszahlen"
-      ],
-      "momentum": 64,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 50,
-      "timeline": [
-        {
-          "day": "2026-09-10",
-          "mentions": 0
-        },
-        {
-          "day": "2026-09-11",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-12",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-13",
-          "mentions": 2
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 31,
-      "reddit_vs_markt": {
-        "reddit": 64,
-        "markt": 50,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-09-13T23:47:10.810857+00:00",
-          "ticker": "SPX",
+          "ts": "2026-09-14T02:27:08.943332+00:00",
+          "ticker": "FCF",
           "rec": "beobachten",
-          "confidence": 53,
+          "confidence": 64,
           "engagement": 11,
-          "price": null
+          "price": 21.31
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 52,
-    "n_evaluated": 144,
-    "rate_kaufen": 20,
+    "hit_rate": 54,
+    "n_evaluated": 159,
+    "rate_kaufen": 37,
     "rate_verkaufen": null,
-    "rate_beobachten": 67,
-    "kauf_perf_7d": 0.5,
+    "rate_beobachten": 65,
+    "kauf_perf_7d": 8.2,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
     {
-      "ts": "2026-09-03T20:17:46.196433+00:00",
-      "ticker": "IREN",
-      "rec": "beobachten",
-      "confidence": 70,
-      "engagement": 11,
-      "price": 41.65,
-      "chg_since": 5.23,
-      "correct": false,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-09-03T20:17:46.196433+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 958.16,
-      "chg_since": 1.78,
-      "correct": true,
-      "age_days": 10
-    },
-    {
       "ts": "2026-09-03T23:41:40.457636+00:00",
-      "ticker": "IREN",
+      "ticker": "SK",
       "rec": "beobachten",
-      "confidence": 70,
-      "engagement": 11,
-      "price": 41.65,
-      "chg_since": 5.23,
+      "confidence": 58,
+      "engagement": 5,
+      "price": 23.01,
+      "chg_since": 32.33,
       "correct": false,
       "age_days": 10
     },
@@ -2891,7 +3502,7 @@
       "price": 39.6,
       "chg_since": 10.68,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-09-04T02:03:45.479975+00:00",
@@ -2902,7 +3513,7 @@
       "price": 956.08,
       "chg_since": 2.01,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-09-04T08:19:37.617326+00:00",
@@ -2912,6 +3523,17 @@
       "engagement": 11,
       "price": 41.65,
       "chg_since": 5.23,
+      "correct": false,
+      "age_days": 9
+    },
+    {
+      "ts": "2026-09-04T08:19:37.617326+00:00",
+      "ticker": "SK",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 7,
+      "price": 23.01,
+      "chg_since": 32.33,
       "correct": false,
       "age_days": 9
     },
@@ -3023,7 +3645,7 @@
       "price": 44.68,
       "chg_since": -1.9,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-05T02:03:58.217338+00:00",
@@ -3034,7 +3656,7 @@
       "price": 354.08,
       "chg_since": 3.21,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-05T07:55:44.166826+00:00",
@@ -3177,7 +3799,7 @@
       "price": 44.68,
       "chg_since": -1.9,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-06T01:59:26.441557+00:00",
@@ -3188,7 +3810,7 @@
       "price": 354.08,
       "chg_since": 3.21,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-06T06:56:59.650283+00:00",
@@ -3277,94 +3899,91 @@
       "chg_since": -1.9,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-09-07T01:56:43.907092+00:00",
+      "ticker": "IREN",
+      "rec": "kaufen",
+      "confidence": 87,
+      "engagement": 14,
+      "price": 44.68,
+      "chg_since": -1.9,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41703",
-        "url": "https://www.trumpstruth.org/statuses/41703",
-        "date": "Sun, 13 Sep 2026 22:06",
+        "text": "The White House was in very bad condition, both inside and out. Frankly, it was a “dump!” Past Presidents did not take care of it. I love renovating it during my spare time, which is not much. The Department of Interior, and various contractors, are doing a fantastic job. Attached are pictures of BEFORE and AFTER. The exterior “skin” of the Building was practically falling off! It is now in better",
+        "url": "https://www.trumpstruth.org/statuses/41711",
+        "date": "Mon, 14 Sep 2026 01:03",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "The Spectacular Ballroom being built at the White House. Will be the GREATEST of its kind anywhere in the World! Also, it is a Gift to the U.S.A. from me and other American Patriots — No Taxpayer Dollars will be expended in its Construction. President DJT",
-        "url": "https://www.trumpstruth.org/statuses/41702",
-        "date": "Sun, 13 Sep 2026 19:32",
+        "text": "Congratulations to Shane Lowry on his GREAT Win at Trump International Golf Links, Ireland! It was a spectacular WIN by a spectacular person, and he will have many more. Shane is a Great Champion, and a fantastic person — A total WINNER! President DONALD J. TRUMP",
+        "url": "https://www.trumpstruth.org/statuses/41710",
+        "date": "Mon, 14 Sep 2026 00:50",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117262935739176527 https:// x.com/interiorpress47/status/2 098824375214506096?s=46",
-        "url": "https://www.trumpstruth.org/statuses/41700",
-        "date": "Sun, 13 Sep 2026 09:06",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41709",
+        "url": "https://www.trumpstruth.org/statuses/41709",
+        "date": "Mon, 14 Sep 2026 00:33",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41701",
-        "url": "https://www.trumpstruth.org/statuses/41701",
-        "date": "Sun, 13 Sep 2026 09:06",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41708",
+        "url": "https://www.trumpstruth.org/statuses/41708",
+        "date": "Sun, 13 Sep 2026 23:56",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "Such a great golfer. Too bad I have very little time to play!!!",
-        "url": "https://www.trumpstruth.org/statuses/41699",
-        "date": "Sat, 12 Sep 2026 09:06",
+        "text": "First interior renderings of the magnificent new Ballroom at the White House. Massively expensive, but free of charge to the American Taxpayer — On budget, and ahead of schedule! President DONALD J. TRUMP",
+        "url": "https://www.trumpstruth.org/statuses/41707",
+        "date": "Sun, 13 Sep 2026 23:52",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41698",
-        "url": "https://www.trumpstruth.org/statuses/41698",
-        "date": "Sat, 12 Sep 2026 03:53",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41705",
+        "url": "https://www.trumpstruth.org/statuses/41705",
+        "date": "Sun, 13 Sep 2026 22:49",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41697",
-        "url": "https://www.trumpstruth.org/statuses/41697",
-        "date": "Sat, 12 Sep 2026 03:21",
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41706",
+        "url": "https://www.trumpstruth.org/statuses/41706",
+        "date": "Sun, 13 Sep 2026 22:48",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117255718355537976 I am calling on the Smithsonian Institution to honor the Life and Legacy of George Washington, America’s Greatest Hero, with a five-year exhibition at the National Museum of American History, beginning now, and continuing through, February 22, 2032, the 300th anniversary of Washington’s birth. I am also calling on the Sm",
-        "url": "https://www.trumpstruth.org/statuses/41695",
-        "date": "Sat, 12 Sep 2026 02:31",
+        "text": "Iranians Are Running Out of Gas as Economic Squeeze Takes Hold: https://www. wsj.com/world/middle-east/iran ians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b",
+        "url": "https://www.trumpstruth.org/statuses/41704",
+        "date": "Sun, 13 Sep 2026 22:43",
         "source": "Truth Social",
         "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Trump calls on Ukraine to stop targeting Russian refineries as both countries trade strikes - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Xbk9rb0syNTlqZ1JvZjFBZTVqUjVkaDNhNmVwY1E1UkZtTllUY0JZNkV1YXBOdkZOcXo4ZU9kMXMzd0JLZ0lDZmN4WnpjZU9mWjI3ajhQczlJdDdyQ2hySFRJOHFCRTdUZjNVb3NEV21zMU1TZC0tVg?oc=5",
-        "date": "Sun, 13 Sep 2026",
-        "source": "News (X/Presse)",
-        "companies": [
-          {
-            "name": "Target",
-            "ticker": "TGT"
-          }
-        ],
         "policy": [],
         "is_new": true
       },
@@ -3383,61 +4002,62 @@
         "is_new": false
       },
       {
-        "text": "Trump Promises to Lift Tariffs on Irish Whiskey After Appeals - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLXdlbjAwWm1fc042YjZIdjBsZEtCdHJWNENZLVJsSkFoUFRfVjhkZEE2dHlJMmZKMDEwd3J3NmZtM0I2ZENWN2RIM3JlYmFESUd6aUFLV2FHQnN3Rmg0c3NXSFZSWTgtRlEtOEZvcHlhR3dPN25waUlxcWl4NV9ERks5c2Z3alU?oc=5",
-        "date": "Sun, 13 Sep 2026",
+        "text": "Trump’s Crypto Push Opens Perpetuals Race to Singapore Exchange - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUTZ4RWozVjdlMS1UZjlmeVI3WXAxQzFTMTVJUmg2am5QV3ZXN3pvbldOSzdoMGt4Q1RnZFRKN1FsWHZLTE40OU52V0tGWGRCcjA2SnZ4ZDlPZndCUEM5NFdzMEdZTEhoZW5sX21RSUZkZmVRbEFEZ3lPOGZ3SW9LZkxMaFl1N1R2bFRvcWFfajh6NE1qclp5SlIyODBWYXV1WTZOTXdPd19VUzNTZzVlR1h0Z20?oc=5",
+        "date": "Mon, 14 Sep 2026",
         "source": "News (X/Presse)",
         "companies": [],
         "policy": [
-          "🏛️ Zölle"
+          "🏛️ Krypto"
         ],
         "is_new": true
       }
     ],
-    "market_hits": 3
+    "market_hits": 2
   },
   "spannende_aktien": [
     {
-      "ticker": "SQQQ",
-      "name": "ProShares UltraPro Short QQQ",
-      "price": 38.87,
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "price": 567.29,
       "currency": "USD",
-      "chg_1d": -2.58,
-      "vol_ratio": 1.2,
+      "chg_1d": 11.98,
+      "vol_ratio": 1.7,
       "warum": [
-        "The Zacks Analyst Blog Highlights SQQQ, PSQ, QID, TECS, BERZ and SOXS",
-        "SQQQ’s Silent Killer: How Daily Resets Have Erased 99.97% Since Launch"
+        "Why Dell Stock Climbed to a New All-Time High This Week",
+        "Nvidia Gets the AI Hype. Dell Gets the Billionaire Fortune"
       ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
       ],
       "news": [
         {
-          "title": "The Zacks Analyst Blog Highlights SQQQ, PSQ, QID, TECS, BERZ and SOXS",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-sqqq-064200433.html?.tsrc=rss",
-          "date": "Fri, 31 Jul 2026",
+          "title": "Why Dell Stock Climbed to a New All-Time High This Week",
+          "link": "https://www.fool.com/investing/2026/09/13/why-dell-stock-climbed-to-a-new-all-time-high/?.tsrc=rss",
+          "date": "Mon, 14 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "SQQQ’s Silent Killer: How Daily Resets Have Erased 99.97% Since Launch",
-          "link": "https://247wallst.com/investing/2026/06/19/sqqqs-silent-killer-how-daily-resets-have-erased-99-97-since-launch/?.tsrc=rss",
-          "date": "Sat, 20 Jun 2026",
+          "title": "Nvidia Gets the AI Hype. Dell Gets the Billionaire Fortune",
+          "link": "https://beincrypto.com/michael-dell-net-worth-passes-bezos/?.tsrc=rss",
+          "date": "Sun, 13 Sep 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "PYPL",
-      "name": "PayPal Holdings, Inc.",
-      "price": 53.72,
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 361.99,
       "currency": "USD",
-      "chg_1d": 0.77,
+      "chg_1d": 0.32,
       "vol_ratio": 0.8,
       "warum": [
-        "Palantir Co-Founder Peter Thiel's Hedge Fund Just Made a Big Bet on This AI Stoc",
-        "PayPal's New CEO Rejects $50B Buyout to Pursue High-Stakes Transformation Includ"
+        "Nvidia vs. Broadcom: Which Trillion-Dollar AI Chip Stock Has More Upside After T",
+        "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -3446,16 +4066,16 @@
       ],
       "news": [
         {
-          "title": "Palantir Co-Founder Peter Thiel's Hedge Fund Just Made a Big Bet on This AI Stock",
-          "link": "https://www.fool.com/investing/2026/09/11/palantir-co-founder-peter-thiels-hedge-fund-just-m/?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
+          "title": "Nvidia vs. Broadcom: Which Trillion-Dollar AI Chip Stock Has More Upside After Their Latest Earnings?",
+          "link": "https://www.fool.com/investing/2026/09/13/nvidia-vs-broadcom-which-trillion-dollar-ai-chip-s/?.tsrc=rss",
+          "date": "Sun, 13 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "PayPal's New CEO Rejects $50B Buyout to Pursue High-Stakes Transformation Including A Venmo Revamp, Says Report",
-          "link": "https://stocktwits.com/news-articles/markets/equity/pay-pal-s-new-ceo-rejects-50-b-buyout/cZtXudQRBbh?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
+          "title": "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth",
+          "link": "https://247wallst.com/investing/2026/09/13/five-dividend-stocks-crushing-inflation-with-consistent-dividend-payout-growth/?.tsrc=rss",
+          "date": "Sun, 13 Sep 2026",
+          "tone": "pos"
         }
       ]
     }
