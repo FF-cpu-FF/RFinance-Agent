@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:49:33.515169+00:00",
+  "generated_at": "2026-09-16T02:25:48.044374+00:00",
   "total_posts": 250,
   "unique_tickers": 205,
   "subreddits": [
@@ -125,14 +125,10 @@
         "💰 Einstiegs-Debatte",
         "📈 Wachstums-Story"
       ],
-      "momentum": 89,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 140,
+      "momentum": 62,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 33,
       "timeline": [
-        {
-          "day": "2026-09-12",
-          "mentions": 0
-        },
         {
           "day": "2026-09-13",
           "mentions": 2
@@ -144,26 +140,22 @@
         {
           "day": "2026-09-15",
           "mentions": 4
+        },
+        {
+          "day": "2026-09-16",
+          "mentions": 4
         }
       ],
       "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 39,
       "reddit_vs_markt": {
-        "reddit": 89,
+        "reddit": 62,
         "markt": 50,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-15T00:04:51.650484+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 16,
-          "price": null
-        },
         {
           "ts": "2026-09-15T06:58:12.575592+00:00",
           "ticker": "KGV",
@@ -198,6 +190,14 @@
         },
         {
           "ts": "2026-09-15T23:49:33.515169+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 59,
+          "engagement": 24,
+          "price": null
+        },
+        {
+          "ts": "2026-09-16T02:25:48.044374+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
           "confidence": 59,
@@ -313,14 +313,10 @@
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
-      "momentum": 71,
+      "momentum": 62,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 71,
+      "growth_pct": 33,
       "timeline": [
-        {
-          "day": "2026-09-12",
-          "mentions": 2
-        },
         {
           "day": "2026-09-13",
           "mentions": 2
@@ -332,6 +328,10 @@
         {
           "day": "2026-09-15",
           "mentions": 4
+        },
+        {
+          "day": "2026-09-16",
+          "mentions": 4
         }
       ],
       "hype_typ": "trend",
@@ -339,19 +339,11 @@
       "quality_grade": "D",
       "quality_pct": 38,
       "reddit_vs_markt": {
-        "reddit": 71,
+        "reddit": 62,
         "markt": 50,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-15T00:04:51.650484+00:00",
-          "ticker": "SPX",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 14,
-          "price": null
-        },
         {
           "ts": "2026-09-15T06:58:12.575592+00:00",
           "ticker": "SPX",
@@ -386,6 +378,14 @@
         },
         {
           "ts": "2026-09-15T23:49:33.515169+00:00",
+          "ticker": "SPX",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 16,
+          "price": null
+        },
+        {
+          "ts": "2026-09-16T02:25:48.044374+00:00",
           "ticker": "SPX",
           "rec": "beobachten",
           "confidence": 56,
@@ -1032,7 +1032,7 @@
           },
           {
             "t": 1789358400,
-            "c": 210.96
+            "c": 212.17
           },
           {
             "t": 1789502401,
@@ -1046,6 +1046,18 @@
         "sma20_dist": -3.03
       },
       "news": [
+        {
+          "title": "Nvidia Spent $26 Billion on Buybacks and Dividends in a Single Quarter. Its Board Is Betting Today's Profits Last 3 More Years.",
+          "link": "https://www.fool.com/investing/2026/09/15/nvidia-spent-usd26-billion-on-buybacks-and-dividends-in-a-single-quarter-its-board-is-betting-today-s-profits-last-3-more-years/?.tsrc=rss",
+          "date": "Wed, 16 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Nvidia Just Reshuffled Its $99 Billion Portfolio, and 1 Stock Moved Up the Ranks",
+          "link": "https://www.fool.com/investing/2026/09/15/nvidia-just-reshuffled-its-99-billion-portfolio-an/?.tsrc=rss",
+          "date": "Wed, 16 Sep 2026",
+          "tone": "neu"
+        },
         {
           "title": "Calls for Slower AI Development Have Created a Compelling Dip for AI Stocks",
           "link": "https://www.fool.com/investing/2026/09/15/calls-for-slower-ai-development-created-a-dip/?.tsrc=rss",
@@ -1061,18 +1073,6 @@
         {
           "title": "Nvidia (NVDA) Is Discussing Up To $10 Billion For An AI IPO",
           "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-discussing-10-billion-221322403.html?.tsrc=rss",
-          "date": "Tue, 15 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Nvidia May Have Won the AI Training Race, but the Bigger Opportunity Is Likely Still Ahead",
-          "link": "https://www.fool.com/investing/2026/09/15/nvidia-may-have-won-the-ai-training-race-but-the-b/?.tsrc=rss",
-          "date": "Tue, 15 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Why Rule Breakers Dig Stocks With Multiple Futures",
-          "link": "https://www.fool.com/investing/2026/09/15/why-rule-breakers-dig-stocks-with-multiple-futures/?.tsrc=rss",
           "date": "Tue, 15 Sep 2026",
           "tone": "neu"
         }
@@ -1091,16 +1091,12 @@
       "gruende": [
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest",
-        "News: Pinterest, Nvidia Partner To Boost AI Shopping, Search Offerings"
+        "News: Nvidia Spent $26 Billion on Buybacks and Dividends in a Single Quarter"
       ],
-      "momentum": 73,
+      "momentum": 64,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 71,
+      "growth_pct": 33,
       "timeline": [
-        {
-          "day": "2026-09-12",
-          "mentions": 2
-        },
         {
           "day": "2026-09-13",
           "mentions": 2
@@ -1112,6 +1108,10 @@
         {
           "day": "2026-09-15",
           "mentions": 4
+        },
+        {
+          "day": "2026-09-16",
+          "mentions": 4
         }
       ],
       "hype_typ": "trend",
@@ -1119,19 +1119,11 @@
       "quality_grade": "D",
       "quality_pct": 34,
       "reddit_vs_markt": {
-        "reddit": 73,
+        "reddit": 64,
         "markt": 25,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-01T14:23:56.134115+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 4,
-          "price": 217.73
-        },
         {
           "ts": "2026-09-01T19:00:26.762231+00:00",
           "ticker": "NVDA",
@@ -1171,182 +1163,14 @@
           "confidence": 54,
           "engagement": 11,
           "price": 212.17
-        }
-      ]
-    },
-    {
-      "ticker": "ZL",
-      "name": "ZL",
-      "signal": "bullish",
-      "empfehlung": "beobachten",
-      "confidence": 53,
-      "sentiment": 4,
-      "mentions": 3,
-      "mentions_delta": 0,
-      "engagement": 19,
-      "sources": [
-        "Mauerstrassenwetten"
-      ],
-      "titles": [
-        "Das wird runtergewählt werden 🚬🥺 (AI Portfolio)",
-        "Eiertief in AI 🤖🚀",
-        "ÖL GEHT AUF $69 (Ja, ich meine es noch immer ernst)"
-      ],
-      "top_posts": [
-        {
-          "title": "Das wird runtergewählt werden 🚬🥺 (AI Portfolio)",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wh5hf9/das_wird_runtergewählt_werden_ai_portfolio/"
         },
         {
-          "title": "Eiertief in AI 🤖🚀",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wg2bhd/eiertief_in_ai/"
-        },
-        {
-          "title": "ÖL GEHT AUF $69 (Ja, ich meine es noch immer ernst)",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wdbi3b/öl_geht_auf_69_ja_ich_meine_es_noch_immer_ernst/"
-        }
-      ],
-      "topics": [
-        "Runtergewählt",
-        "Werden",
-        "Portfolio",
-        "Eiertief"
-      ],
-      "themen": [
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 31,
-          "beitraege": 3,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        },
-        {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 12,
-          "beitraege": 2,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
-          "emoji": "📈",
-          "titel": "Wachstums-Story",
-          "anteil_pct": 12,
-          "beitraege": 2,
-          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
-        },
-        {
-          "emoji": "📉",
-          "titel": "Kursverluste",
-          "anteil_pct": 12,
-          "beitraege": 2,
-          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
-        }
-      ],
-      "bull_case": [
-        "Nachkauf-Welle",
-        "Wachstumsstory"
-      ],
-      "bear_case": [
-        "Verlust-Meldungen",
-        "Short-Positionierung",
-        "Put-Optionen-Aktivität"
-      ],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
-        ]
-      },
-      "fazit": "Reddit diskutiert ZL aktuell deutlich bullisch (3 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "💰 Einstiegs-Debatte",
-        "🎯 Optionen & Short-Interest"
-      ],
-      "momentum": 92,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 200,
-      "timeline": [
-        {
-          "day": "2026-09-12",
-          "mentions": 0
-        },
-        {
-          "day": "2026-09-13",
-          "mentions": 0
-        },
-        {
-          "day": "2026-09-14",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-15",
-          "mentions": 3
-        }
-      ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
-      "quality_grade": "D",
-      "quality_pct": 23,
-      "reddit_vs_markt": {
-        "reddit": 92,
-        "markt": 50,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-09-15T00:04:51.650484+00:00",
-          "ticker": "ZL",
+          "ts": "2026-09-16T02:25:48.044374+00:00",
+          "ticker": "NVDA",
           "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 15,
-          "price": null
-        },
-        {
-          "ts": "2026-09-15T06:58:12.575592+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 15,
-          "price": null
-        },
-        {
-          "ts": "2026-09-15T12:59:27.843833+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 15,
-          "price": null
-        },
-        {
-          "ts": "2026-09-15T17:50:01.810002+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 19,
-          "price": null
-        },
-        {
-          "ts": "2026-09-15T20:39:18.280251+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 19,
-          "price": null
-        },
-        {
-          "ts": "2026-09-15T23:49:33.515169+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 19,
-          "price": null
+          "confidence": 54,
+          "engagement": 11,
+          "price": 212.17
         }
       ]
     },
@@ -1985,7 +1809,7 @@
           },
           {
             "t": 1789358400,
-            "c": 7.23
+            "c": 7.25
           },
           {
             "t": 1789502400,
@@ -2046,14 +1870,10 @@
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
-      "momentum": 92,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 200,
+      "momentum": 72,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 80,
       "timeline": [
-        {
-          "day": "2026-09-12",
-          "mentions": 0
-        },
         {
           "day": "2026-09-13",
           "mentions": 0
@@ -2065,26 +1885,22 @@
         {
           "day": "2026-09-15",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-16",
+          "mentions": 3
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 23,
       "reddit_vs_markt": {
-        "reddit": 92,
+        "reddit": 72,
         "markt": 17,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-15T00:04:51.650484+00:00",
-          "ticker": "NG",
-          "rec": "beobachten",
-          "confidence": 48,
-          "engagement": 15,
-          "price": 7.5
-        },
         {
           "ts": "2026-09-15T06:58:12.575592+00:00",
           "ticker": "NG",
@@ -2124,6 +1940,190 @@
           "confidence": 54,
           "engagement": 19,
           "price": 7.25
+        },
+        {
+          "ts": "2026-09-16T02:25:48.044374+00:00",
+          "ticker": "NG",
+          "rec": "beobachten",
+          "confidence": 54,
+          "engagement": 19,
+          "price": 7.25
+        }
+      ]
+    },
+    {
+      "ticker": "ZL",
+      "name": "ZL",
+      "signal": "bullish",
+      "empfehlung": "beobachten",
+      "confidence": 53,
+      "sentiment": 4,
+      "mentions": 3,
+      "mentions_delta": 0,
+      "engagement": 19,
+      "sources": [
+        "Mauerstrassenwetten"
+      ],
+      "titles": [
+        "Das wird runtergewählt werden 🚬🥺 (AI Portfolio)",
+        "Eiertief in AI 🤖🚀",
+        "ÖL GEHT AUF $69 (Ja, ich meine es noch immer ernst)"
+      ],
+      "top_posts": [
+        {
+          "title": "Das wird runtergewählt werden 🚬🥺 (AI Portfolio)",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wh5hf9/das_wird_runtergewählt_werden_ai_portfolio/"
+        },
+        {
+          "title": "Eiertief in AI 🤖🚀",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wg2bhd/eiertief_in_ai/"
+        },
+        {
+          "title": "ÖL GEHT AUF $69 (Ja, ich meine es noch immer ernst)",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wdbi3b/öl_geht_auf_69_ja_ich_meine_es_noch_immer_ernst/"
+        }
+      ],
+      "topics": [
+        "Runtergewählt",
+        "Werden",
+        "Portfolio",
+        "Eiertief"
+      ],
+      "themen": [
+        {
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 31,
+          "beitraege": 3,
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        },
+        {
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 12,
+          "beitraege": 2,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
+        },
+        {
+          "emoji": "📈",
+          "titel": "Wachstums-Story",
+          "anteil_pct": 12,
+          "beitraege": 2,
+          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
+        },
+        {
+          "emoji": "📉",
+          "titel": "Kursverluste",
+          "anteil_pct": 12,
+          "beitraege": 2,
+          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
+        }
+      ],
+      "bull_case": [
+        "Nachkauf-Welle",
+        "Wachstumsstory"
+      ],
+      "bear_case": [
+        "Verlust-Meldungen",
+        "Short-Positionierung",
+        "Put-Optionen-Aktivität"
+      ],
+      "price": {
+        "available": false
+      },
+      "news": [],
+      "comparison": {
+        "verdict": "unbekannt",
+        "points": [
+          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
+        ]
+      },
+      "fazit": "Reddit diskutiert ZL aktuell deutlich bullisch (3 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "💰 Einstiegs-Debatte",
+        "🎯 Optionen & Short-Interest"
+      ],
+      "momentum": 72,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 80,
+      "timeline": [
+        {
+          "day": "2026-09-13",
+          "mentions": 0
+        },
+        {
+          "day": "2026-09-14",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-15",
+          "mentions": 3
+        },
+        {
+          "day": "2026-09-16",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 23,
+      "reddit_vs_markt": {
+        "reddit": 72,
+        "markt": 50,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-09-15T06:58:12.575592+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 47,
+          "engagement": 15,
+          "price": null
+        },
+        {
+          "ts": "2026-09-15T12:59:27.843833+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 47,
+          "engagement": 15,
+          "price": null
+        },
+        {
+          "ts": "2026-09-15T17:50:01.810002+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 19,
+          "price": null
+        },
+        {
+          "ts": "2026-09-15T20:39:18.280251+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 19,
+          "price": null
+        },
+        {
+          "ts": "2026-09-15T23:49:33.515169+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 19,
+          "price": null
+        },
+        {
+          "ts": "2026-09-16T02:25:48.044374+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 19,
+          "price": null
         }
       ]
     },
@@ -2741,7 +2741,7 @@
           },
           {
             "t": 1789358400,
-            "c": 77.15
+            "c": 76.08
           },
           {
             "t": 1789502402,
@@ -2808,10 +2808,6 @@
       "growth_pct": 0,
       "timeline": [
         {
-          "day": "2026-09-12",
-          "mentions": 3
-        },
-        {
           "day": "2026-09-13",
           "mentions": 3
         },
@@ -2821,6 +2817,10 @@
         },
         {
           "day": "2026-09-15",
+          "mentions": 3
+        },
+        {
+          "day": "2026-09-16",
           "mentions": 3
         }
       ],
@@ -2834,14 +2834,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-14T09:23:12.730385+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 77.0
-        },
         {
           "ts": "2026-09-15T06:58:12.575592+00:00",
           "ticker": "BYD",
@@ -2881,42 +2873,28 @@
           "confidence": 51,
           "engagement": 16,
           "price": 76.08
+        },
+        {
+          "ts": "2026-09-16T02:25:48.044374+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 51,
+          "engagement": 16,
+          "price": 76.08
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 51,
-    "n_evaluated": 207,
+    "hit_rate": 50,
+    "n_evaluated": 206,
     "rate_kaufen": 27,
     "rate_verkaufen": null,
-    "rate_beobachten": 59,
-    "kauf_perf_7d": -1.4,
+    "rate_beobachten": 58,
+    "kauf_perf_7d": -1.5,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-09-06T14:38:32.593488+00:00",
-      "ticker": "DELL",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 6,
-      "price": 524.14,
-      "chg_since": 3.7,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-06T14:38:32.593488+00:00",
-      "ticker": "IREN",
-      "rec": "kaufen",
-      "confidence": 87,
-      "engagement": 14,
-      "price": 44.68,
-      "chg_since": -6.94,
-      "correct": false,
-      "age_days": 9
-    },
     {
       "ts": "2026-09-06T17:53:05.710282+00:00",
       "ticker": "DELL",
@@ -3069,7 +3047,7 @@
       "price": 524.14,
       "chg_since": 3.7,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-07T01:56:43.907092+00:00",
@@ -3080,7 +3058,7 @@
       "price": 44.68,
       "chg_since": -6.94,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-07T01:56:43.907092+00:00",
@@ -3091,7 +3069,7 @@
       "price": 8.07,
       "chg_since": -10.16,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-07T06:55:40.397524+00:00",
@@ -3212,7 +3190,7 @@
       "price": 44.68,
       "chg_since": -6.94,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-08T02:08:15.749303+00:00",
@@ -3223,7 +3201,7 @@
       "price": 8.07,
       "chg_since": -10.16,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-08T08:26:02.776353+00:00",
@@ -3334,6 +3312,28 @@
       "chg_since": -8.23,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-09-09T02:12:09.549993+00:00",
+      "ticker": "IREN",
+      "rec": "kaufen",
+      "confidence": 84,
+      "engagement": 13,
+      "price": 46.93,
+      "chg_since": -11.4,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-09T02:12:09.549993+00:00",
+      "ticker": "NG",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 7,
+      "price": 7.9,
+      "chg_since": -8.23,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
@@ -3412,9 +3412,25 @@
         "companies": [],
         "policy": [],
         "is_new": false
+      },
+      {
+        "text": "Trump Defended A.I. Data Centers on Truth Social, and Commenters Clapped Back - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPalk5OTBNM0ViSURONjkzYlViSURsR1Z6MVkwaHc1U1V3UjFVX29jSTZGVGJlTjlzQm1MaTQ1UFdPamlnZlZWLU5ZSUIzQVpkemh1Mnc0UGF3UWZ3T2Q1UnYzZl9tS1hQdzJqcGFLek1ZM2I5WXpza3o4T05uOGVqOG9abjBaQnRySHA0T3p0TQ?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "News (X/Presse)",
+        "companies": [
+          {
+            "name": "Truth Social",
+            "ticker": "DJT"
+          }
+        ],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": true
       }
     ],
-    "market_hits": 1
+    "market_hits": 2
   },
   "spannende_aktien": [
     {
@@ -3423,7 +3439,7 @@
       "price": 2.8,
       "currency": "USD",
       "chg_1d": 677.78,
-      "vol_ratio": 224.4,
+      "vol_ratio": 230.2,
       "warum": [
         "ReTo Eco-Solutions, Inc. Announces Share Combination",
         "ReTo Eco-Solutions, Inc. Announces Acquisition of Majority Interest in Seven Arr"
@@ -3456,7 +3472,7 @@
       "price": 5.71,
       "currency": "USD",
       "chg_1d": 149.34,
-      "vol_ratio": 125.4,
+      "vol_ratio": 126.2,
       "warum": [
         "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Glo",
         "Veea and Telarus Sign Technology Services Distribution Agreement to Expand Acces"
@@ -3479,71 +3495,6 @@
           "title": "Veea and Telarus Sign Technology Services Distribution Agreement to Expand Access to Secure, Intelligent Connectivity Solutions",
           "link": "https://finance.yahoo.com/technology/articles/veea-telarus-sign-technology-services-113000857.html?.tsrc=rss",
           "date": "Thu, 27 Aug 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "MEDS",
-      "name": "DataMEDS AI, Inc.",
-      "price": 1.62,
-      "currency": "USD",
-      "chg_1d": 86.21,
-      "vol_ratio": 79.7,
-      "warum": [
-        "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Co",
-        "Datameds, AI., and Tollo Health Partner with the NFL Alumni Association for Heal"
-      ],
-      "bedeutung": "Extreme Bewegung (+86.21%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Completing Transition to Neocloud GPU-as-a-Service platform",
-          "link": "https://finance.yahoo.com/technology/ai/articles/axe-compute-sells-helomics-ai-123000238.html?.tsrc=rss",
-          "date": "Tue, 15 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Datameds, AI., and Tollo Health Partner with the NFL Alumni Association for Health Lives Here National Campaign Rollout",
-          "link": "https://finance.yahoo.com/healthcare/articles/datameds-ai-tollo-health-partner-100000042.html?.tsrc=rss",
-          "date": "Tue, 08 Sep 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "TPST",
-      "name": "Tempest Therapeutics, Inc.",
-      "price": 0.76,
-      "currency": "USD",
-      "chg_1d": -2.56,
-      "vol_ratio": 68.9,
-      "warum": [
-        "Tempest Secures Exclusive Option to License Clinical-Stage CD7-Targeted Lentivir",
-        "Tempest Therapeutics Announces Up to $7.5 Million Private Placement"
-      ],
-      "bedeutung": "Handelsvolumen 68.9× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Tempest Secures Exclusive Option to License Clinical-Stage CD7-Targeted Lentiviral In Vivo CAR-T Platform",
-          "link": "https://finance.yahoo.com/healthcare/articles/tempest-secures-exclusive-option-license-200500232.html?.tsrc=rss",
-          "date": "Tue, 15 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Tempest Therapeutics Announces Up to $7.5 Million Private Placement",
-          "link": "https://finance.yahoo.com/healthcare/articles/tempest-therapeutics-announces-7-5-120000262.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
           "tone": "neu"
         }
       ]
@@ -3579,6 +3530,71 @@
           "tone": "neu"
         }
       ]
+    },
+    {
+      "ticker": "WING",
+      "name": "Wingstop Inc.",
+      "price": 100.84,
+      "currency": "USD",
+      "chg_1d": -12.09,
+      "vol_ratio": 2.6,
+      "warum": [
+        "Texas Roadhouse, Chipotle, Wingstop, CAVA, and Shake Shack Shares Plummet, What ",
+        "2 of Wall Street’s Favorite Stocks to Own for Decades"
+      ],
+      "bedeutung": "Extreme Bewegung (-12.09%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Texas Roadhouse, Chipotle, Wingstop, CAVA, and Shake Shack Shares Plummet, What You Need To Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-roadhouse-chipotle-wingstop-cava-203131716.html?.tsrc=rss",
+          "date": "Tue, 15 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "2 of Wall Street’s Favorite Stocks to Own for Decades",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-154730834.html?.tsrc=rss",
+          "date": "Mon, 14 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI, Inc.",
+      "price": 68.85,
+      "currency": "USD",
+      "chg_1d": 10.67,
+      "vol_ratio": 1.0,
+      "warum": [
+        "Tempus Launches Effort to Build the Largest Multimodal Whole-Genome Dataset to A",
+        "Tempus Secures Up to $9.5 Million in ARPA-H ADVOCATE Funding to Deploy First Aut"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "Tempus Launches Effort to Build the Largest Multimodal Whole-Genome Dataset to Advance AI-Driven Healthcare Innovation",
+          "link": "https://finance.yahoo.com/healthcare/articles/tempus-launches-effort-build-largest-123000029.html?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Tempus Secures Up to $9.5 Million in ARPA-H ADVOCATE Funding to Deploy First Autonomous AI in Cardiology",
+          "link": "https://finance.yahoo.com/healthcare/articles/tempus-secures-9-5-million-200100256.html?.tsrc=rss",
+          "date": "Wed, 09 Sep 2026",
+          "tone": "neu"
+        }
+      ]
     }
   ],
   "ma_deals": [
@@ -3607,21 +3623,7 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzRURORDM5bzNrdnBMUjgyTEUwV3FGaEpmemUtNlp2RG1hNTRwTmNjVURVcTh2VGFFS2ZaOTJIVTdRdHpFMXJ1TlJyMkJ0cVF1aDFWUUFpdEJrenBUTU1WRWhNcTBVeE0tTDFENDFCX3VFeGhUcFVN?oc=5",
       "date": "Tue, 15 Sep 2026",
-      "headline": "Aon Raises $13.5 Billion From Bond Sale to Fund USI Takeover - Insurance Journal",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcjRwNXRlZ01uc1pyaUxFTGFUVFpQVFhlMHpZSERIQXpYcDF4TkYybHdyOFh6NjFzVzVqV0JEU0JwM3M2S0hlVEFpVnJkUGpyUjFmYVlPSTR5SE96QU8ycVRvZ3B1OFE2R1NCTENGVWR0Wk5JWEFVSHZOT1B2WURWQWtpZnlDN21RNDBkYVhRQnlzeV9WcHB2cEtxVVQxZWxpUzNrQVJVcldYcFVDbnRLcTFRdlFvdDZCcTJRdjBNbGVObW1VNlpxSQ?oc=5",
-      "date": "Mon, 14 Sep 2026",
-      "headline": "NextEra Energy Reaffirms 2026 Guidance at Top End of Range as $67 Billion Dominion Merger Progresses - WSJ",
+      "headline": "Aon Raises $13.5 Billion From Bond Sale to Fund USI Takeover - insurancejournal.com",
       "source": "Google News"
     },
     {
@@ -3636,6 +3638,20 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lR05BUXhwT084SFVnbEYtcXdQeW43Vlp3WjdCZGhjZVZPRk5XOFh4WXJwSW5zamlTcjBqWWs0ZkdXUlBWZEZRc096RlRXUnpaOWdxUXU4ZTRkdFNxZTZBTWdSbHRKcllwT0NVUXo0ZW16Nl9hd2c?oc=5",
       "date": "Tue, 15 Sep 2026",
       "headline": "Aon Readies $13.5 Billion Bond Sale to Finance USI Insurance Takeover - finance.biggo.com",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObko1dDNhMzUtelFtMkRJcFRvMHp2NXhnZnpCWGRWMHdydzMxMVpuVFpPTjlDRDBfcFlObTJyM0xXQmNCb0xfLTJhcEEySjR2dV93eXdhQVFCMXA5aHdISE15Y0l0WUJiV1U5NzcyN0VQS0VFUjFuM1JyOXdldVJMRmtEUHdnSnBsT2lWd0pEMUxhenU2OUdhNnoxQXhFUE5nZmxWLWY2NjZGa2JOWTlGcjF0OFcwMGNDN0w3UDJkbThSUQ?oc=5",
+      "date": "Wed, 16 Sep 2026",
+      "headline": "Fourth time lucky for Brookfield as Reliance backs $4.1b takeover - AFR",
       "source": "Google News"
     }
   ]
