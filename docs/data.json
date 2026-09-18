@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T02:15:22.173108+00:00",
+  "generated_at": "2026-09-18T08:36:12.084582+00:00",
   "total_posts": 250,
-  "unique_tickers": 215,
+  "unique_tickers": 213,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -30,11 +30,11 @@
       "name": "Boyd Gaming Corporation",
       "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 63,
-      "sentiment": 7,
-      "mentions": 5,
-      "mentions_delta": 0,
-      "engagement": 22,
+      "confidence": 60,
+      "sentiment": 6,
+      "mentions": 4,
+      "mentions_delta": -1,
+      "engagement": 18,
       "sources": [
         "Mauerstrassenwetten",
         "wallstreetbets"
@@ -58,10 +58,6 @@
           "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wblrgw/byd_muss_nicht_mehr_marge_als_vw_machen_es_reicht/"
         },
         {
-          "title": "VW: 74 € gegen 12 € oder strukturelle Value Trap? Brasilien zeigt, was passiert, wenn die Privatkunden zuerst ",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1w6lryg/vw_74_gegen_12_oder_strukturelle_value_trap/"
-        },
-        {
           "title": "Is keeping Chinese EVs out of the US actually making Detroit stronger?",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1wj293q/is_keeping_chinese_evs_out_of_the_us_actually/"
         }
@@ -76,14 +72,14 @@
         {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 41,
-          "beitraege": 5,
+          "anteil_pct": 43,
+          "beitraege": 4,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
         },
         {
           "emoji": "📉",
           "titel": "Kursverluste",
-          "anteil_pct": 6,
+          "anteil_pct": 7,
           "beitraege": 1,
           "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
         }
@@ -94,7 +90,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 75.6,
+        "price": 74.25,
         "currency": "USD",
         "name": "Boyd Gaming Corporation",
         "chart_1d": [
@@ -437,6 +433,10 @@
           {
             "t": 1789565400,
             "c": 75.6
+          },
+          {
+            "t": 1789651800,
+            "c": 74.25
           }
         ],
         "chart_1y": [
@@ -650,18 +650,18 @@
           },
           {
             "t": 1789358400,
-            "c": 75.6
+            "c": 74.25
           },
           {
             "t": 1789675203,
             "c": 74.25
           }
         ],
-        "chg_1d": 0.04,
-        "chg_7d": 0.25,
-        "chg_1mo": -8.34,
-        "chg_1y": -9.24,
-        "sma20_dist": -3.51
+        "chg_1d": -1.75,
+        "chg_7d": -2.88,
+        "chg_1mo": -9.98,
+        "chg_1y": -10.86,
+        "sma20_dist": -4.72
       },
       "news": [
         {
@@ -698,12 +698,12 @@
       "comparison": {
         "verdict": "widerspricht",
         "points": [
-          "Kurs seitwärts über 7 Tage (+0.25%).",
-          "Schwacher Monat: -8.34%.",
+          "Kurs seitwärts über 7 Tage (-2.88%).",
+          "Schwacher Monat: -9.98%.",
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Reddit diskutiert Boyd Gaming Corporation aktuell deutlich bullisch (5 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Boyd Gaming Corporation aktuell deutlich bullisch (4 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
@@ -736,21 +736,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "C",
-      "quality_pct": 44,
+      "quality_pct": 42,
       "reddit_vs_markt": {
         "reddit": 63,
-        "markt": 51,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "markt": 38,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-17T02:29:41.635307+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 51,
-          "engagement": 16,
-          "price": 75.6
-        },
         {
           "ts": "2026-09-17T09:01:08.688496+00:00",
           "ticker": "BYD",
@@ -790,6 +782,14 @@
           "confidence": 63,
           "engagement": 22,
           "price": 75.6
+        },
+        {
+          "ts": "2026-09-18T08:36:12.084582+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 60,
+          "engagement": 18,
+          "price": 74.25
         }
       ]
     },
@@ -798,7 +798,7 @@
       "name": "NVIDIA Corporation",
       "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 54,
+      "confidence": 70,
       "sentiment": 3,
       "mentions": 4,
       "mentions_delta": 0,
@@ -875,7 +875,7 @@
       ],
       "price": {
         "available": true,
-        "price": 213.9,
+        "price": 219.34,
         "currency": "USD",
         "name": "NVIDIA Corporation",
         "chart_1d": [
@@ -1218,6 +1218,10 @@
           {
             "t": 1789565400,
             "c": 213.9
+          },
+          {
+            "t": 1789651800,
+            "c": 219.34
           }
         ],
         "chart_1y": [
@@ -1431,66 +1435,65 @@
           },
           {
             "t": 1789358400,
-            "c": 213.9
+            "c": 219.34
           },
           {
             "t": 1789675200,
             "c": 219.34
           }
         ],
-        "chg_1d": -1.8,
-        "chg_7d": -4.37,
-        "chg_1mo": -2.66,
-        "chg_1y": 21.07,
-        "sma20_dist": -2.11
+        "chg_1d": 0.7,
+        "chg_7d": 0.45,
+        "chg_1mo": -0.18,
+        "chg_1y": 24.15,
+        "sma20_dist": 0.34
       },
       "news": [
         {
-          "title": "A $100 Monthly Investment in QQQ Could Grow Into This Over 20 Years",
-          "link": "https://www.fool.com/investing/2026/09/17/100-monthly-investment-qqq-grow-20-years/?.tsrc=rss",
+          "title": "Why Are Nasdaq, S&P 500 And Dow Futures Rising Premarket? NVDA, CRWV, AMD, SPCX, BE Stocks In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-dow-futures-rising-premarket-nvda-crwv-amd-spcx-be-stocks-in-focus/cZtuo1pRB3g?.tsrc=rss",
           "date": "Fri, 18 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Long-Term Treasury Yields Now Beat These Dividend Stalwarts. Is Government Debt the Top Passive-Income Play?",
-          "link": "https://www.fool.com/investing/2026/09/17/treasury-yields-dividend-stocks-top-passive-income/?.tsrc=rss",
-          "date": "Thu, 17 Sep 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "China's Homegrown AI Chip Push Just Got Faster. Is This a Real Threat to Nvidia?",
-          "link": "https://www.fool.com/investing/2026/09/17/chinas-homegrown-ai-chip-push-just-got-faster-is-this-a-real-threat-to-nvidia/?.tsrc=rss",
-          "date": "Thu, 17 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Why Investors Were Hitting the Brakes on J.B. Hunt Stock This Week",
-          "link": "https://www.fool.com/investing/2026/09/17/why-investors-were-hitting-the-brakes-on-jb-hunt-s/?.tsrc=rss",
+          "title": "The “Magnificent Seven” Stocks Have Seen Valuations Tumble. Stocks to Avoid or Once-in-a-Decade Buying Opportunity?",
+          "link": "https://www.fool.com/investing/2026/09/18/the-magnificent-seven-stocks-have-seen-valuations-tumble-stocks-to-avoid-or-once-in-a-decade-buying-opportunity/?.tsrc=rss",
           "date": "Fri, 18 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "CGDV vs. SCHD: Can an Active Dividend ETF Dethrone the Index Favorite?",
-          "link": "https://247wallst.com/investing/etf/2026/09/17/cgdv-vs-schd-can-an-active-dividend-etf-dethrone-the-index-favorite/?.tsrc=rss",
+          "title": "If You Invest $50 a Week in SCHD, Here's What History Says You Could Collect in Passive Income by 2046",
+          "link": "https://www.fool.com/investing/2026/09/18/invest-week-schd-history-dividend-passive-income/?.tsrc=rss",
+          "date": "Fri, 18 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Own Broadcom by Sept. 21 to Qualify for Its Sept. 30 Dividend. Here's How Many Shares You'd Need for $5,000 in Yearly Dividends.",
+          "link": "https://www.fool.com/investing/2026/09/18/own-broadcom-by-sept-21-to-qualify-for-its-sept-30/?.tsrc=rss",
+          "date": "Fri, 18 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Forget Michael Burry's Short Thesis. Here's the Bull Case for Palantir He's Not Talking About.",
+          "link": "https://www.fool.com/investing/2026/09/18/forget-michael-burrys-short-thesis-heres-the-bull/?.tsrc=rss",
           "date": "Fri, 18 Sep 2026",
           "tone": "neu"
         }
       ],
       "comparison": {
-        "verdict": "widerspricht",
+        "verdict": "relativiert",
         "points": [
-          "Kurs -4.37% über 7 Tage – Abwärtsdruck.",
-          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
+          "Kurs seitwärts über 7 Tage (+0.45%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell bullisch (4 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell bullisch (4 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
         "💰 Einstiegs-Debatte",
-        "🎯 Optionen & Short-Interest",
-        "News: Long-Term Treasury Yields Now Beat These Dividend Stalwarts. Is Govern"
+        "🎯 Optionen & Short-Interest"
       ],
       "momentum": 56,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1519,18 +1522,10 @@
       "quality_pct": 34,
       "reddit_vs_markt": {
         "reddit": 56,
-        "markt": 32,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "markt": 51,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-17T02:29:41.635307+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 11,
-          "price": 213.9
-        },
         {
           "ts": "2026-09-17T09:01:08.688496+00:00",
           "ticker": "NVDA",
@@ -1570,6 +1565,14 @@
           "confidence": 54,
           "engagement": 11,
           "price": 213.9
+        },
+        {
+          "ts": "2026-09-18T08:36:12.084582+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 11,
+          "price": 219.34
         }
       ]
     },
@@ -1693,14 +1696,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-17T02:29:41.635307+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 20,
-          "price": null
-        },
-        {
           "ts": "2026-09-17T09:01:08.688496+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
@@ -1734,6 +1729,14 @@
         },
         {
           "ts": "2026-09-18T02:15:22.173108+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 20,
+          "price": null
+        },
+        {
+          "ts": "2026-09-18T08:36:12.084582+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
           "confidence": 56,
@@ -1869,14 +1872,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-17T02:29:41.635307+00:00",
-          "ticker": "ZL",
-          "rec": "beobachten",
-          "confidence": 53,
-          "engagement": 19,
-          "price": null
-        },
-        {
           "ts": "2026-09-17T09:01:08.688496+00:00",
           "ticker": "ZL",
           "rec": "beobachten",
@@ -1915,6 +1910,14 @@
           "confidence": 53,
           "engagement": 19,
           "price": null
+        },
+        {
+          "ts": "2026-09-18T08:36:12.084582+00:00",
+          "ticker": "ZL",
+          "rec": "beobachten",
+          "confidence": 53,
+          "engagement": 19,
+          "price": null
         }
       ]
     },
@@ -1923,7 +1926,7 @@
       "name": "NovaGold Resources Inc.",
       "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 54,
+      "confidence": 70,
       "sentiment": 4,
       "mentions": 3,
       "mentions_delta": 0,
@@ -1997,7 +2000,7 @@
       ],
       "price": {
         "available": true,
-        "price": 6.99,
+        "price": 7.43,
         "currency": "USD",
         "name": "NovaGold Resources Inc.",
         "chart_1d": [
@@ -2340,6 +2343,10 @@
           {
             "t": 1789565400,
             "c": 6.99
+          },
+          {
+            "t": 1789651800,
+            "c": 7.43
           }
         ],
         "chart_1y": [
@@ -2553,18 +2560,18 @@
           },
           {
             "t": 1789358400,
-            "c": 6.99
+            "c": 7.43
           },
           {
             "t": 1789675200,
             "c": 7.43
           }
         ],
-        "chg_1d": -2.65,
-        "chg_7d": -13.7,
-        "chg_1mo": -5.67,
-        "chg_1y": -7.17,
-        "sma20_dist": -15.74
+        "chg_1d": 3.48,
+        "chg_7d": -2.37,
+        "chg_1mo": 0.27,
+        "chg_1y": -1.33,
+        "sma20_dist": -9.88
       },
       "news": [
         {
@@ -2599,14 +2606,14 @@
         }
       ],
       "comparison": {
-        "verdict": "widerspricht",
+        "verdict": "relativiert",
         "points": [
-          "Kurs -13.7% über 7 Tage – Abwärtsdruck.",
-          "-15.74% unter SMA20 – technisch angeschlagen.",
-          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
+          "Kurs seitwärts über 7 Tage (-2.37%).",
+          "-9.88% unter SMA20 – technisch angeschlagen.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert NovaGold Resources Inc. aktuell deutlich bullisch (3 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert NovaGold Resources Inc. aktuell deutlich bullisch (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
@@ -2641,18 +2648,10 @@
       "quality_pct": 23,
       "reddit_vs_markt": {
         "reddit": 52,
-        "markt": 0,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "markt": 40,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-17T02:29:41.635307+00:00",
-          "ticker": "NG",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 19,
-          "price": 6.99
-        },
         {
           "ts": "2026-09-17T09:01:08.688496+00:00",
           "ticker": "NG",
@@ -2692,6 +2691,14 @@
           "confidence": 54,
           "engagement": 19,
           "price": 6.99
+        },
+        {
+          "ts": "2026-09-18T08:36:12.084582+00:00",
+          "ticker": "NG",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 19,
+          "price": 7.43
         }
       ]
     },
@@ -2771,7 +2778,7 @@
       ],
       "price": {
         "available": true,
-        "price": 5.93,
+        "price": 6.0,
         "currency": "USD",
         "name": "SoundHound AI, Inc.",
         "chart_1d": [
@@ -3114,6 +3121,10 @@
           {
             "t": 1789565400,
             "c": 5.93
+          },
+          {
+            "t": 1789651800,
+            "c": 6.0
           }
         ],
         "chart_1y": [
@@ -3327,18 +3338,18 @@
           },
           {
             "t": 1789358400,
-            "c": 5.93
+            "c": 6.0
           },
           {
             "t": 1789675200,
             "c": 6.0
           }
         ],
-        "chg_1d": -1.98,
-        "chg_7d": -8.49,
-        "chg_1mo": -15.16,
-        "chg_1y": -63.51,
-        "sma20_dist": -12.31
+        "chg_1d": -0.83,
+        "chg_7d": -4.46,
+        "chg_1mo": -14.16,
+        "chg_1y": -63.08,
+        "sma20_dist": -10.51
       },
       "news": [
         {
@@ -3375,9 +3386,9 @@
       "comparison": {
         "verdict": "widerspricht",
         "points": [
-          "Kurs -8.49% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -15.16%.",
-          "-12.31% unter SMA20 – technisch angeschlagen.",
+          "Kurs -4.46% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -14.16%.",
+          "-10.51% unter SMA20 – technisch angeschlagen.",
           "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
@@ -3418,18 +3429,10 @@
       "quality_pct": 18,
       "reddit_vs_markt": {
         "reddit": 57,
-        "markt": 16,
+        "markt": 32,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-17T02:29:41.635307+00:00",
-          "ticker": "SOUN",
-          "rec": "beobachten",
-          "confidence": 48,
-          "engagement": 13,
-          "price": 6.15
-        },
         {
           "ts": "2026-09-17T09:01:08.688496+00:00",
           "ticker": "SOUN",
@@ -3469,39 +3472,36 @@
           "confidence": 48,
           "engagement": 13,
           "price": 5.93
+        },
+        {
+          "ts": "2026-09-18T08:36:12.084582+00:00",
+          "ticker": "SOUN",
+          "rec": "beobachten",
+          "confidence": 48,
+          "engagement": 13,
+          "price": 6.0
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 35,
-    "n_evaluated": 209,
+    "hit_rate": 34,
+    "n_evaluated": 206,
     "rate_kaufen": 25,
     "rate_verkaufen": null,
-    "rate_beobachten": 39,
-    "kauf_perf_7d": -0.7,
+    "rate_beobachten": 38,
+    "kauf_perf_7d": 3.0,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
     {
-      "ts": "2026-09-07T22:23:33.320499+00:00",
-      "ticker": "BE",
-      "rec": "beobachten",
-      "confidence": 55,
-      "engagement": 6,
-      "price": 252.87,
-      "chg_since": 6.78,
-      "correct": false,
-      "age_days": 10
-    },
-    {
       "ts": "2026-09-08T02:08:15.749303+00:00",
       "ticker": "BE",
       "rec": "beobachten",
       "confidence": 58,
       "engagement": 7,
       "price": 252.87,
-      "chg_since": 6.78,
+      "chg_since": 11.03,
       "correct": false,
       "age_days": 10
     },
@@ -3512,7 +3512,7 @@
       "confidence": 84,
       "engagement": 13,
       "price": 44.68,
-      "chg_since": -4.61,
+      "chg_since": -2.69,
       "correct": false,
       "age_days": 10
     },
@@ -3523,7 +3523,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 8.07,
-      "chg_since": -13.38,
+      "chg_since": -7.93,
       "correct": false,
       "age_days": 10
     },
@@ -3534,9 +3534,9 @@
       "confidence": 58,
       "engagement": 7,
       "price": 252.87,
-      "chg_since": 6.78,
+      "chg_since": 11.03,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-09-08T08:26:02.776353+00:00",
@@ -3545,9 +3545,9 @@
       "confidence": 84,
       "engagement": 13,
       "price": 44.68,
-      "chg_since": -4.61,
+      "chg_since": -2.69,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-09-08T08:26:02.776353+00:00",
@@ -3556,9 +3556,9 @@
       "confidence": 58,
       "engagement": 7,
       "price": 8.07,
-      "chg_since": -13.38,
+      "chg_since": -7.93,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-09-08T13:59:39.093273+00:00",
@@ -3567,7 +3567,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 276.6,
-      "chg_since": -2.38,
+      "chg_since": 1.5,
       "correct": true,
       "age_days": 9
     },
@@ -3578,7 +3578,7 @@
       "confidence": 84,
       "engagement": 13,
       "price": 47.42,
-      "chg_since": -10.12,
+      "chg_since": -8.31,
       "correct": false,
       "age_days": 9
     },
@@ -3589,7 +3589,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 8.02,
-      "chg_since": -12.84,
+      "chg_since": -7.36,
       "correct": false,
       "age_days": 9
     },
@@ -3600,7 +3600,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 281.79,
-      "chg_since": -4.18,
+      "chg_since": -0.37,
       "correct": true,
       "age_days": 9
     },
@@ -3611,7 +3611,7 @@
       "confidence": 84,
       "engagement": 13,
       "price": 48.24,
-      "chg_since": -11.65,
+      "chg_since": -9.87,
       "correct": false,
       "age_days": 9
     },
@@ -3622,7 +3622,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 8.02,
-      "chg_since": -12.84,
+      "chg_since": -7.36,
       "correct": false,
       "age_days": 9
     },
@@ -3633,7 +3633,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 277.22,
-      "chg_since": -2.6,
+      "chg_since": 1.28,
       "correct": true,
       "age_days": 9
     },
@@ -3644,7 +3644,7 @@
       "confidence": 84,
       "engagement": 13,
       "price": 46.93,
-      "chg_since": -9.18,
+      "chg_since": -7.35,
       "correct": false,
       "age_days": 9
     },
@@ -3655,7 +3655,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 7.9,
-      "chg_since": -11.52,
+      "chg_since": -5.95,
       "correct": false,
       "age_days": 9
     },
@@ -3666,7 +3666,7 @@
       "confidence": 84,
       "engagement": 13,
       "price": 46.93,
-      "chg_since": -9.18,
+      "chg_since": -7.35,
       "correct": false,
       "age_days": 9
     },
@@ -3677,7 +3677,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 7.9,
-      "chg_since": -11.52,
+      "chg_since": -5.95,
       "correct": false,
       "age_days": 9
     },
@@ -3688,7 +3688,7 @@
       "confidence": 84,
       "engagement": 13,
       "price": 46.93,
-      "chg_since": -9.18,
+      "chg_since": -7.35,
       "correct": false,
       "age_days": 9
     },
@@ -3699,7 +3699,7 @@
       "confidence": 58,
       "engagement": 7,
       "price": 7.9,
-      "chg_since": -11.52,
+      "chg_since": -5.95,
       "correct": false,
       "age_days": 9
     },
@@ -3710,9 +3710,9 @@
       "confidence": 84,
       "engagement": 13,
       "price": 46.93,
-      "chg_since": -9.18,
+      "chg_since": -7.35,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-09T08:28:38.050620+00:00",
@@ -3721,9 +3721,9 @@
       "confidence": 58,
       "engagement": 7,
       "price": 7.9,
-      "chg_since": -11.52,
+      "chg_since": -5.95,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-09T14:02:14.747310+00:00",
@@ -3732,7 +3732,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 46.69,
-      "chg_since": -8.72,
+      "chg_since": -6.88,
       "correct": false,
       "age_days": 8
     },
@@ -3743,7 +3743,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 76.04,
-      "chg_since": -0.58,
+      "chg_since": -2.35,
       "correct": true,
       "age_days": 8
     },
@@ -3754,7 +3754,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 45.56,
-      "chg_since": -6.45,
+      "chg_since": -4.57,
       "correct": false,
       "age_days": 8
     },
@@ -3765,7 +3765,7 @@
       "confidence": 45,
       "engagement": 10,
       "price": 74.89,
-      "chg_since": 0.95,
+      "chg_since": -0.85,
       "correct": true,
       "age_days": 8
     },
@@ -3776,7 +3776,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 45.37,
-      "chg_since": -6.06,
+      "chg_since": -4.17,
       "correct": false,
       "age_days": 8
     },
@@ -3787,7 +3787,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 75.41,
-      "chg_since": 0.25,
+      "chg_since": -1.54,
       "correct": true,
       "age_days": 8
     },
@@ -3798,7 +3798,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 45.37,
-      "chg_since": -6.06,
+      "chg_since": -4.17,
       "correct": false,
       "age_days": 8
     },
@@ -3809,7 +3809,7 @@
       "confidence": 61,
       "engagement": 16,
       "price": 21.03,
-      "chg_since": 0.86,
+      "chg_since": 0.57,
       "correct": true,
       "age_days": 8
     },
@@ -3820,9 +3820,9 @@
       "confidence": 84,
       "engagement": 15,
       "price": 45.37,
-      "chg_since": -6.06,
+      "chg_since": -4.17,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-10T08:30:16.089840+00:00",
@@ -3831,9 +3831,9 @@
       "confidence": 61,
       "engagement": 16,
       "price": 21.03,
-      "chg_since": 0.86,
+      "chg_since": 0.57,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-10T13:56:58.955756+00:00",
@@ -3842,7 +3842,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 43.57,
-      "chg_since": -2.18,
+      "chg_since": -0.21,
       "correct": false,
       "age_days": 7
     },
@@ -3853,7 +3853,7 @@
       "confidence": 61,
       "engagement": 16,
       "price": 21.0,
-      "chg_since": 1.0,
+      "chg_since": 0.71,
       "correct": true,
       "age_days": 7
     },
@@ -3864,7 +3864,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 75.08,
-      "chg_since": 0.69,
+      "chg_since": -1.11,
       "correct": true,
       "age_days": 7
     },
@@ -3875,7 +3875,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 44.3,
-      "chg_since": -3.79,
+      "chg_since": -1.85,
       "correct": false,
       "age_days": 7
     },
@@ -3886,7 +3886,7 @@
       "confidence": 61,
       "engagement": 16,
       "price": 21.0,
-      "chg_since": 1.0,
+      "chg_since": 0.71,
       "correct": true,
       "age_days": 7
     },
@@ -3897,7 +3897,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 43.64,
-      "chg_since": -2.34,
+      "chg_since": -0.37,
       "correct": false,
       "age_days": 7
     },
@@ -3908,7 +3908,7 @@
       "confidence": 84,
       "engagement": 15,
       "price": 43.64,
-      "chg_since": -2.34,
+      "chg_since": -0.37,
       "correct": false,
       "age_days": 7
     },
@@ -3919,7 +3919,18 @@
       "confidence": 84,
       "engagement": 15,
       "price": 43.64,
-      "chg_since": -2.34,
+      "chg_since": -0.37,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-11T08:24:50.509487+00:00",
+      "ticker": "IREN",
+      "rec": "kaufen",
+      "confidence": 84,
+      "engagement": 15,
+      "price": 43.64,
+      "chg_since": -0.37,
       "correct": false,
       "age_days": 7
     }
@@ -3928,107 +3939,97 @@
   "trump_tracker": {
     "posts": [
       {
+        "text": "Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big price!!! President DJT What the disloyal leaks about Iran prove about Trump: https://www. washingtonpost.com/opinions/20 26/08/27/iran-trump-took-an-enemy-its-word-if-only-past-leaders-had/",
+        "url": "https://www.trumpstruth.org/statuses/41779",
+        "date": "Fri, 18 Sep 2026 04:16",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41777",
+        "url": "https://www.trumpstruth.org/statuses/41777",
+        "date": "Fri, 18 Sep 2026 02:22",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41778",
+        "url": "https://www.trumpstruth.org/statuses/41778",
+        "date": "Fri, 18 Sep 2026 02:22",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41776",
+        "url": "https://www.trumpstruth.org/statuses/41776",
+        "date": "Fri, 18 Sep 2026 02:19",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41774",
+        "url": "https://www.trumpstruth.org/statuses/41774",
+        "date": "Fri, 18 Sep 2026 02:14",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41775",
+        "url": "https://www.trumpstruth.org/statuses/41775",
+        "date": "Fri, 18 Sep 2026 02:13",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "Andrew Ferguson, Fraud Task Force Vice Chairman, was FANTASTIC tonight on FoxNews. He and his group, headed up by wonderful V.P., JD Vance, have got the fraudsters running for shelter. They are bringing in Billions of Dollars - LONG PRISON SENTENCES. Thank you to Charlie Hurt for a great interview! President DONALD J. TRUMP",
+        "url": "https://www.trumpstruth.org/statuses/41773",
+        "date": "Fri, 18 Sep 2026 01:24",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
         "text": "Congressman John McGuire is an America First Warrior for Virginia’s 5th Congressional District. John bravely served our Great Country as a U.S. Navy SEAL, and is doing an incredible job fighting for the people of Rural Virginia. He is working hard to Grow our Economy, Create GREAT Jobs, Champion American Energy DOMINANCE, Secure our Border, Strengthen our Military/Veterans, Defend our always under",
         "url": "https://www.trumpstruth.org/statuses/41771",
         "date": "Fri, 18 Sep 2026 00:20",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Congresswoman Jen Kiggans is a Tremendous Advocate for the Great People of Virginia’s 2nd Congressional District! A former Navy helicopter pilot, Jen knows how to Defend our Country, Support our Brave Military/Veterans, and Ensure PEACE THROUGH STRENGTH. In Congress, Jen is working hard to Secure the Border, Grow the Economy, Restore American Energy Independence, and Protect our always under siege",
-        "url": "https://www.trumpstruth.org/statuses/41772",
-        "date": "Fri, 18 Sep 2026 00:19",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Congressman Rob Wittman is doing a truly fantastic job representing the wonderful people of Virginia’s 1st Congressional District! As the Vice Chairman of the House Armed Services Committee, Rob is working tirelessly to advance our America First Agenda. He understands the Wisdom and Courage required to Defend our Country, Support our Brave Military/Veterans, and Ensure PEACE THROUGH STRENGTH. In C",
-        "url": "https://www.trumpstruth.org/statuses/41770",
-        "date": "Fri, 18 Sep 2026 00:13",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41769",
-        "url": "https://www.trumpstruth.org/statuses/41769",
-        "date": "Thu, 17 Sep 2026 22:51",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41766",
-        "url": "https://www.trumpstruth.org/statuses/41766",
-        "date": "Thu, 17 Sep 2026 22:14",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
         "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41767",
-        "url": "https://www.trumpstruth.org/statuses/41767",
-        "date": "Thu, 17 Sep 2026 22:11",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41768",
-        "url": "https://www.trumpstruth.org/statuses/41768",
-        "date": "Thu, 17 Sep 2026 22:10",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41765",
-        "url": "https://www.trumpstruth.org/statuses/41765",
-        "date": "Thu, 17 Sep 2026 22:10",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "CNBC Daily Open: Trump's tariff leverage, EU warning and Iran hopes - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMDgwNUt1Z2dTRWc2V1dBbWdEUGFOOUFKejlHX3VtTjl2VFlqeTEzZklid0lkRUROWGw4WllKdnR6d0NKQ3BHcTFiSmVWaUo4ZjRvVW1wcW9leFBPSHZCNXVua0d1d0xSamx6allOV1BRZk5aZEZYeEJkU2otYUtIOFoyYkdqem0zNkxFR3pvYlJkQdIBlwFBVV95cUxOM2hFSm9RSk1mekhvWkEwb1F5a1F0Qjg4bUw0cDR4bWZhOHhvX19VeEY5eXVwRUxMYTJGRE10ekFGbWkzaUd3MUd1RnozcUlHaE82Q3NtNzUySlU4bXdXM3ZLSmRXcHRGeTFudllDX3VsSVlFekx6UWVKODEwaTZoM0o3cHllbV9Td1F0R1VsMlRlekxuT1hj?oc=5",
-        "date": "Fri, 18 Sep 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Zölle"
-        ],
-        "is_new": true
       }
     ],
-    "market_hits": 1
+    "market_hits": 0
   },
   "spannende_aktien": [
     {
       "ticker": "AEMD",
       "name": "Aethlon Medical, Inc.",
-      "price": 1.43,
+      "price": 6.78,
       "currency": "USD",
-      "chg_1d": -2.72,
+      "chg_1d": 374.13,
       "vol_ratio": 29.9,
       "warum": [
         "Aethlon Medical Shares Surge Over 400% After Announcing North Immunology Merger",
         "North Immunology joins biotech reverse merger boom with Aethlon deal"
       ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
@@ -4047,52 +4048,21 @@
       ]
     },
     {
-      "ticker": "DAIC",
-      "name": "CID HoldCo, Inc.",
-      "price": 2.01,
-      "currency": "USD",
-      "chg_1d": -7.8,
-      "vol_ratio": 6.3,
-      "warum": [
-        "CID HoldCo shares soar as speculative momentum continues",
-        "Dot Ai Fortifies Balance Sheet Through Series of Capital Structure Actions"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "CID HoldCo shares soar as speculative momentum continues",
-          "link": "https://investorshub.advfn.com/market-news/article/35075/cid-holdco-shares-soar-as-speculative-momentum-continues?.tsrc=rss",
-          "date": "Wed, 26 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Dot Ai Fortifies Balance Sheet Through Series of Capital Structure Actions",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dot-ai-fortifies-balance-sheet-123100441.html?.tsrc=rss",
-          "date": "Thu, 02 Jul 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
       "ticker": "SDGR",
       "name": "Schrödinger, Inc.",
-      "price": 23.93,
+      "price": 30.24,
       "currency": "USD",
-      "chg_1d": 2.92,
-      "vol_ratio": 7.3,
+      "chg_1d": 26.37,
+      "vol_ratio": 7.4,
       "warum": [
         "Schrödinger Reports Inducement Grants under Nasdaq Listing Rule 5635(c)(4)",
         "Schrodinger (SDGR) Soars 12.1%: Is Further Upside Left in the Stock?"
       ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
@@ -4111,52 +4081,21 @@
       ]
     },
     {
-      "ticker": "RARE",
-      "name": "Ultragenyx Pharmaceutical Inc.",
-      "price": 12.88,
-      "currency": "USD",
-      "chg_1d": -1.45,
-      "vol_ratio": 2.4,
-      "warum": [
-        "ABEO Stock Gains On Approval For A Drug Abeona Sold, Rating For The One It Sells",
-        "Ultragenyx Stock Jumps on Landmark FDA Approval"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "ABEO Stock Gains On Approval For A Drug Abeona Sold, Rating For The One It Sells",
-          "link": "https://stocktwits.com/news-articles/markets/equity/abeo-stock-gains-on-approval-for-a-drug-abeona-sold-rating-for-the-one-it-sells/cZts5ScRBds?.tsrc=rss",
-          "date": "Thu, 17 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Ultragenyx Stock Jumps on Landmark FDA Approval",
-          "link": "https://finance.yahoo.com/m/ca553cdd-e6f0-3949-987b-55e161c145a1/ultragenyx-stock-jumps-on.html?.tsrc=rss",
-          "date": "Thu, 17 Sep 2026",
-          "tone": "pos"
-        }
-      ]
-    },
-    {
       "ticker": "TEM",
       "name": "Tempus AI, Inc.",
-      "price": 69.97,
+      "price": 80.36,
       "currency": "USD",
-      "chg_1d": 1.63,
+      "chg_1d": 14.85,
       "vol_ratio": 2.0,
       "warum": [
         "Tempus AI Stock Surges as Revenue Optimism Boosts Winning Streak",
         "Tempus Launches Effort to Build the Largest Multimodal Whole-Genome Dataset to A"
       ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
@@ -4171,6 +4110,69 @@
           "link": "https://finance.yahoo.com/healthcare/articles/tempus-launches-effort-build-largest-123000029.html?.tsrc=rss",
           "date": "Fri, 11 Sep 2026",
           "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 108.8,
+      "currency": "USD",
+      "chg_1d": 7.67,
+      "vol_ratio": 1.6,
+      "warum": [
+        "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns",
+        "Why Intel Stock Jumped 7.6% Today"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns",
+          "link": "https://stocktwits.com/news-articles/markets/equity/intc-amd-mu-nvda-chip-stocks-rally-as-investors-look-past-ai-concerns/cZtuLZsRBdw?.tsrc=rss",
+          "date": "Fri, 18 Sep 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Why Intel Stock Jumped 7.6% Today",
+          "link": "https://www.fool.com/investing/2026/09/17/why-intel-stock-jumped-76-today/?.tsrc=rss",
+          "date": "Thu, 17 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "OKLO",
+      "name": "Oklo Inc.",
+      "price": 39.65,
+      "currency": "USD",
+      "chg_1d": 11.31,
+      "vol_ratio": 1.8,
+      "warum": [
+        "Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?",
+        "Oklo Jumps 13%, NuScale Power Climbs 10%: Does the House Data Center Power Vote "
+      ],
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?",
+          "link": "https://stocktwits.com/news-articles/markets/equity/why-did-nuclear-stocks-oklo-smr-nne-leu-xe-jump-on-thursday/cZtuW2xRBdu?.tsrc=rss",
+          "date": "Fri, 18 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Oklo Jumps 13%, NuScale Power Climbs 10%: Does the House Data Center Power Vote Reach Nuclear?",
+          "link": "https://247wallst.com/investing/2026/09/17/oklo-jumps-13-nuscale-power-climbs-10-does-the-house-data-center-power-vote-reach-nuclear/?.tsrc=rss",
+          "date": "Thu, 17 Sep 2026",
+          "tone": "pos"
         }
       ]
     }
@@ -4215,7 +4217,7 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRVdYSmNOMVJMQ2JLQzZBYWlOUkxPc042eExpNTNqMVRJQUV4UFdsOWNxVWl5T1dXQ2J0enpCRTZlQ2FxU1RrSWx5MEkwMWZzcmQ3Q2lhSzhUaEItWkVJWHFqdzZhaVpaWFF3bWJkVVJPdDhLbmNuVlRzUmJmcHJYNUhsc3IzNFdTV0R3eWVsU3UxYzVmc3pOcFg1RkNBbHBqRjQ4MlRvNkJxWFk?oc=5",
       "date": "Thu, 17 Sep 2026",
-      "headline": "Covetrus and MWI Animal Health announce US$3.5 billion merger - Vet Times",
+      "headline": "Covetrus and MWI Animal Health announce US$3.5 billion merger - vettimes.com",
       "source": "Google News"
     },
     {
