@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T08:54:34.585718+00:00",
+  "generated_at": "2026-09-20T13:49:33.480638+00:00",
   "total_posts": 250,
-  "unique_tickers": 178,
+  "unique_tickers": 184,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -153,14 +153,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-19T16:54:38.571097+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 62,
-          "engagement": 22,
-          "price": null
-        },
-        {
           "ts": "2026-09-19T19:46:29.278293+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
@@ -194,6 +186,14 @@
         },
         {
           "ts": "2026-09-20T08:54:34.585718+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 62,
+          "engagement": 22,
+          "price": null
+        },
+        {
+          "ts": "2026-09-20T13:49:33.480638+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
           "confidence": 62,
@@ -918,14 +918,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-19T16:54:38.571097+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 57,
-          "engagement": 12,
-          "price": 72.97
-        },
-        {
           "ts": "2026-09-19T19:46:29.278293+00:00",
           "ticker": "BYD",
           "rec": "beobachten",
@@ -964,6 +956,786 @@
           "confidence": 57,
           "engagement": 12,
           "price": 72.97
+        },
+        {
+          "ts": "2026-09-20T13:49:33.480638+00:00",
+          "ticker": "BYD",
+          "rec": "beobachten",
+          "confidence": 57,
+          "engagement": 12,
+          "price": 72.97
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 61,
+      "sentiment": 1,
+      "mentions": 3,
+      "mentions_delta": 1,
+      "engagement": 8,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "Memory vs. GPU",
+        "Is Qualcomm actually capable of building a $15B+ data-center business, or are we underestimating Nvidia/Broadc",
+        "Trump rejects calls to slow AI development, saying it would benefit China. ~35% of his portfolio is in AI-rela"
+      ],
+      "top_posts": [
+        {
+          "title": "Memory vs. GPU",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wl87i2/memory_vs_gpu/"
+        },
+        {
+          "title": "Is Qualcomm actually capable of building a $15B+ data-center business, or are we underestimating Nvidia/Broadc",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wjnmog/is_qualcomm_actually_capable_of_building_a_15b/"
+        },
+        {
+          "title": "Trump rejects calls to slow AI development, saying it would benefit China. ~35% of his portfolio is in AI-rela",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1wg4wp7/trump_rejects_calls_to_slow_ai_development_saying/"
+        }
+      ],
+      "topics": [
+        "Memory",
+        "Qualcomm",
+        "Actually",
+        "Capable"
+      ],
+      "themen": [
+        {
+          "emoji": "📊",
+          "titel": "Quartalszahlen",
+          "anteil_pct": 20,
+          "beitraege": 1,
+          "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
+        },
+        {
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 20,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
+        },
+        {
+          "emoji": "📈",
+          "titel": "Wachstums-Story",
+          "anteil_pct": 20,
+          "beitraege": 1,
+          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
+        }
+      ],
+      "bull_case": [
+        "Call-Optionen-Aktivität"
+      ],
+      "bear_case": [
+        "Zahlen unter Erwartung"
+      ],
+      "price": {
+        "available": true,
+        "price": 222.27,
+        "currency": "USD",
+        "name": "NVIDIA Corporation",
+        "chart_1d": [
+          {
+            "t": 1789738200,
+            "c": 219.73
+          },
+          {
+            "t": 1789739100,
+            "c": 219.22
+          },
+          {
+            "t": 1789740000,
+            "c": 220.62
+          },
+          {
+            "t": 1789740900,
+            "c": 219.52
+          },
+          {
+            "t": 1789741800,
+            "c": 219.05
+          },
+          {
+            "t": 1789742700,
+            "c": 219.01
+          },
+          {
+            "t": 1789743600,
+            "c": 219.48
+          },
+          {
+            "t": 1789744500,
+            "c": 219.84
+          },
+          {
+            "t": 1789745400,
+            "c": 219.64
+          },
+          {
+            "t": 1789746300,
+            "c": 219.52
+          },
+          {
+            "t": 1789747200,
+            "c": 219.46
+          },
+          {
+            "t": 1789748100,
+            "c": 219.54
+          },
+          {
+            "t": 1789749000,
+            "c": 219.54
+          },
+          {
+            "t": 1789749900,
+            "c": 219.65
+          },
+          {
+            "t": 1789750800,
+            "c": 219.93
+          },
+          {
+            "t": 1789751700,
+            "c": 220.0
+          },
+          {
+            "t": 1789752600,
+            "c": 219.82
+          },
+          {
+            "t": 1789753500,
+            "c": 219.49
+          },
+          {
+            "t": 1789754400,
+            "c": 219.51
+          },
+          {
+            "t": 1789755300,
+            "c": 219.39
+          },
+          {
+            "t": 1789756200,
+            "c": 219.34
+          },
+          {
+            "t": 1789757100,
+            "c": 219.56
+          },
+          {
+            "t": 1789758000,
+            "c": 219.57
+          },
+          {
+            "t": 1789758900,
+            "c": 219.48
+          },
+          {
+            "t": 1789759800,
+            "c": 219.77
+          },
+          {
+            "t": 1789760700,
+            "c": 222.09
+          },
+          {
+            "t": 1789761600,
+            "c": 222.27
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1789392600,
+            "c": 210.46
+          },
+          {
+            "t": 1789396200,
+            "c": 211.46
+          },
+          {
+            "t": 1789399800,
+            "c": 211.79
+          },
+          {
+            "t": 1789403400,
+            "c": 212.58
+          },
+          {
+            "t": 1789407000,
+            "c": 212.1
+          },
+          {
+            "t": 1789410600,
+            "c": 212.1
+          },
+          {
+            "t": 1789414200,
+            "c": 210.89
+          },
+          {
+            "t": 1789479000,
+            "c": 212.74
+          },
+          {
+            "t": 1789482600,
+            "c": 212.26
+          },
+          {
+            "t": 1789486200,
+            "c": 211.97
+          },
+          {
+            "t": 1789489800,
+            "c": 211.33
+          },
+          {
+            "t": 1789493400,
+            "c": 212.1
+          },
+          {
+            "t": 1789497000,
+            "c": 212.14
+          },
+          {
+            "t": 1789500600,
+            "c": 212.17
+          },
+          {
+            "t": 1789565400,
+            "c": 215.02
+          },
+          {
+            "t": 1789569000,
+            "c": 215.85
+          },
+          {
+            "t": 1789572600,
+            "c": 215.87
+          },
+          {
+            "t": 1789576200,
+            "c": 215.44
+          },
+          {
+            "t": 1789579800,
+            "c": 215.53
+          },
+          {
+            "t": 1789583400,
+            "c": 213.35
+          },
+          {
+            "t": 1789587000,
+            "c": 213.91
+          },
+          {
+            "t": 1789651800,
+            "c": 219.51
+          },
+          {
+            "t": 1789655400,
+            "c": 219.23
+          },
+          {
+            "t": 1789659000,
+            "c": 218.93
+          },
+          {
+            "t": 1789662600,
+            "c": 218.9
+          },
+          {
+            "t": 1789666200,
+            "c": 219.55
+          },
+          {
+            "t": 1789669800,
+            "c": 219.59
+          },
+          {
+            "t": 1789673400,
+            "c": 219.4
+          },
+          {
+            "t": 1789738200,
+            "c": 219.52
+          },
+          {
+            "t": 1789741800,
+            "c": 219.84
+          },
+          {
+            "t": 1789745400,
+            "c": 219.54
+          },
+          {
+            "t": 1789749000,
+            "c": 220.0
+          },
+          {
+            "t": 1789752600,
+            "c": 219.39
+          },
+          {
+            "t": 1789756200,
+            "c": 219.48
+          },
+          {
+            "t": 1789759800,
+            "c": 222.09
+          },
+          {
+            "t": 1789761600,
+            "c": 222.27
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1787146200,
+            "c": 217.56
+          },
+          {
+            "t": 1787232600,
+            "c": 216.85
+          },
+          {
+            "t": 1787319000,
+            "c": 214.72
+          },
+          {
+            "t": 1787578200,
+            "c": 208.48
+          },
+          {
+            "t": 1787664600,
+            "c": 213.05
+          },
+          {
+            "t": 1787751000,
+            "c": 209.66
+          },
+          {
+            "t": 1787837400,
+            "c": 227.98
+          },
+          {
+            "t": 1787923800,
+            "c": 217.55
+          },
+          {
+            "t": 1788183000,
+            "c": 220.78
+          },
+          {
+            "t": 1788269400,
+            "c": 217.44
+          },
+          {
+            "t": 1788355800,
+            "c": 224.41
+          },
+          {
+            "t": 1788442200,
+            "c": 228.45
+          },
+          {
+            "t": 1788528600,
+            "c": 230.36
+          },
+          {
+            "t": 1788874200,
+            "c": 225.73
+          },
+          {
+            "t": 1788960600,
+            "c": 223.67
+          },
+          {
+            "t": 1789047000,
+            "c": 218.36
+          },
+          {
+            "t": 1789133400,
+            "c": 218.29
+          },
+          {
+            "t": 1789392600,
+            "c": 210.96
+          },
+          {
+            "t": 1789479000,
+            "c": 212.17
+          },
+          {
+            "t": 1789565400,
+            "c": 213.9
+          },
+          {
+            "t": 1789651800,
+            "c": 219.34
+          },
+          {
+            "t": 1789738200,
+            "c": 222.27
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1757908800,
+            "c": 176.67
+          },
+          {
+            "t": 1758513600,
+            "c": 178.19
+          },
+          {
+            "t": 1759118400,
+            "c": 187.62
+          },
+          {
+            "t": 1759723200,
+            "c": 183.16
+          },
+          {
+            "t": 1760328000,
+            "c": 183.22
+          },
+          {
+            "t": 1760932800,
+            "c": 186.26
+          },
+          {
+            "t": 1761537600,
+            "c": 202.49
+          },
+          {
+            "t": 1762146000,
+            "c": 188.15
+          },
+          {
+            "t": 1762750800,
+            "c": 190.17
+          },
+          {
+            "t": 1763355600,
+            "c": 178.88
+          },
+          {
+            "t": 1763960400,
+            "c": 177.0
+          },
+          {
+            "t": 1764565200,
+            "c": 182.41
+          },
+          {
+            "t": 1765170000,
+            "c": 175.02
+          },
+          {
+            "t": 1765774800,
+            "c": 180.99
+          },
+          {
+            "t": 1766379600,
+            "c": 190.53
+          },
+          {
+            "t": 1766984400,
+            "c": 188.85
+          },
+          {
+            "t": 1767589200,
+            "c": 184.86
+          },
+          {
+            "t": 1768194000,
+            "c": 186.23
+          },
+          {
+            "t": 1768798800,
+            "c": 187.67
+          },
+          {
+            "t": 1769403600,
+            "c": 191.13
+          },
+          {
+            "t": 1770008400,
+            "c": 185.41
+          },
+          {
+            "t": 1770613200,
+            "c": 182.81
+          },
+          {
+            "t": 1771218000,
+            "c": 189.82
+          },
+          {
+            "t": 1771822800,
+            "c": 177.19
+          },
+          {
+            "t": 1772427600,
+            "c": 177.82
+          },
+          {
+            "t": 1773028800,
+            "c": 180.25
+          },
+          {
+            "t": 1773633600,
+            "c": 172.7
+          },
+          {
+            "t": 1774238400,
+            "c": 167.52
+          },
+          {
+            "t": 1774843200,
+            "c": 177.39
+          },
+          {
+            "t": 1775448000,
+            "c": 188.63
+          },
+          {
+            "t": 1776052800,
+            "c": 201.68
+          },
+          {
+            "t": 1776657600,
+            "c": 208.27
+          },
+          {
+            "t": 1777262400,
+            "c": 198.45
+          },
+          {
+            "t": 1777867200,
+            "c": 215.2
+          },
+          {
+            "t": 1778472000,
+            "c": 225.32
+          },
+          {
+            "t": 1779076800,
+            "c": 215.33
+          },
+          {
+            "t": 1779681600,
+            "c": 211.14
+          },
+          {
+            "t": 1780286400,
+            "c": 205.1
+          },
+          {
+            "t": 1780891200,
+            "c": 205.19
+          },
+          {
+            "t": 1781496000,
+            "c": 210.69
+          },
+          {
+            "t": 1782100800,
+            "c": 192.53
+          },
+          {
+            "t": 1782705600,
+            "c": 194.83
+          },
+          {
+            "t": 1783310400,
+            "c": 210.96
+          },
+          {
+            "t": 1783915200,
+            "c": 202.81
+          },
+          {
+            "t": 1784520000,
+            "c": 206.84
+          },
+          {
+            "t": 1785124800,
+            "c": 200.75
+          },
+          {
+            "t": 1785729600,
+            "c": 223.96
+          },
+          {
+            "t": 1786334400,
+            "c": 225.16
+          },
+          {
+            "t": 1786939200,
+            "c": 214.72
+          },
+          {
+            "t": 1787544000,
+            "c": 217.55
+          },
+          {
+            "t": 1788148800,
+            "c": 230.36
+          },
+          {
+            "t": 1788753600,
+            "c": 218.29
+          },
+          {
+            "t": 1789358400,
+            "c": 222.27
+          },
+          {
+            "t": 1789761600,
+            "c": 222.27
+          }
+        ],
+        "chg_1d": 1.16,
+        "chg_7d": 1.82,
+        "chg_1mo": 2.16,
+        "chg_1y": 25.81,
+        "sma20_dist": 1.55
+      },
+      "news": [
+        {
+          "title": "Could $5,000 Invested in SpaceX Help You Retire a Millionaire?",
+          "link": "https://www.fool.com/investing/2026/09/20/could-5000-invested-in-spacex-help-you-retire-a-mi/?.tsrc=rss",
+          "date": "Sun, 20 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Wall Street's Bull Case for Bristol Myers Squibb Is Getting Louder",
+          "link": "https://www.fool.com/investing/2026/09/20/wall-streets-bull-case-for-bristol-myers-squibb-is/?.tsrc=rss",
+          "date": "Sun, 20 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Why You Should Avoid Palantir and Buy These 2 Defense Stocks Instead",
+          "link": "https://www.fool.com/investing/2026/09/20/why-you-should-avoid-palantir-and-buy-these-2-defe/?.tsrc=rss",
+          "date": "Sun, 20 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Archer Aviation Trades Near $5. Could a $5,000 Investment Set You Up for Life?",
+          "link": "https://www.fool.com/investing/2026/09/20/archer-aviation-trades-near-5-could-a-5000-investm/?.tsrc=rss",
+          "date": "Sun, 20 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AMC Stock Is Up 73% This Year. Why Are You Still Laughing?",
+          "link": "https://www.fool.com/investing/2026/09/20/amc-stock-is-up-73-this-year-why-are-you-still-lau/?.tsrc=rss",
+          "date": "Sun, 20 Sep 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (+1.82%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell gemischt (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "Mentions +1 gegenüber dem letzten Scan",
+        "📊 Quartalszahlen",
+        "🎯 Optionen & Short-Interest"
+      ],
+      "momentum": 54,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
+      "timeline": [
+        {
+          "day": "2026-09-17",
+          "mentions": 4
+        },
+        {
+          "day": "2026-09-18",
+          "mentions": 4
+        },
+        {
+          "day": "2026-09-19",
+          "mentions": 4
+        },
+        {
+          "day": "2026-09-20",
+          "mentions": 4
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 27,
+      "reddit_vs_markt": {
+        "reddit": 54,
+        "markt": 57,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-09-19T16:54:38.571097+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 13,
+          "price": 222.27
+        },
+        {
+          "ts": "2026-09-19T19:46:29.278293+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 13,
+          "price": 222.27
+        },
+        {
+          "ts": "2026-09-19T21:56:33.426887+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 13,
+          "price": 222.27
+        },
+        {
+          "ts": "2026-09-19T23:50:31.309342+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 13,
+          "price": 222.27
+        },
+        {
+          "ts": "2026-09-20T02:26:59.758933+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 13,
+          "price": 222.27
+        },
+        {
+          "ts": "2026-09-20T13:49:33.480638+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 222.27
         }
       ]
     },
@@ -975,7 +1747,7 @@
       "confidence": 64,
       "sentiment": 2,
       "mentions": 3,
-      "mentions_delta": -2,
+      "mentions_delta": 0,
       "engagement": 5,
       "sources": [
         "wallstreetbets",
@@ -1633,7 +2405,7 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Broadcom Inc. aktuell bullisch (3 Mentions bei abnehmender Aufmerksamkeit (-2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Broadcom Inc. aktuell bullisch (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
@@ -1673,14 +2445,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-19T16:54:38.571097+00:00",
-          "ticker": "AVGO",
-          "rec": "beobachten",
-          "confidence": 76,
-          "engagement": 13,
-          "price": 357.61
-        },
-        {
           "ts": "2026-09-19T19:46:29.278293+00:00",
           "ticker": "AVGO",
           "rec": "beobachten",
@@ -1714,6 +2478,14 @@
         },
         {
           "ts": "2026-09-20T08:54:34.585718+00:00",
+          "ticker": "AVGO",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 5,
+          "price": 357.61
+        },
+        {
+          "ts": "2026-09-20T13:49:33.480638+00:00",
           "ticker": "AVGO",
           "rec": "beobachten",
           "confidence": 64,
@@ -2433,6 +3205,14 @@
           "confidence": 48,
           "engagement": 5,
           "price": 47.26
+        },
+        {
+          "ts": "2026-09-20T13:49:33.480638+00:00",
+          "ticker": "MP",
+          "rec": "beobachten",
+          "confidence": 48,
+          "engagement": 5,
+          "price": 47.26
         }
       ]
     },
@@ -2571,116 +3351,13 @@
           "confidence": 44,
           "engagement": 12,
           "price": null
-        }
-      ]
-    },
-    {
-      "ticker": "ABC",
-      "name": "ABC",
-      "signal": "bullish",
-      "empfehlung": "beobachten",
-      "confidence": 50,
-      "sentiment": 4,
-      "mentions": 2,
-      "mentions_delta": 0,
-      "engagement": 10,
-      "sources": [
-        "Mauerstrassenwetten",
-        "Aktien"
-      ],
-      "titles": [
-        "Die Elektrowende gewinnt – aber was, wenn nicht VW, sondern die Chinesen gewinnen?",
-        "Strategischer Einstieg ins Trading"
-      ],
-      "top_posts": [
-        {
-          "title": "Die Elektrowende gewinnt – aber was, wenn nicht VW, sondern die Chinesen gewinnen?",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wgkqhv/die_elektrowende_gewinnt_aber_was_wenn_nicht_vw/"
         },
         {
-          "title": "Strategischer Einstieg ins Trading",
-          "url": "https://www.reddit.com/r/Aktien/comments/1wckled/strategischer_einstieg_ins_trading/"
-        }
-      ],
-      "topics": [
-        "Elektrowende",
-        "Gewinnt",
-        "Nicht",
-        "Sondern"
-      ],
-      "themen": [
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 50,
-          "beitraege": 2,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        },
-        {
-          "emoji": "📉",
-          "titel": "Kursverluste",
-          "anteil_pct": 12,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
-        }
-      ],
-      "bull_case": [],
-      "bear_case": [],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
-        ]
-      },
-      "fazit": "Reddit diskutiert ABC aktuell deutlich bullisch (2 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "💰 Einstiegs-Debatte",
-        "📉 Kursverluste"
-      ],
-      "momentum": 54,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
-      "timeline": [
-        {
-          "day": "2026-09-17",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-18",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-19",
-          "mentions": 2
-        },
-        {
-          "day": "2026-09-20",
-          "mentions": 2
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 34,
-      "reddit_vs_markt": {
-        "reddit": 54,
-        "markt": 50,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-09-20T08:54:34.585718+00:00",
-          "ticker": "ABC",
+          "ts": "2026-09-20T13:49:33.480638+00:00",
+          "ticker": "GEHT",
           "rec": "beobachten",
-          "confidence": 50,
-          "engagement": 10,
+          "confidence": 44,
+          "engagement": 12,
           "price": null
         }
       ]
@@ -2688,7 +3365,7 @@
   ],
   "stats": {
     "hit_rate": 43,
-    "n_evaluated": 174,
+    "n_evaluated": 168,
     "rate_kaufen": 84,
     "rate_verkaufen": null,
     "rate_beobachten": 28,
@@ -3068,7 +3745,7 @@
       "price": 77.0,
       "chg_since": -5.23,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-12T16:38:50.688106+00:00",
@@ -3141,13 +3818,22 @@
   "trump_tracker": {
     "posts": [
       {
+        "text": "At the strong request of the United States Military, and for National Security purposes, I have agreed to convert the magnificent Triumphal Arch, planned since the Civil War Era many years ago, at the Receptive Circle adjoining the Arlington Memorial Bridge, into a top grade Military Complex/Triumphal Arch, to house, store, and have the rapid ability to use large numbers of drones, plus Snipers, o",
+        "url": "https://www.trumpstruth.org/statuses/41811",
+        "date": "Sun, 20 Sep 2026 11:34",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
         "text": "A great job by very smart Matthew Continetti on Mark Levin. The interview concerned the AI Disaster Hoax. Let it roll!!! President DJT",
         "url": "https://www.trumpstruth.org/statuses/41810",
         "date": "Sun, 20 Sep 2026 05:14",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41809",
@@ -3216,29 +3902,86 @@
         "is_new": false
       },
       {
-        "text": "BREAKING NEWS: I am pleased to announce that the United States of America has entered into an Agreement with The Kingdom of Denmark, and Greenland, that gives the United States permanent control over security, and all other needs, in Greenland, completely addressing ALL of our many U.S. concerns. There will be NO COST to the United States! At my direction, we worked with representatives of Denmark",
-        "url": "https://www.trumpstruth.org/statuses/41803",
-        "date": "Fri, 18 Sep 2026 21:18",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Trump’s sanctions, inflation and a collapsing economy leaves Iran’s sick exposed - CNN",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWTF2bWxTR3dmM3gzVzBvMWlfSGc5cUpOUDZadmc4SWJrWGptNnprMXlRX21qYW9DazJpbXJqOEsyTndrTEQ5ZG9wZlM2RlZ1WVJ2eTVrc0taVVZNLVpsVi1NeTljNWpqYVRjckxuSmVpRElXZ1JLVzBUaGFaaUo4ZFRVTHYtRUcxYUE?oc=5",
+        "text": "Up in the air? Why Boeing’s massive China deal could hinge on Trump-Xi talks - South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOGlHRHZwTzdraGltQkdxaGM0VlVLYzNpWFN0OElfWFo2RGNOZVhMdDl2cW9sY25UbVdkOE5QNkIyYWVsdThqWDB6bER5U2JVZjV6dUE0RFEwdnNCc0E4VkczTzJFOTBBcU56N0VhdV9LLXJyalpmU2dZaEUtcTNfOEE4bDZtcFBKUkhrdDlfUk5YM3paeUt1LWZ5akZtREZJZXFXcVdVM1VvUmZYNkxxRWtFT2h0UjhDQnN5LWxHakM1ZWFVTkFOUVFn0gHKAUFVX3lxTFBmNEF0bUtvSWxVdHhFb3VKZkJaemdqejlYV1dlenhtNnliMC1TYkhubUZkMmxiZHRCRGtSbUlHRjFwaTFPdkxHelNhOTQ4WXpnMWItSUY3TExKTkVpaUxLX1IweGstN3hqaVNaUXFIc1JfRE81OTBOeW9CQ1FldEpacHZVc3hzOGZ0ZGhCd0M0cEtHczlYaUpXREVURDZVQTcxSDQ4eU54OVVmWjg3VXhjeV9tamROaGs1RVA3X0ttNmk4VFFxSFdfMUE?oc=5",
         "date": "Sun, 20 Sep 2026",
         "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Sanktionen"
+        "companies": [
+          {
+            "name": "Boeing",
+            "ticker": "BA"
+          }
         ],
+        "policy": [],
         "is_new": true
       }
     ],
     "market_hits": 4
   },
   "spannende_aktien": [
+    {
+      "ticker": "MPT",
+      "name": "Medical Properties Trust, Inc.",
+      "price": 3.4,
+      "currency": "USD",
+      "chg_1d": -5.56,
+      "vol_ratio": 2.2,
+      "warum": [
+        "MPT Completes the Sale of Two Hospitals for $371 Million in Cash",
+        "Medical Properties Trust Inc's Dividend Analysis"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "MPT Completes the Sale of Two Hospitals for $371 Million in Cash",
+          "link": "https://finance.yahoo.com/real-estate/articles/mpt-completes-sale-two-hospitals-201000762.html?.tsrc=rss",
+          "date": "Wed, 16 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Medical Properties Trust Inc's Dividend Analysis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/medical-properties-trust-incs-dividend-111942671.html?.tsrc=rss",
+          "date": "Thu, 10 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "price": 70.5,
+      "currency": "USD",
+      "chg_1d": -0.52,
+      "vol_ratio": 1.2,
+      "warum": [
+        "Uber CEO Dara Khosrowshahi fled Iran at 9 — and watched the government seize his",
+        "Costco expands ultra-fast delivery through DoorDash, Uber"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "Uber CEO Dara Khosrowshahi fled Iran at 9 — and watched the government seize his family's business that made them rich",
+          "link": "https://finance.yahoo.com/small-business/articles/uber-ceo-dara-khosrowshahi-fled-123000963.html?.tsrc=rss",
+          "date": "Sat, 19 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Costco expands ultra-fast delivery through DoorDash, Uber",
+          "link": "https://finance.yahoo.com/small-business/articles/costco-expands-ultra-fast-delivery-185042149.html?.tsrc=rss",
+          "date": "Fri, 18 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
     {
       "ticker": "XOM",
       "name": "ExxonMobil Holdings Corporation",
@@ -3247,8 +3990,8 @@
       "chg_1d": 0.17,
       "vol_ratio": 2.8,
       "warum": [
-        "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust",
-        "ExxonMobil's Advantaged Assets and Refining Strength Drive Outlook"
+        "ExxonMobil Stock And Oil Majors Facing New Pressure On Global Supply Routes",
+        "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust"
       ],
       "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
       "sterne": 1,
@@ -3258,15 +4001,15 @@
       ],
       "news": [
         {
-          "title": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
-          "link": "https://www.fool.com/investing/2026/09/19/sp-500-returned-annually-etf-trust-30-years-vti/?.tsrc=rss",
-          "date": "Sat, 19 Sep 2026",
+          "title": "ExxonMobil Stock And Oil Majors Facing New Pressure On Global Supply Routes",
+          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-stock-oil-majors-facing-101123454.html?.tsrc=rss",
+          "date": "Sun, 20 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "ExxonMobil's Advantaged Assets and Refining Strength Drive Outlook",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobils-advantaged-assets-refining-strength-170800286.html?.tsrc=rss",
-          "date": "Fri, 18 Sep 2026",
+          "title": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
+          "link": "https://www.fool.com/investing/2026/09/19/sp-500-returned-annually-etf-trust-30-years-vti/?.tsrc=rss",
+          "date": "Sat, 19 Sep 2026",
           "tone": "neu"
         }
       ]
