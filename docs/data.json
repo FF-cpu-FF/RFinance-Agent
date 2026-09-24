@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T22:33:39.882171+00:00",
+  "generated_at": "2026-09-24T02:17:31.043885+00:00",
   "total_posts": 250,
-  "unique_tickers": 192,
+  "unique_tickers": 191,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -122,10 +122,6 @@
       "growth_pct": 0,
       "timeline": [
         {
-          "day": "2026-09-20",
-          "mentions": 5
-        },
-        {
           "day": "2026-09-21",
           "mentions": 5
         },
@@ -135,6 +131,10 @@
         },
         {
           "day": "2026-09-23",
+          "mentions": 5
+        },
+        {
+          "day": "2026-09-24",
           "mentions": 5
         }
       ],
@@ -148,14 +148,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-22T23:54:46.427899+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 62,
-          "engagement": 19,
-          "price": null
-        },
         {
           "ts": "2026-09-23T02:28:41.675660+00:00",
           "ticker": "KGV",
@@ -190,6 +182,14 @@
         },
         {
           "ts": "2026-09-23T22:33:39.882171+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 62,
+          "engagement": 19,
+          "price": null
+        },
+        {
+          "ts": "2026-09-24T02:17:31.043885+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
           "confidence": 62,
@@ -819,7 +819,7 @@
           },
           {
             "t": 1789963200,
-            "c": 623.77
+            "c": 614.61
           },
           {
             "t": 1790193601,
@@ -834,12 +834,6 @@
       },
       "news": [
         {
-          "title": "Nasdaq rally hasn't stopped these tech stocks from flashing warning signs",
-          "link": "https://finance.yahoo.com/markets/article/nasdaq-rally-hasnt-stopped-these-tech-stocks-from-flashing-warning-signs-141710781.html?.tsrc=rss",
-          "date": "Wed, 23 Sep 2026",
-          "tone": "pos"
-        },
-        {
           "title": "Marvell and 2 More Stocks to Play the AI Data-Center Boom",
           "link": "https://finance.yahoo.com/m/0dd411af-0709-3d31-b861-4a0de218822f/marvell-and-2-more-stocks-to.html?.tsrc=rss",
           "date": "Wed, 23 Sep 2026",
@@ -850,6 +844,12 @@
           "link": "https://247wallst.com/investing/2026/09/23/amd-is-up-187-this-year-take-profits-or-buy-more/?.tsrc=rss",
           "date": "Wed, 23 Sep 2026",
           "tone": "pos"
+        },
+        {
+          "title": "AMD Becomes the 14th Company to Cross $1 Trillion In Market Cap. What This Means for AMD Stock.",
+          "link": "https://www.barchart.com/story/news/4762742/amd-becomes-the-14th-company-to-cross-1-trillion-in-market-cap-what-this-means-for-amd-stock?.tsrc=rss",
+          "date": "Wed, 23 Sep 2026",
+          "tone": "neu"
         },
         {
           "title": "AMD Just Hit $1 Trillion. Can Oracle’s 50,000-GPU Deployment Help Justify It?",
@@ -879,16 +879,12 @@
       "konkurrenten": [],
       "gruende": [
         "💰 Einstiegs-Debatte",
-        "News: Nasdaq rally hasn't stopped these tech stocks from flashing warning si"
+        "News: AMD Is Up 187% This Year: Take Profits, or Buy More?"
       ],
-      "momentum": 51,
+      "momentum": 49,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": -17,
+      "growth_pct": -25,
       "timeline": [
-        {
-          "day": "2026-09-20",
-          "mentions": 3
-        },
         {
           "day": "2026-09-21",
           "mentions": 7
@@ -900,6 +896,10 @@
         {
           "day": "2026-09-23",
           "mentions": 5
+        },
+        {
+          "day": "2026-09-24",
+          "mentions": 5
         }
       ],
       "hype_typ": "trend",
@@ -907,19 +907,11 @@
       "quality_grade": "C",
       "quality_pct": 42,
       "reddit_vs_markt": {
-        "reddit": 51,
+        "reddit": 49,
         "markt": 100,
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-22T23:54:46.427899+00:00",
-          "ticker": "AMD",
-          "rec": "kaufen",
-          "confidence": 87,
-          "engagement": 10,
-          "price": 623.77
-        },
         {
           "ts": "2026-09-23T02:28:41.675660+00:00",
           "ticker": "AMD",
@@ -959,767 +951,14 @@
           "confidence": 87,
           "engagement": 10,
           "price": 614.61
-        }
-      ]
-    },
-    {
-      "ticker": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "signal": "bullish",
-      "empfehlung": "beobachten",
-      "confidence": 54,
-      "sentiment": 4,
-      "mentions": 3,
-      "mentions_delta": 0,
-      "engagement": 13,
-      "sources": [
-        "Mauerstrassenwetten",
-        "Aktien"
-      ],
-      "titles": [
-        "Was, wenn das nächste „Volksauto“ gar nicht von Volkswagen kommt?",
-        "Die Elektrowende gewinnt – aber was, wenn nicht VW, sondern die Chinesen gewinnen?",
-        "Wie mit Novo und BYD weitermachen?"
-      ],
-      "top_posts": [
-        {
-          "title": "Was, wenn das nächste „Volksauto“ gar nicht von Volkswagen kommt?",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wiueqh/was_wenn_das_nächste_volksauto_gar_nicht_von/"
         },
         {
-          "title": "Die Elektrowende gewinnt – aber was, wenn nicht VW, sondern die Chinesen gewinnen?",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wgkqhv/die_elektrowende_gewinnt_aber_was_wenn_nicht_vw/"
-        },
-        {
-          "title": "Wie mit Novo und BYD weitermachen?",
-          "url": "https://www.reddit.com/r/Aktien/comments/1wn5cts/wie_mit_novo_und_byd_weitermachen/"
-        }
-      ],
-      "topics": [
-        "Nicht",
-        "Nächste",
-        "Volksauto",
-        "Volkswagen"
-      ],
-      "themen": [
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 50,
-          "beitraege": 3,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        },
-        {
-          "emoji": "📉",
-          "titel": "Kursverluste",
-          "anteil_pct": 10,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
-        }
-      ],
-      "bull_case": [
-        "Unterbewertung"
-      ],
-      "bear_case": [],
-      "price": {
-        "available": true,
-        "price": 71.74,
-        "currency": "USD",
-        "name": "Boyd Gaming Corporation",
-        "chart_1d": [
-          {
-            "t": 1790170200,
-            "c": 71.71
-          },
-          {
-            "t": 1790171100,
-            "c": 71.54
-          },
-          {
-            "t": 1790172000,
-            "c": 71.68
-          },
-          {
-            "t": 1790172900,
-            "c": 71.55
-          },
-          {
-            "t": 1790173800,
-            "c": 71.45
-          },
-          {
-            "t": 1790174700,
-            "c": 71.74
-          },
-          {
-            "t": 1790175600,
-            "c": 71.86
-          },
-          {
-            "t": 1790176500,
-            "c": 71.9
-          },
-          {
-            "t": 1790177400,
-            "c": 71.85
-          },
-          {
-            "t": 1790178300,
-            "c": 71.98
-          },
-          {
-            "t": 1790179200,
-            "c": 71.78
-          },
-          {
-            "t": 1790180100,
-            "c": 71.9
-          },
-          {
-            "t": 1790181000,
-            "c": 71.96
-          },
-          {
-            "t": 1790181900,
-            "c": 71.9
-          },
-          {
-            "t": 1790182800,
-            "c": 71.87
-          },
-          {
-            "t": 1790183700,
-            "c": 72.1
-          },
-          {
-            "t": 1790184600,
-            "c": 72.19
-          },
-          {
-            "t": 1790185500,
-            "c": 72.43
-          },
-          {
-            "t": 1790186400,
-            "c": 72.43
-          },
-          {
-            "t": 1790187300,
-            "c": 72.38
-          },
-          {
-            "t": 1790188200,
-            "c": 72.17
-          },
-          {
-            "t": 1790189100,
-            "c": 72.06
-          },
-          {
-            "t": 1790190000,
-            "c": 71.88
-          },
-          {
-            "t": 1790190900,
-            "c": 71.8
-          },
-          {
-            "t": 1790191800,
-            "c": 71.78
-          },
-          {
-            "t": 1790192700,
-            "c": 71.76
-          },
-          {
-            "t": 1790193600,
-            "c": 71.74
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1789651800,
-            "c": 75.5
-          },
-          {
-            "t": 1789655400,
-            "c": 75.67
-          },
-          {
-            "t": 1789659000,
-            "c": 75.95
-          },
-          {
-            "t": 1789662600,
-            "c": 75.68
-          },
-          {
-            "t": 1789666200,
-            "c": 75.4
-          },
-          {
-            "t": 1789669800,
-            "c": 74.58
-          },
-          {
-            "t": 1789673400,
-            "c": 74.25
-          },
-          {
-            "t": 1789738200,
-            "c": 73.44
-          },
-          {
-            "t": 1789741800,
-            "c": 73.44
-          },
-          {
-            "t": 1789745400,
-            "c": 73.49
-          },
-          {
-            "t": 1789749000,
-            "c": 73.43
-          },
-          {
-            "t": 1789752600,
-            "c": 73.11
-          },
-          {
-            "t": 1789756200,
-            "c": 73.08
-          },
-          {
-            "t": 1789759800,
-            "c": 72.97
-          },
-          {
-            "t": 1789997400,
-            "c": 71.99
-          },
-          {
-            "t": 1790001000,
-            "c": 72.34
-          },
-          {
-            "t": 1790004600,
-            "c": 72.74
-          },
-          {
-            "t": 1790008200,
-            "c": 72.86
-          },
-          {
-            "t": 1790011800,
-            "c": 72.29
-          },
-          {
-            "t": 1790015400,
-            "c": 72.47
-          },
-          {
-            "t": 1790019000,
-            "c": 72.62
-          },
-          {
-            "t": 1790083800,
-            "c": 73.69
-          },
-          {
-            "t": 1790087400,
-            "c": 72.51
-          },
-          {
-            "t": 1790091000,
-            "c": 72.23
-          },
-          {
-            "t": 1790094600,
-            "c": 72.35
-          },
-          {
-            "t": 1790098200,
-            "c": 72.36
-          },
-          {
-            "t": 1790101800,
-            "c": 72.25
-          },
-          {
-            "t": 1790105400,
-            "c": 72.07
-          },
-          {
-            "t": 1790170200,
-            "c": 71.55
-          },
-          {
-            "t": 1790173800,
-            "c": 71.9
-          },
-          {
-            "t": 1790177400,
-            "c": 71.9
-          },
-          {
-            "t": 1790181000,
-            "c": 72.1
-          },
-          {
-            "t": 1790184600,
-            "c": 72.38
-          },
-          {
-            "t": 1790188200,
-            "c": 71.8
-          },
-          {
-            "t": 1790191800,
-            "c": 71.76
-          },
-          {
-            "t": 1790193600,
-            "c": 71.74
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1787578200,
-            "c": 81.0
-          },
-          {
-            "t": 1787664600,
-            "c": 81.11
-          },
-          {
-            "t": 1787751000,
-            "c": 80.63
-          },
-          {
-            "t": 1787837400,
-            "c": 79.62
-          },
-          {
-            "t": 1787923800,
-            "c": 79.47
-          },
-          {
-            "t": 1788183000,
-            "c": 77.59
-          },
-          {
-            "t": 1788269400,
-            "c": 76.39
-          },
-          {
-            "t": 1788355800,
-            "c": 76.7
-          },
-          {
-            "t": 1788442200,
-            "c": 77.79
-          },
-          {
-            "t": 1788528600,
-            "c": 78.02
-          },
-          {
-            "t": 1788874200,
-            "c": 76.52
-          },
-          {
-            "t": 1788960600,
-            "c": 75.41
-          },
-          {
-            "t": 1789047000,
-            "c": 76.45
-          },
-          {
-            "t": 1789133400,
-            "c": 77.0
-          },
-          {
-            "t": 1789392600,
-            "c": 77.15
-          },
-          {
-            "t": 1789479000,
-            "c": 76.08
-          },
-          {
-            "t": 1789565400,
-            "c": 75.6
-          },
-          {
-            "t": 1789651800,
-            "c": 74.25
-          },
-          {
-            "t": 1789738200,
-            "c": 72.97
-          },
-          {
-            "t": 1789997400,
-            "c": 72.58
-          },
-          {
-            "t": 1790170200,
-            "c": 71.74
-          }
-        ],
-        "chart_1y": [
-          {
-            "t": 1758513600,
-            "c": 85.94
-          },
-          {
-            "t": 1759118400,
-            "c": 86.48
-          },
-          {
-            "t": 1759723200,
-            "c": 81.54
-          },
-          {
-            "t": 1760328000,
-            "c": 82.37
-          },
-          {
-            "t": 1760932800,
-            "c": 78.77
-          },
-          {
-            "t": 1761537600,
-            "c": 77.87
-          },
-          {
-            "t": 1762146000,
-            "c": 81.27
-          },
-          {
-            "t": 1762750800,
-            "c": 79.78
-          },
-          {
-            "t": 1763355600,
-            "c": 80.72
-          },
-          {
-            "t": 1763960400,
-            "c": 83.3
-          },
-          {
-            "t": 1764565200,
-            "c": 80.88
-          },
-          {
-            "t": 1765170000,
-            "c": 85.1
-          },
-          {
-            "t": 1765774800,
-            "c": 86.37
-          },
-          {
-            "t": 1766379600,
-            "c": 86.6
-          },
-          {
-            "t": 1766984400,
-            "c": 86.19
-          },
-          {
-            "t": 1767589200,
-            "c": 87.92
-          },
-          {
-            "t": 1768194000,
-            "c": 88.65
-          },
-          {
-            "t": 1768798800,
-            "c": 83.89
-          },
-          {
-            "t": 1769403600,
-            "c": 84.54
-          },
-          {
-            "t": 1770008400,
-            "c": 83.24
-          },
-          {
-            "t": 1770613200,
-            "c": 81.99
-          },
-          {
-            "t": 1771218000,
-            "c": 86.2
-          },
-          {
-            "t": 1771822800,
-            "c": 83.23
-          },
-          {
-            "t": 1772427600,
-            "c": 80.13
-          },
-          {
-            "t": 1773028800,
-            "c": 81.64
-          },
-          {
-            "t": 1773633600,
-            "c": 81.06
-          },
-          {
-            "t": 1774238400,
-            "c": 80.16
-          },
-          {
-            "t": 1774843200,
-            "c": 83.74
-          },
-          {
-            "t": 1775448000,
-            "c": 86.5
-          },
-          {
-            "t": 1776052800,
-            "c": 87.52
-          },
-          {
-            "t": 1776657600,
-            "c": 83.88
-          },
-          {
-            "t": 1777262400,
-            "c": 84.5
-          },
-          {
-            "t": 1777867200,
-            "c": 85.64
-          },
-          {
-            "t": 1778472000,
-            "c": 79.09
-          },
-          {
-            "t": 1779076800,
-            "c": 79.31
-          },
-          {
-            "t": 1779681600,
-            "c": 82.68
-          },
-          {
-            "t": 1780286400,
-            "c": 87.87
-          },
-          {
-            "t": 1780891200,
-            "c": 87.46
-          },
-          {
-            "t": 1781496000,
-            "c": 84.68
-          },
-          {
-            "t": 1782100800,
-            "c": 89.7
-          },
-          {
-            "t": 1782705600,
-            "c": 87.9
-          },
-          {
-            "t": 1783310400,
-            "c": 86.2
-          },
-          {
-            "t": 1783915200,
-            "c": 87.72
-          },
-          {
-            "t": 1784520000,
-            "c": 87.04
-          },
-          {
-            "t": 1785124800,
-            "c": 85.06
-          },
-          {
-            "t": 1785729600,
-            "c": 83.42
-          },
-          {
-            "t": 1786334400,
-            "c": 84.13
-          },
-          {
-            "t": 1786939200,
-            "c": 80.78
-          },
-          {
-            "t": 1787544000,
-            "c": 79.47
-          },
-          {
-            "t": 1788148800,
-            "c": 78.02
-          },
-          {
-            "t": 1788753600,
-            "c": 77.0
-          },
-          {
-            "t": 1789358400,
-            "c": 72.97
-          },
-          {
-            "t": 1789963200,
-            "c": 72.58
-          },
-          {
-            "t": 1790193602,
-            "c": 71.74
-          }
-        ],
-        "chg_1d": 0.04,
-        "chg_7d": -5.7,
-        "chg_1mo": -11.43,
-        "chg_1y": -16.52,
-        "sma20_dist": -6.41
-      },
-      "news": [
-        {
-          "title": "Winners And Losers Of Q2: Boyd Gaming (NYSE:BYD) Vs The Rest Of The Consumer Discretionary - Casino Operator Stocks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/winners-losers-q2-boyd-gaming-161820028.html?.tsrc=rss",
-          "date": "Tue, 01 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "1 Profitable Stock with Exciting Potential and 2 We Question",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-exciting-potential-150100032.html?.tsrc=rss",
-          "date": "Sun, 16 Aug 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Is Boyd Gaming Worth Buying as Growth Projects Lift Execution Risk?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/boyd-gaming-worth-buying-growth-171300710.html?.tsrc=rss",
-          "date": "Fri, 07 Aug 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Can DKNG's Vertical Integration Unlock a 30% Adjusted EBITDA Margin?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dkngs-vertical-integration-unlock-30-134600814.html?.tsrc=rss",
-          "date": "Tue, 22 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Oxford Industries Set to Report Q2 Earnings: What's in the Offing?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/oxford-industries-set-report-q2-154700893.html?.tsrc=rss",
-          "date": "Fri, 28 Aug 2026",
-          "tone": "neu"
-        }
-      ],
-      "comparison": {
-        "verdict": "widerspricht",
-        "points": [
-          "Kurs -5.7% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -11.43%.",
-          "-6.41% unter SMA20 – technisch angeschlagen.",
-          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
-        ]
-      },
-      "fazit": "Reddit diskutiert Boyd Gaming Corporation aktuell deutlich bullisch (3 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "💰 Einstiegs-Debatte",
-        "📉 Kursverluste",
-        "News: 1 Profitable Stock with Exciting Potential and 2 We Question"
-      ],
-      "momentum": 54,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
-      "timeline": [
-        {
-          "day": "2026-09-20",
-          "mentions": 3
-        },
-        {
-          "day": "2026-09-21",
-          "mentions": 3
-        },
-        {
-          "day": "2026-09-22",
-          "mentions": 3
-        },
-        {
-          "day": "2026-09-23",
-          "mentions": 3
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 36,
-      "reddit_vs_markt": {
-        "reddit": 54,
-        "markt": 27,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-09-22T23:54:46.427899+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 13,
-          "price": 72.08
-        },
-        {
-          "ts": "2026-09-23T02:28:41.675660+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 13,
-          "price": 72.58
-        },
-        {
-          "ts": "2026-09-23T08:56:09.626559+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 13,
-          "price": 72.58
-        },
-        {
-          "ts": "2026-09-23T14:33:01.513638+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 13,
-          "price": 71.64
-        },
-        {
-          "ts": "2026-09-23T19:19:48.012849+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 13,
-          "price": 71.78
-        },
-        {
-          "ts": "2026-09-23T22:33:39.882171+00:00",
-          "ticker": "BYD",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 13,
-          "price": 71.74
+          "ts": "2026-09-24T02:17:31.043885+00:00",
+          "ticker": "AMD",
+          "rec": "kaufen",
+          "confidence": 87,
+          "engagement": 10,
+          "price": 614.61
         }
       ]
     },
@@ -1731,7 +970,7 @@
       "confidence": 78,
       "sentiment": 2,
       "mentions": 3,
-      "mentions_delta": -3,
+      "mentions_delta": 0,
       "engagement": 7,
       "sources": [
         "wallstreetbets"
@@ -2345,7 +1584,7 @@
           },
           {
             "t": 1789963200,
-            "c": 736.6
+            "c": 744.1
           },
           {
             "t": 1790193601,
@@ -2360,33 +1599,33 @@
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Stocks Fall As Treasury Yields Soar; Palantir, Palo Alto Flash Buy Signals",
-          "link": "https://finance.yahoo.com/m/d54436eb-45f8-3808-b582-09ab7590f21b/dow-jones-futures%3A-stocks.html?.tsrc=rss",
+          "title": "Meta's Zuckerberg says Muse AI agent will take a small fee from transactions",
+          "link": "https://finance.yahoo.com/technology/article/metas-zuckerberg-says-muse-ai-agent-will-take-a-small-fee-from-transactions-234639802.html?.tsrc=rss",
           "date": "Wed, 23 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Stock Market Today: Small Caps, Gold Miners Spanked Amid Sell-Off; Meta Makes A Bullish Move",
-          "link": "https://finance.yahoo.com/m/f0c95ea3-7b96-3a04-82c0-08260c90b7cc/stock-market-today%3A-small.html?.tsrc=rss",
+          "title": "Meta unveils $1,299 VR Glasses, camera-less smart glasses at Meta Connect",
+          "link": "https://finance.yahoo.com/technology/article/meta-unveils-1299-vr-glasses-camera-less-smart-glasses-at-meta-connect-235611909.html?.tsrc=rss",
           "date": "Wed, 23 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "‘Consumer Inertia’ Is in Meta Muse’s Crosshairs. These Stocks Are Getting Hammered.",
-          "link": "https://finance.yahoo.com/m/ebc52273-b02c-3566-8362-08c34c405246/%E2%80%98consumer-inertia%E2%80%99-is-in-meta.html?.tsrc=rss",
-          "date": "Wed, 23 Sep 2026",
+          "title": "Meta’s Agent-Commerce Layer Just Went Live. The Settlement Rails Were Built for This.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-agent-commerce-layer-just-002429293.html?.tsrc=rss",
+          "date": "Thu, 24 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Suddenly, These ‘AI-Proof Stocks’ Are Anything But",
-          "link": "https://finance.yahoo.com/m/e07bc655-05fe-38c1-900e-981d0aa48d71/suddenly%2C-these-%E2%80%98ai-proof.html?.tsrc=rss",
-          "date": "Wed, 23 Sep 2026",
+          "title": "Meta is launching a new product to fix its biggest problem",
+          "link": "https://www.independent.co.uk/tech/meta-smart-glasses-metaverse-goggles-b3055252.html?.tsrc=rss",
+          "date": "Thu, 24 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Why Meta Platforms Stock Was a Winner on Wednesday",
-          "link": "https://www.fool.com/investing/2026/09/23/why-meta-platforms-stock-was-a-winner-on-wednesday/?.tsrc=rss",
-          "date": "Wed, 23 Sep 2026",
+          "title": "Meta Just Built the First Integrated Agent-Commerce Stack — Shopify, Stripe, PayPal, All on One Agent",
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-just-built-first-integrated-000405877.html?.tsrc=rss",
+          "date": "Thu, 24 Sep 2026",
           "tone": "neu"
         }
       ],
@@ -2399,7 +1638,7 @@
           "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Reddit diskutiert Meta Platforms, Inc. aktuell bullisch (3 Mentions bei abnehmender Aufmerksamkeit (-3 Mentions)). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
+      "fazit": "Reddit diskutiert Meta Platforms, Inc. aktuell bullisch (3 Mentions). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
@@ -2407,14 +1646,10 @@
         "🎯 Optionen & Short-Interest",
         "💰 Einstiegs-Debatte"
       ],
-      "momentum": 57,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 20,
+      "momentum": 36,
+      "momentum_label": "📉 Diskussion nimmt bereits wieder ab",
+      "growth_pct": -64,
       "timeline": [
-        {
-          "day": "2026-09-20",
-          "mentions": 3
-        },
         {
           "day": "2026-09-21",
           "mentions": 7
@@ -2426,26 +1661,22 @@
         {
           "day": "2026-09-23",
           "mentions": 8
+        },
+        {
+          "day": "2026-09-24",
+          "mentions": 3
         }
       ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "hype_typ": "unklar",
+      "hype_begruendung": "Diskussion flacht ab – Momentum ist rückläufig.",
       "quality_grade": "D",
       "quality_pct": 14,
       "reddit_vs_markt": {
-        "reddit": 57,
+        "reddit": 36,
         "markt": 92,
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-22T23:54:46.427899+00:00",
-          "ticker": "META",
-          "rec": "beobachten",
-          "confidence": 70,
-          "engagement": 17,
-          "price": 736.59
-        },
         {
           "ts": "2026-09-23T02:28:41.675660+00:00",
           "ticker": "META",
@@ -2480,6 +1711,14 @@
         },
         {
           "ts": "2026-09-23T22:33:39.882171+00:00",
+          "ticker": "META",
+          "rec": "kaufen",
+          "confidence": 78,
+          "engagement": 7,
+          "price": 744.1
+        },
+        {
+          "ts": "2026-09-24T02:17:31.043885+00:00",
           "ticker": "META",
           "rec": "kaufen",
           "confidence": 78,
@@ -2554,14 +1793,10 @@
       "gruende": [
         "💰 Einstiegs-Debatte"
       ],
-      "momentum": 72,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 80,
+      "momentum": 55,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 13,
       "timeline": [
-        {
-          "day": "2026-09-20",
-          "mentions": 0
-        },
         {
           "day": "2026-09-21",
           "mentions": 2
@@ -2573,26 +1808,22 @@
         {
           "day": "2026-09-23",
           "mentions": 3
+        },
+        {
+          "day": "2026-09-24",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 25,
       "reddit_vs_markt": {
-        "reddit": 72,
+        "reddit": 55,
         "markt": 50,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-22T23:54:46.427899+00:00",
-          "ticker": "FTSE",
-          "rec": "beobachten",
-          "confidence": 50,
-          "engagement": 6,
-          "price": null
-        },
         {
           "ts": "2026-09-23T02:28:41.675660+00:00",
           "ticker": "FTSE",
@@ -2627,6 +1858,14 @@
         },
         {
           "ts": "2026-09-23T22:33:39.882171+00:00",
+          "ticker": "FTSE",
+          "rec": "beobachten",
+          "confidence": 50,
+          "engagement": 6,
+          "price": null
+        },
+        {
+          "ts": "2026-09-24T02:17:31.043885+00:00",
           "ticker": "FTSE",
           "rec": "beobachten",
           "confidence": 50,
@@ -3246,7 +2485,7 @@
           },
           {
             "t": 1789963200,
-            "c": 51.04
+            "c": 48.89
           },
           {
             "t": 1790193603,
@@ -3312,10 +2551,6 @@
       "growth_pct": 0,
       "timeline": [
         {
-          "day": "2026-09-20",
-          "mentions": 3
-        },
-        {
           "day": "2026-09-21",
           "mentions": 3
         },
@@ -3325,6 +2560,10 @@
         },
         {
           "day": "2026-09-23",
+          "mentions": 3
+        },
+        {
+          "day": "2026-09-24",
           "mentions": 3
         }
       ],
@@ -3338,14 +2577,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-09-22T23:54:46.427899+00:00",
-          "ticker": "MP",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 5,
-          "price": 51.04
-        },
         {
           "ts": "2026-09-23T02:28:41.675660+00:00",
           "ticker": "MP",
@@ -3385,95 +2616,146 @@
           "confidence": 48,
           "engagement": 5,
           "price": 48.89
+        },
+        {
+          "ts": "2026-09-24T02:17:31.043885+00:00",
+          "ticker": "MP",
+          "rec": "beobachten",
+          "confidence": 48,
+          "engagement": 5,
+          "price": 48.89
+        }
+      ]
+    },
+    {
+      "ticker": "RIDL",
+      "name": "RIDL",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 44,
+      "sentiment": 1,
+      "mentions": 3,
+      "mentions_delta": 0,
+      "engagement": 4,
+      "sources": [
+        "Mauerstrassenwetten"
+      ],
+      "titles": [
+        "Auch im Bullenmarkt muss man wissen, wie🚀",
+        "Da muss man einfach reinorgeln🚀",
+        "Mit richtigen Produkten DAX to the Moon🚀"
+      ],
+      "top_posts": [
+        {
+          "title": "Auch im Bullenmarkt muss man wissen, wie🚀",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wnzf6e/auch_im_bullenmarkt_muss_man_wissen_wie/"
+        },
+        {
+          "title": "Da muss man einfach reinorgeln🚀",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wmbu7k/da_muss_man_einfach_reinorgeln/"
+        },
+        {
+          "title": "Mit richtigen Produkten DAX to the Moon🚀",
+          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wkbzj8/mit_richtigen_produkten_dax_to_the_moon/"
+        }
+      ],
+      "topics": [
+        "Muss",
+        "Bullenmarkt",
+        "Wissen",
+        "Einfach"
+      ],
+      "themen": [
+        {
+          "emoji": "💬",
+          "titel": "Allgemeine Diskussion",
+          "anteil_pct": 100,
+          "beitraege": 3,
+          "erklaerung": "Kein dominantes Einzelthema erkennbar – breite Diskussion ohne klaren Auslöser."
+        }
+      ],
+      "bull_case": [
+        "Kursfantasie"
+      ],
+      "bear_case": [],
+      "price": {
+        "available": false
+      },
+      "news": [],
+      "comparison": {
+        "verdict": "unbekannt",
+        "points": [
+          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
+        ]
+      },
+      "fazit": "Reddit diskutiert RIDL aktuell gemischt (3 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "💬 Allgemeine Diskussion"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 29,
+      "timeline": [
+        {
+          "day": "2026-09-21",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-22",
+          "mentions": 2
+        },
+        {
+          "day": "2026-09-23",
+          "mentions": 3
+        },
+        {
+          "day": "2026-09-24",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 7,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 50,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-09-24T02:17:31.043885+00:00",
+          "ticker": "RIDL",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 4,
+          "price": null
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 32,
-    "n_evaluated": 160,
-    "rate_kaufen": 76,
+    "n_evaluated": 180,
+    "rate_kaufen": 64,
     "rate_verkaufen": null,
-    "rate_beobachten": 22,
-    "kauf_perf_7d": 4.2,
+    "rate_beobachten": 25,
+    "kauf_perf_7d": 3.4,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
     {
-      "ts": "2026-09-12T02:12:06.914211+00:00",
-      "ticker": "META",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 10,
-      "price": 648.03,
-      "chg_since": 14.82,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-09-12T08:13:37.183073+00:00",
-      "ticker": "BYD",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 11,
-      "price": 77.0,
-      "chg_since": -6.83,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-09-12T08:13:37.183073+00:00",
-      "ticker": "META",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 10,
-      "price": 648.03,
-      "chg_since": 14.82,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-09-12T13:15:23.590605+00:00",
-      "ticker": "BYD",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 11,
-      "price": 77.0,
-      "chg_since": -6.83,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-09-12T16:38:50.688106+00:00",
-      "ticker": "BYD",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 11,
-      "price": 77.0,
-      "chg_since": -6.83,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-09-12T19:52:43.043160+00:00",
-      "ticker": "BYD",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 11,
-      "price": 77.0,
-      "chg_since": -6.83,
-      "correct": false,
-      "age_days": 11
-    },
-    {
       "ts": "2026-09-12T21:49:07.458965+00:00",
-      "ticker": "BYD",
+      "ticker": "NBIS",
       "rec": "beobachten",
       "confidence": 64,
       "engagement": 11,
-      "price": 77.0,
-      "chg_since": -6.83,
-      "correct": false,
+      "price": 224.55,
+      "chg_since": 0.92,
+      "correct": true,
       "age_days": 11
     },
     {
@@ -3485,10 +2767,43 @@
       "price": 77.0,
       "chg_since": -6.83,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
+    },
+    {
+      "ts": "2026-09-12T23:34:52.964475+00:00",
+      "ticker": "NBIS",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 11,
+      "price": 224.55,
+      "chg_since": 0.92,
+      "correct": true,
+      "age_days": 11
     },
     {
       "ts": "2026-09-13T02:09:02.845900+00:00",
+      "ticker": "BYD",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 11,
+      "price": 77.0,
+      "chg_since": -6.83,
+      "correct": false,
+      "age_days": 11
+    },
+    {
+      "ts": "2026-09-13T02:09:02.845900+00:00",
+      "ticker": "NBIS",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 11,
+      "price": 224.55,
+      "chg_since": 0.92,
+      "correct": true,
+      "age_days": 11
+    },
+    {
+      "ts": "2026-09-13T08:37:58.379578+00:00",
       "ticker": "BYD",
       "rec": "beobachten",
       "confidence": 64,
@@ -3500,13 +2815,13 @@
     },
     {
       "ts": "2026-09-13T08:37:58.379578+00:00",
-      "ticker": "BYD",
+      "ticker": "NBIS",
       "rec": "beobachten",
       "confidence": 64,
       "engagement": 11,
-      "price": 77.0,
-      "chg_since": -6.83,
-      "correct": false,
+      "price": 224.55,
+      "chg_since": 0.92,
+      "correct": true,
       "age_days": 10
     },
     {
@@ -3521,6 +2836,17 @@
       "age_days": 10
     },
     {
+      "ts": "2026-09-13T13:58:38.479984+00:00",
+      "ticker": "NBIS",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 11,
+      "price": 224.55,
+      "chg_since": 0.92,
+      "correct": true,
+      "age_days": 10
+    },
+    {
       "ts": "2026-09-13T17:18:15.723167+00:00",
       "ticker": "BYD",
       "rec": "beobachten",
@@ -3529,6 +2855,17 @@
       "price": 77.0,
       "chg_since": -6.83,
       "correct": false,
+      "age_days": 10
+    },
+    {
+      "ts": "2026-09-13T17:18:15.723167+00:00",
+      "ticker": "NBIS",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 11,
+      "price": 224.55,
+      "chg_since": 0.92,
+      "correct": true,
       "age_days": 10
     },
     {
@@ -3554,6 +2891,17 @@
       "age_days": 10
     },
     {
+      "ts": "2026-09-13T20:00:33.999690+00:00",
+      "ticker": "NBIS",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 11,
+      "price": 224.55,
+      "chg_since": 0.92,
+      "correct": true,
+      "age_days": 10
+    },
+    {
       "ts": "2026-09-13T23:47:10.810857+00:00",
       "ticker": "BYD",
       "rec": "beobachten",
@@ -3562,7 +2910,7 @@
       "price": 77.0,
       "chg_since": -6.83,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-09-14T02:27:08.943332+00:00",
@@ -3617,7 +2965,7 @@
       "price": 7.5,
       "chg_since": -3.2,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-15T06:58:12.575592+00:00",
@@ -3716,7 +3064,7 @@
       "price": 7.25,
       "chg_since": 0.14,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-15T23:49:33.515169+00:00",
@@ -3727,7 +3075,7 @@
       "price": 76.08,
       "chg_since": -5.7,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-16T02:25:48.044374+00:00",
@@ -3844,13 +3192,41 @@
   "trump_tracker": {
     "posts": [
       {
+        "text": "The story that the White House, or me, want to affix my name to Ford’s Theatre, in Washington, D.C., where Abraham Lincoln was assassinated, is a ridiculous lie. It is FAKE NEWS! Who would possibly want a name on such a tragic place? The Dumocrats suffer from serious Trump Derangement Syndrome. They are Degenerates and Losers who make up lie after lie, and this Ford’s Theatre Hoax is just another ",
+        "url": "https://www.trumpstruth.org/statuses/41854",
+        "date": "Thu, 24 Sep 2026 00:21",
+        "source": "Truth Social",
+        "companies": [
+          {
+            "name": "Ford",
+            "ticker": "F"
+          }
+        ],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more—following support from Howard Lutnick and the Department of Commerce. TENS of BILLIONS of Dollars in Sales, and huge U.S. Exports, supporting tens of thousands of American Jobs across our Country. The Market is recognizing what Boeing and I have kn",
+        "url": "https://www.trumpstruth.org/statuses/41855",
+        "date": "Thu, 24 Sep 2026 00:19",
+        "source": "Truth Social",
+        "companies": [
+          {
+            "name": "Boeing",
+            "ticker": "BA"
+          }
+        ],
+        "policy": [],
+        "is_new": true
+      },
+      {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/41853",
         "url": "https://www.trumpstruth.org/statuses/41853",
         "date": "Wed, 23 Sep 2026 19:50",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "The Great Gary Player, Bryson DeChambeau, Mikayla Demaiter, and Susan Waterfall, on Marine One! President DONALD J. TRUMP",
@@ -3859,7 +3235,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Victor Davis Hanson on Canada — A MUST SEE! President DONALD J. TRUMP",
@@ -3896,58 +3272,40 @@
         "companies": [],
         "policy": [],
         "is_new": false
-      },
-      {
-        "text": "Azerbaijan's Hajiyev to Newsmax: Trump Peacemaker, Iran Deal Possible: https://www. newsmax.com/newsfront/azerbaij an-ilham-aliyev-armenia/2026/09/14/id/1269433/",
-        "url": "https://www.trumpstruth.org/statuses/41846",
-        "date": "Wed, 23 Sep 2026 04:04",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Netanyahu Bloc Takes Lead in Latest Israeli Election Poll: https://www. newsmax.com/newsfront/israel-b enjamin-netanyahu-likud/2026/09/17/id/1269830/",
-        "url": "https://www.trumpstruth.org/statuses/41847",
-        "date": "Wed, 23 Sep 2026 04:04",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
       }
     ],
-    "market_hits": 0
+    "market_hits": 2
   },
   "spannende_aktien": [
     {
-      "ticker": "ARTL",
-      "name": "Artelo Biosciences, Inc.",
-      "price": 7.31,
+      "ticker": "GCTK",
+      "name": "GlucoTrack, Inc.",
+      "price": 2.03,
       "currency": "USD",
-      "chg_1d": 76.14,
-      "vol_ratio": 228.1,
+      "chg_1d": -8.56,
+      "vol_ratio": 194.1,
       "warum": [
-        "Artelo Biosciences Files New Provisional Patent Application Covering ART27.13 fo",
-        "Artelo Biosciences Announces Reverse Stock Split"
+        "Lōkahi Therapeutics™ Advances its Proprietary ai² PIPELINE (formerly ai² Futures",
+        "Glucotrack Announces $11.5 Million Financing"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
+      "bedeutung": "Handelsvolumen 194.1× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
+      "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Artelo Biosciences Files New Provisional Patent Application Covering ART27.13 for Obesity, Alone and in Combination with GLP-1 Receptor Agon",
-          "link": "https://finance.yahoo.com/healthcare/articles/artelo-biosciences-files-provisional-patent-113300323.html?.tsrc=rss",
+          "title": "Lōkahi Therapeutics™ Advances its Proprietary ai² PIPELINE (formerly ai² Futures Lab) Process from Internal Asset Engine to Revenue-Generati",
+          "link": "https://finance.yahoo.com/healthcare/articles/l-kahi-therapeutics-advances-proprietary-203000826.html?.tsrc=rss",
           "date": "Wed, 23 Sep 2026",
           "tone": "neu"
         },
         {
-          "title": "Artelo Biosciences Announces Reverse Stock Split",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/artelo-biosciences-announces-reverse-stock-120000695.html?.tsrc=rss",
-          "date": "Thu, 27 Aug 2026",
+          "title": "Glucotrack Announces $11.5 Million Financing",
+          "link": "https://finance.yahoo.com/healthcare/articles/glucotrack-announces-11-5-million-120000340.html?.tsrc=rss",
+          "date": "Fri, 11 Sep 2026",
           "tone": "neu"
         }
       ]
@@ -3958,7 +3316,7 @@
       "price": 2.9,
       "currency": "USD",
       "chg_1d": 437.04,
-      "vol_ratio": 24.1,
+      "vol_ratio": 24.3,
       "warum": [
         "Beneficient Seeks Resolution to Eliminate About $130 Million of Disputed Debt Li",
         "Beneficient Announces Strategy to Eliminate HCLP Debt and Heppner Equity Interes"
@@ -3986,51 +3344,18 @@
       ]
     },
     {
-      "ticker": "GCTK",
-      "name": "GlucoTrack, Inc.",
-      "price": 2.03,
-      "currency": "USD",
-      "chg_1d": -8.56,
-      "vol_ratio": 133.9,
-      "warum": [
-        "Lōkahi Therapeutics™ Advances its Proprietary ai² PIPELINE (formerly ai² Futures",
-        "Glucotrack Announces $11.5 Million Financing"
-      ],
-      "bedeutung": "Handelsvolumen 133.9× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Lōkahi Therapeutics™ Advances its Proprietary ai² PIPELINE (formerly ai² Futures Lab) Process from Internal Asset Engine to Revenue-Generati",
-          "link": "https://finance.yahoo.com/healthcare/articles/l-kahi-therapeutics-advances-proprietary-203000826.html?.tsrc=rss",
-          "date": "Wed, 23 Sep 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Glucotrack Announces $11.5 Million Financing",
-          "link": "https://finance.yahoo.com/healthcare/articles/glucotrack-announces-11-5-million-120000340.html?.tsrc=rss",
-          "date": "Fri, 11 Sep 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
       "ticker": "FSLY",
       "name": "Fastly, Inc.",
       "price": 29.65,
       "currency": "USD",
       "chg_1d": 13.69,
-      "vol_ratio": 5.2,
+      "vol_ratio": 5.3,
       "warum": [
-        "Fastly Expands Edge Platform, AI Opportunity Remains Uncertain, BofA Says",
-        "Fastly Just Ripped 138% This Year but It’s Now Falling. Is It Time to Sell?"
+        "Fastly (FSLY) Outlines 14-21% Growth Target, Shares Climb 14%",
+        "Fastly Expands Edge Platform, AI Opportunity Remains Uncertain, BofA Says"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
+      "bedeutung": "Extreme Bewegung (+13.69%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
@@ -4038,53 +3363,99 @@
       ],
       "news": [
         {
-          "title": "Fastly Expands Edge Platform, AI Opportunity Remains Uncertain, BofA Says",
-          "link": "https://finance.yahoo.com/technology/ai/articles/fastly-expands-edge-platform-ai-145442291.html?.tsrc=rss",
+          "title": "Fastly (FSLY) Outlines 14-21% Growth Target, Shares Climb 14%",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/fastly-fsly-outlines-14-21-232122435.html?.tsrc=rss",
           "date": "Wed, 23 Sep 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
-          "title": "Fastly Just Ripped 138% This Year but It’s Now Falling. Is It Time to Sell?",
-          "link": "https://247wallst.com/investing/2026/09/23/fastly-just-ripped-138-this-year-but-its-now-falling-is-it-time-to-sell/?.tsrc=rss",
+          "title": "Fastly Expands Edge Platform, AI Opportunity Remains Uncertain, BofA Says",
+          "link": "https://finance.yahoo.com/technology/ai/articles/fastly-expands-edge-platform-ai-145442291.html?.tsrc=rss",
           "date": "Wed, 23 Sep 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "SFIX",
-      "name": "Stitch Fix, Inc.",
-      "price": 2.82,
+      "ticker": "WETO",
+      "name": "Wetour Robotics Limited",
+      "price": 1.45,
       "currency": "USD",
-      "chg_1d": -5.69,
-      "vol_ratio": 4.5,
+      "chg_1d": -12.12,
+      "vol_ratio": 1.3,
       "warum": [
-        "Stitch Fix (SFIX) Reports Q4 Loss, Misses Revenue Estimates",
-        "Stitch Fix Outlook Shows Slowdown After a Year of Solid Growth"
+        "Wetour Robotics Launches Vantrapower to Enter Texas AI Power Infrastructure Mark",
+        "Wetour Robotics Launches Vantrapower to Expand into Intelligent Power Infrastruc"
       ],
-      "bedeutung": "Handelsvolumen 4.5× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
-      "sterne": 1,
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
+      ],
+      "news": [
+        {
+          "title": "Wetour Robotics Launches Vantrapower to Enter Texas AI Power Infrastructure Market",
+          "link": "https://investorshub.advfn.com/market-news/article/36513/wetour-robotics-launches-vantrapower-to-enter-texas-ai-power-infrastructure-market?.tsrc=rss",
+          "date": "Thu, 17 Sep 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Wetour Robotics Launches Vantrapower to Expand into Intelligent Power Infrastructure for AI Industrial and Energy Markets in Texas",
+          "link": "https://finance.yahoo.com/energy/articles/wetour-robotics-launches-vantrapower-expand-130000714.html?.tsrc=rss",
+          "date": "Thu, 17 Sep 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "GRAL",
+      "name": "GRAIL, Inc.",
+      "price": 108.52,
+      "currency": "USD",
+      "chg_1d": 0.51,
+      "vol_ratio": 4.1,
+      "warum": [
+        "GRAIL Stock Jumped 34% Yesterday. The FDA Just Told Its Investors Why.",
+        "GRAL Stock Clocks Best Day In Over 1.5 Years — FDA Papers Lift Galleri Approval "
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Stitch Fix (SFIX) Reports Q4 Loss, Misses Revenue Estimates",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stitch-fix-sfix-reports-q4-211501585.html?.tsrc=rss",
-          "date": "Wed, 23 Sep 2026",
-          "tone": "neg"
+          "title": "GRAIL Stock Jumped 34% Yesterday. The FDA Just Told Its Investors Why.",
+          "link": "https://www.tikr.com/blog/grail-stock-jumped-34-yesterday-the-fda-just-told-its-investors-why?ref=yahoofinance&.tsrc=rss",
+          "date": "Tue, 22 Sep 2026",
+          "tone": "neu"
         },
         {
-          "title": "Stitch Fix Outlook Shows Slowdown After a Year of Solid Growth",
-          "link": "https://wwd.com/business-news/financial/stitch-fix-q4-2026-earnings-outlook-weak-1239256888/?.tsrc=rss",
-          "date": "Wed, 23 Sep 2026",
-          "tone": "pos"
+          "title": "GRAL Stock Clocks Best Day In Over 1.5 Years — FDA Papers Lift Galleri Approval Hopes",
+          "link": "https://stocktwits.com/news-articles/markets/equity/gral-stock-clocks-best-day-in-over-1-5-years-fda-papers-lift-galleri-approval-hopes/cZMRsplRBIk?.tsrc=rss",
+          "date": "Mon, 21 Sep 2026",
+          "tone": "neu"
         }
       ]
     }
   ],
   "ma_deals": [
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://www.ft.com/content/1f55518f-dad5-4c7b-8c81-ba82196dd747?syn-25a6b1a6=1",
+      "date": "Wed, 23 Sep 2026",
+      "headline": "Diller abandons $18bn takeover bid for MGM Resorts",
+      "source": "FT"
+    },
     {
       "kaeufer": "",
       "ziel": "",
@@ -4108,37 +3479,23 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRzdjSUplOXVSTEFWOHFQTG1Vbkk3bHZfaUY5UDlrcm01VjNORGlvSmxLd0NtNzVfeGpyendTaExJa2EtdkdmeDQ1a29aLXNUQmZCUEJtdnpLejJ2bzROT05fc0c5eVJ3aE5CekdwaF9zZG1HQ2pVcU55cVl3elBRT1dxb255eGxwMk5MN2g0LU9saTRpMzB1anJIcGlON19RajhaTzRrUkwtemZvdlUwUDJZZkkwb1NxajVjeE9La0JTQQ?oc=5",
+      "date": "Thu, 24 Sep 2026",
+      "headline": "Barry Diller Drops $18 Billion MGM Resorts Takeover Plan - The Hollywood Reporter",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QQkFUckZvdjJpYjZnMjVidUQ1bV9ZSEZGUVM3TmpyNnI3cVlQUFNSQnFaTzQwazdQZDE0QU4tQ0ZERHZoNmNtZWkwaTJZcUFWT3UwT0M3aFRXSktjVl9lWjROMndZdmtyRk9qc3V2cFJfSmJMTEFlLWkzRQ?oc=5",
       "date": "Wed, 23 Sep 2026",
       "headline": "Paramount plans $49 billion debt sale for Warner Bros. merger - qz.com",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNzJvZS1CdFRKc3pMdi1rNjQwNjlJRm9ZWmxSNkRpODZFU0FQUDJTUDFWb2owd29EVzhMdTYycDZlRHMtUlJ2M2s4dGYxa21Ydm1sUzFjTVY0azY5RE4tSU50eGFnVGtPQkpFZzYybnd4RXctX1N4MVpqcWtDdkk3NWQ1c0N5SXFidjdCeVd5cjg4bEpxeHFVZDQ2Mm9XaGNwTFRtNURaX1pqUFJXeGc?oc=5",
-      "date": "Wed, 23 Sep 2026",
-      "headline": "Arcadis Shares Fall After Canada’s WSP Global Pulls Takeover Offer - WSJ",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcGpCM2NpaDdkYkF6ck5nUHNYbGJvV0MtbFN6RjN3MGpMMEJ0dm9ndldaSm1wRi10U3luSklkV1JUVlFDWWxvbDg5TTdkZWRId0VDTVNqSVM0aUsyb19EdkJjaHdENFA4QWtIWFVYYzVDaXVkTUQ1VTN3QzM1bUgwWjd1WW43R2RfcHBnMFAtR0cyUzRaU3d2dURn?oc=5",
-      "date": "Wed, 23 Sep 2026",
-      "headline": "Caesars stockholders approve $17.6 billion Fertitta buyout - FOX5 Vegas",
       "source": "Google News"
     }
   ]
