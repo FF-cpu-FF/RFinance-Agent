@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T17:41:10.240766+00:00",
+  "generated_at": "2026-10-03T20:21:00.865994+00:00",
   "total_posts": 250,
-  "unique_tickers": 217,
+  "unique_tickers": 222,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -30,11 +30,11 @@
       "name": "Micron Technology, Inc.",
       "signal": "neutral",
       "empfehlung": "beobachten",
-      "confidence": 61,
+      "confidence": 64,
       "sentiment": 0,
-      "mentions": 4,
-      "mentions_delta": -1,
-      "engagement": 14,
+      "mentions": 5,
+      "mentions_delta": 1,
+      "engagement": 15,
       "sources": [
         "wallstreetbets",
         "TrumpsTrades"
@@ -42,7 +42,7 @@
       "titles": [
         "Something weird is going on with $CHTR",
         "GAIN: MU $1,080 strike 10/2 exp calls",
-        "Senate vote to end Iran War failed 49–50, John Fetterman was the only Democrat voting against it. Here’s his s"
+        "$MU 1 million dollar earnings YOLO results"
       ],
       "top_posts": [
         {
@@ -52,6 +52,10 @@
         {
           "title": "GAIN: MU $1,080 strike 10/2 exp calls",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1wv5xdm/gain_mu_1080_strike_102_exp_calls/"
+        },
+        {
+          "title": "$MU 1 million dollar earnings YOLO results",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wuhb6n/mu_1_million_dollar_earnings_yolo_results/"
         },
         {
           "title": "Senate vote to end Iran War failed 49–50, John Fetterman was the only Democrat voting against it. Here’s his s",
@@ -716,11 +720,12 @@
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell gemischt (4 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell gemischt (5 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
+        "Mentions +1 gegenüber dem letzten Scan",
         "🎯 Optionen & Short-Interest",
         "📊 Quartalszahlen",
         "News: Is Micron Stock Cheap Enough to Survive Lower Memory Profits?"
@@ -749,21 +754,13 @@
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 21,
+      "quality_pct": 24,
       "reddit_vs_markt": {
         "reddit": 42,
         "markt": 47,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-02T17:03:31.250658+00:00",
-          "ticker": "MU",
-          "rec": "kaufen",
-          "confidence": 93,
-          "engagement": 15,
-          "price": 1079.22
-        },
         {
           "ts": "2026-10-02T21:35:27.539833+00:00",
           "ticker": "MU",
@@ -802,6 +799,14 @@
           "rec": "beobachten",
           "confidence": 61,
           "engagement": 14,
+          "price": 1074.89
+        },
+        {
+          "ts": "2026-10-03T20:21:00.865994+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 15,
           "price": 1074.89
         }
       ]
@@ -1558,6 +1563,14 @@
           "confidence": 67,
           "engagement": 12,
           "price": 535.95
+        },
+        {
+          "ts": "2026-10-03T20:21:00.865994+00:00",
+          "ticker": "MSCI",
+          "rec": "beobachten",
+          "confidence": 67,
+          "engagement": 12,
+          "price": 535.95
         }
       ]
     },
@@ -2266,14 +2279,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-10-02T17:03:31.250658+00:00",
-          "ticker": "MP",
-          "rec": "beobachten",
-          "confidence": 51,
-          "engagement": 6,
-          "price": 47.24
-        },
-        {
           "ts": "2026-10-02T21:35:27.539833+00:00",
           "ticker": "MP",
           "rec": "beobachten",
@@ -2307,6 +2312,14 @@
         },
         {
           "ts": "2026-10-03T17:41:10.240766+00:00",
+          "ticker": "MP",
+          "rec": "beobachten",
+          "confidence": 51,
+          "engagement": 6,
+          "price": 46.97
+        },
+        {
+          "ts": "2026-10-03T20:21:00.865994+00:00",
           "ticker": "MP",
           "rec": "beobachten",
           "confidence": 51,
@@ -2441,14 +2454,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-10-02T10:09:20.039550+00:00",
-          "ticker": "VP",
-          "rec": "beobachten",
-          "confidence": 38,
-          "engagement": 8,
-          "price": null
-        },
-        {
           "ts": "2026-10-02T21:35:27.539833+00:00",
           "ticker": "VP",
           "rec": "beobachten",
@@ -2482,6 +2487,14 @@
         },
         {
           "ts": "2026-10-03T17:41:10.240766+00:00",
+          "ticker": "VP",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 15,
+          "price": null
+        },
+        {
+          "ts": "2026-10-03T20:21:00.865994+00:00",
           "ticker": "VP",
           "rec": "beobachten",
           "confidence": 41,
@@ -3139,6 +3152,12 @@
       },
       "news": [
         {
+          "title": "Dow Jones Futures: Nasdaq Hits High As Nvidia, SpaceX, Bloom Energy Flash Buy Signals, But Note These Risks",
+          "link": "https://finance.yahoo.com/m/b98e0c13-f78a-3e19-ad93-12d5a340e701/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
+          "date": "Sat, 03 Oct 2026",
+          "tone": "neu"
+        },
+        {
           "title": "The S&P 500 Is Not Enough: My 3-Stock Starter Portfolio for New Investors",
           "link": "https://www.fool.com/investing/2026/10/03/sp-500-not-enough-my-3-stock-starter-portfolio/?.tsrc=rss",
           "date": "Sat, 03 Oct 2026",
@@ -3151,20 +3170,14 @@
           "tone": "neu"
         },
         {
-          "title": "Where Will CoreWeave Stock Be in 5 Years?",
-          "link": "https://www.fool.com/investing/2026/10/03/where-will-coreweave-stock-be-in-5-years/?.tsrc=rss",
+          "title": "Intel (INTC) Data Center Comeback: Real Recovery or Just a Supply Squeeze?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-data-center-comeback-195750952.html?.tsrc=rss",
           "date": "Sat, 03 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "Caterpillar Trades Above $800. Here's Why It Could Be a $1,000 Stock by 2028.",
-          "link": "https://www.fool.com/investing/2026/10/03/caterpillar-trades-above-800-heres-why-it-could-be/?.tsrc=rss",
-          "date": "Sat, 03 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "This Nearly 16%-Yielding Dividend Stock Has Paid Out $16 Billion Since 2008. Here's Why I'm Not Worried About the Next Payment.",
-          "link": "https://www.fool.com/investing/2026/10/03/this-nearly-16-yielding-dividend-stock-has-paid-out-usd16-billion-since-2008-here-s-why-i-m-not-worried-about-the-next-payment/?.tsrc=rss",
+          "title": "3 Trends That Will Push Copper Higher in 2028",
+          "link": "https://www.fool.com/investing/2026/10/03/3-trends-that-will-push-copper-higher-in-2028/?.tsrc=rss",
           "date": "Sat, 03 Oct 2026",
           "tone": "neu"
         }
@@ -3216,14 +3229,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-09-30T07:42:48.040665+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 7,
-          "price": 227.21
-        },
-        {
           "ts": "2026-09-30T14:25:04.607834+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
@@ -3257,6 +3262,14 @@
         },
         {
           "ts": "2026-10-03T17:41:10.240766+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 14,
+          "price": 233.95
+        },
+        {
+          "ts": "2026-10-03T20:21:00.865994+00:00",
           "ticker": "NVDA",
           "rec": "beobachten",
           "confidence": 61,
@@ -3374,14 +3387,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-10-02T17:03:31.250658+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 10,
-          "price": null
-        },
-        {
           "ts": "2026-10-02T21:35:27.539833+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
@@ -3420,143 +3425,30 @@
           "confidence": 56,
           "engagement": 10,
           "price": null
+        },
+        {
+          "ts": "2026-10-03T20:21:00.865994+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 10,
+          "price": null
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 35,
-    "n_evaluated": 231,
-    "rate_kaufen": 50,
+    "hit_rate": 38,
+    "n_evaluated": 240,
+    "rate_kaufen": 48,
     "rate_verkaufen": null,
-    "rate_beobachten": 33,
-    "kauf_perf_7d": 2.4,
+    "rate_beobachten": 36,
+    "kauf_perf_7d": 2.3,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
     {
-      "ts": "2026-09-23T14:33:01.513638+00:00",
-      "ticker": "MP",
-      "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 5,
-      "price": 49.15,
-      "chg_since": -4.44,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-09-23T19:19:48.012849+00:00",
-      "ticker": "META",
-      "rec": "beobachten",
-      "confidence": 70,
-      "engagement": 15,
-      "price": 747.83,
-      "chg_since": -2.64,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-23T19:19:48.012849+00:00",
-      "ticker": "AMD",
-      "rec": "kaufen",
-      "confidence": 87,
-      "engagement": 10,
-      "price": 613.53,
-      "chg_since": 3.32,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-23T19:19:48.012849+00:00",
-      "ticker": "BYD",
-      "rec": "beobachten",
-      "confidence": 54,
-      "engagement": 13,
-      "price": 71.78,
-      "chg_since": -6.31,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-23T19:19:48.012849+00:00",
-      "ticker": "MP",
-      "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 5,
-      "price": 49.1,
-      "chg_since": -4.34,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-23T22:33:39.882171+00:00",
-      "ticker": "AMD",
-      "rec": "kaufen",
-      "confidence": 87,
-      "engagement": 10,
-      "price": 614.61,
-      "chg_since": 3.14,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-23T22:33:39.882171+00:00",
-      "ticker": "BYD",
-      "rec": "beobachten",
-      "confidence": 54,
-      "engagement": 13,
-      "price": 71.74,
-      "chg_since": -6.26,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-23T22:33:39.882171+00:00",
-      "ticker": "META",
-      "rec": "kaufen",
-      "confidence": 78,
-      "engagement": 7,
-      "price": 744.1,
-      "chg_since": -2.15,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-23T22:33:39.882171+00:00",
-      "ticker": "MP",
-      "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 5,
-      "price": 48.89,
-      "chg_since": -3.93,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-24T02:17:31.043885+00:00",
-      "ticker": "AMD",
-      "rec": "kaufen",
-      "confidence": 87,
-      "engagement": 10,
-      "price": 614.61,
-      "chg_since": 3.14,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-24T02:17:31.043885+00:00",
-      "ticker": "META",
-      "rec": "kaufen",
-      "confidence": 78,
-      "engagement": 7,
-      "price": 744.1,
-      "chg_since": -2.15,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-24T02:17:31.043885+00:00",
+      "ts": "2026-09-24T08:51:48.026437+00:00",
       "ticker": "MP",
       "rec": "beobachten",
       "confidence": 48,
@@ -3568,24 +3460,13 @@
     },
     {
       "ts": "2026-09-24T08:51:48.026437+00:00",
-      "ticker": "AMD",
-      "rec": "kaufen",
-      "confidence": 87,
-      "engagement": 10,
-      "price": 614.61,
-      "chg_since": 3.14,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-09-24T08:51:48.026437+00:00",
-      "ticker": "MP",
+      "ticker": "BE",
       "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 5,
-      "price": 48.89,
-      "chg_since": -3.93,
-      "correct": true,
+      "confidence": 61,
+      "engagement": 4,
+      "price": 275.19,
+      "chg_since": 5.07,
+      "correct": false,
       "age_days": 9
     },
     {
@@ -3611,6 +3492,17 @@
       "age_days": 9
     },
     {
+      "ts": "2026-09-24T14:31:24.471498+00:00",
+      "ticker": "BE",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 4,
+      "price": 260.85,
+      "chg_since": 10.85,
+      "correct": false,
+      "age_days": 9
+    },
+    {
       "ts": "2026-09-24T19:36:46.247730+00:00",
       "ticker": "AMD",
       "rec": "kaufen",
@@ -3619,7 +3511,7 @@
       "price": 627.79,
       "chg_since": 0.97,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-09-24T19:36:46.247730+00:00",
@@ -3630,7 +3522,18 @@
       "price": 49.04,
       "chg_since": -4.22,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
+    },
+    {
+      "ts": "2026-09-24T19:36:46.247730+00:00",
+      "ticker": "BE",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 4,
+      "price": 266.11,
+      "chg_since": 8.66,
+      "correct": false,
+      "age_days": 9
     },
     {
       "ts": "2026-09-24T22:49:48.883008+00:00",
@@ -3663,6 +3566,17 @@
       "price": 629.26,
       "chg_since": 0.74,
       "correct": false,
+      "age_days": 8
+    },
+    {
+      "ts": "2026-09-25T02:34:09.203183+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 249.38,
+      "chg_since": 0.86,
+      "correct": true,
       "age_days": 8
     },
     {
@@ -3685,6 +3599,17 @@
       "price": 629.26,
       "chg_since": 0.74,
       "correct": false,
+      "age_days": 8
+    },
+    {
+      "ts": "2026-09-25T09:12:22.177961+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 249.38,
+      "chg_since": 0.86,
+      "correct": true,
       "age_days": 8
     },
     {
@@ -3711,6 +3636,17 @@
     },
     {
       "ts": "2026-09-25T14:52:04.287652+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 247.71,
+      "chg_since": 1.54,
+      "correct": true,
+      "age_days": 8
+    },
+    {
+      "ts": "2026-09-25T14:52:04.287652+00:00",
       "ticker": "MP",
       "rec": "beobachten",
       "confidence": 48,
@@ -3729,7 +3665,18 @@
       "price": 630.03,
       "chg_since": 0.62,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
+    },
+    {
+      "ts": "2026-09-25T19:42:46.746013+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 250.34,
+      "chg_since": 0.47,
+      "correct": true,
+      "age_days": 8
     },
     {
       "ts": "2026-09-25T19:42:46.746013+00:00",
@@ -3740,7 +3687,7 @@
       "price": 48.64,
       "chg_since": -3.43,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-09-25T22:57:59.767768+00:00",
@@ -3751,6 +3698,17 @@
       "price": 630.63,
       "chg_since": 0.52,
       "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-25T22:57:59.767768+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 249.67,
+      "chg_since": 0.74,
+      "correct": true,
       "age_days": 7
     },
     {
@@ -3772,6 +3730,28 @@
       "engagement": 9,
       "price": 630.63,
       "chg_since": 0.52,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-26T02:36:33.566993+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 249.67,
+      "chg_since": 0.74,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-26T02:36:33.566993+00:00",
+      "ticker": "BE",
+      "rec": "kaufen",
+      "confidence": 78,
+      "engagement": 5,
+      "price": 288.7,
+      "chg_since": 0.16,
       "correct": false,
       "age_days": 7
     },
@@ -3795,6 +3775,17 @@
       "price": 630.63,
       "chg_since": 0.52,
       "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-26T08:55:47.254879+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 249.67,
+      "chg_since": 0.74,
+      "correct": true,
       "age_days": 7
     },
     {
@@ -3832,6 +3823,17 @@
     },
     {
       "ts": "2026-09-26T13:57:47.762234+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 249.67,
+      "chg_since": 0.74,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-26T13:57:47.762234+00:00",
       "ticker": "MP",
       "rec": "beobachten",
       "confidence": 64,
@@ -3860,6 +3862,17 @@
       "engagement": 10,
       "price": 1777.8,
       "chg_since": -3.25,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-09-26T17:36:27.385093+00:00",
+      "ticker": "AMZN",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 249.67,
+      "chg_since": 0.74,
       "correct": true,
       "age_days": 7
     },
@@ -3879,13 +3892,31 @@
   "trump_tracker": {
     "posts": [
       {
+        "text": "I don’t know about anyone else, but a table full of very distinguished people just told me that they HATE, immediately after a mandatory time change, going home at night – and it’s DARK. It’s depressing! One of the gentleman stated that, “I just hate going home in darkness.” It’s also, in Crime Ridden Blue States, a lot more dangerous to be walking home in the dark! President DONALD J. TRUMP",
+        "url": "https://www.trumpstruth.org/statuses/42124",
+        "date": "Sat, 03 Oct 2026 18:26",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "If Tom Cotton were putting Arkansas first, he would give them an extra hour of daylight and, more importantly, they wouldn’t have to run all over their houses, farms, work places, and everywhere else, twice a year, having to change their Clocks, and often forgetting to do so. That is really putting Arkansas FIRST, and I know, because, unlike Tom, I won that Great State, three times, and by almost ",
+        "url": "https://www.trumpstruth.org/statuses/42123",
+        "date": "Sat, 03 Oct 2026 17:46",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
         "text": "Everybody in Arkansas, Tom Cotton, a friend of mine, is holding up a very important Bill. It’s called, “The Sunshine Protection Act” or, “We Don’t Want to Change Our Clocks Twice a Year Act.” For some reason, Tom is stopping the Bill and, in the Senate, it’s very easy to do, it only takes one! It should pass overwhelmingly, in a Bipartisan fashion. So, everyone in Arkansas, a State I love, and won",
         "url": "https://www.trumpstruth.org/statuses/42122",
         "date": "Sat, 03 Oct 2026 14:32",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Dan S. Sullivan has my Complete and Total Endorsement for Re-Election as U.S. Senator from Alaska — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP",
@@ -3894,7 +3925,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/42117",
@@ -3903,7 +3934,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/42118",
@@ -3912,7 +3943,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "[Link geteilt] https://www.trumpstruth.org/statuses/42119",
@@ -3921,7 +3952,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Republicans must WIN the 2026 Midterm Elections, and we must use every appropriate tool — Whether you vote early, absentee, by mail, or in-person, we must “swamp” the Radical Left Dumocrats with massive turnout! SO IMPORTANT — PLEASE GET OUT AND VOTE. MAKE AMERICA GREAT AGAIN! President DONALD J. TRUMP https:// swampthevoteusa.com/",
@@ -3930,25 +3961,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "If Republicans win the House of Representatives and the Senate in the 2026 Midterm Elections, I’m going to give all Adult Citizens in the United States of America, $5,000. Thank you for your attention to this matter, and I look forward to signing those checks! President DONALD J. TRUMP",
-        "url": "https://www.trumpstruth.org/statuses/42116",
-        "date": "Sat, 03 Oct 2026 12:56",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "PENNSYLVANIA — Early Voting is UNDERWAY. Get out and VOTE REPUBLICAN! President DONALD J. TRUMP",
-        "url": "https://www.trumpstruth.org/statuses/42114",
-        "date": "Sat, 03 Oct 2026 12:53",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
+        "is_new": false
       }
     ],
     "market_hits": 0
@@ -3986,15 +3999,15 @@
       ]
     },
     {
-      "ticker": "UPS",
-      "name": "United Parcel Service, Inc.",
-      "price": 93.02,
+      "ticker": "ABBV",
+      "name": "AbbVie Inc.",
+      "price": 262.82,
       "currency": "USD",
-      "chg_1d": -0.93,
-      "vol_ratio": 1.0,
+      "chg_1d": 1.11,
+      "vol_ratio": 1.4,
       "warum": [
-        "UPS Likely to Post In-Line Third-Quarter Earnings, UBS Says",
-        "FedEx and UPS highlight parcel security, risk management tools"
+        "AbbVie Just Won FDA Approval for a Once-Daily Parkinson's Pill. Here's Why It Ma",
+        "How to Create a Million-Dollar Stock Portfolio"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4003,29 +4016,29 @@
       ],
       "news": [
         {
-          "title": "UPS Likely to Post In-Line Third-Quarter Earnings, UBS Says",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ups-likely-post-line-third-203218872.html?.tsrc=rss",
-          "date": "Fri, 02 Oct 2026",
+          "title": "AbbVie Just Won FDA Approval for a Once-Daily Parkinson's Pill. Here's Why It Matters More Than You Think.",
+          "link": "https://www.fool.com/investing/2026/10/03/abbvie-fda-approval-daily-parkinsons-pill/?.tsrc=rss",
+          "date": "Sat, 03 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "FedEx and UPS highlight parcel security, risk management tools",
-          "link": "https://finance.yahoo.com/small-business/articles/fedex-ups-highlight-parcel-security-164442407.html?.tsrc=rss",
+          "title": "How to Create a Million-Dollar Stock Portfolio",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/create-million-dollar-stock-portfolio-214000884.html?.tsrc=rss",
           "date": "Fri, 02 Oct 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "SPMO",
-      "name": "Invesco S&P 500 Momentum ETF",
-      "price": 153.23,
+      "ticker": "MP",
+      "name": "MP Materials Corp.",
+      "price": 46.97,
       "currency": "USD",
-      "chg_1d": 0.31,
-      "vol_ratio": 1.1,
+      "chg_1d": 1.91,
+      "vol_ratio": 0.8,
       "warum": [
-        "SPMO Owns the S&P 500’s 100 Fastest-Rising Stocks. Its Momentum Screen Has Beate",
-        "S&P 500 investors may want to rethink their favorite ETF"
+        "MP Materials CEO Earns C$39 Million to Top Bedford's 2026 Mining Compensation Ra",
+        "MP Materials (MP) Looks Re Rated After Texas Magnet Campus Win"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4034,15 +4047,15 @@
       ],
       "news": [
         {
-          "title": "SPMO Owns the S&P 500’s 100 Fastest-Rising Stocks. Its Momentum Screen Has Beaten the Index by 67-Points Over the Last Five Years",
-          "link": "https://247wallst.com/investing/2026/09/18/spmo-owns-the-sp-500s-100-fastest-rising-stocks-its-momentum-screen-has-beaten-the-index-by-67-points-over-the-last-five-years/?.tsrc=rss",
-          "date": "Fri, 18 Sep 2026",
-          "tone": "pos"
+          "title": "MP Materials CEO Earns C$39 Million to Top Bedford's 2026 Mining Compensation Rankings",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-ceo-earns-c-130500001.html?.tsrc=rss",
+          "date": "Thu, 01 Oct 2026",
+          "tone": "neu"
         },
         {
-          "title": "S&P 500 investors may want to rethink their favorite ETF",
-          "link": "https://www.thestreet.com/investing/spmo-etf-sp-500-momentum-concentration-risk?.tsrc=rss",
-          "date": "Wed, 09 Sep 2026",
+          "title": "MP Materials (MP) Looks Re Rated After Texas Magnet Campus Win",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-mp-looks-rated-221018563.html?.tsrc=rss",
+          "date": "Wed, 30 Sep 2026",
           "tone": "neu"
         }
       ]
@@ -4090,6 +4103,20 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVGpaQ3ljVjFjbTV3YXNNVkt0OTdZUnlnUmQwOTc3enFSeTI3OGNiX0daOG91c0dXUlI1MmdISWVEVlhSbVNER0tQX1ZmcmE1VDJPNERKVlFqeXhjczByRUxnYmptSzllVnY5MGktUEduQVNUZFN0Z2ZXVU9GeHNlaXNLY00wRkdzLTBwSGNua3Bvc3lfN1ZaNmdTSk0?oc=5",
+      "date": "Sat, 03 Oct 2026",
+      "headline": "Paramount and Warner Bros. Reveal New Name Ahead of $110 Billion Merger - Complex",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSk9heXRXUzRVTk1tdVJjN0FzVDBSMG1MeUtPN25FaFJ6N213UmF4V2ZuUjdqMjZFTWNDWjhVbWctTF9zcWpubmdGbXJwZEtZcEhUVko4NkxvSllQT0ZMMXdBZmZYSkhXRGVBNHY3V0kxYXlWT0x2TnQ2ZHR4ZnBiRFBDOXktWFBtdXZzb1RfUkFlOG85SDkwcVZVVkVjYVd6cU9vY2VEbEpWakNuOEdfRUo5eV9NRXJmQkdvVg?oc=5",
       "date": "Wed, 30 Sep 2026",
       "headline": "Judge allows Paramount to close $110 billion takeover of Warner Bros. Discovery - NBC News",
@@ -4121,20 +4148,6 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMm5yR0hrZEhzMm5DaUlQSG5UZURBcUhYRGxVOGF0b2ZFdGkzVnhPZHNCM0RDMTJtTlpidEVHNFVMZFlpZ3A4aFBONVZmdWg0ekJNWV9FVHFlTlZ5RS1iTVpkb3lOR05jMFRFc1ZaRHV4T0k0OUZHRWE1bkxoNEdYb2VrcDBjaFR4WmtyRXhpWmRVT3V2cHZud3pvOG13bUdvZ0daNUxHZlQwaDNqUWVoSnR2R0owTGc?oc=5",
       "date": "Mon, 28 Sep 2026",
       "headline": "Northern Star Rejects $27 Billion Takeover Proposal From Gold Fields - WSJ",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhT043Q2loejA4Ujd3X1pLZW9zT3VJV2ktamo3MXFNTTBkYV9WUm5JNk5vQTBBekJHZmpRQWVFN0RBc0J6RW1aTTBzLWhTTllFTk9NMTdxcjRnblZRUGJWd1dXMVRPLWNzRi0zaFgxRk1JdEQ3Qjhj?oc=5",
-      "date": "Wed, 30 Sep 2026",
-      "headline": "$67 billion NextEra-Dominion merger could raise U.S. electricity prices, lawmakers say - CBS News",
       "source": "Google News"
     }
   ]
