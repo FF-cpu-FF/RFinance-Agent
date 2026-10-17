@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T22:19:48.430194+00:00",
+  "generated_at": "2026-10-17T02:11:29.588876+00:00",
   "total_posts": 250,
-  "unique_tickers": 215,
+  "unique_tickers": 191,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -657,7 +657,7 @@
           },
           {
             "t": 1791777600,
-            "c": 562.23
+            "c": 528.75
           },
           {
             "t": 1792180801,
@@ -672,8 +672,8 @@
       },
       "news": [
         {
-          "title": "Tesla pops, tech heads for losing week: AlphaCheck",
-          "link": "https://finance.yahoo.com/markets/article/tesla-pops-tech-heads-for-losing-week-alphacheck-135820459.html?.tsrc=rss",
+          "title": "How much AMD stock does CEO Lisa Su actually own?",
+          "link": "https://www.thestreet.com/personalities/how-much-amd-stock-does-ceo-lisa-su-own?.tsrc=rss",
           "date": "Fri, 16 Oct 2026",
           "tone": "neu"
         },
@@ -718,14 +718,10 @@
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
-      "momentum": 63,
+      "momentum": 61,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 29,
+      "growth_pct": 20,
       "timeline": [
-        {
-          "day": "2026-10-13",
-          "mentions": 5
-        },
         {
           "day": "2026-10-14",
           "mentions": 5
@@ -737,6 +733,10 @@
         {
           "day": "2026-10-16",
           "mentions": 6
+        },
+        {
+          "day": "2026-10-17",
+          "mentions": 6
         }
       ],
       "hype_typ": "trend",
@@ -744,19 +744,11 @@
       "quality_grade": "C",
       "quality_pct": 40,
       "reddit_vs_markt": {
-        "reddit": 63,
+        "reddit": 61,
         "markt": 0,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-15T22:46:54.550424+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 8,
-          "price": 562.23
-        },
         {
           "ts": "2026-10-16T02:18:41.152266+00:00",
           "ticker": "AMD",
@@ -791,6 +783,14 @@
         },
         {
           "ts": "2026-10-16T22:19:48.430194+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 57,
+          "engagement": 14,
+          "price": 528.75
+        },
+        {
+          "ts": "2026-10-17T02:11:29.588876+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
           "confidence": 57,
@@ -1417,7 +1417,7 @@
           },
           {
             "t": 1791777600,
-            "c": 236.3
+            "c": 221.31
           },
           {
             "t": 1792180803,
@@ -1483,10 +1483,6 @@
       "growth_pct": 9,
       "timeline": [
         {
-          "day": "2026-10-13",
-          "mentions": 4
-        },
-        {
           "day": "2026-10-14",
           "mentions": 3
         },
@@ -1496,6 +1492,10 @@
         },
         {
           "day": "2026-10-16",
+          "mentions": 4
+        },
+        {
+          "day": "2026-10-17",
           "mentions": 4
         }
       ],
@@ -1509,14 +1509,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-15T22:46:54.550424+00:00",
-          "ticker": "BE",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 5,
-          "price": 236.3
-        },
         {
           "ts": "2026-10-16T02:18:41.152266+00:00",
           "ticker": "BE",
@@ -1551,6 +1543,14 @@
         },
         {
           "ts": "2026-10-16T22:19:48.430194+00:00",
+          "ticker": "BE",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 5,
+          "price": 221.31
+        },
+        {
+          "ts": "2026-10-17T02:11:29.588876+00:00",
           "ticker": "BE",
           "rec": "beobachten",
           "confidence": 64,
@@ -1629,14 +1629,10 @@
       "gruende": [
         "💬 Allgemeine Diskussion"
       ],
-      "momentum": 62,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 33,
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 20,
       "timeline": [
-        {
-          "day": "2026-10-13",
-          "mentions": 3
-        },
         {
           "day": "2026-10-14",
           "mentions": 3
@@ -1647,6 +1643,10 @@
         },
         {
           "day": "2026-10-16",
+          "mentions": 4
+        },
+        {
+          "day": "2026-10-17",
           "mentions": 4
         }
       ],
@@ -1655,7 +1655,7 @@
       "quality_grade": "D",
       "quality_pct": 21,
       "reddit_vs_markt": {
-        "reddit": 62,
+        "reddit": 59,
         "markt": 50,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
@@ -1675,190 +1675,13 @@
           "confidence": 44,
           "engagement": 4,
           "price": null
-        }
-      ]
-    },
-    {
-      "ticker": "IN",
-      "name": "IN",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 44,
-      "sentiment": 1,
-      "mentions": 3,
-      "mentions_delta": -1,
-      "engagement": 16,
-      "sources": [
-        "Mauerstrassenwetten",
-        "wallstreetbets",
-        "Ameisenstrassenwetten"
-      ],
-      "titles": [
-        "COMMUNITYTREFFEN INVEST 2027 (9-10 APRIL IN STUTTGART)",
-        "ADBE - Playing Downfall Volatility",
-        "Zeigt mir eure Müllhalden 🥰"
-      ],
-      "top_posts": [
-        {
-          "title": "COMMUNITYTREFFEN INVEST 2027 (9-10 APRIL IN STUTTGART)",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1wzs58l/communitytreffen_invest_2027_910_april_in/"
         },
         {
-          "title": "ADBE - Playing Downfall Volatility",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1x7jo4n/adbe_playing_downfall_volatility/"
-        },
-        {
-          "title": "Zeigt mir eure Müllhalden 🥰",
-          "url": "https://www.reddit.com/r/ameisenstrassenwetten/comments/1wy54v2/zeigt_mir_eure_müllhalden/"
-        }
-      ],
-      "topics": [
-        "COMMUNITYTREFFEN",
-        "INVEST",
-        "APRIL",
-        "STUTTGART"
-      ],
-      "themen": [
-        {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 15,
-          "beitraege": 2,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 15,
-          "beitraege": 2,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        },
-        {
-          "emoji": "📈",
-          "titel": "Wachstums-Story",
-          "anteil_pct": 15,
-          "beitraege": 2,
-          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
-        },
-        {
-          "emoji": "📊",
-          "titel": "Quartalszahlen",
-          "anteil_pct": 8,
-          "beitraege": 1,
-          "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
-        },
-        {
-          "emoji": "⚠️",
-          "titel": "Bewertungs-Debatte",
-          "anteil_pct": 8,
-          "beitraege": 1,
-          "erklaerung": "Ein Teil der Community hält die Aktie nach dem Kursverlauf für zu teuer."
-        }
-      ],
-      "bull_case": [
-        "Unterbewertung",
-        "Call-Optionen-Aktivität"
-      ],
-      "bear_case": [
-        "Put-Optionen-Aktivität",
-        "Blasen-Warnung",
-        "Zahlen unter Erwartung"
-      ],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
-        ]
-      },
-      "fazit": "Reddit diskutiert IN aktuell gemischt (3 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "🎯 Optionen & Short-Interest",
-        "💰 Einstiegs-Debatte"
-      ],
-      "momentum": 64,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 33,
-      "timeline": [
-        {
-          "day": "2026-10-13",
-          "mentions": 3
-        },
-        {
-          "day": "2026-10-14",
-          "mentions": 2
-        },
-        {
-          "day": "2026-10-15",
-          "mentions": 4
-        },
-        {
-          "day": "2026-10-16",
-          "mentions": 4
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 17,
-      "reddit_vs_markt": {
-        "reddit": 64,
-        "markt": 50,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-10-15T22:46:54.550424+00:00",
-          "ticker": "IN",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 13,
-          "price": null
-        },
-        {
-          "ts": "2026-10-16T02:18:41.152266+00:00",
-          "ticker": "IN",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 13,
-          "price": null
-        },
-        {
-          "ts": "2026-10-16T08:36:16.103034+00:00",
-          "ticker": "IN",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 13,
-          "price": null
-        },
-        {
-          "ts": "2026-10-16T14:24:43.318671+00:00",
-          "ticker": "IN",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 13,
-          "price": null
-        },
-        {
-          "ts": "2026-10-16T19:08:11.920202+00:00",
-          "ticker": "IN",
-          "rec": "beobachten",
-          "confidence": 47,
-          "engagement": 27,
-          "price": null
-        },
-        {
-          "ts": "2026-10-16T22:19:48.430194+00:00",
-          "ticker": "IN",
+          "ts": "2026-10-17T02:11:29.588876+00:00",
+          "ticker": "KRIBZ",
           "rec": "beobachten",
           "confidence": 44,
-          "engagement": 16,
+          "engagement": 4,
           "price": null
         }
       ]
@@ -2510,7 +2333,7 @@
           },
           {
             "t": 1791777600,
-            "c": 575.09
+            "c": 569.08
           },
           {
             "t": 1792180802,
@@ -2575,10 +2398,6 @@
       "growth_pct": 13,
       "timeline": [
         {
-          "day": "2026-10-13",
-          "mentions": 3
-        },
-        {
           "day": "2026-10-14",
           "mentions": 3
         },
@@ -2588,6 +2407,10 @@
         },
         {
           "day": "2026-10-16",
+          "mentions": 3
+        },
+        {
+          "day": "2026-10-17",
           "mentions": 3
         }
       ],
@@ -2601,14 +2424,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-13T17:15:08.048928+00:00",
-          "ticker": "MSCI",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 14,
-          "price": 562.89
-        },
         {
           "ts": "2026-10-13T22:05:42.902798+00:00",
           "ticker": "MSCI",
@@ -2643,6 +2458,14 @@
         },
         {
           "ts": "2026-10-16T22:19:48.430194+00:00",
+          "ticker": "MSCI",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 14,
+          "price": 569.08
+        },
+        {
+          "ts": "2026-10-17T02:11:29.588876+00:00",
           "ticker": "MSCI",
           "rec": "beobachten",
           "confidence": 61,
@@ -3273,7 +3096,7 @@
           },
           {
             "t": 1791777600,
-            "c": 217.23
+            "c": 214.13
           },
           {
             "t": 1792180800,
@@ -3288,6 +3111,12 @@
       },
       "news": [
         {
+          "title": "1 Obvious Metric That Makes Nvidia a Top Stock to Buy Now",
+          "link": "https://www.fool.com/investing/2026/10/16/1-obvious-metric-that-makes-nvidia-a-top-stock-to/?.tsrc=rss",
+          "date": "Fri, 16 Oct 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.",
           "link": "https://www.fool.com/investing/2026/10/16/prediction-1000-invested-in-taiwan-semi-tsmc-today/?.tsrc=rss",
           "date": "Fri, 16 Oct 2026",
@@ -3300,20 +3129,14 @@
           "tone": "neu"
         },
         {
-          "title": "Ladder Capital Corp Q3 2026 Earnings Call Summary",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ladder-capital-corp-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+          "title": "CoreWeave's not-so-secret weapons: Price hikes and an Nvidia trump card",
+          "link": "https://pitchbook.com/news/articles/coreweaves-not-so-secret-weapons-price-hikes-and-an-nvidia-trump-card?.tsrc=rss",
           "date": "Fri, 16 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "Here's How Many Shares of AbbVie You'd Need for $5,000 in Yearly Dividends",
-          "link": "https://www.fool.com/investing/2026/10/16/heres-how-many-shares-of-abbvie-youd-need-for-5000/?.tsrc=rss",
-          "date": "Fri, 16 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Not Alphabet. Not Microsoft. This Is the Cloud Stock I'd Buy With $5,000 Right Now.",
-          "link": "https://www.fool.com/investing/2026/10/16/not-alphabet-not-microsoft-this-is-the-cloud-stock/?.tsrc=rss",
+          "title": "Prediction: Alphabet Will Be a Larger Company Than Apple by the End of 2027",
+          "link": "https://www.fool.com/investing/2026/10/16/prediction-alphabet-will-be-a-larger-company-than/?.tsrc=rss",
           "date": "Fri, 16 Oct 2026",
           "tone": "neu"
         }
@@ -3339,10 +3162,6 @@
       "growth_pct": 29,
       "timeline": [
         {
-          "day": "2026-10-13",
-          "mentions": 3
-        },
-        {
           "day": "2026-10-14",
           "mentions": 2
         },
@@ -3352,6 +3171,10 @@
         },
         {
           "day": "2026-10-16",
+          "mentions": 3
+        },
+        {
+          "day": "2026-10-17",
           "mentions": 3
         }
       ],
@@ -3365,14 +3188,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-11T00:34:47.535013+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 229.28
-        },
         {
           "ts": "2026-10-11T08:01:44.699616+00:00",
           "ticker": "NVDA",
@@ -3412,42 +3227,774 @@
           "confidence": 61,
           "engagement": 6,
           "price": 214.13
+        },
+        {
+          "ts": "2026-10-17T02:11:29.588876+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 6,
+          "price": 214.13
+        }
+      ]
+    },
+    {
+      "ticker": "TR",
+      "name": "Tootsie Roll Industries, Inc.",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 58,
+      "sentiment": 0,
+      "mentions": 3,
+      "mentions_delta": 0,
+      "engagement": 5,
+      "sources": [
+        "Ameisenstrassenwetten",
+        "Aktien"
+      ],
+      "titles": [
+        "Endlich auch am Hebeln",
+        "SHEIN Global Spielerei",
+        "Habe durch Autoverkauf und downgrade etwa 20k"
+      ],
+      "top_posts": [
+        {
+          "title": "Endlich auch am Hebeln",
+          "url": "https://www.reddit.com/r/ameisenstrassenwetten/comments/1wmjz6j/endlich_auch_am_hebeln/"
+        },
+        {
+          "title": "SHEIN Global Spielerei",
+          "url": "https://www.reddit.com/r/Aktien/comments/1x4ttgl/shein_global_spielerei/"
+        },
+        {
+          "title": "Habe durch Autoverkauf und downgrade etwa 20k",
+          "url": "https://www.reddit.com/r/Aktien/comments/1wyaqpu/habe_durch_autoverkauf_und_downgrade_etwa_20k/"
+        }
+      ],
+      "topics": [
+        "Endlich",
+        "Hebeln",
+        "SHEIN",
+        "Global"
+      ],
+      "themen": [
+        {
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 50,
+          "beitraege": 1,
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        }
+      ],
+      "bull_case": [],
+      "bear_case": [],
+      "price": {
+        "available": true,
+        "price": 38.23,
+        "currency": "USD",
+        "name": "Tootsie Roll Industries, Inc.",
+        "chart_1d": [
+          {
+            "t": 1792157400,
+            "c": 38.74
+          },
+          {
+            "t": 1792158300,
+            "c": 38.62
+          },
+          {
+            "t": 1792159200,
+            "c": 38.53
+          },
+          {
+            "t": 1792160100,
+            "c": 38.32
+          },
+          {
+            "t": 1792161000,
+            "c": 38.23
+          },
+          {
+            "t": 1792161900,
+            "c": 38.58
+          },
+          {
+            "t": 1792162800,
+            "c": 38.61
+          },
+          {
+            "t": 1792163700,
+            "c": 38.45
+          },
+          {
+            "t": 1792164600,
+            "c": 38.53
+          },
+          {
+            "t": 1792165500,
+            "c": 38.53
+          },
+          {
+            "t": 1792166400,
+            "c": 38.35
+          },
+          {
+            "t": 1792167300,
+            "c": 38.39
+          },
+          {
+            "t": 1792168200,
+            "c": 38.32
+          },
+          {
+            "t": 1792169100,
+            "c": 38.38
+          },
+          {
+            "t": 1792170000,
+            "c": 38.33
+          },
+          {
+            "t": 1792170900,
+            "c": 38.28
+          },
+          {
+            "t": 1792171800,
+            "c": 38.35
+          },
+          {
+            "t": 1792172700,
+            "c": 38.3
+          },
+          {
+            "t": 1792173600,
+            "c": 38.37
+          },
+          {
+            "t": 1792174500,
+            "c": 38.31
+          },
+          {
+            "t": 1792175400,
+            "c": 38.28
+          },
+          {
+            "t": 1792176300,
+            "c": 38.32
+          },
+          {
+            "t": 1792177200,
+            "c": 38.36
+          },
+          {
+            "t": 1792178100,
+            "c": 38.33
+          },
+          {
+            "t": 1792179000,
+            "c": 38.44
+          },
+          {
+            "t": 1792179900,
+            "c": 38.22
+          },
+          {
+            "t": 1792180800,
+            "c": 38.23
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1791811800,
+            "c": 37.73
+          },
+          {
+            "t": 1791815400,
+            "c": 37.81
+          },
+          {
+            "t": 1791819000,
+            "c": 37.94
+          },
+          {
+            "t": 1791822600,
+            "c": 37.97
+          },
+          {
+            "t": 1791826200,
+            "c": 37.95
+          },
+          {
+            "t": 1791829800,
+            "c": 37.97
+          },
+          {
+            "t": 1791833400,
+            "c": 37.74
+          },
+          {
+            "t": 1791898200,
+            "c": 37.81
+          },
+          {
+            "t": 1791901800,
+            "c": 37.89
+          },
+          {
+            "t": 1791905400,
+            "c": 37.87
+          },
+          {
+            "t": 1791909000,
+            "c": 37.91
+          },
+          {
+            "t": 1791912600,
+            "c": 37.92
+          },
+          {
+            "t": 1791916200,
+            "c": 37.9
+          },
+          {
+            "t": 1791919800,
+            "c": 37.66
+          },
+          {
+            "t": 1791984600,
+            "c": 37.54
+          },
+          {
+            "t": 1791988200,
+            "c": 37.73
+          },
+          {
+            "t": 1791991800,
+            "c": 37.84
+          },
+          {
+            "t": 1791995400,
+            "c": 37.81
+          },
+          {
+            "t": 1791999000,
+            "c": 37.9
+          },
+          {
+            "t": 1792002600,
+            "c": 37.85
+          },
+          {
+            "t": 1792006200,
+            "c": 38.25
+          },
+          {
+            "t": 1792071000,
+            "c": 39.31
+          },
+          {
+            "t": 1792074600,
+            "c": 39.12
+          },
+          {
+            "t": 1792078200,
+            "c": 39.01
+          },
+          {
+            "t": 1792081800,
+            "c": 38.73
+          },
+          {
+            "t": 1792085400,
+            "c": 38.61
+          },
+          {
+            "t": 1792089000,
+            "c": 38.33
+          },
+          {
+            "t": 1792092600,
+            "c": 38.34
+          },
+          {
+            "t": 1792157400,
+            "c": 38.32
+          },
+          {
+            "t": 1792161000,
+            "c": 38.45
+          },
+          {
+            "t": 1792164600,
+            "c": 38.39
+          },
+          {
+            "t": 1792168200,
+            "c": 38.28
+          },
+          {
+            "t": 1792171800,
+            "c": 38.31
+          },
+          {
+            "t": 1792175400,
+            "c": 38.33
+          },
+          {
+            "t": 1792179000,
+            "c": 38.22
+          },
+          {
+            "t": 1792180800,
+            "c": 38.23
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1789651800,
+            "c": 37.69
+          },
+          {
+            "t": 1789738200,
+            "c": 37.6
+          },
+          {
+            "t": 1789997400,
+            "c": 37.26
+          },
+          {
+            "t": 1790083800,
+            "c": 37.53
+          },
+          {
+            "t": 1790170200,
+            "c": 37.97
+          },
+          {
+            "t": 1790256600,
+            "c": 37.76
+          },
+          {
+            "t": 1790343000,
+            "c": 38.04
+          },
+          {
+            "t": 1790602200,
+            "c": 37.78
+          },
+          {
+            "t": 1790688600,
+            "c": 38.01
+          },
+          {
+            "t": 1790775000,
+            "c": 37.57
+          },
+          {
+            "t": 1790861400,
+            "c": 37.84
+          },
+          {
+            "t": 1790947800,
+            "c": 37.99
+          },
+          {
+            "t": 1791207000,
+            "c": 37.61
+          },
+          {
+            "t": 1791293400,
+            "c": 37.36
+          },
+          {
+            "t": 1791379800,
+            "c": 36.91
+          },
+          {
+            "t": 1791466200,
+            "c": 37.59
+          },
+          {
+            "t": 1791552600,
+            "c": 37.48
+          },
+          {
+            "t": 1791811800,
+            "c": 37.71
+          },
+          {
+            "t": 1791898200,
+            "c": 37.65
+          },
+          {
+            "t": 1791984600,
+            "c": 38.23
+          },
+          {
+            "t": 1792071000,
+            "c": 38.35
+          },
+          {
+            "t": 1792157400,
+            "c": 38.23
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1760328000,
+            "c": 42.23
+          },
+          {
+            "t": 1760932800,
+            "c": 36.37
+          },
+          {
+            "t": 1761537600,
+            "c": 34.26
+          },
+          {
+            "t": 1762146000,
+            "c": 36.57
+          },
+          {
+            "t": 1762750800,
+            "c": 38.22
+          },
+          {
+            "t": 1763355600,
+            "c": 37.76
+          },
+          {
+            "t": 1763960400,
+            "c": 37.24
+          },
+          {
+            "t": 1764565200,
+            "c": 36.5
+          },
+          {
+            "t": 1765170000,
+            "c": 36.43
+          },
+          {
+            "t": 1765774800,
+            "c": 36.64
+          },
+          {
+            "t": 1766379600,
+            "c": 36.38
+          },
+          {
+            "t": 1766984400,
+            "c": 34.38
+          },
+          {
+            "t": 1767589200,
+            "c": 35.63
+          },
+          {
+            "t": 1768194000,
+            "c": 36.28
+          },
+          {
+            "t": 1768798800,
+            "c": 36.46
+          },
+          {
+            "t": 1769403600,
+            "c": 36.78
+          },
+          {
+            "t": 1770008400,
+            "c": 38.15
+          },
+          {
+            "t": 1770613200,
+            "c": 40.78
+          },
+          {
+            "t": 1771218000,
+            "c": 40.3
+          },
+          {
+            "t": 1771822800,
+            "c": 41.0
+          },
+          {
+            "t": 1772427600,
+            "c": 41.96
+          },
+          {
+            "t": 1773028800,
+            "c": 42.39
+          },
+          {
+            "t": 1773633600,
+            "c": 40.52
+          },
+          {
+            "t": 1774238400,
+            "c": 42.36
+          },
+          {
+            "t": 1774843200,
+            "c": 43.73
+          },
+          {
+            "t": 1775448000,
+            "c": 44.23
+          },
+          {
+            "t": 1776052800,
+            "c": 42.84
+          },
+          {
+            "t": 1776657600,
+            "c": 41.84
+          },
+          {
+            "t": 1777262400,
+            "c": 42.5
+          },
+          {
+            "t": 1777867200,
+            "c": 42.5
+          },
+          {
+            "t": 1778472000,
+            "c": 40.52
+          },
+          {
+            "t": 1779076800,
+            "c": 40.06
+          },
+          {
+            "t": 1779681600,
+            "c": 37.71
+          },
+          {
+            "t": 1780286400,
+            "c": 38.39
+          },
+          {
+            "t": 1780891200,
+            "c": 38.88
+          },
+          {
+            "t": 1781496000,
+            "c": 36.24
+          },
+          {
+            "t": 1782100800,
+            "c": 38.04
+          },
+          {
+            "t": 1782705600,
+            "c": 40.78
+          },
+          {
+            "t": 1783310400,
+            "c": 38.16
+          },
+          {
+            "t": 1783915200,
+            "c": 39.08
+          },
+          {
+            "t": 1784520000,
+            "c": 37.52
+          },
+          {
+            "t": 1785124800,
+            "c": 39.02
+          },
+          {
+            "t": 1785729600,
+            "c": 39.63
+          },
+          {
+            "t": 1786334400,
+            "c": 40.92
+          },
+          {
+            "t": 1786939200,
+            "c": 40.99
+          },
+          {
+            "t": 1787544000,
+            "c": 41.27
+          },
+          {
+            "t": 1788148800,
+            "c": 38.78
+          },
+          {
+            "t": 1788753600,
+            "c": 38.89
+          },
+          {
+            "t": 1789358400,
+            "c": 37.6
+          },
+          {
+            "t": 1789963200,
+            "c": 38.04
+          },
+          {
+            "t": 1790568000,
+            "c": 37.99
+          },
+          {
+            "t": 1791172800,
+            "c": 37.48
+          },
+          {
+            "t": 1791777600,
+            "c": 38.23
+          },
+          {
+            "t": 1792180802,
+            "c": 38.23
+          }
+        ],
+        "chg_1d": -1.32,
+        "chg_7d": 2.0,
+        "chg_1mo": 1.43,
+        "chg_1y": -9.47,
+        "sma20_dist": 1.29
+      },
+      "news": [
+        {
+          "title": "/C O R R E C T I O N -- Tootsie Roll Industries/",
+          "link": "https://finance.yahoo.com/sectors/healthcare/articles/mr-owl-brings-tootsie-rolls-130000842.html?.tsrc=rss",
+          "date": "Tue, 16 Jun 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Why Investors Are Watching These 3 Meme Stocks Now: Wendy’s, Krispy Kreme, and Tootsie Roll",
+          "link": "https://247wallst.com/investing/2026/07/10/why-investors-are-watching-these-3-meme-stocks-now-wendys-krispy-kreme-and-tootsie-roll/?.tsrc=rss",
+          "date": "Fri, 10 Jul 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Can Hershey's Q2 Margin Rebound Extend as Pricing Pressures Volume?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hersheys-q2-margin-rebound-extend-160500062.html?.tsrc=rss",
+          "date": "Wed, 26 Aug 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Is Hershey Stock a Buy as Earnings Rebound but Valuation Stays High?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hershey-stock-buy-earnings-rebound-160000010.html?.tsrc=rss",
+          "date": "Wed, 26 Aug 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (+2.0%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Reddit diskutiert Tootsie Roll Industries, Inc. aktuell gemischt (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "💰 Einstiegs-Debatte"
+      ],
+      "momentum": 54,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
+      "timeline": [
+        {
+          "day": "2026-10-14",
+          "mentions": 3
+        },
+        {
+          "day": "2026-10-15",
+          "mentions": 3
+        },
+        {
+          "day": "2026-10-16",
+          "mentions": 3
+        },
+        {
+          "day": "2026-10-17",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 15,
+      "reddit_vs_markt": {
+        "reddit": 54,
+        "markt": 58,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-10-15T08:41:37.745353+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 38.23
+        },
+        {
+          "ts": "2026-10-15T14:32:41.229680+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 39.31
+        },
+        {
+          "ts": "2026-10-16T02:18:41.152266+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 38.35
+        },
+        {
+          "ts": "2026-10-16T08:36:16.103034+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 38.35
+        },
+        {
+          "ts": "2026-10-16T14:24:43.318671+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 38.19
+        },
+        {
+          "ts": "2026-10-17T02:11:29.588876+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 38.23
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 13,
-    "n_evaluated": 273,
+    "n_evaluated": 276,
     "rate_kaufen": 0,
     "rate_verkaufen": 0,
-    "rate_beobachten": 18,
+    "rate_beobachten": 17,
     "kauf_perf_7d": -16.8,
-    "kauf_perf_30d": -13.5
+    "kauf_perf_30d": -14.5
   },
   "history_evaluated": [
-    {
-      "ts": "2026-10-07T03:22:35.699321+00:00",
-      "ticker": "NVDA",
-      "rec": "kaufen",
-      "confidence": 84,
-      "engagement": 11,
-      "price": 239.24,
-      "chg_since": -10.5,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-07T03:22:35.699321+00:00",
-      "ticker": "TSLA",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 8,
-      "price": 380.68,
-      "chg_since": -6.82,
-      "correct": false,
-      "age_days": 9
-    },
     {
       "ts": "2026-10-07T10:42:10.535328+00:00",
       "ticker": "AMD",
@@ -3489,6 +4036,17 @@
       "engagement": 8,
       "price": 380.68,
       "chg_since": -6.82,
+      "correct": false,
+      "age_days": 9
+    },
+    {
+      "ts": "2026-10-07T10:42:10.535328+00:00",
+      "ticker": "SPCX",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 10,
+      "price": 171.92,
+      "chg_since": -15.06,
       "correct": false,
       "age_days": 9
     },
@@ -3537,6 +4095,17 @@
       "age_days": 9
     },
     {
+      "ts": "2026-10-07T18:08:32.664697+00:00",
+      "ticker": "SPCX",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 10,
+      "price": 167.07,
+      "chg_since": -12.59,
+      "correct": false,
+      "age_days": 9
+    },
+    {
       "ts": "2026-10-07T23:55:55.129306+00:00",
       "ticker": "AMD",
       "rec": "kaufen",
@@ -3545,7 +4114,7 @@
       "price": 645.86,
       "chg_since": -18.13,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-07T23:55:55.129306+00:00",
@@ -3556,7 +4125,7 @@
       "price": 1088.0,
       "chg_since": -19.22,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-07T23:55:55.129306+00:00",
@@ -3567,7 +4136,7 @@
       "price": 237.47,
       "chg_since": -9.83,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-07T23:55:55.129306+00:00",
@@ -3578,7 +4147,7 @@
       "price": 46.31,
       "chg_since": -13.26,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-08T03:53:21.307902+00:00",
@@ -3721,7 +4290,7 @@
       "price": 1088.0,
       "chg_since": -19.22,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-09T00:03:12.160436+00:00",
@@ -3732,7 +4301,7 @@
       "price": 46.31,
       "chg_since": -13.26,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-09T00:03:12.160436+00:00",
@@ -3743,7 +4312,7 @@
       "price": 237.47,
       "chg_since": -9.83,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-09T00:03:12.160436+00:00",
@@ -3754,7 +4323,7 @@
       "price": 645.86,
       "chg_since": -18.13,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-09T08:10:44.382218+00:00",
@@ -3871,13 +4440,49 @@
   "trump_tracker": {
     "posts": [
       {
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117453447477979909 View image Quoted Donald J. Trump View video",
+        "url": "https://www.trumpstruth.org/statuses/42394",
+        "date": "Sat, 17 Oct 2026 00:37",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/42395",
+        "date": "Sat, 17 Oct 2026 00:36",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117453413930971351 They will all go to jail for a long period of time!!! View image Quoted Donald J. Trump View image",
+        "url": "https://www.trumpstruth.org/statuses/42393",
+        "date": "Sat, 17 Oct 2026 00:28",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View image",
+        "url": "https://www.trumpstruth.org/statuses/42392",
+        "date": "Sat, 17 Oct 2026 00:27",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
         "text": "Just landed in Georgia, heading over to the Big Rally — Lots of people! See you soon. Will be broadcast LIVE on Right Side Broadcasting Network (RSBN)! We must get Congressman Mike Collins elected to the U.S. Senate — He is far superior to Pee Wee Herman (Jon Osoff). Likewise, Rick Jackson will be a fantastic Governor of the Peach State! President DONALD J. TRUMP",
         "url": "https://www.trumpstruth.org/statuses/42386",
         "date": "Fri, 16 Oct 2026 19:12",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View video",
@@ -3886,7 +4491,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View video",
@@ -3895,7 +4500,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View video",
@@ -3904,46 +4509,44 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
+        "is_new": false
+      },
+      {
+        "text": "Trump Signs Order Exempting Russia From Sanctions Legislation - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
+        "date": "Sat, 17 Oct 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Sanktionen"
+        ],
         "is_new": true
       },
       {
-        "text": "RT @ DanScavino 𝙂𝙚𝙩 𝙮𝙤𝙪𝙧 𝙩𝙞𝙘𝙠𝙚𝙩𝙨 𝙩𝙤𝙙𝙖𝙮 𝙛𝙤𝙧 𝙪𝙥𝙘𝙤𝙢𝙞𝙣𝙜 𝙏𝙧𝙪𝙢𝙥 𝙍𝙖𝙡𝙡𝙞𝙚𝙨 𝙞𝙣 𝙂𝙚𝙤𝙧𝙜𝙞𝙖, 𝙆𝙚𝙣𝙩𝙪𝙘𝙠𝙮, 𝙆𝙖𝙣𝙨𝙖𝙨, 𝙉𝙤𝙧𝙩𝙝 𝘾𝙖𝙧𝙤𝙡𝙞𝙣𝙖, 𝙎𝙤𝙪𝙩𝙝 𝘾𝙖𝙧𝙤𝙡𝙞𝙣𝙖, 𝙄𝙤𝙬𝙖, 𝙖𝙣𝙙 𝙁𝙡𝙤𝙧𝙞𝙙𝙖—𝙒𝙞𝙩𝙝 𝙢𝙤𝙧𝙚 𝙡𝙤𝙘𝙖𝙩𝙞𝙤𝙣𝙨 𝙗𝙚𝙞𝙣𝙜 𝙖𝙣𝙣𝙤𝙪𝙣𝙘𝙚𝙙 𝙨𝙤𝙤𝙣! 🚨𝙏𝙞𝙘𝙠𝙚𝙩 𝙖𝙣𝙙 𝙫𝙚𝙣𝙪𝙚 𝙞𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 𝙗𝙚𝙡𝙤𝙬🚨 🗓️🕒10/16/26 📍DALTON, GEORGIA 🎟️ https:// events.gop.com/events/midterm- rally-in-dalton-georgia-president-donald-j-trump 🗓️🕑10/17/26 📍 KENTUCKY 🎟️ https:// events.gop.com/even",
-        "url": "https://www.trumpstruth.org/statuses/42390",
-        "date": "Fri, 16 Oct 2026 18:58",
-        "source": "Truth Social",
+        "text": "Trump waives many Russia-related sanctions, tariffs before they were to take effect under new law - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
+        "date": "Sat, 17 Oct 2026",
+        "source": "News (X/Presse)",
         "companies": [],
-        "policy": [],
+        "policy": [
+          "🏛️ Zölle",
+          "🏛️ Sanktionen"
+        ],
         "is_new": true
       },
       {
-        "text": "View video",
-        "url": "https://www.trumpstruth.org/statuses/42385",
-        "date": "Fri, 16 Oct 2026 13:40",
-        "source": "Truth Social",
+        "text": "Trump waives many Russian sanctions under new law backed by Lindsey Graham - Fox Business",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM2hWeUNPZ1JiQ29zcmlfTWhvYjY0RlZxak9qRXZ1ZXlIWDdmNlpCQmdvOHBVYmZwd3BOdnZwTU5IOUJGNDh5YU9oam1qckdOQTQzU0FCd0gwLWRabGJXUFBJS3JrdmNyaXJaUjRnSDlhSkxUaGg4aGcxbTN2WFpkS2dCczJZQS05ZGcxY2V1V1ZnRkNiZTJiYmxZYkFYSE1kWlVfRUlXQWk3d1VQ0gGyAUFVX3lxTE9kaWgybEFONW1xaFhJYXpXeHJNUi1xOTNtcjctajRUbGFJMWdpcmJOdnVPbjc0aGEyenU3NFJqc2dlZ2FhNWtVTlZiQUNicWR5YTdiS3hhNlBiSWUxOVZVMl96V25walRLamRBSkJvMllrWkFGQ0YwODQyMEtEcGlDMWxJUFdBOTctRGlRalRGQnlSZ1o3Zl9GbmxCUVhMMGxpWXoxdk1NVFlKbW9ubVlKdEE?oc=5",
+        "date": "Sat, 17 Oct 2026",
+        "source": "News (X/Presse)",
         "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "A great man!!! President DJT Justice Alito confirms he is considering retirement: https://www. politico.com/news/2026/10/02/a lito-supreme-court-retirement-01105789",
-        "url": "https://www.trumpstruth.org/statuses/42384",
-        "date": "Fri, 16 Oct 2026 08:47",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "RT @ mrddmia Sam Adkisson worked with me on the Senate Judiciary Committee for Justice Kavanaugh's confirmation. He is a friend, outstanding colleague, brilliant attorney, and committed constitutionalist. President Trump hit a grand-slam by picking Sam for a lifetime appointment to the federal bench in Tennessee. Reposted 🇺🇸 Mike Davis 🇺🇸 RT: https://truthsocial.com/users/realDonaldTrump/statuses/",
-        "url": "https://www.trumpstruth.org/statuses/42383",
-        "date": "Fri, 16 Oct 2026 08:46",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
+        "policy": [
+          "🏛️ Sanktionen"
+        ],
+        "is_new": true
       }
     ],
-    "market_hits": 0
+    "market_hits": 3
   },
   "spannende_aktien": [
     {
@@ -3952,7 +4555,7 @@
       "price": 2.35,
       "currency": "USD",
       "chg_1d": 72.79,
-      "vol_ratio": 198.5,
+      "vol_ratio": 200.6,
       "warum": [
         "Exascale Labs Holdings Inc. Reports 111% Revenue Growth for Full Fiscal Year 202",
         "Exascale and Compal Sign Letter of Intent to Build Data-Center-Grade Native 800 "
@@ -3980,12 +4583,45 @@
       ]
     },
     {
+      "ticker": "UVXY",
+      "name": "ProShares Ultra VIX Short-Term Futures ETF",
+      "price": 18.5,
+      "currency": "USD",
+      "chg_1d": 12.39,
+      "vol_ratio": 5.9,
+      "warum": [
+        "$10,000 Becomes $2,586 in One Year: The Hidden Decay Engine Inside UVXY",
+        "Seeking Stability? Investing in These ETFs Could Make Sense Now"
+      ],
+      "bedeutung": "Extreme Bewegung (+12.39%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "$10,000 Becomes $2,586 in One Year: The Hidden Decay Engine Inside UVXY",
+          "link": "https://247wallst.com/investing/2026/06/23/10000-becomes-2586-in-one-year-the-hidden-decay-engine-inside-uvxy/?.tsrc=rss",
+          "date": "Tue, 23 Jun 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Seeking Stability? Investing in These ETFs Could Make Sense Now",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/seeking-stability-investing-etfs-could-153400975.html?.tsrc=rss",
+          "date": "Fri, 17 Jul 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
       "ticker": "CRGY",
       "name": "Crescent Energy Company",
       "price": 13.77,
       "currency": "USD",
       "chg_1d": 10.07,
-      "vol_ratio": 2.2,
+      "vol_ratio": 2.3,
       "warum": [
         "Crescent Energy Schedules Third Quarter 2026 Earnings Release and Conference Cal",
         "The Zacks Analyst Blog Highlights Crescent Energy, Devon Energy, Energy Transfer"
@@ -4008,6 +4644,38 @@
           "title": "The Zacks Analyst Blog Highlights Crescent Energy, Devon Energy, Energy Transfer, Cenovus Energy and Drilling Tools International",
           "link": "https://finance.yahoo.com/energy/articles/zacks-analyst-blog-highlights-crescent-104600127.html?.tsrc=rss",
           "date": "Wed, 14 Oct 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "CBRS",
+      "name": "Cerebras Systems Inc.",
+      "price": 127.21,
+      "currency": "USD",
+      "chg_1d": -10.52,
+      "vol_ratio": 1.3,
+      "warum": [
+        "Should You Hold on to Cerebras Stock Despite Its 25% One-Month Dip?",
+        "This Hot Artificial Intelligence IPO Stock Is Down 52%, but It Could Double From"
+      ],
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
+      ],
+      "news": [
+        {
+          "title": "Should You Hold on to Cerebras Stock Despite Its 25% One-Month Dip?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hold-cerebras-stock-despite-25-170200599.html?.tsrc=rss",
+          "date": "Fri, 16 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "This Hot Artificial Intelligence IPO Stock Is Down 52%, but It Could Double From Here, According to Wall Street",
+          "link": "https://www.fool.com/investing/2026/10/16/hot-artificial-intelligence-ipo-stock-down-cbrs/?.tsrc=rss",
+          "date": "Fri, 16 Oct 2026",
           "tone": "neu"
         }
       ]
@@ -4043,69 +4711,6 @@
           "tone": "neu"
         }
       ]
-    },
-    {
-      "ticker": "PAYP",
-      "name": "PayPay Corporation",
-      "price": 15.68,
-      "currency": "USD",
-      "chg_1d": 6.96,
-      "vol_ratio": 2.0,
-      "warum": [
-        "These 7 major S&P 500 stocks need to rally at least 200% to reclaim their peaks",
-        "Does Paypay (PAYP) Have the Potential to Rally 47.37% as Wall Street Analysts Ex"
-      ],
-      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "These 7 major S&P 500 stocks need to rally at least 200% to reclaim their peaks",
-          "link": "https://finance.yahoo.com/markets/article/these-7-major-sp-500-stocks-need-to-rally-at-least-200-to-reclaim-their-peaks-161550241.html?.tsrc=rss",
-          "date": "Wed, 07 Oct 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Does Paypay (PAYP) Have the Potential to Rally 47.37% as Wall Street Analysts Expect?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/does-paypay-payp-potential-rally-135502271.html?.tsrc=rss",
-          "date": "Wed, 26 Aug 2026",
-          "tone": "pos"
-        }
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla, Inc.",
-      "price": 354.72,
-      "currency": "USD",
-      "chg_1d": -2.13,
-      "vol_ratio": 1.8,
-      "warum": [
-        "Stock Market Today, Oct. 16: Tesla Slips 2% as Roadster Reveal Fades Before Earn",
-        "Tesla investors hardly impressed with Elon Musk's 'flying car'"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Stock Market Today, Oct. 16: Tesla Slips 2% as Roadster Reveal Fades Before Earnings",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/10/16/stock-market-today-oct-16-tesla-falls-as-roadster-reveal-fades-before-earnings/?.tsrc=rss",
-          "date": "Fri, 16 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Tesla investors hardly impressed with Elon Musk's 'flying car'",
-          "link": "https://www.thestreet.com/crypto/markets/tesla-investors-hardly-impressed-with-elon-musks-flying-car?.tsrc=rss",
-          "date": "Fri, 16 Oct 2026",
-          "tone": "neu"
-        }
-      ]
     }
   ],
   "ma_deals": [
@@ -4118,9 +4723,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaUt4MXdpdmplZ3JVZUFyM3ZjWmVzN3JUc0hrY2FkNWRCZTdGZTVTLTFiSmY1emFwckJQTGYzcDNVRFVNTXE1NFdma1VOYTlwX0w0TDVfa29SMGIwLWY2WG9jUE81ZENiNkZUeHZZcUpuQ2M4YUFpbi1SZ1JWT2NMSGdhUlYzdElfZnc1SkV0LWJzZnlhaWZ1ZG8xUkhqUW5sdkx6TFo0NXRBQQ?oc=5",
-      "date": "Fri, 16 Oct 2026",
-      "headline": "CVC Is Said to Near €1.8 Billion Panzani-Cerealis Merger - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnUzVU9za2JCU2ZxTF8wTV9aMnZaQXJMTURKN21YWHZvT1BkalJHbWR1TExLS09uVEtNN0lWTFpaQWFaVjdVenlVYzMyMVFxaDNqYTFTR3R0QTlNdG5JRkJkN19PWmhrOEZnTW9hRXpka2dSNkxhcXluRTBuWFV4SkpucENpeV9KcjZ2TmdROTlzZk1NSnlkdXRnU240aHRYN3c?oc=5",
+      "date": "Sat, 17 Oct 2026",
+      "headline": "Days after its $110 billion merger, Skydance hits Discovery+ subscribers with a price hike - Yahoo Finance",
       "source": "Google News"
     },
     {
@@ -4132,9 +4737,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmhPWmlsZnoxZ0xnQTFjU2dkT1lQN3F3c3BUMXdBWnd6OGxJbE5LRUpJbUN2eHF1RXlNVjV6UkN2RHBVckszTk12UDNRMjRPeWI5eE9rN21YM3pjVmEtYlk3U2ZpUXZaSUd6aEJXS3Z3NWFfcXd0VFMwVWszQ1BHT3o2UXV4cGNFR1ZNWVQ0MGU4SDQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaUt4MXdpdmplZ3JVZUFyM3ZjWmVzN3JUc0hrY2FkNWRCZTdGZTVTLTFiSmY1emFwckJQTGYzcDNVRFVNTXE1NFdma1VOYTlwX0w0TDVfa29SMGIwLWY2WG9jUE81ZENiNkZUeHZZcUpuQ2M4YUFpbi1SZ1JWT2NMSGdhUlYzdElfZnc1SkV0LWJzZnlhaWZ1ZG8xUkhqUW5sdkx6TFo0NXRBQQ?oc=5",
       "date": "Fri, 16 Oct 2026",
-      "headline": "Varonis to Go Private in $6.3 Billion Takeover - Benzinga",
+      "headline": "CVC Is Said to Near €1.8 Billion Panzani-Cerealis Merger - Bloomberg.com",
       "source": "Google News"
     },
     {
@@ -4160,9 +4765,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeXR2WFA4ZXJNbzhqTTZaVEhIaUx1OTMxQkFfZklzb2lSWWN5bk9OcENrZGJZMXdMdzVUZDU1ODZGU0NCRFZfcjBWN3FUMFJVcnkxOWk1eDlRdF9oOHczd2NiYVdaWDFCWktZd01Sbkd2dU5TXzBQYm5GNTJuVzlhNjZVNHViMjEwZVp1UDQwY0xfSW9QT05GYXNrOENhYVllYzBkWERmdE1oRk1QZ1Vmb3ZOOXIzNW45LWNMUWduVklnN2VuUndYOHJzX3M?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcjhiQ29OM2c2Vk1yaUdvMUtCLU1hWnJnWDVTSGduV2RvTTh0bUJTTVpTc2phN2VoWDVmbFduTFd4clF2cnNNcGE0MTUxeDNMazBXVWthM2ozeXAzc1ZzNUg0ZHNTX3NuaE5rX3R2WDJqeHJUcVRJREc0NEhxTXB1UHZCdU5pZnZpTXpybVBB?oc=5",
       "date": "Fri, 16 Oct 2026",
-      "headline": "CVC nears €1.8 billion merger of pasta maker Panzani with Cerealis - Bloomberg - Investing.com",
+      "headline": "Kroger Merger Fallout: Albertsons Seeks $8 Billion at Trial - Abasto, Food and Beverage Industry News",
       "source": "Google News"
     }
   ]
