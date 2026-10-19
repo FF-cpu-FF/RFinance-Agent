@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T16:42:05.015588+00:00",
+  "generated_at": "2026-10-19T21:51:31.249805+00:00",
   "total_posts": 250,
-  "unique_tickers": 200,
+  "unique_tickers": 198,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -33,7 +33,7 @@
       "confidence": 67,
       "sentiment": 1,
       "mentions": 5,
-      "mentions_delta": -1,
+      "mentions_delta": 0,
       "engagement": 12,
       "sources": [
         "wallstreetbets",
@@ -95,7 +95,7 @@
       ],
       "price": {
         "available": true,
-        "price": 547.33,
+        "price": 538.05,
         "currency": "USD",
         "name": "Advanced Micro Devices, Inc.",
         "chart_1d": [
@@ -149,11 +149,63 @@
           },
           {
             "t": 1792427400,
-            "c": 547.67
+            "c": 547.2
           },
           {
-            "t": 1792428157,
-            "c": 547.33
+            "t": 1792428300,
+            "c": 543.13
+          },
+          {
+            "t": 1792429200,
+            "c": 542.81
+          },
+          {
+            "t": 1792430100,
+            "c": 541.15
+          },
+          {
+            "t": 1792431000,
+            "c": 540.22
+          },
+          {
+            "t": 1792431900,
+            "c": 540.55
+          },
+          {
+            "t": 1792432800,
+            "c": 538.98
+          },
+          {
+            "t": 1792433700,
+            "c": 537.36
+          },
+          {
+            "t": 1792434600,
+            "c": 539.91
+          },
+          {
+            "t": 1792435500,
+            "c": 540.05
+          },
+          {
+            "t": 1792436400,
+            "c": 539.05
+          },
+          {
+            "t": 1792437300,
+            "c": 541.11
+          },
+          {
+            "t": 1792438200,
+            "c": 541.83
+          },
+          {
+            "t": 1792439100,
+            "c": 537.76
+          },
+          {
+            "t": 1792440000,
+            "c": 538.05
           }
         ],
         "chart_5d": [
@@ -283,11 +335,23 @@
           },
           {
             "t": 1792427400,
-            "c": 547.67
+            "c": 541.15
           },
           {
-            "t": 1792428157,
-            "c": 547.33
+            "t": 1792431000,
+            "c": 537.36
+          },
+          {
+            "t": 1792434600,
+            "c": 541.11
+          },
+          {
+            "t": 1792438200,
+            "c": 537.76
+          },
+          {
+            "t": 1792440000,
+            "c": 538.05
           }
         ],
         "chart_1mo": [
@@ -373,7 +437,7 @@
           },
           {
             "t": 1792416600,
-            "c": 547.33
+            "c": 538.05
           }
         ],
         "chart_1y": [
@@ -587,14 +651,14 @@
           },
           {
             "t": 1792382400,
-            "c": 547.33
+            "c": 538.05
           }
         ],
-        "chg_1d": -0.8,
-        "chg_7d": -7.89,
-        "chg_1mo": -11.08,
-        "chg_1y": 116.4,
-        "sma20_dist": -9.83
+        "chg_1d": -2.49,
+        "chg_7d": -9.46,
+        "chg_1mo": -12.59,
+        "chg_1y": 112.74,
+        "sma20_dist": -11.29
       },
       "news": [
         {
@@ -604,26 +668,26 @@
           "tone": "neu"
         },
         {
-          "title": "Investor: ‘I Turned AMD Into $16 Million and Sold Everything, Did I Quit Too Soon?’",
-          "link": "https://247wallst.com/investing/2026/10/19/investor-i-turned-amd-into-16-million-and-sold-everything-did-i-quit-too-soon/?.tsrc=rss",
+          "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck",
+          "link": "https://finance.yahoo.com/m/fc8c5a2b-d77d-3107-a23a-2331f80e2b71/dow-jones-futures%3A-amd%2C.html?.tsrc=rss",
           "date": "Mon, 19 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "Stock Market Today: Dow Up, Nasdaq Rallies; Sandisk Surges As This Biotech Play Tests Entry (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/ee2fc04a-d21b-3b33-b9d2-0baa749bd849/stock-market-today%3A-dow-up%2C.html?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Nvidia wins CPU business from Modal, previously exclusive to AMD and Intel",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-wins-cpu-business-modal-145141641.html?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "pos"
-        },
-        {
           "title": "Chip Stocks Catch A Break After Prolonged Slide. AI Names Among Leaders.",
           "link": "https://finance.yahoo.com/m/19b44d1f-62e7-367a-9e15-8de133b8d450/chip-stocks-catch-a-break.html?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Here's What a $5,000 Investment in AMD Could Be Worth by 2032",
+          "link": "https://www.fool.com/investing/2026/10/19/heres-what-a-5000-investment-in-amd-could-be-worth/?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AMD vs. TSMC: How Much Faster Must AMD’s Cash Flow Grow?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-vs-tsmc-much-faster-185640358.html?.tsrc=rss",
           "date": "Mon, 19 Oct 2026",
           "tone": "neu"
         }
@@ -631,9 +695,9 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs -7.89% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -11.08%.",
-          "-9.83% unter SMA20 – technisch angeschlagen.",
+          "Kurs -9.46% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -12.59%.",
+          "-11.29% unter SMA20 – technisch angeschlagen.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -672,18 +736,10 @@
       "quality_pct": 34,
       "reddit_vs_markt": {
         "reddit": 56,
-        "markt": 18,
+        "markt": 12,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-18T17:00:31.109137+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 57,
-          "engagement": 14,
-          "price": 528.75
-        },
         {
           "ts": "2026-10-18T19:52:12.837847+00:00",
           "ticker": "AMD",
@@ -723,705 +779,14 @@
           "confidence": 67,
           "engagement": 12,
           "price": 547.33
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology, Inc.",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 64,
-      "sentiment": 1,
-      "mentions": 4,
-      "mentions_delta": 1,
-      "engagement": 7,
-      "sources": [
-        "wallstreetbets",
-        "TrumpsTrades",
-        "Aktien"
-      ],
-      "titles": [
-        "YOLO: Micron $MU 0dte $880 calls",
-        "Senate vote to end Iran War failed 49–50, John Fetterman was the only Democrat voting against it. Here’s his s",
-        "Companies that donated to Trump's White House Ballroom project have tripled the S&P 500 returns"
-      ],
-      "top_posts": [
-        {
-          "title": "YOLO: Micron $MU 0dte $880 calls",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1x9ujsu/yolo_micron_mu_0dte_880_calls/"
         },
         {
-          "title": "Senate vote to end Iran War failed 49–50, John Fetterman was the only Democrat voting against it. Here’s his s",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1wrr059/senate_vote_to_end_iran_war_failed_4950_john/"
-        },
-        {
-          "title": "Companies that donated to Trump's White House Ballroom project have tripled the S&P 500 returns",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1wfbyb3/companies_that_donated_to_trumps_white_house/"
-        },
-        {
-          "title": "Anlagenberatung: Suche Aktie für kurzfristige Investition",
-          "url": "https://www.reddit.com/r/Aktien/comments/1wxbf9m/anlagenberatung_suche_aktie_für_kurzfristige/"
-        }
-      ],
-      "topics": [
-        "YOLO",
-        "Micron",
-        "Calls",
-        "Senate"
-      ],
-      "themen": [
-        {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 33,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 33,
-          "beitraege": 1,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
-        }
-      ],
-      "bull_case": [
-        "Call-Optionen-Aktivität"
-      ],
-      "bear_case": [],
-      "price": {
-        "available": true,
-        "price": 912.16,
-        "currency": "USD",
-        "name": "Micron Technology, Inc.",
-        "chart_1d": [
-          {
-            "t": 1792416600,
-            "c": 912.46
-          },
-          {
-            "t": 1792417500,
-            "c": 911.18
-          },
-          {
-            "t": 1792418400,
-            "c": 913.14
-          },
-          {
-            "t": 1792419300,
-            "c": 915.47
-          },
-          {
-            "t": 1792420200,
-            "c": 915.74
-          },
-          {
-            "t": 1792421100,
-            "c": 915.92
-          },
-          {
-            "t": 1792422000,
-            "c": 918.7
-          },
-          {
-            "t": 1792422900,
-            "c": 924.91
-          },
-          {
-            "t": 1792423800,
-            "c": 925.27
-          },
-          {
-            "t": 1792424700,
-            "c": 922.75
-          },
-          {
-            "t": 1792425600,
-            "c": 919.12
-          },
-          {
-            "t": 1792426500,
-            "c": 912.41
-          },
-          {
-            "t": 1792427400,
-            "c": 912.72
-          },
-          {
-            "t": 1792428164,
-            "c": 912.16
-          }
-        ],
-        "chart_5d": [
-          {
-            "t": 1791898200,
-            "c": 945.17
-          },
-          {
-            "t": 1791901800,
-            "c": 934.08
-          },
-          {
-            "t": 1791905400,
-            "c": 944.13
-          },
-          {
-            "t": 1791909000,
-            "c": 935.2
-          },
-          {
-            "t": 1791912600,
-            "c": 941.74
-          },
-          {
-            "t": 1791916200,
-            "c": 939.77
-          },
-          {
-            "t": 1791919800,
-            "c": 953.19
-          },
-          {
-            "t": 1791984600,
-            "c": 940.32
-          },
-          {
-            "t": 1791988200,
-            "c": 934.96
-          },
-          {
-            "t": 1791991800,
-            "c": 921.8
-          },
-          {
-            "t": 1791995400,
-            "c": 922.61
-          },
-          {
-            "t": 1791999000,
-            "c": 924.82
-          },
-          {
-            "t": 1792002600,
-            "c": 922.27
-          },
-          {
-            "t": 1792006200,
-            "c": 913.91
-          },
-          {
-            "t": 1792071000,
-            "c": 887.44
-          },
-          {
-            "t": 1792074600,
-            "c": 912.19
-          },
-          {
-            "t": 1792078200,
-            "c": 908.41
-          },
-          {
-            "t": 1792081800,
-            "c": 910.84
-          },
-          {
-            "t": 1792085400,
-            "c": 904.93
-          },
-          {
-            "t": 1792089000,
-            "c": 922.23
-          },
-          {
-            "t": 1792092600,
-            "c": 931.4
-          },
-          {
-            "t": 1792157400,
-            "c": 897.5
-          },
-          {
-            "t": 1792161000,
-            "c": 898.55
-          },
-          {
-            "t": 1792164600,
-            "c": 898.05
-          },
-          {
-            "t": 1792168200,
-            "c": 894.32
-          },
-          {
-            "t": 1792171800,
-            "c": 892.96
-          },
-          {
-            "t": 1792175400,
-            "c": 886.06
-          },
-          {
-            "t": 1792179000,
-            "c": 878.67
-          },
-          {
-            "t": 1792416600,
-            "c": 915.47
-          },
-          {
-            "t": 1792420200,
-            "c": 924.91
-          },
-          {
-            "t": 1792423800,
-            "c": 912.41
-          },
-          {
-            "t": 1792427400,
-            "c": 912.72
-          },
-          {
-            "t": 1792428164,
-            "c": 912.16
-          }
-        ],
-        "chart_1mo": [
-          {
-            "t": 1789997400,
-            "c": 1043.96
-          },
-          {
-            "t": 1790083800,
-            "c": 1096.16
-          },
-          {
-            "t": 1790170200,
-            "c": 1071.88
-          },
-          {
-            "t": 1790256600,
-            "c": 1080.53
-          },
-          {
-            "t": 1790343000,
-            "c": 1082.28
-          },
-          {
-            "t": 1790602200,
-            "c": 1053.98
-          },
-          {
-            "t": 1790688600,
-            "c": 1065.08
-          },
-          {
-            "t": 1790775000,
-            "c": 1065.11
-          },
-          {
-            "t": 1790861400,
-            "c": 1097.39
-          },
-          {
-            "t": 1790947800,
-            "c": 1074.89
-          },
-          {
-            "t": 1791207000,
-            "c": 1063.96
-          },
-          {
-            "t": 1791293400,
-            "c": 1045.56
-          },
-          {
-            "t": 1791379800,
-            "c": 1088.0
-          },
-          {
-            "t": 1791466200,
-            "c": 1035.84
-          },
-          {
-            "t": 1791552600,
-            "c": 1029.0
-          },
-          {
-            "t": 1791811800,
-            "c": 989.04
-          },
-          {
-            "t": 1791898200,
-            "c": 953.19
-          },
-          {
-            "t": 1791984600,
-            "c": 914.13
-          },
-          {
-            "t": 1792071000,
-            "c": 931.24
-          },
-          {
-            "t": 1792157400,
-            "c": 878.84
-          },
-          {
-            "t": 1792416600,
-            "c": 912.16
-          }
-        ],
-        "chart_1y": [
-          {
-            "t": 1760932800,
-            "c": 219.02
-          },
-          {
-            "t": 1761537600,
-            "c": 223.77
-          },
-          {
-            "t": 1762146000,
-            "c": 237.92
-          },
-          {
-            "t": 1762750800,
-            "c": 246.83
-          },
-          {
-            "t": 1763355600,
-            "c": 207.37
-          },
-          {
-            "t": 1763960400,
-            "c": 236.48
-          },
-          {
-            "t": 1764565200,
-            "c": 237.22
-          },
-          {
-            "t": 1765170000,
-            "c": 241.14
-          },
-          {
-            "t": 1765774800,
-            "c": 265.92
-          },
-          {
-            "t": 1766379600,
-            "c": 284.79
-          },
-          {
-            "t": 1766984400,
-            "c": 315.42
-          },
-          {
-            "t": 1767589200,
-            "c": 345.09
-          },
-          {
-            "t": 1768194000,
-            "c": 362.75
-          },
-          {
-            "t": 1768798800,
-            "c": 399.65
-          },
-          {
-            "t": 1769403600,
-            "c": 414.88
-          },
-          {
-            "t": 1770008400,
-            "c": 394.69
-          },
-          {
-            "t": 1770613200,
-            "c": 411.66
-          },
-          {
-            "t": 1771218000,
-            "c": 428.17
-          },
-          {
-            "t": 1771822800,
-            "c": 412.37
-          },
-          {
-            "t": 1772427600,
-            "c": 370.3
-          },
-          {
-            "t": 1773028800,
-            "c": 426.13
-          },
-          {
-            "t": 1773633600,
-            "c": 422.9
-          },
-          {
-            "t": 1774238400,
-            "c": 357.22
-          },
-          {
-            "t": 1774843200,
-            "c": 366.24
-          },
-          {
-            "t": 1775448000,
-            "c": 420.59
-          },
-          {
-            "t": 1776052800,
-            "c": 455.07
-          },
-          {
-            "t": 1776657600,
-            "c": 496.72
-          },
-          {
-            "t": 1777262400,
-            "c": 542.21
-          },
-          {
-            "t": 1777867200,
-            "c": 746.81
-          },
-          {
-            "t": 1778472000,
-            "c": 724.66
-          },
-          {
-            "t": 1779076800,
-            "c": 751.0
-          },
-          {
-            "t": 1779681600,
-            "c": 971.0
-          },
-          {
-            "t": 1780286400,
-            "c": 864.01
-          },
-          {
-            "t": 1780891200,
-            "c": 981.61
-          },
-          {
-            "t": 1781496000,
-            "c": 1133.99
-          },
-          {
-            "t": 1782100800,
-            "c": 1132.33
-          },
-          {
-            "t": 1782705600,
-            "c": 975.56
-          },
-          {
-            "t": 1783310400,
-            "c": 979.3
-          },
-          {
-            "t": 1783915200,
-            "c": 848.95
-          },
-          {
-            "t": 1784520000,
-            "c": 920.95
-          },
-          {
-            "t": 1785124800,
-            "c": 823.03
-          },
-          {
-            "t": 1785729600,
-            "c": 877.57
-          },
-          {
-            "t": 1786334400,
-            "c": 971.66
-          },
-          {
-            "t": 1786939200,
-            "c": 966.78
-          },
-          {
-            "t": 1787544000,
-            "c": 932.86
-          },
-          {
-            "t": 1788148800,
-            "c": 1016.59
-          },
-          {
-            "t": 1788753600,
-            "c": 975.26
-          },
-          {
-            "t": 1789358400,
-            "c": 1015.8
-          },
-          {
-            "t": 1789963200,
-            "c": 1082.28
-          },
-          {
-            "t": 1790568000,
-            "c": 1074.89
-          },
-          {
-            "t": 1791172800,
-            "c": 1029.0
-          },
-          {
-            "t": 1791777600,
-            "c": 878.84
-          },
-          {
-            "t": 1792382400,
-            "c": 912.16
-          }
-        ],
-        "chg_1d": -0.03,
-        "chg_7d": -7.77,
-        "chg_1mo": -12.63,
-        "chg_1y": 316.47,
-        "sma20_dist": -11.13
-      },
-      "news": [
-        {
-          "title": "Micron, Intel lead chip recovery, adding nearly $250B as most of Wall Street falls: Chart of the Day",
-          "link": "https://finance.yahoo.com/markets/article/micron-intel-lead-chip-recovery-adding-nearly-250b-as-most-of-wall-street-falls-chart-of-the-day-144315957.html?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "neg"
-        },
-        {
-          "title": "Micron Technology Stock: Is It a No-Brainer Buy at Less Than $900?",
-          "link": "https://www.fool.com/investing/2026/10/19/micron-technology-stock-is-it-a-no-brainer-buy-at-less-than-usd900/?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-looks-cheap-5-153626120.html?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Why Micron Stock Bounced on Monday",
-          "link": "https://www.fool.com/investing/2026/10/19/why-micron-stock-bounced-on-monday/?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Not Nvidia. Not Micron. This Artificial Intelligence (AI) Chip Stock Has the Most Upside Through 2030.",
-          "link": "https://www.fool.com/investing/2026/10/19/not-nvidia-not-micron-this-artificial-intelligence/?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "neu"
-        }
-      ],
-      "comparison": {
-        "verdict": "relativiert",
-        "points": [
-          "Kurs -7.77% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -12.63%.",
-          "-11.13% unter SMA20 – technisch angeschlagen.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
-        ]
-      },
-      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell gemischt (4 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
-        "🎯 Optionen & Short-Interest",
-        "💰 Einstiegs-Debatte",
-        "News: Micron, Intel lead chip recovery, adding nearly $250B as most of Wall "
-      ],
-      "momentum": 61,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 20,
-      "timeline": [
-        {
-          "day": "2026-10-16",
-          "mentions": 4
-        },
-        {
-          "day": "2026-10-17",
-          "mentions": 3
-        },
-        {
-          "day": "2026-10-18",
-          "mentions": 3
-        },
-        {
-          "day": "2026-10-19",
-          "mentions": 4
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 36,
-      "reddit_vs_markt": {
-        "reddit": 61,
-        "markt": 18,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-10-18T17:00:31.109137+00:00",
-          "ticker": "MU",
+          "ts": "2026-10-19T21:51:31.249805+00:00",
+          "ticker": "AMD",
           "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 5,
-          "price": 878.84
-        },
-        {
-          "ts": "2026-10-18T19:52:12.837847+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 5,
-          "price": 878.84
-        },
-        {
-          "ts": "2026-10-18T22:03:52.004785+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 5,
-          "price": 878.84
-        },
-        {
-          "ts": "2026-10-19T02:27:19.371373+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 5,
-          "price": 878.84
-        },
-        {
-          "ts": "2026-10-19T09:26:03.211268+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 5,
-          "price": 878.84
-        },
-        {
-          "ts": "2026-10-19T16:42:05.015588+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 7,
-          "price": 912.16
+          "confidence": 67,
+          "engagement": 12,
+          "price": 538.05
         }
       ]
     },
@@ -1504,7 +869,7 @@
       ],
       "price": {
         "available": true,
-        "price": 127.52,
+        "price": 126.93,
         "currency": "USD",
         "name": "DTE Energy Company",
         "chart_1d": [
@@ -1558,11 +923,63 @@
           },
           {
             "t": 1792427400,
-            "c": 127.54
+            "c": 127.57
           },
           {
-            "t": 1792428107,
-            "c": 127.52
+            "t": 1792428300,
+            "c": 127.25
+          },
+          {
+            "t": 1792429200,
+            "c": 127.5
+          },
+          {
+            "t": 1792430100,
+            "c": 127.48
+          },
+          {
+            "t": 1792431000,
+            "c": 127.47
+          },
+          {
+            "t": 1792431900,
+            "c": 127.65
+          },
+          {
+            "t": 1792432800,
+            "c": 127.58
+          },
+          {
+            "t": 1792433700,
+            "c": 127.4
+          },
+          {
+            "t": 1792434600,
+            "c": 127.31
+          },
+          {
+            "t": 1792435500,
+            "c": 127.12
+          },
+          {
+            "t": 1792436400,
+            "c": 127.07
+          },
+          {
+            "t": 1792437300,
+            "c": 126.69
+          },
+          {
+            "t": 1792438200,
+            "c": 126.99
+          },
+          {
+            "t": 1792439100,
+            "c": 126.93
+          },
+          {
+            "t": 1792440000,
+            "c": 126.93
           }
         ],
         "chart_5d": [
@@ -1692,11 +1109,23 @@
           },
           {
             "t": 1792427400,
-            "c": 127.54
+            "c": 127.48
           },
           {
-            "t": 1792428107,
-            "c": 127.52
+            "t": 1792431000,
+            "c": 127.4
+          },
+          {
+            "t": 1792434600,
+            "c": 126.69
+          },
+          {
+            "t": 1792438200,
+            "c": 126.93
+          },
+          {
+            "t": 1792440000,
+            "c": 126.93
           }
         ],
         "chart_1mo": [
@@ -1782,7 +1211,7 @@
           },
           {
             "t": 1792416600,
-            "c": 127.52
+            "c": 126.93
           }
         ],
         "chart_1y": [
@@ -1996,14 +1425,14 @@
           },
           {
             "t": 1792382400,
-            "c": 127.52
+            "c": 126.93
           }
         ],
-        "chg_1d": -0.77,
-        "chg_7d": -0.41,
-        "chg_1mo": 1.1,
-        "chg_1y": -10.1,
-        "sma20_dist": 1.67
+        "chg_1d": -1.23,
+        "chg_7d": -0.87,
+        "chg_1mo": 0.63,
+        "chg_1y": -10.51,
+        "sma20_dist": 1.23
       },
       "news": [
         {
@@ -2040,7 +1469,7 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-0.41%).",
+          "Kurs seitwärts über 7 Tage (-0.87%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -2079,18 +1508,10 @@
       "quality_pct": 23,
       "reddit_vs_markt": {
         "reddit": 61,
-        "markt": 48,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "markt": 46,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-15T19:34:08.386878+00:00",
-          "ticker": "DTE",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 18,
-          "price": 128.16
-        },
         {
           "ts": "2026-10-15T22:46:54.550424+00:00",
           "ticker": "DTE",
@@ -2130,6 +1551,14 @@
           "confidence": 61,
           "engagement": 16,
           "price": 127.52
+        },
+        {
+          "ts": "2026-10-19T21:51:31.249805+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 16,
+          "price": 126.93
         }
       ]
     },
@@ -2185,7 +1614,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 37.4,
+        "price": 37.26,
         "currency": "USD",
         "name": "Tootsie Roll Industries, Inc.",
         "chart_1d": [
@@ -2235,11 +1664,67 @@
           },
           {
             "t": 1792426500,
-            "c": 37.45
+            "c": 37.44
           },
           {
-            "t": 1792428108,
+            "t": 1792427400,
             "c": 37.4
+          },
+          {
+            "t": 1792428300,
+            "c": 37.19
+          },
+          {
+            "t": 1792429200,
+            "c": 37.23
+          },
+          {
+            "t": 1792430100,
+            "c": 37.35
+          },
+          {
+            "t": 1792431000,
+            "c": 37.32
+          },
+          {
+            "t": 1792431900,
+            "c": 37.4
+          },
+          {
+            "t": 1792432800,
+            "c": 37.35
+          },
+          {
+            "t": 1792433700,
+            "c": 37.37
+          },
+          {
+            "t": 1792434600,
+            "c": 37.31
+          },
+          {
+            "t": 1792435500,
+            "c": 37.4
+          },
+          {
+            "t": 1792436400,
+            "c": 37.33
+          },
+          {
+            "t": 1792437300,
+            "c": 37.26
+          },
+          {
+            "t": 1792438200,
+            "c": 37.33
+          },
+          {
+            "t": 1792439100,
+            "c": 37.25
+          },
+          {
+            "t": 1792440000,
+            "c": 37.26
           }
         ],
         "chart_5d": [
@@ -2365,11 +1850,27 @@
           },
           {
             "t": 1792423800,
-            "c": 37.45
+            "c": 37.44
           },
           {
-            "t": 1792428108,
-            "c": 37.4
+            "t": 1792427400,
+            "c": 37.35
+          },
+          {
+            "t": 1792431000,
+            "c": 37.37
+          },
+          {
+            "t": 1792434600,
+            "c": 37.26
+          },
+          {
+            "t": 1792438200,
+            "c": 37.25
+          },
+          {
+            "t": 1792440000,
+            "c": 37.26
           }
         ],
         "chart_1mo": [
@@ -2455,7 +1956,7 @@
           },
           {
             "t": 1792416600,
-            "c": 37.4
+            "c": 37.26
           }
         ],
         "chart_1y": [
@@ -2669,14 +2170,14 @@
           },
           {
             "t": 1792382400,
-            "c": 37.4
+            "c": 37.26
           }
         ],
-        "chg_1d": -1.22,
-        "chg_7d": -0.82,
-        "chg_1mo": 0.38,
-        "chg_1y": 2.83,
-        "sma20_dist": -0.93
+        "chg_1d": -1.58,
+        "chg_7d": -1.19,
+        "chg_1mo": 0.0,
+        "chg_1y": 2.45,
+        "sma20_dist": -1.28
       },
       "news": [
         {
@@ -2713,7 +2214,7 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-0.82%).",
+          "Kurs seitwärts über 7 Tage (-1.19%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -2751,18 +2252,10 @@
       "quality_pct": 15,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 46,
+        "markt": 45,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-18T17:00:31.109137+00:00",
-          "ticker": "TR",
-          "rec": "beobachten",
-          "confidence": 58,
-          "engagement": 5,
-          "price": 38.23
-        },
         {
           "ts": "2026-10-18T19:52:12.837847+00:00",
           "ticker": "TR",
@@ -2802,6 +2295,762 @@
           "confidence": 58,
           "engagement": 5,
           "price": 37.4
+        },
+        {
+          "ts": "2026-10-19T21:51:31.249805+00:00",
+          "ticker": "TR",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 37.26
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 61,
+      "sentiment": 1,
+      "mentions": 3,
+      "mentions_delta": -1,
+      "engagement": 4,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "YOLO: Micron $MU 0dte $880 calls",
+        "Senate vote to end Iran War failed 49–50, John Fetterman was the only Democrat voting against it. Here’s his s",
+        "Companies that donated to Trump's White House Ballroom project have tripled the S&P 500 returns"
+      ],
+      "top_posts": [
+        {
+          "title": "YOLO: Micron $MU 0dte $880 calls",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1x9ujsu/yolo_micron_mu_0dte_880_calls/"
+        },
+        {
+          "title": "Senate vote to end Iran War failed 49–50, John Fetterman was the only Democrat voting against it. Here’s his s",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1wrr059/senate_vote_to_end_iran_war_failed_4950_john/"
+        },
+        {
+          "title": "Companies that donated to Trump's White House Ballroom project have tripled the S&P 500 returns",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1wfbyb3/companies_that_donated_to_trumps_white_house/"
+        }
+      ],
+      "topics": [
+        "YOLO",
+        "Micron",
+        "Calls",
+        "Senate"
+      ],
+      "themen": [
+        {
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 100,
+          "beitraege": 1,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
+        }
+      ],
+      "bull_case": [
+        "Call-Optionen-Aktivität"
+      ],
+      "bear_case": [],
+      "price": {
+        "available": true,
+        "price": 904.9,
+        "currency": "USD",
+        "name": "Micron Technology, Inc.",
+        "chart_1d": [
+          {
+            "t": 1792416600,
+            "c": 912.46
+          },
+          {
+            "t": 1792417500,
+            "c": 911.18
+          },
+          {
+            "t": 1792418400,
+            "c": 913.14
+          },
+          {
+            "t": 1792419300,
+            "c": 915.47
+          },
+          {
+            "t": 1792420200,
+            "c": 915.74
+          },
+          {
+            "t": 1792421100,
+            "c": 915.92
+          },
+          {
+            "t": 1792422000,
+            "c": 918.7
+          },
+          {
+            "t": 1792422900,
+            "c": 924.91
+          },
+          {
+            "t": 1792423800,
+            "c": 925.27
+          },
+          {
+            "t": 1792424700,
+            "c": 922.75
+          },
+          {
+            "t": 1792425600,
+            "c": 919.12
+          },
+          {
+            "t": 1792426500,
+            "c": 912.41
+          },
+          {
+            "t": 1792427400,
+            "c": 912.17
+          },
+          {
+            "t": 1792428300,
+            "c": 907.43
+          },
+          {
+            "t": 1792429200,
+            "c": 907.91
+          },
+          {
+            "t": 1792430100,
+            "c": 905.12
+          },
+          {
+            "t": 1792431000,
+            "c": 904.26
+          },
+          {
+            "t": 1792431900,
+            "c": 907.05
+          },
+          {
+            "t": 1792432800,
+            "c": 904.98
+          },
+          {
+            "t": 1792433700,
+            "c": 903.71
+          },
+          {
+            "t": 1792434600,
+            "c": 906.0
+          },
+          {
+            "t": 1792435500,
+            "c": 906.28
+          },
+          {
+            "t": 1792436400,
+            "c": 906.69
+          },
+          {
+            "t": 1792437300,
+            "c": 910.48
+          },
+          {
+            "t": 1792438200,
+            "c": 912.19
+          },
+          {
+            "t": 1792439100,
+            "c": 905.35
+          },
+          {
+            "t": 1792440000,
+            "c": 904.9
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1791898200,
+            "c": 945.17
+          },
+          {
+            "t": 1791901800,
+            "c": 934.08
+          },
+          {
+            "t": 1791905400,
+            "c": 944.13
+          },
+          {
+            "t": 1791909000,
+            "c": 935.2
+          },
+          {
+            "t": 1791912600,
+            "c": 941.74
+          },
+          {
+            "t": 1791916200,
+            "c": 939.77
+          },
+          {
+            "t": 1791919800,
+            "c": 953.19
+          },
+          {
+            "t": 1791984600,
+            "c": 940.32
+          },
+          {
+            "t": 1791988200,
+            "c": 934.96
+          },
+          {
+            "t": 1791991800,
+            "c": 921.8
+          },
+          {
+            "t": 1791995400,
+            "c": 922.61
+          },
+          {
+            "t": 1791999000,
+            "c": 924.82
+          },
+          {
+            "t": 1792002600,
+            "c": 922.27
+          },
+          {
+            "t": 1792006200,
+            "c": 913.91
+          },
+          {
+            "t": 1792071000,
+            "c": 887.44
+          },
+          {
+            "t": 1792074600,
+            "c": 912.19
+          },
+          {
+            "t": 1792078200,
+            "c": 908.41
+          },
+          {
+            "t": 1792081800,
+            "c": 910.84
+          },
+          {
+            "t": 1792085400,
+            "c": 904.93
+          },
+          {
+            "t": 1792089000,
+            "c": 922.23
+          },
+          {
+            "t": 1792092600,
+            "c": 931.4
+          },
+          {
+            "t": 1792157400,
+            "c": 897.5
+          },
+          {
+            "t": 1792161000,
+            "c": 898.55
+          },
+          {
+            "t": 1792164600,
+            "c": 898.05
+          },
+          {
+            "t": 1792168200,
+            "c": 894.32
+          },
+          {
+            "t": 1792171800,
+            "c": 892.96
+          },
+          {
+            "t": 1792175400,
+            "c": 886.06
+          },
+          {
+            "t": 1792179000,
+            "c": 878.67
+          },
+          {
+            "t": 1792416600,
+            "c": 915.47
+          },
+          {
+            "t": 1792420200,
+            "c": 924.91
+          },
+          {
+            "t": 1792423800,
+            "c": 912.41
+          },
+          {
+            "t": 1792427400,
+            "c": 905.12
+          },
+          {
+            "t": 1792431000,
+            "c": 903.71
+          },
+          {
+            "t": 1792434600,
+            "c": 910.48
+          },
+          {
+            "t": 1792438200,
+            "c": 905.35
+          },
+          {
+            "t": 1792440000,
+            "c": 904.9
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1789997400,
+            "c": 1043.96
+          },
+          {
+            "t": 1790083800,
+            "c": 1096.16
+          },
+          {
+            "t": 1790170200,
+            "c": 1071.88
+          },
+          {
+            "t": 1790256600,
+            "c": 1080.53
+          },
+          {
+            "t": 1790343000,
+            "c": 1082.28
+          },
+          {
+            "t": 1790602200,
+            "c": 1053.98
+          },
+          {
+            "t": 1790688600,
+            "c": 1065.08
+          },
+          {
+            "t": 1790775000,
+            "c": 1065.11
+          },
+          {
+            "t": 1790861400,
+            "c": 1097.39
+          },
+          {
+            "t": 1790947800,
+            "c": 1074.89
+          },
+          {
+            "t": 1791207000,
+            "c": 1063.96
+          },
+          {
+            "t": 1791293400,
+            "c": 1045.56
+          },
+          {
+            "t": 1791379800,
+            "c": 1088.0
+          },
+          {
+            "t": 1791466200,
+            "c": 1035.84
+          },
+          {
+            "t": 1791552600,
+            "c": 1029.0
+          },
+          {
+            "t": 1791811800,
+            "c": 989.04
+          },
+          {
+            "t": 1791898200,
+            "c": 953.19
+          },
+          {
+            "t": 1791984600,
+            "c": 914.13
+          },
+          {
+            "t": 1792071000,
+            "c": 931.24
+          },
+          {
+            "t": 1792157400,
+            "c": 878.84
+          },
+          {
+            "t": 1792416600,
+            "c": 904.9
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1760932800,
+            "c": 219.02
+          },
+          {
+            "t": 1761537600,
+            "c": 223.77
+          },
+          {
+            "t": 1762146000,
+            "c": 237.92
+          },
+          {
+            "t": 1762750800,
+            "c": 246.83
+          },
+          {
+            "t": 1763355600,
+            "c": 207.37
+          },
+          {
+            "t": 1763960400,
+            "c": 236.48
+          },
+          {
+            "t": 1764565200,
+            "c": 237.22
+          },
+          {
+            "t": 1765170000,
+            "c": 241.14
+          },
+          {
+            "t": 1765774800,
+            "c": 265.92
+          },
+          {
+            "t": 1766379600,
+            "c": 284.79
+          },
+          {
+            "t": 1766984400,
+            "c": 315.42
+          },
+          {
+            "t": 1767589200,
+            "c": 345.09
+          },
+          {
+            "t": 1768194000,
+            "c": 362.75
+          },
+          {
+            "t": 1768798800,
+            "c": 399.65
+          },
+          {
+            "t": 1769403600,
+            "c": 414.88
+          },
+          {
+            "t": 1770008400,
+            "c": 394.69
+          },
+          {
+            "t": 1770613200,
+            "c": 411.66
+          },
+          {
+            "t": 1771218000,
+            "c": 428.17
+          },
+          {
+            "t": 1771822800,
+            "c": 412.37
+          },
+          {
+            "t": 1772427600,
+            "c": 370.3
+          },
+          {
+            "t": 1773028800,
+            "c": 426.13
+          },
+          {
+            "t": 1773633600,
+            "c": 422.9
+          },
+          {
+            "t": 1774238400,
+            "c": 357.22
+          },
+          {
+            "t": 1774843200,
+            "c": 366.24
+          },
+          {
+            "t": 1775448000,
+            "c": 420.59
+          },
+          {
+            "t": 1776052800,
+            "c": 455.07
+          },
+          {
+            "t": 1776657600,
+            "c": 496.72
+          },
+          {
+            "t": 1777262400,
+            "c": 542.21
+          },
+          {
+            "t": 1777867200,
+            "c": 746.81
+          },
+          {
+            "t": 1778472000,
+            "c": 724.66
+          },
+          {
+            "t": 1779076800,
+            "c": 751.0
+          },
+          {
+            "t": 1779681600,
+            "c": 971.0
+          },
+          {
+            "t": 1780286400,
+            "c": 864.01
+          },
+          {
+            "t": 1780891200,
+            "c": 981.61
+          },
+          {
+            "t": 1781496000,
+            "c": 1133.99
+          },
+          {
+            "t": 1782100800,
+            "c": 1132.33
+          },
+          {
+            "t": 1782705600,
+            "c": 975.56
+          },
+          {
+            "t": 1783310400,
+            "c": 979.3
+          },
+          {
+            "t": 1783915200,
+            "c": 848.95
+          },
+          {
+            "t": 1784520000,
+            "c": 920.95
+          },
+          {
+            "t": 1785124800,
+            "c": 823.03
+          },
+          {
+            "t": 1785729600,
+            "c": 877.57
+          },
+          {
+            "t": 1786334400,
+            "c": 971.66
+          },
+          {
+            "t": 1786939200,
+            "c": 966.78
+          },
+          {
+            "t": 1787544000,
+            "c": 932.86
+          },
+          {
+            "t": 1788148800,
+            "c": 1016.59
+          },
+          {
+            "t": 1788753600,
+            "c": 975.26
+          },
+          {
+            "t": 1789358400,
+            "c": 1015.8
+          },
+          {
+            "t": 1789963200,
+            "c": 1082.28
+          },
+          {
+            "t": 1790568000,
+            "c": 1074.89
+          },
+          {
+            "t": 1791172800,
+            "c": 1029.0
+          },
+          {
+            "t": 1791777600,
+            "c": 878.84
+          },
+          {
+            "t": 1792382400,
+            "c": 904.9
+          }
+        ],
+        "chg_1d": -0.83,
+        "chg_7d": -8.51,
+        "chg_1mo": -13.32,
+        "chg_1y": 313.16,
+        "sma20_dist": -11.81
+      },
+      "news": [
+        {
+          "title": "Micron (MU) vs. Sandisk (SNDK): Is the Smaller Factory Bill Really an Advantage?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-vs-sandisk-sndk-185824641.html?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Micron vs. Lam Research: Does Buying the Tool Supplier Reduce Memory-Cycle Risk?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-lam-research-does-185704251.html?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Micron Stock Rallies as China Memory Chip Rival Forecasts Revenue Boom",
+          "link": "https://finance.yahoo.com/m/0fd6799f-74ed-31f1-8227-cd65f95b1ad8/micron-stock-rallies-as-china.html?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Musk Love: Micron Is “Reasonable” on Memory Prices While Others Price-Gouge: “Today’s Customers Won’t Forget”",
+          "link": "https://www.tikr.com/blog/musk-love-micron-is-reasonable-on-memory-prices-while-others-price-gouge-todays-customers-wont-forget?ref=yahoofinance&.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Magnificent Seven Are Losing Their Earnings Luster",
+          "link": "https://finance.yahoo.com/m/fd8aa468-eebc-3523-bb1b-3dd056fe79de/magnificent-seven-are-losing.html?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs -8.51% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -13.32%.",
+          "-11.81% unter SMA20 – technisch angeschlagen.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Reddit diskutiert Micron Technology, Inc. aktuell gemischt (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "🎯 Optionen & Short-Interest"
+      ],
+      "momentum": 59,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 20,
+      "timeline": [
+        {
+          "day": "2026-10-16",
+          "mentions": 4
+        },
+        {
+          "day": "2026-10-17",
+          "mentions": 3
+        },
+        {
+          "day": "2026-10-18",
+          "mentions": 3
+        },
+        {
+          "day": "2026-10-19",
+          "mentions": 4
+        }
+      ],
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "quality_grade": "D",
+      "quality_pct": 23,
+      "reddit_vs_markt": {
+        "reddit": 59,
+        "markt": 15,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-10-18T19:52:12.837847+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 878.84
+        },
+        {
+          "ts": "2026-10-18T22:03:52.004785+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 878.84
+        },
+        {
+          "ts": "2026-10-19T02:27:19.371373+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 878.84
+        },
+        {
+          "ts": "2026-10-19T09:26:03.211268+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 5,
+          "price": 878.84
+        },
+        {
+          "ts": "2026-10-19T16:42:05.015588+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 912.16
+        },
+        {
+          "ts": "2026-10-19T21:51:31.249805+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 904.9
         }
       ]
     },
@@ -2858,7 +3107,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 229.38,
+        "price": 226.22,
         "currency": "USD",
         "name": "Bloom Energy Corporation",
         "chart_1d": [
@@ -2912,11 +3161,63 @@
           },
           {
             "t": 1792427400,
-            "c": 229.59
+            "c": 230.53
           },
           {
-            "t": 1792428163,
-            "c": 229.38
+            "t": 1792428300,
+            "c": 227.42
+          },
+          {
+            "t": 1792429200,
+            "c": 227.24
+          },
+          {
+            "t": 1792430100,
+            "c": 226.81
+          },
+          {
+            "t": 1792431000,
+            "c": 226.13
+          },
+          {
+            "t": 1792431900,
+            "c": 226.18
+          },
+          {
+            "t": 1792432800,
+            "c": 225.69
+          },
+          {
+            "t": 1792433700,
+            "c": 225.41
+          },
+          {
+            "t": 1792434600,
+            "c": 225.07
+          },
+          {
+            "t": 1792435500,
+            "c": 225.41
+          },
+          {
+            "t": 1792436400,
+            "c": 225.61
+          },
+          {
+            "t": 1792437300,
+            "c": 227.99
+          },
+          {
+            "t": 1792438200,
+            "c": 229.18
+          },
+          {
+            "t": 1792439100,
+            "c": 226.15
+          },
+          {
+            "t": 1792440000,
+            "c": 226.22
           }
         ],
         "chart_5d": [
@@ -3046,11 +3347,23 @@
           },
           {
             "t": 1792427400,
-            "c": 229.59
+            "c": 226.81
           },
           {
-            "t": 1792428163,
-            "c": 229.38
+            "t": 1792431000,
+            "c": 225.41
+          },
+          {
+            "t": 1792434600,
+            "c": 227.99
+          },
+          {
+            "t": 1792438200,
+            "c": 226.15
+          },
+          {
+            "t": 1792440000,
+            "c": 226.22
           }
         ],
         "chart_1mo": [
@@ -3136,7 +3449,7 @@
           },
           {
             "t": 1792416600,
-            "c": 229.38
+            "c": 226.22
           }
         ],
         "chart_1y": [
@@ -3350,14 +3663,14 @@
           },
           {
             "t": 1792382400,
-            "c": 229.38
+            "c": 226.22
           }
         ],
-        "chg_1d": -0.09,
-        "chg_7d": -12.54,
-        "chg_1mo": -15.94,
-        "chg_1y": 107.81,
-        "sma20_dist": -14.79
+        "chg_1d": -1.47,
+        "chg_7d": -13.75,
+        "chg_1mo": -17.1,
+        "chg_1y": 104.95,
+        "sma20_dist": -15.92
       },
       "news": [
         {
@@ -3394,9 +3707,9 @@
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs -12.54% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -15.94%.",
-          "-14.79% unter SMA20 – technisch angeschlagen.",
+          "Kurs -13.75% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -17.1%.",
+          "-15.92% unter SMA20 – technisch angeschlagen.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -3439,14 +3752,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-10-18T13:40:24.836284+00:00",
-          "ticker": "BE",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 4,
-          "price": 221.31
-        },
-        {
           "ts": "2026-10-18T17:00:31.109137+00:00",
           "ticker": "BE",
           "rec": "beobachten",
@@ -3485,6 +3790,14 @@
           "confidence": 61,
           "engagement": 4,
           "price": 229.38
+        },
+        {
+          "ts": "2026-10-19T21:51:31.249805+00:00",
+          "ticker": "BE",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 226.22
         }
       ]
     },
@@ -3616,138 +3929,36 @@
           "confidence": 41,
           "engagement": 3,
           "price": null
+        },
+        {
+          "ts": "2026-10-19T21:51:31.249805+00:00",
+          "ticker": "KRIBZ",
+          "rec": "beobachten",
+          "confidence": 41,
+          "engagement": 3,
+          "price": null
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 18,
-    "n_evaluated": 266,
+    "hit_rate": 9,
+    "n_evaluated": 276,
     "rate_kaufen": 0,
     "rate_verkaufen": 0,
-    "rate_beobachten": 22,
-    "kauf_perf_7d": -14.2,
-    "kauf_perf_30d": -12.8
+    "rate_beobachten": 11,
+    "kauf_perf_7d": -15.2,
+    "kauf_perf_30d": -14.2
   },
   "history_evaluated": [
     {
-      "ts": "2026-10-09T22:00:59.531260+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 8,
-      "price": 608.1,
-      "chg_since": -9.99,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-09T22:00:59.531260+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 6,
-      "price": 229.28,
-      "chg_since": -4.81,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T03:25:14.687940+00:00",
-      "ticker": "MP",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 12,
-      "price": 46.14,
-      "chg_since": -14.2,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T03:25:14.687940+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 8,
-      "price": 608.1,
-      "chg_since": -9.99,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T03:25:14.687940+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 7,
-      "price": 1029.0,
-      "chg_since": -11.35,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T10:15:37.923942+00:00",
-      "ticker": "MP",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 12,
-      "price": 46.14,
-      "chg_since": -14.2,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T10:15:37.923942+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 8,
-      "price": 608.1,
-      "chg_since": -9.99,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T10:15:37.923942+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 7,
-      "price": 1029.0,
-      "chg_since": -11.35,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T10:15:37.923942+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 6,
-      "price": 229.28,
-      "chg_since": -4.81,
-      "correct": true,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-10T16:36:55.368667+00:00",
-      "ticker": "MP",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 12,
-      "price": 46.14,
-      "chg_since": -14.2,
-      "correct": false,
-      "age_days": 9
-    },
-    {
       "ts": "2026-10-10T16:36:55.368667+00:00",
       "ticker": "AMD",
       "rec": "beobachten",
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
       "correct": false,
       "age_days": 9
     },
@@ -3758,7 +3969,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
       "age_days": 9
     },
@@ -3769,8 +3980,8 @@
       "confidence": 61,
       "engagement": 6,
       "price": 229.28,
-      "chg_since": -4.81,
-      "correct": true,
+      "chg_since": -5.32,
+      "correct": false,
       "age_days": 9
     },
     {
@@ -3780,9 +3991,9 @@
       "confidence": 54,
       "engagement": 13,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-10T20:53:20.263977+00:00",
@@ -3791,9 +4002,9 @@
       "confidence": 64,
       "engagement": 11,
       "price": 46.14,
-      "chg_since": -14.2,
+      "chg_since": -15.58,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-10T20:53:20.263977+00:00",
@@ -3802,9 +4013,20 @@
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
+    },
+    {
+      "ts": "2026-10-10T20:53:20.263977+00:00",
+      "ticker": "ARR",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 16,
+      "price": 13.59,
+      "chg_since": -9.64,
+      "correct": false,
+      "age_days": 9
     },
     {
       "ts": "2026-10-10T20:53:20.263977+00:00",
@@ -3813,9 +4035,9 @@
       "confidence": 64,
       "engagement": 11,
       "price": 229.28,
-      "chg_since": -4.81,
-      "correct": true,
-      "age_days": 8
+      "chg_since": -5.32,
+      "correct": false,
+      "age_days": 9
     },
     {
       "ts": "2026-10-11T00:34:47.535013+00:00",
@@ -3824,7 +4046,7 @@
       "confidence": 54,
       "engagement": 13,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
       "age_days": 8
     },
@@ -3835,7 +4057,7 @@
       "confidence": 67,
       "engagement": 12,
       "price": 46.14,
-      "chg_since": -14.2,
+      "chg_since": -15.58,
       "correct": false,
       "age_days": 8
     },
@@ -3846,7 +4068,18 @@
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
+      "correct": false,
+      "age_days": 8
+    },
+    {
+      "ts": "2026-10-11T00:34:47.535013+00:00",
+      "ticker": "ARR",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 16,
+      "price": 13.59,
+      "chg_since": -9.64,
       "correct": false,
       "age_days": 8
     },
@@ -3857,8 +4090,8 @@
       "confidence": 64,
       "engagement": 11,
       "price": 229.28,
-      "chg_since": -4.81,
-      "correct": true,
+      "chg_since": -5.32,
+      "correct": false,
       "age_days": 8
     },
     {
@@ -3868,7 +4101,7 @@
       "confidence": 54,
       "engagement": 13,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
       "age_days": 8
     },
@@ -3879,7 +4112,7 @@
       "confidence": 67,
       "engagement": 12,
       "price": 46.14,
-      "chg_since": -14.2,
+      "chg_since": -15.58,
       "correct": false,
       "age_days": 8
     },
@@ -3890,7 +4123,18 @@
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
+      "correct": false,
+      "age_days": 8
+    },
+    {
+      "ts": "2026-10-11T08:01:44.699616+00:00",
+      "ticker": "ARR",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 16,
+      "price": 13.59,
+      "chg_since": -9.64,
       "correct": false,
       "age_days": 8
     },
@@ -3901,8 +4145,8 @@
       "confidence": 64,
       "engagement": 11,
       "price": 229.28,
-      "chg_since": -4.81,
-      "correct": true,
+      "chg_since": -5.32,
+      "correct": false,
       "age_days": 8
     },
     {
@@ -3912,7 +4156,7 @@
       "confidence": 54,
       "engagement": 13,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
       "age_days": 8
     },
@@ -3923,7 +4167,18 @@
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
+      "correct": false,
+      "age_days": 8
+    },
+    {
+      "ts": "2026-10-11T16:03:31.471297+00:00",
+      "ticker": "ARR",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 16,
+      "price": 13.59,
+      "chg_since": -9.64,
       "correct": false,
       "age_days": 8
     },
@@ -3934,7 +4189,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 565.12,
-      "chg_since": -1.07,
+      "chg_since": -0.29,
       "correct": true,
       "age_days": 8
     },
@@ -3945,9 +4200,9 @@
       "confidence": 54,
       "engagement": 13,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-11T21:14:39.736109+00:00",
@@ -3956,9 +4211,9 @@
       "confidence": 64,
       "engagement": 11,
       "price": 46.14,
-      "chg_since": -14.2,
+      "chg_since": -15.58,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-11T21:14:39.736109+00:00",
@@ -3967,9 +4222,20 @@
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
+    },
+    {
+      "ts": "2026-10-11T21:14:39.736109+00:00",
+      "ticker": "ARR",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 16,
+      "price": 13.59,
+      "chg_since": -9.64,
+      "correct": false,
+      "age_days": 8
     },
     {
       "ts": "2026-10-11T21:14:39.736109+00:00",
@@ -3978,9 +4244,9 @@
       "confidence": 61,
       "engagement": 14,
       "price": 565.12,
-      "chg_since": -1.07,
+      "chg_since": -0.29,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-12T00:50:23.403483+00:00",
@@ -3989,7 +4255,7 @@
       "confidence": 54,
       "engagement": 13,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
       "age_days": 7
     },
@@ -4000,7 +4266,7 @@
       "confidence": 64,
       "engagement": 11,
       "price": 46.14,
-      "chg_since": -14.2,
+      "chg_since": -15.58,
       "correct": false,
       "age_days": 7
     },
@@ -4011,7 +4277,18 @@
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-12T00:50:23.403483+00:00",
+      "ticker": "ARR",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 16,
+      "price": 13.59,
+      "chg_since": -9.64,
       "correct": false,
       "age_days": 7
     },
@@ -4022,7 +4299,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 565.12,
-      "chg_since": -1.07,
+      "chg_since": -0.29,
       "correct": true,
       "age_days": 7
     },
@@ -4033,7 +4310,7 @@
       "confidence": 54,
       "engagement": 13,
       "price": 1029.0,
-      "chg_since": -11.35,
+      "chg_since": -12.06,
       "correct": false,
       "age_days": 7
     },
@@ -4044,7 +4321,7 @@
       "confidence": 67,
       "engagement": 8,
       "price": 608.1,
-      "chg_since": -9.99,
+      "chg_since": -11.52,
       "correct": false,
       "age_days": 7
     },
@@ -4055,7 +4332,7 @@
       "confidence": 61,
       "engagement": 14,
       "price": 565.12,
-      "chg_since": -1.07,
+      "chg_since": -0.29,
       "correct": true,
       "age_days": 7
     },
@@ -4066,7 +4343,51 @@
       "confidence": 64,
       "engagement": 11,
       "price": 229.28,
-      "chg_since": -4.81,
+      "chg_since": -5.32,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-12T19:30:39.424239+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 16,
+      "price": 990.07,
+      "chg_since": -8.6,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-12T19:30:39.424239+00:00",
+      "ticker": "ITM",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 23,
+      "price": 44.24,
+      "chg_since": 0.99,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-12T19:30:39.424239+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 67,
+      "engagement": 8,
+      "price": 591.82,
+      "chg_since": -9.09,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-12T19:30:39.424239+00:00",
+      "ticker": "MSCI",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 14,
+      "price": 567.42,
+      "chg_since": -0.69,
       "correct": true,
       "age_days": 7
     }
@@ -4075,18 +4396,59 @@
   "trump_tracker": {
     "posts": [
       {
-        "text": "FBI smash huge voter fraud ring in California — days after feds issued ultimatum to state: https:// nypost.com/2026/10/19/us-news/ fbi-smash-huge-california-voter-fraud-ring-in-los-angeles-days-after-feds-issued-ultimatum-to-state/",
-        "url": "https://www.trumpstruth.org/statuses/42433",
-        "date": "Mon, 19 Oct 2026 14:01",
+        "text": "A BIG THANK YOU to our legendary friend, Elon Musk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child",
+        "url": "https://www.trumpstruth.org/statuses/42444",
+        "date": "Mon, 19 Oct 2026 20:41",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117467751425482695 View image Quoted Donald J. Trump View video",
-        "url": "https://www.trumpstruth.org/statuses/42431",
-        "date": "Mon, 19 Oct 2026 13:14",
+        "text": "A big WIN for Massapequa and DJT! NY plans to drop part of Native American logo ban in ‘huge victory’ for Massapequa: https:// nypost.com/2026/10/19/us-news/ nys-dropping-part-of-native-american-logo-ban-in-huge-victory-for-massapequa/",
+        "url": "https://www.trumpstruth.org/statuses/42441",
+        "date": "Mon, 19 Oct 2026 19:07",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "New Mexico should immediately change its name to New America. We are not Mexico, we are the United States of America! The name would add great value and prestige to the State! Home Values and Incomes would rise, and you would be even prouder while saluting our beautiful American Flag! Maybe even the Crooked Elections, that New Mexico is known for, would become honest again! President DONALD J. TRU",
+        "url": "https://www.trumpstruth.org/statuses/42442",
+        "date": "Mon, 19 Oct 2026 19:06",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "The Democrats gave us the Highest Inflation in History, and the Highest Prices to go with it and, as soon as l came into Office, they started screaming, \"AFFORDABILITY.\" They are the ones that created the Affordability Crisis. I'm the one who created the Greatest Economy, and am bringing the prices down. It's just another Fake News CON JOB! President DONALD J. TRUMP",
+        "url": "https://www.trumpstruth.org/statuses/42443",
+        "date": "Mon, 19 Oct 2026 19:05",
+        "source": "Truth Social",
+        "companies": [
+          {
+            "name": "Ford",
+            "ticker": "F"
+          }
+        ],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "I am pleased to nominate Joseph Falvey to serve as Judge on the United States District Court for the Northern District of Indiana. Joe is currently an Assistant U.S. Attorney, where he has done an incredible job protecting Public Safety, and promoting Law and Order. Joe is a graduate of Yale Law School and the University of Notre Dame, and previously clerked for three esteemed Jurists, Chief Justi",
+        "url": "https://www.trumpstruth.org/statuses/42440",
+        "date": "Mon, 19 Oct 2026 18:41",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "I am pleased to nominate Eric Hamilton to serve as Judge on the United States District Court for the District of Nebraska. Eric has done a phenomenal job as the Deputy Assistant Attorney General for the Federal Programs Branch, defending our Administration’s most important Policies in Court. A sixth generation Nebraskan, Eric previously served as Solicitor General of the State of Nebraska. He is a",
+        "url": "https://www.trumpstruth.org/statuses/42439",
+        "date": "Mon, 19 Oct 2026 18:38",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
@@ -4094,102 +4456,33 @@
       },
       {
         "text": "View video",
-        "url": "https://www.trumpstruth.org/statuses/42432",
-        "date": "Mon, 19 Oct 2026 13:14",
+        "url": "https://www.trumpstruth.org/statuses/42437",
+        "date": "Mon, 19 Oct 2026 18:13",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "The migrants have taken over France. They must CLOSE THE BORDERS, FAST! President DJT",
-        "url": "https://www.trumpstruth.org/statuses/42430",
-        "date": "Mon, 19 Oct 2026 11:16",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Big crowds today in Kansas. See you later! President DJT",
-        "url": "https://www.trumpstruth.org/statuses/42428",
-        "date": "Mon, 19 Oct 2026 11:09",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Fox spends more time defending Dumocrats, and putting on their views versus their Republican opponent, than at any time in the History of FoxNews. It’s ridiculous! FoxNews is trying too hard to be Politically Correct! Watch my big Kansas Rally today on RSBN. Great early coverage! President DJT",
-        "url": "https://www.trumpstruth.org/statuses/42429",
-        "date": "Mon, 19 Oct 2026 11:08",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "I’m going to the Great State of Kansas today to Rally support for Roger Marshall, one of the absolutely best Senators in the U.S. Senate. His opponent is a Fake, and would be a DISASTER for Kansas, a State I won all three times, getting the highest vote in the history of Kansas - Such an honor! See you all later!!! President DJT",
-        "url": "https://www.trumpstruth.org/statuses/42427",
-        "date": "Mon, 19 Oct 2026 10:51",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "The United States Department of Interior wants to take a terrible and very unsafe golf course, and make it into a great, safe, and prestigious golf course. They have an absolute right to do so. It’s as simple as that! The judge on the case is a crazed lunatic whose courthouse tapes will reveal, may be insane? The tapes have been blocked from usage by the judge. The random golfer bringing the ridic",
-        "url": "https://www.trumpstruth.org/statuses/42426",
-        "date": "Mon, 19 Oct 2026 10:08",
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/42438",
+        "date": "Mon, 19 Oct 2026 18:12",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       }
     ],
-    "market_hits": 0
+    "market_hits": 1
   },
   "spannende_aktien": [
-    {
-      "ticker": "FUFU",
-      "name": "BitFuFu Inc.",
-      "price": 1.25,
-      "currency": "USD",
-      "chg_1d": 38.89,
-      "vol_ratio": 393.2,
-      "warum": [
-        "BitFuFu Inc (FUFU) (Q2 2026) Earnings Call Highlights: Self-Mining Production Tr",
-        "BitFuFu (FUFU) Increased Hashrate Allocated to Self-Mining 47%. Why Did Revenue "
-      ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "BitFuFu Inc (FUFU) (Q2 2026) Earnings Call Highlights: Self-Mining Production Triples and ...",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/bitfufu-inc-fufu-q2-2026-010211564.html?.tsrc=rss",
-          "date": "Sat, 22 Aug 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "BitFuFu (FUFU) Increased Hashrate Allocated to Self-Mining 47%. Why Did Revenue Collapse 63%?",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/bitfufu-fufu-increased-hashrate-allocated-215607748.html?.tsrc=rss",
-          "date": "Fri, 21 Aug 2026",
-          "tone": "neu"
-        }
-      ]
-    },
     {
       "ticker": "SLN",
       "name": "Silence Therapeutics plc",
       "price": 19.58,
       "currency": "USD",
       "chg_1d": 125.58,
-      "vol_ratio": 52.8,
+      "vol_ratio": 65.8,
       "warum": [
         "Merck KgaA Is Paying More Than Double for This Gene-Silencing Biotech, Which Is ",
         "Silence Therapeutics jumps 59% on Merck takeover"
@@ -4219,15 +4512,15 @@
     {
       "ticker": "EYPT",
       "name": "EyePoint, Inc.",
-      "price": 0.42,
+      "price": 0.44,
       "currency": "USD",
-      "chg_1d": -85.95,
-      "vol_ratio": 48.5,
+      "chg_1d": -85.28,
+      "vol_ratio": 65.2,
       "warum": [
-        "EyePoint crashes as pivotal wet AMD trial fails, prompting 53% workforce cut",
-        "EyePoint Announces 53% Workforce Reduction Following Phase 3 DURAVYU Trial Resul"
+        "EyePoint Drug Trial Flop Crashes Stock. Can a Strategy Shift Save It?",
+        "EyePoint crashes as pivotal wet AMD trial fails, prompting 53% workforce cut"
       ],
-      "bedeutung": "Extreme Bewegung (-85.95%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "bedeutung": "Extreme Bewegung (-85.28%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
@@ -4236,14 +4529,14 @@
       ],
       "news": [
         {
-          "title": "EyePoint crashes as pivotal wet AMD trial fails, prompting 53% workforce cut",
-          "link": "https://finance.yahoo.com/healthcare/articles/eyepoint-crashes-pivotal-wet-amd-135849027.html?.tsrc=rss",
+          "title": "EyePoint Drug Trial Flop Crashes Stock. Can a Strategy Shift Save It?",
+          "link": "https://finance.yahoo.com/m/70baeeb1-63e2-3f84-9750-77269cefdedd/eyepoint-drug-trial-flop.html?.tsrc=rss",
           "date": "Mon, 19 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "EyePoint Announces 53% Workforce Reduction Following Phase 3 DURAVYU Trial Results",
-          "link": "https://investorshub.advfn.com/market-news/article/38280/eyepoint-announces-53-workforce-reduction-following-phase-3-duravyu-trial-results?.tsrc=rss",
+          "title": "EyePoint crashes as pivotal wet AMD trial fails, prompting 53% workforce cut",
+          "link": "https://finance.yahoo.com/healthcare/articles/eyepoint-crashes-pivotal-wet-amd-135849027.html?.tsrc=rss",
           "date": "Mon, 19 Oct 2026",
           "tone": "neu"
         }
@@ -4252,13 +4545,78 @@
     {
       "ticker": "IRON",
       "name": "Disc Medicine, Inc.",
-      "price": 79.83,
+      "price": 78.93,
       "currency": "USD",
-      "chg_1d": 40.45,
-      "vol_ratio": 9.8,
+      "chg_1d": 38.86,
+      "vol_ratio": 13.4,
       "warum": [
-        "Disc Medicine’s Bitopertin Nails Phase III Endpoints, Eyes FDA Resubmission",
-        "Disc Medicine Stock Has Its Best Day Since 2022 as Drug Trial Revives FDA Approv"
+        "Disc Medicine (IRON) APOLLO Win Puts Its Valuation Discount Back In Focus",
+        "Disc Medicine Announces Proposed $350 Million Public Offering of Common Stock an"
+      ],
+      "bedeutung": "Extreme Bewegung (+38.86%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Disc Medicine (IRON) APOLLO Win Puts Its Valuation Discount Back In Focus",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/disc-medicine-iron-apollo-win-201300395.html?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Disc Medicine Announces Proposed $350 Million Public Offering of Common Stock and Pre-Funded Warrants",
+          "link": "https://finance.yahoo.com/healthcare/articles/disc-medicine-announces-proposed-350-200100725.html?.tsrc=rss",
+          "date": "Mon, 19 Oct 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "NAUT",
+      "name": "Nautilus Biotechnology, Inc.",
+      "price": 2.63,
+      "currency": "USD",
+      "chg_1d": 27.67,
+      "vol_ratio": 1.6,
+      "warum": [
+        "Nautilus Biotechnology to Announce Third Quarter 2026 Financial Results on Octob",
+        "Nautilus Biotechnology Q2 Earnings Call Highlights"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "Nautilus Biotechnology to Announce Third Quarter 2026 Financial Results on October 27, 2026",
+          "link": "https://finance.yahoo.com/healthcare/articles/nautilus-biotechnology-announce-third-quarter-120000573.html?.tsrc=rss",
+          "date": "Thu, 15 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Nautilus Biotechnology Q2 Earnings Call Highlights",
+          "link": "https://www.marketbeat.com/instant-alerts/nautilus-biotechnology-q2-earnings-call-highlights-2026-07-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "Tue, 28 Jul 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "price": 14.1,
+      "currency": "USD",
+      "chg_1d": 16.34,
+      "vol_ratio": 4.9,
+      "warum": [
+        "Stock Market Today, Oct. 19: Cleveland-Cliffs Surges on Stronger Q3 Results and ",
+        "Cleveland-Cliffs Expects 2027 Will Be a Very Good Year With Help From Tariffs"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -4269,48 +4627,15 @@
       ],
       "news": [
         {
-          "title": "Disc Medicine’s Bitopertin Nails Phase III Endpoints, Eyes FDA Resubmission",
-          "link": "https://www.marketbeat.com/instant-alerts/event-disc-medicines-bitopertin-nails-phase-iii-endpoints-eyes-fda-resubmission-2026-10-19/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "title": "Stock Market Today, Oct. 19: Cleveland-Cliffs Surges on Stronger Q3 Results and Raised 2027 EBITDA Outlook",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/10/19/stock-market-today-oct-19-cleveland-cliffs-surges-on-stronger-q3-results-and-raised-2027-ebitda-outlook/?.tsrc=rss",
           "date": "Mon, 19 Oct 2026",
-          "tone": "neg"
+          "tone": "pos"
         },
         {
-          "title": "Disc Medicine Stock Has Its Best Day Since 2022 as Drug Trial Revives FDA Approval Hopes",
-          "link": "https://finance.yahoo.com/m/c7adf8b8-df55-3954-8e82-d42bc1fd6135/disc-medicine-stock-has-its.html?.tsrc=rss",
+          "title": "Cleveland-Cliffs Expects 2027 Will Be a Very Good Year With Help From Tariffs",
+          "link": "https://finance.yahoo.com/m/9ded3254-8acb-336d-a279-aa7dd53cbf7b/cleveland-cliffs-expects-2027.html?.tsrc=rss",
           "date": "Mon, 19 Oct 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "AIBZ",
-      "name": "Bitzero Holdings Inc.",
-      "price": 3.03,
-      "currency": "USD",
-      "chg_1d": 30.04,
-      "vol_ratio": 10.3,
-      "warum": [
-        "Google's $13 Billion Nordic Bet Points to a New Global Front in the AI Power Rac",
-        "Bitzero Engages and Renews Investor Relations Providers to Expand Capital Market"
-      ],
-      "bedeutung": "Extreme Bewegung (+30.04%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Google's $13 Billion Nordic Bet Points to a New Global Front in the AI Power Race",
-          "link": "https://www.marketbeat.com/articles/googles-13-billion-nordic-bet-points-to-a-new-global-front-in-the-ai-power-race/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Mon, 12 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Bitzero Engages and Renews Investor Relations Providers to Expand Capital Markets Program",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bitzero-engages-renews-investor-relations-221400620.html?.tsrc=rss",
-          "date": "Fri, 02 Oct 2026",
           "tone": "neu"
         }
       ]
@@ -4354,9 +4679,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VR2lEakRYVzFONkQ2TEpUbDdLeC15N1lJaTgwMmNoeFgzTUpkQWhpdEJ4VEEyVGh3VTRsb3RvVlhhXzJYLTVZYUQ0VmdaaU9qbHpLVGgzd3NxcVlOWjRuRklYZnhqQ3FMY1RON0h3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTmsxRWQxUU5uTUlmY2hqVElQUjRiZndjWFZwbGYzMk1NWl9QMndsNFNIc3NxWVdZa1BQVnNRQW9VNWVNTWtUZUpkVWFfdFIwbUl0NjdmN2xPSG1iR3J3a2tZMWdsNVoyYkplZWNrVTh2NENqSUpOV3hKdXFoOTFqbm1EZw?oc=5",
       "date": "Mon, 19 Oct 2026",
-      "headline": "Kroger-Albertsons trial begins over failed merger - Transport Topics",
+      "headline": "Aryeh Bourkoff’s LionTree Has a Stake in Hollywood’s Merger Era - Observer",
       "source": "Google News"
     },
     {
@@ -4368,9 +4693,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UNndGbWh2REk3OWtWaUhHMDFRbWEzZXpjWUx4UWpZa2t6WXNiQy1sQXJTWFFEdF9JWnRMMTBsYko2bVpNYkJELVdtTFhaa25Ca29nQW9CQ3RTNWw3dl92c1g2TEdwQVBWMFJ6U05mQUwwZ1BpS3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT25fc0NSOVhiVTgwU2tGLS1JUE83SEstZVRVS2ZadXdKQkxLdWVLWThTM05faVBUb29YdVRudG1FSXpUMXk0c0EzcE9LemFDNDdRdnpOYXVwR3hOR2E1QndFNUlNLVpkOFplOWFTOG9YMEJyZUpwRy1mV01VSm1fOWdhZjcxb0t5azd1RjloY2x0V0t4QkxlbVR4TU1oalRuczlzVmkyS2JITV9yZWpFaHRDdng?oc=5",
       "date": "Mon, 19 Oct 2026",
-      "headline": "Albertsons and Kroger are set for trial over failed merger deal - Quartz",
+      "headline": "Kimberly-Clark Offers Bonds to Help Fund Tylenol Maker Takeover - Bloomberg",
       "source": "Google News"
     }
   ]
