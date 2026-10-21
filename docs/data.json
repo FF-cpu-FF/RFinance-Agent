@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T02:34:08.910590+00:00",
+  "generated_at": "2026-10-21T08:59:08.379242+00:00",
   "total_posts": 250,
-  "unique_tickers": 210,
+  "unique_tickers": 212,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -760,14 +760,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-10-20T00:49:09.243375+00:00",
-          "ticker": "DTE",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 16,
-          "price": 129.73
-        },
-        {
           "ts": "2026-10-20T06:52:03.415356+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
@@ -801,6 +793,14 @@
         },
         {
           "ts": "2026-10-21T02:34:08.910590+00:00",
+          "ticker": "DTE",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 17,
+          "price": 129.32
+        },
+        {
+          "ts": "2026-10-21T08:59:08.379242+00:00",
           "ticker": "DTE",
           "rec": "beobachten",
           "confidence": 64,
@@ -1448,10 +1448,10 @@
           "tone": "neu"
         },
         {
-          "title": "AI's next canary in the coal mine: Is it OpenAI, memory, or something else?",
-          "link": "https://finance.yahoo.com/video/ais-next-canary-in-the-coal-mine-is-it-openai-memory-or-something-else-165815565.html?.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
-          "tone": "neu"
+          "title": "Micron and Nvidia Are the 2 Biggest Drivers of S&P 500 Earnings Growth. Are Their Stocks Buys?",
+          "link": "https://www.fool.com/investing/2026/10/21/micron-and-nvidia-are-the-2-biggest-drivers-of-s-and-p-500-earnings-growth-are-their-stocks-buys/?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "pos"
         },
         {
           "title": "Can Micron Stock Keep Climbing After a 10-Fold Run? Here's What Its Past Booms Say.",
@@ -1486,7 +1486,8 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "🎯 Optionen & Short-Interest"
+        "🎯 Optionen & Short-Interest",
+        "News: Micron and Nvidia Are the 2 Biggest Drivers of S&P 500 Earnings Growth"
       ],
       "momentum": 56,
       "momentum_label": "➡️ Diskussion stabil",
@@ -1519,14 +1520,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-20T00:49:09.243375+00:00",
-          "ticker": "MU",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 4,
-          "price": 878.84
-        },
         {
           "ts": "2026-10-20T06:52:03.415356+00:00",
           "ticker": "MU",
@@ -1561,6 +1554,14 @@
         },
         {
           "ts": "2026-10-21T02:34:08.910590+00:00",
+          "ticker": "MU",
+          "rec": "beobachten",
+          "confidence": 51,
+          "engagement": 6,
+          "price": 896.07
+        },
+        {
+          "ts": "2026-10-21T08:59:08.379242+00:00",
           "ticker": "MU",
           "rec": "beobachten",
           "confidence": 51,
@@ -2304,6 +2305,728 @@
           "confidence": 58,
           "engagement": 7,
           "price": 27.48
+        },
+        {
+          "ts": "2026-10-21T08:59:08.379242+00:00",
+          "ticker": "OKLO",
+          "rec": "beobachten",
+          "confidence": 58,
+          "engagement": 7,
+          "price": 27.48
+        }
+      ]
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "signal": "bullish",
+      "empfehlung": "beobachten",
+      "confidence": 64,
+      "sentiment": 2,
+      "mentions": 3,
+      "mentions_delta": 1,
+      "engagement": 5,
+      "sources": [
+        "wallstreetbets",
+        "TrumpsTrades"
+      ],
+      "titles": [
+        "$NFLX longs punching air right now",
+        "Netflix",
+        "Just in: Trump disclosed 400 stock trades today. Here's what you should know"
+      ],
+      "top_posts": [
+        {
+          "title": "$NFLX longs punching air right now",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xbdbqm/nflx_longs_punching_air_right_now/"
+        },
+        {
+          "title": "Netflix",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xb9f43/netflix/"
+        },
+        {
+          "title": "Just in: Trump disclosed 400 stock trades today. Here's what you should know",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1x0xadl/just_in_trump_disclosed_400_stock_trades_today/"
+        }
+      ],
+      "topics": [
+        "NFLX",
+        "Longs",
+        "Punching",
+        "Right"
+      ],
+      "themen": [
+        {
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 50,
+          "beitraege": 1,
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        }
+      ],
+      "bull_case": [],
+      "bear_case": [],
+      "price": {
+        "available": true,
+        "price": 68.69,
+        "currency": "USD",
+        "name": "Netflix, Inc.",
+        "chart_1d": [
+          {
+            "t": 1792503000,
+            "c": 69.81
+          },
+          {
+            "t": 1792503900,
+            "c": 70.63
+          },
+          {
+            "t": 1792504800,
+            "c": 70.23
+          },
+          {
+            "t": 1792505700,
+            "c": 70.18
+          },
+          {
+            "t": 1792506600,
+            "c": 70.24
+          },
+          {
+            "t": 1792507500,
+            "c": 70.26
+          },
+          {
+            "t": 1792508400,
+            "c": 69.94
+          },
+          {
+            "t": 1792509300,
+            "c": 69.93
+          },
+          {
+            "t": 1792510200,
+            "c": 69.81
+          },
+          {
+            "t": 1792511100,
+            "c": 69.8
+          },
+          {
+            "t": 1792512000,
+            "c": 69.71
+          },
+          {
+            "t": 1792512900,
+            "c": 69.56
+          },
+          {
+            "t": 1792513800,
+            "c": 69.81
+          },
+          {
+            "t": 1792514700,
+            "c": 69.49
+          },
+          {
+            "t": 1792515600,
+            "c": 69.17
+          },
+          {
+            "t": 1792516500,
+            "c": 69.21
+          },
+          {
+            "t": 1792517400,
+            "c": 69.24
+          },
+          {
+            "t": 1792518300,
+            "c": 69.4
+          },
+          {
+            "t": 1792519200,
+            "c": 69.32
+          },
+          {
+            "t": 1792520100,
+            "c": 69.04
+          },
+          {
+            "t": 1792521000,
+            "c": 68.54
+          },
+          {
+            "t": 1792521900,
+            "c": 68.74
+          },
+          {
+            "t": 1792522800,
+            "c": 68.56
+          },
+          {
+            "t": 1792523700,
+            "c": 68.51
+          },
+          {
+            "t": 1792524600,
+            "c": 68.47
+          },
+          {
+            "t": 1792525500,
+            "c": 68.67
+          },
+          {
+            "t": 1792526400,
+            "c": 68.69
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1791984600,
+            "c": 70.1
+          },
+          {
+            "t": 1791988200,
+            "c": 69.46
+          },
+          {
+            "t": 1791991800,
+            "c": 69.9
+          },
+          {
+            "t": 1791995400,
+            "c": 69.93
+          },
+          {
+            "t": 1791999000,
+            "c": 70.23
+          },
+          {
+            "t": 1792002600,
+            "c": 70.38
+          },
+          {
+            "t": 1792006200,
+            "c": 70.6
+          },
+          {
+            "t": 1792071000,
+            "c": 72.36
+          },
+          {
+            "t": 1792074600,
+            "c": 72.64
+          },
+          {
+            "t": 1792078200,
+            "c": 72.68
+          },
+          {
+            "t": 1792081800,
+            "c": 72.69
+          },
+          {
+            "t": 1792085400,
+            "c": 72.75
+          },
+          {
+            "t": 1792089000,
+            "c": 72.71
+          },
+          {
+            "t": 1792092600,
+            "c": 72.61
+          },
+          {
+            "t": 1792157400,
+            "c": 70.82
+          },
+          {
+            "t": 1792161000,
+            "c": 70.89
+          },
+          {
+            "t": 1792164600,
+            "c": 70.7
+          },
+          {
+            "t": 1792168200,
+            "c": 70.51
+          },
+          {
+            "t": 1792171800,
+            "c": 70.21
+          },
+          {
+            "t": 1792175400,
+            "c": 70.28
+          },
+          {
+            "t": 1792179000,
+            "c": 70.54
+          },
+          {
+            "t": 1792416600,
+            "c": 69.54
+          },
+          {
+            "t": 1792420200,
+            "c": 69.57
+          },
+          {
+            "t": 1792423800,
+            "c": 69.61
+          },
+          {
+            "t": 1792427400,
+            "c": 69.56
+          },
+          {
+            "t": 1792431000,
+            "c": 69.54
+          },
+          {
+            "t": 1792434600,
+            "c": 69.83
+          },
+          {
+            "t": 1792438200,
+            "c": 69.82
+          },
+          {
+            "t": 1792503000,
+            "c": 70.18
+          },
+          {
+            "t": 1792506600,
+            "c": 69.93
+          },
+          {
+            "t": 1792510200,
+            "c": 69.56
+          },
+          {
+            "t": 1792513800,
+            "c": 69.21
+          },
+          {
+            "t": 1792517400,
+            "c": 69.04
+          },
+          {
+            "t": 1792521000,
+            "c": 68.51
+          },
+          {
+            "t": 1792524600,
+            "c": 68.67
+          },
+          {
+            "t": 1792526400,
+            "c": 68.69
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1789997400,
+            "c": 73.36
+          },
+          {
+            "t": 1790083800,
+            "c": 72.16
+          },
+          {
+            "t": 1790170200,
+            "c": 71.36
+          },
+          {
+            "t": 1790256600,
+            "c": 71.72
+          },
+          {
+            "t": 1790343000,
+            "c": 71.15
+          },
+          {
+            "t": 1790602200,
+            "c": 69.23
+          },
+          {
+            "t": 1790688600,
+            "c": 70.3
+          },
+          {
+            "t": 1790775000,
+            "c": 69.58
+          },
+          {
+            "t": 1790861400,
+            "c": 67.85
+          },
+          {
+            "t": 1790947800,
+            "c": 67.06
+          },
+          {
+            "t": 1791207000,
+            "c": 67.5
+          },
+          {
+            "t": 1791293400,
+            "c": 68.69
+          },
+          {
+            "t": 1791379800,
+            "c": 69.7
+          },
+          {
+            "t": 1791466200,
+            "c": 71.57
+          },
+          {
+            "t": 1791552600,
+            "c": 70.3
+          },
+          {
+            "t": 1791811800,
+            "c": 70.61
+          },
+          {
+            "t": 1791898200,
+            "c": 70.46
+          },
+          {
+            "t": 1791984600,
+            "c": 70.57
+          },
+          {
+            "t": 1792071000,
+            "c": 72.61
+          },
+          {
+            "t": 1792157400,
+            "c": 70.53
+          },
+          {
+            "t": 1792416600,
+            "c": 69.85
+          },
+          {
+            "t": 1792503000,
+            "c": 68.69
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1760932800,
+            "c": 109.47
+          },
+          {
+            "t": 1761537600,
+            "c": 111.89
+          },
+          {
+            "t": 1762146000,
+            "c": 110.37
+          },
+          {
+            "t": 1762750800,
+            "c": 111.22
+          },
+          {
+            "t": 1763355600,
+            "c": 104.31
+          },
+          {
+            "t": 1763960400,
+            "c": 107.58
+          },
+          {
+            "t": 1764565200,
+            "c": 100.24
+          },
+          {
+            "t": 1765170000,
+            "c": 95.19
+          },
+          {
+            "t": 1765774800,
+            "c": 94.39
+          },
+          {
+            "t": 1766379600,
+            "c": 94.47
+          },
+          {
+            "t": 1766984400,
+            "c": 90.99
+          },
+          {
+            "t": 1767589200,
+            "c": 89.46
+          },
+          {
+            "t": 1768194000,
+            "c": 88.0
+          },
+          {
+            "t": 1768798800,
+            "c": 86.12
+          },
+          {
+            "t": 1769403600,
+            "c": 83.49
+          },
+          {
+            "t": 1770008400,
+            "c": 82.2
+          },
+          {
+            "t": 1770613200,
+            "c": 76.87
+          },
+          {
+            "t": 1771218000,
+            "c": 78.67
+          },
+          {
+            "t": 1771822800,
+            "c": 96.24
+          },
+          {
+            "t": 1772427600,
+            "c": 99.02
+          },
+          {
+            "t": 1773028800,
+            "c": 95.31
+          },
+          {
+            "t": 1773633600,
+            "c": 91.82
+          },
+          {
+            "t": 1774238400,
+            "c": 93.43
+          },
+          {
+            "t": 1774843200,
+            "c": 98.66
+          },
+          {
+            "t": 1775448000,
+            "c": 103.01
+          },
+          {
+            "t": 1776052800,
+            "c": 97.31
+          },
+          {
+            "t": 1776657600,
+            "c": 92.44
+          },
+          {
+            "t": 1777262400,
+            "c": 92.06
+          },
+          {
+            "t": 1777867200,
+            "c": 87.49
+          },
+          {
+            "t": 1778472000,
+            "c": 87.02
+          },
+          {
+            "t": 1779076800,
+            "c": 88.6
+          },
+          {
+            "t": 1779681600,
+            "c": 86.02
+          },
+          {
+            "t": 1780286400,
+            "c": 82.18
+          },
+          {
+            "t": 1780891200,
+            "c": 80.34
+          },
+          {
+            "t": 1781496000,
+            "c": 77.38
+          },
+          {
+            "t": 1782100800,
+            "c": 73.81
+          },
+          {
+            "t": 1782705600,
+            "c": 77.65
+          },
+          {
+            "t": 1783310400,
+            "c": 73.37
+          },
+          {
+            "t": 1783915200,
+            "c": 68.95
+          },
+          {
+            "t": 1784520000,
+            "c": 70.09
+          },
+          {
+            "t": 1785124800,
+            "c": 71.71
+          },
+          {
+            "t": 1785729600,
+            "c": 74.14
+          },
+          {
+            "t": 1786334400,
+            "c": 78.16
+          },
+          {
+            "t": 1786939200,
+            "c": 79.59
+          },
+          {
+            "t": 1787544000,
+            "c": 81.72
+          },
+          {
+            "t": 1788148800,
+            "c": 78.25
+          },
+          {
+            "t": 1788753600,
+            "c": 77.4
+          },
+          {
+            "t": 1789358400,
+            "c": 71.79
+          },
+          {
+            "t": 1789963200,
+            "c": 71.15
+          },
+          {
+            "t": 1790568000,
+            "c": 67.06
+          },
+          {
+            "t": 1791172800,
+            "c": 70.3
+          },
+          {
+            "t": 1791777600,
+            "c": 70.53
+          },
+          {
+            "t": 1792382400,
+            "c": 68.69
+          },
+          {
+            "t": 1792526400,
+            "c": 68.69
+          }
+        ],
+        "chg_1d": -1.6,
+        "chg_7d": -2.51,
+        "chg_1mo": -6.37,
+        "chg_1y": -37.25,
+        "sma20_dist": -1.82
+      },
+      "news": [
+        {
+          "title": "NFLX Stock Slips More Than 6% Premarket: Morningstar Sees 'Best Buying Opportunity' For Netflix Amid Negative Sentiment",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nflx-stock-slips-more-than-6-premarket-morningstar-sees-best-buying-opportunity-for-netflix-amid-negative-sentiment/cZxtvG5RBHv?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Netflix Lost $17 Billion Over a $300 Million Ad Miss. Here’s What 20x Earnings Already Prices In",
+          "link": "https://www.tikr.com/blog/netflix-lost-17-billion-over-a-300-million-ad-miss-heres-what-20x-earnings-already-prices-in?ref=yahoofinance&.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neg"
+        },
+        {
+          "title": "NFLX Q3 Earnings Call Highlights Advertising Growth & Content Strategy",
+          "link": "https://finance.yahoo.com/media-advertising/articles/nflx-q3-earnings-call-highlights-074700331.html?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Netflix shares drop on slowing engagement and revenue growth",
+          "link": "https://www.euronews.com/2026/10/21/netflix-shares-drop-on-slowing-engagement-and-revenue-growth?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "1 Reason Why Netflix Stock Looks Oversold",
+          "link": "https://www.fool.com/investing/2026/10/21/1-reason-why-netflix-stock-looks-oversold/?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neu"
+        }
+      ],
+      "comparison": {
+        "verdict": "relativiert",
+        "points": [
+          "Kurs seitwärts über 7 Tage (-2.51%).",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+        ]
+      },
+      "fazit": "Reddit diskutiert Netflix, Inc. aktuell bullisch (3 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit_quelle": "regelbasiert",
+      "analyse": "",
+      "konkurrenten": [],
+      "gruende": [
+        "Mentions +1 gegenüber dem letzten Scan",
+        "💰 Einstiegs-Debatte",
+        "News: Netflix Lost $17 Billion Over a $300 Million Ad Miss. Here’s What 20x "
+      ],
+      "momentum": 94,
+      "momentum_label": "🚀 Diskussion wächst extrem schnell",
+      "growth_pct": 200,
+      "timeline": [
+        {
+          "day": "2026-10-18",
+          "mentions": 0
+        },
+        {
+          "day": "2026-10-19",
+          "mentions": 0
+        },
+        {
+          "day": "2026-10-20",
+          "mentions": 0
+        },
+        {
+          "day": "2026-10-21",
+          "mentions": 3
+        }
+      ],
+      "hype_typ": "hype",
+      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "quality_grade": "D",
+      "quality_pct": 31,
+      "reddit_vs_markt": {
+        "reddit": 94,
+        "markt": 39,
+        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+      },
+      "verlauf": [
+        {
+          "ts": "2026-10-21T08:59:08.379242+00:00",
+          "ticker": "NFLX",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 5,
+          "price": 68.69
         }
       ]
     },
@@ -2934,14 +3657,14 @@
       },
       "news": [
         {
-          "title": "Chip stocks recover as AI jitters fade",
-          "link": "https://finance.yahoo.com/markets/article/chip-stocks-recover-as-ai-jitters-fade-144605522.html?.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
+          "title": "Vultr and AMD Expand Global Collaboration with New AI Infrastructure in India",
+          "link": "https://finance.yahoo.com/technology/ai/articles/vultr-amd-expand-global-collaboration-053000713.html?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "Chips lead Nasdaq lower, oil tops 5-month high: AlphaCheck",
-          "link": "https://finance.yahoo.com/markets/article/chips-lead-nasdaq-lower-oil-tops-5-month-high-alphacheck-134325052.html?.tsrc=rss",
+          "title": "Chip stocks recover as AI jitters fade",
+          "link": "https://finance.yahoo.com/markets/article/chip-stocks-recover-as-ai-jitters-fade-144605522.html?.tsrc=rss",
           "date": "Tue, 20 Oct 2026",
           "tone": "neu"
         },
@@ -2958,8 +3681,8 @@
           "tone": "neu"
         },
         {
-          "title": "AMD Lost Its $1 Trillion Status: Two Options Trades to Play the Comeback",
-          "link": "https://www.barchart.com/story/news/8231491/amd-lost-its-1-trillion-status-two-options-trades-to-play-the-comeback?.tsrc=rss",
+          "title": "Chips lead Nasdaq lower, oil tops 5-month high: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/chips-lead-nasdaq-lower-oil-tops-5-month-high-alphacheck-134325052.html?.tsrc=rss",
           "date": "Tue, 20 Oct 2026",
           "tone": "neu"
         }
@@ -3012,14 +3735,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-10-20T00:49:09.243375+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 67,
-          "engagement": 12,
-          "price": 528.75
-        },
-        {
           "ts": "2026-10-20T06:52:03.415356+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
@@ -3053,6 +3768,14 @@
         },
         {
           "ts": "2026-10-21T02:34:08.910590+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 4,
+          "price": 534.74
+        },
+        {
+          "ts": "2026-10-21T08:59:08.379242+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
           "confidence": 61,
@@ -3689,33 +4412,33 @@
       },
       "news": [
         {
+          "title": "Bloom Energy Is Down 36% From Its June Record. Should You Buy Before Thursday's Report?",
+          "link": "https://www.fool.com/investing/2026/10/21/bloom-energy-is-down-36-from-its-june-record-should-you-buy-before-thursday-s-report/?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Stocktwits Midweek Energy Roundup: Brent Crosses $110 A Barrel, Musk’s Comments On Power For AI, Key Earnings Check",
+          "link": "https://stocktwits.com/news-articles/markets/equity/stocktwits-midweek-energy-roundup-brent-crosses-110-a-barrel-musk-s-comments-on-power-for-ai-key-earnings-check/cZxtMSqRBHt?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "What To Expect From Bloom Energy’s (BE) Q3 Earnings",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/expect-bloom-energy-q3-earnings-053439083.html?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Bloom Energy vs. Oracle: Which AI Infrastructure Stock Is the Better Buy After the Jupiter Setback?",
+          "link": "https://www.fool.com/investing/2026/10/20/bloom-energy-vs-oracle-which-ai-infrastructure-sto/?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Exploring Analyst Estimates for Bloom Energy (BE) Q3 Earnings, Beyond Revenue and EPS",
           "link": "https://finance.yahoo.com/markets/stocks/articles/exploring-analyst-estimates-bloom-energy-121504585.html?.tsrc=rss",
           "date": "Tue, 20 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Is AI Data Center Deals Altering The Investment Case For Bloom Energy Stock?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-data-center-deals-altering-091749963.html?.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "BE Stock Slips Overnight: Bloom Energy’s Valuation In Focus Ahead Of Q3 Earnings",
-          "link": "https://stocktwits.com/news-articles/markets/equity/be-stock-slips-overnight-bloom-energy-s-valuation-in-focus-ahead-of-q3-earnings/cZxqmtERBuW?.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "1 Green Flag and 1 Red Flag for Bloom Energy Investors",
-          "link": "https://www.fool.com/investing/2026/10/19/1-green-flag-1-red-flag-for-bloom-energy-investors/?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Bloom Energy Q3 Earnings on Deck: Should Investors Buy or Wait?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-q3-earnings-deck-121600245.html?.tsrc=rss",
-          "date": "Mon, 19 Oct 2026",
           "tone": "neu"
         }
       ],
@@ -3733,7 +4456,8 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "🎯 Optionen & Short-Interest"
+        "🎯 Optionen & Short-Interest",
+        "News: Bloom Energy Is Down 36% From Its June Record. Should You Buy Before T"
       ],
       "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
@@ -3766,14 +4490,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-20T00:49:09.243375+00:00",
-          "ticker": "BE",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 4,
-          "price": 221.31
-        },
         {
           "ts": "2026-10-20T06:52:03.415356+00:00",
           "ticker": "BE",
@@ -3813,201 +4529,29 @@
           "confidence": 61,
           "engagement": 4,
           "price": 222.65
-        }
-      ]
-    },
-    {
-      "ticker": "KRIBZ",
-      "name": "KRIBZ",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 41,
-      "sentiment": 0,
-      "mentions": 3,
-      "mentions_delta": 0,
-      "engagement": 3,
-      "sources": [
-        "Mauerstrassenwetten",
-        "Ameisenstrassenwetten"
-      ],
-      "titles": [
-        "Earnings-Kalender nach implizierter Bewegung",
-        "Earnings-Kalender nach implizierter Bewegung",
-        "Earnings-Kalender nach implizierter Bewegung"
-      ],
-      "top_posts": [
-        {
-          "title": "Earnings-Kalender nach implizierter Bewegung",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1x7n8q2/earningskalender_nach_implizierter_bewegung/"
         },
         {
-          "title": "Earnings-Kalender nach implizierter Bewegung",
-          "url": "https://www.reddit.com/r/mauerstrassenwetten/comments/1x2qzw6/earningskalender_nach_implizierter_bewegung/"
-        },
-        {
-          "title": "Earnings-Kalender nach implizierter Bewegung",
-          "url": "https://www.reddit.com/r/ameisenstrassenwetten/comments/1x2r3wm/earningskalender_nach_implizierter_bewegung/"
-        }
-      ],
-      "topics": [
-        "Earnings-Kalender",
-        "Implizierter",
-        "Bewegung"
-      ],
-      "themen": [
-        {
-          "emoji": "💬",
-          "titel": "Allgemeine Diskussion",
-          "anteil_pct": 100,
-          "beitraege": 3,
-          "erklaerung": "Kein dominantes Einzelthema erkennbar – breite Diskussion ohne klaren Auslöser."
-        }
-      ],
-      "bull_case": [],
-      "bear_case": [],
-      "price": {
-        "available": false
-      },
-      "news": [],
-      "comparison": {
-        "verdict": "unbekannt",
-        "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
-        ]
-      },
-      "fazit": "Reddit diskutiert KRIBZ aktuell gemischt (3 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
-      "fazit_quelle": "regelbasiert",
-      "analyse": "",
-      "konkurrenten": [],
-      "gruende": [
-        "💬 Allgemeine Diskussion"
-      ],
-      "momentum": 54,
-      "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 0,
-      "timeline": [
-        {
-          "day": "2026-10-18",
-          "mentions": 3
-        },
-        {
-          "day": "2026-10-19",
-          "mentions": 3
-        },
-        {
-          "day": "2026-10-20",
-          "mentions": 3
-        },
-        {
-          "day": "2026-10-21",
-          "mentions": 3
-        }
-      ],
-      "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "D",
-      "quality_pct": 19,
-      "reddit_vs_markt": {
-        "reddit": 54,
-        "markt": 50,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
-      },
-      "verlauf": [
-        {
-          "ts": "2026-10-20T00:49:09.243375+00:00",
-          "ticker": "KRIBZ",
+          "ts": "2026-10-21T08:59:08.379242+00:00",
+          "ticker": "BE",
           "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 3,
-          "price": null
-        },
-        {
-          "ts": "2026-10-20T06:52:03.415356+00:00",
-          "ticker": "KRIBZ",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 3,
-          "price": null
-        },
-        {
-          "ts": "2026-10-20T13:08:41.930181+00:00",
-          "ticker": "KRIBZ",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 3,
-          "price": null
-        },
-        {
-          "ts": "2026-10-20T18:11:58.019529+00:00",
-          "ticker": "KRIBZ",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 3,
-          "price": null
-        },
-        {
-          "ts": "2026-10-20T22:49:46.222952+00:00",
-          "ticker": "KRIBZ",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 3,
-          "price": null
-        },
-        {
-          "ts": "2026-10-21T02:34:08.910590+00:00",
-          "ticker": "KRIBZ",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 3,
-          "price": null
+          "confidence": 61,
+          "engagement": 4,
+          "price": 222.65
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 11,
-    "n_evaluated": 271,
+    "hit_rate": 12,
+    "n_evaluated": 269,
     "rate_kaufen": 0,
     "rate_verkaufen": 0,
     "rate_beobachten": 14,
     "kauf_perf_7d": -15.6,
-    "kauf_perf_30d": -15.9
+    "kauf_perf_30d": -17.8
   },
   "history_evaluated": [
     {
-      "ts": "2026-10-11T08:01:44.699616+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 11,
-      "price": 229.28,
-      "chg_since": -5.59,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-11T16:03:31.471297+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 54,
-      "engagement": 13,
-      "price": 1029.0,
-      "chg_since": -12.92,
-      "correct": false,
-      "age_days": 9
-    },
-    {
-      "ts": "2026-10-11T16:03:31.471297+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 8,
-      "price": 608.1,
-      "chg_since": -12.06,
-      "correct": false,
-      "age_days": 9
-    },
-    {
       "ts": "2026-10-11T16:03:31.471297+00:00",
       "ticker": "ARR",
       "rec": "beobachten",
@@ -4148,7 +4692,7 @@
       "price": 1029.0,
       "chg_since": -12.92,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-12T08:17:48.059044+00:00",
@@ -4159,7 +4703,7 @@
       "price": 608.1,
       "chg_since": -12.06,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-12T08:17:48.059044+00:00",
@@ -4170,7 +4714,7 @@
       "price": 565.12,
       "chg_since": 4.7,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-12T08:17:48.059044+00:00",
@@ -4181,7 +4725,7 @@
       "price": 229.28,
       "chg_since": -5.59,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-10-12T19:30:39.424239+00:00",
@@ -4291,7 +4835,7 @@
       "price": 989.04,
       "chg_since": -9.4,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-13T08:42:53.450857+00:00",
@@ -4302,7 +4846,7 @@
       "price": 44.26,
       "chg_since": 1.11,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-13T08:42:53.450857+00:00",
@@ -4313,7 +4857,7 @@
       "price": 594.24,
       "chg_since": -10.01,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-13T08:42:53.450857+00:00",
@@ -4324,7 +4868,7 @@
       "price": 568.01,
       "chg_since": 4.17,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-13T08:42:53.450857+00:00",
@@ -4335,7 +4879,7 @@
       "price": 226.32,
       "chg_since": -4.35,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-13T17:15:08.048928+00:00",
@@ -4413,11 +4957,109 @@
       "chg_since": 5.5,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-10-14T02:45:35.184157+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 73,
+      "engagement": 10,
+      "price": 605.53,
+      "chg_since": -11.69,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-14T02:45:35.184157+00:00",
+      "ticker": "ITM",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 21,
+      "price": 44.48,
+      "chg_since": 0.61,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-14T02:45:35.184157+00:00",
+      "ticker": "MSCI",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 14,
+      "price": 560.82,
+      "chg_since": 5.5,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
+      {
+        "text": "As the President of the United States, I have been watching Data Centers very closely, and have come to a very strong conclusion. New and large, in some cases gigantic, Data enters are mandated by me to make their own electricity, and give or sell any excess back to the local community, or grid, and therefore there is electric price increase. In fact, there could be a substantial decrease. Other e",
+        "url": "https://www.trumpstruth.org/statuses/42533",
+        "date": "Wed, 21 Oct 2026 05:37",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/42532",
+        "date": "Wed, 21 Oct 2026 01:53",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/42527",
+        "date": "Wed, 21 Oct 2026 01:46",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/42528",
+        "date": "Wed, 21 Oct 2026 01:46",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/42529",
+        "date": "Wed, 21 Oct 2026 01:45",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/42530",
+        "date": "Wed, 21 Oct 2026 01:45",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "Cook Political Report shifts Minnesota Senate race toward GOP: https:// justthenews.com/politics-polic y/cook-political-report-shifts-minnesota-senate-race-toward-gop",
+        "url": "https://www.trumpstruth.org/statuses/42531",
+        "date": "Wed, 21 Oct 2026 01:44",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
       {
         "text": "View video",
         "url": "https://www.trumpstruth.org/statuses/42526",
@@ -4425,73 +5067,10 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Overflow crowds greet President Trump as he urges Kansans to reelect Sen. Marshall: https:// kansas.com/news/politics-gover nment/election/article317692502.html",
-        "url": "https://www.trumpstruth.org/statuses/42524",
-        "date": "Tue, 20 Oct 2026 21:12",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Melania Trump Announces White House Women’s Health Initiative: https://www. nytimes.com/2026/10/19/us/poli tics/melania-trump-women-health.html",
-        "url": "https://www.trumpstruth.org/statuses/42523",
-        "date": "Tue, 20 Oct 2026 21:08",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Trump and Republicans show a more female-friendly side of the story with new E.O. on women's health: https:// justthenews.com/government/whi te-house/trump-womens-health",
-        "url": "https://www.trumpstruth.org/statuses/42525",
-        "date": "Tue, 20 Oct 2026 21:07",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Trump, First Lady Announce Actions Aimed at Improving Women's Health: https://www. breitbart.com/health/2026/10/1 9/trump-first-lady-announce-actions-aimed-improving-womens-health/",
-        "url": "https://www.trumpstruth.org/statuses/42522",
-        "date": "Tue, 20 Oct 2026 20:51",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Donald Trump signs executive order creating NIH task force as Melania unveils ‘new standard for women’s health in America’: https:// nypost.com/2026/10/19/us-news/ donald-trump-signs-executive-order-creating-new-womens-health-task-force-with-melania/",
-        "url": "https://www.trumpstruth.org/statuses/42520",
-        "date": "Tue, 20 Oct 2026 20:49",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Nick Shirley went after California for FRAUD. He turned them in, and they went after him, instead of the people that committed the FRAUD! President DONALD J. TRUMP",
-        "url": "https://www.trumpstruth.org/statuses/42521",
-        "date": "Tue, 20 Oct 2026 20:48",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "🚨 OHIO! Early Voting, in-person, is UNDERWAY NOW in the Great State of Ohio. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Oh",
-        "url": "https://www.trumpstruth.org/statuses/42517",
-        "date": "Tue, 20 Oct 2026 19:34",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
         "is_new": false
       }
     ],
-    "market_hits": 0
+    "market_hits": 1
   },
   "spannende_aktien": [
     {
@@ -4502,8 +5081,8 @@
       "chg_1d": 51.7,
       "vol_ratio": 32.8,
       "warum": [
-        "Stock Market Today, Oct. 20: Salesforce Agrees to Acquire Braze for $5.66 Billio",
-        "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wo"
+        "CRM Stock In Focus: Jefferies Says Salesforce’s Braze Deal Could Spark More Soft",
+        "Why Did BRZE, HLT, HAS Stocks Hit 52-Week Highs Today?"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -4514,16 +5093,16 @@
       ],
       "news": [
         {
-          "title": "Stock Market Today, Oct. 20: Salesforce Agrees to Acquire Braze for $5.66 Billion: BRZE Stock Soars 52%",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/10/20/stock-market-today-oct-20-salesforce-agrees-to-acquire-braze-for-usd5-66-billion-brze-stock-soars-52/?.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
-          "tone": "pos"
+          "title": "CRM Stock In Focus: Jefferies Says Salesforce’s Braze Deal Could Spark More Software Takeovers",
+          "link": "https://stocktwits.com/news-articles/markets/equity/crm-stock-in-focus-jefferies-says-salesforce-s-braze-deal-could-spark-more-software-takeovers/cZxtMp4RBHM?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neu"
         },
         {
-          "title": "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wow Moment”",
-          "link": "https://www.tikr.com/blog/braze-soars-51-as-salesforce-agrees-to-5-66-billion-buyout-to-deliver-that-wow-moment?ref=yahoofinance&.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
-          "tone": "pos"
+          "title": "Why Did BRZE, HLT, HAS Stocks Hit 52-Week Highs Today?",
+          "link": "https://stocktwits.com/news-articles/markets/equity/why-did-brze-hlt-has-stocks-hit-52-week-highs-today/cZxtFTNRBHl?.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neu"
         }
       ]
     },
@@ -4567,8 +5146,8 @@
       "chg_1d": -1.66,
       "vol_ratio": 1.9,
       "warum": [
-        "NFLX Stock Tumbles Overnight: Co-CEO Wants Netflix To Be Last Service Customers ",
-        "Netflix Q3 Earnings Call Highlights"
+        "NFLX Stock Slips More Than 6% Premarket: Morningstar Sees 'Best Buying Opportuni",
+        "Netflix Lost $17 Billion Over a $300 Million Ad Miss. Here’s What 20x Earnings A"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4577,16 +5156,16 @@
       ],
       "news": [
         {
-          "title": "NFLX Stock Tumbles Overnight: Co-CEO Wants Netflix To Be Last Service Customers 'Ever Cancel', Says Live Events 'Drive New Membership'",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nflx-stock-tumbles-overnight-co-ceo-wants-netflix-to-be-last-service-customers-ever-cancel-says-live-events-drive-new-membership/cZxtZTCRBH0?.tsrc=rss",
+          "title": "NFLX Stock Slips More Than 6% Premarket: Morningstar Sees 'Best Buying Opportunity' For Netflix Amid Negative Sentiment",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nflx-stock-slips-more-than-6-premarket-morningstar-sees-best-buying-opportunity-for-netflix-amid-negative-sentiment/cZxtvG5RBHv?.tsrc=rss",
           "date": "Wed, 21 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "Netflix Q3 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/transcript-netflix-q3-earnings-call-highlights-2026-10-20/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
-          "tone": "neu"
+          "title": "Netflix Lost $17 Billion Over a $300 Million Ad Miss. Here’s What 20x Earnings Already Prices In",
+          "link": "https://www.tikr.com/blog/netflix-lost-17-billion-over-a-300-million-ad-miss-heres-what-20x-earnings-already-prices-in?ref=yahoofinance&.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neg"
         }
       ]
     },
@@ -4598,8 +5177,8 @@
       "chg_1d": 1.11,
       "vol_ratio": 1.7,
       "warum": [
-        "What Intuitive Surgical (ISRG) Said on Its Q3 Earnings Call",
-        "Intuitive Surgical (ISRG) Q3 Earnings: Taking a Look at Key Metrics Versus Estim"
+        "Intuitive Surgical Sinks 7% on U.S. Slowdown: “Lowest We’ve Seen Since COVID”",
+        "What Intuitive Surgical (ISRG) Said on Its Q3 Earnings Call"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4608,15 +5187,15 @@
       ],
       "news": [
         {
+          "title": "Intuitive Surgical Sinks 7% on U.S. Slowdown: “Lowest We’ve Seen Since COVID”",
+          "link": "https://www.tikr.com/blog/intuitive-surgical-sinks-7-on-u-s-slowdown-lowest-weve-seen-since-covid?ref=yahoofinance&.tsrc=rss",
+          "date": "Wed, 21 Oct 2026",
+          "tone": "neg"
+        },
+        {
           "title": "What Intuitive Surgical (ISRG) Said on Its Q3 Earnings Call",
           "link": "https://www.marketbeat.com/instant-alerts/transcript-what-intuitive-surgical-isrg-said-on-its-q3-earnings-call-2026-10-20/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
           "date": "Wed, 21 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Intuitive Surgical (ISRG) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-q3-earnings-220002513.html?.tsrc=rss",
-          "date": "Tue, 20 Oct 2026",
           "tone": "neu"
         }
       ]
@@ -4629,8 +5208,8 @@
       "chg_1d": 1.15,
       "vol_ratio": 1.2,
       "warum": [
-        "Dow Jones Futures: AI Stocks Jump On SpaceX, Supermicro; Tesla, Meta On Deck",
-        "SMCI Stock Surges 16% As Preliminary Q1 Sales Smash Estimates Amid AI Boom"
+        "Nasdaq Futures Rise Premarket As SpaceX AI Boom Lifts Chip Stocks: SMCI, TSLA, M",
+        "Supermicro stock surges 12% after raising revenue outlook on AI demand"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4639,14 +5218,14 @@
       ],
       "news": [
         {
-          "title": "Dow Jones Futures: AI Stocks Jump On SpaceX, Supermicro; Tesla, Meta On Deck",
-          "link": "https://finance.yahoo.com/m/40378091-9f13-35f6-a4eb-65961ef4434c/dow-jones-futures%3A-ai-stocks.html?.tsrc=rss",
+          "title": "Nasdaq Futures Rise Premarket As SpaceX AI Boom Lifts Chip Stocks: SMCI, TSLA, META, IBM, CRWV, NFLX, BE In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-rise-premarket-spacex-ai-boom-lifts-chip-stocks-smci-tsla-meta-ibm-crwv-nflx-be-in-focus/cZxtvuZRBHU?.tsrc=rss",
           "date": "Wed, 21 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "SMCI Stock Surges 16% As Preliminary Q1 Sales Smash Estimates Amid AI Boom",
-          "link": "https://stocktwits.com/news-articles/markets/equity/smci-stock-surges-16-as-preliminary-q1-sales-smash-estimates-amid-ai-boom/cZxAOcyRBHg?.tsrc=rss",
+          "title": "Supermicro stock surges 12% after raising revenue outlook on AI demand",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/supermicro-stock-surges-12-raising-210904986.html?.tsrc=rss",
           "date": "Tue, 20 Oct 2026",
           "tone": "pos"
         }
@@ -4663,9 +5242,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1",
+      "link": "https://www.ft.com/content/ae820b11-e085-44b4-a8ca-8e5fa2eeb571?syn-25a6b1a6=1",
       "date": "Wed, 21 Oct 2026",
-      "headline": "SpaceX and Tesla boards explore potential merger",
+      "headline": "FirstFT: SpaceX and Tesla explore merger",
       "source": "FT"
     },
     {
@@ -4691,9 +5270,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtUThSVkMzVThmclNyYmRobWM3NURJYmt1THZJTHhab2Y1LUNJckxJb1hpOGI3eU1QZ3A3d0ZSVzFfamRRYm51UFg5dVV2V3lQRkxnUjRJOUllbXJFcHBkdi1nOEJ4bFduQzZLYkQzWHphUk91ZFV6MzRDcWtJU00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjNDS0xvLV83dVFjYnl0dUZXZERlNU51R0RzQmZZcnQxRld0N1JaNTAtaDd4U2xVczJUUnZCSGtMejZZbHBDVXRnTXJ5UUQtRDdpY1ZYQUJPajJ3T3V1WG9UbW1waW5pSzBFaEpIbFBCYmNjaWJVc0xqWVdiMGRLWEJiclJHbXphOF9CTThoVXZOTTNSdURNaXBqSkNzemM?oc=5",
       "date": "Tue, 20 Oct 2026",
-      "headline": "Elon Musk says Tesla and SpaceX are weighing a $3.5 trillion merger—without him in the room - Fortune",
+      "headline": "Salesforce To Buy Braze In $5.7 Billion, All-Cash Deal As Acquisitions Continue - Investor's Business Daily",
       "source": "Google News"
     },
     {
@@ -4705,9 +5284,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVGU5cmYtREhTczI0Q3RPS1BOTWRxZXIzYUIzcnU1aExJWVFSYjkzV1BlNU0ybGNhM2VsVmRFQWlIeFpQckRzc0ZQUkJEZHlRTW45enJTNXBhNEtWdTNFc1BGR3NXN0MzQU5HVlNTNFkzTkNsa1hLTWw2RHNxell6WDd4cw?oc=5",
-      "date": "Tue, 20 Oct 2026",
-      "headline": "Dream Finders closes $2.2 billion all-cash acquisition of Beazer Homes - HousingWire",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90WmZoajh2ZEgzUEx2ZVBVSkczT0V1aEpLbDZWSlUyTGhZenRzaXFZMmhPU21PQ3F1SUJJVTcwSTdSTmxFMkV6akhTUFhmbFptN3hza0J3eDJoTFUySDg5MjhFaldMVUtu?oc=5",
+      "date": "Wed, 21 Oct 2026",
+      "headline": "SpaceX’s AI boom puts Tesla merger on the table as Musk confirms formal talks - CTech",
       "source": "Google News"
     }
   ]
