@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:55:47.069612+00:00",
+  "generated_at": "2026-11-01T03:19:54.744320+00:00",
   "total_posts": 250,
   "unique_tickers": 204,
   "subreddits": [
@@ -28,22 +28,26 @@
     {
       "ticker": "RDDT",
       "name": "Reddit, Inc.",
-      "signal": "neutral",
+      "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 70,
-      "sentiment": 1,
+      "confidence": 60,
+      "sentiment": 3,
       "mentions": 8,
-      "mentions_delta": 1,
-      "engagement": 35,
+      "mentions_delta": 0,
+      "engagement": 39,
       "sources": [
         "wallstreetbets"
       ],
       "titles": [
+        "260k loss in one day $RDDT $BUG $NBIS",
         "Made money on memory stocks. Lost my memory of risk management. $125k RDDT loss",
-        "$10,000,000 RDDT YOLO Post-Mortem: I Was Wrong :(",
-        "Voice Processed $RDDT earnings"
+        "$10,000,000 RDDT YOLO Post-Mortem: I Was Wrong :("
       ],
       "top_posts": [
+        {
+          "title": "260k loss in one day $RDDT $BUG $NBIS",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xknokd/260k_loss_in_one_day_rddt_bug_nbis/"
+        },
         {
           "title": "Made money on memory stocks. Lost my memory of risk management. $125k RDDT loss",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1xkfyoa/made_money_on_memory_stocks_lost_my_memory_of/"
@@ -59,10 +63,6 @@
         {
           "title": "Biggest One Day Loss In My Life ... so far - Thanks $RDDT",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1xjmypg/biggest_one_day_loss_in_my_life_so_far_thanks_rddt/"
-        },
-        {
-          "title": "$10M RDDT guy waking up to this Shrek",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xjazf7/10m_rddt_guy_waking_up_to_this_shrek/"
         }
       ],
       "topics": [
@@ -76,42 +76,42 @@
           "emoji": "🎯",
           "titel": "Optionen & Short-Interest",
           "anteil_pct": 26,
-          "beitraege": 7,
+          "beitraege": 8,
           "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
-          "emoji": "📊",
-          "titel": "Quartalszahlen",
-          "anteil_pct": 7,
-          "beitraege": 2,
-          "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
         },
         {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 7,
-          "beitraege": 2,
+          "anteil_pct": 10,
+          "beitraege": 3,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+        },
+        {
+          "emoji": "📊",
+          "titel": "Quartalszahlen",
+          "anteil_pct": 6,
+          "beitraege": 2,
+          "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
         },
         {
           "emoji": "📈",
           "titel": "Wachstums-Story",
-          "anteil_pct": 7,
+          "anteil_pct": 6,
           "beitraege": 2,
           "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
         },
         {
           "emoji": "📉",
           "titel": "Kursverluste",
-          "anteil_pct": 7,
+          "anteil_pct": 6,
           "beitraege": 2,
           "erklaerung": "Diskussion über die jüngste Kursschwäche und deren Ursachen."
         }
       ],
       "bull_case": [
+        "Call-Optionen-Aktivität",
         "Erholungs-These",
-        "Zahlen über Erwartung",
-        "Call-Optionen-Aktivität"
+        "Zahlen über Erwartung"
       ],
       "bear_case": [
         "Put-Optionen-Aktivität",
@@ -698,12 +698,6 @@
       },
       "news": [
         {
-          "title": "Reddit (and everyone else) faces a bleak internet without Google traffic",
-          "link": "https://finance.yahoo.com/technology/article/reddit-and-everyone-else-faces-a-bleak-internet-without-google-traffic-100000669.html?.tsrc=rss",
-          "date": "Sat, 31 Oct 2026",
-          "tone": "neu"
-        },
-        {
           "title": "Why Reddit (RDDT) stock is trading lower today",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-reddit-rddt-stock-trading-163529472.html?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
@@ -726,34 +720,36 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-rddt-investors-worry-logged-131249753.html?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
           "tone": "neu"
+        },
+        {
+          "title": "Reddit (and everyone else) faces a bleak internet without Google traffic",
+          "link": "https://finance.yahoo.com/technology/article/reddit-and-everyone-else-faces-a-bleak-internet-without-google-traffic-100000669.html?.tsrc=rss",
+          "date": "Sat, 31 Oct 2026",
+          "tone": "neu"
         }
       ],
       "comparison": {
-        "verdict": "relativiert",
+        "verdict": "widerspricht",
         "points": [
           "Kurs -36.41% über 7 Tage – Abwärtsdruck.",
           "Schwacher Monat: -35.6%.",
           "-37.54% unter SMA20 – technisch angeschlagen.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
         ]
       },
-      "fazit": "Reddit diskutiert Reddit, Inc. aktuell gemischt (8 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Reddit, Inc. aktuell bullisch (8 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "🎯 Optionen & Short-Interest",
-        "📊 Quartalszahlen"
+        "💰 Einstiegs-Debatte",
+        "News: Reddit stock plunges 29.2% as Google AI cuts US traffic"
       ],
-      "momentum": 73,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 85,
+      "momentum": 58,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 26,
       "timeline": [
-        {
-          "day": "2026-10-28",
-          "mentions": 2
-        },
         {
           "day": "2026-10-29",
           "mentions": 3
@@ -765,26 +761,22 @@
         {
           "day": "2026-10-31",
           "mentions": 8
+        },
+        {
+          "day": "2026-11-01",
+          "mentions": 8
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 6,
+      "quality_pct": 10,
       "reddit_vs_markt": {
-        "reddit": 73,
+        "reddit": 58,
         "markt": 0,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-30T20:15:40.721268+00:00",
-          "ticker": "RDDT",
-          "rec": "beobachten",
-          "confidence": 70,
-          "engagement": 21,
-          "price": 91.7
-        },
         {
           "ts": "2026-10-31T01:14:50.477050+00:00",
           "ticker": "RDDT",
@@ -823,6 +815,14 @@
           "rec": "beobachten",
           "confidence": 70,
           "engagement": 35,
+          "price": 91.73
+        },
+        {
+          "ts": "2026-11-01T03:19:54.744320+00:00",
+          "ticker": "RDDT",
+          "rec": "beobachten",
+          "confidence": 60,
+          "engagement": 39,
           "price": 91.73
         }
       ]
@@ -1496,6 +1496,18 @@
       },
       "news": [
         {
+          "title": "I Graded Microsoft's Latest Report on 3 Things. Here's My Verdict on the Stock.",
+          "link": "https://www.fool.com/investing/2026/10/31/i-graded-microsoft-s-latest-report-on-3-things-here-s-my-verdict-on-the-stock/?.tsrc=rss",
+          "date": "Sun, 01 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Microsoft (MSFT) Lands $25 Billion Bond Deal As AI Push Deepens",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-lands-25-billion-011021686.html?.tsrc=rss",
+          "date": "Sun, 01 Nov 2026",
+          "tone": "neu"
+        },
+        {
           "title": "Microsoft just gave Nvidia shareholders a reason to pay attention",
           "link": "https://www.thestreet.com/investing/stocks/microsoft-just-gave-nvidia-shareholders-a-reason-to-pay-attention?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
@@ -1511,18 +1523,6 @@
           "title": "OpenAI’s CEO Thinks Your Laptop’s Memory Should Be in a Data Center",
           "link": "https://247wallst.com/investing/2026/10/31/openais-ceo-thinks-your-laptops-memory-should-be-in-a-data-center/?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Microsoft Offers Voluntary Exits to 60,000 Workers. After 37 Years, He Risks Losing a 401(k) Tax Break With One IRA Rollover",
-          "link": "https://247wallst.com/personal-finance/2026/10/31/microsoft-offers-voluntary-exits-to-60000-workers-after-37-years-he-risks-losing-a-401k-tax-break-with-one-ira-rollover/?.tsrc=rss",
-          "date": "Sat, 31 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Axios Live: How employers are rethinking AI's role in entry-level work",
-          "link": "https://www.axios.com/2026/10/30/axios-live-how-employers-are-rethinking-ais-role-in-entry-level-work#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
-          "date": "Fri, 30 Oct 2026",
           "tone": "neu"
         }
       ],
@@ -1541,14 +1541,10 @@
         "💰 Einstiegs-Debatte",
         "🎯 Optionen & Short-Interest"
       ],
-      "momentum": 54,
+      "momentum": 52,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": -8,
+      "growth_pct": -14,
       "timeline": [
-        {
-          "day": "2026-10-28",
-          "mentions": 3
-        },
         {
           "day": "2026-10-29",
           "mentions": 4
@@ -1560,6 +1556,10 @@
         {
           "day": "2026-10-31",
           "mentions": 4
+        },
+        {
+          "day": "2026-11-01",
+          "mentions": 4
         }
       ],
       "hype_typ": "trend",
@@ -1567,19 +1567,11 @@
       "quality_grade": "D",
       "quality_pct": 37,
       "reddit_vs_markt": {
-        "reddit": 54,
+        "reddit": 52,
         "markt": 48,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-30T07:53:52.791397+00:00",
-          "ticker": "MSFT",
-          "rec": "beobachten",
-          "confidence": 70,
-          "engagement": 13,
-          "price": 530.14
-        },
         {
           "ts": "2026-10-30T14:41:43.521886+00:00",
           "ticker": "MSFT",
@@ -1614,6 +1606,14 @@
         },
         {
           "ts": "2026-10-31T22:55:47.069612+00:00",
+          "ticker": "MSFT",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 11,
+          "price": 521.91
+        },
+        {
+          "ts": "2026-11-01T03:19:54.744320+00:00",
           "ticker": "MSFT",
           "rec": "beobachten",
           "confidence": 70,
@@ -2284,6 +2284,18 @@
       },
       "news": [
         {
+          "title": "Prediction: This Will Be Intel's Stock Price by Year-End 2027",
+          "link": "https://www.fool.com/investing/2026/10/31/prediction-this-will-be-intels-stock-price-by-year/?.tsrc=rss",
+          "date": "Sun, 01 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Intel (INTC) Stock Fair Value Falls After Mixed Analyst Reactions To Weak Guidance",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-stock-fair-value-231012483.html?.tsrc=rss",
+          "date": "Sat, 31 Oct 2026",
+          "tone": "neg"
+        },
+        {
           "title": "Jim Cramer issues 'falling knife' warning on top chip stock after Intel's outlook",
           "link": "https://www.thestreet.com/investing/stocks/lrcx-intc-jim-cramer-warns-lam-research-investors-to-buy-slowly-amid-intel-weak-outlook?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
@@ -2298,18 +2310,6 @@
         {
           "title": "Intel Has a Massive Warning for AMD Stock Investors. Is It Time to Book Profits Before Nov. 3?",
           "link": "https://www.fool.com/investing/2026/10/31/intel-has-a-massive-warning-for-amd-stock-investors-is-it-time-to-book-profits-before-nov-3/?.tsrc=rss",
-          "date": "Sat, 31 Oct 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Why Intel (INTC) stock is trading lower today",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-intel-intc-stock-trading-151529235.html?.tsrc=rss",
-          "date": "Sat, 31 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "If Taiwan Semi Raises Prices, It Could Be Bad News for Intel Stock. Here’s Why.",
-          "link": "https://www.barchart.com/story/news/8572976/if-taiwan-semi-raises-prices-it-could-be-bad-news-for-intel-stock-heres-why?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
           "tone": "pos"
         }
@@ -2330,17 +2330,12 @@
       "gruende": [
         "🎯 Optionen & Short-Interest",
         "📊 Quartalszahlen",
-        "News: Jim Cramer issues 'falling knife' warning on top chip stock after Inte",
-        "News: INTC Q3 deep dive: strong data center growth offsets PC challenges, ou"
+        "News: Intel (INTC) Stock Fair Value Falls After Mixed Analyst Reactions To W"
       ],
-      "momentum": 93,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 157,
+      "momentum": 52,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": -8,
       "timeline": [
-        {
-          "day": "2026-10-28",
-          "mentions": 0
-        },
         {
           "day": "2026-10-29",
           "mentions": 0
@@ -2352,26 +2347,22 @@
         {
           "day": "2026-10-31",
           "mentions": 6
+        },
+        {
+          "day": "2026-11-01",
+          "mentions": 4
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 23,
       "reddit_vs_markt": {
-        "reddit": 93,
+        "reddit": 52,
         "markt": 0,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-30T20:15:40.721268+00:00",
-          "ticker": "INTC",
-          "rec": "verkaufen",
-          "confidence": 95,
-          "engagement": 16,
-          "price": 65.76
-        },
         {
           "ts": "2026-10-31T01:14:50.477050+00:00",
           "ticker": "INTC",
@@ -2406,6 +2397,14 @@
         },
         {
           "ts": "2026-10-31T22:55:47.069612+00:00",
+          "ticker": "INTC",
+          "rec": "verkaufen",
+          "confidence": 81,
+          "engagement": 8,
+          "price": 65.76
+        },
+        {
+          "ts": "2026-11-01T03:19:54.744320+00:00",
           "ticker": "INTC",
           "rec": "verkaufen",
           "confidence": 81,
@@ -3099,10 +3098,6 @@
       "growth_pct": 0,
       "timeline": [
         {
-          "day": "2026-10-28",
-          "mentions": 4
-        },
-        {
           "day": "2026-10-29",
           "mentions": 4
         },
@@ -3112,6 +3107,10 @@
         },
         {
           "day": "2026-10-31",
+          "mentions": 4
+        },
+        {
+          "day": "2026-11-01",
           "mentions": 4
         }
       ],
@@ -3125,14 +3124,6 @@
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-30T07:53:52.791397+00:00",
-          "ticker": "GFS",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 5,
-          "price": 45.85
-        },
         {
           "ts": "2026-10-31T01:14:50.477050+00:00",
           "ticker": "GFS",
@@ -3167,6 +3158,14 @@
         },
         {
           "ts": "2026-10-31T22:55:47.069612+00:00",
+          "ticker": "GFS",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 5,
+          "price": 41.9
+        },
+        {
+          "ts": "2026-11-01T03:19:54.744320+00:00",
           "ticker": "GFS",
           "rec": "beobachten",
           "confidence": 64,
@@ -3250,10 +3249,6 @@
       "growth_pct": 9,
       "timeline": [
         {
-          "day": "2026-10-28",
-          "mentions": 4
-        },
-        {
           "day": "2026-10-29",
           "mentions": 4
         },
@@ -3263,6 +3258,10 @@
         },
         {
           "day": "2026-10-31",
+          "mentions": 4
+        },
+        {
+          "day": "2026-11-01",
           "mentions": 4
         }
       ],
@@ -3276,14 +3275,6 @@
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-10-28T07:43:51.629694+00:00",
-          "ticker": "KRIBZ",
-          "rec": "beobachten",
-          "confidence": 44,
-          "engagement": 4,
-          "price": null
-        },
         {
           "ts": "2026-10-28T14:41:58.552411+00:00",
           "ticker": "KRIBZ",
@@ -3323,6 +3314,14 @@
           "confidence": 44,
           "engagement": 4,
           "price": null
+        },
+        {
+          "ts": "2026-11-01T03:19:54.744320+00:00",
+          "ticker": "KRIBZ",
+          "rec": "beobachten",
+          "confidence": 44,
+          "engagement": 4,
+          "price": null
         }
       ]
     },
@@ -3334,7 +3333,7 @@
       "confidence": 51,
       "sentiment": 3,
       "mentions": 3,
-      "mentions_delta": 1,
+      "mentions_delta": 0,
       "engagement": 12,
       "sources": [
         "wallstreetbets",
@@ -3997,6 +3996,12 @@
           "tone": "neu"
         },
         {
+          "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html?.tsrc=rss",
+          "date": "Sun, 01 Nov 2026",
+          "tone": "neu"
+        },
+        {
           "title": "The 5 most interesting analyst questions from Alphabet’s Q3 earnings call",
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-213100472.html?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
@@ -4011,12 +4016,6 @@
         {
           "title": "Will AI Answers Become as Winner-Take-All as Google? – Uneasy Money",
           "link": "https://unchainedcrypto.com/will-ai-answers-become-as-winner-take-all-as-google-uneasy-money/?.tsrc=rss",
-          "date": "Sat, 31 Oct 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "France Wants a 5.5-Cent-per-Gigabyte Tax on Netflix, Google and Meta",
-          "link": "https://247wallst.com/investing/2026/10/31/france-wants-a-5-5-cent-per-gigabyte-tax-on-netflix-google-and-meta/?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
           "tone": "neu"
         }
@@ -4035,18 +4034,13 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +1 gegenüber dem letzten Scan",
         "🎯 Optionen & Short-Interest",
         "📉 Kursverluste"
       ],
-      "momentum": 59,
+      "momentum": 56,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 13,
+      "growth_pct": 0,
       "timeline": [
-        {
-          "day": "2026-10-28",
-          "mentions": 2
-        },
         {
           "day": "2026-10-29",
           "mentions": 3
@@ -4058,14 +4052,18 @@
         {
           "day": "2026-10-31",
           "mentions": 3
+        },
+        {
+          "day": "2026-11-01",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 39,
+      "quality_pct": 35,
       "reddit_vs_markt": {
-        "reddit": 59,
+        "reddit": 56,
         "markt": 0,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
@@ -4101,75 +4099,28 @@
           "confidence": 51,
           "engagement": 12,
           "price": 279.84
+        },
+        {
+          "ts": "2026-11-01T03:19:54.744320+00:00",
+          "ticker": "GOOGL",
+          "rec": "beobachten",
+          "confidence": 51,
+          "engagement": 12,
+          "price": 279.84
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 49,
-    "n_evaluated": 316,
+    "hit_rate": 50,
+    "n_evaluated": 315,
     "rate_kaufen": 0,
     "rate_verkaufen": null,
-    "rate_beobachten": 50,
+    "rate_beobachten": 51,
     "kauf_perf_7d": -20.9,
     "kauf_perf_30d": null
   },
   "history_evaluated": [
-    {
-      "ts": "2026-10-23T08:56:34.298010+00:00",
-      "ticker": "BE",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 217.77,
-      "chg_since": -6.7,
-      "correct": false,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-10-23T14:32:11.024221+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 54,
-      "engagement": 11,
-      "price": 518.55,
-      "chg_since": -2.65,
-      "correct": true,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-10-23T14:32:11.024221+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 9,
-      "price": 212.79,
-      "chg_since": -3.83,
-      "correct": true,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-10-23T14:32:11.024221+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 882.2,
-      "chg_since": 0.29,
-      "correct": true,
-      "age_days": 8
-    },
-    {
-      "ts": "2026-10-23T14:32:11.024221+00:00",
-      "ticker": "BE",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 194.32,
-      "chg_since": 4.55,
-      "correct": true,
-      "age_days": 8
-    },
     {
       "ts": "2026-10-23T19:38:31.189099+00:00",
       "ticker": "AMD",
@@ -4267,7 +4218,7 @@
       "price": 516.79,
       "chg_since": -2.32,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-24T02:34:03.437673+00:00",
@@ -4278,7 +4229,7 @@
       "price": 615.62,
       "chg_since": 1.26,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-24T02:34:03.437673+00:00",
@@ -4289,7 +4240,7 @@
       "price": 193.3,
       "chg_since": 5.11,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-24T02:34:03.437673+00:00",
@@ -4300,7 +4251,7 @@
       "price": 44.39,
       "chg_since": -5.61,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-10-24T08:30:15.265668+00:00",
@@ -4546,6 +4497,61 @@
     },
     {
       "ts": "2026-10-24T22:16:03.480344+00:00",
+      "ticker": "GFS",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 5,
+      "price": 44.39,
+      "chg_since": -5.61,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-25T02:22:06.067957+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 57,
+      "engagement": 12,
+      "price": 516.79,
+      "chg_since": -2.32,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-25T02:22:06.067957+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 13,
+      "price": 210.96,
+      "chg_since": -3.0,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-25T02:22:06.067957+00:00",
+      "ticker": "MSCI",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 25,
+      "price": 615.62,
+      "chg_since": 1.26,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-25T02:22:06.067957+00:00",
+      "ticker": "BE",
+      "rec": "beobachten",
+      "confidence": 51,
+      "engagement": 6,
+      "price": 193.3,
+      "chg_since": 5.11,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-10-25T02:22:06.067957+00:00",
       "ticker": "GFS",
       "rec": "beobachten",
       "confidence": 64,
@@ -4566,7 +4572,7 @@
         "Handelsvolumen 6.8× über Normal – ungewöhnliche Aktivität"
       ],
       "mentions": 8,
-      "delta": 1,
+      "delta": 0,
       "vol_ratio": 6.8,
       "price": 91.73,
       "currency": "USD",
@@ -4579,13 +4585,40 @@
   "trump_tracker": {
     "posts": [
       {
+        "text": "View image",
+        "url": "https://www.trumpstruth.org/statuses/43089",
+        "date": "Sat, 31 Oct 2026 22:47",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View image",
+        "url": "https://www.trumpstruth.org/statuses/43090",
+        "date": "Sat, 31 Oct 2026 22:47",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/43091",
+        "date": "Sat, 31 Oct 2026 22:02",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
         "text": "RT @ realDonaldTrump TO THE GREAT PEOPLE OF MICHIGAN, I will doing a TeleRally, LIVE, at 5:15pm ET — Answer your phones, and ENJOY! President DONALD J. TRUMP https:// swampthevoteusa.com/michigan/ Reposted Donald J. Trump TO THE GREAT PEOPLE OF MICHIGAN, I will doing a TeleRally, LIVE, at 5:15pm ET — Answer your phones, and ENJOY! President DONALD J. TRUMP https:// swampthevoteusa.com/michigan/ Vi",
         "url": "https://www.trumpstruth.org/statuses/43032",
         "date": "Sat, 31 Oct 2026 20:54",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117537504966149543 TO THE GREAT PEOPLE OF MICHIGAN, GET OUT AND VOTE FOR: – Mike Rogers for U.S. Senate – John James for Governor – Jack Bergman for U.S. Congress (MI-01) – John Moolenaar for U.S. Congress (MI-02) – Bill Huizenga for U.S. Congress (MI-04) – Tim Walberg for U.S. Congress (MI-05) – Tom Barrett for U.S. Congress (MI-07) – Lis",
@@ -4594,7 +4627,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "🚨 MICHIGAN! Early Voting, in-person, is UNDERWAY NOW in the Great State of Michigan. Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Michigan, you can cast your early Vote, in-person, through November 1st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https:",
@@ -4603,7 +4636,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "It is my Great Honor to endorse America First Patriot, Mike Rogers, who is running for U.S. Senate in the Great State of Michigan, a State I love and WON BIG! From the U.S. Army to Congress, Mike has served our Nation with distinction, and will bring that same Fighting Spirit to the U.S. Senate. His opponent, Abdul El-Sayed, is a Radical Left Dumocrat who is opposed to NO TAX ON TIPS, NO TAX ON OV",
@@ -4612,7 +4645,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "It is my Great Honor to endorse America First Congressman, John James, who is running to become the next Governor of the Beautiful State of Michigan! A West Point Graduate, Combat Pilot, Brave Iraq War Veteran, Successful Businessman and Job Creator, and now, as a Highly Respected U.S. Congressman, John has proven he has the Courage and Wisdom to deliver strong results for the incredible people of",
@@ -4621,85 +4654,53 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Congressman Jack Bergman is a Tremendous Champion for the Great People of Michigan's 1st Congressional District! A retired Lieutenant General of the U.S. Marine Corps, Jack bravely served our Nation in combat, and continues to make our Country proud in Congress. Jack is fighting tirelessly to Champion our Amazing Farmers and Ranchers, Advocate for the Working Men and Women of Michigan, Promote MAD",
-        "url": "https://www.trumpstruth.org/statuses/43034",
-        "date": "Sat, 31 Oct 2026 20:52",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "Congressman John Moolenaar is an incredible Representative for the fantastic people of Michigan's 2nd Congressional District! As the Chairman of the Select Committee on the CCP, John is fighting tirelessly to put our Country's Interests, FIRST! He is working hard to Grow our Economy, Cut Taxes and Regulations, Promote MADE IN THE U.S.A., Unleash American Energy DOMINANCE, Keep our Border SECURE, S",
-        "url": "https://www.trumpstruth.org/statuses/43035",
-        "date": "Sat, 31 Oct 2026 20:52",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [
-          "🏛️ Steuern"
-        ],
-        "is_new": true
-      },
-      {
-        "text": "Congressman Bill Huizenga is a Tremendous Champion, and Highly Effective Representative, for the incredible people of Michigan's 4th Congressional District! As a very successful Small Businessman, and Vice Chair of the House Financial Services Committee, Bill knows the America First Policies required to Grow our Economy, Create GREAT Jobs, Cut Taxes and Regulations, Champion our Great Farmers and ",
-        "url": "https://www.trumpstruth.org/statuses/43036",
-        "date": "Sat, 31 Oct 2026 20:52",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [
-          "🏛️ Steuern"
-        ],
-        "is_new": true
+        "is_new": false
       }
     ],
-    "market_hits": 2
+    "market_hits": 0
   },
   "spannende_aktien": [
     {
-      "ticker": "KMB",
-      "name": "Kimberly-Clark Corporation",
-      "price": 107.94,
+      "ticker": "TEM",
+      "name": "Tempus AI, Inc.",
+      "price": 72.22,
       "currency": "USD",
-      "chg_1d": -1.89,
-      "vol_ratio": 2.1,
+      "chg_1d": -7.22,
+      "vol_ratio": 1.7,
       "warum": [
-        "Kimberly Clark (KMB) Stock Could Be 26% Below Fair Value On Debt Funded Acquisit",
-        "Celsius vs. Kimberly-Clark: Which Stock Matches Your Investing Style?"
+        "Cathie Wood Loads Up On TEM, ILMN And Biotech Stocks — But Pares Stake In This P",
+        "Clinical Genomics Interpretation Platforms Global Market Report 2026 | Capitaliz"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "sterne": 3,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "Kimberly Clark (KMB) Stock Could Be 26% Below Fair Value On Debt Funded Acquisition",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-stock-could-061808887.html?.tsrc=rss",
+          "title": "Cathie Wood Loads Up On TEM, ILMN And Biotech Stocks — But Pares Stake In This Pharma Giant That Had A Blowout Q3",
+          "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-buys-tem-ilmn-biotech-stocks-sells-lly/cZUKolkR9ch?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "Celsius vs. Kimberly-Clark: Which Stock Matches Your Investing Style?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/10/30/celsius-vs-kimberly-clark-which-stock-matches-your-investing-style/?.tsrc=rss",
-          "date": "Sat, 31 Oct 2026",
-          "tone": "neu"
+          "title": "Clinical Genomics Interpretation Platforms Global Market Report 2026 | Capitalize on AI and Cloud Growth Through 2030 with Thermo Fisher, Il",
+          "link": "https://finance.yahoo.com/healthcare/articles/clinical-genomics-interpretation-platforms-global-151900279.html?.tsrc=rss",
+          "date": "Fri, 30 Oct 2026",
+          "tone": "pos"
         }
       ]
     },
     {
-      "ticker": "HSY",
-      "name": "The Hershey Company",
-      "price": 165.61,
+      "ticker": "NIO",
+      "name": "NIO Inc.",
+      "price": 3.21,
       "currency": "USD",
-      "chg_1d": 3.33,
-      "vol_ratio": 1.4,
+      "chg_1d": -3.31,
+      "vol_ratio": 1.2,
       "warum": [
-        "In Biden’s First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Stu",
-        "Hershey (HSY) stock trades up, here is why"
+        "NIO (NIO) Stock Still Looks Cheap Based On Future Cash Flow",
+        "NIO Inc. (NIO) Suffers a Larger Drop Than the General Market: Key Insights"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4708,15 +4709,15 @@
       ],
       "news": [
         {
-          "title": "In Biden’s First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It’s $16.96, And Government Data Shows C",
-          "link": "https://247wallst.com/investing/2026/10/31/in-bidens-first-halloween-in-office-a-100-piece-bag-of-candy-cost-9-91-a-study-found-this-year-its-16-96-and-government-data-shows-candy-prices-rose-7-7-in-a-year-more-than-double-overall-i/?.tsrc=rss",
+          "title": "NIO (NIO) Stock Still Looks Cheap Based On Future Cash Flow",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nio-nio-stock-still-looks-051655613.html?.tsrc=rss",
           "date": "Sat, 31 Oct 2026",
           "tone": "neu"
         },
         {
-          "title": "Hershey (HSY) stock trades up, here is why",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/hershey-hsy-stock-trades-why-081929260.html?.tsrc=rss",
-          "date": "Sat, 31 Oct 2026",
+          "title": "NIO Inc. (NIO) Suffers a Larger Drop Than the General Market: Key Insights",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nio-inc-nio-suffers-larger-204503153.html?.tsrc=rss",
+          "date": "Fri, 30 Oct 2026",
           "tone": "neu"
         }
       ]
@@ -4753,38 +4754,6 @@
       ]
     },
     {
-      "ticker": "ONDS",
-      "name": "Ondas Inc.",
-      "price": 6.32,
-      "currency": "USD",
-      "chg_1d": -8.14,
-      "vol_ratio": 0.8,
-      "warum": [
-        "Ondas (ONDS) vs. AVAV and RCAT: Can Its Expanding Defense Platform Turn Backlog ",
-        "Unusual Machines Sinks 12%, Red Cat Tumbles 10% as High-Beta Drone Stocks Slide;"
-      ],
-      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
-      ],
-      "news": [
-        {
-          "title": "Ondas (ONDS) vs. AVAV and RCAT: Can Its Expanding Defense Platform Turn Backlog Growth Into Sustainable Profits?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ondas-onds-vs-avav-rcat-215751332.html?.tsrc=rss",
-          "date": "Fri, 30 Oct 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Unusual Machines Sinks 12%, Red Cat Tumbles 10% as High-Beta Drone Stocks Slide; Ondas Drops 9%, AeroVironment Falls 6%",
-          "link": "https://247wallst.com/investing/2026/10/30/unusual-machines-sinks-12-red-cat-tumbles-10-as-high-beta-drone-stocks-slide-ondas-drops-9-aerovironment-falls-6/?.tsrc=rss",
-          "date": "Fri, 30 Oct 2026",
-          "tone": "neg"
-        }
-      ]
-    },
-    {
       "ticker": "JMKE",
       "name": "Jersey Mike's Subs Inc.",
       "price": 18.29,
@@ -4811,6 +4780,37 @@
           "title": "Jersey Mike's Subs (JMKE) Could Be 97% Below Fair Value Following Earnings",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jersey-mikes-subs-jmke-could-020607722.html?.tsrc=rss",
           "date": "Thu, 29 Oct 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "price": 65.25,
+      "currency": "USD",
+      "chg_1d": -0.75,
+      "vol_ratio": 1.1,
+      "warum": [
+        "Why Dumping Uber Stock Before Q3 Earnings May Not Be the Smartest Move",
+        "How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its "
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "Why Dumping Uber Stock Before Q3 Earnings May Not Be the Smartest Move",
+          "link": "https://www.barchart.com/story/news/8564637/why-dumping-uber-stock-before-q3-earnings-may-not-be-the-smartest-move?.tsrc=rss",
+          "date": "Fri, 30 Oct 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its Investment Story",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rules-robotaxi-pressure-uber-technologies-171443609.html?.tsrc=rss",
+          "date": "Fri, 30 Oct 2026",
           "tone": "neu"
         }
       ]
