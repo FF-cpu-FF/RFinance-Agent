@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T16:14:52.819040+00:00",
+  "generated_at": "2026-11-14T21:48:54.845378+00:00",
   "total_posts": 250,
-  "unique_tickers": 145,
+  "unique_tickers": 140,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -28,42 +28,42 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 70,
-      "sentiment": -1,
-      "mentions": 6,
-      "mentions_delta": 0,
-      "engagement": 9,
+      "signal": "bearish",
+      "empfehlung": "verkaufen",
+      "confidence": 87,
+      "sentiment": -2,
+      "mentions": 8,
+      "mentions_delta": 2,
+      "engagement": 14,
       "sources": [
         "wallstreetbets",
         "TrumpsTrades"
       ],
       "titles": [
-        "Sold NVDA at $160, just bought back in at $169",
-        "NVDA earnings play",
-        "NVDA earnings next week"
+        "Turns out the \"shortage\" was NVDA funding the startups buying NVDA chips. I'm the regard who called it organic",
+        "$NVDA has a new CEO and its Hensen Juang",
+        "Second chick gain NVDA"
       ],
       "top_posts": [
         {
-          "title": "Sold NVDA at $160, just bought back in at $169",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xv8f2j/sold_nvda_at_160_just_bought_back_in_at_169/"
+          "title": "Turns out the \"shortage\" was NVDA funding the startups buying NVDA chips. I'm the regard who called it organic",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xwc37o/turns_out_the_shortage_was_nvda_funding_the/"
+        },
+        {
+          "title": "$NVDA has a new CEO and its Hensen Juang",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xwdl54/nvda_has_a_new_ceo_and_its_hensen_juang/"
+        },
+        {
+          "title": "Second chick gain NVDA",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xw902d/second_chick_gain_nvda/"
         },
         {
           "title": "NVDA earnings play",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1xvs85t/nvda_earnings_play/"
         },
         {
-          "title": "NVDA earnings next week",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xvfpa4/nvda_earnings_next_week/"
-        },
-        {
-          "title": "NVDA shareholders: can we organise to challenge the board over Jensen's departure?",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xv0tek/nvda_shareholders_can_we_organise_to_challenge/"
-        },
-        {
-          "title": "Trump disclosed selling up to $1M of Nvidia (NVDA) stock on October 8. It's down -27.9% since then.",
-          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1xuqwc3/trump_disclosed_selling_up_to_1m_of_nvidia_nvda/"
+          "title": "Sold NVDA at $160, just bought back in at $169",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xv8f2j/sold_nvda_at_160_just_bought_back_in_at_169/"
         }
       ],
       "topics": [
@@ -74,22 +74,32 @@
       ],
       "themen": [
         {
+          "emoji": "🎯",
+          "titel": "Optionen & Short-Interest",
+          "anteil_pct": 33,
+          "beitraege": 2,
+          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
+        },
+        {
           "emoji": "📊",
           "titel": "Quartalszahlen",
-          "anteil_pct": 33,
+          "anteil_pct": 17,
           "beitraege": 1,
           "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
         },
         {
-          "emoji": "📈",
-          "titel": "Wachstums-Story",
-          "anteil_pct": 33,
+          "emoji": "💰",
+          "titel": "Einstiegs-Debatte",
+          "anteil_pct": 17,
           "beitraege": 1,
-          "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
+          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
         }
       ],
-      "bull_case": [],
+      "bull_case": [
+        "Call-Optionen-Aktivität"
+      ],
       "bear_case": [
+        "Short-Positionierung",
         "Zahlen unter Erwartung"
       ],
       "price": {
@@ -673,56 +683,58 @@
       },
       "news": [
         {
-          "title": "Why the biggest risk for investors in 2027 isn't Nvidia — it's inflation",
-          "link": "https://finance.yahoo.com/economy/article/why-the-biggest-risk-for-investors-in-2027-isnt-nvidia--its-inflation-160241059.html?.tsrc=rss",
+          "title": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
+          "link": "https://beincrypto.com/amd-stock-record-run-nvidia-earnings/?.tsrc=rss",
           "date": "Sat, 14 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Big Shareholders and 3,000 Nvidia Employees Want Jensen Huang Back",
-          "link": "https://247wallst.com/investing/2026/11/14/big-shareholders-and-3000-nvidia-employees-want-jensen-huang-back/?.tsrc=rss",
+          "title": "NVIDIA (NVDA): Can AI Demand Sustain Growth Through Leadership Uncertainty?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-ai-demand-sustain-192430760.html?.tsrc=rss",
+          "date": "Sat, 14 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Nvidia Shock Has Investors Rethinking AI Infrastructure Stocks",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-shock-investors-rethinking-ai-190934918.html?.tsrc=rss",
           "date": "Sat, 14 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Nvidia lost $1.6 trillion after Jensen Huang's exit, but Apple's and Uber's CEO transitions offer a blueprint",
-          "link": "https://finance.yahoo.com/technology/articles/nvidia-lost-1-6-trillion-154500086.html?.tsrc=rss",
+          "title": "Jim Cramer has a strong take on Nvidia's next chapter",
+          "link": "https://www.thestreet.com/investing/jim-cramer-strong-take-on-nvidia-next-chapter-colette-kress?.tsrc=rss",
           "date": "Sat, 14 Nov 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
-          "title": "AMD Just Crushed Nvidia by 32 Points After Scandal. Here’s How NVDA Can Come Back",
-          "link": "https://247wallst.com/investing/2026/11/14/amd-just-crushed-nvidia-by-32-points-after-scandal-heres-how-nvda-can-come-back/?.tsrc=rss",
+          "title": "Apple's Market Value Grew From $350 Billion to $4 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple'",
+          "link": "https://www.fool.com/investing/2026/11/14/apples-market-value-grew-from-350-billion-to-4-trillion-during-tim-cooks-15-years-as-ceo-heres-what-that-growth-curve-means-for-apples-next-chapter-under-john-ternus/?.tsrc=rss",
           "date": "Sat, 14 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Warren Buffett Issued His Starkest Warning About the Stock Market in Years. Here's What History Says Comes Next.",
-          "link": "https://www.fool.com/investing/2026/11/14/warren-buffett-issued-starkest-warning-stock-market-what-history-says-comes-next/?.tsrc=rss",
-          "date": "Sat, 14 Nov 2026",
-          "tone": "neg"
+          "tone": "pos"
         }
       ],
       "comparison": {
-        "verdict": "relativiert",
+        "verdict": "bestätigt",
         "points": [
           "Kurs -12.75% über 7 Tage – Abwärtsdruck.",
           "Schwacher Monat: -26.41%.",
           "-18.04% unter SMA20 – technisch angeschlagen.",
-          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
+          "Marktlage stützt die skeptische Reddit-Stimmung."
         ]
       },
-      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell gemischt (6 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell bearisch (8 Mentions mit steigender Dynamik (+2 Mentions)). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt spricht die Lage eher für Zurückhaltung oder Gewinnmitnahmen.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
+        "Mentions +2 gegenüber dem letzten Scan",
+        "🎯 Optionen & Short-Interest",
         "📊 Quartalszahlen",
-        "📈 Wachstums-Story"
+        "News: NVIDIA (NVDA): Can AI Demand Sustain Growth Through Leadership Uncerta"
       ],
-      "momentum": 50,
+      "momentum": 57,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": -14,
+      "growth_pct": 14,
       "timeline": [
         {
           "day": "2026-11-11",
@@ -738,27 +750,19 @@
         },
         {
           "day": "2026-11-14",
-          "mentions": 6
+          "mentions": 8
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 17,
+      "quality_pct": 27,
       "reddit_vs_markt": {
-        "reddit": 50,
+        "reddit": 57,
         "markt": 0,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-11-13T02:23:30.246481+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 70,
-          "engagement": 19,
-          "price": 173.73
-        },
         {
           "ts": "2026-11-13T11:43:30.273643+00:00",
           "ticker": "NVDA",
@@ -797,6 +801,14 @@
           "rec": "beobachten",
           "confidence": 70,
           "engagement": 9,
+          "price": 162.85
+        },
+        {
+          "ts": "2026-11-14T21:48:54.845378+00:00",
+          "ticker": "NVDA",
+          "rec": "verkaufen",
+          "confidence": 87,
+          "engagement": 14,
           "price": 162.85
         }
       ]
@@ -1443,6 +1455,12 @@
       },
       "news": [
         {
+          "title": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
+          "link": "https://beincrypto.com/amd-stock-record-run-nvidia-earnings/?.tsrc=rss",
+          "date": "Sat, 14 Nov 2026",
+          "tone": "neu"
+        },
+        {
           "title": "AMD Just Crushed Nvidia by 32 Points After Scandal. Here’s How NVDA Can Come Back",
           "link": "https://247wallst.com/investing/2026/11/14/amd-just-crushed-nvidia-by-32-points-after-scandal-heres-how-nvda-can-come-back/?.tsrc=rss",
           "date": "Sat, 14 Nov 2026",
@@ -1455,22 +1473,16 @@
           "tone": "pos"
         },
         {
-          "title": "Harvard Cut Nvidia by a Third and Bought AMD",
-          "link": "https://247wallst.com/investing/2026/11/14/harvard-cut-nvidia-by-a-third-and-bought-amd/?.tsrc=rss",
+          "title": "Why Analysts Think AMD Could Emerge as the Biggest Winner From Nvidia’s Turmoil",
+          "link": "https://www.barchart.com/story/news/8837690/why-analysts-think-amd-could-emerge-as-the-biggest-winner-from-nvidias-turmoil?.tsrc=rss",
           "date": "Sat, 14 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Why Advanced Micro Devices Stock Surged This Week",
-          "link": "https://www.fool.com/coverage/market-movers/2026/11/14/why-advanced-micro-devices-stock-surged-this-week/?.tsrc=rss",
+          "title": "Harvard Cut Nvidia by a Third and Bought AMD",
+          "link": "https://247wallst.com/investing/2026/11/14/harvard-cut-nvidia-by-a-third-and-bought-amd/?.tsrc=rss",
           "date": "Sat, 14 Nov 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "neg"
+          "tone": "neu"
         }
       ],
       "comparison": {
@@ -1485,8 +1497,7 @@
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "💬 Allgemeine Diskussion",
-        "News: AMD Just Beat Nvidia by the Widest Margin Since 1999"
+        "💬 Allgemeine Diskussion"
       ],
       "momentum": 61,
       "momentum_label": "📈 Diskussion nimmt deutlich zu",
@@ -1519,14 +1530,6 @@
         "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-11-13T02:23:30.246481+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 54,
-          "engagement": 9,
-          "price": 552.9
-        },
         {
           "ts": "2026-11-13T11:43:30.273643+00:00",
           "ticker": "AMD",
@@ -1561,6 +1564,14 @@
         },
         {
           "ts": "2026-11-14T16:14:52.819040+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 534.06
+        },
+        {
+          "ts": "2026-11-14T21:48:54.845378+00:00",
           "ticker": "AMD",
           "rec": "beobachten",
           "confidence": 64,
@@ -1680,14 +1691,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-11-13T02:23:30.246481+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 16,
-          "price": null
-        },
-        {
           "ts": "2026-11-13T11:43:30.273643+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
@@ -1721,6 +1724,14 @@
         },
         {
           "ts": "2026-11-14T16:14:52.819040+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 16,
+          "price": null
+        },
+        {
+          "ts": "2026-11-14T21:48:54.845378+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
           "confidence": 56,
@@ -2447,14 +2458,6 @@
       },
       "verlauf": [
         {
-          "ts": "2026-11-13T02:23:30.246481+00:00",
-          "ticker": "FCF",
-          "rec": "beobachten",
-          "confidence": 64,
-          "engagement": 11,
-          "price": 21.01
-        },
-        {
           "ts": "2026-11-13T11:43:30.273643+00:00",
           "ticker": "FCF",
           "rec": "beobachten",
@@ -2488,6 +2491,14 @@
         },
         {
           "ts": "2026-11-14T16:14:52.819040+00:00",
+          "ticker": "FCF",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 11,
+          "price": 20.93
+        },
+        {
+          "ts": "2026-11-14T21:48:54.845378+00:00",
           "ticker": "FCF",
           "rec": "beobachten",
           "confidence": 64,
@@ -2943,6 +2954,14 @@
         },
         {
           "ts": "2026-11-14T16:14:52.819040+00:00",
+          "ticker": "EO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 1.36
+        },
+        {
+          "ts": "2026-11-14T21:48:54.845378+00:00",
           "ticker": "EO",
           "rec": "beobachten",
           "confidence": 61,
@@ -3674,53 +3693,28 @@
           "confidence": 78,
           "engagement": 5,
           "price": 219.89
+        },
+        {
+          "ts": "2026-11-14T21:48:54.845378+00:00",
+          "ticker": "CVX",
+          "rec": "kaufen",
+          "confidence": 78,
+          "engagement": 5,
+          "price": 219.89
         }
       ]
     }
   ],
   "stats": {
     "hit_rate": 40,
-    "n_evaluated": 306,
+    "n_evaluated": 304,
     "rate_kaufen": 71,
     "rate_verkaufen": null,
     "rate_beobachten": 39,
-    "kauf_perf_7d": 2.1,
+    "kauf_perf_7d": 1.6,
     "kauf_perf_30d": 5.8
   },
   "history_evaluated": [
-    {
-      "ts": "2026-11-03T22:41:58.718756+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 51,
-      "engagement": 8,
-      "price": 206.69,
-      "chg_since": -21.21,
-      "correct": false,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-04T03:57:42.775708+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 10,
-      "price": 483.9,
-      "chg_since": 10.37,
-      "correct": false,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-04T03:57:42.775708+00:00",
-      "ticker": "GFS",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 5,
-      "price": 42.89,
-      "chg_since": -3.31,
-      "correct": true,
-      "age_days": 10
-    },
     {
       "ts": "2026-11-04T03:57:42.775708+00:00",
       "ticker": "MSFT",
@@ -3763,7 +3757,7 @@
       "price": 482.83,
       "chg_since": 10.61,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-04T19:05:50.928335+00:00",
@@ -3774,7 +3768,7 @@
       "price": 196.86,
       "chg_since": -2.47,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-04T19:05:50.928335+00:00",
@@ -3785,7 +3779,7 @@
       "price": 40.4,
       "chg_since": 2.65,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-05T00:38:40.019239+00:00",
@@ -3840,7 +3834,7 @@
       "price": 182.83,
       "chg_since": -10.93,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-05T17:45:16.688626+00:00",
@@ -3851,7 +3845,7 @@
       "price": 415.41,
       "chg_since": 28.56,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-05T17:45:16.688626+00:00",
@@ -3862,7 +3856,7 @@
       "price": 165.6,
       "chg_since": 15.94,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-05T23:01:42.120304+00:00",
@@ -4005,7 +3999,7 @@
       "price": 695.51,
       "chg_since": 11.9,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-06T20:09:39.483075+00:00",
@@ -4016,7 +4010,7 @@
       "price": 532.61,
       "chg_since": -1.64,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-06T20:09:39.483075+00:00",
@@ -4027,7 +4021,7 @@
       "price": 23.97,
       "chg_since": -0.21,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-06T20:09:39.483075+00:00",
@@ -4038,7 +4032,7 @@
       "price": 38.6,
       "chg_since": 7.44,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-07T01:27:09.479102+00:00",
@@ -4127,85 +4121,140 @@
       "chg_since": 12.8,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-11-07T19:53:23.458444+00:00",
+      "ticker": "MSFT",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 10,
+      "price": 530.61,
+      "chg_since": -1.27,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-07T19:53:23.458444+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 8,
+      "price": 449.04,
+      "chg_since": 18.93,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-07T19:53:23.458444+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 8,
+      "price": 690.0,
+      "chg_since": 12.8,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
       {
-        "text": "Gavin Newscum’s halting the Death Penalty for all 563 California Death Row inmates, some of the worst cold blooded murderers to have ever lived on the face of the Earth, is a disaster for Justice in America. Many of these names, people who have killed, over and over again, can’t believe their luck in having a Governor so incompetent and insensitive that he would not let the long and winding legal ",
-        "url": "https://www.trumpstruth.org/statuses/43570",
-        "date": "Sat, 14 Nov 2026 14:54",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616455572752619 Trash Island is currently the Worst Golf Course anywhere in the World, but the Department of the Interior is going to make it into the Best Golf Course anywhere in the World. Unfortunately, Judge Ana Reyes doesn’t want us to quickly and inexpensively fix up the Course which is, also, very dangerous — The Fairways are far",
+        "url": "https://www.trumpstruth.org/statuses/43580",
+        "date": "Sat, 14 Nov 2026 19:35",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "Thank you to the United States Coast Guard for doing such an incredible job of rescue, and other work, having to do with the crash of the two ships in Louisiana. Likewise, all of Law Enforcement and First Responders were fantastic! Incredibly, nobody was killed by this major collision. 32 people are in the hospital. Thank you to Governor Jeff Landry for your outstanding leadership during this very",
-        "url": "https://www.trumpstruth.org/statuses/43569",
-        "date": "Fri, 13 Nov 2026 22:58",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616454522358249 View image Quoted Donald J. Trump RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616450635385186 View image View image View image View image",
+        "url": "https://www.trumpstruth.org/statuses/43578",
+        "date": "Sat, 14 Nov 2026 19:31",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "I am working with Senator Tim Scott and, believe it or not, Senator Adam Schiff, and, additionally, Senators John Cornyn, Raphael Warnock, Steve Daines, Bernie Moreno, Tim Sheehy, Alex Padilla, Mark Warner, Thom Tillis, and Chris Coons, together with Representatives Jason Smith, Nathaniel Moran, Brian Jack, Linda Sanchez, and many others, both Republican and Democrat, on the Motion Picture, Televi",
-        "url": "https://www.trumpstruth.org/statuses/43568",
-        "date": "Fri, 13 Nov 2026 22:52",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616450635385186 View image View image View image View image Quoted Donald J. Trump RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616446948354692 View image View image View image",
+        "url": "https://www.trumpstruth.org/statuses/43579",
+        "date": "Sat, 14 Nov 2026 19:31",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "View image",
-        "url": "https://www.trumpstruth.org/statuses/43567",
-        "date": "Fri, 13 Nov 2026 14:02",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616446948354692 View image View image View image Quoted Donald J. Trump RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616443567078665 View image View image View image View image",
+        "url": "https://www.trumpstruth.org/statuses/43577",
+        "date": "Sat, 14 Nov 2026 19:30",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "View video",
-        "url": "https://www.trumpstruth.org/statuses/43566",
-        "date": "Fri, 13 Nov 2026 11:22",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616443567078665 View image View image View image View image Quoted Donald J. Trump RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616438954064087 View image View image View image View image",
+        "url": "https://www.trumpstruth.org/statuses/43576",
+        "date": "Sat, 14 Nov 2026 19:29",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "Lilly breaks ground in Pennsylvania's Lehigh Valley on a $3.5 billion site to make next-generation obesity medicines, the latest of 10 new U.S. sites since 2020: https:// investor.lilly.com/news-releas es/news-release-details/lilly-breaks-ground-pennsylvanias-lehigh-valley-35-billion-site",
-        "url": "https://www.trumpstruth.org/statuses/43565",
-        "date": "Fri, 13 Nov 2026 00:18",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117616438954064087 View image View image View image View image Quoted Donald J. Trump View image View image View image View image",
+        "url": "https://www.trumpstruth.org/statuses/43575",
+        "date": "Sat, 14 Nov 2026 19:28",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "From Hugh Hewitt: “President Trump was as good as he has ever been today. Still the best interview in the country. Please pass along my thanks to President Trump. Hugh”",
-        "url": "https://www.trumpstruth.org/statuses/43564",
-        "date": "Thu, 12 Nov 2026 23:30",
+        "text": "View image View image View image View image",
+        "url": "https://www.trumpstruth.org/statuses/43574",
+        "date": "Sat, 14 Nov 2026 19:27",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
       },
       {
-        "text": "Senator Chuck Schumer just stated that he wants to end corruption in the United States. I assume he’s referring to Democrat run Blue States such as California, Minnesota, Illinois, Maine, and New York. Billions of Dollars are being stolen on an hourly basis. Hopefully his words will ring true! It will be an honor to work with him on this very big Democrat problem that, when solved, will literally ",
-        "url": "https://www.trumpstruth.org/statuses/43563",
-        "date": "Thu, 12 Nov 2026 18:41",
+        "text": "“Some people worry about losing, I worry about not trying. I can explain a loss, I can’t explain to my people why I didn’t try!” Highly Respected Senator John Kennedy, of Louisiana, being interviewed by Kayleigh McEnany on FoxNews",
+        "url": "https://www.trumpstruth.org/statuses/43573",
+        "date": "Sat, 14 Nov 2026 17:40",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": false
+        "is_new": true
+      },
+      {
+        "text": "Carney says U.S. and Canada ‘making progress’ towards possible trade deal - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRS1tRnE4a1I1bWhRRVhoazNuQS1XRXNPcm1yX0FVeVdPdUlPU3NmQmo0NkkwRmpJRWNfbWFhY0NLYmdtM2Z4aGQyQ1lnRkRvSHFGU0FwNWRFX1l6WEV1MWIyQ1ZxOUNhem5FQkt5S01vbkRySmw2MVpDdzQxbkZxVlNSV2VPTnVZNmFDUGZRb3JIdXVIaTdZdllxR2dDb1dXZ0J5YXkyNDllV1BJWXUyTzFZd0lFYnB3ZGc?oc=5",
+        "date": "Sat, 14 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Handelsdeal"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Carney Draws Red Line On Trump Trade Deal Over Auto Jobs - Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZm84Z0c0b3VhY2pNckJZUUxxcW80NUJEMVJjeUFGa2QweVhwRXFDU1VOeWltYnZJRFl4U2JkdGdlV2d4akNUYldYYUJfeEdtSEdtMXlaOFNVaGJqWF9DV0hKaXplUnpIMjlSZHdiQWhDRVdSS29nSnhMWXlFZVVqMTlFZF9wWUJuUjhzd2FR?oc=5",
+        "date": "Sat, 14 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Handelsdeal"
+        ],
+        "is_new": true
       }
     ],
-    "market_hits": 0
+    "market_hits": 2
   },
   "spannende_aktien": [
     {
@@ -4240,46 +4289,46 @@
       ]
     },
     {
-      "ticker": "DASTY",
-      "name": "Dassault Systèmes SE",
-      "price": 28.75,
+      "ticker": "DJT",
+      "name": "Trump Media & Technology Group Corp.",
+      "price": 4.64,
       "currency": "USD",
-      "chg_1d": 0.95,
+      "chg_1d": -6.64,
       "vol_ratio": 1.0,
       "warum": [
-        "THG LABS Selects Centric PLM to Connect Beauty Innovation From Formulation to Co",
-        "Goldwin Inc. Selects Centric PLM to Build a Common Product Development Model for"
+        "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
+        "How Bitcoin Gains Will Impact Trump Media Stock Investors"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "THG LABS Selects Centric PLM to Connect Beauty Innovation From Formulation to Commercialization",
-          "link": "https://finance.yahoo.com/technology/articles/thg-labs-selects-centric-plm-180000662.html?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
+          "title": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/trump-media-group-stares-down-130009593.html?.tsrc=rss",
+          "date": "Sat, 14 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Goldwin Inc. Selects Centric PLM to Build a Common Product Development Model for Goldwin and THE NORTH FACE",
-          "link": "https://finance.yahoo.com/technology/articles/goldwin-inc-selects-centric-plm-204000832.html?.tsrc=rss",
-          "date": "Thu, 12 Nov 2026",
+          "title": "How Bitcoin Gains Will Impact Trump Media Stock Investors",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bitcoin-gains-impact-trump-media-043248445.html?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "AAL",
-      "name": "American Airlines Group Inc.",
-      "price": 13.17,
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "price": 291.91,
       "currency": "USD",
-      "chg_1d": -1.05,
-      "vol_ratio": 0.9,
+      "chg_1d": 3.82,
+      "vol_ratio": 1.0,
       "warum": [
-        "FAA lifts ground stop flights, airline stocks fall",
-        "Here’s Why Rothschild & Co Upgraded American Airlines (AAL)"
+        "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
+        "Is Texas Pacific Land (TPL) Undervalued On Stronger Earnings?"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4288,29 +4337,29 @@
       ],
       "news": [
         {
-          "title": "FAA lifts ground stop flights, airline stocks fall",
-          "link": "https://finance.yahoo.com/markets/article/faa-lifts-ground-stop-flights-airline-stocks-fall-015910724.html?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
+          "title": "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
+          "link": "https://finance.yahoo.com/energy/articles/sell-texas-pacific-land-tpl-172217146.html?.tsrc=rss",
+          "date": "Sat, 14 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Here’s Why Rothschild & Co Upgraded American Airlines (AAL)",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-rothschild-co-upgraded-american-204043834.html?.tsrc=rss",
-          "date": "Wed, 11 Nov 2026",
+          "title": "Is Texas Pacific Land (TPL) Undervalued On Stronger Earnings?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-undervalued-121335233.html?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
           "tone": "pos"
         }
       ]
     },
     {
-      "ticker": "LHX",
-      "name": "L3Harris Technologies, Inc.",
-      "price": 272.35,
+      "ticker": "MKC",
+      "name": "McCormick & Company, Incorporated",
+      "price": 46.96,
       "currency": "USD",
-      "chg_1d": 0.19,
+      "chg_1d": 1.19,
       "vol_ratio": 0.5,
       "warum": [
-        "L3Harris (LHX) Stock May Be 33% Undervalued As Record Backlog Grows",
-        "L3Harris Technologies (LHX) Featured In Global Loitering Munitions Market Report"
+        "McCormick’s Food Deal With Unilever Puts Sauce Mixes Under Threat, U.K. Says",
+        "McCormick and Unilever’s $45B food merger hits antitrust snag in UK"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
@@ -4319,15 +4368,15 @@
       ],
       "news": [
         {
-          "title": "L3Harris (LHX) Stock May Be 33% Undervalued As Record Backlog Grows",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/l3harris-lhx-stock-may-33-090922020.html?.tsrc=rss",
-          "date": "Thu, 12 Nov 2026",
-          "tone": "pos"
+          "title": "McCormick’s Food Deal With Unilever Puts Sauce Mixes Under Threat, U.K. Says",
+          "link": "https://finance.yahoo.com/m/ad08ef03-3e82-37d4-8c34-dd0279b01cf7/mccormick%E2%80%99s-food-deal-with.html?.tsrc=rss",
+          "date": "Wed, 11 Nov 2026",
+          "tone": "neu"
         },
         {
-          "title": "L3Harris Technologies (LHX) Featured In Global Loitering Munitions Market Report",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/l3harris-technologies-lhx-featured-global-042957925.html?.tsrc=rss",
-          "date": "Thu, 12 Nov 2026",
+          "title": "McCormick and Unilever’s $45B food merger hits antitrust snag in UK",
+          "link": "https://www.fooddive.com/news/mccormick-unilever-antitrust-review-merger-UK/874361/?.tsrc=rss",
+          "date": "Wed, 11 Nov 2026",
           "tone": "neu"
         }
       ]
@@ -4357,6 +4406,20 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWxWWXV2SzNsbkhDOUtQWVVfWVp3RjdkRVB0djV0TUpnU0ExUVFnWk1Ba1BiS0F4RkpSVVBibDFhWXowWTVnYklLX1BnMTUzbndYeVJfSU1zNnJtbC1XMnFoYXRQZC01NXViRnRrLWpGUmQycG1MSHktQ1Vublo5QVhUS2ZFZk5MZEpfNXcyc0t1Rk9hakppUExNcEZZMGc3RlpBR2o0RHVQdE9pM3ViaHFLNkg?oc=5",
+      "date": "Sat, 14 Nov 2026",
+      "headline": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger - Bloomberg.com",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLWROVjZ1anFNZ1hPSkNQbmV3LVJSMU8ySVRZQVpzM28zQXlITlR1QjV6MnNrTGdwOVZjSkZfZDlnVWRWa0l3YTREZ1NkVzB4ZVIzOVE0SjdqeEM3NTNaQTBsRE53RkgzNHVGV205Nm1IcV8wcUhfT1RTbl9NdmtIUi1rVWZrbGtxazIzbm1najBxajJwQ2pHUHZ0bWlYdw?oc=5",
       "date": "Fri, 13 Nov 2026",
       "headline": "FTC Sues to Block $3.5 Billion MWI Animal Health-Covetrus Merger - Bovine Veterinarian",
@@ -4374,20 +4437,6 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZklTZWxhcUQ1cEYwZmhPNkpZT2RVdG5FemdWMHBoQkdxVkk3NS1ValZOYzRRQUozYzZjYWNwd0tuNXlGRk1aSnNtaVRaeUd4X01BQldTcXVTZ003cW1lSlNhcDFfbXRhQXllVkZIS2c2cWQyRjJ1MzJlbGIyUWF4WDVmMjVVa0ZhQ2VpRw?oc=5",
       "date": "Fri, 13 Nov 2026",
       "headline": "FTC sues to block Covetrus' merger with MWI Animal Health - DVM360",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd3Rrd0FPTlczQ1BpYzJ0UlJkcjByQ3lCUGVuYVlZUzJLRDl6RkxDTDRYcE5XbzhHaWczQTNCc3dOdFVXRE9sNUVQaGxqVlpZVDVNYk96dlliaUZRclhPa3RGNGJGclU3d1dHa1VnQnZ4SkREd2Rmd3gyYk9VSnNqamJ5a0lKa0xTeE1fNVZlU1ROZnB2bnNyWDM4RmZWVHNqZHJHdUtXeU8zdXpNYkQwRXBTWUVXb3AyU1BvOWVvU0dGdkJISnpFc3h6ODVzTVk3YTllbmZMR3E?oc=5",
-      "date": "Fri, 13 Nov 2026",
-      "headline": "News | H&R REIT investors reject $6.4 billion takeover offer led by Go Residential REIT, Blackstone - CoStar",
       "source": "Google News"
     }
   ]
