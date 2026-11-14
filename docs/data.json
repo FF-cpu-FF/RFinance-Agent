@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T18:57:01.253717+00:00",
+  "generated_at": "2026-11-14T00:33:01.829490+00:00",
   "total_posts": 250,
-  "unique_tickers": 146,
+  "unique_tickers": 143,
   "subreddits": [
     {
       "name": "Mauerstrassenwetten",
@@ -28,13 +28,13 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "signal": "bearish",
-      "empfehlung": "verkaufen",
-      "confidence": 87,
-      "sentiment": -2,
-      "mentions": 8,
-      "mentions_delta": 3,
-      "engagement": 20,
+      "signal": "neutral",
+      "empfehlung": "beobachten",
+      "confidence": 70,
+      "sentiment": 1,
+      "mentions": 6,
+      "mentions_delta": -2,
+      "engagement": 11,
       "sources": [
         "wallstreetbets",
         "TrumpsTrades"
@@ -42,7 +42,7 @@
       "titles": [
         "Sold NVDA at $160, just bought back in at $169",
         "NVDA shareholders: can we organise to challenge the board over Jensen's departure?",
-        "Could it not be so bad for NVDA?"
+        "NVDA earnings next week"
       ],
       "top_posts": [
         {
@@ -54,66 +54,54 @@
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1xv0tek/nvda_shareholders_can_we_organise_to_challenge/"
         },
         {
-          "title": "Could it not be so bad for NVDA?",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xvd1lz/could_it_not_be_so_bad_for_nvda/"
-        },
-        {
-          "title": "68k -> 6k -> 1m in 7 trading days on 0DTE SPY/SPX",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xuofnd/68k_6k_1m_in_7_trading_days_on_0dte_spyspx/"
-        },
-        {
           "title": "NVDA earnings next week",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1xvfpa4/nvda_earnings_next_week/"
+        },
+        {
+          "title": "Deal or no deal, is NVDA done? Will Jensen Huang be reinstalled as CEO of Nvidia?",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xvidoe/deal_or_no_deal_is_nvda_done_will_jensen_huang_be/"
+        },
+        {
+          "title": "Trump disclosed selling up to $1M of Nvidia (NVDA) stock on October 8. It's down -27.9% since then.",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1xuqwc3/trump_disclosed_selling_up_to_1m_of_nvidia_nvda/"
         }
       ],
       "topics": [
         "NVDA",
+        "Nvidia",
         "Jensen",
-        "Trump",
-        "Nvidia"
+        "Deal"
       ],
       "themen": [
         {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 42,
-          "beitraege": 5,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
           "emoji": "📊",
           "titel": "Quartalszahlen",
-          "anteil_pct": 17,
-          "beitraege": 2,
+          "anteil_pct": 20,
+          "beitraege": 1,
           "erklaerung": "Die Community diskutiert die jüngsten bzw. erwarteten Geschäftszahlen."
         },
         {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 8,
+          "anteil_pct": 20,
           "beitraege": 1,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
         },
         {
           "emoji": "📈",
           "titel": "Wachstums-Story",
-          "anteil_pct": 8,
+          "anteil_pct": 20,
           "beitraege": 1,
           "erklaerung": "Die Community sieht weiteres Kurspotenzial und diskutiert Kursziele."
         }
       ],
-      "bull_case": [
-        "Short-Squeeze-Spekulation",
-        "Call-Optionen-Aktivität"
-      ],
+      "bull_case": [],
       "bear_case": [
-        "Short-Positionierung",
-        "Zahlen unter Erwartung",
-        "Put-Optionen-Aktivität"
+        "Zahlen unter Erwartung"
       ],
       "price": {
         "available": true,
-        "price": 162.81,
+        "price": 162.85,
         "currency": "USD",
         "name": "NVIDIA Corporation",
         "chart_1d": [
@@ -187,11 +175,43 @@
           },
           {
             "t": 1794595500,
-            "c": 162.59
+            "c": 162.64
           },
           {
-            "t": 1794596247,
-            "c": 162.71
+            "t": 1794596400,
+            "c": 162.5
+          },
+          {
+            "t": 1794597300,
+            "c": 162.67
+          },
+          {
+            "t": 1794598200,
+            "c": 162.26
+          },
+          {
+            "t": 1794599100,
+            "c": 163.18
+          },
+          {
+            "t": 1794600000,
+            "c": 162.96
+          },
+          {
+            "t": 1794600900,
+            "c": 162.17
+          },
+          {
+            "t": 1794601800,
+            "c": 161.82
+          },
+          {
+            "t": 1794602700,
+            "c": 162.82
+          },
+          {
+            "t": 1794603600,
+            "c": 162.85
           }
         ],
         "chart_5d": [
@@ -325,18 +345,22 @@
           },
           {
             "t": 1794594600,
-            "c": 162.59
+            "c": 162.67
           },
           {
-            "t": 1794596257,
-            "c": 162.78
+            "t": 1794598200,
+            "c": 162.17
+          },
+          {
+            "t": 1794601800,
+            "c": 162.82
+          },
+          {
+            "t": 1794603600,
+            "c": 162.85
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1791898200,
-            "c": 228.52
-          },
           {
             "t": 1791984600,
             "c": 221.3
@@ -427,7 +451,7 @@
           },
           {
             "t": 1794580200,
-            "c": 162.81
+            "c": 162.85
           }
         ],
         "chart_1y": [
@@ -644,74 +668,70 @@
             "c": 166.19
           },
           {
-            "t": 1794596257,
-            "c": 162.78
+            "t": 1794603601,
+            "c": 162.85
           }
         ],
-        "chg_1d": 0.18,
-        "chg_7d": -12.77,
-        "chg_1mo": -28.75,
-        "chg_1y": -14.39,
-        "sma20_dist": -18.06
+        "chg_1d": 0.2,
+        "chg_7d": -12.75,
+        "chg_1mo": -26.41,
+        "chg_1y": -14.37,
+        "sma20_dist": -18.04
       },
       "news": [
         {
-          "title": "How Nvidia's stock decline could impact your 401(k) and portfolio",
-          "link": "https://finance.yahoo.com/markets/article/how-nvidias-stock-decline-could-impact-your-401k-and-portfolio-181913465.html?.tsrc=rss",
+          "title": "Scott Bessent and Lutnick clash over Nvidia chips and China",
+          "link": "https://www.thestreet.com/technology/scott-bessent-and-lutnick-clash-over-nvidia-chips-and-china?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "“A Legend Replaces A Legend!” Trump Says “There Is Only One Man” To Replace Jensen Huang At Nvidia",
-          "link": "https://247wallst.com/investing/2026/11/13/a-legend-replaces-a-legend-trump-says-there-is-only-one-man-to-replace-jensen-huang-at-nvidia/?.tsrc=rss",
+          "title": "S&P 500, Dow, Nasdaq End Lower Amid Nvidia Turmoil, But Record Best Week Since August —  SPCX, NVDA, ARM, AZN In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-nvidia-turmoil-but-record-best-week-since-august-spcx-nvda-arm-azn-in-focus/cNbRj3uR9Q2?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Booster Diverts.",
+          "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Why Intel Stock Slumped Today",
+          "link": "https://www.fool.com/investing/2026/11/13/why-intel-stock-slumped-today/?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Update: Equities Fall Intraday as Nvidia Declines",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/equities-fall-intraday-nvidia-declines-184904960.html?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Why Sandisk Stock Is Falling Today",
-          "link": "https://www.fool.com/investing/2026/11/13/why-sandisk-stock-is-falling-today/?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Nvidia Faces Potential 'Know Your Customer' Regulation Following CEO Controversy, Truist Says",
-          "link": "https://finance.yahoo.com/technology/articles/nvidia-faces-potential-apos-know-183955236.html?.tsrc=rss",
+          "title": "Wall Street stocks mostly lower as Nvidia extends slump",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-stocks-mostly-lower-230704278.html?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
           "tone": "neu"
         }
       ],
       "comparison": {
-        "verdict": "bestätigt",
+        "verdict": "relativiert",
         "points": [
-          "Kurs -12.77% über 7 Tage – Abwärtsdruck.",
-          "Schwacher Monat: -28.75%.",
-          "-18.06% unter SMA20 – technisch angeschlagen.",
-          "Marktlage stützt die skeptische Reddit-Stimmung."
+          "Kurs -12.75% über 7 Tage – Abwärtsdruck.",
+          "Schwacher Monat: -26.41%.",
+          "-18.04% unter SMA20 – technisch angeschlagen.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell bearisch (8 Mentions mit steigender Dynamik (+3 Mentions)). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt spricht die Lage eher für Zurückhaltung oder Gewinnmitnahmen.",
+      "fazit": "Reddit diskutiert NVIDIA Corporation aktuell gemischt (6 Mentions bei abnehmender Aufmerksamkeit (-2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +3 gegenüber dem letzten Scan",
-        "🎯 Optionen & Short-Interest",
-        "📊 Quartalszahlen"
+        "📊 Quartalszahlen",
+        "💰 Einstiegs-Debatte",
+        "News: S&P 500, Dow, Nasdaq End Lower Amid Nvidia Turmoil, But Record Best We"
       ],
-      "momentum": 59,
+      "momentum": 50,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": 20,
+      "growth_pct": -14,
       "timeline": [
-        {
-          "day": "2026-11-10",
-          "mentions": 7
-        },
         {
           "day": "2026-11-11",
           "mentions": 8
@@ -723,26 +743,22 @@
         {
           "day": "2026-11-13",
           "mentions": 8
+        },
+        {
+          "day": "2026-11-14",
+          "mentions": 6
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 38,
+      "quality_pct": 17,
       "reddit_vs_markt": {
-        "reddit": 59,
+        "reddit": 50,
         "markt": 0,
         "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
       },
       "verlauf": [
-        {
-          "ts": "2026-11-12T04:56:51.531406+00:00",
-          "ticker": "NVDA",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 4,
-          "price": 173.73
-        },
         {
           "ts": "2026-11-12T14:16:45.562176+00:00",
           "ticker": "NVDA",
@@ -782,6 +798,14 @@
           "confidence": 87,
           "engagement": 20,
           "price": 162.81
+        },
+        {
+          "ts": "2026-11-14T00:33:01.829490+00:00",
+          "ticker": "NVDA",
+          "rec": "beobachten",
+          "confidence": 70,
+          "engagement": 11,
+          "price": 162.85
         }
       ]
     },
@@ -790,11 +814,11 @@
       "name": "Advanced Micro Devices, Inc.",
       "signal": "neutral",
       "empfehlung": "beobachten",
-      "confidence": 70,
-      "sentiment": 1,
-      "mentions": 7,
-      "mentions_delta": 2,
-      "engagement": 12,
+      "confidence": 64,
+      "sentiment": 0,
+      "mentions": 5,
+      "mentions_delta": -2,
+      "engagement": 7,
       "sources": [
         "Mauerstrassenwetten",
         "wallstreetbets",
@@ -805,7 +829,7 @@
       "titles": [
         "Unser Repräsentant auf Tiktok/Insta",
         "the whole Jensen being a 'traitor' for selling chips to China narrative doesn't actually make sense...",
-        "Bought AMD at $1.96 way back, locked in a 400% gain at $10.02, and successfully dodged ~$700k of generational "
+        "AMD hat mir auf süß 2 Döner spendiert :3"
       ],
       "top_posts": [
         {
@@ -817,47 +841,38 @@
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1xvfp61/the_whole_jensen_being_a_traitor_for_selling/"
         },
         {
-          "title": "Bought AMD at $1.96 way back, locked in a 400% gain at $10.02, and successfully dodged ~$700k of generational ",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xuugl6/bought_amd_at_196_way_back_locked_in_a_400_gain/"
-        },
-        {
-          "title": "NVDA - People are underestimating Jensen's leather jacket",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xuta9c/nvda_people_are_underestimating_jensens_leather/"
-        },
-        {
           "title": "AMD hat mir auf süß 2 Döner spendiert :3",
           "url": "https://www.reddit.com/r/ameisenstrassenwetten/comments/1xs0kie/amd_hat_mir_auf_süß_2_döner_spendiert_3/"
+        },
+        {
+          "title": "Rep. Rob Bresnahan is up +93% since taking office in 2025, nearly 3x the S&P 500",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1xei62r/rep_rob_bresnahan_is_up_93_since_taking_office_in/"
+        },
+        {
+          "title": "Fahrt auf meiner AMD Achterbahn 🎢",
+          "url": "https://www.reddit.com/r/Aktien/comments/1xuihzy/fahrt_auf_meiner_amd_achterbahn/"
         }
       ],
       "topics": [
-        "Jensen",
         "Unser",
         "Repräsentant",
-        "Tiktok"
+        "Tiktok",
+        "Insta"
       ],
       "themen": [
         {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 20,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
-          "emoji": "💰",
-          "titel": "Einstiegs-Debatte",
-          "anteil_pct": 20,
-          "beitraege": 1,
-          "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
+          "emoji": "💬",
+          "titel": "Allgemeine Diskussion",
+          "anteil_pct": 100,
+          "beitraege": 5,
+          "erklaerung": "Kein dominantes Einzelthema erkennbar – breite Diskussion ohne klaren Auslöser."
         }
       ],
       "bull_case": [],
-      "bear_case": [
-        "Short-Positionierung"
-      ],
+      "bear_case": [],
       "price": {
         "available": true,
-        "price": 530.09,
+        "price": 534.06,
         "currency": "USD",
         "name": "Advanced Micro Devices, Inc.",
         "chart_1d": [
@@ -931,11 +946,43 @@
           },
           {
             "t": 1794595500,
-            "c": 528.7
+            "c": 530.12
           },
           {
-            "t": 1794596260,
-            "c": 530.09
+            "t": 1794596400,
+            "c": 532.28
+          },
+          {
+            "t": 1794597300,
+            "c": 534.11
+          },
+          {
+            "t": 1794598200,
+            "c": 531.96
+          },
+          {
+            "t": 1794599100,
+            "c": 533.43
+          },
+          {
+            "t": 1794600000,
+            "c": 534.08
+          },
+          {
+            "t": 1794600900,
+            "c": 531.64
+          },
+          {
+            "t": 1794601800,
+            "c": 530.14
+          },
+          {
+            "t": 1794602700,
+            "c": 534.09
+          },
+          {
+            "t": 1794603600,
+            "c": 534.06
           }
         ],
         "chart_5d": [
@@ -1069,18 +1116,22 @@
           },
           {
             "t": 1794594600,
-            "c": 528.7
+            "c": 534.11
           },
           {
-            "t": 1794596261,
-            "c": 530.32
+            "t": 1794598200,
+            "c": 531.64
+          },
+          {
+            "t": 1794601800,
+            "c": 534.09
+          },
+          {
+            "t": 1794603600,
+            "c": 534.06
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1791898200,
-            "c": 605.53
-          },
           {
             "t": 1791984600,
             "c": 570.82
@@ -1171,7 +1222,7 @@
           },
           {
             "t": 1794580200,
-            "c": 530.09
+            "c": 534.06
           }
         ],
         "chart_1y": [
@@ -1388,28 +1439,34 @@
             "c": 585.3
           },
           {
-            "t": 1794596261,
-            "c": 530.32
+            "t": 1794603601,
+            "c": 534.06
           }
         ],
-        "chg_1d": -3.84,
-        "chg_7d": 18.05,
-        "chg_1mo": -12.46,
-        "chg_1y": 114.78,
-        "sma20_dist": 2.17
+        "chg_1d": -3.12,
+        "chg_7d": 18.93,
+        "chg_1mo": -6.44,
+        "chg_1y": 116.39,
+        "sma20_dist": 2.9
       },
       "news": [
         {
-          "title": "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5%",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-midday-nov-13-nasdaq-plunges-as-nvidia-turmoil-deepens-and-treasury-yields-hit-5/?.tsrc=rss",
+          "title": "Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
           "tone": "neg"
         },
         {
-          "title": "AMD Stocks Fall 6.46% After 30% Weekly Surge on Nvidia Leadership Shock",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-fall-6-46-172243555.html?.tsrc=rss",
+          "title": "AMD Sinks 9%, Marvell Down 5% as Chip Rally Reverses and Treasury Yields Hit 5%",
+          "link": "https://www.tikr.com/blog/amd-sinks-9-marvell-down-5-as-chip-rally-reverses-and-treasury-yields-hit-5?ref=yahoofinance&tlnk=yf-261113-c83jxhmp&.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
           "tone": "pos"
+        },
+        {
+          "title": "Better Chip Stock: Nvidia vs. AMD",
+          "link": "https://www.fool.com/investing/2026/11/13/better-chip-stock-nvidia-vs-amd/?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "neu"
         },
         {
           "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
@@ -1418,45 +1475,32 @@
           "tone": "neu"
         },
         {
-          "title": "AMD Tumbles 11%, Broadcom and Intel Slide 6% as Chip Rally Reverses",
-          "link": "https://247wallst.com/investing/2026/11/13/amd-tumbles-11-broadcom-and-intel-slide-6-as-chip-rally-reverses/?.tsrc=rss",
+          "title": "AMD Stock Looks Poised to Revisit Its All-Time Highs",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-looks-poised-revisit-211600722.html?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Advanced Micro Devices Well Positioned as Agentic AI Drives Server CPU Market Growth, BofA Says",
-          "link": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-well-positioned-161607474.html?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "pos"
+          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs +18.05% über 7 Tage – Aufwärtsmomentum.",
-          "Schwacher Monat: -12.46%.",
+          "Kurs +18.93% über 7 Tage – Aufwärtsmomentum.",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Advanced Micro Devices, Inc. aktuell gemischt (7 Mentions mit steigender Dynamik (+2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Advanced Micro Devices, Inc. aktuell gemischt (5 Mentions bei abnehmender Aufmerksamkeit (-2 Mentions)). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "Mentions +2 gegenüber dem letzten Scan",
-        "🎯 Optionen & Short-Interest",
-        "💰 Einstiegs-Debatte",
-        "News: Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens",
-        "News: AMD Stocks Fall 6.46% After 30% Weekly Surge on Nvidia Leadership Shoc"
+        "💬 Allgemeine Diskussion",
+        "News: Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Of",
+        "News: AMD Sinks 9%, Marvell Down 5% as Chip Rally Reverses and Treasury Yiel"
       ],
-      "momentum": 87,
-      "momentum_label": "🚀 Diskussion wächst extrem schnell",
-      "growth_pct": 110,
+      "momentum": 61,
+      "momentum_label": "📈 Diskussion nimmt deutlich zu",
+      "growth_pct": 7,
       "timeline": [
-        {
-          "day": "2026-11-10",
-          "mentions": 3
-        },
         {
           "day": "2026-11-11",
           "mentions": 3
@@ -1468,26 +1512,22 @@
         {
           "day": "2026-11-13",
           "mentions": 7
+        },
+        {
+          "day": "2026-11-14",
+          "mentions": 5
         }
       ],
       "hype_typ": "trend",
       "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
-      "quality_grade": "C",
-      "quality_pct": 50,
+      "quality_grade": "D",
+      "quality_pct": 36,
       "reddit_vs_markt": {
-        "reddit": 87,
+        "reddit": 61,
         "markt": 100,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
-        {
-          "ts": "2026-11-11T23:51:47.296695+00:00",
-          "ticker": "AMD",
-          "rec": "beobachten",
-          "confidence": 61,
-          "engagement": 6,
-          "price": 552.9
-        },
         {
           "ts": "2026-11-12T14:16:45.562176+00:00",
           "ticker": "AMD",
@@ -1527,6 +1567,14 @@
           "confidence": 70,
           "engagement": 12,
           "price": 530.09
+        },
+        {
+          "ts": "2026-11-14T00:33:01.829490+00:00",
+          "ticker": "AMD",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 7,
+          "price": 534.06
         }
       ]
     },
@@ -1609,14 +1657,10 @@
         "💰 Einstiegs-Debatte",
         "📉 Kursverluste"
       ],
-      "momentum": 44,
+      "momentum": 49,
       "momentum_label": "➡️ Diskussion stabil",
-      "growth_pct": -31,
+      "growth_pct": -10,
       "timeline": [
-        {
-          "day": "2026-11-10",
-          "mentions": 6
-        },
         {
           "day": "2026-11-11",
           "mentions": 4
@@ -1628,6 +1672,10 @@
         {
           "day": "2026-11-13",
           "mentions": 3
+        },
+        {
+          "day": "2026-11-14",
+          "mentions": 3
         }
       ],
       "hype_typ": "trend",
@@ -1635,19 +1683,11 @@
       "quality_grade": "D",
       "quality_pct": 34,
       "reddit_vs_markt": {
-        "reddit": 44,
+        "reddit": 49,
         "markt": 50,
         "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
-        {
-          "ts": "2026-11-12T04:56:51.531406+00:00",
-          "ticker": "KGV",
-          "rec": "beobachten",
-          "confidence": 56,
-          "engagement": 16,
-          "price": null
-        },
         {
           "ts": "2026-11-12T14:16:45.562176+00:00",
           "ticker": "KGV",
@@ -1682,6 +1722,14 @@
         },
         {
           "ts": "2026-11-13T18:57:01.253717+00:00",
+          "ticker": "KGV",
+          "rec": "beobachten",
+          "confidence": 56,
+          "engagement": 16,
+          "price": null
+        },
+        {
+          "ts": "2026-11-14T00:33:01.829490+00:00",
           "ticker": "KGV",
           "rec": "beobachten",
           "confidence": 56,
@@ -1752,7 +1800,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 20.88,
+        "price": 20.93,
         "currency": "USD",
         "name": "First Commonwealth Financial Corporation",
         "chart_1d": [
@@ -1829,8 +1877,40 @@
             "c": 20.88
           },
           {
-            "t": 1794596149,
+            "t": 1794596400,
+            "c": 20.89
+          },
+          {
+            "t": 1794597300,
             "c": 20.88
+          },
+          {
+            "t": 1794598200,
+            "c": 20.88
+          },
+          {
+            "t": 1794599100,
+            "c": 20.87
+          },
+          {
+            "t": 1794600000,
+            "c": 20.89
+          },
+          {
+            "t": 1794600900,
+            "c": 20.89
+          },
+          {
+            "t": 1794601800,
+            "c": 20.91
+          },
+          {
+            "t": 1794602700,
+            "c": 20.93
+          },
+          {
+            "t": 1794603600,
+            "c": 20.93
           }
         ],
         "chart_5d": [
@@ -1967,15 +2047,19 @@
             "c": 20.88
           },
           {
-            "t": 1794596149,
-            "c": 20.88
+            "t": 1794598200,
+            "c": 20.89
+          },
+          {
+            "t": 1794601800,
+            "c": 20.93
+          },
+          {
+            "t": 1794603600,
+            "c": 20.93
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1791898200,
-            "c": 19.98
-          },
           {
             "t": 1791984600,
             "c": 19.92
@@ -2066,7 +2150,7 @@
           },
           {
             "t": 1794580200,
-            "c": 20.88
+            "c": 20.93
           }
         ],
         "chart_1y": [
@@ -2283,17 +2367,23 @@
             "c": 20.92
           },
           {
-            "t": 1794596149,
-            "c": 20.88
+            "t": 1794603602,
+            "c": 20.93
           }
         ],
-        "chg_1d": -0.14,
-        "chg_7d": -0.14,
-        "chg_1mo": 4.5,
-        "chg_1y": 30.66,
-        "sma20_dist": -0.52
+        "chg_1d": 0.1,
+        "chg_7d": 0.1,
+        "chg_1mo": 5.07,
+        "chg_1y": 30.98,
+        "sma20_dist": -0.3
       },
       "news": [
+        {
+          "title": "First Commonwealth: 3 Key Takeaways for Long-Term Investors",
+          "link": "https://www.fool.com/earnings/takeaways/2026/11/13/first-commonwealth-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "neu"
+        },
         {
           "title": "The top 5 analyst questions from First Commonwealth Financial’s Q3 earnings call",
           "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-first-023736752.html?.tsrc=rss",
@@ -2317,18 +2407,12 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/first-commonwealth-financial-fcf-stock-051251758.html?.tsrc=rss",
           "date": "Sun, 01 Nov 2026",
           "tone": "neu"
-        },
-        {
-          "title": "What First Commonwealth Financial (FCF) Said on Its Q3 Earnings Call",
-          "link": "https://www.marketbeat.com/instant-alerts/transcript-what-first-commonwealth-financial-fcf-said-on-its-q3-earnings-call-2026-10-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Wed, 28 Oct 2026",
-          "tone": "neu"
         }
       ],
       "comparison": {
         "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (-0.14%).",
+          "Kurs seitwärts über 7 Tage (+0.1%).",
           "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
@@ -2340,14 +2424,10 @@
         "💰 Einstiegs-Debatte",
         "📈 Wachstums-Story"
       ],
-      "momentum": 64,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 50,
+      "momentum": 52,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
       "timeline": [
-        {
-          "day": "2026-11-10",
-          "mentions": 0
-        },
         {
           "day": "2026-11-11",
           "mentions": 2
@@ -2359,16 +2439,20 @@
         {
           "day": "2026-11-13",
           "mentions": 2
+        },
+        {
+          "day": "2026-11-14",
+          "mentions": 2
         }
       ],
       "hype_typ": "trend",
-      "hype_begruendung": "Aktie wird seit 3 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
       "quality_pct": 20,
       "reddit_vs_markt": {
-        "reddit": 64,
-        "markt": 49,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "reddit": 52,
+        "markt": 50,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
         {
@@ -2402,6 +2486,14 @@
           "confidence": 64,
           "engagement": 11,
           "price": 20.88
+        },
+        {
+          "ts": "2026-11-14T00:33:01.829490+00:00",
+          "ticker": "FCF",
+          "rec": "beobachten",
+          "confidence": 64,
+          "engagement": 11,
+          "price": 20.93
         }
       ]
     },
@@ -2410,7 +2502,7 @@
       "name": "Corgi EOSE 2x Daily ETF",
       "signal": "bullish",
       "empfehlung": "beobachten",
-      "confidence": 45,
+      "confidence": 61,
       "sentiment": 2,
       "mentions": 2,
       "mentions_delta": 0,
@@ -2461,7 +2553,7 @@
       "bear_case": [],
       "price": {
         "available": true,
-        "price": 1.22,
+        "price": 1.36,
         "currency": "USD",
         "name": "Corgi EOSE 2x Daily ETF",
         "chart_1d": [
@@ -2474,8 +2566,24 @@
             "c": 1.22
           },
           {
-            "t": 1794587264,
-            "c": 1.22
+            "t": 1794599100,
+            "c": 1.32
+          },
+          {
+            "t": 1794600000,
+            "c": 1.33
+          },
+          {
+            "t": 1794600900,
+            "c": 1.3
+          },
+          {
+            "t": 1794601800,
+            "c": 1.31
+          },
+          {
+            "t": 1794602700,
+            "c": 1.36
           }
         ],
         "chart_5d": [
@@ -2560,15 +2668,15 @@
             "c": 1.22
           },
           {
-            "t": 1794587264,
-            "c": 1.22
+            "t": 1794598200,
+            "c": 1.3
+          },
+          {
+            "t": 1794601800,
+            "c": 1.36
           }
         ],
         "chart_1mo": [
-          {
-            "t": 1791898200,
-            "c": 2.7
-          },
           {
             "t": 1791984600,
             "c": 1.84
@@ -2659,7 +2767,7 @@
           },
           {
             "t": 1794580200,
-            "c": 1.22
+            "c": 1.36
           }
         ],
         "chart_1y": [
@@ -2744,27 +2852,26 @@
             "c": 1.22
           },
           {
-            "t": 1794587264,
-            "c": 1.22
+            "t": 1794602822,
+            "c": 1.36
           }
         ],
-        "chg_1d": 4.27,
-        "chg_7d": 1.67,
-        "chg_1mo": -54.81,
-        "chg_1y": -93.3,
-        "sma20_dist": -14.27
+        "chg_1d": 16.24,
+        "chg_7d": 13.33,
+        "chg_1mo": -26.09,
+        "chg_1y": -92.54,
+        "sma20_dist": -4.9
       },
       "news": [],
       "comparison": {
-        "verdict": "widerspricht",
+        "verdict": "relativiert",
         "points": [
-          "Kurs seitwärts über 7 Tage (+1.67%).",
-          "Schwacher Monat: -54.81%.",
-          "-14.27% unter SMA20 – technisch angeschlagen.",
-          "Reddit bullisch, Kurs zeigt Schwäche – Hype-Risiko."
+          "Kurs +13.33% über 7 Tage – Aufwärtsmomentum.",
+          "Schwacher Monat: -26.09%.",
+          "Externe Lage uneindeutig – Signal mit Vorsicht behandeln."
         ]
       },
-      "fazit": "Reddit diskutiert Corgi EOSE 2x Daily ETF aktuell bullisch (2 Mentions). Der Marktabgleich widerspricht jedoch – erhöhtes Hype-Risiko. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Corgi EOSE 2x Daily ETF aktuell bullisch (2 Mentions). Der Marktabgleich liefert kein klares Bild. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
@@ -2777,10 +2884,6 @@
       "growth_pct": 0,
       "timeline": [
         {
-          "day": "2026-11-10",
-          "mentions": 2
-        },
-        {
           "day": "2026-11-11",
           "mentions": 2
         },
@@ -2790,6 +2893,10 @@
         },
         {
           "day": "2026-11-13",
+          "mentions": 2
+        },
+        {
+          "day": "2026-11-14",
           "mentions": 2
         }
       ],
@@ -2799,8 +2906,8 @@
       "quality_pct": 25,
       "reddit_vs_markt": {
         "reddit": 54,
-        "markt": 56,
-        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
+        "markt": 100,
+        "urteil": "🔴 Reddit reagiert verspätet – Bewegung ist bereits gelaufen"
       },
       "verlauf": [
         {
@@ -2818,184 +2925,738 @@
           "confidence": 45,
           "engagement": 8,
           "price": 1.22
+        },
+        {
+          "ts": "2026-11-14T00:33:01.829490+00:00",
+          "ticker": "EO",
+          "rec": "beobachten",
+          "confidence": 61,
+          "engagement": 8,
+          "price": 1.36
         }
       ]
     },
     {
-      "ticker": "CUDA",
-      "name": "CUDA",
-      "signal": "neutral",
-      "empfehlung": "beobachten",
-      "confidence": 41,
-      "sentiment": 1,
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "signal": "bullish",
+      "empfehlung": "kaufen",
+      "confidence": 78,
+      "sentiment": 3,
       "mentions": 2,
       "mentions_delta": 0,
       "engagement": 5,
       "sources": [
-        "wallstreetbets"
+        "TrumpsTrades"
       ],
       "titles": [
-        "Elon hiring Jensen to run XAI would be the greatest acquisition in American business history.",
-        "NVDA - People are underestimating Jensen's leather jacket"
+        "Trump envoy involved in $15B oil pipeline bypassing Hormuz with Chevron. Trump disclosed $1M–$5M CVX buy yeste",
+        "Just in: Trump disclosed 400 stock trades today. Here's what you should know"
       ],
       "top_posts": [
         {
-          "title": "Elon hiring Jensen to run XAI would be the greatest acquisition in American business history.",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xuphq1/elon_hiring_jensen_to_run_xai_would_be_the/"
+          "title": "Trump envoy involved in $15B oil pipeline bypassing Hormuz with Chevron. Trump disclosed $1M–$5M CVX buy yeste",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1x1rmm8/trump_envoy_involved_in_15b_oil_pipeline/"
         },
         {
-          "title": "NVDA - People are underestimating Jensen's leather jacket",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1xuta9c/nvda_people_are_underestimating_jensens_leather/"
+          "title": "Just in: Trump disclosed 400 stock trades today. Here's what you should know",
+          "url": "https://www.reddit.com/r/TrumpsTrades/comments/1x0xadl/just_in_trump_disclosed_400_stock_trades_today/"
         }
       ],
       "topics": [
-        "Jensen",
-        "Elon",
-        "Hiring",
-        "Would"
+        "Trump",
+        "Disclosed",
+        "Envoy",
+        "Involved"
       ],
       "themen": [
         {
-          "emoji": "🎯",
-          "titel": "Optionen & Short-Interest",
-          "anteil_pct": 33,
-          "beitraege": 1,
-          "erklaerung": "Diskussion über Optionsaktivität und Short-Positionierungen."
-        },
-        {
           "emoji": "💰",
           "titel": "Einstiegs-Debatte",
-          "anteil_pct": 33,
-          "beitraege": 1,
+          "anteil_pct": 67,
+          "beitraege": 2,
           "erklaerung": "Diskussion darüber, ob das aktuelle Kursniveau einen Einstieg rechtfertigt."
         }
       ],
       "bull_case": [],
-      "bear_case": [
-        "Short-Positionierung"
-      ],
+      "bear_case": [],
       "price": {
-        "available": false
+        "available": true,
+        "price": 219.89,
+        "currency": "USD",
+        "name": "Chevron Corporation",
+        "chart_1d": [
+          {
+            "t": 1794580200,
+            "c": 216.69
+          },
+          {
+            "t": 1794581100,
+            "c": 217.8
+          },
+          {
+            "t": 1794582000,
+            "c": 217.69
+          },
+          {
+            "t": 1794582900,
+            "c": 218.59
+          },
+          {
+            "t": 1794583800,
+            "c": 218.45
+          },
+          {
+            "t": 1794584700,
+            "c": 218.76
+          },
+          {
+            "t": 1794585600,
+            "c": 218.82
+          },
+          {
+            "t": 1794586500,
+            "c": 218.07
+          },
+          {
+            "t": 1794587400,
+            "c": 217.91
+          },
+          {
+            "t": 1794588300,
+            "c": 217.7
+          },
+          {
+            "t": 1794589200,
+            "c": 217.69
+          },
+          {
+            "t": 1794590100,
+            "c": 218.14
+          },
+          {
+            "t": 1794591000,
+            "c": 218.4
+          },
+          {
+            "t": 1794591900,
+            "c": 218.55
+          },
+          {
+            "t": 1794592800,
+            "c": 218.41
+          },
+          {
+            "t": 1794593700,
+            "c": 218.6
+          },
+          {
+            "t": 1794594600,
+            "c": 218.87
+          },
+          {
+            "t": 1794595500,
+            "c": 218.89
+          },
+          {
+            "t": 1794596400,
+            "c": 218.81
+          },
+          {
+            "t": 1794597300,
+            "c": 218.74
+          },
+          {
+            "t": 1794598200,
+            "c": 218.75
+          },
+          {
+            "t": 1794599100,
+            "c": 218.73
+          },
+          {
+            "t": 1794600000,
+            "c": 218.88
+          },
+          {
+            "t": 1794600900,
+            "c": 218.72
+          },
+          {
+            "t": 1794601800,
+            "c": 218.9
+          },
+          {
+            "t": 1794602700,
+            "c": 219.9
+          },
+          {
+            "t": 1794603600,
+            "c": 219.89
+          }
+        ],
+        "chart_5d": [
+          {
+            "t": 1794234600,
+            "c": 211.18
+          },
+          {
+            "t": 1794238200,
+            "c": 211.99
+          },
+          {
+            "t": 1794241800,
+            "c": 212.21
+          },
+          {
+            "t": 1794245400,
+            "c": 210.88
+          },
+          {
+            "t": 1794249000,
+            "c": 210.26
+          },
+          {
+            "t": 1794252600,
+            "c": 210.41
+          },
+          {
+            "t": 1794256200,
+            "c": 210.78
+          },
+          {
+            "t": 1794321000,
+            "c": 209.4
+          },
+          {
+            "t": 1794324600,
+            "c": 209.89
+          },
+          {
+            "t": 1794328200,
+            "c": 210.46
+          },
+          {
+            "t": 1794331800,
+            "c": 210.44
+          },
+          {
+            "t": 1794335400,
+            "c": 211.26
+          },
+          {
+            "t": 1794339000,
+            "c": 211.51
+          },
+          {
+            "t": 1794342600,
+            "c": 211.26
+          },
+          {
+            "t": 1794407400,
+            "c": 213.02
+          },
+          {
+            "t": 1794411000,
+            "c": 212.48
+          },
+          {
+            "t": 1794414600,
+            "c": 211.89
+          },
+          {
+            "t": 1794418200,
+            "c": 212.4
+          },
+          {
+            "t": 1794421800,
+            "c": 212.25
+          },
+          {
+            "t": 1794425400,
+            "c": 212.47
+          },
+          {
+            "t": 1794429000,
+            "c": 213.22
+          },
+          {
+            "t": 1794493800,
+            "c": 214.9
+          },
+          {
+            "t": 1794497400,
+            "c": 215.55
+          },
+          {
+            "t": 1794501000,
+            "c": 217.17
+          },
+          {
+            "t": 1794504600,
+            "c": 217.43
+          },
+          {
+            "t": 1794508200,
+            "c": 217.62
+          },
+          {
+            "t": 1794511800,
+            "c": 217.53
+          },
+          {
+            "t": 1794515400,
+            "c": 216.39
+          },
+          {
+            "t": 1794580200,
+            "c": 218.59
+          },
+          {
+            "t": 1794583800,
+            "c": 218.07
+          },
+          {
+            "t": 1794587400,
+            "c": 218.14
+          },
+          {
+            "t": 1794591000,
+            "c": 218.6
+          },
+          {
+            "t": 1794594600,
+            "c": 218.74
+          },
+          {
+            "t": 1794598200,
+            "c": 218.72
+          },
+          {
+            "t": 1794601800,
+            "c": 219.9
+          },
+          {
+            "t": 1794603600,
+            "c": 219.89
+          }
+        ],
+        "chart_1mo": [
+          {
+            "t": 1791984600,
+            "c": 222.04
+          },
+          {
+            "t": 1792071000,
+            "c": 219.32
+          },
+          {
+            "t": 1792157400,
+            "c": 224.99
+          },
+          {
+            "t": 1792416600,
+            "c": 224.37
+          },
+          {
+            "t": 1792503000,
+            "c": 225.71
+          },
+          {
+            "t": 1792589400,
+            "c": 226.78
+          },
+          {
+            "t": 1792675800,
+            "c": 226.68
+          },
+          {
+            "t": 1792762200,
+            "c": 233.21
+          },
+          {
+            "t": 1793021400,
+            "c": 232.01
+          },
+          {
+            "t": 1793107800,
+            "c": 228.23
+          },
+          {
+            "t": 1793194200,
+            "c": 229.2
+          },
+          {
+            "t": 1793280600,
+            "c": 231.46
+          },
+          {
+            "t": 1793367000,
+            "c": 235.52
+          },
+          {
+            "t": 1793629800,
+            "c": 227.77
+          },
+          {
+            "t": 1793716200,
+            "c": 225.27
+          },
+          {
+            "t": 1793802600,
+            "c": 216.96
+          },
+          {
+            "t": 1793889000,
+            "c": 212.93
+          },
+          {
+            "t": 1793975400,
+            "c": 212.61
+          },
+          {
+            "t": 1794234600,
+            "c": 210.78
+          },
+          {
+            "t": 1794321000,
+            "c": 211.22
+          },
+          {
+            "t": 1794407400,
+            "c": 213.28
+          },
+          {
+            "t": 1794493800,
+            "c": 216.35
+          },
+          {
+            "t": 1794580200,
+            "c": 219.89
+          }
+        ],
+        "chart_1y": [
+          {
+            "t": 1762750800,
+            "c": 157.62
+          },
+          {
+            "t": 1763355600,
+            "c": 149.98
+          },
+          {
+            "t": 1763960400,
+            "c": 151.13
+          },
+          {
+            "t": 1764565200,
+            "c": 150.0
+          },
+          {
+            "t": 1765170000,
+            "c": 149.99
+          },
+          {
+            "t": 1765774800,
+            "c": 147.75
+          },
+          {
+            "t": 1766379600,
+            "c": 150.02
+          },
+          {
+            "t": 1766984400,
+            "c": 155.9
+          },
+          {
+            "t": 1767589200,
+            "c": 162.11
+          },
+          {
+            "t": 1768194000,
+            "c": 166.26
+          },
+          {
+            "t": 1768798800,
+            "c": 166.72
+          },
+          {
+            "t": 1769403600,
+            "c": 176.9
+          },
+          {
+            "t": 1770008400,
+            "c": 180.86
+          },
+          {
+            "t": 1770613200,
+            "c": 183.74
+          },
+          {
+            "t": 1771218000,
+            "c": 183.93
+          },
+          {
+            "t": 1771822800,
+            "c": 186.76
+          },
+          {
+            "t": 1772427600,
+            "c": 189.94
+          },
+          {
+            "t": 1773028800,
+            "c": 196.82
+          },
+          {
+            "t": 1773633600,
+            "c": 201.73
+          },
+          {
+            "t": 1774238400,
+            "c": 211.15
+          },
+          {
+            "t": 1774843200,
+            "c": 198.97
+          },
+          {
+            "t": 1775448000,
+            "c": 188.55
+          },
+          {
+            "t": 1776052800,
+            "c": 183.99
+          },
+          {
+            "t": 1776657600,
+            "c": 185.21
+          },
+          {
+            "t": 1777262400,
+            "c": 190.63
+          },
+          {
+            "t": 1777867200,
+            "c": 181.62
+          },
+          {
+            "t": 1778472000,
+            "c": 191.1
+          },
+          {
+            "t": 1779076800,
+            "c": 191.43
+          },
+          {
+            "t": 1779681600,
+            "c": 182.46
+          },
+          {
+            "t": 1780286400,
+            "c": 187.31
+          },
+          {
+            "t": 1780891200,
+            "c": 187.22
+          },
+          {
+            "t": 1781496000,
+            "c": 173.63
+          },
+          {
+            "t": 1782100800,
+            "c": 171.06
+          },
+          {
+            "t": 1782705600,
+            "c": 169.2
+          },
+          {
+            "t": 1783310400,
+            "c": 176.4
+          },
+          {
+            "t": 1783915200,
+            "c": 187.38
+          },
+          {
+            "t": 1784520000,
+            "c": 194.79
+          },
+          {
+            "t": 1785124800,
+            "c": 196.83
+          },
+          {
+            "t": 1785729600,
+            "c": 186.56
+          },
+          {
+            "t": 1786334400,
+            "c": 200.0
+          },
+          {
+            "t": 1786939200,
+            "c": 205.27
+          },
+          {
+            "t": 1787544000,
+            "c": 201.86
+          },
+          {
+            "t": 1788148800,
+            "c": 208.6
+          },
+          {
+            "t": 1788753600,
+            "c": 214.06
+          },
+          {
+            "t": 1789358400,
+            "c": 209.51
+          },
+          {
+            "t": 1789963200,
+            "c": 204.45
+          },
+          {
+            "t": 1790568000,
+            "c": 206.69
+          },
+          {
+            "t": 1791172800,
+            "c": 211.98
+          },
+          {
+            "t": 1791777600,
+            "c": 224.99
+          },
+          {
+            "t": 1792382400,
+            "c": 233.21
+          },
+          {
+            "t": 1792987200,
+            "c": 235.52
+          },
+          {
+            "t": 1793595600,
+            "c": 212.61
+          },
+          {
+            "t": 1794200400,
+            "c": 216.35
+          },
+          {
+            "t": 1794603647,
+            "c": 219.89
+          }
+        ],
+        "chg_1d": 1.48,
+        "chg_7d": 3.42,
+        "chg_1mo": -0.97,
+        "chg_1y": 39.51,
+        "sma20_dist": -1.4
       },
-      "news": [],
+      "news": [
+        {
+          "title": "Chevron Bets $7B on Venezuela While Exxon Mobil Plays It Safe: One Has a Distinct Edge Now",
+          "link": "https://247wallst.com/investing/2026/11/13/chevron-bets-7b-on-venezuela-while-exxon-mobil-plays-it-safe-one-has-a-distinct-edge-now/?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "3 Midstream Energy Stocks To Own In November 2026",
+          "link": "https://finance.yahoo.com/energy/articles/3-midstream-energy-stocks-own-171021449.html?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "5 High-Yield Dividend Stocks That Could Beat a 5% Treasury Yield",
+          "link": "https://247wallst.com/investing/2026/11/13/5-high-yield-dividend-stocks-that-could-beat-a-5-treasury-yield/?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Chevron Eyes Biodiesel Growth With Iowa Facility Restart",
+          "link": "https://finance.yahoo.com/energy/articles/chevron-eyes-biodiesel-growth-iowa-151900022.html?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "TC Energy or Chevron: Only One Gets My Dividend Dollars for the Next 10 Years",
+          "link": "https://www.tikr.com/blog/tc-energy-or-chevron-only-one-gets-my-dividend-dollars-for-the-next-10-years?ref=yahoofinancedividend&tlnk=yf-261113-jvjmcrgw&.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "neu"
+        }
+      ],
       "comparison": {
-        "verdict": "unbekannt",
+        "verdict": "bestätigt",
         "points": [
-          "Keine Kursdaten verfügbar – Ticker evtl. kein US-Symbol."
+          "Kurs +3.42% über 7 Tage – Aufwärtsmomentum.",
+          "Marktlage stützt die bullische Reddit-Stimmung."
         ]
       },
-      "fazit": "Reddit diskutiert CUDA aktuell gemischt (2 Mentions). Ein Marktabgleich war mangels Kursdaten nicht möglich. Eine Beobachtungsposition erscheint aktuell sinnvoller als ein aggressiver Einstieg.",
+      "fazit": "Reddit diskutiert Chevron Corporation aktuell bullisch (2 Mentions). Die Marktdaten stützen die Reddit-Stimmung. Insgesamt erscheint eine Kaufposition vertretbar – mit engem Risikomanagement.",
       "fazit_quelle": "regelbasiert",
       "analyse": "",
       "konkurrenten": [],
       "gruende": [
-        "🎯 Optionen & Short-Interest",
         "💰 Einstiegs-Debatte"
       ],
-      "momentum": 77,
-      "momentum_label": "📈 Diskussion nimmt deutlich zu",
-      "growth_pct": 100,
+      "momentum": 52,
+      "momentum_label": "➡️ Diskussion stabil",
+      "growth_pct": 0,
       "timeline": [
         {
-          "day": "2026-11-10",
-          "mentions": 0
-        },
-        {
           "day": "2026-11-11",
-          "mentions": 0
+          "mentions": 2
         },
         {
           "day": "2026-11-12",
-          "mentions": 0
+          "mentions": 2
         },
         {
           "day": "2026-11-13",
           "mentions": 2
+        },
+        {
+          "day": "2026-11-14",
+          "mentions": 2
         }
       ],
-      "hype_typ": "hype",
-      "hype_begruendung": "Diskussion ist sehr jung und wächst schnell – typisches Muster für kurzfristigen Hype.",
+      "hype_typ": "trend",
+      "hype_begruendung": "Aktie wird seit 4 Tagen konstant diskutiert – spricht eher für eine nachhaltige Story.",
       "quality_grade": "D",
-      "quality_pct": 11,
+      "quality_pct": 23,
       "reddit_vs_markt": {
-        "reddit": 77,
-        "markt": 50,
-        "urteil": "🟢 Reddit erkennt den Trend früher als der Markt"
+        "reddit": 52,
+        "markt": 63,
+        "urteil": "🟡 Reddit und Markt laufen weitgehend synchron"
       },
       "verlauf": [
         {
-          "ts": "2026-11-13T11:43:30.273643+00:00",
-          "ticker": "CUDA",
-          "rec": "beobachten",
-          "confidence": 41,
+          "ts": "2026-11-14T00:33:01.829490+00:00",
+          "ticker": "CVX",
+          "rec": "kaufen",
+          "confidence": 78,
           "engagement": 5,
-          "price": null
-        },
-        {
-          "ts": "2026-11-13T18:57:01.253717+00:00",
-          "ticker": "CUDA",
-          "rec": "beobachten",
-          "confidence": 41,
-          "engagement": 5,
-          "price": null
+          "price": 219.89
         }
       ]
     }
   ],
   "stats": {
-    "hit_rate": 38,
-    "n_evaluated": 302,
+    "hit_rate": 40,
+    "n_evaluated": 308,
     "rate_kaufen": 71,
     "rate_verkaufen": null,
-    "rate_beobachten": 36,
-    "kauf_perf_7d": 3.2,
-    "kauf_perf_30d": 5.0
+    "rate_beobachten": 38,
+    "kauf_perf_7d": 3.1,
+    "kauf_perf_30d": 5.6
   },
   "history_evaluated": [
-    {
-      "ts": "2026-11-03T01:55:20.650289+00:00",
-      "ticker": "AMD",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 6,
-      "price": 504.8,
-      "chg_since": 5.01,
-      "correct": false,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-03T01:55:20.650289+00:00",
-      "ticker": "GFS",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 5,
-      "price": 41.9,
-      "chg_since": -1.79,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-03T01:55:20.650289+00:00",
-      "ticker": "MSFT",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 8,
-      "price": 521.91,
-      "chg_since": 0.53,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-03T01:55:20.650289+00:00",
-      "ticker": "BE",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 6,
-      "price": 203.17,
-      "chg_since": -5.42,
-      "correct": false,
-      "age_days": 10
-    },
     {
       "ts": "2026-11-03T08:50:46.459797+00:00",
       "ticker": "AMD",
@@ -3003,7 +3664,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 466.84,
-      "chg_since": 13.55,
+      "chg_since": 14.4,
       "correct": false,
       "age_days": 10
     },
@@ -3014,7 +3675,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 41.82,
-      "chg_since": -1.6,
+      "chg_since": -0.84,
       "correct": true,
       "age_days": 10
     },
@@ -3025,7 +3686,7 @@
       "confidence": 51,
       "engagement": 8,
       "price": 507.12,
-      "chg_since": 3.46,
+      "chg_since": 3.3,
       "correct": true,
       "age_days": 10
     },
@@ -3036,7 +3697,7 @@
       "confidence": 67,
       "engagement": 8,
       "price": 491.8,
-      "chg_since": 7.79,
+      "chg_since": 8.59,
       "correct": false,
       "age_days": 10
     },
@@ -3047,8 +3708,8 @@
       "confidence": 64,
       "engagement": 5,
       "price": 43.58,
-      "chg_since": -5.58,
-      "correct": false,
+      "chg_since": -4.84,
+      "correct": true,
       "age_days": 10
     },
     {
@@ -3058,7 +3719,7 @@
       "confidence": 67,
       "engagement": 8,
       "price": 516.56,
-      "chg_since": 1.57,
+      "chg_since": 1.42,
       "correct": true,
       "age_days": 10
     },
@@ -3069,9 +3730,9 @@
       "confidence": 70,
       "engagement": 12,
       "price": 483.9,
-      "chg_since": 9.55,
+      "chg_since": 10.37,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-03T22:41:58.718756+00:00",
@@ -3080,9 +3741,9 @@
       "confidence": 64,
       "engagement": 5,
       "price": 42.89,
-      "chg_since": -4.06,
+      "chg_since": -3.31,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-03T22:41:58.718756+00:00",
@@ -3091,9 +3752,9 @@
       "confidence": 51,
       "engagement": 8,
       "price": 206.69,
-      "chg_since": -21.23,
+      "chg_since": -21.21,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-04T03:57:42.775708+00:00",
@@ -3102,7 +3763,7 @@
       "confidence": 67,
       "engagement": 10,
       "price": 483.9,
-      "chg_since": 9.55,
+      "chg_since": 10.37,
       "correct": false,
       "age_days": 9
     },
@@ -3113,7 +3774,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 42.89,
-      "chg_since": -4.06,
+      "chg_since": -3.31,
       "correct": true,
       "age_days": 9
     },
@@ -3124,7 +3785,7 @@
       "confidence": 67,
       "engagement": 8,
       "price": 520.99,
-      "chg_since": 0.7,
+      "chg_since": 0.55,
       "correct": true,
       "age_days": 9
     },
@@ -3135,7 +3796,7 @@
       "confidence": 67,
       "engagement": 8,
       "price": 483.9,
-      "chg_since": 9.55,
+      "chg_since": 10.37,
       "correct": false,
       "age_days": 9
     },
@@ -3146,7 +3807,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 42.89,
-      "chg_since": -4.06,
+      "chg_since": -3.31,
       "correct": true,
       "age_days": 9
     },
@@ -3157,9 +3818,9 @@
       "confidence": 67,
       "engagement": 8,
       "price": 482.83,
-      "chg_since": 9.79,
+      "chg_since": 10.61,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-04T19:05:50.928335+00:00",
@@ -3168,9 +3829,9 @@
       "confidence": 54,
       "engagement": 7,
       "price": 196.86,
-      "chg_since": -2.39,
+      "chg_since": -2.47,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-04T19:05:50.928335+00:00",
@@ -3179,9 +3840,9 @@
       "confidence": 64,
       "engagement": 5,
       "price": 40.4,
-      "chg_since": 1.86,
+      "chg_since": 2.65,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-05T00:38:40.019239+00:00",
@@ -3190,7 +3851,7 @@
       "confidence": 51,
       "engagement": 12,
       "price": 200.13,
-      "chg_since": -18.65,
+      "chg_since": -18.63,
       "correct": false,
       "age_days": 8
     },
@@ -3201,7 +3862,7 @@
       "confidence": 87,
       "engagement": 12,
       "price": 555.8,
-      "chg_since": -5.6,
+      "chg_since": -5.74,
       "correct": false,
       "age_days": 8
     },
@@ -3212,7 +3873,7 @@
       "confidence": 51,
       "engagement": 12,
       "price": 200.13,
-      "chg_since": -18.65,
+      "chg_since": -18.63,
       "correct": false,
       "age_days": 8
     },
@@ -3223,7 +3884,7 @@
       "confidence": 87,
       "engagement": 12,
       "price": 555.8,
-      "chg_since": -5.6,
+      "chg_since": -5.74,
       "correct": false,
       "age_days": 8
     },
@@ -3234,7 +3895,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 182.83,
-      "chg_since": -10.95,
+      "chg_since": -10.93,
       "correct": false,
       "age_days": 8
     },
@@ -3245,7 +3906,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 415.41,
-      "chg_since": 27.61,
+      "chg_since": 28.56,
       "correct": false,
       "age_days": 8
     },
@@ -3256,7 +3917,7 @@
       "confidence": 51,
       "engagement": 6,
       "price": 165.6,
-      "chg_since": 16.03,
+      "chg_since": 15.94,
       "correct": false,
       "age_days": 8
     },
@@ -3267,9 +3928,9 @@
       "confidence": 84,
       "engagement": 13,
       "price": 655.91,
-      "chg_since": 0.35,
+      "chg_since": 0.34,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-05T23:01:42.120304+00:00",
@@ -3278,9 +3939,9 @@
       "confidence": 61,
       "engagement": 4,
       "price": 36.36,
-      "chg_since": 13.17,
+      "chg_since": 14.05,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-06T04:16:10.738186+00:00",
@@ -3289,7 +3950,7 @@
       "confidence": 64,
       "engagement": 9,
       "price": 656.39,
-      "chg_since": 16.9,
+      "chg_since": 18.57,
       "correct": false,
       "age_days": 7
     },
@@ -3300,7 +3961,7 @@
       "confidence": 84,
       "engagement": 13,
       "price": 655.91,
-      "chg_since": 0.35,
+      "chg_since": 0.34,
       "correct": false,
       "age_days": 7
     },
@@ -3311,7 +3972,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 535.93,
-      "chg_since": -2.1,
+      "chg_since": -2.25,
       "correct": true,
       "age_days": 7
     },
@@ -3322,7 +3983,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 404.4,
-      "chg_since": 31.08,
+      "chg_since": 32.06,
       "correct": false,
       "age_days": 7
     },
@@ -3333,7 +3994,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 36.36,
-      "chg_since": 13.17,
+      "chg_since": 14.05,
       "correct": false,
       "age_days": 7
     },
@@ -3344,7 +4005,7 @@
       "confidence": 64,
       "engagement": 9,
       "price": 656.39,
-      "chg_since": 16.9,
+      "chg_since": 18.57,
       "correct": false,
       "age_days": 7
     },
@@ -3355,7 +4016,7 @@
       "confidence": 61,
       "engagement": 10,
       "price": 535.93,
-      "chg_since": -2.1,
+      "chg_since": -2.25,
       "correct": true,
       "age_days": 7
     },
@@ -3366,7 +4027,7 @@
       "confidence": 61,
       "engagement": 8,
       "price": 404.4,
-      "chg_since": 31.08,
+      "chg_since": 32.06,
       "correct": false,
       "age_days": 7
     },
@@ -3377,7 +4038,7 @@
       "confidence": 58,
       "engagement": 5,
       "price": 19.2,
-      "chg_since": 22.03,
+      "chg_since": 24.58,
       "correct": false,
       "age_days": 7
     },
@@ -3388,7 +4049,51 @@
       "confidence": 61,
       "engagement": 4,
       "price": 36.36,
-      "chg_since": 13.17,
+      "chg_since": 14.05,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-06T20:09:39.483075+00:00",
+      "ticker": "MU",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 9,
+      "price": 695.51,
+      "chg_since": 11.9,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-06T20:09:39.483075+00:00",
+      "ticker": "MSFT",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 10,
+      "price": 532.61,
+      "chg_since": -1.64,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-06T20:09:39.483075+00:00",
+      "ticker": "OKLO",
+      "rec": "beobachten",
+      "confidence": 58,
+      "engagement": 5,
+      "price": 23.97,
+      "chg_since": -0.21,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-06T20:09:39.483075+00:00",
+      "ticker": "GFS",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 4,
+      "price": 38.6,
+      "chg_since": 7.44,
       "correct": false,
       "age_days": 7
     }
@@ -3397,13 +4102,31 @@
   "trump_tracker": {
     "posts": [
       {
+        "text": "Thank you to the United States Coast Guard for doing such an incredible job of rescue, and other work, having to do with the crash of the two ships in Louisiana. Likewise, all of Law Enforcement and First Responders were fantastic! Incredibly, nobody was killed by this major collision. 32 people are in the hospital. Thank you to Governor Jeff Landry for your outstanding leadership during this very",
+        "url": "https://www.trumpstruth.org/statuses/43569",
+        "date": "Fri, 13 Nov 2026 22:58",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
+        "text": "I am working with Senator Tim Scott and, believe it or not, Senator Adam Schiff, and, additionally, Senators John Cornyn, Raphael Warnock, Steve Daines, Bernie Moreno, Tim Sheehy, Alex Padilla, Mark Warner, Thom Tillis, and Chris Coons, together with Representatives Jason Smith, Nathaniel Moran, Brian Jack, Linda Sanchez, and many others, both Republican and Democrat, on the Motion Picture, Televi",
+        "url": "https://www.trumpstruth.org/statuses/43568",
+        "date": "Fri, 13 Nov 2026 22:52",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
+      {
         "text": "View image",
         "url": "https://www.trumpstruth.org/statuses/43567",
         "date": "Fri, 13 Nov 2026 14:02",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View video",
@@ -3412,7 +4135,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "Lilly breaks ground in Pennsylvania's Lehigh Valley on a $3.5 billion site to make next-generation obesity medicines, the latest of 10 new U.S. sites since 2020: https:// investor.lilly.com/news-releas es/news-release-details/lilly-breaks-ground-pennsylvanias-lehigh-valley-35-billion-site",
@@ -3451,50 +4174,9 @@
         "is_new": false
       },
       {
-        "text": "Will the Seditious Six ever be prosecuted? What they did was a great violation to our Country and its Constitution! President DONALD J. TRUMP",
-        "url": "https://www.trumpstruth.org/statuses/43561",
-        "date": "Thu, 12 Nov 2026 15:59",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "NOW THAT Nvidia CEO JENSEN HUANG, who has done a fantastic job, has resigned, there is only one man to take his place - TIM COOK of Apple. A Legend replaces a Legend! President DONALD J. TRUMP",
-        "url": "https://www.trumpstruth.org/statuses/43560",
-        "date": "Thu, 12 Nov 2026 15:29",
-        "source": "Truth Social",
-        "companies": [
-          {
-            "name": "Apple",
-            "ticker": "AAPL"
-          },
-          {
-            "name": "Nvidia",
-            "ticker": "NVDA"
-          }
-        ],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMFhFdjVXUmFEeDhEemZrSmthRjRTdDVVOVQ5S0lWaVVVWXR4T2RiU25IN20xaTFTdHB0RDRNNU1CZ1dmYWVXWWI1MkpydU42bzJaSFlRTFBtZTJfbmM3c2Ezc2w3Uk05YnFGNFVrRXRZam9JTV9ERlRudU1XNHIzUkdtQQ?oc=5",
-        "date": "Fri, 13 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [
-          {
-            "name": "Nvidia",
-            "ticker": "NVDA"
-          }
-        ],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Bessent points finger at Commerce Department in Nvidia scandal as Trump advisers discuss possible Lutnick ouster - CNN",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSndiVUY0YWtORGZNSjA2UDBwMy1DR1VUbEpTdUFsZmE5bXdOQVFKNF9qSThVRDdnRWhEcmhtZEM2ckJVVWlQRDMyd2N2STk5MHFuUEQxTjgtQUd1RkM3NmV2d1hZN2xCamlOVGFMV2o1SldxazFWTlY3Y1BTRFJjQlpFdTA?oc=5",
-        "date": "Fri, 13 Nov 2026",
+        "text": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6UE1LUUhxSWNHM2prcHlVQ0RCR01qVUc1b1VZMHcxZEFUajlaRnBveGY0NGsyV1Nycmw2UllWNHJWV0hmblJzWXpoNFQzaG95VTdnR1dtaXdPbVNCeWo0QXgyc2NiY1NfWFQtWG9n0gFzQVVfeXFMTlJHMHFJMWNWUzFuNGNtUHgxWUpkbDEyLWhUVlh5Z2gxd3JIdlUxTkJmU3V3RFBSM05OQ3NyNHpzQl9rNVdxel9LWW5vSGwwck56LVh3TVVnaUdNd2tKZWllZXpPZXloakJScGRYVFBuS1Y2bw?oc=5",
+        "date": "Sat, 14 Nov 2026",
         "source": "News (X/Presse)",
         "companies": [
           {
@@ -3504,65 +4186,18 @@
         ],
         "policy": [],
         "is_new": true
-      },
-      {
-        "text": "Trump bluntly tells JD Vance to shift focus from Iran to targeting 'corruption and crime' at home - AP News",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3hucVhKWVM3X1M0clZMcFVrTFA0UU9ReE9RVW5LVWV2eUY1czdQcnJval9iU3ljNHVoZ0lvdV84Rm5adEFHby1EMnM1d0VfenNTOTBEM1FZczBwRVdVUG9raUF1Q2hqZnpHOFQ4SnZoMkdHZlBLUGtUME1aUmVHVFppZ0dxM2I2MEZCRGpNdzNrNm8?oc=5",
-        "date": "Fri, 13 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [
-          {
-            "name": "Target",
-            "ticker": "TGT"
-          }
-        ],
-        "policy": [],
-        "is_new": false
       }
     ],
-    "market_hits": 4
+    "market_hits": 1
   },
   "spannende_aktien": [
     {
-      "ticker": "MOD",
-      "name": "Modine Manufacturing Company",
-      "price": 139.43,
-      "currency": "USD",
-      "chg_1d": 31.41,
-      "vol_ratio": 3.0,
-      "warum": [
-        "Samsung Wants to Buy an American AI Data Center Cooling Company",
-        "Samsung in Talks to Buy Modine as Data Center Cooling Stock Surges 29%"
-      ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Samsung Wants to Buy an American AI Data Center Cooling Company",
-          "link": "https://247wallst.com/investing/2026/11/13/samsung-wants-to-buy-an-american-ai-data-center-cooling-company/?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Samsung in Talks to Buy Modine as Data Center Cooling Stock Surges 29%",
-          "link": "https://www.ibtimes.com/samsung-talks-acquire-modine-data-center-cooling-3809734?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "pos"
-        }
-      ]
-    },
-    {
       "ticker": "SPCE",
       "name": "Virgin Galactic Holdings, Inc.",
-      "price": 1.94,
+      "price": 1.84,
       "currency": "USD",
-      "chg_1d": -27.34,
-      "vol_ratio": 3.6,
+      "chg_1d": -31.09,
+      "vol_ratio": 6.5,
       "warum": [
         "Why Virgin Galactic Stock Just Crashed",
         "Virgin Galactic (SPCE) Q3 2026 Earnings Call Transcript"
@@ -3590,15 +4225,15 @@
       ]
     },
     {
-      "ticker": "CBRS",
-      "name": "Cerebras Systems Inc.",
-      "price": 108.5,
+      "ticker": "MOD",
+      "name": "Modine Manufacturing Company",
+      "price": 135.66,
       "currency": "USD",
-      "chg_1d": 11.0,
-      "vol_ratio": 2.6,
+      "chg_1d": 27.86,
+      "vol_ratio": 3.8,
       "warum": [
-        "Cerebras stock surges on Q3 results, outlook raise, hyperscaler deals",
-        "CBRG 2X Cerebras ETF Surges 16% as Cerebras Jumps 8% on Microsoft Deal and Raise"
+        "Samsung Eyeing Deal To Buy Data Center Supplier Modine; Stock Soars 35%",
+        "Modine Stock Just Soared 29% on a Report That Samsung Wants to Buy It. Is It Too"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -3609,85 +4244,142 @@
       ],
       "news": [
         {
-          "title": "Cerebras stock surges on Q3 results, outlook raise, hyperscaler deals",
-          "link": "https://finance.yahoo.com/markets/stocks/article/cerebras-stock-surges-after-ai-chipmaker-posts-q3-record-revenue-deals-with-hyperscalers-124719638.html?.tsrc=rss",
+          "title": "Samsung Eyeing Deal To Buy Data Center Supplier Modine; Stock Soars 35%",
+          "link": "https://finance.yahoo.com/m/f79eb722-fe3d-3493-8014-c031251ef048/samsung-eyeing-deal-to-buy.html?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
           "tone": "pos"
         },
         {
-          "title": "CBRG 2X Cerebras ETF Surges 16% as Cerebras Jumps 8% on Microsoft Deal and Raised Guidance",
-          "link": "https://247wallst.com/investing/2026/11/13/cbrg-2x-cerebras-etf-surges-16-as-cerebras-jumps-8-on-microsoft-deal-and-raised-guidance/?.tsrc=rss",
+          "title": "Modine Stock Just Soared 29% on a Report That Samsung Wants to Buy It. Is It Too Late to Buy?",
+          "link": "https://www.fool.com/investing/2026/11/13/modine-stock-just-soared-29-on-a-report-that-samsung-wants-to-buy-it-is-it-too-late-to-buy/?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
-          "tone": "pos"
+          "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "NU",
-      "name": "Nu Holdings Ltd.",
-      "price": 12.96,
+      "ticker": "HTZ",
+      "name": "Hertz Global Holdings, Inc.",
+      "price": 1.5,
       "currency": "USD",
-      "chg_1d": 9.55,
-      "vol_ratio": 1.3,
+      "chg_1d": -2.6,
+      "vol_ratio": 1.2,
       "warum": [
-        "Nu Holdings Stocks Jump 7.72% After Record $1.1 Billion Quarterly Profit",
-        "Nu Holdings Soars 11% on Record $1.1 Billion Profit as It Takes “First Steps Bey"
+        "What Investors Got Wrong About Hertz Global Before A 71% Slide",
+        "HTZ Q3 2026 deep dive: U.S. gains offset by cost and international pressures"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "Nu Holdings Stocks Jump 7.72% After Record $1.1 Billion Quarterly Profit",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-stocks-jump-7-180150499.html?.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "pos"
+          "title": "What Investors Got Wrong About Hertz Global Before A 71% Slide",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-got-wrong-hertz-global-150856169.html?.tsrc=rss",
+          "date": "Wed, 11 Nov 2026",
+          "tone": "neu"
         },
         {
-          "title": "Nu Holdings Soars 11% on Record $1.1 Billion Profit as It Takes “First Steps Beyond Latin America”",
-          "link": "https://www.tikr.com/blog/nu-holdings-soars-11-on-record-1-1-billion-profit-as-it-takes-first-steps-beyond-latin-america?ref=yahoofinance&tlnk=yf-261113-6mm8v6h5&.tsrc=rss",
-          "date": "Fri, 13 Nov 2026",
-          "tone": "pos"
+          "title": "HTZ Q3 2026 deep dive: U.S. gains offset by cost and international pressures",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/htz-q3-2026-deep-dive-063736272.html?.tsrc=rss",
+          "date": "Mon, 09 Nov 2026",
+          "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "price": 530.27,
+      "ticker": "UAL",
+      "name": "United Airlines Holdings, Inc.",
+      "price": 109.31,
       "currency": "USD",
-      "chg_1d": -9.4,
-      "vol_ratio": 1.1,
+      "chg_1d": -1.74,
+      "vol_ratio": 1.0,
       "warum": [
-        "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treas",
-        "AMD Stocks Fall 6.46% After 30% Weekly Surge on Nvidia Leadership Shock"
+        "FAA orders nationwide ground stop for all flights, airline stocks fall",
+        "How United Airlines' AI bot booking ban could backfire"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5%",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-midday-nov-13-nasdaq-plunges-as-nvidia-turmoil-deepens-and-treasury-yields-hit-5/?.tsrc=rss",
+          "title": "FAA orders nationwide ground stop for all flights, airline stocks fall",
+          "link": "https://finance.yahoo.com/markets/article/faa-orders-nationwide-ground-stop-for-all-flights-airline-stocks-fall-213202648.html?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
-          "tone": "neg"
+          "tone": "neu"
         },
         {
-          "title": "AMD Stocks Fall 6.46% After 30% Weekly Surge on Nvidia Leadership Shock",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-fall-6-46-172243555.html?.tsrc=rss",
+          "title": "How United Airlines' AI bot booking ban could backfire",
+          "link": "https://finance.yahoo.com/video/united-airlines-ai-bot-booking-192100903.html?.tsrc=rss",
           "date": "Fri, 13 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "AAL",
+      "name": "American Airlines Group Inc.",
+      "price": 13.17,
+      "currency": "USD",
+      "chg_1d": -1.05,
+      "vol_ratio": 0.9,
+      "warum": [
+        "FAA orders nationwide ground stop for all flights, airline stocks fall",
+        "Here’s Why Rothschild & Co Upgraded American Airlines (AAL)"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "FAA orders nationwide ground stop for all flights, airline stocks fall",
+          "link": "https://finance.yahoo.com/markets/article/faa-orders-nationwide-ground-stop-for-all-flights-airline-stocks-fall-213202648.html?.tsrc=rss",
+          "date": "Fri, 13 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Here’s Why Rothschild & Co Upgraded American Airlines (AAL)",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-rothschild-co-upgraded-american-204043834.html?.tsrc=rss",
+          "date": "Wed, 11 Nov 2026",
           "tone": "pos"
         }
       ]
     }
   ],
   "ma_deals": [
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLWROVjZ1anFNZ1hPSkNQbmV3LVJSMU8ySVRZQVpzM28zQXlITlR1QjV6MnNrTGdwOVZjSkZfZDlnVWRWa0l3YTREZ1NkVzB4ZVIzOVE0SjdqeEM3NTNaQTBsRE53RkgzNHVGV205Nm1IcV8wcUhfT1RTbl9NdmtIUi1rVWZrbGtxazIzbm1najBxajJwQ2pHUHZ0bWlYdw?oc=5",
+      "date": "Fri, 13 Nov 2026",
+      "headline": "FTC Sues to Block $3.5 Billion MWI Animal Health-Covetrus Merger - Bovine Veterinarian",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZklTZWxhcUQ1cEYwZmhPNkpZT2RVdG5FemdWMHBoQkdxVkk3NS1ValZOYzRRQUozYzZjYWNwd0tuNXlGRk1aSnNtaVRaeUd4X01BQldTcXVTZ003cW1lSlNhcDFfbXRhQXllVkZIS2c2cWQyRjJ1MzJlbGIyUWF4WDVmMjVVa0ZhQ2VpRw?oc=5",
+      "date": "Fri, 13 Nov 2026",
+      "headline": "FTC sues to block Covetrus' merger with MWI Animal Health - DVM360",
+      "source": "Google News"
+    },
     {
       "kaeufer": "",
       "ziel": "",
@@ -3711,37 +4403,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQnc3elliRnFtVkVfOWFaYnQwZ01GbUdEb21SWUQxVWpDeU01Z3ZpVkR2STdXMWgzbzhRZmpFdE9lYVV0VURuZ2cteFdjY19uRS04WTVQTVh2TTJ4SmlVM1J2YXNqOGRmRFgwSXVoSXJZVTNhTGp2ME43UTZTX2hkVHVWbGp4dFlmNlN4V01FSVVscHFGSFlRall3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd3Rrd0FPTlczQ1BpYzJ0UlJkcjByQ3lCUGVuYVlZUzJLRDl6RkxDTDRYcE5XbzhHaWczQTNCc3dOdFVXRE9sNUVQaGxqVlpZVDVNYk96dlliaUZRclhPa3RGNGJGclU3d1dHa1VnQnZ4SkREd2Rmd3gyYk9VSnNqamJ5a0lKa0xTeE1fNVZlU1ROZnB2bnNyWDM4RmZWVHNqZHJHdUtXeU8zdXpNYkQwRXBTWUVXb3AyU1BvOWVvU0dGdkJISnpFc3h6ODVzTVk3YTllbmZMR3E?oc=5",
       "date": "Fri, 13 Nov 2026",
-      "headline": "Modine Stock Gets a Potential $5.6 Billion Takeover Catalyst From Samsung - Yahoo Finance",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa0llT3Q2ODZwRm0xQ0FWWUZubkljM1VDY0RMNjdkRzd3dWlsVW1IdWNZRDRPcTUxYmRNMzBSY090enFXSGpBMmdqZVhtZXdiVV96R0k2VVpjRG14WERfUDZlODc4bjhQeUpOWVU5b2ZPNFFzSW9HbWRPNHRIRWNVLWNZR21Yd2RFUU91c01TYl8zRWpZX3FIaHppbw?oc=5",
-      "date": "Fri, 13 Nov 2026",
-      "headline": "EasyJet Holders Back 5.7 Billion Pound Apollo Takeover - TradingPedia",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOGdyS2xPc2JaZU8waEs3Nm9VU2hmbTREQ3kxRkhFbHBNdjQ2blJSODJaSTd0Vm85QnBUTFNJT0dHMWZuSEdjaUlMazhmdXhkYWdoamhwVDVCTEhiYmhNeFFBQWZUQ0lwTnZ2endrLXFpb3lEckNSWnZsMUU3R3JudGRRbjJCdjNzUHdPVm1oSDFGNC1SdE0zYlEwV1BibnhwV3JuZXZaMzVZdE5XMlhmXzU0cC1aRF9WNVVFZHRsdw?oc=5",
-      "date": "Wed, 11 Nov 2026",
-      "headline": "AkzoNobel-Axalta $25 Billion Merger Could Harm Competition, U.K. Regulator Warns - WSJ",
+      "headline": "News | H&R REIT investors reject $6.4 billion takeover offer led by New York's Go Residential REIT, Blackstone - CoStar",
       "source": "Google News"
     }
   ]
