@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T23:14:40.608900+00:00",
+  "generated_at": "2026-11-18T05:11:28.775499+00:00",
   "total_posts": 0,
   "unique_tickers": 0,
   "subreddits": [
@@ -27,7 +27,7 @@
   "recommendations": [],
   "stats": {
     "hit_rate": 48,
-    "n_evaluated": 303,
+    "n_evaluated": 307,
     "rate_kaufen": 69,
     "rate_verkaufen": null,
     "rate_beobachten": 47,
@@ -36,50 +36,6 @@
   },
   "history_evaluated": [
     {
-      "ts": "2026-11-07T01:27:09.479102+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 8,
-      "price": 656.39,
-      "chg_since": 8.54,
-      "correct": false,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-07T08:01:01.212085+00:00",
-      "ticker": "MSFT",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 10,
-      "price": 530.61,
-      "chg_since": -4.59,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-07T08:01:01.212085+00:00",
-      "ticker": "MU",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 8,
-      "price": 690.0,
-      "chg_since": 3.25,
-      "correct": true,
-      "age_days": 10
-    },
-    {
-      "ts": "2026-11-07T15:58:10.323471+00:00",
-      "ticker": "MSFT",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 10,
-      "price": 530.61,
-      "chg_since": -4.59,
-      "correct": true,
-      "age_days": 10
-    },
-    {
       "ts": "2026-11-07T15:58:10.323471+00:00",
       "ticker": "AMD",
       "rec": "beobachten",
@@ -176,7 +132,7 @@
       "price": 530.61,
       "chg_since": -4.59,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-08T03:27:43.137641+00:00",
@@ -187,7 +143,7 @@
       "price": 449.04,
       "chg_since": 12.11,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-08T03:27:43.137641+00:00",
@@ -198,7 +154,7 @@
       "price": 690.0,
       "chg_since": 3.25,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-08T10:53:51.612492+00:00",
@@ -319,7 +275,7 @@
       "price": 530.61,
       "chg_since": -4.59,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-09T01:18:33.093889+00:00",
@@ -330,7 +286,7 @@
       "price": 449.04,
       "chg_since": 12.11,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-09T01:18:33.093889+00:00",
@@ -341,7 +297,7 @@
       "price": 38.62,
       "chg_since": 2.54,
       "correct": true,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-09T08:51:59.686424+00:00",
@@ -407,7 +363,7 @@
       "price": 178.67,
       "chg_since": -12.99,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-10T03:53:27.813546+00:00",
@@ -418,7 +374,7 @@
       "price": 40.51,
       "chg_since": -2.25,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-10T11:56:42.141174+00:00",
@@ -474,11 +430,64 @@
       "chg_since": -2.13,
       "correct": true,
       "age_days": 7
+    },
+    {
+      "ts": "2026-11-11T00:19:03.287872+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 15,
+      "price": 168.89,
+      "chg_since": -7.95,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-11T00:19:03.287872+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 6,
+      "price": 515.21,
+      "chg_since": -2.29,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-11T00:19:03.287872+00:00",
+      "ticker": "MSFT",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 5,
+      "price": 533.16,
+      "chg_since": -5.05,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-11T00:19:03.287872+00:00",
+      "ticker": "GFS",
+      "rec": "beobachten",
+      "confidence": 61,
+      "engagement": 4,
+      "price": 40.62,
+      "chg_since": -2.51,
+      "correct": true,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
+      {
+        "text": "Thank you, BIG John. You are great!!! President DJT https://www. youtube.com/shorts/CTlVRPAtdXA",
+        "url": "https://www.trumpstruth.org/statuses/43615",
+        "date": "Wed, 18 Nov 2026 01:01",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": true
+      },
       {
         "text": "RT: https://truthsocial.com/users/Schoenlaw/statuses/117632129147481602 Biggest drop in gasoline in 18 years. Notice that they waited until after the “Election?” President DJT Quoted Schoenlaw https:// tradersunion.com/news/market-v oices/show/4212469-us-gasoline-prices-drop/ . Last week saw the biggest drop in retail gas prices at the pump in 18 years! The blockade is working. Where is the media?",
         "url": "https://www.trumpstruth.org/statuses/43613",
@@ -486,7 +495,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -543,72 +552,54 @@
           "🏛️ Steuern"
         ],
         "is_new": false
-      },
-      {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117628855811516036 View image View image View image Quoted Donald J. Trump View image View image View image",
-        "url": "https://www.trumpstruth.org/statuses/43606",
-        "date": "Tue, 17 Nov 2026 00:05",
-        "source": "Truth Social",
-        "companies": [],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRTBVdnBsa3dsRmN0X3c2YjR4REozem9ZUW5UcGx4WEdMTS1qYUhjbjNRU3J5UE81VjhPR0Q4cUV1UFBVSlUzSEtwTW5saFh0QTE3ZkJkZXF1V013cDFMaTNXRThwT2lBdkF0aVdxZXlIRXc4cFR4WXJjOTNMZUJZMtIBhgFBVV95cUxQMGFndkM3RUMtUkFEVDRPZmZmTHZVdXlVbl9GQ1RWY3dsMUhSVzE5SjNGcVJOLUVJb2szbmNudy1oZUVScGhoQklaUzdPV0hpTmZvYktWUFpBLXhVMnV3WG5PVkdIdTFDU1NKQ3o5al9TM1Q5VDE2Ul9GUFVEQWIwWUUzcFlTQQ?oc=5",
-        "date": "Mon, 16 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [
-          {
-            "name": "Nvidia",
-            "ticker": "NVDA"
-          }
-        ],
-        "policy": [],
-        "is_new": true
-      },
-      {
-        "text": "The critical new geopolitical truth that explains Trump’s defense of ex-Nvidia chief - CNN",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ibUtKS0FTdDNJMkdDZm9wbGNFNzFZZDRJM0VkUVBuRXF1aHg3YXNmTEYxTmJJVGJMSHdnRlpwN0FJOGpybC1rTVJxazFtZUc1Umd6REFrOU1tRFhHM0dKaG96eDNsVmM5emNCem03SVNSTllRYkZwY2xENA?oc=5",
-        "date": "Tue, 17 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [
-          {
-            "name": "Nvidia",
-            "ticker": "NVDA"
-          }
-        ],
-        "policy": [],
-        "is_new": false
-      },
-      {
-        "text": "Ro Khanna: Trump team turned a 'blind eye' to keep Nvidia stock price up - USA Today",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTE1TQk5kOXk2ZGZsY3JBeGY3VmFKNG9HTzRKbm85QjV2aVhQTWxIcU9PRy1BdFZmTmJxTEpPNjFIZERPclhmN2JfVkhqcXFtNDFncjYyeFZGaVVaUktXZ1V0bWRFRjFlU3FfOEZuNWxJVDRmNHVMN3ZDUWhpS1pNTnVhY2VPLUJEUDN0RGdpUUhNZGU1MmttVDVod1gyTjBhb0E?oc=5",
-        "date": "Tue, 17 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [
-          {
-            "name": "Nvidia",
-            "ticker": "NVDA"
-          }
-        ],
-        "policy": [],
-        "is_new": true
       }
     ],
-    "market_hits": 4
+    "market_hits": 1
   },
   "spannende_aktien": [
+    {
+      "ticker": "AZI",
+      "name": "Autozi Internet Technology (Global) Ltd.",
+      "price": 0.73,
+      "currency": "USD",
+      "chg_1d": 40.38,
+      "vol_ratio": 980.5,
+      "warum": [
+        "Autozi Internet Technology (Global) Ltd. Announces Closing of $12.75 Million Sen",
+        "Autozi in Discussions with Multiple Investors for Approximately US$55 Million Fo"
+      ],
+      "bedeutung": "Extreme Bewegung (+40.38%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Autozi Internet Technology (Global) Ltd. Announces Closing of $12.75 Million Senior Secured Convertible Notes Offering",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/autozi-internet-technology-global-ltd-024500123.html?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Autozi in Discussions with Multiple Investors for Approximately US$55 Million Follow-On Financing After Completing US$30 Million Investment ",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/autozi-discussions-multiple-investors-approximately-113000085.html?.tsrc=rss",
+          "date": "Thu, 20 Aug 2026",
+          "tone": "neu"
+        }
+      ]
+    },
     {
       "ticker": "SLS",
       "name": "SELLAS Life Sciences Group, Inc.",
       "price": 19.15,
       "currency": "USD",
       "chg_1d": 156.36,
-      "vol_ratio": 15.8,
+      "vol_ratio": 15.9,
       "warum": [
-        "Sellas Life Sciences stock falls on $150M stock offering",
-        "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 150%"
+        "SLS Joins MRNA And ANL In Biotech’s Top 3 This Year — Here’s How A Late-2025 Bet",
+        "SELLAS Stock In Focus After Phase 3 AML Trial Win"
       ],
       "bedeutung": "Extreme Bewegung (+156.36%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
@@ -619,16 +610,81 @@
       ],
       "news": [
         {
-          "title": "Sellas Life Sciences stock falls on $150M stock offering",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sellas-life-sciences-stock-falls-221740101.html?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
-          "tone": "neg"
+          "title": "SLS Joins MRNA And ANL In Biotech’s Top 3 This Year — Here’s How A Late-2025 Bet Could Grow 10x From Here",
+          "link": "https://stocktwits.com/news-articles/markets/equity/sls-mrna-anl-biotech-top-3-this-year-how-late-2025-bet-grow-10x/cNbXVXXR9hm?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "neu"
         },
         {
-          "title": "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 150%",
-          "link": "https://finance.yahoo.com/m/73265628-d900-3b2d-8301-d0fb3120e645/another-cancer-vaccine-just.html?.tsrc=rss",
+          "title": "SELLAS Stock In Focus After Phase 3 AML Trial Win",
+          "link": "https://finance.yahoo.com/healthcare/articles/sellas-stock-focus-phase-3-001833461.html?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "BILL",
+      "name": "BILL Holdings, Inc.",
+      "price": 64.88,
+      "currency": "USD",
+      "chg_1d": 12.58,
+      "vol_ratio": 6.7,
+      "warum": [
+        "BILL Holdings (BILL) Stock Still Looks Undervalued After A 78% Five Year Fall",
+        "BILL Stock Hits Fresh 21-Month High On Report Of TPG Nearing Take-Private Deal"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "BILL Holdings (BILL) Stock Still Looks Undervalued After A 78% Five Year Fall",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-stock-still-011455851.html?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "BILL Stock Hits Fresh 21-Month High On Report Of TPG Nearing Take-Private Deal",
+          "link": "https://stocktwits.com/news-articles/markets/equity/bill-stock-hits-fresh-21-month-high-on-report-of-tpg-nearing-take-private-deal/cNbOP7LR9h9?.tsrc=rss",
           "date": "Tue, 17 Nov 2026",
           "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "NKE",
+      "name": "NIKE, Inc.",
+      "price": 35.85,
+      "currency": "USD",
+      "chg_1d": -6.3,
+      "vol_ratio": 3.1,
+      "warum": [
+        "Nasdaq Futures Lead Wall Street Rebound After Nvidia’s Blowout Forecast, Anthrop",
+        "NKE Stock Heads For Worst Week Since June: Analysts Flag Risks In Nike’s $5B Gro"
+      ],
+      "bedeutung": "Handelsvolumen 3.1× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia’s Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-lead-wall-street-rebound-after-nvidia-s-blowout-forecast-anthropic-ipo-looms-sls-nke-mu-in-focus/cNbX828R9hF?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "NKE Stock Heads For Worst Week Since June: Analysts Flag Risks In Nike’s $5B Growth Plan— Retail Questions CEO Elliott Hill’s Leadership",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nke-stock-nike-investors-day-growth-plan-ceo-elliott-hill-analysts-flag-risks/cNbXZP0R9h1?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "pos"
         }
       ]
     },
@@ -641,10 +697,10 @@
       "vol_ratio": 2.0,
       "warum": [
         "Hackers target 178 major websites with crypto-stealing code",
-        "ServiceNow Has Lost About $59 Billion in Value in 14 Trading Days, Since a Repor"
+        "Salesforce (CRM) Gets Hammered as Traders Hit Sell Button"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
@@ -658,104 +714,10 @@
           "tone": "neu"
         },
         {
-          "title": "ServiceNow Has Lost About $59 Billion in Value in 14 Trading Days, Since a Report Where Revenue Beat",
-          "link": "https://247wallst.com/investing/2026/11/17/servicenow-has-lost-about-59-billion-in-value-in-14-trading-days-since-a-report-where-revenue-beat/?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
-          "tone": "pos"
-        }
-      ]
-    },
-    {
-      "ticker": "NKE",
-      "name": "NIKE, Inc.",
-      "price": 35.85,
-      "currency": "USD",
-      "chg_1d": -6.3,
-      "vol_ratio": 3.1,
-      "warum": [
-        "Nike Is Down 78% From Its High. Here's What That Does to the Yield.",
-        "Stock Market Today, Nov. 17: Nike Shares Fall 6.3% After Investor Day Turnaround"
-      ],
-      "bedeutung": "Handelsvolumen 3.1× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Nike Is Down 78% From Its High. Here's What That Does to the Yield.",
-          "link": "https://www.fool.com/investing/2026/11/17/nike-is-down-78-from-its-high-heres-what-that-does/?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
+          "title": "Salesforce (CRM) Gets Hammered as Traders Hit Sell Button",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-gets-hammered-traders-045611127.html?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Stock Market Today, Nov. 17: Nike Shares Fall 6.3% After Investor Day Turnaround Plan Draws Scrutiny",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nike-shares-fall-63-after-investor-day-turnaround-plan-draws-scrutiny/?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 359.69,
-      "currency": "USD",
-      "chg_1d": -3.68,
-      "vol_ratio": 1.7,
-      "warum": [
-        "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
-        "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manuf"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
-          "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
-          "tone": "pos"
-        },
-        {
-          "title": "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook",
-          "link": "https://finance.yahoo.com/technology/ai/articles/surging-ai-demand-advanced-chipmaking-202155834.html?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
-          "tone": "pos"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 155.46,
-      "currency": "USD",
-      "chg_1d": -0.44,
-      "vol_ratio": 1.7,
-      "warum": [
-        "Nvidia interim-CEO Colette Kress speaks on quarterly revenue hitting $116B",
-        "NVDA Stock Gains After-Hours: Board Chairman Harvey Jones Confirms Huang Will No"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 2,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Nvidia interim-CEO Colette Kress speaks on quarterly revenue hitting $116B",
-          "link": "https://finance.yahoo.com/video/nvidia-interim-ceo-colette-kress-speaks-on-quarterly-revenue-hitting-116b-224125904.html?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "NVDA Stock Gains After-Hours: Board Chairman Harvey Jones Confirms Huang Will Not Be Reinstated As Nvidia Puts Forth Expectation-Beating Out",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-board-chairman-harvey-jones-confirms-huang-will-not-be-reinstated-nvidia-outlook-beats/cNbO96fR9hW?.tsrc=rss",
-          "date": "Tue, 17 Nov 2026",
-          "tone": "pos"
         }
       ]
     }
@@ -770,9 +732,23 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNzJlbElPRUM4LVBWeW8waE53Wmk5N2VabmhjRjBIT2ZMU2laY29Ja1ZoVkJYVlB5U1BhRkY3TGhKNXlnY1FLTHVqcU1GT0V5X0FtcnlRSTlLV2pvRHlDUWk1ZEFXNk5xd1pwQjh0dUNpV2NqVURBdVVZbk90ZGVveGx6RjgtcGtORkxveEVrUXU1X1l6bktKd3AtSHNVZ0JadEttTlV0REd5Z2tfX2JmWHlNdEZGNFlmcTNMRU1uSGZ3UWYzNmtQMjJR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEcGR2N0xYMzRYR1liRFhkVjRrT0FYM29PbS1ram0welpDSEE3UFh4d0tIRV9xTlJ5dllaakd0SXpHeGNEUFYxV3ZUdjB1NEphaXBUZzFiY2YtQmw3bE01azVMbXZaUGtNTVHSAWpBVV95cUxPR2pJU3cycWVPemN1SFFNTjNTWThrdDQxc2kyTUV1N2dZdE4xYVZWVUF6bkw0ck5WOEthUE5zNTNxRGJlTExwRW4xdU0yOTJ0U0lRS3pJNFI0bFpwTmpwZjhVU0E3b3E5UzVR?oc=5",
       "date": "Tue, 17 Nov 2026",
-      "headline": "Black Hills Corp., NorthWestern Energy complete merger to create $15 billion company - Central Nebraska Today",
+      "headline": "Sutter Health merger OKed by Minnesota attorney general, with $2 billion agreement - Sacramento Bee",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb1NacUg0WXJTQmFJeFhXZGhuVlZWVTRwRkJJaGg3X0RRWWk0LXZRdExvTVZXeWZlMzBNdjJaN0Z0aDlCQUZIRHd1UkxrbFlWUXBLaEFxa1hxY2dwRmk2SUhYLVhGblRQSUl0bUZfTUs2ekpvWlpENkdRZkwzdGh3LTBSSXkxMnlwOFhhUWtYbHZfSE50b0NydTZOdHU?oc=5",
+      "date": "Wed, 18 Nov 2026",
+      "headline": "SpaceX (SPCX) Merger Talks Advance As $74 Billion AI Campus Plan Takes Shape - Yahoo Finance",
       "source": "Google News"
     },
     {
@@ -798,23 +774,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0huSDN2YmhUUWUybVlDdlVDa3F3SWR4bWcwcGdDRFBmeGczM19DUFhSRXJzWTQ1T1RkOS14eDVqLTYwQmZPQlVkSVoyNFNRUl9ZRHRDeVIxNk1KNlVWMWF2b2w4VlBTMFFpVXZVYkx2Q3RkXzZIbElBekdId3Jqc1RWR2F6Vmk1NUQ1LUt6eEJMQdIBlwFBVV95cUxQWkpMeW9HcUU1TlU1LUxGa2pNNHpHUDZ3dVh2WlhMN09JLXg2WExtRHdkMzk5V2licEQyX2FxekpfczNDa1dYSVk3MUk2Y0IzU0FHUUhxNUw5NElTU1BKM2ZGMmRBNEVzMUJweE9HU3JwNzU3MFR6QWhTRG04MnVNTkdKQ3lFZUxrbWw0QnU4UzNtSzU3Z240?oc=5",
-      "date": "Tue, 17 Nov 2026",
-      "headline": "SCC begins evidentiary hearings on proposed $67 billion Dominion-NextEra merger - WRIC ABC 8News",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWk84b2tYZEVqclJSVDhnREdjdmpRZ1pfVHotZ3BwN2pXeXNJZjRIQVZwTS1QcV82a2dzVFZpTE1ha3VSMVBhaDRZbWN4T2tNWFVHVUh2TEdOVVVSM2dTa25wWUdoNW5GOUx4WVhYak5mZGtBOW9RS3RHclAzaHUwTVhCTUdwRDU2X1RFZ1FOUDVwa0VZQWVNR0ZBQzRLamJianhyY0RqclFCWS0xQlptVUtHSmh2UQ?oc=5",
-      "date": "Tue, 17 Nov 2026",
-      "headline": "Iceye Makes All-Cash €2 Billion ($2.2B) Takeover Offer for Italian Rocket Builder Avio - SatNews Publishers",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbEJLdXVRVHNSWERscjdLSk1jby1ISTdEQUQtbm04bC1BakMzdE9GZTYyMC1ScmlScTBNVlh6TjZuRzk0MTczT0xDMlJvVGNDSzhxZjNLUHhuLWdWTWdDSGtNaE9KZWlpNzdqbDdIcGQ2UFRxOFJoN0Q5cVZHOWFfcVptQU0tcENZR0x4NkxvZEpHMDJwMElST1k0NEZTdjBIZU1XZlJvSEhVTGRFYlBqbjFXbnoyWm01MTlVVHZVMDhIS3NYMnNB?oc=5",
+      "date": "Mon, 16 Nov 2026",
+      "headline": "Black Hills Corp., NorthWestern Energy complete merger to create $15 billion company - South Dakota Searchlight",
       "source": "Google News"
     }
   ]
