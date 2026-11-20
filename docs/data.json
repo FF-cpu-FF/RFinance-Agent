@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:37:08.985483+00:00",
+  "generated_at": "2026-11-20T22:26:21.091511+00:00",
   "total_posts": 0,
   "unique_tickers": 0,
   "subreddits": [
@@ -26,37 +26,15 @@
   ],
   "recommendations": [],
   "stats": {
-    "hit_rate": 23,
-    "n_evaluated": 333,
+    "hit_rate": 13,
+    "n_evaluated": 335,
     "rate_kaufen": 64,
-    "rate_verkaufen": null,
-    "rate_beobachten": 21,
-    "kauf_perf_7d": -10.0,
-    "kauf_perf_30d": 4.0
+    "rate_verkaufen": 100,
+    "rate_beobachten": 10,
+    "kauf_perf_7d": -13.4,
+    "kauf_perf_30d": 3.1
   },
   "history_evaluated": [
-    {
-      "ts": "2026-11-09T08:51:59.686424+00:00",
-      "ticker": "GFS",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 38.62,
-      "chg_since": -2.59,
-      "correct": true,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-11-09T20:16:55.155359+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 12,
-      "price": 178.03,
-      "chg_since": -20.96,
-      "correct": false,
-      "age_days": 10
-    },
     {
       "ts": "2026-11-09T20:16:55.155359+00:00",
       "ticker": "GFS",
@@ -64,9 +42,9 @@
       "confidence": 61,
       "engagement": 4,
       "price": 40.93,
-      "chg_since": -8.09,
+      "chg_since": -13.12,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-10T03:53:27.813546+00:00",
@@ -75,7 +53,7 @@
       "confidence": 67,
       "engagement": 15,
       "price": 178.67,
-      "chg_since": -21.25,
+      "chg_since": -29.74,
       "correct": false,
       "age_days": 10
     },
@@ -86,7 +64,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 40.51,
-      "chg_since": -7.13,
+      "chg_since": -12.22,
       "correct": false,
       "age_days": 10
     },
@@ -97,7 +75,7 @@
       "confidence": 67,
       "engagement": 12,
       "price": 178.67,
-      "chg_since": -21.25,
+      "chg_since": -29.74,
       "correct": false,
       "age_days": 10
     },
@@ -108,7 +86,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 40.51,
-      "chg_since": -7.13,
+      "chg_since": -12.22,
       "correct": false,
       "age_days": 10
     },
@@ -119,9 +97,9 @@
       "confidence": 70,
       "engagement": 13,
       "price": 168.24,
-      "chg_since": -16.36,
+      "chg_since": -25.39,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-10T19:13:29.495181+00:00",
@@ -130,9 +108,9 @@
       "confidence": 61,
       "engagement": 6,
       "price": 512.75,
-      "chg_since": -10.61,
+      "chg_since": -17.23,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-10T19:13:29.495181+00:00",
@@ -141,9 +119,9 @@
       "confidence": 61,
       "engagement": 4,
       "price": 40.46,
-      "chg_since": -7.02,
+      "chg_since": -12.11,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T00:19:03.287872+00:00",
@@ -152,7 +130,7 @@
       "confidence": 70,
       "engagement": 15,
       "price": 168.89,
-      "chg_since": -16.69,
+      "chg_since": -25.67,
       "correct": false,
       "age_days": 9
     },
@@ -163,7 +141,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 515.21,
-      "chg_since": -11.03,
+      "chg_since": -17.63,
       "correct": false,
       "age_days": 9
     },
@@ -174,7 +152,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 533.16,
-      "chg_since": -7.07,
+      "chg_since": -9.12,
       "correct": false,
       "age_days": 9
     },
@@ -185,7 +163,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 40.62,
-      "chg_since": -7.39,
+      "chg_since": -12.46,
       "correct": false,
       "age_days": 9
     },
@@ -196,7 +174,7 @@
       "confidence": 70,
       "engagement": 15,
       "price": 168.89,
-      "chg_since": -16.69,
+      "chg_since": -25.67,
       "correct": false,
       "age_days": 9
     },
@@ -207,7 +185,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 515.21,
-      "chg_since": -11.03,
+      "chg_since": -17.63,
       "correct": false,
       "age_days": 9
     },
@@ -218,7 +196,7 @@
       "confidence": 64,
       "engagement": 5,
       "price": 533.16,
-      "chg_since": -7.07,
+      "chg_since": -9.12,
       "correct": false,
       "age_days": 9
     },
@@ -229,7 +207,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 40.62,
-      "chg_since": -7.39,
+      "chg_since": -12.46,
       "correct": false,
       "age_days": 9
     },
@@ -240,9 +218,9 @@
       "confidence": 70,
       "engagement": 14,
       "price": 176.74,
-      "chg_since": -20.39,
+      "chg_since": -28.97,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-11T17:34:14.201728+00:00",
@@ -251,9 +229,9 @@
       "confidence": 61,
       "engagement": 6,
       "price": 557.92,
-      "chg_since": -17.84,
+      "chg_since": -23.93,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-11T17:34:14.201728+00:00",
@@ -262,9 +240,9 @@
       "confidence": 48,
       "engagement": 5,
       "price": 520.95,
-      "chg_since": -4.89,
-      "correct": true,
-      "age_days": 8
+      "chg_since": -6.99,
+      "correct": false,
+      "age_days": 9
     },
     {
       "ts": "2026-11-11T17:34:14.201728+00:00",
@@ -273,9 +251,9 @@
       "confidence": 61,
       "engagement": 4,
       "price": 43.22,
-      "chg_since": -12.96,
+      "chg_since": -17.72,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-11T23:51:47.296695+00:00",
@@ -284,7 +262,7 @@
       "confidence": 67,
       "engagement": 12,
       "price": 173.73,
-      "chg_since": -19.01,
+      "chg_since": -27.74,
       "correct": false,
       "age_days": 8
     },
@@ -295,7 +273,7 @@
       "confidence": 61,
       "engagement": 6,
       "price": 552.9,
-      "chg_since": -17.1,
+      "chg_since": -23.24,
       "correct": false,
       "age_days": 8
     },
@@ -306,8 +284,8 @@
       "confidence": 48,
       "engagement": 5,
       "price": 521.12,
-      "chg_since": -4.93,
-      "correct": true,
+      "chg_since": -7.02,
+      "correct": false,
       "age_days": 8
     },
     {
@@ -317,7 +295,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 42.85,
-      "chg_since": -12.21,
+      "chg_since": -17.01,
       "correct": false,
       "age_days": 8
     },
@@ -328,7 +306,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 173.73,
-      "chg_since": -19.01,
+      "chg_since": -27.74,
       "correct": false,
       "age_days": 8
     },
@@ -339,8 +317,8 @@
       "confidence": 48,
       "engagement": 5,
       "price": 521.13,
-      "chg_since": -4.93,
-      "correct": true,
+      "chg_since": -7.03,
+      "correct": false,
       "age_days": 8
     },
     {
@@ -350,7 +328,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 42.85,
-      "chg_since": -12.21,
+      "chg_since": -17.01,
       "correct": false,
       "age_days": 8
     },
@@ -361,7 +339,7 @@
       "confidence": 64,
       "engagement": 7,
       "price": 173.73,
-      "chg_since": -19.01,
+      "chg_since": -27.74,
       "correct": false,
       "age_days": 8
     },
@@ -372,7 +350,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 552.9,
-      "chg_since": -17.1,
+      "chg_since": -23.24,
       "correct": false,
       "age_days": 8
     },
@@ -383,7 +361,7 @@
       "confidence": 61,
       "engagement": 4,
       "price": 42.85,
-      "chg_since": -12.21,
+      "chg_since": -17.01,
       "correct": false,
       "age_days": 8
     },
@@ -394,9 +372,9 @@
       "confidence": 61,
       "engagement": 6,
       "price": 585.3,
-      "chg_since": -21.69,
+      "chg_since": -27.49,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-12T21:58:04.461305+00:00",
@@ -405,9 +383,9 @@
       "confidence": 61,
       "engagement": 10,
       "price": 166.19,
-      "chg_since": -15.33,
+      "chg_since": -24.47,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-12T21:58:04.461305+00:00",
@@ -416,9 +394,9 @@
       "confidence": 61,
       "engagement": 4,
       "price": 42.62,
-      "chg_since": -11.73,
+      "chg_since": -16.56,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-13T02:23:30.246481+00:00",
@@ -427,7 +405,7 @@
       "confidence": 70,
       "engagement": 19,
       "price": 173.73,
-      "chg_since": -19.01,
+      "chg_since": -27.74,
       "correct": false,
       "age_days": 7
     },
@@ -438,7 +416,7 @@
       "confidence": 54,
       "engagement": 9,
       "price": 552.9,
-      "chg_since": -17.1,
+      "chg_since": -23.24,
       "correct": false,
       "age_days": 7
     },
@@ -449,8 +427,8 @@
       "confidence": 48,
       "engagement": 5,
       "price": 521.13,
-      "chg_since": -4.93,
-      "correct": true,
+      "chg_since": -7.03,
+      "correct": false,
       "age_days": 7
     },
     {
@@ -460,7 +438,7 @@
       "confidence": 64,
       "engagement": 15,
       "price": 166.19,
-      "chg_since": -15.33,
+      "chg_since": -24.47,
       "correct": false,
       "age_days": 7
     },
@@ -471,7 +449,29 @@
       "confidence": 84,
       "engagement": 9,
       "price": 585.3,
-      "chg_since": -21.69,
+      "chg_since": -27.49,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-13T18:57:01.253717+00:00",
+      "ticker": "NVDA",
+      "rec": "verkaufen",
+      "confidence": 87,
+      "engagement": 20,
+      "price": 162.81,
+      "chg_since": -22.9,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-13T18:57:01.253717+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 12,
+      "price": 530.09,
+      "chg_since": -19.94,
       "correct": false,
       "age_days": 7
     }
@@ -486,7 +486,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -550,58 +550,148 @@
         "companies": [],
         "policy": [],
         "is_new": false
+      },
+      {
+        "text": "Trump Says He Will Penalize Companies That Build Data Centers Outside the U.S. - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeV9TbzdSZG9XU0txYXlXR0l4RF9oaUpOakxpQXhRVFRDQjBCYzlUSm9lZ011c1ZTbzVOaVRXM1JSS1Q1REtQSTE1MTZ3cTB0NlpsY0VSSjB6R3FiLThtZ2Eyc3NISER4WWhuWWlYWVpzM25QNHBkbzNHOEcwLXNmNldudnZGclpUQ1ZHTHVpREZvclhzRFFHWk01alJnR2d3NzRSMnVJdUh5NXprTkZJ?oc=5",
+        "date": "Fri, 20 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax' - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JRGVqM1Z4V2NpZ3Z4QWU0YTlvMzVZNDRyRFBxbW5JUktoRzVhWW1sTTh0UE13aWw1UmFiUTFUN3BkRHNpVURLdlNqMVVLWkJNUTlGc2pIaVN1S2xPUllGeGdFTWdnOVRGajUxUTBGdGhueXMwc1NKUEYwemPSAYIBQVVfeXFMTkplV2N4Mk5zbGJBNndiWVFBS3FSNGV4WkRzYWJGNXU3THB6QTR2eGRuWTFkQkYtM3lRb0dJRDNrRDN4Ymp1QlNoNXNqZHEyTE5BczVhRXgtNS1DM2tHbUc0cUVjalNUdEs3RmJuZlRuRk5aWHMxNmFJR1VJQU5LR01sZw?oc=5",
+        "date": "Fri, 20 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Trump says he’ll penalize U.S. companies that build data centers in other countries - Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONXlDVElKbkhuMnA1WXQ5NmNsd3BZa1NWc2hSbi1FU1RHMnBZbzVmaTM3Slh4N2JyOFVCY0JXd3FTSDJzenBVbmdDWGQ2cUtPNWFVSzNfSjVPdVFBWWZ6RGxjRy1ZejBYb2ZjT2ZjSHJwQ1pydGd0ZnBEZVpBT1VHOFp3ZDhlLUVJSWZ2bHAyWDVhQnpzMWx5dWZONEZxYVZodUtHMUxjaENPblJ6Vk1RMnJ1Vlo4ZzU4b09j?oc=5",
+        "date": "Fri, 20 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Trump defends Putin relationship and says he’ll stop US companies from building data centers abroad - CNN",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1ZlV2E5d0xOS3N5d1hyTGlHTk8tMjY3R2Y0SG91d0J6VlR4Q0htNjc2Qkw0MTZJTmNqbU5zb1FpaHN6S3RTWkt1UFpYaGYyMUg2cktPS1ltLUF6NDRJRDVNaHRCemg3ZXQ2VkRfa3Vhbzg4dmM3bW5mckJxMFN4YUh5QzRNOUw1YXQyaw?oc=5",
+        "date": "Fri, 20 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": true
+      },
+      {
+        "text": "Live Updates: Trump Promotes Data Centers and Speaks on ‘Fantastic’ Relationship With Putin and Xi - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmTEh2ZFRVUmZod25NaTdtQTlYYmpKYmd6T2pqMEhKTWJSdC1BT1hOMDMzV0k5bUw2RDYxS3EyZ1BjVmtOVWZ2UTRqSGVhVFMtSDc2bWkwQXZaSWo4SVoxNTRma25wVGJnSmVhNzhlYVF1dw?oc=5",
+        "date": "Fri, 20 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": true
       }
     ],
-    "market_hits": 0
+    "market_hits": 5
   },
   "spannende_aktien": [
     {
-      "ticker": "GAP",
-      "name": "The Gap, Inc.",
-      "price": 21.13,
+      "ticker": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X Shares",
+      "price": 30.88,
       "currency": "USD",
-      "chg_1d": 12.45,
-      "vol_ratio": 0.3,
+      "chg_1d": -31.83,
+      "vol_ratio": 2.6,
       "warum": [
-        "Gap stock pops even as warm fall weather leads the retail giant to cut its forec",
-        "Gap Inc Q3 sales flat, ex-Vuori president named Athleta CEO"
+        "SOXL Crashes 32% in Its Third-Worst Day Ever and Is Down 90% From Its June Recor",
+        "2 Leveraged ETFs Draw Options Traders as Tech Stocks Rebound"
+      ],
+      "bedeutung": "Extreme Bewegung (-31.83%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "SOXL Crashes 32% in Its Third-Worst Day Ever and Is Down 90% From Its June Record. The Chip Index It Tracks Is Down 43%",
+          "link": "https://247wallst.com/investing/2026/11/20/soxl-crashes-32-in-its-third-worst-day-ever-and-is-down-90-from-its-june-record-the-chip-index-it-tracks-is-down-43/?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "2 Leveraged ETFs Draw Options Traders as Tech Stocks Rebound",
+          "link": "https://finance.yahoo.com/markets/options/articles/2-leveraged-etfs-draw-options-153922003.html?.tsrc=rss",
+          "date": "Thu, 19 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 125.53,
+      "currency": "USD",
+      "chg_1d": -14.01,
+      "vol_ratio": 2.5,
+      "warum": [
+        "Trump’s Treasury Secretary Keeps Nvidia’s H200 China Policy as House Data Show N",
+        "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounti"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Gap stock pops even as warm fall weather leads the retail giant to cut its forecast",
-          "link": "https://finance.yahoo.com/markets/stocks/article/gap-stock-pops-even-as-warm-fall-weather-leads-the-retail-giant-to-cut-its-forecast-130937620.html?.tsrc=rss",
+          "title": "Trump’s Treasury Secretary Keeps Nvidia’s H200 China Policy as House Data Show Nearly 880,000 AI Chips Approved",
+          "link": "https://www.tikr.com/blog/trumps-treasury-secretary-keeps-nvidias-h200-china-policy-as-house-data-show-nearly-880000-ai-chips-approved?ref=yahoofinance&tlnk=yf-261120-rx666q2r&.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Gap Inc Q3 sales flat, ex-Vuori president named Athleta CEO",
-          "link": "https://www.just-style.com/news/gap-inc-q3-sales-flat-ex-vuori-president-named-athleta-ceo/?.tsrc=rss",
+          "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/?.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
-          "tone": "neu"
+          "tone": "neg"
         }
       ]
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
-      "price": 87.61,
+      "price": 79.24,
       "currency": "USD",
-      "chg_1d": -7.18,
-      "vol_ratio": 0.1,
+      "chg_1d": -16.05,
+      "vol_ratio": 1.2,
       "warum": [
         "Sandisk stock begins trading at 8-for-1 split, shares sink",
-        "SanDisk Tumbles 8% as TrendForce Turns Bearish on 2027 NAND Prices; Micron Falls"
+        "Sandisk’s Data Center Portfolio Soars 1,700% as AI Demand Reshapes NAND Business"
       ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
       ],
       "news": [
         {
@@ -611,106 +701,135 @@
           "tone": "neu"
         },
         {
-          "title": "SanDisk Tumbles 8% as TrendForce Turns Bearish on 2027 NAND Prices; Micron Falls 5%, SK Hynix Slides 4%",
-          "link": "https://247wallst.com/investing/2026/11/20/sandisk-tumbles-8-as-trendforce-turns-bearish-on-2027-nand-prices-micron-falls-5-sk-hynix-slides-4/?.tsrc=rss",
+          "title": "Sandisk’s Data Center Portfolio Soars 1,700% as AI Demand Reshapes NAND Business",
+          "link": "https://www.marketbeat.com/instant-alerts/event-sandisks-data-center-portfolio-soars-1700-as-ai-demand-reshapes-nand-business-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
-          "tone": "neg"
+          "tone": "pos"
         }
       ]
     },
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "price": 457.2,
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 304.41,
       "currency": "USD",
-      "chg_1d": -6.54,
-      "vol_ratio": 0.2,
+      "chg_1d": -12.19,
+      "vol_ratio": 2.1,
       "warum": [
-        "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lowe",
-        "The U.S. Approved 879,000 Nvidia and AMD Chips for China in 6 Months"
+        "Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut",
+        "Broadcom is Overvalued at 17.73X P/E: Buy, Sell or Hold the Stock?"
       ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
-          "link": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html?.tsrc=rss",
+          "title": "Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut Its Plans for Broadcom AI Chips",
+          "link": "https://247wallst.com/investing/2026/11/20/broadcom-stock-plunges-12-and-loses-191-billion-after-a-report-that-google-cut-its-plans-for-broadcom-ai-chips/?.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
-          "tone": "neu"
+          "tone": "neg"
         },
         {
-          "title": "The U.S. Approved 879,000 Nvidia and AMD Chips for China in 6 Months",
-          "link": "https://247wallst.com/investing/2026/11/20/the-u-s-approved-879000-nvidia-and-amd-chips-for-china-in-6-months/?.tsrc=rss",
+          "title": "Broadcom is Overvalued at 17.73X P/E: Buy, Sell or Hold the Stock?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-overvalued-17-73x-p-175200037.html?.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp.",
-      "price": 130.49,
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "price": 594.51,
       "currency": "USD",
-      "chg_1d": -5.74,
-      "vol_ratio": 0.2,
+      "chg_1d": -13.89,
+      "vol_ratio": 1.9,
       "warum": [
-        "Anthropic just went public. Here's what SpaceX and Facebook IPOs tell us about w",
-        "SpaceX Lenders Reportedly Do Not Want Musk’s $40B AI Chips To Be Launched Into O"
+        "Micron Shares Crash Despite Strong AI Memory Demand: Is MU Undervalued?",
+        "Micron Is Down 32% in a Month. Can MU Stock Get Back to $1,000?"
       ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 3,
+      "bedeutung": "Extreme Bewegung (-13.89%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
       ],
       "news": [
         {
-          "title": "Anthropic just went public. Here's what SpaceX and Facebook IPOs tell us about where the stock goes next.",
-          "link": "https://finance.yahoo.com/markets/article/anthropic-just-went-public-heres-what-spacex-and-facebook-ipos-tell-us-about-where-the-stock-goes-next-135422687.html?.tsrc=rss",
+          "title": "Micron Shares Crash Despite Strong AI Memory Demand: Is MU Undervalued?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/micron-shares-crash-despite-strong-213845047.html?.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
-          "title": "SpaceX Lenders Reportedly Do Not Want Musk’s $40B AI Chips To Be Launched Into Orbit – SPCX Stock Falls Below IPO Price Pre-Market",
-          "link": "https://stocktwits.com/news-articles/markets/equity/spacex-lenders-dont-want-musk-40b-ai-chips-in-space-ft-report-spcx-stock-falls-below-ipo-price/cNbSSIeR9KU?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "neg"
-        }
-      ]
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit Inc.",
-      "price": 294.48,
-      "currency": "USD",
-      "chg_1d": -5.01,
-      "vol_ratio": 0.3,
-      "warum": [
-        "Is the post earnings selloff in Intuit stock a buy after Mailchimp sale?",
-        "Intuit Plunged 53% Year-to-Date: This Wall Street Pro Says the Tax Software Tita"
-      ],
-      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
-      ],
-      "news": [
-        {
-          "title": "Is the post earnings selloff in Intuit stock a buy after Mailchimp sale?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/post-earnings-selloff-intuit-stock-140118380.html?.tsrc=rss",
+          "title": "Micron Is Down 32% in a Month. Can MU Stock Get Back to $1,000?",
+          "link": "https://247wallst.com/investing/2026/11/20/micron-is-down-32-in-a-month-can-mu-stock-get-back-to-1000/?.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
           "tone": "neu"
-        },
-        {
-          "title": "Intuit Plunged 53% Year-to-Date: This Wall Street Pro Says the Tax Software Titan Has Teeth, Predicting 60% Gains From Here",
-          "link": "https://247wallst.com/investing/2026/11/20/intuit-plunged-53-year-to-date-this-wall-street-pro-says-the-tax-software-titan-has-teeth-predicting-60-gains-from-here/?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "neg"
         }
       ]
     }
   ],
-  "ma_deals": []
+  "ma_deals": [
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbnJnVUZHTFhFeVZDbWIycWdPOUtCUFFGYUNYYkpUd2FpOFNjWnF3dVJkRHFyVjlJQjBGWGpxcWVBQzhNU2hYVTM5b3JocHV3bmZSamNOUjlFYTNGRldjZzFTSVgwMXlHTFlFVmlQM0VvbWVUaEhBaGRYSlJuZVFKVk1Nblh4b1Q4WFEtMjMybnUzR0p6aDRWQmp1N29xUV9u0gGmAUFVX3lxTE9Db1ViZjR1MmFwZ0RIbERzMDM2MXBvdUFwemRnTjFhUEUwTjBEa3BRYkh1T3ZRU3NrdnVub2Q3Q3FQRzNuWFN4OHVNdFZ4RFNSUl81WjE5VUNwSkhxcEZaSzVlM202ZVNJT1g3UEhac0F2T3QtbkY4ZFlSdzBPNll3dXhKWVRJNkVtdXotQkpuaWRNdTJLa19ROGdueThTQUt6SHlvRGc?oc=5",
+      "date": "Fri, 20 Nov 2026",
+      "headline": "DOJ closes investigation into $66.8 billion NextEra-Dominion merger - upi",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV19wcmdYZXJrLXhCTERJcU52VE8zdEFwU2ZMb1Zlc1RWR05LaTk4LVN3RTBGV0w4bE5jUTdGTlczcEdBRk1ndExHQXBqRE52SUFmdmxqUUhDTUpzX2pnZ2t0WExpUERjOEZ3QlUzYjByallVVHF1TkhCMUNGdGsxYlZmdzhpRkFWOHlMMjh4MVFudkRpS3JXMzZJNWNnakUyYUoybkxxeWdtNWhqbGt0Qg?oc=5",
+      "date": "Fri, 20 Nov 2026",
+      "headline": "Arkansas joins lawsuit to block $3.5 billion veterinary supply merger - KARK",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3RQSllqVmJZWmJDT1FsYzFoM0tsWmx3YUF2eGlLSXZDWmYzdXRuYXV2VmhWLXpsS01fTVVub25oVS1FMmJVTEhzSzd2XzZKMmkxU2o5dk9aVVN4WE9mdDNGbmhyc1pQYVljUHdudXJuckxKQ3ZpNThadERoSkoyMG5iaGRTblFBeUcxcVo3S1IzNE9vU0Z2Ukk0a1dIaGVpd1ZFcy1sSl9qa2NZRmhxeXR0RmN0ZDBmSjFqeXpOdmtWM2JjbG90MkVR?oc=5",
+      "date": "Fri, 20 Nov 2026",
+      "headline": "GTCR explores takeover of Global Payments, source says - Reuters",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjJhbHdCdmJWWFlHZS1UTGtEN1hPVWRzTGNVaUdrV0xJdDhCMzBST3FVMk5vWGktTXNtZm43WDdSY1lJdkVnV2d6LXpuWGJyYkZma0xPbGhfWWp0blF4cTk5cUpzdnpFbHVjZTcwVGV2Vm9tQ0dkcW11NTZVNFZDaUExUkpvc2VPQkEyb0lDWmFEOEFFV0Z3eWNPNU1xRVk?oc=5",
+      "date": "Fri, 20 Nov 2026",
+      "headline": "Arkansas Joins Federal Lawsuit to Block $3.5 Billion Veterinary Supply Merger - KVOM 101.7",
+      "source": "Google News"
+    }
+  ]
 }
