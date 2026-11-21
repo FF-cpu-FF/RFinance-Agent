@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:26:21.091511+00:00",
+  "generated_at": "2026-11-21T04:50:48.150188+00:00",
   "total_posts": 0,
   "unique_tickers": 0,
   "subreddits": [
@@ -27,7 +27,7 @@
   "recommendations": [],
   "stats": {
     "hit_rate": 13,
-    "n_evaluated": 335,
+    "n_evaluated": 337,
     "rate_kaufen": 64,
     "rate_verkaufen": 100,
     "rate_beobachten": 10,
@@ -35,28 +35,6 @@
     "kauf_perf_30d": 3.1
   },
   "history_evaluated": [
-    {
-      "ts": "2026-11-09T20:16:55.155359+00:00",
-      "ticker": "GFS",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 40.93,
-      "chg_since": -13.12,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-11-10T03:53:27.813546+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 67,
-      "engagement": 15,
-      "price": 178.67,
-      "chg_since": -29.74,
-      "correct": false,
-      "age_days": 10
-    },
     {
       "ts": "2026-11-10T03:53:27.813546+00:00",
       "ticker": "GFS",
@@ -66,7 +44,7 @@
       "price": 40.51,
       "chg_since": -12.22,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-10T11:56:42.141174+00:00",
@@ -132,7 +110,7 @@
       "price": 168.89,
       "chg_since": -25.67,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T00:19:03.287872+00:00",
@@ -143,7 +121,7 @@
       "price": 515.21,
       "chg_since": -17.63,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T00:19:03.287872+00:00",
@@ -154,7 +132,7 @@
       "price": 533.16,
       "chg_since": -9.12,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T00:19:03.287872+00:00",
@@ -165,7 +143,7 @@
       "price": 40.62,
       "chg_since": -12.46,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T08:38:54.215743+00:00",
@@ -264,7 +242,7 @@
       "price": 173.73,
       "chg_since": -27.74,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-11T23:51:47.296695+00:00",
@@ -275,7 +253,7 @@
       "price": 552.9,
       "chg_since": -23.24,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-11T23:51:47.296695+00:00",
@@ -286,7 +264,7 @@
       "price": 521.12,
       "chg_since": -7.02,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-11T23:51:47.296695+00:00",
@@ -297,7 +275,7 @@
       "price": 42.85,
       "chg_since": -17.01,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-12T04:56:51.531406+00:00",
@@ -407,7 +385,7 @@
       "price": 173.73,
       "chg_since": -27.74,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-13T02:23:30.246481+00:00",
@@ -418,7 +396,7 @@
       "price": 552.9,
       "chg_since": -23.24,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-13T02:23:30.246481+00:00",
@@ -429,7 +407,7 @@
       "price": 521.13,
       "chg_since": -7.03,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-13T11:43:30.273643+00:00",
@@ -472,6 +450,28 @@
       "engagement": 12,
       "price": 530.09,
       "chg_since": -19.94,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-14T00:33:01.829490+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 11,
+      "price": 162.85,
+      "chg_since": -22.92,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-14T00:33:01.829490+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 7,
+      "price": 534.06,
+      "chg_since": -20.54,
       "correct": false,
       "age_days": 7
     }
@@ -552,77 +552,36 @@
         "is_new": false
       },
       {
-        "text": "Trump Says He Will Penalize Companies That Build Data Centers Outside the U.S. - WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeV9TbzdSZG9XU0txYXlXR0l4RF9oaUpOakxpQXhRVFRDQjBCYzlUSm9lZ011c1ZTbzVOaVRXM1JSS1Q1REtQSTE1MTZ3cTB0NlpsY0VSSjB6R3FiLThtZ2Eyc3NISER4WWhuWWlYWVpzM25QNHBkbzNHOEcwLXNmNldudnZGclpUQ1ZHTHVpREZvclhzRFFHWk01alJnR2d3NzRSMnVJdUh5NXprTkZJ?oc=5",
+        "text": "On the Carpet of Melania Trump’s Amazon Premiere in New York - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWDkyUnZ0ei1WVWxRRkxKNlpSMVZqVzVRWE1QV2MxdlVqSjVhTGpmYk1XWV9Ub0dUZTl1VU5tZnRvT3JfU1Rma1pwNUtjY2xJQWFPUTJhVTQ1OXdYd053UzBlWjVhT19XX2owdy1ZRGVPcDBIU0tZUmRHNGVLMDV3amVFaW1LZw?oc=5",
         "date": "Fri, 20 Nov 2026",
         "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Rechenzentren"
+        "companies": [
+          {
+            "name": "Amazon",
+            "ticker": "AMZN"
+          }
         ],
-        "is_new": true
-      },
-      {
-        "text": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax' - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JRGVqM1Z4V2NpZ3Z4QWU0YTlvMzVZNDRyRFBxbW5JUktoRzVhWW1sTTh0UE13aWw1UmFiUTFUN3BkRHNpVURLdlNqMVVLWkJNUTlGc2pIaVN1S2xPUllGeGdFTWdnOVRGajUxUTBGdGhueXMwc1NKUEYwemPSAYIBQVVfeXFMTkplV2N4Mk5zbGJBNndiWVFBS3FSNGV4WkRzYWJGNXU3THB6QTR2eGRuWTFkQkYtM3lRb0dJRDNrRDN4Ymp1QlNoNXNqZHEyTE5BczVhRXgtNS1DM2tHbUc0cUVjalNUdEs3RmJuZlRuRk5aWHMxNmFJR1VJQU5LR01sZw?oc=5",
-        "date": "Fri, 20 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Rechenzentren"
-        ],
-        "is_new": true
-      },
-      {
-        "text": "Trump says he’ll penalize U.S. companies that build data centers in other countries - Los Angeles Times",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONXlDVElKbkhuMnA1WXQ5NmNsd3BZa1NWc2hSbi1FU1RHMnBZbzVmaTM3Slh4N2JyOFVCY0JXd3FTSDJzenBVbmdDWGQ2cUtPNWFVSzNfSjVPdVFBWWZ6RGxjRy1ZejBYb2ZjT2ZjSHJwQ1pydGd0ZnBEZVpBT1VHOFp3ZDhlLUVJSWZ2bHAyWDVhQnpzMWx5dWZONEZxYVZodUtHMUxjaENPblJ6Vk1RMnJ1Vlo4ZzU4b09j?oc=5",
-        "date": "Fri, 20 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Rechenzentren"
-        ],
-        "is_new": true
-      },
-      {
-        "text": "Trump defends Putin relationship and says he’ll stop US companies from building data centers abroad - CNN",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1ZlV2E5d0xOS3N5d1hyTGlHTk8tMjY3R2Y0SG91d0J6VlR4Q0htNjc2Qkw0MTZJTmNqbU5zb1FpaHN6S3RTWkt1UFpYaGYyMUg2cktPS1ltLUF6NDRJRDVNaHRCemg3ZXQ2VkRfa3Vhbzg4dmM3bW5mckJxMFN4YUh5QzRNOUw1YXQyaw?oc=5",
-        "date": "Fri, 20 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Rechenzentren"
-        ],
-        "is_new": true
-      },
-      {
-        "text": "Live Updates: Trump Promotes Data Centers and Speaks on ‘Fantastic’ Relationship With Putin and Xi - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmTEh2ZFRVUmZod25NaTdtQTlYYmpKYmd6T2pqMEhKTWJSdC1BT1hOMDMzV0k5bUw2RDYxS3EyZ1BjVmtOVWZ2UTRqSGVhVFMtSDc2bWkwQXZaSWo4SVoxNTRma25wVGJnSmVhNzhlYVF1dw?oc=5",
-        "date": "Fri, 20 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Rechenzentren"
-        ],
+        "policy": [],
         "is_new": true
       }
     ],
-    "market_hits": 5
+    "market_hits": 1
   },
   "spannende_aktien": [
     {
-      "ticker": "SOXL",
-      "name": "Direxion Daily Semiconductor Bull 3X Shares",
-      "price": 30.88,
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 304.41,
       "currency": "USD",
-      "chg_1d": -31.83,
-      "vol_ratio": 2.6,
+      "chg_1d": -12.19,
+      "vol_ratio": 2.2,
       "warum": [
-        "SOXL Crashes 32% in Its Third-Worst Day Ever and Is Down 90% From Its June Recor",
-        "2 Leveraged ETFs Draw Options Traders as Tech Stocks Rebound"
+        "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
+        "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds"
       ],
-      "bedeutung": "Extreme Bewegung (-31.83%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
         "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
@@ -630,15 +589,48 @@
       ],
       "news": [
         {
-          "title": "SOXL Crashes 32% in Its Third-Worst Day Ever and Is Down 90% From Its June Record. The Chip Index It Tracks Is Down 43%",
-          "link": "https://247wallst.com/investing/2026/11/20/soxl-crashes-32-in-its-third-worst-day-ever-and-is-down-90-from-its-june-record-the-chip-index-it-tracks-is-down-43/?.tsrc=rss",
+          "title": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
+          "link": "https://247wallst.com/investing/2026/11/20/data-center-ai-chips-could-change-the-winners-broadcom-and-marvell/?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-stocks-plunge-as-ai-trade-unwinds/?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
+          "tone": "neg"
+        }
+      ]
+    },
+    {
+      "ticker": "GPN",
+      "name": "Global Payments Inc.",
+      "price": 91.83,
+      "currency": "USD",
+      "chg_1d": 9.95,
+      "vol_ratio": 2.5,
+      "warum": [
+        "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover ",
+        "Global Payments shares jump on report of $50B GTCR deal"
+      ],
+      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
+          "link": "https://www.tikr.com/blog/global-payments-soars-10-as-gtcr-revives-buyout-talk-with-50-billion-takeover-bid?ref=yahoofinance&tlnk=yf-261120-frxg9pv4&.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
           "tone": "pos"
         },
         {
-          "title": "2 Leveraged ETFs Draw Options Traders as Tech Stocks Rebound",
-          "link": "https://finance.yahoo.com/markets/options/articles/2-leveraged-etfs-draw-options-153922003.html?.tsrc=rss",
-          "date": "Thu, 19 Nov 2026",
+          "title": "Global Payments shares jump on report of $50B GTCR deal",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/global-payments-shares-jump-report-193314706.html?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
           "tone": "neu"
         }
       ]
@@ -651,144 +643,96 @@
       "chg_1d": -14.01,
       "vol_ratio": 2.5,
       "warum": [
-        "Trump’s Treasury Secretary Keeps Nvidia’s H200 China Policy as House Data Show N",
-        "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounti"
+        "Is CoreWeave (CRWV) Fairly Valued After Fresh MLPerf Results?",
+        "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Down"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Trump’s Treasury Secretary Keeps Nvidia’s H200 China Policy as House Data Show Nearly 880,000 AI Chips Approved",
-          "link": "https://www.tikr.com/blog/trumps-treasury-secretary-keeps-nvidias-h200-china-policy-as-house-data-show-nearly-880000-ai-chips-approved?ref=yahoofinance&tlnk=yf-261120-rx666q2r&.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "neg"
-        }
-      ]
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "price": 79.24,
-      "currency": "USD",
-      "chg_1d": -16.05,
-      "vol_ratio": 1.2,
-      "warum": [
-        "Sandisk stock begins trading at 8-for-1 split, shares sink",
-        "Sandisk’s Data Center Portfolio Soars 1,700% as AI Demand Reshapes NAND Business"
-      ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
-      ],
-      "news": [
-        {
-          "title": "Sandisk stock begins trading at 8-for-1 split, shares sink",
-          "link": "https://finance.yahoo.com/markets/article/sandisk-shares-begin-trading-at-8-for-1-split-stock-sinks-as-chip-sector-sells-off-142041917.html?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Sandisk’s Data Center Portfolio Soars 1,700% as AI Demand Reshapes NAND Business",
-          "link": "https://www.marketbeat.com/instant-alerts/event-sandisks-data-center-portfolio-soars-1700-as-ai-demand-reshapes-nand-business-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "pos"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc.",
-      "price": 304.41,
-      "currency": "USD",
-      "chg_1d": -12.19,
-      "vol_ratio": 2.1,
-      "warum": [
-        "Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut",
-        "Broadcom is Overvalued at 17.73X P/E: Buy, Sell or Hold the Stock?"
-      ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut Its Plans for Broadcom AI Chips",
-          "link": "https://247wallst.com/investing/2026/11/20/broadcom-stock-plunges-12-and-loses-191-billion-after-a-report-that-google-cut-its-plans-for-broadcom-ai-chips/?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "neg"
-        },
-        {
-          "title": "Broadcom is Overvalued at 17.73X P/E: Buy, Sell or Hold the Stock?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-overvalued-17-73x-p-175200037.html?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology, Inc.",
-      "price": 594.51,
-      "currency": "USD",
-      "chg_1d": -13.89,
-      "vol_ratio": 1.9,
-      "warum": [
-        "Micron Shares Crash Despite Strong AI Memory Demand: Is MU Undervalued?",
-        "Micron Is Down 32% in a Month. Can MU Stock Get Back to $1,000?"
-      ],
-      "bedeutung": "Extreme Bewegung (-13.89%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "bedeutung": "Extreme Bewegung (-14.01%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
       "sterne": 1,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "Micron Shares Crash Despite Strong AI Memory Demand: Is MU Undervalued?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/micron-shares-crash-despite-strong-213845047.html?.tsrc=rss",
+          "title": "Is CoreWeave (CRWV) Fairly Valued After Fresh MLPerf Results?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-fairly-valued-fresh-031612848.html?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+          "link": "https://finance.yahoo.com/m/f93688e0-5c36-372b-855e-b722a7cce11d/jensen-huang-passed-billions.html?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "price": 635.54,
+      "currency": "USD",
+      "chg_1d": -3.41,
+      "vol_ratio": 4.1,
+      "warum": [
+        "Is Your VOO 60/40 Carrying Too Much Stock Risk?",
+        "Where Will VOO Be in 30 Years? Here's What History Says."
+      ],
+      "bedeutung": "Handelsvolumen 4.1× über Normal – institutionelle Aktivität möglich, Ursache prüfen.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Is Your VOO 60/40 Carrying Too Much Stock Risk?",
+          "link": "https://www.trefis.com/stock/voo/articles/627204/is-your-voo-60-40-carrying-too-much-stock-risk/2026-11-20?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Where Will VOO Be in 30 Years? Here's What History Says.",
+          "link": "https://www.fool.com/investing/2026/11/20/where-will-voo-be-30-years-what-history-says/?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 229.44,
+      "currency": "USD",
+      "chg_1d": -5.76,
+      "vol_ratio": 1.4,
+      "warum": [
+        "Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout",
+        "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout",
+          "link": "https://finance.yahoo.com/video/zscaler-stock-soars-on-reports-that-crowdstrike-is-eyeing-a-possible-buyout-224517482.html?.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
           "tone": "pos"
         },
         {
-          "title": "Micron Is Down 32% in a Month. Can MU Stock Get Back to $1,000?",
-          "link": "https://247wallst.com/investing/2026/11/20/micron-is-down-32-in-a-month-can-mu-stock-get-back-to-1000/?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
+          "title": "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler",
+          "link": "https://www.fool.com/investing/2026/11/20/crowd-pleaser-crowdstrike-wants-to-buy-zscaler/?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
           "tone": "neu"
         }
       ]
     }
   ],
   "ma_deals": [
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbnJnVUZHTFhFeVZDbWIycWdPOUtCUFFGYUNYYkpUd2FpOFNjWnF3dVJkRHFyVjlJQjBGWGpxcWVBQzhNU2hYVTM5b3JocHV3bmZSamNOUjlFYTNGRldjZzFTSVgwMXlHTFlFVmlQM0VvbWVUaEhBaGRYSlJuZVFKVk1Nblh4b1Q4WFEtMjMybnUzR0p6aDRWQmp1N29xUV9u0gGmAUFVX3lxTE9Db1ViZjR1MmFwZ0RIbERzMDM2MXBvdUFwemRnTjFhUEUwTjBEa3BRYkh1T3ZRU3NrdnVub2Q3Q3FQRzNuWFN4OHVNdFZ4RFNSUl81WjE5VUNwSkhxcEZaSzVlM202ZVNJT1g3UEhac0F2T3QtbkY4ZFlSdzBPNll3dXhKWVRJNkVtdXotQkpuaWRNdTJLa19ROGdueThTQUt6SHlvRGc?oc=5",
-      "date": "Fri, 20 Nov 2026",
-      "headline": "DOJ closes investigation into $66.8 billion NextEra-Dominion merger - upi",
-      "source": "Google News"
-    },
     {
       "kaeufer": "",
       "ziel": "",
@@ -814,7 +758,21 @@
       "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3RQSllqVmJZWmJDT1FsYzFoM0tsWmx3YUF2eGlLSXZDWmYzdXRuYXV2VmhWLXpsS01fTVVub25oVS1FMmJVTEhzSzd2XzZKMmkxU2o5dk9aVVN4WE9mdDNGbmhyc1pQYVljUHdudXJuckxKQ3ZpNThadERoSkoyMG5iaGRTblFBeUcxcVo3S1IzNE9vU0Z2Ukk0a1dIaGVpd1ZFcy1sSl9qa2NZRmhxeXR0RmN0ZDBmSjFqeXpOdmtWM2JjbG90MkVR?oc=5",
       "date": "Fri, 20 Nov 2026",
-      "headline": "GTCR explores takeover of Global Payments, source says - Reuters",
+      "headline": "GTCR explores potential takeover of payments firm Global Payments - Reuters",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbnJnVUZHTFhFeVZDbWIycWdPOUtCUFFGYUNYYkpUd2FpOFNjWnF3dVJkRHFyVjlJQjBGWGpxcWVBQzhNU2hYVTM5b3JocHV3bmZSamNOUjlFYTNGRldjZzFTSVgwMXlHTFlFVmlQM0VvbWVUaEhBaGRYSlJuZVFKVk1Nblh4b1Q4WFEtMjMybnUzR0p6aDRWQmp1N29xUV9u0gGmAUFVX3lxTE9Db1ViZjR1MmFwZ0RIbERzMDM2MXBvdUFwemRnTjFhUEUwTjBEa3BRYkh1T3ZRU3NrdnVub2Q3Q3FQRzNuWFN4OHVNdFZ4RFNSUl81WjE5VUNwSkhxcEZaSzVlM202ZVNJT1g3UEhac0F2T3QtbkY4ZFlSdzBPNll3dXhKWVRJNkVtdXotQkpuaWRNdTJLa19ROGdueThTQUt6SHlvRGc?oc=5",
+      "date": "Fri, 20 Nov 2026",
+      "headline": "DOJ closes investigation into $66.8 billion NextEra-Dominion merger - upi",
       "source": "Google News"
     },
     {
