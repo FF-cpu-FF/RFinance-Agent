@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:54:24.559055+00:00",
+  "generated_at": "2026-11-21T20:18:19.818639+00:00",
   "total_posts": 0,
   "unique_tickers": 0,
   "subreddits": [
@@ -27,7 +27,7 @@
   "recommendations": [],
   "stats": {
     "hit_rate": 13,
-    "n_evaluated": 339,
+    "n_evaluated": 341,
     "rate_kaufen": 64,
     "rate_verkaufen": 100,
     "rate_beobachten": 10,
@@ -35,28 +35,6 @@
     "kauf_perf_30d": 3.1
   },
   "history_evaluated": [
-    {
-      "ts": "2026-11-10T11:56:42.141174+00:00",
-      "ticker": "GFS",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 40.51,
-      "chg_since": -12.22,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-11-10T19:13:29.495181+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 70,
-      "engagement": 13,
-      "price": 168.24,
-      "chg_since": -25.39,
-      "correct": false,
-      "age_days": 10
-    },
     {
       "ts": "2026-11-10T19:13:29.495181+00:00",
       "ticker": "AMD",
@@ -66,7 +44,7 @@
       "price": 512.75,
       "chg_since": -17.23,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-10T19:13:29.495181+00:00",
@@ -77,7 +55,7 @@
       "price": 40.46,
       "chg_since": -12.11,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-11T00:19:03.287872+00:00",
@@ -176,7 +154,7 @@
       "price": 176.74,
       "chg_since": -28.97,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T17:34:14.201728+00:00",
@@ -187,7 +165,7 @@
       "price": 557.92,
       "chg_since": -23.93,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T17:34:14.201728+00:00",
@@ -198,7 +176,7 @@
       "price": 520.95,
       "chg_since": -6.99,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T17:34:14.201728+00:00",
@@ -209,7 +187,7 @@
       "price": 43.22,
       "chg_since": -17.72,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-11T23:51:47.296695+00:00",
@@ -297,7 +275,7 @@
       "price": 173.73,
       "chg_since": -27.74,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-12T14:16:45.562176+00:00",
@@ -308,7 +286,7 @@
       "price": 552.9,
       "chg_since": -23.24,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-12T14:16:45.562176+00:00",
@@ -319,7 +297,7 @@
       "price": 42.85,
       "chg_since": -17.01,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-12T21:58:04.461305+00:00",
@@ -418,7 +396,7 @@
       "price": 162.81,
       "chg_since": -22.9,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-13T18:57:01.253717+00:00",
@@ -429,7 +407,7 @@
       "price": 530.09,
       "chg_since": -19.94,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-14T00:33:01.829490+00:00",
@@ -466,6 +444,28 @@
     },
     {
       "ts": "2026-11-14T08:18:52.387687+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 7,
+      "price": 534.06,
+      "chg_since": -20.54,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-14T16:14:52.819040+00:00",
+      "ticker": "NVDA",
+      "rec": "beobachten",
+      "confidence": 70,
+      "engagement": 9,
+      "price": 162.85,
+      "chg_since": -22.92,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-14T16:14:52.819040+00:00",
       "ticker": "AMD",
       "rec": "beobachten",
       "confidence": 64,
@@ -550,40 +550,80 @@
         "companies": [],
         "policy": [],
         "is_new": false
+      },
+      {
+        "text": "Trump defends Putin relationship and says he’ll stop US companies from building data centers abroad - CNN",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1ZlV2E5d0xOS3N5d1hyTGlHTk8tMjY3R2Y0SG91d0J6VlR4Q0htNjc2Qkw0MTZJTmNqbU5zb1FpaHN6S3RTWkt1UFpYaGYyMUg2cktPS1ltLUF6NDRJRDVNaHRCemg3ZXQ2VkRfa3Vhbzg4dmM3bW5mckJxMFN4YUh5QzRNOUw1YXQyaw?oc=5",
+        "date": "Fri, 20 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": false
       }
     ],
-    "market_hits": 0
+    "market_hits": 1
   },
   "spannende_aktien": [
     {
-      "ticker": "GPN",
-      "name": "Global Payments Inc.",
-      "price": 91.83,
+      "ticker": "ON",
+      "name": "ON Semiconductor Corporation",
+      "price": 60.84,
       "currency": "USD",
-      "chg_1d": 9.95,
-      "vol_ratio": 2.5,
+      "chg_1d": -7.43,
+      "vol_ratio": 1.4,
       "warum": [
-        "Global Payments (GPN) Gets a Potential Lifeline as New Takeover Buzz Heats Up",
-        "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover "
+        "Why Seagate Stock And AI Data Center Demand Are Back On Investors Radar",
+        "Synaptics Stockholders Approve Merger with onsemi"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 3,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "Global Payments (GPN) Gets a Potential Lifeline as New Takeover Buzz Heats Up",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-gets-potential-065105957.html?.tsrc=rss",
-          "date": "Sat, 21 Nov 2026",
+          "title": "Why Seagate Stock And AI Data Center Demand Are Back On Investors Radar",
+          "link": "https://finance.yahoo.com/technology/ai/articles/why-seagate-stock-ai-data-221127563.html?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
-          "link": "https://www.tikr.com/blog/global-payments-soars-10-as-gtcr-revives-buyout-talk-with-50-billion-takeover-bid?ref=yahoofinance&tlnk=yf-261120-frxg9pv4&.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
+          "title": "Synaptics Stockholders Approve Merger with onsemi",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/synaptics-stockholders-approve-merger-onsemi-145300553.html?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "price": 343.32,
+      "currency": "USD",
+      "chg_1d": -5.09,
+      "vol_ratio": 1.7,
+      "warum": [
+        "BMO Raises Its Palo Alto Networks Target to $425. Is It Still Too Low?",
+        "Palo Alto Networks (PANW) Stock Gets Fair Value Bump After Q1 Beat And Applied C"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "BMO Raises Its Palo Alto Networks Target to $425. Is It Still Too Low?",
+          "link": "https://www.tikr.com/blog/bmo-raises-its-palo-alto-networks-target-to-425-is-it-still-too-low?ref=yahoofinance&tlnk=yf-261121-6rjxgcqx&.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Palo Alto Networks (PANW) Stock Gets Fair Value Bump After Q1 Beat And Applied Compute",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-051145964.html?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
           "tone": "pos"
         }
       ]
@@ -596,8 +636,8 @@
       "chg_1d": -5.76,
       "vol_ratio": 1.4,
       "warum": [
-        "Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout",
-        "Zscaler (ZS) Draws Takeover Interest In Reported Acquisition Talks"
+        "Zscaler (ZS) Draws Takeover Interest In Reported Acquisition Talks",
+        "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 3,
@@ -606,14 +646,14 @@
       ],
       "news": [
         {
-          "title": "Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout",
-          "link": "https://finance.yahoo.com/video/zscaler-stock-soars-on-reports-that-crowdstrike-is-eyeing-a-possible-buyout-224517482.html?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "pos"
-        },
-        {
           "title": "Zscaler (ZS) Draws Takeover Interest In Reported Acquisition Talks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/zscaler-zs-draws-takeover-interest-071557894.html?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler",
+          "link": "https://www.fool.com/investing/2026/11/20/crowd-pleaser-crowdstrike-wants-to-buy-zscaler/?.tsrc=rss",
           "date": "Sat, 21 Nov 2026",
           "tone": "neu"
         }
@@ -627,8 +667,8 @@
       "chg_1d": -5.29,
       "vol_ratio": 1.5,
       "warum": [
-        "Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout",
-        "Zscaler (ZS) Draws Takeover Interest In Reported Acquisition Talks"
+        "Zscaler (ZS) Draws Takeover Interest In Reported Acquisition Talks",
+        "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 3,
@@ -637,80 +677,47 @@
       ],
       "news": [
         {
-          "title": "Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout",
-          "link": "https://finance.yahoo.com/video/zscaler-stock-soars-on-reports-that-crowdstrike-is-eyeing-a-possible-buyout-224517482.html?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
-          "tone": "pos"
-        },
-        {
           "title": "Zscaler (ZS) Draws Takeover Interest In Reported Acquisition Talks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/zscaler-zs-draws-takeover-interest-071557894.html?.tsrc=rss",
           "date": "Sat, 21 Nov 2026",
           "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "MPT",
-      "name": "Medical Properties Trust, Inc.",
-      "price": 1.75,
-      "currency": "USD",
-      "chg_1d": 6.71,
-      "vol_ratio": 2.3,
-      "warum": [
-        "Why Medical Properties (MPT) Is Shining Bright Amid Market Chaos",
-        "Medical Properties Trust Yields 22%, but Its Stock Has Crashed 65%"
-      ],
-      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Why Medical Properties (MPT) Is Shining Bright Amid Market Chaos",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-medical-properties-mpt-shining-065423260.html?.tsrc=rss",
-          "date": "Sat, 21 Nov 2026",
-          "tone": "neu"
         },
         {
-          "title": "Medical Properties Trust Yields 22%, but Its Stock Has Crashed 65%",
-          "link": "https://247wallst.com/investing/2026/11/20/medical-properties-trust-yields-22-but-its-stock-has-crashed-65/?.tsrc=rss",
-          "date": "Fri, 20 Nov 2026",
+          "title": "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler",
+          "link": "https://www.fool.com/investing/2026/11/20/crowd-pleaser-crowdstrike-wants-to-buy-zscaler/?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
           "tone": "neu"
         }
       ]
     },
     {
-      "ticker": "CAPR",
-      "name": "Capricor Therapeutics, Inc.",
-      "price": 7.59,
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "price": 90.64,
       "currency": "USD",
-      "chg_1d": 0.8,
-      "vol_ratio": 2.3,
+      "chg_1d": -4.29,
+      "vol_ratio": 1.5,
       "warum": [
-        "Capricor Therapeutics Provides Regulatory Update on Deramiocel BLA for Duchenne ",
-        "CAPR Stock Gains Ahead Of Weekend FDA Deramiocel Decision After Rough Week"
+        "Cisco vs. HPE: One Has Better Financials, the Other Has 93% Upside. Which Stock ",
+        "How Investors May Respond To Cisco Stock After Earnings Beat"
       ],
       "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
       "sterne": 2,
       "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
       ],
       "news": [
         {
-          "title": "Capricor Therapeutics Provides Regulatory Update on Deramiocel BLA for Duchenne Muscular Dystrophy",
-          "link": "https://finance.yahoo.com/healthcare/articles/capricor-therapeutics-provides-regulatory-deramiocel-005500507.html?.tsrc=rss",
+          "title": "Cisco vs. HPE: One Has Better Financials, the Other Has 93% Upside. Which Stock Wins?",
+          "link": "https://www.barchart.com/story/news/8944748/cisco-vs-hpe-one-has-better-financials-the-other-has-93-upside-which-stock-wins?.tsrc=rss",
           "date": "Sat, 21 Nov 2026",
-          "tone": "neu"
+          "tone": "pos"
         },
         {
-          "title": "CAPR Stock Gains Ahead Of Weekend FDA Deramiocel Decision After Rough Week",
-          "link": "https://stocktwits.com/news-articles/markets/equity/capr-stock-gains-ahead-of-weekend-fda-deramiocel-decision-after-rough-week/cNbSAkNR91J?.tsrc=rss",
+          "title": "How Investors May Respond To Cisco Stock After Earnings Beat",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-cisco-stock-191220194.html?.tsrc=rss",
           "date": "Fri, 20 Nov 2026",
-          "tone": "neu"
+          "tone": "pos"
         }
       ]
     }
@@ -725,10 +732,10 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV19wcmdYZXJrLXhCTERJcU52VE8zdEFwU2ZMb1Zlc1RWR05LaTk4LVN3RTBGV0w4bE5jUTdGTlczcEdBRk1ndExHQXBqRE52SUFmdmxqUUhDTUpzX2pnZ2t0WExpUERjOEZ3QlUzYjByallVVHF1TkhCMUNGdGsxYlZmdzhpRkFWOHlMMjh4MVFudkRpS3JXMzZJNWNnakUyYUoybkxxeWdtNWhqbGt0Qg?oc=5",
-      "date": "Fri, 20 Nov 2026",
-      "headline": "Arkansas joins lawsuit to block $3.5 billion veterinary supply merger - KARK",
-      "source": "Google News"
+      "link": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
+      "date": "Sat, 21 Nov 2026",
+      "headline": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+      "source": "FT"
     },
     {
       "kaeufer": "",
@@ -753,9 +760,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbnJnVUZHTFhFeVZDbWIycWdPOUtCUFFGYUNYYkpUd2FpOFNjWnF3dVJkRHFyVjlJQjBGWGpxcWVBQzhNU2hYVTM5b3JocHV3bmZSamNOUjlFYTNGRldjZzFTSVgwMXlHTFlFVmlQM0VvbWVUaEhBaGRYSlJuZVFKVk1Nblh4b1Q4WFEtMjMybnUzR0p6aDRWQmp1N29xUV9u0gGmAUFVX3lxTE9Db1ViZjR1MmFwZ0RIbERzMDM2MXBvdUFwemRnTjFhUEUwTjBEa3BRYkh1T3ZRU3NrdnVub2Q3Q3FQRzNuWFN4OHVNdFZ4RFNSUl81WjE5VUNwSkhxcEZaSzVlM202ZVNJT1g3UEhac0F2T3QtbkY4ZFlSdzBPNll3dXhKWVRJNkVtdXotQkpuaWRNdTJLa19ROGdueThTQUt6SHlvRGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV19wcmdYZXJrLXhCTERJcU52VE8zdEFwU2ZMb1Zlc1RWR05LaTk4LVN3RTBGV0w4bE5jUTdGTlczcEdBRk1ndExHQXBqRE52SUFmdmxqUUhDTUpzX2pnZ2t0WExpUERjOEZ3QlUzYjByallVVHF1TkhCMUNGdGsxYlZmdzhpRkFWOHlMMjh4MVFudkRpS3JXMzZJNWNnakUyYUoybkxxeWdtNWhqbGt0Qg?oc=5",
       "date": "Fri, 20 Nov 2026",
-      "headline": "DOJ closes investigation into $66.8 billion NextEra-Dominion merger - upi",
+      "headline": "Arkansas joins lawsuit to block $3.5 billion veterinary supply merger - KARK",
       "source": "Google News"
     },
     {
@@ -767,9 +774,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjJhbHdCdmJWWFlHZS1UTGtEN1hPVWRzTGNVaUdrV0xJdDhCMzBST3FVMk5vWGktTXNtZm43WDdSY1lJdkVnV2d6LXpuWGJyYkZma0xPbGhfWWp0blF4cTk5cUpzdnpFbHVjZTcwVGV2Vm9tQ0dkcW11NTZVNFZDaUExUkpvc2VPQkEyb0lDWmFEOEFFV0Z3eWNPNU1xRVk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbnJnVUZHTFhFeVZDbWIycWdPOUtCUFFGYUNYYkpUd2FpOFNjWnF3dVJkRHFyVjlJQjBGWGpxcWVBQzhNU2hYVTM5b3JocHV3bmZSamNOUjlFYTNGRldjZzFTSVgwMXlHTFlFVmlQM0VvbWVUaEhBaGRYSlJuZVFKVk1Nblh4b1Q4WFEtMjMybnUzR0p6aDRWQmp1N29xUV9u0gGmAUFVX3lxTE9Db1ViZjR1MmFwZ0RIbERzMDM2MXBvdUFwemRnTjFhUEUwTjBEa3BRYkh1T3ZRU3NrdnVub2Q3Q3FQRzNuWFN4OHVNdFZ4RFNSUl81WjE5VUNwSkhxcEZaSzVlM202ZVNJT1g3UEhac0F2T3QtbkY4ZFlSdzBPNll3dXhKWVRJNkVtdXotQkpuaWRNdTJLa19ROGdueThTQUt6SHlvRGc?oc=5",
       "date": "Fri, 20 Nov 2026",
-      "headline": "Arkansas Joins Federal Lawsuit to Block $3.5 Billion Veterinary Supply Merger - KVOM 101.7",
+      "headline": "DOJ closes investigation into $66.8 billion NextEra-Dominion merger - upi",
       "source": "Google News"
     }
   ]
