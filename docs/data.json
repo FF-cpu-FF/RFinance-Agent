@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:47:56.917265+00:00",
+  "generated_at": "2026-11-22T09:03:55.066446+00:00",
   "total_posts": 0,
   "unique_tickers": 0,
   "subreddits": [
@@ -27,7 +27,7 @@
   "recommendations": [],
   "stats": {
     "hit_rate": 13,
-    "n_evaluated": 345,
+    "n_evaluated": 347,
     "rate_kaufen": 64,
     "rate_verkaufen": 100,
     "rate_beobachten": 10,
@@ -35,28 +35,6 @@
     "kauf_perf_30d": 3.1
   },
   "history_evaluated": [
-    {
-      "ts": "2026-11-11T00:19:03.287872+00:00",
-      "ticker": "MSFT",
-      "rec": "beobachten",
-      "confidence": 64,
-      "engagement": 5,
-      "price": 533.16,
-      "chg_since": -9.12,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-11-11T00:19:03.287872+00:00",
-      "ticker": "GFS",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 40.62,
-      "chg_since": -12.46,
-      "correct": false,
-      "age_days": 11
-    },
     {
       "ts": "2026-11-11T08:38:54.215743+00:00",
       "ticker": "NVDA",
@@ -66,7 +44,7 @@
       "price": 168.89,
       "chg_since": -25.67,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-11T08:38:54.215743+00:00",
@@ -77,7 +55,7 @@
       "price": 515.21,
       "chg_since": -17.63,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-11T08:38:54.215743+00:00",
@@ -88,7 +66,7 @@
       "price": 533.16,
       "chg_since": -9.12,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-11T08:38:54.215743+00:00",
@@ -99,7 +77,7 @@
       "price": 40.62,
       "chg_since": -12.46,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-11T17:34:14.201728+00:00",
@@ -198,7 +176,7 @@
       "price": 173.73,
       "chg_since": -27.74,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-12T04:56:51.531406+00:00",
@@ -209,7 +187,7 @@
       "price": 521.13,
       "chg_since": -7.03,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-12T04:56:51.531406+00:00",
@@ -220,7 +198,7 @@
       "price": 42.85,
       "chg_since": -17.01,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-12T14:16:45.562176+00:00",
@@ -297,7 +275,7 @@
       "price": 173.73,
       "chg_since": -27.74,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-13T02:23:30.246481+00:00",
@@ -308,7 +286,7 @@
       "price": 552.9,
       "chg_since": -23.24,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-13T02:23:30.246481+00:00",
@@ -319,7 +297,7 @@
       "price": 521.13,
       "chg_since": -7.03,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-13T11:43:30.273643+00:00",
@@ -396,7 +374,7 @@
       "price": 162.85,
       "chg_since": -22.92,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-14T08:18:52.387687+00:00",
@@ -407,7 +385,7 @@
       "price": 534.06,
       "chg_since": -20.54,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-14T16:14:52.819040+00:00",
@@ -474,6 +452,28 @@
       "chg_since": -20.54,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-11-15T08:38:08.204005+00:00",
+      "ticker": "NVDA",
+      "rec": "verkaufen",
+      "confidence": 87,
+      "engagement": 16,
+      "price": 162.85,
+      "chg_since": -22.92,
+      "correct": true,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-15T08:38:08.204005+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 64,
+      "engagement": 7,
+      "price": 534.06,
+      "chg_since": -20.54,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
@@ -486,7 +486,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -495,7 +495,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -504,7 +504,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -513,7 +513,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -522,7 +522,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -531,7 +531,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -540,7 +540,7 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
         "text": "View image",
@@ -549,26 +549,165 @@
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
-        "text": "FBI's national crime database targeted in hack, Trump says - ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWJrcXdoaE90ekU4SU4xSHRBcHhkTnlTR1JiRjdmRFJBWndwUnRTaXljVEl2eUpXY2t0NzZQb1RpelBnNlJTY19NS1lnUUwtWkliQWRZVTJHWjQ1LUxxanFjTXVIQnE0UklSMVlSVEdEWnhvM0V6ZlVGRFR0TmY5SUJMcjFzR0drMUNDMXJoX1NzYWRs0gGaAUFVX3lxTE1WUGdrWU5nNTFKSXlNNUdpaDFFdnBLdnQ5X0dnWTBIbG02N0hnTlQzZGtSUXBrMWp6Y2s3SnNaUUwwRE9HNUxpem9SdUF0TnRXRFFoTHpBM0MwQm1vTUJhYWpVdm1mSklZMDliV29UNllndmpPT0xzSDZ2a25fc0xwaU92UHFlWHhVejNOM19XcEV0V25BVzVTeEE?oc=5",
-        "date": "Sun, 22 Nov 2026",
+        "text": "Trump defends Putin relationship and says he’ll stop US companies from building data centers abroad - CNN",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1ZlV2E5d0xOS3N5d1hyTGlHTk8tMjY3R2Y0SG91d0J6VlR4Q0htNjc2Qkw0MTZJTmNqbU5zb1FpaHN6S3RTWkt1UFpYaGYyMUg2cktPS1ltLUF6NDRJRDVNaHRCemg3ZXQ2VkRfa3Vhbzg4dmM3bW5mckJxMFN4YUh5QzRNOUw1YXQyaw?oc=5",
+        "date": "Sat, 21 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Rechenzentren"
+        ],
+        "is_new": false
+      },
+      {
+        "text": "On the Carpet of Melania Trump’s Amazon Premiere in New York - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWDkyUnZ0ei1WVWxRRkxKNlpSMVZqVzVRWE1QV2MxdlVqSjVhTGpmYk1XWV9Ub0dUZTl1VU5tZnRvT3JfU1Rma1pwNUtjY2xJQWFPUTJhVTQ1OXdYd053UzBlWjVhT19XX2owdy1ZRGVPcDBIU0tZUmRHNGVLMDV3amVFaW1LZw?oc=5",
+        "date": "Fri, 20 Nov 2026",
         "source": "News (X/Presse)",
         "companies": [
           {
-            "name": "Target",
-            "ticker": "TGT"
+            "name": "Amazon",
+            "ticker": "AMZN"
           }
         ],
         "policy": [],
-        "is_new": true
+        "is_new": false
       }
     ],
-    "market_hits": 1
+    "market_hits": 2
   },
   "spannende_aktien": [
+    {
+      "ticker": "SOXX",
+      "name": "iShares Semiconductor ETF",
+      "price": 123.4,
+      "currency": "USD",
+      "chg_1d": -10.55,
+      "vol_ratio": 2.1,
+      "warum": [
+        "This Unstoppable ETF Is Up by Double Digits in 2026. Here's Where I Think It's H",
+        "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure"
+      ],
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "This Unstoppable ETF Is Up by Double Digits in 2026. Here's Where I Think It's Headed in 2027.",
+          "link": "https://www.fool.com/investing/2026/11/20/this-unstoppable-etf-is-up-double-digits-in-2026-here-s-where-i-think-it-s-headed-in-2027/?.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-selloff-opened-ways-play-211024484.html?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "price": 343.32,
+      "currency": "USD",
+      "chg_1d": -5.09,
+      "vol_ratio": 1.7,
+      "warum": [
+        "CrowdStrike-Zscaler Merger Could Make Cybersecurity Rival ‘More Formidable’ Agai",
+        "Palo Alto Networks CEO Nikesh Arora Says Companies Haven't 'Figured Out' AI Codi"
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "CrowdStrike-Zscaler Merger Could Make Cybersecurity Rival ‘More Formidable’ Against Palo Alto Networks, Says Jefferies",
+          "link": "https://stocktwits.com/news-articles/markets/equity/crowdstrike-zscaler-merger-versus-palo-alto-networks/cNbn1VWR91Y?.tsrc=rss",
+          "date": "Sun, 22 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Palo Alto Networks CEO Nikesh Arora Says Companies Haven't 'Figured Out' AI Coding Security: 'Don't Let Your Coding Agents Run Amok Into You",
+          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-ceo-nikesh-223004375.html?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "GLD",
+      "name": "SPDR Gold Shares",
+      "price": 322.87,
+      "currency": "USD",
+      "chg_1d": -3.67,
+      "vol_ratio": 2.3,
+      "warum": [
+        "GLD, SLV Sink To Near 14-Month Lows – But This Commodities Expert Sees A ‘Relati",
+        "Ray Dalio Keeps Telling Investors to Hold Gold. Gold Just Lost 28% From Its Reco"
+      ],
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "GLD, SLV Sink To Near 14-Month Lows – But This Commodities Expert Sees A ‘Relative Bright Spot’",
+          "link": "https://stocktwits.com/news-articles/markets/equity/gld-slv-sink-to-near-14-month-lows-gold-silver-prices/cNbXzasR9LJ?.tsrc=rss",
+          "date": "Wed, 18 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "Ray Dalio Keeps Telling Investors to Hold Gold. Gold Just Lost 28% From Its Record. Here’s His Rule for a 66-Year-Old With $800,000 in an IR",
+          "link": "https://247wallst.com/investing/2026/11/14/ray-dalio-keeps-telling-investors-to-hold-gold-gold-just-lost-28-from-its-record-heres-his-rule-for-a-66-year-old-with-800000-in-an-ira-and-2800-a-month-in-social-security/?.tsrc=rss",
+          "date": "Sat, 14 Nov 2026",
+          "tone": "pos"
+        }
+      ]
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin Corporation",
+      "price": 348.29,
+      "currency": "USD",
+      "chg_1d": -8.11,
+      "vol_ratio": 0.8,
+      "warum": [
+        "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy for 2027?",
+        "A $5.2 Billion Fund Just Bought These 3 Stocks"
+      ],
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren"
+      ],
+      "news": [
+        {
+          "title": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/21/applovin-vs-reddit-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+          "date": "Sat, 21 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "A $5.2 Billion Fund Just Bought These 3 Stocks",
+          "link": "https://www.tikr.com/blog/spruce-house-applovin-gxo-colliers-stocks?ref=yahoofinance&tlnk=yf-261120-rfh86vvf&.tsrc=rss",
+          "date": "Fri, 20 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
     {
       "ticker": "TTWO",
       "name": "Take-Two Interactive Software, Inc.",
@@ -626,20 +765,6 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3NpY1pFejdjRWswdVE3X3JrTHhCNGdvYXJUdnI2TmR4YU55eTg3Y29NSHIwWXVoX1UyNmhzVkpVNW5Zbll4QlBtTHRNV1JGNlB3d2pYblhCRk9YUF8tYXY3cDJYdjExWk9HYklYZi00YkxRNVFnYlItTVpiUWRaYTZtay1VMXNHRElqNG5KSHhwVUYxanhlM2E0Sk9LVW1qSF82YjV5dTRON2RINDRkRG40Zk9qRG5GYzJndXQxR0U?oc=5",
-      "date": "Sat, 21 Nov 2026",
-      "headline": "FTC, Multi-State Coalition Sues Portland-Based Company Over Planned $3.5 Billion Merger - The Maine Wire",
-      "source": "Google News"
-    },
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV19wcmdYZXJrLXhCTERJcU52VE8zdEFwU2ZMb1Zlc1RWR05LaTk4LVN3RTBGV0w4bE5jUTdGTlczcEdBRk1ndExHQXBqRE52SUFmdmxqUUhDTUpzX2pnZ2t0WExpUERjOEZ3QlUzYjByallVVHF1TkhCMUNGdGsxYlZmdzhpRkFWOHlMMjh4MVFudkRpS3JXMzZJNWNnakUyYUoybkxxeWdtNWhqbGt0Qg?oc=5",
       "date": "Fri, 20 Nov 2026",
       "headline": "Arkansas joins lawsuit to block $3.5 billion veterinary supply merger - KARK",
@@ -657,6 +782,20 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkRHNENCN3owQzhxeDBoSTRib2picHRTTzF1SWhUcGNtUmFlRnFKYUp2ejF5dDNmRVN3Wk40azhTQmE2SVZvdTR4SmN5Rm9YaUx6S3owaWo3TjFWd1BxNGVBQVIyV1dXc0x5Q1E3aE9uWkxBQnZsZVVjWUdBb2FEZGZLZENsSExlbUkwRnM5RTJOVktacll3azhZTFV6dGtkTEp6TEh6Yw?oc=5",
       "date": "Fri, 20 Nov 2026",
       "headline": "Newsmax sues Fox to unwind $22 billion Roku takeover - Reuters",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3NpY1pFejdjRWswdVE3X3JrTHhCNGdvYXJUdnI2TmR4YU55eTg3Y29NSHIwWXVoX1UyNmhzVkpVNW5Zbll4QlBtTHRNV1JGNlB3d2pYblhCRk9YUF8tYXY3cDJYdjExWk9HYklYZi00YkxRNVFnYlItTVpiUWRaYTZtay1VMXNHRElqNG5KSHhwVUYxanhlM2E0Sk9LVW1qSF82YjV5dTRON2RINDRkRG40Zk9qRG5GYzJndXQxR0U?oc=5",
+      "date": "Sat, 21 Nov 2026",
+      "headline": "FTC, Multi-State Coalition Sues Portland-Based Company Over Planned $3.5 Billion Merger - The Maine Wire",
       "source": "Google News"
     }
   ]
