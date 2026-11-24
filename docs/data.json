@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:37:19.599106+00:00",
+  "generated_at": "2026-11-24T14:25:06.645386+00:00",
   "total_posts": 0,
   "unique_tickers": 0,
   "subreddits": [
@@ -27,7 +27,7 @@
   "recommendations": [],
   "stats": {
     "hit_rate": 28,
-    "n_evaluated": 358,
+    "n_evaluated": 360,
     "rate_kaufen": 50,
     "rate_verkaufen": 0,
     "rate_beobachten": 28,
@@ -36,7 +36,18 @@
   },
   "history_evaluated": [
     {
-      "ts": "2026-11-11T23:51:47.296695+00:00",
+      "ts": "2026-11-12T04:56:51.531406+00:00",
+      "ticker": "MSFT",
+      "rec": "beobachten",
+      "confidence": 48,
+      "engagement": 5,
+      "price": 521.13,
+      "chg_since": -5.49,
+      "correct": false,
+      "age_days": 12
+    },
+    {
+      "ts": "2026-11-12T04:56:51.531406+00:00",
       "ticker": "GFS",
       "rec": "beobachten",
       "confidence": 61,
@@ -47,39 +58,6 @@
       "age_days": 12
     },
     {
-      "ts": "2026-11-12T04:56:51.531406+00:00",
-      "ticker": "NVDA",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 173.73,
-      "chg_since": -5.0,
-      "correct": true,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-11-12T04:56:51.531406+00:00",
-      "ticker": "MSFT",
-      "rec": "beobachten",
-      "confidence": 48,
-      "engagement": 5,
-      "price": 521.13,
-      "chg_since": -5.49,
-      "correct": false,
-      "age_days": 11
-    },
-    {
-      "ts": "2026-11-12T04:56:51.531406+00:00",
-      "ticker": "GFS",
-      "rec": "beobachten",
-      "confidence": 61,
-      "engagement": 4,
-      "price": 42.85,
-      "chg_since": -9.1,
-      "correct": false,
-      "age_days": 11
-    },
-    {
       "ts": "2026-11-12T14:16:45.562176+00:00",
       "ticker": "NVDA",
       "rec": "beobachten",
@@ -88,7 +66,7 @@
       "price": 173.73,
       "chg_since": -5.0,
       "correct": true,
-      "age_days": 11
+      "age_days": 12
     },
     {
       "ts": "2026-11-12T14:16:45.562176+00:00",
@@ -99,7 +77,7 @@
       "price": 552.9,
       "chg_since": -17.99,
       "correct": false,
-      "age_days": 11
+      "age_days": 12
     },
     {
       "ts": "2026-11-12T14:16:45.562176+00:00",
@@ -110,7 +88,7 @@
       "price": 42.85,
       "chg_since": -9.1,
       "correct": false,
-      "age_days": 11
+      "age_days": 12
     },
     {
       "ts": "2026-11-12T21:58:04.461305+00:00",
@@ -187,7 +165,7 @@
       "price": 166.19,
       "chg_since": -0.69,
       "correct": true,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-13T11:43:30.273643+00:00",
@@ -198,7 +176,7 @@
       "price": 585.3,
       "chg_since": -22.53,
       "correct": false,
-      "age_days": 10
+      "age_days": 11
     },
     {
       "ts": "2026-11-13T18:57:01.253717+00:00",
@@ -253,7 +231,7 @@
       "price": 162.85,
       "chg_since": 1.35,
       "correct": true,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-14T08:18:52.387687+00:00",
@@ -264,7 +242,7 @@
       "price": 534.06,
       "chg_since": -15.09,
       "correct": false,
-      "age_days": 9
+      "age_days": 10
     },
     {
       "ts": "2026-11-14T16:14:52.819040+00:00",
@@ -341,7 +319,7 @@
       "price": 162.85,
       "chg_since": 1.35,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-15T08:38:08.204005+00:00",
@@ -352,7 +330,7 @@
       "price": 534.06,
       "chg_since": -15.09,
       "correct": false,
-      "age_days": 8
+      "age_days": 9
     },
     {
       "ts": "2026-11-15T16:42:14.111624+00:00",
@@ -407,7 +385,7 @@
       "price": 162.85,
       "chg_since": 1.35,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-16T03:52:58.797933+00:00",
@@ -418,7 +396,7 @@
       "price": 534.06,
       "chg_since": -15.09,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-16T12:16:35.637976+00:00",
@@ -429,7 +407,7 @@
       "price": 162.85,
       "chg_since": 1.35,
       "correct": true,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-16T12:16:35.637976+00:00",
@@ -440,7 +418,7 @@
       "price": 534.06,
       "chg_since": -15.09,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-16T12:16:35.637976+00:00",
@@ -451,7 +429,7 @@
       "price": 523.88,
       "chg_since": -5.99,
       "correct": false,
-      "age_days": 7
+      "age_days": 8
     },
     {
       "ts": "2026-11-16T23:07:12.395979+00:00",
@@ -474,33 +452,64 @@
       "chg_since": -10.08,
       "correct": false,
       "age_days": 7
+    },
+    {
+      "ts": "2026-11-17T05:45:33.250961+00:00",
+      "ticker": "NVDA",
+      "rec": "verkaufen",
+      "confidence": 90,
+      "engagement": 23,
+      "price": 156.14,
+      "chg_since": 5.71,
+      "correct": false,
+      "age_days": 7
+    },
+    {
+      "ts": "2026-11-17T05:45:33.250961+00:00",
+      "ticker": "AMD",
+      "rec": "beobachten",
+      "confidence": 73,
+      "engagement": 10,
+      "price": 504.28,
+      "chg_since": -10.08,
+      "correct": false,
+      "age_days": 7
     }
   ],
   "squeeze_radar": [],
   "trump_tracker": {
     "posts": [
       {
-        "text": "EXTREME CLIMATE SCIENCE \"BITES THE DUST!\"Climate Change activists always described their Extreme Climate Science assumptions as \"settled science,\" and the scenarios of doom and destruction based on \"Climate Change\" have dominated their outlook. Well, their Climate Science has now been debunked, withdrawn, and taken down by the UN IPCC. That's right, the same organization that published these proje",
-        "url": "https://truthsocial.com/@realDonaldTrump/117667276373895254",
-        "date": "2026-11-23 18:55",
+        "text": "EXTREME CLIMATE SCIENCE “BITES THE DUST!” Climate Change activists always described their Extreme Climate Science assumptions as “settled science,” and the scenarios of doom and destruction based on “Climate Change” have dominated their outlook. Well, their Climate Science has now been debunked, withdrawn, and taken down by the UN IPCC. That’s right, the same organization that published these proj",
+        "url": "https://www.trumpstruth.org/statuses/43718",
+        "date": "Mon, 23 Nov 2026 18:55",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
       },
       {
-        "text": "Iowa is a very special place to me, a place that I won, by substantial margins, in all three Elections but, whether I won or lost, would never deter me from making a correct decision. As everyone knows, there is a Military \"clean up\" operation, without which, a very dangerous situation exists. In 2009, the Obama Administration improperly stored a vast number of explosives, and the Experts, who kno",
-        "url": "https://truthsocial.com/@realDonaldTrump/117667060434959655",
-        "date": "2026-11-23 18:00",
+        "text": "Iowa is a very special place to me, a place that I won, by substantial margins, in all three Elections but, whether I won or lost, would never deter me from making a correct decision. As everyone knows, there is a Military “clean up” operation, without which, a very dangerous situation exists. In 2009, the Obama Administration improperly stored a vast number of explosives, and the Experts, who kno",
+        "url": "https://www.trumpstruth.org/statuses/43717",
+        "date": "Mon, 23 Nov 2026 18:00",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
         "is_new": true
+      },
+      {
+        "text": "View image",
+        "url": "https://www.trumpstruth.org/statuses/43716",
+        "date": "Mon, 23 Nov 2026 16:32",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": false
       },
       {
         "text": "Congratulations to NVIDIA on having made, what I consider to be, an absolutely GREAT decision! President DONALD J. TRUMP",
-        "url": "https://truthsocial.com/@realDonaldTrump/117666313179684854",
-        "date": "2026-11-23 14:50",
+        "url": "https://www.trumpstruth.org/statuses/43715",
+        "date": "Mon, 23 Nov 2026 14:50",
         "source": "Truth Social",
         "companies": [
           {
@@ -509,12 +518,12 @@
           }
         ],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
-        "text": "The NVIDIA Board of Directors has made the correct and proper decision to return Jensen Huang to the position of CEO. The Country needs Jensen's leadership at NVIDIA in order to ensure the Success and Prosperity of not only the Company, but the American Economy. The United States Government has no reason to believe that Jensen's return to NVIDIA poses any risk to National Security. The Attorney Ge",
-        "url": "https://truthsocial.com/@realDonaldTrump/117666141823845971",
-        "date": "2026-11-23 14:07",
+        "text": "The NVIDIA Board of Directors has made the correct and proper decision to return Jensen Huang to the position of CEO. The Country needs Jensen’s leadership at NVIDIA in order to ensure the Success and Prosperity of not only the Company, but the American Economy. The United States Government has no reason to believe that Jensen’s return to NVIDIA poses any risk to National Security. The Attorney Ge",
+        "url": "https://www.trumpstruth.org/statuses/43714",
+        "date": "Mon, 23 Nov 2026 14:07",
         "source": "Truth Social",
         "companies": [
           {
@@ -523,29 +532,49 @@
           }
         ],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117665528575591688",
-        "url": "https://truthsocial.com/@realDonaldTrump/117665529427047942",
-        "date": "2026-11-23 11:31",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117665528575591688 View image Quoted Donald J. Trump View video",
+        "url": "https://www.trumpstruth.org/statuses/43712",
+        "date": "Mon, 23 Nov 2026 11:31",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
-        "is_new": true
+        "is_new": false
       },
       {
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117664020137490731",
-        "url": "https://truthsocial.com/@realDonaldTrump/117664023227213831",
-        "date": "2026-11-23 05:08",
+        "text": "View video",
+        "url": "https://www.trumpstruth.org/statuses/43713",
+        "date": "Mon, 23 Nov 2026 11:31",
         "source": "Truth Social",
         "companies": [],
         "policy": [],
+        "is_new": false
+      },
+      {
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117664020137490731 View image Quoted Donald J. Trump View video",
+        "url": "https://www.trumpstruth.org/statuses/43711",
+        "date": "Mon, 23 Nov 2026 05:08",
+        "source": "Truth Social",
+        "companies": [],
+        "policy": [],
+        "is_new": false
+      },
+      {
+        "text": "Trump hosts crypto gala as his meme coin falls below $1 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YVmxyWXZjRzQybjNMSzJYdlBydllNeEVzektWX3FiUTdmaXFWc0QtRlJmVjNzaWV1cjAtc0JWSTl4NTdfb0F6NGdqbExLRVc3MXF1Ty0yVU1aUGI3RV9mQno5RUdVME5D0gFuQVVfeXFMT2xKV0tQMHpNUThZOGUyYVpieHhBQ2JNdnU3aVdSeGtxWkJhVlEtWTgxeHkySk1yUkVCZnBFVnBBU1dWMUtSOUJaQXFjb1RBbmEydDN6NWthd0QwYThvcmx4dXdvZjdjOG9MM0JEelE?oc=5",
+        "date": "Mon, 23 Nov 2026",
+        "source": "News (X/Presse)",
+        "companies": [],
+        "policy": [
+          "🏛️ Krypto"
+        ],
         "is_new": true
       },
       {
-        "text": "Nvidia live updates: Jensen Huang reinstated as CEO; Trump says no reason to believe Huang a national security risk - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNZzVZd2YxSHB6ZXBGVWhfcXFIbkdtYnhHMk50R0xndU5JUFFuM0Vvd05fclU5Y0tWbkpxNmNxV0ZqVXV3MElRODFxTS1YMHR1bEV0dVVvZExqZ0dVellmWkpaQzJ4MEJUQ0wzd0pvVm5GWU9PeW15UVFWai1Gd2xadXV4cXdad21UZm8wUDVQdFNYZGFyUFRmR19qYm9ZNHBfRF9BckdCSXpCbmF4N1QtX2hmbFAxaVJGSWMzenRXRjlqSktuamNsLWNIWnVzZmdObTVZUWQ1S2I3WmpkZ2tLNlJ4ejVneDZCUWQyTnJxY21acUJkVUFwa1RLTm5pa1g4TGlPXw?oc=5",
+        "text": "Trump Is Said to Have Pushed to Reinstate Nvidia CEO Jensen Huang - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41T3Z1VnJLSk9LLURuSVhPYVJEdHZmUXIwQzYteGVERktDYm55NEpKNU1jMEFpbzgtTmVURzlzU2drN0Juc19HR0tCREl2MUJRWjFaTGFCd3FJWVEwNUwwalc3RktTcHVLMDVfMnZCVU9DLUZMaWZ1dnd3?oc=5",
         "date": "Mon, 23 Nov 2026",
         "source": "News (X/Presse)",
         "companies": [
@@ -556,121 +585,11 @@
         ],
         "policy": [],
         "is_new": true
-      },
-      {
-        "text": "Trump proposes 10% cap on credit card interest rates as critics warn of credit crunch - Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vSlMtZk50aEpaYnRoMnJIQlF4S1NSVHd0a1pVcTV5Mmdhems0c25vNDNlekxhTzBKa08tNU05b3pYSG4ySENiUm9jZDJaaWJjazkxcWNNRDFJaUU?oc=5",
-        "date": "Tue, 24 Nov 2026",
-        "source": "News (X/Presse)",
-        "companies": [],
-        "policy": [
-          "🏛️ Zinsen"
-        ],
-        "is_new": true
       }
     ],
     "market_hits": 4
   },
   "spannende_aktien": [
-    {
-      "ticker": "BNAI",
-      "name": "Brand Engagement Network, Inc.",
-      "price": 7.32,
-      "currency": "USD",
-      "chg_1d": 117.86,
-      "vol_ratio": 177.0,
-      "warum": [
-        "Brand Engagement Network Reports Third Quarter 2026 Results",
-        "Brand Engagement Network (NASDAQ: BNAI) Co-Founder and AI Pioneer Dr. Patrick Nu"
-      ],
-      "bedeutung": "Extreme Bewegung (+117.86%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Brand Engagement Network Reports Third Quarter 2026 Results",
-          "link": "https://finance.yahoo.com/technology/ai/articles/brand-engagement-network-reports-third-113500495.html?.tsrc=rss",
-          "date": "Mon, 23 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Brand Engagement Network (NASDAQ: BNAI) Co-Founder and AI Pioneer Dr. Patrick Nunally Invited to Speak at the Vatican on AI and the Human Sp",
-          "link": "https://finance.yahoo.com/technology/ai/articles/brand-engagement-network-nasdaq-bnai-100000673.html?.tsrc=rss",
-          "date": "Thu, 29 Oct 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "OTLY",
-      "name": "Oatly Group AB (publ)",
-      "price": 14.5,
-      "currency": "USD",
-      "chg_1d": 109.24,
-      "vol_ratio": 71.2,
-      "warum": [
-        "Verlinvest ups stake in Oatly through China Resources buy-out",
-        "Oatly Board Recommends Shareholders Not Tender Their Shares or ADSs In Verlinves"
-      ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Verlinvest ups stake in Oatly through China Resources buy-out",
-          "link": "https://www.just-drinks.com/news/verlinvest-ups-stake-in-oatly/?.tsrc=rss",
-          "date": "Mon, 23 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Oatly Board Recommends Shareholders Not Tender Their Shares or ADSs In Verlinvest’s Tender Offer",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/oatly-board-recommends-shareholders-not-111000762.html?.tsrc=rss",
-          "date": "Mon, 23 Nov 2026",
-          "tone": "neu"
-        }
-      ]
-    },
-    {
-      "ticker": "KYMR",
-      "name": "Kymera Therapeutics, Inc.",
-      "price": 150.37,
-      "currency": "USD",
-      "chg_1d": 30.4,
-      "vol_ratio": 7.7,
-      "warum": [
-        "Kymera Therapeutics Announces Pricing of Upsized $1.75 Billion Public Offering",
-        "Kymera Therapeutics Announces Proposed Public Offering"
-      ],
-      "bedeutung": "Extreme Bewegung (+30.4%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
-      "sterne": 1,
-      "risiken": [
-        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
-        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
-      ],
-      "news": [
-        {
-          "title": "Kymera Therapeutics Announces Pricing of Upsized $1.75 Billion Public Offering",
-          "link": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-announces-pricing-upsized-025000118.html?.tsrc=rss",
-          "date": "Tue, 24 Nov 2026",
-          "tone": "neu"
-        },
-        {
-          "title": "Kymera Therapeutics Announces Proposed Public Offering",
-          "link": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-announces-proposed-public-214500434.html?.tsrc=rss",
-          "date": "Mon, 23 Nov 2026",
-          "tone": "neu"
-        }
-      ]
-    },
     {
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise Company",
@@ -679,8 +598,8 @@
       "chg_1d": 17.38,
       "vol_ratio": 3.0,
       "warum": [
-        "Sunway Group Accelerates Secure and Sovereign Enterprise-wide Artificial Intelli",
-        "Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T "
+        "HPE stock declines as disappointing margin forecast outweighs upbeat guidance",
+        "Premarket movers: Nvidia slips; HPE, Semtech fall"
       ],
       "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
       "sterne": 3,
@@ -691,68 +610,149 @@
       ],
       "news": [
         {
-          "title": "Sunway Group Accelerates Secure and Sovereign Enterprise-wide Artificial Intelligence With HPE",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sunway-group-accelerates-secure-sovereign-030000590.html?.tsrc=rss",
+          "title": "HPE stock declines as disappointing margin forecast outweighs upbeat guidance",
+          "link": "https://finance.yahoo.com/markets/article/hpe-stock-declines-as-margin-outlook-disappoints-134420648.html?.tsrc=rss",
+          "date": "Tue, 24 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Premarket movers: Nvidia slips; HPE, Semtech fall",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-nvidia-slips-hpe-122424595.html?.tsrc=rss",
+          "date": "Tue, 24 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "price": 334.91,
+      "currency": "USD",
+      "chg_1d": 20.46,
+      "vol_ratio": 2.0,
+      "warum": [
+        "Own Dell Stock? Its Cash Gap Rarely Hurt It",
+        "Why Is Dell Technologies Stock Falling 5.9% Today?"
+      ],
+      "bedeutung": "Extreme Bewegung (+20.46%) ohne klare Headlines – erhöhtes Risiko eines kurzfristigen Überschießens.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich",
+        "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
+      ],
+      "news": [
+        {
+          "title": "Own Dell Stock? Its Cash Gap Rarely Hurt It",
+          "link": "https://www.trefis.com/stock/dell/articles/628265/own-dell-stock-its-cash-gap-rarely-hurt-it/2026-11-24?.tsrc=rss",
           "date": "Tue, 24 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T Market Rally: SOXS, IBRX, HPE, TSM In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/stock-market-today-nasdaq-dow-futures-rise-jensen-huang-returns-nvidia/cNbrsSNR9jM?.tsrc=rss",
+          "title": "Why Is Dell Technologies Stock Falling 5.9% Today?",
+          "link": "https://investorshub.advfn.com/market-news/article/40613/why-is-dell-technologies-stock-falling-5-9-today?.tsrc=rss",
+          "date": "Tue, 24 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "price": 378.75,
+      "currency": "USD",
+      "chg_1d": 9.49,
+      "vol_ratio": 1.7,
+      "warum": [
+        "Why Is Analog Devices Stock Falling 7.6% Today?",
+        "ADI Stock On Track To Hit 7-Month Low After Record FY26 – CEO Eyes ‘Durable Grow"
+      ],
+      "bedeutung": "Auffällige Bewegung – ob kurzfristiger Impuls oder Trendwende, bleibt abzuwarten.",
+      "sterne": 1,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
+        "Kurs bereits stark gestiegen – ungünstiger Einstiegszeitpunkt möglich"
+      ],
+      "news": [
+        {
+          "title": "Why Is Analog Devices Stock Falling 7.6% Today?",
+          "link": "https://investorshub.advfn.com/market-news/article/40625/why-is-analog-devices-stock-falling-7-6-today?.tsrc=rss",
+          "date": "Tue, 24 Nov 2026",
+          "tone": "neu"
+        },
+        {
+          "title": "ADI Stock On Track To Hit 7-Month Low After Record FY26 – CEO Eyes ‘Durable Growth’ In Coming Year",
+          "link": "https://stocktwits.com/news-articles/markets/equity/adi-stock-on-track-to-hit-7-month-low-after-record-fy-26-ceo-eyes-durable-growth-in-coming-year/cNbsJoyR9kN?.tsrc=rss",
           "date": "Tue, 24 Nov 2026",
           "tone": "pos"
         }
       ]
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 208.97,
+      "ticker": "BBY",
+      "name": "Best Buy Co., Inc.",
+      "price": 97.0,
       "currency": "USD",
-      "chg_1d": -8.92,
-      "vol_ratio": 4.6,
+      "chg_1d": -0.97,
+      "vol_ratio": 2.7,
       "warum": [
-        "CrowdStrike's $43.9 billion deal has a surprising catch",
-        "Why CrowdStrike Stock Was Down Today"
+        "Best Buy posts best sales growth in 5 years, stock jumps on raised outlook",
+        "Why Is Best Buy Stock Rising 5.1% Today?"
       ],
-      "bedeutung": "Starke Kursbewegung mit konkretem Nachrichtenkatalysator – potenziell nachhaltiger Treiber.",
-      "sterne": 3,
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 2,
       "risiken": [
         "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich",
-        "Fallender Kurs könnte weiteren Abwärtsdruck signalisieren",
         "Ungewöhnlich hohes Volumen kann auch auf Panikverkäufe hindeuten"
       ],
       "news": [
         {
-          "title": "CrowdStrike's $43.9 billion deal has a surprising catch",
-          "link": "https://www.thestreet.com/investing/crowdstrikes-43-9-billion-deal-has-a-surprising-catch?.tsrc=rss",
+          "title": "Best Buy posts best sales growth in 5 years, stock jumps on raised outlook",
+          "link": "https://finance.yahoo.com/markets/article/best-buy-posts-best-sales-growth-in-5-years-stock-jumps-on-raised-outlook-120414240.html?.tsrc=rss",
+          "date": "Mon, 23 Nov 2026",
+          "tone": "pos"
+        },
+        {
+          "title": "Why Is Best Buy Stock Rising 5.1% Today?",
+          "link": "https://investorshub.advfn.com/market-news/article/40631/why-is-best-buy-stock-rising-5-1-today?.tsrc=rss",
+          "date": "Tue, 24 Nov 2026",
+          "tone": "neu"
+        }
+      ]
+    },
+    {
+      "ticker": "INSM",
+      "name": "Insmed Incorporated",
+      "price": 149.09,
+      "currency": "USD",
+      "chg_1d": 5.49,
+      "vol_ratio": 1.1,
+      "warum": [
+        "Insmed Snags A Whopping Price Tag As Sanofi Confirms Rumored Buyout",
+        "Sanofi Agrees to $41 Billion Insmed Deal. Why Its a Win Win for Both Stocks."
+      ],
+      "bedeutung": "Konkretes Unternehmensereignis – Nachhaltigkeit hängt von den Details ab.",
+      "sterne": 3,
+      "risiken": [
+        "Hohe Volatilität nach starker Bewegung – Rücksetzer wahrscheinlich"
+      ],
+      "news": [
+        {
+          "title": "Insmed Snags A Whopping Price Tag As Sanofi Confirms Rumored Buyout",
+          "link": "https://finance.yahoo.com/m/512db97e-0e42-388a-871d-acdb3ea67146/insmed-snags-a-whopping-price.html?.tsrc=rss",
           "date": "Tue, 24 Nov 2026",
           "tone": "neu"
         },
         {
-          "title": "Why CrowdStrike Stock Was Down Today",
-          "link": "https://www.fool.com/investing/2026/11/23/why-crowdstrike-stock-was-down-today/?.tsrc=rss",
-          "date": "Mon, 23 Nov 2026",
+          "title": "Sanofi Agrees to $41 Billion Insmed Deal. Why Its a Win Win for Both Stocks.",
+          "link": "https://finance.yahoo.com/m/7a952b43-9d5d-34d0-a5f6-868bdeb1ee28/sanofi-agrees-to-%2441-billion.html?.tsrc=rss",
+          "date": "Tue, 24 Nov 2026",
           "tone": "neu"
         }
       ]
     }
   ],
   "ma_deals": [
-    {
-      "kaeufer": "",
-      "ziel": "",
-      "groesse": "k.A.",
-      "branche": "",
-      "warum": [],
-      "synergien": [],
-      "risiken": [],
-      "einordnung": "",
-      "link": "https://www.ft.com/content/a216892d-190c-41dd-8473-03643a8c5350?syn-25a6b1a6=1",
-      "date": "Mon, 23 Nov 2026",
-      "headline": "Boost for £1bn Acorn carbon capture scheme as new developer buys stake",
-      "source": "FT"
-    },
     {
       "kaeufer": "",
       "ziel": "",
@@ -776,9 +776,9 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQUtyejJXSXAzOURXOTFrdkNpSEM2VVVHWmJqSThDQl9seGtQVm42akR5bWlUSThQWGE0cFFhNl92US03d1ZCVUtOTGJZdDMyYXhyMHFYa1FkRFNsTmx4Z29Vc2VabE44UVN3OW9WY3AzQlNSYkowYktzaHBkcHJzaF90VTVLVWtLTVl0eUFCOGxrc3BwYlNQUzlJNHNzajVORzlCbGNsOFZHRVIzSXNsYzZhbk1jTkU?oc=5",
-      "date": "Mon, 23 Nov 2026",
-      "headline": "AustralianSuper to support Brookfield’s $2.53 billion takeover of Reliance Worldwide - 1470 & 100.3 WMBD",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoN1ZUbmlibDRsTjNKT3RjZjMyR2xEUjZpdTBYa3dZOWQ3RFBuSHJ3TVYtZUpGbmxxUVVOWlRYbFJZeUpOM3dDS0lia3BkaG9TR2VUZ1lrX244TWlUT3BwNTRWS0xSVHc?oc=5",
+      "date": "Tue, 24 Nov 2026",
+      "headline": "Hub Security faces possible indictment over disclosures ahead of $1.3 billion Nasdaq merger - CTech",
       "source": "Google News"
     },
     {
@@ -790,9 +790,23 @@
       "synergien": [],
       "risiken": [],
       "einordnung": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZWI4NTdtcjRtdzk5YVJYbkFXMUlwLU41QThoZDNzMlozZ0xpeUt0TGFjblNWN2cxcU80WFJpc3lwR2pZS25GVWxLYjBmVWpDdEV2QlB5RDVPMFpGREhGaWgtTWtvb0U2cXlfbGh2ZnlhSFFlRC1UMG1JLU9mMFg4VHgtbWFhNWtSRWdSazR6WWZsU1VNQlNDZ0xSY2ZqUlRPZmpGSVotc2IzYm9fYTdjTHFIUE1Dd005S2ZLOGU3TVBUd0ZBQS1NTHJsc2E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWWFFZkdqclBUTTlSOHJKLXM4b2c0ODdoOC1lUVdodDVMd1RqU3U1QUcwbkFuY29BV2dTXzdFVU9iUkRTMEVBQ1ZsQkMtNWVlMGhZYno4b20zNHN6bVpucy1kMDJmajVaQ3dXenRyYzBnU04yQ1dnMEt0VGhEWXdhWmludG4zQjdtczhSb01ZOWt0LUFVWkE3OVRn?oc=5",
       "date": "Tue, 24 Nov 2026",
-      "headline": "Cyber Monday Arrives Early on Wall Street After CrowdStrike’s Zscaler Takeover - Bloomberg.com",
+      "headline": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers - Fierce Pharma",
+      "source": "Google News"
+    },
+    {
+      "kaeufer": "",
+      "ziel": "",
+      "groesse": "k.A.",
+      "branche": "",
+      "warum": [],
+      "synergien": [],
+      "risiken": [],
+      "einordnung": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb2h1d1BrcGhNTTBzaFhXUWg2M1J0eGpZazdTaldobktoWExNWTZ4SHc5Z2k3NjJiOG9IOEtSMi14dW14Nnh3dkVoSkVoSmpmUjNNRG9feGhjMFJSWHRtdVZ3Q3JHUlI3QTFwRXN1NkpfTkE2UFdGMzczc2NoeFVHN1hUZWM1OHRzbjFKTHUtZ2txbFhVWE9NYXAzaFBjVmJON013MTk2eUxPSkNHdVBsN3hoSnNNVW85dlNLQ1hkQnJKOWMyQmFLcnJ3Q1hqTUt4TmhkQzl3OHFiUQ?oc=5",
+      "date": "Tue, 24 Nov 2026",
+      "headline": "Big Four Singapore firm WongPartnership, Allen & Gledhill Advise on $1 Billion Telco Merger - Law.com",
       "source": "Google News"
     }
   ]
